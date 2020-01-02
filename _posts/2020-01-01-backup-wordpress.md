@@ -23,7 +23,7 @@ $ mysqldump -u backup learning_perl_wordpress
 I can create a user with no password. That's insecure in general, but just about everything this user can get at is already public. I'm a big fan of multiple database users with precise permissions. I grant the minimal permissions I think *mysqldump* needs in my case:
 
 ```mysql
-% mysql -u root -p
+$ mysql -u root -p
 Enter password:...
 MariaDB [(none)]> CREATE USER 'backup'@'localhost'
 MariaDB [(none)]> GRANT SELECT, SHOW VIEW, EVENT, TRIGGER ON *.* TO 'backup'@'localhost';
