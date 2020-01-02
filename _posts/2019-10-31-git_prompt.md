@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Get this blog
+title: My bash prompt is now two lines
 tags: git bash prompt
 ---
 
