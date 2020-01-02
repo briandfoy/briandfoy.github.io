@@ -10,26 +10,26 @@ More on that in a moment though. First, I used to have a process to backup my Wo
 
 Previously, I used the `root` user with *mysqldump* even though I know that was a bad idea. It's an easy and convenient idea because the `root` user is already there. It's bad because it's the `root` user, which can do anything, but it also needs a password. In a non-interactive session, such as a cron job, you end up exposing that (or putting it in plaintext in */etc/my.conf*):
 
-```
+{% highlight text %}
 $ mysqldump -u backup -pSomePassword learning_perl_wordpress
-```
+{% endhighlight %}
 
 But I can create another user which doesn't have a password so I can run it like this:
 
-```
+{% highlight text %}
 $ mysqldump -u backup learning_perl_wordpress
-```
+{% endhighlight %}
 
 I can create a user with no password. That's insecure in general, but just about everything this user can get at is already public. I'm a big fan of multiple database users with precise permissions. I grant the minimal permissions I think *mysqldump* needs in my case:
 
-```mysql
+{% highlight text %}
 $ mysql -u root -p
 Enter password:...
 MariaDB [(none)]> CREATE USER 'backup'@'localhost'
 MariaDB [(none)]> GRANT SELECT, SHOW VIEW, EVENT, TRIGGER ON *.* TO 'backup'@'localhost';
 MariaDB [(none)]> GRANT LOCK TABLES ON *.* TO 'backup'@'localhost';
 MariaDB [(none)]> FLUSH PRIVILEGES;
-```
+{% endhighlight %}
 No big whoop.
 
 The next part is harder. I need to get this to run unattended, but I'm on ArchLinux now. There's no *cron*. The *crontab* was easy and life was good. Edit a file to add single lines, save it, then stuff happens on the schedule you specified. I didn't need to know anything about how it worked to use it. I can [install various packages](https://wiki.archlinux.org/index.php/cron) to do it.
@@ -41,30 +41,30 @@ I could easily have set up a system-level *systemd* [unit](https://www.digitaloc
 
 First, user-level units do their thing when the user is logged in, and not when they aren't. That's no good. I want it to run on its schedule regardless of my login status (although I could complicate it with a cronjob from elsewhere to log in, which I've done for some systems). But, I can setup a "linger" for my user:
 
-```bash
+{% highlight text %}
 $ sudo loginctl enable-linger username
-```
+{% endhighlight %}
 
 At least, I should be able to do that. Running it give an incorrect error message. The [issue in GitHub](https://github.com/systemd/systemd/issues/12401) lays it out, but on my up-to-date system I still have the problem:
 
-```bash
+{% highlight text %}
 $ sudo loginctl enable-linger username
 Could not enable linger: Read-only file system
-```
+{% endhighlight %}
 
 Peeking under the hood, it doesn't find the directory it wants and doesn't create it if it's missing, nor does it warn if the permissions are incorrect. Instead, I fall back on my Unix roots to make the file myself:
 
-```bash
+{% highlight text %}
 $ sudo mkdir -p /var/lib/systemd/linger
 $ sudo touch /var/lib/systemd/linger/brian
-```
+{% endhighlight %}
 
 I can check that its enabled:
 
-```bash
+{% highlight text %}
 $ loginctl show-user brian --property=Linger
 Linger=yes
-```
+{% endhighlight %}
 
 Now my units will continue to do their job even if I am not logged in.
 
@@ -76,14 +76,14 @@ However, almost everything I've found deals with setting system-level units. Tha
 
 I need to put something in *~/.config/systemd/user*, although that's a bit deep. I'll give myself a shortcut:
 
-```bash
+{% highlight text %}
 $ mkdir -p ~/.config/systemd/user
 $ ln -s !$ ~/units
-```
+{% endhighlight %}
 
 I started with a test that wouldn't do anything else complicated. A sort-of "Hello World". Here's *~/.config/systemd/user/test.service* that executes the *date* command, and appends the output to a file in my home directory, and to do this every 60 seconds:
 
-```plain
+{% highlight text %}
 [Unit]
 Description=A test
 
@@ -95,18 +95,18 @@ StandardOutput=append:/home/brian/datetest.txt
 
 [Install]
 WantedBy=default.target
-```
+{% endhighlight %}
 
 The file is there, but who cares? Not *systemd*, until you tell it to care:
 
-```bash
+{% highlight text %}
 $ systemctl --user enable test
 Created symlink /home/brian/.config/systemd/user/default.target.wants/test.service → /home/brian/.config/systemd/user/test.service.
-```
+{% endhighlight %}
 
 My new unit shows up in the list of services:
 
-```bash
+{% highlight text %}
 $ systemctl --user list-unit-files --type service
 UNIT FILE                      STATE
 dbus.service                   static
@@ -117,20 +117,20 @@ systemd-exit.service           static
 systemd-tmpfiles-clean.service static
 systemd-tmpfiles-setup.service disabled
 test.service                   enabled
-```
+{% endhighlight %}
 
 But, its status is still inactive. It's merely enabled, not running:
 
-```bash
+{% highlight text %}
 $ systemctl --user status test
 ● test.service - A test
 	 Loaded: loaded (/home/brian/.config/systemd/user/test.service; enabled; vendor preset: enabled)
 	 Active: inactive (dead)
-```
+{% endhighlight %}
 
 Just like with the system units, I need to start it. Now its doing its thing:
 
-```bash
+{% highlight text %}
 $ systemctl --user start test
 $ systemctl --user status test
 ● test.service - A test
@@ -138,11 +138,11 @@ $ systemctl --user status test
 	 Active: activating (auto-restart) since Wed 2020-01-01 18:37:03 EST; 8s ago
 	Process: 3641717 ExecStart=/usr/bin/date (code=exited, status=0/SUCCESS)
    Main PID: 3641717 (code=exited, status=0/SUCCESS)
-```
+{% endhighlight %}
 
 After this, I know that something is working. I stop and disable it:
 
-```bash
+{% highlight text %}
 $ systemctl --user stop test
 $ systemctl --user disable test
 Removed /home/brian/.config/systemd/user/default.target.wants/test.service.
@@ -159,11 +159,11 @@ Jan 01 18:43:04 m113 systemd[24670]: Stopped A test.
 Jan 01 18:43:04 m113 systemd[24670]: Started A test.
 Jan 01 18:43:04 m113 systemd[24670]: test.service: Succeeded.
 Jan 01 18:44:04 m113 systemd[24670]: test.service: Service RestartSec=1min expired, scheduling restart.
-```
+{% endhighlight %}
 
 Here's the actual unit, with the *date* command replaced by a program that does all of the hard work:
 
-```bash
+{% highlight text %}
 [Unit]
 Description=Dump the Wordpress backups
 
@@ -179,26 +179,26 @@ WantedBy=default.target
 
 The file is there, so I enable and start it:
 
-```bash
+{% highlight text %}
 $ systemctl --user enable wordpress-backup
 $ systemctl --user start wordpress-backup
 
 But, of course, I made a mistake and I changed the file. I need to pick up the changes while the service was already running. Since my file has changed, I can't stop the service (because units can have instructions on what to do then):
 
-```bash
+{% highlight text %}
 $ systemctl --user stop wordpress-backup
 Warning: The unit file, source configuration file or drop-ins of wordpress-backup.service changed on disk. Run 'systemctl --user daemon-reload' to reload units.
-```
+{% endhighlight %}
 
 So I reload everything to get my changes:
 
-```bash
+{% highlight text %}
 $ systemctl --user daemon-reload
-```
+{% endhighlight %}
 
 And finally, here's the program I run. I use *mysqldump* to get out the SQL version, but I also use the [wp](https://wp-cli.org) tool to export to an XML format. It also reads the *wp-config.php* file to get the database name.
 
-```perl
+{% highlight perl %}
 #!/usr/bin/perl
 use strict;
 use warnings;
@@ -253,4 +253,4 @@ foreach my $file ( glob( "*.sql *.xml" ) ) {
 
 system 'git', 'commit', '-a', '-m', "Backup for " . localtime;
 system 'git', 'push', 'origin', 'master';
-```
+{% endhighlight %}
