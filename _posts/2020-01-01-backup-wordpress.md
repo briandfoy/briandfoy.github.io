@@ -30,6 +30,7 @@ MariaDB [(none)]> GRANT SELECT, SHOW VIEW, EVENT, TRIGGER ON *.* TO 'backup'@'lo
 MariaDB [(none)]> GRANT LOCK TABLES ON *.* TO 'backup'@'localhost';
 MariaDB [(none)]> FLUSH PRIVILEGES;
 {% endhighlight %}
+
 No big whoop.
 
 The next part is harder. I need to get this to run unattended, but I'm on ArchLinux now. There's no *cron*. The *crontab* was easy and life was good. Edit a file to add single lines, save it, then stuff happens on the schedule you specified. I didn't need to know anything about how it worked to use it. I can [install various packages](https://wiki.archlinux.org/index.php/cron) to do it.
@@ -146,9 +147,11 @@ After this, I know that something is working. I stop and disable it:
 $ systemctl --user stop test
 $ systemctl --user disable test
 Removed /home/brian/.config/systemd/user/default.target.wants/test.service.
+{% endhighlight %}
 
 Checking the status again I see that it's not active, along with a short history:
 
+{% highlight text %}
 $ systemctl --user status test
 ● test.service - A test
 	 Loaded: loaded (/home/brian/.config/systemd/user/test.service; disabled; vendor preset: enabled)
@@ -176,12 +179,14 @@ StandardError=append:/home/brian/backups/error_log.txt
 
 [Install]
 WantedBy=default.target
+{% endhighlight %}
 
 The file is there, so I enable and start it:
 
 {% highlight text %}
 $ systemctl --user enable wordpress-backup
 $ systemctl --user start wordpress-backup
+{% endhighlight %}
 
 But, of course, I made a mistake and I changed the file. I need to pick up the changes while the service was already running. Since my file has changed, I can't stop the service (because units can have instructions on what to do then):
 
