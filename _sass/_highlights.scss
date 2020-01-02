@@ -1,16 +1,16 @@
 
 .highlight {
-  background-color: #efefef;
+  background-color: #ffffff;
   // border: 1px solid #ddd;
   // -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   // -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   // box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 0px 0 20px 0;
+  margin: 2em 0 2em 0;  // top right bottom left
   overflow: auto;
 }
 
 pre.higlight {
-  padding: 10px 0.5em;
+  padding: 0 2em;
   margin-bottom: 0px;
 }
 
