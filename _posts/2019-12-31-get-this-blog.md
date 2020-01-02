@@ -4,7 +4,9 @@ title: Get this blog
 tags: github-pages jekyll
 ---
 
-It's a new decade tomorrow for you 0-based types, so I figured I'd try a new blog setup. I've used all sorts of things, but the GitHub Jekyl stuff seems easy to setup. This is whatever I did to get what you see here.
+It's a new decade tomorrow for you 0-based types, so I figured I'd try a new blog setup. I've used all sorts of things, but the GitHub Jekyl stuff seems easy to setup. This is whatever I did to get what you see here. Mostly, I have this to remind myself what I did if I do this again.
+
+I suppose you could also fork my repository.
 
 ## Fork jekyll-now
 
