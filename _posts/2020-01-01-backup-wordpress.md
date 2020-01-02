@@ -10,13 +10,13 @@ More on that in a moment though. First, I used to have a process to backup my Wo
 
 Previously, I used the `root` user with *mysqldump* even though I know that was a bad idea. It's an easy and convenient idea because the `root` user is already there. It's bad because it's the `root` user, which can do anything, but it also needs a password. In a non-interactive session, such as a cron job, you end up exposing that (or putting it in plaintext in */etc/my.conf*):
 
-```bash
+```
 $ mysqldump -u backup -pSomePassword learning_perl_wordpress
 ```
 
 But I can create another user which doesn't have a password so I can run it like this:
 
-```bash
+```
 $ mysqldump -u backup learning_perl_wordpress
 ```
 
