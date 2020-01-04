@@ -32,3 +32,5 @@ esac
 And here's what it looks like in [iTerm2](https://iterm2.com):
 
 ![Prompt on its own line](/images/git_prompt.png)
+
+This has another benefit I hadn't anticipated. I often cut-and-paste text for my terminal. Until now, I had to then cut out the prompts because it's irrelevant to the reader and takes up space. Now, all that irrelevant stuff is on a line by itself.
