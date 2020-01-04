@@ -1,0 +1,80 @@
+#!/usr/bin/perl
+use v5.26;
+use Mojo::Base -strict, -signatures;
+use Mojo::URL;
+use String::Sprintf;
+
+=encoding utf8
+
+=head1 NAME
+
+url -
+
+=head1 SYNOPSIS
+
+	$ url '%H' http://www.example.com/a/b/c
+	www.example.com
+
+	$ url '%P' http://www.example.com/a/b/c
+	/a/b/c
+
+	$ url '%P' http://www.example.com/a/b/c
+	/a/b/c
+
+=head1 DESCRIPTION
+
+Decompose the URL and reformat it according to
+
+=head2 The formats
+
+=over 4
+
+=item * C<%a> - the path,
+
+=item * C<%f> - the fragment
+
+=item * C<%h> - the hostname
+
+=item * C<%h> - the hostname in punycode
+
+=item * C<%P> - the password of the userinfo portion
+
+=item * C<%p> - the port
+
+=item * C<%q> - the query string
+
+=item * C<%s> - the scheme
+
+=item * C<%u> - the complete URL
+
+=item * C<%U> - the username of the userinfo portion
+
+=back
+
+=head1 COPYRIGHT
+
+Copyright © 2020, brian d foy, all rights reserved.
+
+=head1 LICENSE
+
+You can use this code under the terms of the Artistic License 2.
+
+=cut
+
+my( $template, @urls ) = @ARGV;
+
+my $formatter = String::Sprintf->formatter(
+	a   => sub ( $w, $v, $V, $l ) { $V->[0]->path      },
+	h   => sub ( $w, $v, $V, $l ) { $V->[0]->host      },
+	i   => sub ( $w, $v, $V, $l ) { $V->[0]->ihost     },
+	p   => sub ( $w, $v, $V, $l ) { $V->[0]->port      },
+	P   => sub ( $w, $v, $V, $l ) { $V->[0]->password  },
+	'q' => sub ( $w, $v, $V, $l ) { $V->[0]->query     },
+	's' => sub ( $w, $v, $V, $l ) { $V->[0]->protocol  },
+	U   => sub ( $w, $v, $V, $l ) { $V->[0]->username  },
+	u   => sub ( $w, $v, $V, $l ) { $V->[0]->to_string },
+	);
+
+foreach my $url ( @urls ) {
+	say $formatter->sprintf( $template, Mojo::URL->new($url) );
+	}
