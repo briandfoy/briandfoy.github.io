@@ -2,6 +2,7 @@
 layout: post
 title: Backing up my WordPress blogs
 tags: wordpress systemd mysqldump wp-cli
+stopwords: Arp cli conf php usr wordpress
 ---
 
 The holidays is the time I have to fix up all the niggling system things that have been failing since last Christmas. This year involves a sad but inevitable migration from FreeBSD on [Arp Networks](https://arpnetworks.com) to ArchLinux on [Linode](https://www.linode.com) because I'd grown less fond of */usr/ports* over the past decade. And, while I'm changing, why not do something drastically different?

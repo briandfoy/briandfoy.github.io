@@ -1,0 +1,8 @@
+#!/usr/bin/env perl
+
+while( <<>> ) {
+	next unless /\Astopwords:\s/;
+	my @words = split;
+	shift @words;
+	print join "\n", @words, '';
+	}

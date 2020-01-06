@@ -2,6 +2,7 @@
 layout: post
 title: IPv4 conversion aliases
 tags: ipv4 perl bash
+stopwords: ipv PostgreSQL
 ---
 
 I made a couple of bash aliases to convert IPv4 addresses between integers and dotted decimals since I had to deal with both in a database. The [Socket](https://perldoc.perl.org/Socket.html) module that comes with Perl does most of the work:
