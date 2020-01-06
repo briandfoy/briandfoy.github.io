@@ -1,0 +1,22 @@
+---
+layout: post
+title: Watching web redirects
+tags: http perl ruby python mojolicious
+stopwords:
+---
+
+I've been working with some tricky web stuff where I need to see that everything redirects to the right addresses through multiple steps of third party tools and services. If I let the user-agents handle it, they just handle it (and that's what I prefer). If I program all the redirections myself, well, I have to program it all myself.
+
+It's not as simple as sending a HEAD request to the server to see if it gives me a Location header. Some of these services don't respond to HEAD, and some respond without a Location header.
+
+But, I can make a tiny tool that can do it for me. I call it [3xx](https://github.com/briandfoy/3xx):
+
+	$ python3.7 python/3xx http://127.0.0.1:3000/three
+	http://127.0.0.1:3000/two
+	http://127.0.0.1:3000/one
+	http://127.0.0.1:3000/none
+
+That local server is a little Mojolicious program to spit out redirects.
+
+Just for giggles, I did it in Perl, Ruby, and Python
+
