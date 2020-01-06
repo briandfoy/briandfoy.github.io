@@ -25,7 +25,7 @@ publish: tag ## Remake stuff and send it to GitHub
 .PHONY: tag
 tag: ## create the tag files
 	$(PERL) bin/tags
-	git add tag && git commit -m 'New tags' tag
+	- git add tag && git commit -m 'New tags' tag
 
 # https://developer.github.com/v3/repos/pages/
 .PHONY: status
