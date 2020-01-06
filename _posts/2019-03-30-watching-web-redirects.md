@@ -2,7 +2,7 @@
 layout: post
 title: Watching web redirects
 tags: http perl ruby python mojolicious
-stopwords:
+stopwords: Mojolicious's
 ---
 
 I've been working with some tricky web stuff where I need to see that everything redirects to the right addresses through multiple steps of third party tools and services. If I let the user-agents handle it, they just handle it (and that's what I prefer). If I program all the redirections myself, well, I have to program it all myself.
