@@ -17,7 +17,7 @@ ASPELL_BASE=.aspell.pws
 STRIP_MD:=bin/strip_md_codeblocks
 
 .PHONY: publish
-publish: tag ## Remake stuff and send it to GitHub
+publish: tag ## remake stuff and send it to GitHub
 	git status
 	git push origin master
 
