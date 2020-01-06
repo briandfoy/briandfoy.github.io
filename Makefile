@@ -42,8 +42,8 @@ spell: ## spellcheck the markdown files in _posts/
 	@ for file in _posts/*.md; do \
 		echo "====" $$file "===="; \
 		echo "personal_ws-1.1 en 0 utf-8" > $(PER_FILE_WORDLIST); \
-		$(PERL) bin/stopwords $$file >> $(PER_FILE_WORDLIST); \
-		$(STRIP_MD) $$file | $(ASPELL) --add-extra-dicts=$(PER_FILE_WORDLIST) list | sort | uniq -u; \
+		$(PERL) bin/stopwords "$$file" >> $(PER_FILE_WORDLIST); \
+		$(STRIP_MD) "$$file" | $(ASPELL) --add-extra-dicts=$(PER_FILE_WORDLIST) list | sort | uniq -u; \
 	done
 	@ rm $(PER_FILE_WORDLIST)
 
