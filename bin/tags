@@ -8,7 +8,7 @@ use File::Spec::Functions;
 my @tags =
 	grep { state %Seen; ! $Seen{$_}++ }
 	map {
-		say "File is $_";
+		#say "File is $_";
 		open my $fh, '<:utf8', $_ or warn "Could not open <$_>: $!";
 		my $in_header = 0;
 		my @tags;
@@ -17,7 +17,7 @@ my @tags =
 			$in_header = ! $in_header if /\A---$/;
 			next unless $in_header;
 			next unless /\Atags:\s*(.*)/;
-			say "Passed through: $_ -> $1";
+			#say "Passed through: $_ -> $1";
 			@tags = split /\s+/, $1;
 			last;
 			}
@@ -26,7 +26,7 @@ my @tags =
 		}
 	glob( "_posts/*.md" );
 
-say "tags are @tags";
+#say "tags are @tags";
 
 my $dir = 'tag';
 mkdir $dir unless -d $dir;
