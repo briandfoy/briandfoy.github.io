@@ -1,6 +1,6 @@
 CURL=/usr/bin/curl
 SITE_URL:=$(shell yq -r .url _config.yml)
-SITE_HOST:=$(shell v='$(SITE_URL)'; bin/url %h "$${v}")
+SITE_HOST:=$(shell v='$(SITE_URL)'; url %h "$${v}")
 GITHUB_USER=$(SITE_HOST:.github.io="")
 CPANMODULES=.cpanmodules
 
