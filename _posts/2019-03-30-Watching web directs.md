@@ -18,5 +18,5 @@ But, I can make a tiny tool that can do it for me. I call it [3xx](https://githu
 
 That local server is a little Mojolicious program to spit out redirects.
 
-Just for giggles, I did it in Perl, Ruby, and Python
+Just for giggles, I did it in Perl ([Mojolicious](https://mojolicious.org)), Ruby ([net/http](https://ruby-doc.org/stdlib-2.7.0/libdoc/net/http/rdoc/Net/HTTP.html), and Python ([requests](https://2.python-requests.org)) to see how they compare. I still like Mojolicious's design built around transactions so I can inspect the requests easily, although that wasn't part of this problem.
 
