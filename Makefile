@@ -12,6 +12,7 @@ publish: tag
 .PHONY: tag
 tag:
 	$(PERL) bin/tags
+	git add tag && git commit -m 'New tags' tag
 
 .PHONY: rebuild
 rebuild:
