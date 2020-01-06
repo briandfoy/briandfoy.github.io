@@ -1,15 +1,25 @@
 CURL=/usr/bin/curl
-SITE_URL=$(shell perl -MApp::ypath -e 'run' url .)
-GITHUB_USER=
-SITE_HOST=$(shell perl -MApp::ypath -MMojo::URL -e 'print Mojo::URL->new(run(qw(url .))->host')
+SITE_URL:=$(shell yq -r .url _config.yml)
+SITE_HOST:=$(shell v='$(SITE_URL)'; bin/url %h "$${v}")
+GITHUB_USER=$(SITE_HOST:.github.io="")
+
+.PHONY: publish
+publish: tag
+	git status
+	git push origin master
+
+.PHONY: tag
+tag:
+	$(PERL) bin/tags
 
 .PHONY: rebuild
 rebuild:
 	$(CURL) -X \
-	POST https://api.github.com/repos/$(GITHUB_USER)/$(GITHUB_REPO)/pages/builds \
+	POST https://api.github.com/repos/$(GITHUB_USER)/$(SITE_HOST)/pages/builds \
 	-H "Accept: application/vnd.github.mister-fantastic-preview+json"
 
 .PHONY: show_vars
 show_vars:
-	echo $(SITE_URL)
-	echo $(GITHUB_REPO)
+	@echo $(SITE_URL)
+	@echo $(SITE_HOST)
+	@echo $(GITHUB_USER)
