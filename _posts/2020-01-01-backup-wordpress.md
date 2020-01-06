@@ -71,7 +71,7 @@ Now my units will continue to do their job even if I am not logged in.
 
 But, I have to create the unit. I've made simple, system-level units and remember that pain. I know I have to make some files, but where do I put them? Not in the group-writable */etc/systemd/system* because I'm a normal user who's not in the `wheel` group.
 
-The ArchLinux [SystemD/User](https://wiki.archlinux.org/index.php/Systemd/User) has godo instructions
+The ArchLinux [SystemD/User](https://wiki.archlinux.org/index.php/Systemd/User) has good instructions.
 
 However, almost everything I've found deals with setting system-level units. That makes me nervous in the same way that putting my user tasks in a root *crontab* would. The ArchLinux [SystemD/User](https://wiki.archlinux.org/index.php/Systemd/User) is pretty good.
 

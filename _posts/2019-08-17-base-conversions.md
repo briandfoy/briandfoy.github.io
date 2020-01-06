@@ -34,7 +34,7 @@ $ d2b 137
 
 I've had these forever and first posted them on a [use.perl.org journal in 2008](https://use-perl.github.io/user/brian_d_foy/journal/36287/) (the binary ones were a comment from another user). I mention them in my classes and people want a place to copy them, so here they are again. The [aliases tag](/tag/aliases) has more of these.
 
-At various times I've tried to get rid of the `perl`, but I haven't found another tool (that's not another programming langauge) that can easily handle all the bases and easily take arguments. You might like to read:
+At various times I've tried to get rid of the `perl`, but I haven't found another tool (that's not another programming language) that can easily handle all the bases and easily take arguments. You might like to read:
 
 * [Binary to hexadecimal and decimal in a shell script](https://unix.stackexchange.com/q/65280/12567)
 * [BASH base conversion from decimal to hex](https://unix.stackexchange.com/q/191205/12567)

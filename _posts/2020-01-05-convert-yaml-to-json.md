@@ -4,7 +4,7 @@ title: Converting YAML to JSON
 tags: json yaml jq yq aliases cpan
 ---
 
-I had this old program I called [ypath](https://metacpan.org/module/App::ypath) where I thought I'd do XPath sorts of things with YAML. This is an idea from 10 years ago, long before [jq](https://stedolan.github.io/jq/) showed up. Last week I had a need for something like that again and started to update my *yapth*. But, I don't really want to build or support another tool. It's been a long time, so I looked around:
+I had this old program I called [ypath](https://metacpan.org/module/App::ypath) where I thought I'd do XPath sorts of things with YAML. This is an idea from 10 years ago, long before [jq](https://stedolan.github.io/jq/) showed up. Last week I had a need for something like that again and started to update my *ypath*. But, I don't really want to build or support another tool. It's been a long time, so I looked around:
 
 ## yq (Go)
 
