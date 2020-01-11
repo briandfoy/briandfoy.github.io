@@ -15,7 +15,7 @@ air$ sudo apt-get install openssh-server
 air$ sudo systemctl enable ssh
 air$ sudo systemctl start ssh
 air$ sudo systemctl status ssh
-{% end highlight %}
+{% endhighlight %}
 
 Now I can ssh into the machine as `air.local`. I set up SSH keys and so
 on. But, I don't see it advertised. That's something under the purview of
@@ -24,7 +24,7 @@ service during a session:
 
 {% highlight text %}
 air$ sudo avahi-publish -s `hostname` _ssh._tcp 22 "SSH Remote Terminal"
-{% end highlight %}
+{% endhighlight %}
 
 And I can see it when I run [dns-sd](http://www.dns-sd.org) on my macOS machine.
 Start *dns-sd* first because it will sit there to watch the network for
@@ -40,14 +40,14 @@ Timestamp     A/R    Flags  if Domain  Service Type  Instance Name
 15:07:21.757  Add        2   5 local.  _ssh._tcp.     macbookpro
 15:07:22.293  Add        2   5 local.  _ssh._tcp.     macpro
 15:07:22.543  Add        2   5 local.  _ssh._tcp.     air
-{% end highlight %}
+{% endhighlight %}
 
 To make it persistent, I can copy an example service from the *examples*
 to the live *services* directory:
 
 {% highlight text %}
 air$ sudo cp /usr/share/doc/avahi-daemon/examples/ssh.service /etc/avahi/services/.
-{% end highlight %}
+{% endhighlight %}
 
 Once all that is setup, I make an entry in *~/.ssh/config* on any remote
 machine where I want to start. I don't want to type the entire `air.local`
@@ -59,4 +59,4 @@ Host air
 Hostname air.local
 User brian
 IdentityFile /Users/brian/.ssh/id_rsa
-{% end highlight %}
+{% endhighlight %}
