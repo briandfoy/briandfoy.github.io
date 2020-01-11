@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Rescuing my MacBook Air by Installing Ubuntu
-tags: pine email
-stopwords: ubuntu my-macbook-air
+tags: ubuntu my-macbook-air
+stopwords:
 ---
 
 ![Ubuntu on a MacBook Air](/images/ubuntu-on-air.jpg)

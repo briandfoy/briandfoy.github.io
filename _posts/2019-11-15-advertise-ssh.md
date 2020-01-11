@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Advertising SSH on Ubuntu
-tags: pine email
-stopwords: ubuntu my-macbook-air
+tags: ubuntu my-macbook-air
+stopwords:
 ---
 
 Up until today, I've only used my Ubuntu MacBook Air. My home network
