@@ -2,7 +2,6 @@
 layout: post
 title: Rescuing my MacBook Air by Installing Ubuntu
 tags: ubuntu my-macbook-air
-stopwords:
 ---
 
 ![Ubuntu on a MacBook Air](/images/ubuntu-on-air.jpg)
@@ -26,14 +25,11 @@ Linux was configuring Slackware in the 1990s, when I had to write down
 hardware specs on the hard-drive to give to the installer. If that
 worked, you spent days downloading the basic stuff you needed to get a
 workable system. You'd think "I'm going to devote all this week's
-attention to installing Linux". You lucky kids with your ["Hey Alexa,
-set me up a
-t1.micro"](https://aws.amazon.com/blogs/database/manage-databases-
+attention to installing Linux". You lucky kids with your ["Hey Alexa, set me up a t1.micro"](https://aws.amazon.com/blogs/database/manage-databases-
 through-custom-skills-with-amazon-alexa-and-aws-systems-manager/)!
 
 I didn't pick Ubuntu for any particular reason
-other than finding [David Xie's
-instructions](https://davidxie.net/install-ubuntu-on-macbook-air):
+other than finding [David Xie's instructions](https://davidxie.net/install-ubuntu-on-macbook-air):
 
 * Download [rEFInd](http://www.rodsbooks.com/refind/) (Extensible Firmware Interface)
 * Download a Ubuntu release and put it on a bootable thumb drive
