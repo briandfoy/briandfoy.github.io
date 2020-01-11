@@ -19,7 +19,7 @@ air$ sudo systemctl status ssh
 
 Now I can ssh into the machine as `air.local`. I set up SSH keys and so
 on. But, I don't see it advertised. That's something under the purview of
-[avahi](). That's not an easy thing to casually use. I can publish the
+[avahi](https://www.avahi.org). That's not an easy thing to casually use. I can publish the
 service during a session:
 
 {% highlight text %}
