@@ -27,14 +27,15 @@ GitHub Pages and Jekyll only use Rouge for syntax highlighting now,
 so I didn't use the fenceposting markup (triple backtick, or ```` ``` ````).
 
 * [Syntax Highlighting in Jekyll](http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html)
-* [list of supported languages](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
-)
+* [list of supported languages](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers)
 
 ## Finding build errors
 
 GitHub will note that there's a problem building your site. Look in *Settings > Options* and scroll down to the GitHub Pages part.
 
 That's too much work though, so I added a target in my _Makefile_. It uses the GitHub API to get the latest build info and extract the error message. There's also a simpler status target to simply output the status.
+
+I've already installed Jekyll locally [following the instructions from GitHub](https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll). When I don't get a good message from `make error`, I run `make localserver` and Jekyll gives me better errors.
 
 ## Forcing a rebuild
 
@@ -43,3 +44,7 @@ Pushing to GitHub builds the site, but there might be an error. The information 
 ## Spellchecking
 
 I use *aspell*. There's a personal word list in _.aspell.rws_ (and apparently that _.rws_ extension is important). Before I pass off the text to *aspell*, I strip out the code blocks.
+
+## Markdown linting
+
+I use the [mdl program from Markdown Lint](https://github.com/markdownlint/markdownlint) with a configuration file in *.mdlrc*. I do a little preprocessing to take out the code blocks that *mdl* doesn't understand.

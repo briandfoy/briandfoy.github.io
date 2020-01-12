@@ -38,6 +38,7 @@ status: ## show the GitHub Pages build status
 	@ $(CURL) $(GITHUB_API_BASE) | jq -r .status
 
 # https://developer.github.com/v3/repos/pages/
+# also think about the localserver target
 .PHONY: error
 error: ## show the error from the last build
 	@ $(CURL) $(GITHUB_API_BASE)/builds/latest | jq -r .error.message
@@ -48,7 +49,6 @@ lint: ## check the markdown
 		echo "====" $$file "===="; \
 		$(STRIP_MD) "$$file" | $(MDL); \
 	done
-
 
 .PHONY: spell
 spell: ## spellcheck the markdown files in _posts/
@@ -71,6 +71,11 @@ rebuild: ## tell GitHub to rebuild the site
 setup: ## setup the tools (try to install what you need)
 	cat $(CPANMODULES) | xargs cpan
 	pip install yq
+
+# https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
+.PHONY: localserver
+localserver: ## run jekyll locally
+	bundle exec jekyll serve
 
 .PHONY: show_vars
 show_vars: ## show some variables, useful for debugging
