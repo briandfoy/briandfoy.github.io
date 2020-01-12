@@ -125,7 +125,7 @@ Table 7: First derivative table, showing the change over three consecutive month
     D    8,000     8,000     8,000     96,000
     E    2,000     2,000     2,000     24,000
     F        0         0         0          0
-{% highlight text %}
+{% end highlight %}
 
 Compare the utility of Table 7 to Table 6 for decision making. In Table 6, topics A and D look like they are the fastest growing, when in reality topic A grew more than either of them and continues to have a faster rate of change over the next year. The percentages have the least information, doing away with the absolute change and the absolute total size. If I'd bet my money on A because it looked as if it was growing fastest by percentages, at the end of the year I would have missed the top by 55,000, over a fifth of the absolute total for B.
 
