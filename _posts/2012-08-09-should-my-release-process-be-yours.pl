@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Should my Perl release process be yours?
-tags: opinion tools
+tags: opinion tools rescued-content
 ---
 
 *I originally wrote this on blogs.perl.org as [Should my Perl release process be yours?](http://blogs.perl.org/users/brian_d_foy/2012/08/should-my-perl-release-process-be-yours.html)*
