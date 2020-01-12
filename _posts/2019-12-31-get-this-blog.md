@@ -26,6 +26,12 @@ I hacked in tags support by following these instructions:
 
 * [Shopify cheat sheet](https://cheat.markdunkley.com)
 
+### Shortcodes
+
+GitHub pages doesn't use any plugins that I may specify. I can generate the site locally and push to the `gh-pages` branch, but I haven't done that yet.
+
+* [https://jekyllrb.com/docs/plugins/installation/]
+
 ## Syntax highlighting
 
 GitHub Pages and Jekyll only use Rouge for syntax highlighting now,
