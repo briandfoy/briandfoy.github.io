@@ -2,6 +2,7 @@
 layout: post
 title: Advertising SSH on Ubuntu
 tags: ubuntu my-macbook-air
+stopwords: dns sd
 ---
 
 Up until today, I've only used my Ubuntu MacBook Air. My home network

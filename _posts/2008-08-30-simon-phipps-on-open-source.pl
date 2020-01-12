@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simon Phipps on Floss Weekly
-tags: open-source
+tags: rescued-content open-source
 ---
 
 For [FLOSS Weekly 39](https://twit.tv/shows/floss-weekly/episodes/39), Leo Laporte and Randal Schwartz interviewed Simon Phipps, the Chief Open Source Officer at Sun. It's not the normal open source religion, and a much better view than I've heard for the "Open Source" people.

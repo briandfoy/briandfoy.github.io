@@ -20,7 +20,7 @@ First, Dave does quite a bit of work to make new Perl programmers. He
 teaches accessible and cheap classes in London (and anywhere that will
 have him). I don't work in UK, so I can't speak to the particular
 things he sees. I teach all over the US, write the books, and
-occasionally step into companies to un-screw up whatever they have
+occasionally step into companies to unscrew up whatever they have
 going on. Here's what I've learned in 20 years of doing this, but, as
 I said, just the highlights.
 
@@ -36,7 +36,7 @@ including...
 
 **Your architecture matters more than the language** It's much
 harder to figure out how all the pieces fit together than it is to use
-some Perl in a method. [Avar said as much in the reddit
+some Perl in a method. [Ævar Arnfjörð Bjarmason said as much in the reddit
 thread](http://www.reddit.com/r/perl/comments/2p6tqd/perl_recruitment_thoughts/cmu68op). But, you didn't design what you have and the documentation
 is a mess, even though you provide a wiki that no one updates.
 Everything accreted over years from a succession of programmers who
@@ -71,7 +71,7 @@ because they have a three year exit plan that involves a buy out,
 so...
 
 **You don't pay enough** Well, you don't for the level of
-pre-packaged skills you want to parachute into your mess. Even then,
+prepackaged skills you want to parachute into your mess. Even then,
 you kill them with the death of a thousand cuts. You start by saying
 you want them to work on a test suite and within a month they are
 fighting fires like the rest of the burnt out crew. Your daily agile

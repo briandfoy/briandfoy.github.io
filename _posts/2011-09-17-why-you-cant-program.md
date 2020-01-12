@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why novice programmers can't program
-tags: programmers draft
+tags: rescued-content programmers draft
 draft: true
 ---
 
