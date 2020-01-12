@@ -11,10 +11,12 @@ It's not as simple as sending a HEAD request to the server to see if it gives me
 
 But, I can make a tiny tool that can do it for me. I call it [3xx](https://github.com/briandfoy/3xx):
 
-	$ python3.7 python/3xx http://127.0.0.1:3000/three
-	http://127.0.0.1:3000/two
-	http://127.0.0.1:3000/one
-	http://127.0.0.1:3000/none
+{% highlight text %}
+$ python3.7 python/3xx http://127.0.0.1:3000/three
+http://127.0.0.1:3000/two
+http://127.0.0.1:3000/one
+http://127.0.0.1:3000/none
+{% endhighlight %}
 
 That local server is a little Mojolicious program to spit out redirects.
 
