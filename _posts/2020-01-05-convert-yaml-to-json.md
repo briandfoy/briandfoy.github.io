@@ -52,6 +52,7 @@ liner, and I even have an alias:
 
 {% highlight text %}
 alias yaml2json='perl -MYAML -MMojo::JSON=encode_json -E "binmode STDOUT, q(:raw); say encode_json( YAML::LoadFile(shift) )"'
+{% endhighlight %}
 
 Now I use a pipeline:
 

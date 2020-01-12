@@ -215,7 +215,7 @@ Table 7: First derivative table, showing the change over three consecutive month
     D    8,000     8,000     8,000     96,000
     E    2,000     2,000     2,000     24,000
     F        0         0         0          0
-{% end highlight %}
+{% endhighlight %}
 
 Compare the utility of Table 7 to Table 6 for decision making. In
 Table 6, topics A and D look like they are the fastest growing, when
