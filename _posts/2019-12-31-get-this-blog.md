@@ -19,15 +19,14 @@ I had to edit the *_config.yml* file to make GitHub recognize everything, but th
 
 I hacked in tags support by following these instructions:
 
-* [https://longqian.me/2017/02/09/github-jekyll-tag/]
+* [Jekyll tags](https://longqian.me/2017/02/09/github-jekyll-tag/)
 
 ## Syntax highlighting
 
 GitHub Pages and Jekyll only use Rouge for syntax highlighting now,
 so I didn't use the fenceposting markup (triple backtick, or ```` ``` ````).
 
-* [http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html]
-
+* [Syntax Highlighting in Jekyll](http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html)
 * [list of supported languages](https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 )
 
