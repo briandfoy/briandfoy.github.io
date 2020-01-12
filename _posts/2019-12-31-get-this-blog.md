@@ -21,6 +21,11 @@ I hacked in tags support by following these instructions:
 
 * [Jekyll tags](https://longqian.me/2017/02/09/github-jekyll-tag/)
 
+
+## Liquid syntax
+
+* [Shopify cheat sheet](https://cheat.markdunkley.com)
+
 ## Syntax highlighting
 
 GitHub Pages and Jekyll only use Rouge for syntax highlighting now,
@@ -53,3 +58,4 @@ I use the [mdl program from Markdown Lint](https://github.com/markdownlint/markd
 
 * [On Starting Over with Jekyll](https://bdewilde.github.io/blog/2014/08/10/on-starting-over-with-jekyll/)
 * [Developing with Jekyll for Beginners](https://journal.highlandsolutions.com/developing-with-jekyll-for-beginners-f29f3f3f93e3)
+* [How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole](http://joshualande.com/jekyll-github-pages-poole)
