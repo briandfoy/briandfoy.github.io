@@ -2,7 +2,7 @@
 layout: post
 title: Get this blog
 tags: github-pages jekyll
-stopwords: github rws yml
+stopwords: github rws yml shortcodes gh localserver mdlrc
 ---
 
 It's a new decade tomorrow for you 0-based types, so I figured I'd try a new blog setup. I've used all sorts of things, but the GitHub Jekyll stuff seems easy to setup. This is whatever I did to get what you see here. Mostly, I have this to remind myself what I did if I do this again.
@@ -21,10 +21,6 @@ I hacked in tags support by following these instructions:
 
 * [Jekyll tags](https://longqian.me/2017/02/09/github-jekyll-tag/)
 
-
-## Liquid syntax
-
-* [Shopify cheat sheet](https://cheat.markdunkley.com)
 
 ### Shortcodes
 
