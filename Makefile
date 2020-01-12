@@ -39,7 +39,7 @@ localserver: preprocess ## run jekyll locally
 	bundle exec jekyll serve
 
 .PHONY: preprocess
-preprocess: tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+preprocess: archives.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 # https://longqian.me/2017/02/09/github-jekyll-tag/
 .PHONY: tag
