@@ -23,7 +23,7 @@ STRIP_MD:=bin/strip_md_codeblocks
 
 # Things relates to the posts
 POSTS:=$(wildcard _posts/*.md)
-GENERATED_PAGES:=archive.md
+GENERATED_PAGES:=archives.md
 INCLUDES:=$(wildcard _includes/*.html)
 LAYOUTS:=$(wildcard _layouts/*.html)
 STYLES:=$(wildcard _sass/*.scss)
