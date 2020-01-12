@@ -93,6 +93,8 @@ setup: ## setup the tools (try to install what you need)
 
 archives.md: bin/make_archives bin/post_years $(POSTS)
 	@ bin/post_years $(POSTS) | xargs bin/make_archives > $@
+	- git add $@
+	- git commit -m 'Update archives for the years' $@
 
 .PHONY: show_vars
 show_vars: ## show some variables, useful for debugging
