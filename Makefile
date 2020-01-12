@@ -1,3 +1,4 @@
+# These things are related to the config
 SITE_URL:=$(shell yq -r .url _config.yml)
 SITE_HOST:=$(shell v='$(SITE_URL)'; url %h "$${v}")
 GITHUB_USER:=$(SITE_HOST:.github.io=)
@@ -6,7 +7,11 @@ GITHUB_USER:=$(SITE_HOST:.github.io=)
 CURL:=/usr/bin/curl --netrc --silent
 GITHUB_API_BASE:=https://api.github.com/repos/$(GITHUB_USER)/$(SITE_HOST)/pages
 
+# These things are related to Perl
 CPANMODULES=.cpanmodules
+
+# These things are related to Markdown Lint (mdl)
+MDL:=mdl -c .mdlrc
 
 # Things related to spellchecking
 ASPELL_WORDLIST=./.aspell.rws
@@ -19,7 +24,7 @@ STRIP_MD:=bin/strip_md_codeblocks
 .PHONY: publish
 publish: tag ## remake stuff and send it to GitHub
 	git status
-	git push origin master
+	git push all master
 
 # https://longqian.me/2017/02/09/github-jekyll-tag/
 .PHONY: tag
@@ -36,6 +41,14 @@ status: ## show the GitHub Pages build status
 .PHONY: error
 error: ## show the error from the last build
 	@ $(CURL) $(GITHUB_API_BASE)/builds/latest | jq -r .error.message
+
+.PHONY: lint
+lint: ## check the markdown
+	@ for file in _posts/*.md; do \
+		echo "====" $$file "===="; \
+		$(STRIP_MD) "$$file" | $(MDL); \
+	done
+
 
 .PHONY: spell
 spell: ## spellcheck the markdown files in _posts/
