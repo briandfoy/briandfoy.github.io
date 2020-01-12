@@ -48,3 +48,8 @@ I use *aspell*. There's a personal word list in _.aspell.rws_ (and apparently th
 ## Markdown linting
 
 I use the [mdl program from Markdown Lint](https://github.com/markdownlint/markdownlint) with a configuration file in *.mdlrc*. I do a little preprocessing to take out the code blocks that *mdl* doesn't understand.
+
+## Further reading
+
+* [On Starting Over with Jekyll](https://bdewilde.github.io/blog/2014/08/10/on-starting-over-with-jekyll/)
+* [Developing with Jekyll for Beginners](https://journal.highlandsolutions.com/developing-with-jekyll-for-beginners-f29f3f3f93e3)
