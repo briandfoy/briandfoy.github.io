@@ -21,8 +21,12 @@ ASPELL:=aspell --add-extra-dicts=$(ASPELL_WORDLIST) --encoding=utf-8
 ASPELL_BASE=.aspell.pws
 STRIP_MD:=bin/strip_md_codeblocks
 
+# Things relates to the posts
+POSTS:=$(wildcard _posts/*.md)
+GENERATED_PAGES:=archive.md
+
 .PHONY: publish
-publish: tag ## remake stuff and send it to GitHub
+publish: tag $(GENERATED_PAGES) ## remake stuff and send it to GitHub
 	git status
 	git push all master
 
@@ -77,12 +81,16 @@ setup: ## setup the tools (try to install what you need)
 localserver: ## run jekyll locally
 	bundle exec jekyll serve
 
+archive.md: bin/make_archives bin/post_years $(POSTS)
+	bin/post_years $(POSTS) | xargs bin/make_archives > $@
+
 .PHONY: show_vars
 show_vars: ## show some variables, useful for debugging
 	@echo "SITE_URL    " $(SITE_URL)
 	@echo "SITE HOST   " $(SITE_HOST)
 	@echo "GITHUB_USER " $(GITHUB_USER)
 	@echo "PER_FILE_WORDLIST " $(PER_FILE_WORDLIST)
+	@echo "Posts " $(POSTS)
 
 ######################################################################
 # https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html

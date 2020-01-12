@@ -1,0 +1,11 @@
+#!/usr/local/bin/ruby
+
+hash = Hash.new
+hash.default = 0
+
+for arg in ARGV
+	year = File::basename(arg).split('-')[0]
+	hash[ year.to_sym ] += 1
+end
+
+puts hash.keys.sort.reverse
