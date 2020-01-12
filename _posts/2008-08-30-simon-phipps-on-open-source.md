@@ -12,17 +12,16 @@ and a much better view than I've heard for the "Open Source" people.
 The entire hour long interview is excellent, but this was my favorite
 part:
 
-
 **Simon Phipps (@0:14:08)**: What characterizes open source is, open
-source is the syncronization of the self interest of many parties. And
-to create an environment where people are willing to synchronize their
-self interest and collaborate over code, there has to be transparency.
-On the other hand, in open source, you know, Randal, I don't care what
-your motivations are for being involved in Perl. They're of no
-relevance to my life because our relationship around Perl depends on
-code and the code and the community are transparent, but your
-motivations for participating in it are opaque. It's up to me. They're
-private to me.
+source is the synchronization of the self interest of many parties.
+And to create an environment where people are willing to synchronize
+their self interest and collaborate over code, there has to be
+transparency. On the other hand, in open source, you know, Randal, I
+don't care what your motivations are for being involved in Perl.
+They're of no relevance to my life because our relationship around
+Perl depends on code and the code and the community are transparent,
+but your motivations for participating in it are opaque. It's up to
+me. They're private to me.
 
 **Leo Laporte**: They're also irrelevant because of transparency, the
 codes speaks for itself.
@@ -37,7 +36,6 @@ is, in my opinion, what characterizes open source. Trying to define
 open source in terms of licenses in kinda outmoded in my view. Open
 source is about transparency at the community level but also about
 privacy in terms of my motivations.
-
 
 Simon also said quoted:
 

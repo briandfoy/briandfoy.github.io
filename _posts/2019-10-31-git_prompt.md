@@ -25,8 +25,8 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 # only do this for interactive sessions
 case "$-" in *i*)
-	source ~/.git_prompt.sh
-	PS1="$Red\u$Blue@$Red\h$Green \W$Reset \$(__git_ps1 ' (%s)')$Blue[\!]\n\$ $Reset"
+    source ~/.git_prompt.sh
+    PS1="$Red\u$Blue@$Red\h$Green \W$Reset \$(__git_ps1 ' (%s)')$Blue[\!]\n\$ $Reset"
 esac
 {% endhighlight %}
 

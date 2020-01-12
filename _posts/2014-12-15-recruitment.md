@@ -6,7 +6,7 @@ tags: rescued-content opinion
 
 *I originally wrote this on blogs.perl.org [My Perl recruitment thoughts](http://blogs.perl.org/users/brian_d_foy/2014/12/my-perl-recruitment-thoughts.html)*
 
--------
+---
 
 Dave Cross posted his [Perl
 Recruitment Thoughts](http://perlhacks.com/2014/12/perl-recruitment-thoughts/), which led to the same tired responses we see
@@ -24,7 +24,7 @@ occasionally step into companies to unscrew up whatever they have
 going on. Here's what I've learned in 20 years of doing this, but, as
 I said, just the highlights.
 
-<hr>
+---
 
 **It doesn't matter what universities teach** If you think a
 university is a trade school and that the graduates are going to show
@@ -105,7 +105,7 @@ if you've set up shop where nobody is and where nobody wants to go to,
 don't expect the same response to a job opening that you'd get in San
 Francisco, New York, or London.
 
-<hr>
+---
 
 In short, the language doesn't matter. There's much more going on in
 the job market and the employment opportunities that people like to

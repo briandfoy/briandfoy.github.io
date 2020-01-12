@@ -46,5 +46,4 @@ experience to become a master.
 
 ## You don't know how things work
 
-
-##
+## Third thing
