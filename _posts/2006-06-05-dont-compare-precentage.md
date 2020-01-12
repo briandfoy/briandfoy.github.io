@@ -2,6 +2,7 @@
 layout: post
 title: Don't compare percentages
 tags: general-idiocy rescued-content math
+stopwords: APPL MSFT sigzero tiobe's O'Reilly's Binstock
 ---
 
 
@@ -111,9 +112,9 @@ It's the same decline. Although B has over six times the absolute numbers it did
 
 The relative numbers are based on the total absolute number, and the problem comes in when I compare the percentages from month to month since the total absolute number changes. Percentages remove information to make things easier to see, but they aren't there to be compared to percentages from another measurement. If the total number stays the same, the trend in percentages might have meaning, but if I don't report the total size, the percentages don't enough information for me to compare them across measurements.
 
-If I used this analysis to figure out which books to publish, I'd miss the biggest and fastest growing market. If I used them to decide which city to do business in, I'd miss the one with the most customers and the one that's adding the most customers. Analysts used to like to use this sort of thing to show why Apple Computer was a poor bet since it only had a miniscule percentage of the market, but that was clearly wrong. If I'd bought APPL 3 years ago at $11, I would have gained over 400% in value, compared to MSFT, selling at $26, losing 14% in the same time period. It's because relative numbers aren't the important ones.
+If I used this analysis to figure out which books to publish, I'd miss the biggest and fastest growing market. If I used them to decide which city to do business in, I'd miss the one with the most customers and the one that's adding the most customers. Analysts used to like to use this sort of thing to show why Apple Computer was a poor bet since it only had a minuscule percentage of the market, but that was clearly wrong. If I'd bought APPL 3 years ago at $11, I would have gained over 400% in value, compared to MSFT, selling at $26, losing 14% in the same time period. It's because relative numbers aren't the important ones.
 
-So how do I do it then? I want to see how things are growing and what I should pay attention to. I could plot the absolute numbers, but a first-derivative plot makes it easier to see the real change. Like percentages, it removes the total number, but it leaves in the information about the direction and magnitude of the change. That's the number I really want to compare. The first derivative is simply the change in the number over the time period. It's a bit of calculus, although I won't take it to an infinitesmal time slice.
+So how do I do it then? I want to see how things are growing and what I should pay attention to. I could plot the absolute numbers, but a first-derivative plot makes it easier to see the real change. Like percentages, it removes the total number, but it leaves in the information about the direction and magnitude of the change. That's the number I really want to compare. The first derivative is simply the change in the number over the time period. It's a bit of calculus, although I won't take it to an infinitesimal time slice.
 
 {% highlight text %}
 Table 7: First derivative table, showing the change over three consecutive months, and one year later.
