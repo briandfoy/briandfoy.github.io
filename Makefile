@@ -24,11 +24,22 @@ STRIP_MD:=bin/strip_md_codeblocks
 # Things relates to the posts
 POSTS:=$(wildcard _posts/*.md)
 GENERATED_PAGES:=archive.md
+INCLUDES:=$(wildcard _includes/*.html)
+LAYOUTS:=$(wildcard _layouts/*.html)
+STYLES:=$(wildcard _sass/*.scss)
 
 .PHONY: publish
-publish: tag $(GENERATED_PAGES) ## remake stuff and send it to GitHub
+publish: preprocess ## remake stuff and send it to GitHub
 	git status
 	git push all master
+
+# https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
+.PHONY: localserver
+localserver: preprocess ## run jekyll locally
+	bundle exec jekyll serve
+
+.PHONY: preprocess
+preprocess: tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 # https://longqian.me/2017/02/09/github-jekyll-tag/
 .PHONY: tag
@@ -71,17 +82,16 @@ rebuild: ## tell GitHub to rebuild the site
 	$(GITHUB_API_BASE)/builds \
 	-H "Accept: application/vnd.github.mister-fantastic-preview+json"
 
+# XXX needs the ruby / jekyll installation
+# XXX install mdl
 .PHONY: setup
 setup: ## setup the tools (try to install what you need)
 	cat $(CPANMODULES) | xargs cpan
 	pip install yq
+	sudo gem install bundler
+	bundle install
 
-# https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
-.PHONY: localserver
-localserver: ## run jekyll locally
-	bundle exec jekyll serve
-
-archive.md: bin/make_archives bin/post_years $(POSTS)
+archives.md: bin/make_archives bin/post_years $(POSTS)
 	bin/post_years $(POSTS) | xargs bin/make_archives > $@
 
 .PHONY: show_vars
