@@ -22,11 +22,23 @@ ASPELL_BASE=.aspell.pws
 STRIP_MD:=bin/strip_md_codeblocks
 
 # Things relates to the posts
+DRAFTS_DIR:=_drafts
 POSTS:=$(wildcard _posts/*.md)
 GENERATED_PAGES:=archives.md
 INCLUDES:=$(wildcard _includes/*.html)
 LAYOUTS:=$(wildcard _layouts/*.html)
 STYLES:=$(wildcard _sass/*.scss)
+
+EDITOR=bbedit
+
+.PHONY: new
+new: ## create a new draft an open it in an editor
+	@ bin/new_article; \
+	  LATEST_FILE=`ls -1Art $(DRAFTS_DIR) | tail -n 1`;\
+	  echo "Latest file " $$LATEST_FILE;\
+	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
+	  git add $(DRAFTS_DIR)/$$LATEST_FILE;\
+	  git commit -m "Initial article creation" $(DRAFTS_DIR)/$$LATEST_FILE;
 
 .PHONY: publish
 publish: preprocess ## remake stuff and send it to GitHub
