@@ -1,0 +1,41 @@
+#!/usr/local/bin/ruby
+
+require 'erb'
+require 'readline'
+require 'pathname'
+
+def input(prompt = "", default = "" )
+  answer = Readline.readline(prompt, true).squeeze(" ").strip
+  answer.length > 0 ? answer : default
+end
+
+def slugify( title )
+  title.downcase!
+  title.gsub( /\s+/, "-")
+end
+
+template = ERB.new( <<~HERE )
+	---
+	layout: post
+	title: <%= title %>
+	tags:
+	stopwords:
+	---
+
+	The article goes here
+
+	HERE
+
+title = input( "title? ", "Change this title" )
+result = template.result()
+
+base_path = Pathname.new( "_drafts" )
+filename = "%4d-%02d-%02d-%s.md" % [
+	Time.now.year,
+	Time.now.month,
+	Time.now.day,
+	slugify(title)
+	]
+
+path = base_path + filename
+File.open( path, "w" ) { |fh| fh.write(result) }
