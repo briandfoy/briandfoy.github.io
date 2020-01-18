@@ -48,7 +48,8 @@ publish: preprocess ## remake stuff and send it to GitHub
 # https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
 .PHONY: localserver
 localserver: preprocess ## run jekyll locally
-	bundle exec jekyll serve
+	bundle exec jekyll serve --drafts
+	open -a 'Safari' http://127.0.0.1:4000/
 
 .PHONY: preprocess
 preprocess: archives.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
