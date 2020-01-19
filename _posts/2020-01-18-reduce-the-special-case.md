@@ -22,22 +22,22 @@ my $tx = $ua->get( $ARGV[0] );
 my @links = extract_links( $tx );
 
 while( my $this = shift @links ) {
-	say "Processing $this";
+    say "Processing $this";
 
-	my $tx = $ua->get( $this );
-	push @links, extract_links( $tx );
+    my $tx = $ua->get( $this );
+    push @links, extract_links( $tx );
 
     ...; # do something interesting
-	}
+    }
 
 sub extract_links ( $tx ) {
-	my @links = $tx->result
-		->dom
-		->find( 'a' )
-		->map( attr => 'href' )
-		->grep( sub { Mojo::URL->new($_)->scheme =~ /https?/ } )
-		->each;
-	}
+    my @links = $tx->result
+        ->dom
+        ->find( 'a' )
+        ->map( attr => 'href' )
+        ->grep( sub { Mojo::URL->new($_)->scheme =~ /https?/ } )
+        ->each;
+    }
 {% endhighlight %}
 
 But, I know there are extra steps in that code. Not only are there extra steps, but the extra steps at the beginning might not be the same as those inside. Repeated code leads to divergent code.
@@ -52,13 +52,13 @@ use Mojo::UserAgent;
 my $ua = Mojo::UserAgent->new;
 my @links = $ARGV[0];
 while( my $this = shift @links ) {
-	say "Processing $this";
+    say "Processing $this";
 
-	my $tx = $ua->get( $this );
-	push @links, extract_links( $tx );
+    my $tx = $ua->get( $this );
+    push @links, extract_links( $tx );
 
     ...; # do something interesting
-	}
+    }
 
 {% endhighlight %}
 
@@ -75,13 +75,13 @@ use Mojo::UserAgent;
 
 my $ua = Mojo::UserAgent->new;
 while( my $this = shift @ARGV ) {
-	say "Processing $this";
+    say "Processing $this";
 
-	my $tx = $ua->get( $this );
-	push @ARGV, extract_links( $tx );
+    my $tx = $ua->get( $this );
+    push @ARGV, extract_links( $tx );
 
     ...; # do something interesting
-	}
+    }
 
 {% endhighlight %}
 
