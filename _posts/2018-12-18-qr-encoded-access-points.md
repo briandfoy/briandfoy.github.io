@@ -2,7 +2,7 @@
 layout: post
 title: QR-encoded Access Points
 tags: qr-code wifi ruby ubuntu
-stopwords: QR
+stopwords: QR ZXing qrencode qrencoder auth png th
 ---
 
 I give my visitors the password for my guest WiFi, usually by writing
@@ -18,14 +18,14 @@ an iPhone? I hope you aren't expecting any messages. Well, [Android users](https
 can go into their network settings and scan the code or whatever they do.
 
 There are websites that will do this for you, but the Ruby [qrencoder](https://rubygems.org/gems/qrencoder/versions/1.4.1)
-gem provides the a *qrencoder* program
+gem provides the *qrencoder* program
 
 {% highlight text %}
 $ sudo apt-get install qrencode libqrencode-dev ruby ruby-dev
 $ sudo brew install qrencoder
 {% endhighlight %}
 
-Give *qrencode* the [ZXing-style auth string](https://github.com/zxing/zxing/wiki/Barcode-Contents#wifi-network-config-android):
+Give *qrencode* the [ZXing-style WiFi auth string](https://github.com/zxing/zxing/wiki/Barcode-Contents#wifi-network-config-android):
 
 {% highlight text %}
 $ qrencode -o wifi.png "WIFI:T:WPA;S:SomeSSID;P:NotThePassword;;"
