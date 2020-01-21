@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gitifying BBEdit Backups
-tags: git bbedit gitx gist
+tags: bbedit gist git gitx
 stopwords: Gitifying gitx
 ---
 
