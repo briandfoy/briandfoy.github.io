@@ -1,9 +1,10 @@
 ---
 layout: post
 title: Compendium of macOS Command-Line Tools
-tags:
+tags: macOS command-line
 stopwords:
 ---
 
-The article goes here
+##
 
+softwareupdate -ia --include-config-data
