@@ -53,7 +53,7 @@ localstart: preprocess ## run jekyll locally
 
 .PHONY: localstop
 localstop: ## stop the local server
-	pkill -f jekyll 2>/dev/null
+	pkill -f jekyll
 
 .PHONY: localrestart
 localrestart: localstop localstart ## restart the local server
