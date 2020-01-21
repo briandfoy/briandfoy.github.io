@@ -53,7 +53,7 @@ localstart: preprocess ## run jekyll locally
 
 .PHONY: localstop
 localstop: ## stop the local server
-	pkill -f jekyll
+	pkill -f jekyll 2>/dev/null
 
 .PHONY: preprocess
 preprocess: archives.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
