@@ -11,6 +11,7 @@ GITHUB_API_BASE:=https://api.github.com/repos/$(GITHUB_USER)/$(SITE_HOST)/pages
 CPANMODULES=.cpanmodules
 
 # These things are related to Markdown Lint (mdl)
+# https://github.com/markdownlint/markdownlint
 MDL:=mdl -c .mdlrc
 
 # Things related to spellchecking
