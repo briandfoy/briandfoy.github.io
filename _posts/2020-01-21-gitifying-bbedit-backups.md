@@ -2,7 +2,7 @@
 layout: post
 title: Gitifying BBEdit Backups
 tags: git bbedit gitx gist
-stopwords:
+stopwords: Gitifying gitx
 ---
 
 [BBEdit]() has a feature to make historical backups of a file, so I
