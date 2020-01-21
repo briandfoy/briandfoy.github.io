@@ -5,5 +5,4 @@ tags:
 stopwords:
 ---
 
-The article goes here
-
+https://mkaz.blog/misc/notes-on-technical-writing/
