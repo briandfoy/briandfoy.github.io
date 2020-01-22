@@ -7,5 +7,6 @@ while( <<>> ) {
 	next if /\A\s+\S/; # indented code lines
 	s/!\[.*?\]\(.+?\)//; # images
 	s/\[.*?\]\(.+?\)//;  # links
+	s/\h+$//;
 	print;
 	}
