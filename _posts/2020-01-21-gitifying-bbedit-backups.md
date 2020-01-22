@@ -5,7 +5,7 @@ tags: bbedit gist git gitx
 stopwords: Gitifying gitx
 ---
 
-[BBEdit]() has a feature to make historical backups of a file, so I
+[BBEdit](https://www.barebones.com/products/bbedit/) has a feature to make historical backups of a file, so I
 have a *BBEdit Backups* directory in [Dropbox](https://db.tt/TOfJe58D).
 
 ![BBEdit Backups](/images/bbedit_backups.png)
