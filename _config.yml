@@ -52,6 +52,7 @@ baseurl: ""
 
 # https://jekyllrb.com/docs/pagination/
 paginate: 5
+front_page_limit: 5
 
 #
 # !! You don't need to change any of the configuration flags below !!
