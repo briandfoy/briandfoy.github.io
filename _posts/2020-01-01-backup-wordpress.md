@@ -2,7 +2,7 @@
 layout: post
 title: Backing up my WordPress blogs
 tags: wordpress systemd mysqldump wp-cli
-stopwords: Arp cli conf php usr wordpress
+stopwords: Arp cli conf php usr wordpress wp
 ---
 
 The holidays is the time I have to fix up all the niggling system

@@ -2,7 +2,10 @@
 use v5.26;
 
 while( <<>> ) {
+	next if /\A---\Z/ ... /\A---\Z/;  # YAML header
 	next if /\A\{%\s+highlight/ .. /\A\{%\s+endhighlight/;
-	next if /\A\s+\S/;
+	next if /\A\s+\S/; # indented code lines
+	s/!\[.*?\]\(.+?\)//; # images
+	s/\[.*?\]\(.+?\)//;  # links
 	print;
 	}
