@@ -18,35 +18,39 @@ without starting a daemon.
 $ sudo /usr/local/sbin/dnsmasq --no-daemon --log-queries --log-facility=~/dns.log
 {% endhighlight %}
 
+I have to configure 127.0.0.1 to be the first nameserver so the requests
+go to the local port 53 first. They pass through *dnsmasq* and onto
+the next DNS server since I don't actually resolve any addresses.
+
 I leave it open in a terminal window and hope that I remember to kill
 it later because it collects a lot of information:
 
 {% highlight text %}
-Jan 22 06:02:28 dnsmasq[9187]: started, version 2.80 cachesize 150
-Jan 22 06:02:28 dnsmasq[9187]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset auth no-DNSSEC loop-detect no-inotify dumpfile
-Jan 22 06:02:28 dnsmasq[9187]: setting --bind-interfaces option because of OS limitations
-Jan 22 06:02:28 dnsmasq[9187]: reading /etc/resolv.conf
-Jan 22 06:02:28 dnsmasq[9187]: ignoring nameserver 127.0.0.1 - local interface
-Jan 22 06:02:28 dnsmasq[9187]: using nameserver 1.1.1.1#53
-Jan 22 06:02:28 dnsmasq[9187]: bad name at /etc/hosts line 217
-Jan 22 06:02:29 dnsmasq[9187]: bad name at /etc/hosts line 50942
-Jan 22 06:02:29 dnsmasq[9187]: bad name at /etc/hosts line 52677
-Jan 22 06:02:29 dnsmasq[9187]: read /etc/hosts - 57870 addresses
-Jan 22 06:03:07 dnsmasq[9187]: query[AAAA] www.google.com from 127.0.0.1
-Jan 22 06:03:07 dnsmasq[9187]: forwarded www.google.com to 1.1.1.1
-Jan 22 06:03:07 dnsmasq[9187]: query[A] www.google.com from 127.0.0.1
-Jan 22 06:03:07 dnsmasq[9187]: forwarded www.google.com to 1.1.1.1
-Jan 22 06:03:07 dnsmasq[9187]: reply www.google.com is 2607:f8b0:4006:800::2004
-Jan 22 06:03:07 dnsmasq[9187]: reply www.google.com is 172.217.12.132
-Jan 22 06:03:07 dnsmasq[9187]: query[AAAA] iapp.org from 127.0.0.1
-Jan 22 06:03:07 dnsmasq[9187]: forwarded iapp.org to 1.1.1.1
-Jan 22 06:03:07 dnsmasq[9187]: query[A] iapp.org from 127.0.0.1
-Jan 22 06:03:07 dnsmasq[9187]: forwarded iapp.org to 1.1.1.1
-Jan 22 06:03:07 dnsmasq[9187]: reply iapp.org is NODATA-IPv6
-Jan 22 06:03:07 dnsmasq[9187]: reply iapp.org is 35.168.85.238
-Jan 22 06:03:09 dnsmasq[9187]: query[AAAA] cdn.cookielaw.org from 127.0.0.1
-Jan 22 06:03:09 dnsmasq[9187]: forwarded cdn.cookielaw.org to 1.1.1.1
-Jan 22 06:03:09 dnsmasq[9187]: query[A] cdn.cookielaw.org from 127.0.0.1
+Jun 22 06:02:28 dnsmasq[9187]: started, version 2.80 cachesize 150
+Jun 22 06:02:28 dnsmasq[9187]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP no-conntrack no-ipset auth no-DNSSEC loop-detect no-inotify dumpfile
+Jun 22 06:02:28 dnsmasq[9187]: setting --bind-interfaces option because of OS limitations
+Jun 22 06:02:28 dnsmasq[9187]: reading /etc/resolv.conf
+Jun 22 06:02:28 dnsmasq[9187]: ignoring nameserver 127.0.0.1 - local interface
+Jun 22 06:02:28 dnsmasq[9187]: using nameserver 1.1.1.1#53
+Jun 22 06:02:28 dnsmasq[9187]: bad name at /etc/hosts line 217
+Jun 22 06:02:29 dnsmasq[9187]: bad name at /etc/hosts line 50942
+Jun 22 06:02:29 dnsmasq[9187]: bad name at /etc/hosts line 52677
+Jun 22 06:02:29 dnsmasq[9187]: read /etc/hosts - 57870 addresses
+Jun 22 06:03:07 dnsmasq[9187]: query[AAAA] www.google.com from 127.0.0.1
+Jun 22 06:03:07 dnsmasq[9187]: forwarded www.google.com to 1.1.1.1
+Jun 22 06:03:07 dnsmasq[9187]: query[A] www.google.com from 127.0.0.1
+Jun 22 06:03:07 dnsmasq[9187]: forwarded www.google.com to 1.1.1.1
+Jun 22 06:03:07 dnsmasq[9187]: reply www.google.com is 2607:f8b0:4006:800::2004
+Jun 22 06:03:07 dnsmasq[9187]: reply www.google.com is 172.217.12.132
+Jun 22 06:03:07 dnsmasq[9187]: query[AAAA] iapp.org from 127.0.0.1
+Jun 22 06:03:07 dnsmasq[9187]: forwarded iapp.org to 1.1.1.1
+Jun 22 06:03:07 dnsmasq[9187]: query[A] iapp.org from 127.0.0.1
+Jun 22 06:03:07 dnsmasq[9187]: forwarded iapp.org to 1.1.1.1
+Jun 22 06:03:07 dnsmasq[9187]: reply iapp.org is NODATA-IPv6
+Jun 22 06:03:07 dnsmasq[9187]: reply iapp.org is 35.168.85.238
+Jun 22 06:03:09 dnsmasq[9187]: query[AAAA] cdn.cookielaw.org from 127.0.0.1
+Jun 22 06:03:09 dnsmasq[9187]: forwarded cdn.cookielaw.org to 1.1.1.1
+Jun 22 06:03:09 dnsmasq[9187]: query[A] cdn.cookielaw.org from 127.0.0.1
 {% endhighlight %}
 
 From there, I can collate the query lines and sort them by frequency:
