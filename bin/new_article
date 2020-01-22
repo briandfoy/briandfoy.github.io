@@ -10,8 +10,10 @@ def input(prompt = "", default = "" )
 end
 
 def slugify( title )
-  title.downcase!
-  title.gsub( /\s+/, "-")
+	title.downcase!
+	# http://mywiki.wooledge.org/BashGuide/SpecialCharacters
+	title.gsub( /[?*`'"&;\[\]()$><]/, "-")
+	title.gsub( /\s+/, "-")
 end
 
 template = ERB.new( <<~HERE )
