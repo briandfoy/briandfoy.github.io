@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Factorials and recursion
-tags:
+tags: factorial recursion
 stopwords:
 ---
 
-The article goes here
-
+https://mvanier.livejournal.com/2897.html
+http://raganwald.com/2018/09/08/practical-use-for-the-y-combinator.html
