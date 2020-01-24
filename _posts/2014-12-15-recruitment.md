@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Perl recruitment thoughts
-tags: rescued-content opinion
+tags: opinion perl rescued-content
 ---
 
 *I originally wrote this on blogs.perl.org [My Perl recruitment thoughts](http://blogs.perl.org/users/brian_d_foy/2014/12/my-perl-recruitment-thoughts.html)*
