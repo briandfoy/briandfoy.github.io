@@ -12,10 +12,10 @@ layout: default
 		  <div class="byline">
 			<p>
 			<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> - <span class="tags">
-			  {% for tag in post.tags %}
-				{% capture tag_name %}{{ tag }}{% endcapture %}
-				<a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
-			  {% endfor %}
+				{% assign tags = post.tags | sort %}
+				{% for tag in tags %}
+				<a href="/tag/{{ tag }}">{{ tag }}&nbsp;</a>
+				{% endfor %}
 			</span>
 			</p>
 		  </div>
