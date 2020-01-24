@@ -2,7 +2,7 @@
 layout: post
 title: types in perl
 tags: perl types
-stopwords:
+stopwords: PPI accelerometer allowfullscreen autoplay frameborder
 ---
 
 I'm about to start writing about a bunch of stuff that will definitely show my lack of a computer science background. Unlike many of my posts, this is your chance to correct me rather than me explain things to you.
