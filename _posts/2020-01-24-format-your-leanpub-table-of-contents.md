@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Make your LeanPub Table of Contents
+title: Format Your LeanPub Table of Contents
 tags: css-selector leanpub mojolicious mojo-web-clients
 stopwords: culted toc
 ---
