@@ -50,6 +50,13 @@ locally so I could view it in BBEdit:
 $ curl --silent https://leanpub.com/mojo_web_clients | bbedit
 {% endhighlight %}
 
+With [Mojolicious](https://www.mojolicious.org)'s *mojo* command, that's
+a little shorter:
+
+{% highlight text %}
+$ mojo get https://leanpub.com/mojo_web_clients | bbedit
+{% endhighlight %}
+
 That sucks though. Here a Mojolicious one-liner to get as close to the
 Table of Contents as I can. This CSS selector is obviously fragile, and
 would have been much shorter if they had added `id` elements. If you are telling
