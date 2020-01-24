@@ -12,7 +12,7 @@ end
 def slugify( title )
 	title.downcase!
 	# http://mywiki.wooledge.org/BashGuide/SpecialCharacters
-	title.gsub( /[?*`'"&;\[\]()$><]/, "-")
+	title.gsub( /[^a-zA-Z0-9]+/, "-")
 	title.gsub( /\s+/, "-")
 end
 
@@ -29,15 +29,21 @@ template = ERB.new( <<~HERE )
 	HERE
 
 title = input( "title? ", "Change this title" )
-result = template.result()
 
-base_path = Pathname.new( "_drafts" )
-filename = "%4d-%02d-%02d-%s.md" % [
+now = "%4d-%02d-%02d" % [
 	Time.now.year,
 	Time.now.month,
 	Time.now.day,
+	]
+date = input( "date? ", now )
+
+
+base_path = Pathname.new( "_drafts" )
+filename = "%s-%s.md" % [
+	date,
 	slugify(title)
 	]
 
+result = template.result()
 path = base_path + filename
 File.open( path, "w" ) { |fh| fh.write(result) }
