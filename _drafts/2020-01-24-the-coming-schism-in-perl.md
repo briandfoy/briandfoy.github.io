@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The coming schism in Perl
+title: The Coming Schism in Perl
 tags:
 stopwords:
 ---
