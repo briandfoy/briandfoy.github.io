@@ -6,8 +6,8 @@
 	  {% assign post_year = post.date | date: "%Y" %}
 	  {% if post_year == year %}
 		<li class="year_item">
+		  <span class="post-meta">{{ post.date | date: "%d %b" }}</span>
 		  <a class="archive_item" href="{{ post.url }}">{{ post.title }}</a>
-		  <span class="post-meta">{{ post.date | date: "%B %d" }}</span>
 		</li>
 	  {% endif %}
 	{% endfor %}
