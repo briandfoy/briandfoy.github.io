@@ -2,7 +2,7 @@
 layout: post
 title: Format Your LeanPub Table of Contents
 tags: css-selector leanpub mojolicious mojo-web-clients
-stopwords: culted toc
+stopwords: culted toc mojo
 ---
 
 A reader suggested that I add a Table of Contents to the LeanPub page
