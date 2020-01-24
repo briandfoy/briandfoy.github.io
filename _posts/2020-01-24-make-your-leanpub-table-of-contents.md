@@ -73,7 +73,8 @@ $ perl -Mojo -E 'say g(shift)->dom->at(
 
 The `toc` class might work, but I'm not confident it wouldn't be repurposed
 from something else. It's only there because I cargo-culted it from another
-book's page. I don't know if it's common for other book pages to use it:
+book's page. I don't know if it's common for other book pages to use `toc`
+so this might not work:
 
 {% highlight text %}
 $ perl -Mojo -E 'say g(shift)->dom->at( q( ul.toc )
