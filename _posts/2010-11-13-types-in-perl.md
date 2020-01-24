@@ -23,15 +23,13 @@ That provides an easy way for Haskell to compare itself to other languages. In H
 
 And now comes the bit where I try to do better and will fail.
 
-There's this big mess of terms: strong, weak, loose, static, dynamic, concrete, abstract, data, variable, and so on. I like what Richard Feynman learned about bird names from his father. Dr. Feynman says:
+There's this big mess of terms: strong, weak, loose, static, dynamic, concrete, abstract, data, variable, and so on. I like what Richard Feynman learned about bird names from his father. Dr. Feynman said:
 
 > You can know the name of a bird in all the languages of the world, but when you're finished, you'll know absolutely nothing whatever about the bird... So let's look at the bird and see what it's doing -- that's what counts. I learned very early the difference between knowing the name of something and knowing something.
 
-The video is more interesting:
+The original video link I had has disappeared, but there's another video that relates the same story:
 
-<div align="center">
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/05WS0WN7zMQ?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/05WS0WN7zMQ?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lFIYKmos3-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Types are just a kind of thing. It doesn't matter how we define that thing or how it works. The type is not the algebra. Forget about the terms, which no one can agree on (mostly), and figure out what you what to know and why you want to know it. It doesn't really matter what you call it as long as you get what you want.
 
