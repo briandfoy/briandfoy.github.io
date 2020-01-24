@@ -59,7 +59,7 @@ $ mojo get https://leanpub.com/mojo_web_clients | bbedit
 
 That sucks though. Here a Mojolicious one-liner to get as close to the
 Table of Contents as I can. This CSS selector is obviously fragile, and
-would have been much shorter if they had added `id` elements. If you are telling
+would have been much shorter if they had added `id` attributes. If you are telling
 people to extract something from HTML source, you should label it so make
 that easy:
 
