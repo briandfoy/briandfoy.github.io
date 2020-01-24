@@ -5,11 +5,11 @@ tags: dns dnsmasq domain-fronting privacy
 stopwords:
 ---
 
-Every so often I'll log DNS queries so I can discover domains I'd
-like to block: anything that's a beacon, webbug, tracker, or the like.
-When I find those domains I add them to */etc/hosts* with an non-routable address of
-0.0.0.0. Probably not kosher, but it's better than it trying localhost
-and potentially hitting a webserver I have running.
+Every so often I'll log DNS queries so I can discover domains I'd like
+to block: anything that's a beacon, webbug, tracker, or the like. When
+I find those domains I add them to */etc/hosts* with an non-routable
+address of 0.0.0.0. Probably not kosher, but it's better than it
+trying localhost and potentially hitting a webserver I have running.
 
 I installed [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/) and run it
 without starting a daemon.
@@ -18,9 +18,10 @@ without starting a daemon.
 $ sudo /usr/local/sbin/dnsmasq --no-daemon --log-queries --log-facility=~/dns.log
 {% endhighlight %}
 
-I have to configure 127.0.0.1 to be the first nameserver so the requests
-go to the local port 53 first. They pass through *dnsmasq* and onto
-the next DNS server since I don't actually resolve any addresses.
+I have to configure 127.0.0.1 to be the first nameserver so the
+requests go to the local port 53 first. The DNS requests then pass
+through *dnsmasq* and onto the next DNS server since I don't actually
+resolve any addresses.
 
 I leave it open in a terminal window and hope that I remember to kill
 it later because it collects a lot of information:
