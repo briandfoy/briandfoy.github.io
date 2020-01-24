@@ -81,5 +81,7 @@ $ perl -Mojo -E 'say g(shift)->dom->at( q( ul.toc )
 	)' https://leanpub.com/mojo_web_clients
 {% endhighlight %}
 
+Finally, the screenshot of the instructions:
+
 ![Table of Contents instructions](/images/leanpub_toc_instructions.png)
 
