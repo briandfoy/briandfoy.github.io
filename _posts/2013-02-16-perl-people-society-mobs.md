@@ -2,7 +2,7 @@
 layout: post
 title: Perl, people, society, & mobs
 tags: perl marketing opinion rescued-content
-stopwords:
+stopwords: flyer
 ---
 
 I've had in my mind a couple of ideas about Perl and its relationship to people, society, and mobs. Some parts of the Perl community like to talk about Perl marketing, and even spread the meme that "Perl sucks at marketing". I don't think that's true at all.
@@ -25,7 +25,7 @@ I might as well have no marketing experience, but I've worked with some people w
 
 Along with that, he explained to me that once you know the people you can help, you break that group down into segments based on the sort of help that you can provide them.
 
-Most of his wisdom came from the constraints of being a medium-sized business: he worked in an environment that was big enough to have job specialization and dedication of resources, but also small enough that he couldn't tolerate much waste because his resources were limited. Here, limited means less than $10 million in the budget, so not scrounging like guerilla marketing but not virtually unlimited like, say, Apple.
+Most of his wisdom came from the constraints of being a medium-sized business: he worked in an environment that was big enough to have job specialization and dedication of resources, but also small enough that he couldn't tolerate much waste because his resources were limited. Here, limited means less than $10 million in the budget, so not scrounging like guerrilla marketing but not virtually unlimited like, say, Apple.
 
 The trick is to put the people in the market into the right group. You don't want to shun someone who you might have been able to help, but you don't waste your resources on someone you can't help.
 
@@ -51,7 +51,7 @@ All of these things, and more, are clues into what sort of person the advertiser
 
 Now that you've figured out who the ad is trying to reach, what is the ad trying to get you to do? That is, in all of this, there is a particular sort of person, a particular message, and a desired behavior. The location, time, and manner of the message is specifically chosen to select the particular sort of person.
 
-Beyond that, the ad might be targetted at you but designed to affect the behavior of someone else. Is the ad aspirational, creating a brand that only a few can afford but all can recognize? Your recognition, even when you aren't a customer, might add to the value of the actual customer. The advertisement might be there just for you to know something instead of doing something.
+Beyond that, the ad might be targeted at you but designed to affect the behavior of someone else. Is the ad aspirational, creating a brand that only a few can afford but all can recognize? Your recognition, even when you aren't a customer, might add to the value of the actual customer. The advertisement might be there just for you to know something instead of doing something.
 
 ## On to Perl
 
@@ -80,7 +80,7 @@ Everybody does something for some sort of gain, whether that is monetary or not.
 
 That's not a bad thing, necessarily. Hiding or denying it, however, distorts the economics. What's good for you locally might not be good Perl globally. Are the changes that you want in Perl good for you or good for everyone? What would change in Perl if you got what you wanted?
 
-Most people want to keep getting paid to do Perl work. That is, the reason you probably care is that you have based your livlihood on it. Sure, you probably enjoy working in Perl, but you don't have to have a job in Perl to work in Perl. Maybe you're pretty far along in your career and quite the Perl expert. You have a significant investment in Perl. That's understandable. However, that's not different than any other field or endevour. When was the last time most people went to the blacksmith, cooper, or baker? Life moves on.
+Most people want to keep getting paid to do Perl work. That is, the reason you probably care is that you have based your livelihood on it. Sure, you probably enjoy working in Perl, but you don't have to have a job in Perl to work in Perl. Maybe you're pretty far along in your career and quite the Perl expert. You have a significant investment in Perl. That's understandable. However, that's not different than any other field or endeavor. When was the last time most people went to the blacksmith, cooper, or baker? Life moves on.
 
 How do you keep doing what you want to do, then? You have to convince, somehow, that the brand of Perl means something useful to other people. Those other people have to be the sort of person who can spend capital to allow you to fulfill your goal (staying employed, contributing hardware to TPF, sponsoring a conference, whatever). You want to create in people's minds the perception that Perl has much more "utility" than some other tool for certain kinds of problems, and that Perl compares more favorably than some other tool. Typically, people promoting tools aren't going to extol the virtues of other tools or the trade-offs in their preferred tool though.
 
