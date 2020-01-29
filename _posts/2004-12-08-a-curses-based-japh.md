@@ -13,6 +13,9 @@ and now I've added a video of it in action*
 <iframe src="https://player.vimeo.com/video/387975820" width="640" height="417" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/387975820">Curses-based Perl JAPH (Just another Perl hacker)</a> from <a href="https://vimeo.com/briandfoy">brian d foy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+Here's the code, with is nothing fancy and a bit verbose, which is just
+the opposite of the spirit of the ["Just another Perl hacker,"](https://en.wikipedia.org/wiki/Just_another_Perl_hacker) ethos.
+
 {% highlight perl %}
 #!/usr/bin/perl -w
 use strict;
