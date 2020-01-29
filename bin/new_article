@@ -20,8 +20,10 @@ template = ERB.new( <<~HERE )
 	---
 	layout: post
 	title: <%= title %>
+	categories:
 	tags:
 	stopwords:
+	last_modified:
 	---
 
 	The article goes here
