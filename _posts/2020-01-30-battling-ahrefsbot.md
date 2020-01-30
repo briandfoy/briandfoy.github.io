@@ -92,11 +92,12 @@ RewriteRule .* - [F,L]
 
 That went for a couple of hours, and I'll come back to this later because
 this had another problem on my side. Next, I blocked them at the
-Cloudflare level with a User-Agent based firewall rule:
+Cloudflare level with a User-Agent based firewall rule. I should have
+started with this:
 
 ![Cloudflare fireawall rule](/images/ahrefsbot-firewall-rule.png)
 
-Now none of these requests reached my server, but I could watch in it
+Now none of these requests reached my server, but I could watch in them
 the Cloudflare logs. The crawling went on for another hour or so
 before it started to back off. Then it switched IP blocks for a couple
 of checks, switched back to the original block, then switched to
