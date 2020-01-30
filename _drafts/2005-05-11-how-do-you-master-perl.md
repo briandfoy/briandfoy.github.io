@@ -1,8 +1,8 @@
 ---
 layout: post
-title: how do you master perl?
-categories:
-tags:
+title: How do you master Perl?
+categories: opinion
+tags: perl
 stopwords:
 last_modified:
 ---

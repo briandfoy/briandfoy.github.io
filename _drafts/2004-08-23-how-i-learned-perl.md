@@ -1,8 +1,8 @@
 ---
 layout: post
 title: how i learned perl
-categories:
-tags:
+categories: personal-history
+tags: perl
 stopwords:
 last_modified:
 ---

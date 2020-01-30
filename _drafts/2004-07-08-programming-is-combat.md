@@ -1,8 +1,8 @@
 ---
 layout: post
 title: programming is combat
-categories:
-tags:
+categories: opinion
+tags: rescued-content
 stopwords:
 last_modified:
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: brian's guide to answering questions
-categories:
-tags:
+categories: programming
+tags: rescued-content guide
 stopwords:
 last_modified:
 ---

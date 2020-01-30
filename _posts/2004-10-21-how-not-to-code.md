@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How not to code
-categories:
-tags: rescued-content
+categories: programming
+tags: rescued-content opinion
 stopwords:
 last_modified:
 ---

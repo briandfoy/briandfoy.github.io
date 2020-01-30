@@ -1,8 +1,8 @@
 ---
 layout: post
-title: the null mull
-categories:
-tags:
+title: The null mull
+categories: programming
+tags: design-patterns perl
 stopwords:
 last_modified:
 ---

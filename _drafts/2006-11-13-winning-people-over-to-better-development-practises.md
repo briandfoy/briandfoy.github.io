@@ -1,8 +1,8 @@
 ---
 layout: post
-title: winning people over to better development practises
-categories:
-tags:
+title: Winning people over to better development practices
+categories: opinion
+tags:  rescued-content
 stopwords:
 last_modified:
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technical Writing
-tags:
+tags: guide
 stopwords:
 ---
 

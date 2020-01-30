@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Accessors for Fixed Data
-tags:
+tags: object-orientation
+categories:
 stopwords:
 ---
 

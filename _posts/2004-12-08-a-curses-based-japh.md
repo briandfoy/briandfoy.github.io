@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a curses-based japh
-categories:
-tags: rescued-content perl japh
+title: A curses-based japh
+categories: programming
+tags: rescued-content perl japh video
 stopwords:
 last_modified:
 ---

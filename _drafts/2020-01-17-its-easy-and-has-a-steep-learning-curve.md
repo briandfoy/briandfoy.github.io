@@ -3,6 +3,7 @@ layout: post
 title: It's Easy and Has a Steep Learning Curve
 tags: english business-speak
 stopwords:
+categories:
 ---
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

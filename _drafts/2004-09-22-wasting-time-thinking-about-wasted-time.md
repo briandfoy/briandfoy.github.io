@@ -1,8 +1,8 @@
 ---
 layout: post
 title: wasting time thinking about wasted time
-categories:
-tags: rescued-content
+categories: programming
+tags: rescued-content perl
 stopwords:
 last_modified:
 ---

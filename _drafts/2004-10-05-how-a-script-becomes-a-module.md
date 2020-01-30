@@ -1,8 +1,8 @@
 ---
 layout: post
 title: how a script becomes a module
-categories:
-tags:
+categories: programming
+tags: rescued-content
 stopwords:
 last_modified:
 ---

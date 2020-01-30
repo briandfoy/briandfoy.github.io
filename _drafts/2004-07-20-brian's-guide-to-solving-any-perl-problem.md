@@ -1,8 +1,8 @@
 ---
 layout: post
 title: brian's guide to solving any perl problem
-categories:
-tags:
+categories: programming
+tags: rescued-content guide
 stopwords:
 last_modified:
 ---

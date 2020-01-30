@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "chuck norris"-ing code
+title: Chuck Norris-ing code
 categories:
-tags:
+tags: rescued-content
 stopwords:
 last_modified:
 ---
