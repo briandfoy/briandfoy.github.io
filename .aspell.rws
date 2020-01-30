@@ -3,6 +3,10 @@ src
 subnet
 punycode
 htaccess
+DHCP
+RewriteRule
+httpd
+hotspot
 cloudflare
 hostname
 api

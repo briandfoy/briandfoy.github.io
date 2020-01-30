@@ -3,7 +3,7 @@ layout: post
 title: The AV2000 passthrough powerline extender
 categories: nyc-mesh
 tags: tplink nyc-mesh
-stopwords:
+stopwords: ungeeky multilang
 last_modified:
 ---
 
@@ -36,7 +36,7 @@ electrical socket.
 
 I put one at the back of the apartment and one where Spectrum's cable
 modem use to plug in. These are on different breakers from my I connected the back one the NYC Mesh router and
-plugged in another wireless hostspot to the front one (these are not
+plugged in another wireless hotspot to the front one (these are not
 wireless extenders).
 
 Only a few devices were grumpy because they weren't getting the right

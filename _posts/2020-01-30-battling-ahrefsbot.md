@@ -3,7 +3,7 @@ layout: post
 title: Battling AhrefsBot
 categories: sysadmin
 tags: ahrefsbot bots cloudflare apache
-stopwords: ahrefs ahrefsbot IPs txt
+stopwords: ahrefs ahrefsbot IPs txt conf errordoc multilang
 last_modified:
 ---
 
