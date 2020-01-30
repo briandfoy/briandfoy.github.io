@@ -3,7 +3,7 @@ layout: post
 title: Battling AhrefsBot
 categories: sysadmin
 tags: ahrefsbot bots cloudflare apache
-stopwords:
+stopwords: ahrefs ahrefsbot IPs txt
 last_modified:
 ---
 
@@ -98,7 +98,7 @@ it figured it that I was blocking it, it stopped trying.
 
 ## It goes on
 
-Even though I'd stopped "AhrefBot", I was still getting similar traffic:
+Even though I'd stopped "AhrefsBot", I was still getting similar traffic:
 
 {% highlight text %}
 173.245.52.221 - - [30/Jan/2020:12:52:17 -0500] "GET /search/
@@ -136,7 +136,7 @@ Online Baccarat Sites 2019-03-04-13-22
 Status [] Online Casino Legal Baccarat Winning Law Hold'emba []
 {% endhighlight %}
 
-Perhaps this isn't AhrefsBot but someone just highjacking it's name.
+Perhaps this isn't AhrefsBot but someone just hijacking it's name.
 Looking at the Cloudflare logs, I see that every IP that I'm blocking
 with my User-Agent rule is a French IP address. Every one of them.
 Yep, there are two providers in France that tolerate this sort of
