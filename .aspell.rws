@@ -7,6 +7,10 @@ DHCP
 RewriteRule
 httpd
 hotspot
+Speedtest
+StackExchange
+SSL
+rollout
 cloudflare
 hostname
 api
