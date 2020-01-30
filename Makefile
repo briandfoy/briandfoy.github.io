@@ -49,7 +49,7 @@ publish: preprocess ## remake stuff and send it to GitHub
 # https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
 .PHONY: localstart ## serve the site locally
 localstart: preprocess ## run jekyll locally
-	bundle exec jekyll serve --drafts --detach --incremental
+	bundle exec jekyll serve --drafts --detach
 	open -a 'Safari' http://127.0.0.1:4000/
 
 .PHONY: localstop
