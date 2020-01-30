@@ -8,12 +8,12 @@ last_modified:
 ---
 
 I noticed that one of my sites was getting an abnormally high amount
-of traffic, but I had just added some new content. Maybe someone had
-linked to it or it got onto Hacker News. Nope. The cache was missing
-about 40% of the time on a fairly long expiry time, so nefarious
-things were afoot. [AhrefsBot](+http://ahrefs.com/robot/) was going to
-town on my server. Or, at least it was something claiming to be this
-bot. Eventually I'll put a stop to this, but first, what's up?
+of traffic, but I had just added some new content. Maybe it got onto
+Hacker News. Nope. The cache was missing about 40% of the time on a
+fairly long expiry time, so nefarious things were afoot.
+[AhrefsBot](+http://ahrefs.com/robot/) was going to town on my server.
+Or, at least it was something claiming to be this bot. Eventually I'll
+put a stop to this, but first, what's up?
 
 Here's a typical log line, which explains the cache misses:
 
@@ -48,26 +48,30 @@ a mix of Hangul and Cyrillic:
 Put that into Google Translate:
 
 {% highlight text %}
-"Chungcheongnam-do call girl" ↘Reservation ♪ business trip ☼ 〈Katok: hwp63〉. 【Птк455.сом】
-▼ SG2019-02-26-06-59 [] Motel Trip Massage ShopChungcheongnam-do ♩ Meeting ♩ ♪ [] Motel Trip [] 0dS
+"Chungcheongnam-do call girl" ↘Reservation ♪ business trip ☼
+〈Katok: hwp63〉. 【Птк455.сом】
+▼ SG2019-02-26-06-59 [] Motel Trip Massage ShopChungcheongnam-do
+♩ Meeting ♩ ♪ [] Motel Trip [] 0dS
 ┊ [] Call Girl Massage [] Chungcheongnam-do
 {% endhighlight %}
 
 [Chungcheongnam](https://en.wikipedia.org/wiki/South_Chungcheong_Province) is a province in South Korea.
 
-The Cyrillic address is curious. It looks like *.com*, but it's not the Latin
-alphabet. This is the sort of thing you do to fake someone into going to a
-site that in a different top-level domain. Punycode turns that into `http://xn--455-bedys.xn--l1adi`.
-It wasn't accepting connections.
+The Cyrillic address is curious. It looks like *.com*, but it's not
+the Latin alphabet. This is the sort of thing you do to fake someone
+into going to a site that in a different top-level domain because the
+characters look similar. Punycode turns that into
+`http://xn--455-bedys.xn--l1adi`. It wasn't accepting connections.
 
 ## Stopping the Ahrefsbot
 
 I can't block this by IP address or subnet because the IP addresses are
 all over the place. Maybe it's a bot net. There were about three requests
-every ten seconds, so not enough of an attack to shut me down.
+every ten seconds, so not enough of an attack to shut me down. It's annoying
+at best.
 
-First, I looked [at the link in the user agent](http://ahrefs.com/robot/) and it said I could stop it with an entry
-in _robots.txt_. So I made that.
+First, I looked [at the link in the user agent](http://ahrefs.com/robot/)
+and it said I could stop it with an entry in _robots.txt_. So I made that.
 
 {% highlight text %}
 User-agent: AhrefsBot
@@ -78,7 +82,7 @@ They said it could take 100 requests or an hour for them to notice. They
 did not notice. Fine.
 
 I then decided to block it at the *.htaccess* level so it would get
-a 500 response. Maybe that it would convince it that my server was
+a 403 response. Maybe that it would convince it that my server was
 worthless and to stop:
 
 {% highlight text %}
@@ -86,19 +90,23 @@ RewriteCond %{HTTP_USER_AGENT} ^.*(AhrefsBot).*$ [NC]
 RewriteRule .* - [F,L]
 {% endhighlight %}
 
-That went going for a couple of hours. Next, I blocked them at the
-Cloudflare level with a User-Agent based firewall rule.
+That went for a couple of hours, and I'll come back to this later because
+this had another problem on my side. Next, I blocked them at the
+Cloudflare level with a User-Agent based firewall rule:
 
 ![Cloudflare fireawall rule](/images/ahrefsbot-firewall-rule.png)
 
-The crawling went on for another hour or so before it started to
-back off. Then it switched IP blocks for a couple of checks, switched
-back to the original block, then switching to another, new block. Once
-it figured it that I was blocking it, it stopped trying.
+Now none of these requests reached my server, but I could watch in it
+the Cloudflare logs. The crawling went on for another hour or so
+before it started to back off. Then it switched IP blocks for a couple
+of checks, switched back to the original block, then switched to
+another, new block. Once it figured it that I was blocking it, it
+stopped trying that hard. I'd see a couple of requests an hour.
 
 ## It goes on
 
-Even though I'd stopped "AhrefsBot", I was still getting similar traffic:
+Even though I'd stopped "AhrefsBot", I was still getting similar traffic from
+other agents (mostly coming out of the Dutch provider [AS39572](https://ipinfo.io/AS39572)):
 
 {% highlight text %}
 173.245.52.221 - - [30/Jan/2020:12:52:17 -0500] "GET /search/
@@ -140,7 +148,25 @@ Perhaps this isn't AhrefsBot but someone just hijacking it's name.
 Looking at the Cloudflare logs, I see that every IP that I'm blocking
 with my User-Agent rule is a French IP address. Every one of them.
 Yep, there are two providers in France that tolerate this sort of
-nonsense. French IPs addresses claiming to be from a company located Singapore
-with offices in France and with ["roots" in the Ukraine](https://ahrefs.com/about) (a country that
-I already block outright).
+nonsense, and it was [AS16276](https://ipinfo.io/AS16276) bothering
+me. French IPs addresses claiming to be from a company located
+Singapore with offices in France and with ["roots" in the
+Ukraine](https://ahrefs.com/about) (a country that I already block
+outright).
 
+I fall back to another `RewriteRule`. Since that URL doesn't map to
+anything I have, I can do it with just the front part of the URL. This
+didn't seem to work at first. I tracked down and disabled an
+`ErrorDocument` handler *extra/httpd-multilang-errordoc.conf* to get
+the right response code sent to the client. This might be why my
+earlier rewrite didn't work, but I hadn't turned on logging then. For
+some stupid reason, sending the `ErrorDocument` version changed the
+status back to 200 (because *that* file *was* found):
+
+{% highlight text %}
+RewriteRule  ^/search/ [R=500]
+{% endhighlight %}
+
+Ten years ago this sort of thing could bring down a WordPress server
+because it would overwhelm MySQL. Now, I press a button at Cloudflare
+and it's stopped instantly.
