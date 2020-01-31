@@ -10,8 +10,7 @@ def input(prompt = "", default = "" )
 end
 
 def slugify( title )
-	slug = title
-	slug.downcase!
+	slug = title.downcase
 	# http://mywiki.wooledge.org/BashGuide/SpecialCharacters
 	slug.gsub!( /[^a-zA-Z0-9]+/, "-" )
 	slug.gsub!( /\s+/, "-" )
