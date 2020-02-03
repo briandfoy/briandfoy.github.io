@@ -8,6 +8,9 @@ RewriteRule
 httpd
 hotspot
 Speedtest
+usenet
+asker
+answerer
 StackExchange
 SSL
 rollout
