@@ -286,11 +286,3 @@ doing with all of our other objects.  Beware though:  just
 because it has all that, it isn't necessarily the right
 way to do things for whatever we are doing.
 </p>
-
-<!-- Node text goes above. Div tags should contain sig only -->
-<div class="pmsig"><div class="pmsig-366986">
--- <br />
-brian d foy <bdfoy@cpan.org>
-</div></div>
-
-<p><small>2004-11-29 Janitored by [Arunbear] - added readmore tags, as per Monastery [id://17558|guidelines]</small></p>

@@ -631,10 +631,4 @@ foreach my $elem
 	}
 </code>
 
-</readmore>
 
-<!-- Node text goes above. Div tags should contain sig only -->
-<div class="pmsig"><div class="pmsig-366986">
--- <br />
-brian d foy <bdfoy@cpan.org>
-</div></div>
