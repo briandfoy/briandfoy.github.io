@@ -5,9 +5,9 @@ categories: programming
 tags: design-patterns perl
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=410871
 ---
 
-https://www.perlmonks.org/?node_id=410871
 
 <p>
 I've been thinking about the Null design pattern recently.  People get wrapped up in UML diagrams, Gang of Four descriptions, and

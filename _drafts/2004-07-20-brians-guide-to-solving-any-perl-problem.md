@@ -5,9 +5,8 @@ categories: programming
 tags: rescued-content guide
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=376075
 ---
-
-https://www.perlmonks.org/?node_id=376075
 
 Somebody reminded me that I had this guide sitting around.  I updated s/girlfriend/wife/, and post it here so I remember where to find it.  (I should just check my web page :)
 
@@ -399,9 +398,3 @@ anything.  Verify everything.
 </dl>
 
 </readmore>
-
-<!-- Node text goes above. Div tags should contain sig only -->
-<div class="pmsig"><div class="pmsig-366986">
--- <br />
-brian d foy <bdfoy@cpan.org>
-</div></div>

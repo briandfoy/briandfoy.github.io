@@ -5,9 +5,9 @@ categories: programming
 tags: rescued-content perl
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=393128
 ---
 
-https://www.perlmonks.org/?node_id=393128
 
 ## The Problem
 

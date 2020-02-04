@@ -5,9 +5,9 @@ categories: programming
 tags: rescued-content
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=396759
 ---
 
-https://www.perlmonks.org/?node_id=396759
 
 <p>
 First, the House of Representatives proposes...  wait a minute, that's

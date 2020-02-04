@@ -5,9 +5,8 @@ categories: opinion
 tags: rescued-content
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=372693
 ---
-
-https://www.perlmonks.org/?node_id=372693
 
 I've been collecting books on business written by former members of the military.  For example, there is <i>Business is Combat</i>, written by a former F-15 pilot, and <i>It's Your Ship</i>, written by a former naval officer.  There are a few more somewhere in the stack of books on my office floor.
 <p>
@@ -51,10 +50,3 @@ For now though, my half-baked ideas:
 <dt><b>Unless someone is shooting at you...</b>
 <dd>This one is going to be a bit touchy because people are invested in their own notions of urgency.  I've pissed off more than a couple bosses by telling them that I'm not too worried because no one is shooting at me and nobody is bleeding.  When you start to tense up over a programming bug, step back and get a little perspective.  Take a deep breath and control your stress.  Unless someone is trying to kill you right then, you can probably relax a bit.
 </dl>
-
-
-<!-- Node text goes above. Div tags should contain sig only -->
-<div class="pmsig"><div class="pmsig-366986">
--- <br />
-brian d foy <bdfoy@cpan.org>
-</div></div>
