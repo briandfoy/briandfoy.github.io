@@ -5,6 +5,7 @@ categories: programming
 tags: rescued-content guide
 stopwords: dba oscon answerer asker brian's clueful reclarifying cluelack
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=602571
 ---
 
 *I originally posted this on Perlmonks as [

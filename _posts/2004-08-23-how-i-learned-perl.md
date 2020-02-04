@@ -5,6 +5,7 @@ categories: personal-history
 tags: perl perl-mongers
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=385334
 ---
 
 *I originally posted this at Perlmonks as [How I Learned Perl](https://www.perlmonks.org/?node_id=385334)*

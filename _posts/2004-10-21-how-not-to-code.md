@@ -5,6 +5,7 @@ categories: programming
 tags: rescued-content opinion
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=401293
 ---
 
 *I originally published this on Perlmonks as [How not to code](https://www.perlmonks.org/?node_id=401293)*

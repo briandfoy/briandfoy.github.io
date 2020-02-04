@@ -3,6 +3,7 @@ layout: post
 title: Who wants to be popular?
 tags: perl rescued-content opinion
 stopwords: yq jq
+original_url: https://www.reddit.com/r/perl/comments/eldoks/perl_as_top_language/fdhj6qb/
 ---
 
 *\[I originally wrote this in the /r/perl thread [Perl as top

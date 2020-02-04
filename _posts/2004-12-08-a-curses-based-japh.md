@@ -5,6 +5,7 @@ categories: programming
 tags: rescued-content perl japh video
 stopwords:
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=413324
 ---
 
 *I originally posted this on [Perlmonks](https://www.perlmonks.org/?node_id=413324),

@@ -5,10 +5,10 @@ categories:
 tags: rescued-content chuck-norris randal-schwartz stonehenge
 stopwords: Meng CPUs guo ing
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=702200
 ---
 
-https://www.perlmonks.org/?node_id=702200
-
+*I originally published this on Perlmonks as [Chuck Norris-ing code](https://www.perlmonks.org/?node_id=702200)*
 
 
 Sometimes when Randal Schwartz or I consult on Perl projects, it turns out that the client expects a magic wand because we have our names on books or speak at conferences. When we load code into an editor, that alone should magically fix things while at the same time not changing any code or any part of the process. Randal has started calling this "chuck norris"-ing the code. I don't know if he invented the phrase, but it's likely. He hasn't heard anyone use it, so I say he's the inventor.

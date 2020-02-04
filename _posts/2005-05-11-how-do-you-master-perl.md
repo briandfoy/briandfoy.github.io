@@ -5,6 +5,7 @@ categories: opinion
 tags: perl rescued-content
 stopwords: Cozen's Dominus's LWP Langworth retitling templating horked gethostbyname
 last_modified:
+original_url: https://www.perlmonks.org/?node_id=446556
 ---
 
 *I originally published this as [How do you master Perl?](https://www.perlmonks.org/?node_id=446556) on Perlmonks.*
