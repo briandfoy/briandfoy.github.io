@@ -13,7 +13,6 @@ def slugify( title )
 	slug = title.downcase
 	# http://mywiki.wooledge.org/BashGuide/SpecialCharacters
 	slug.gsub!( /[^a-zA-Z0-9]+/, "-" )
-	slug.gsub!( /\s+/, "-" )
 	return slug
 end
 
