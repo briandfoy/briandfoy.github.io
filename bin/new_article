@@ -25,6 +25,7 @@ template = ERB.new( <<~HERE )
 	tags:
 	stopwords:
 	last_modified:
+	original_url: <%= original %>
 	---
 
 	The article goes here
@@ -39,7 +40,7 @@ now = "%4d-%02d-%02d" % [
 	Time.now.day,
 	]
 date = input( "date? ", now )
-
+original = input( "Original URL? ", now )
 
 base_path = Pathname.new( "_drafts" )
 filename = "%s-%s.md" % [
