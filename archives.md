@@ -1,4 +1,4 @@
-{% assign years = "2020,2019,2018,2014,2013,2012,2011,2010,2008,2007,2006,2004" | split: "," %}
+{% assign years = "2020,2019,2018,2014,2013,2012,2011,2010,2008,2007,2006,2005,2004" | split: "," %}
 {% for year in years %}
   <h3 class="archive_year" id="archive_year_{{year}}">{{ year }}</h3>
   <ul class="year_list" id="year_list_{{year}}">
