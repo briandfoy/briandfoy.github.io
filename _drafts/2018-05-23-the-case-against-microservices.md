@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the case against microservices
+title: The case against microservices
 categories: software-architecture
 tags: microservices
 stopwords:
