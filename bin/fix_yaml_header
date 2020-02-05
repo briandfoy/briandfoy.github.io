@@ -1,0 +1,79 @@
+#!perl
+use v5.26;
+use warnings;
+
+use File::Copy qw(copy);
+use File::Temp qw(tempfile);
+
+use YAML;
+
+my @dirs = qw(_posts _drafts);
+my @files = do {
+	if( @ARGV ) { @ARGV }
+	else { map { glob "$_/*.md" } @dirs }
+	};
+
+my @headers = qw(
+	last_modified
+	original_url
+	categories
+	stopwords
+	);
+
+my %HeaderCount;
+foreach my $file ( @files ) {
+	my $last_modified = (stat $file)[9];
+
+	open my $in_fh, '<:utf8', $file;
+	my( $temp, $tempfile ) = tempfile();
+	binmode $temp, ':utf8';
+	select $temp;
+
+	# this gets use into the YAML meta data
+	while( <$in_fh> ) {
+		next unless /^---\R/;
+		last;
+		}
+
+	my $yaml_string = '';
+	while( <$in_fh> ) {
+		last if /^---\R/;
+		$yaml_string .= $_;
+		}
+
+	my $yaml = YAML::Load( $yaml_string );
+
+	foreach my $header ( keys $yaml->%* ) {
+		$HeaderCount{$header}++;
+		}
+
+	foreach my $header ( @headers ) {
+		next if exists $yaml->{$header};
+		$yaml->{$header} = undef;
+		}
+
+	{
+	no warnings qw(uninitialized);
+	$yaml->{tags}       = join ' ', sort split /\s+/, $yaml->{tags};
+	$yaml->{categories} = join ' ', sort split /\s+/, $yaml->{categories};
+	$yaml->{last_modified} //= localtime($last_modified);
+	}
+
+	my $new_yaml = YAML::Dump( $yaml ) =~ s/^\S+:\s+\K~$//rgm;
+
+	print YAML::Dump( $yaml );
+	say '---';
+
+	print while( <$in_fh> );
+	close $temp;
+
+	rename $file => "$file.bak";
+	copy $tempfile => $file;
+
+	utime $last_modified, $last_modified, $file;
+	}
+
+select STDOUT;
+foreach my $header ( sort keys %HeaderCount ) {
+	printf "%3d %s\n", $HeaderCount{$header}, $header;
+	}
