@@ -61,7 +61,7 @@ foreach my $file ( @files ) {
 
 	my $new_yaml = YAML::Dump( $yaml ) =~ s/^\S+:\s+\K~$//rgm;
 
-	print YAML::Dump( $new_yaml );
+	print $new_yaml;
 	say '---';
 
 	print while( <$in_fh> );
