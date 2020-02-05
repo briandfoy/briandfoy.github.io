@@ -7,7 +7,10 @@ stopwords: ungeeky
 last_modified:
 ---
 
-My NYC Mesh came into the back of my apartment, where I spend very
+*Although the powerline extenders worked fine, I eventually dumped
+these in favor of [NetGear Orbi Mesh](/2020-02-03-better-router-better-speed/)*.
+
+My [NYC Mesh](https://www.nycmesh.net) connection came into the back of my apartment, where I spend very
 little time. The wireless router plugs into a cable hung from the roof
 of the building and doesn't use the cabling already in place and
 hooked up to Spectrum. This presents a problem getting signal to the
