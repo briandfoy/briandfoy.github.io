@@ -59,7 +59,10 @@ foreach my $file ( @files ) {
 	$yaml->{last_modified} //= localtime($last_modified);
 	}
 
-	my $new_yaml = YAML::Dump( $yaml ) =~ s/^\S+:\s+\K~$//rgm;
+	my $new_yaml =
+		YAML::Dump( $yaml )
+			=~ s/^\S+:\s+\K~$//rgm;
+			=~ s/\s+$//rgm;
 
 	print $new_yaml;
 	say '---';
