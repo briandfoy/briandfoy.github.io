@@ -16,7 +16,7 @@ enough to get started without spending too much money.
 My neighbor said the Netgear Orbi [RBK50](https://amzn.to/2Uni7DO)
 allows the connection to rival FIOS. We're on the same system, so I
 should be able to get the same speeds rather than the sub-Spectrum
-speeds I'm getting now. I'm only seeeing speeds slighly better than
+speeds I'm getting now. I'm only seeing speeds slightly better than
 Spectrum though. [Tom's Guide](https://www.tomsguide.com/) has
 [a detailed review](https://www.tomsguide.com/us/netgear-orbi,review-4263.html).
 
