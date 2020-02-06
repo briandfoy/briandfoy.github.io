@@ -1,0 +1,30 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+td.gutter {
+    padding-right: 15px;
+}
+
+td.gutter  pre {
+    color: #ccc
+}
+
+p.code_title {
+    margin-top: 2em;
+    padding: 5px;
+    margin-left: 2em;
+    font-size: 0.9.em;
+    font-style: italic;
+    background-color: #ff8888;
+    border-radius: 5px;
+}
+
+a.ref_name {
+    text-decoration: none;
+    color: #000;
+}
+
