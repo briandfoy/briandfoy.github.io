@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Facade Design Pattern
+title: The Façade Design Pattern
 categories:
 tags:
 stopwords:
