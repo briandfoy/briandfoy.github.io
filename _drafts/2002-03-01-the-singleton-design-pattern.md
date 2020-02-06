@@ -103,6 +103,7 @@ I create two counters in lines 5 and 6, although these are really the same insta
 
 Once I know that `$count` and `$count2` are the same, I increment the value through `$count` and print the result, then do it again with `$count2`. No matter which one I use, the counter increases by one:
 
+{% highlight text %}
 The counters are the same!
 Count is now 1
 Count is now 2
