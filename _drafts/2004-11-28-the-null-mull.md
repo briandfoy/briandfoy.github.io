@@ -134,7 +134,6 @@ package Object::EveryMethod;
 
 sub new {
 	my $class = shift;
-
 	bless { ... }, $class;
 	}
 
@@ -151,7 +150,6 @@ package Object::EveryMethod;
 
 sub new {
 	my $class = shift;
-
 	bless { ... }, $class;
 	}
 
