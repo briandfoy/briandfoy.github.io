@@ -21,9 +21,9 @@ There are several major versions of RSS.  The first version, 0.9, is simple to r
 
 ## Creating RSS
 
-Files in RSS 0.9 typically have the extension *.rdf* for Resource Description Framework.  The XML format is very simple.  Code listing <a class="code_link" href="#rss">RSS file format</a> shows the actual RSS file for the last issue.  Line 1 is the required XML header. Line 3 pulls in the appropriate definitions.  The RSS data  has *channel* and *item* data.  The channel is the name of the feed and typically has a title and a link to the original website.  Line 7 starts my channel element with a title element with the name of the issue, and a link element to the issue file. The rest of the elements are items, sometimes called *headlines*.  Each item has a title and link.
+Files in RSS 0.9 typically have the extension *.rdf* for Resource Description Framework.  The XML format is very simple.  Code listing [RSS file format](#rss) shows the actual RSS file for the last issue.  Line 1 is the required XML header. Line 3 pulls in the appropriate definitions.  The RSS data  has *channel* and *item* data.  The channel is the name of the feed and typically has a title and a link to the original website.  Line 7 starts my channel element with a title element with the name of the issue, and a link element to the issue file. The rest of the elements are items, sometimes called *headlines*.  Each item has a title and link.
 
-<p class="code_title"><a class="ref_name" name="rss">RSS file format</a>
+<p class="code_title"><a class="ref_name" name="rss">RSS file format</a></p>
 
 {% highlight html linenos %}
 <?xml version="1.0"?>
@@ -62,14 +62,14 @@ xmlns="http://my.netscape.com/rdf/simple/0.9/">
 
 Creating this file is very easy.  I can write it by hand, but I can also create it with a program, which I want to do since all of the data comes from a database and I want to automate the process.
 
-Code listing <a class="code_link" href="#xml-rss">Create RSS files with XML::RSS</a> shows a simple program to create the RSS data in code listing <a class="code_link" href="#rss">RSS file format</a>. The [XML::RSS](https://www.metacpan.org/pod/XML::RSS) module can handle several versions of RSS, so in line 5 I specify version 0.9.  I can change the version number to another one that [XML::RSS](https://www.metacpan.org/pod/XML::RSS) can handle and see the results.  Other versions are a bit more complicated, but [XML::RSS](https://www.metacpan.org/pod/XML::RSS) handles them for me through the same interface so I can decide to switch later and not have to completely rewrite the script.
+Code listing [Create RSS files with XML::RSS](#xml-rss) shows a simple program to create the RSS data in code listing [RSS file format](#rss). The [XML::RSS](https://www.metacpan.org/pod/XML::RSS) module can handle several versions of RSS, so in line 5 I specify version 0.9.  I can change the version number to another one that [XML::RSS](https://www.metacpan.org/pod/XML::RSS) can handle and see the results.  Other versions are a bit more complicated, but [XML::RSS](https://www.metacpan.org/pod/XML::RSS) handles them for me through the same interface so I can decide to switch later and not have to completely rewrite the script.
 
 On line 10, I create the RSS channel from the first two lines from `DATA`. On line 15, I start a while loop to process the rest of the data.  I skip lines without non-whitespace, `chomp` the line that I read in the while condition, then read another line of data and `chomp` that.  I expect the first line to be the title and the line after that to be the link address.  I add these to my RSS object on line 22.
 
-On line 28, I simply print the RSS data as a string.  It should look close to the output in code listing <a class="code_link" href="#rss">RSS file format</a>, although some people may see slight differences for different versions of [XML::RSS](https://www.metacpan.org/pod/XML::RSS).
+On line 28, I simply print the RSS data as a string.  It should look close to the output in code listing [RSS file format](#rss), although some people may see slight differences for different versions of [XML::RSS](https://www.metacpan.org/pod/XML::RSS).
 
-<pre class="code">
-<p class="code_title"><a class="ref_name" name="xml-rss">Create RSS files with XML::RSS</a>
+<p class="code_title"><a class="ref_name" name="xml-rss">Create RSS files with XML::RSS</a></p>
+
 {% highlight perl linenos %}
 #!/usr/bin/perl -w
 use strict;
@@ -81,8 +81,8 @@ chomp( my $channel_title = <DATA> );
 chomp( my $channel_link  = <DATA> );
 
 $rss->channel(
-		title        => $channel_title,
-		link         => $channel_link,
+		title => $channel_title,
+		link => $channel_link,
 		);
 
 while( defined( my $title = <DATA> ) )
@@ -93,9 +93,9 @@ while( defined( my $title = <DATA> ) )
 		chomp( my $link = <DATA> );
 
 		$rss->add_item(
-				title => $title,
-				link  => $link,
-				);
+			title => $title,
+			link  => $link,
+			);
 		}
 
 print $rss->as_string;
@@ -119,7 +119,7 @@ http://www.theperlreview.com/Articles/v0i5/iterators.pdf
 
 ## Parsing RSS
 
-The [XML::RSS](https://www.metacpan.org/pod/XML::RSS) module makes parsing RSS even more easy that creating it.  In code listing <a class="code_link" href="#fetch">Fetch and parse RSS feeds</a>, which shows the actual program we use to generate the HTML for "Perl at a Glance", most of the work deals with HTML, not RSS.  Line 7 defines the RSS files to download. I found those by either visiting the site or asking the author if they had RSS files.  For instance, Randal Schwartz has RSS feeds for most of his columns although he does not advertise this on his web site—at least not somewhere I could find.
+The [XML::RSS](https://www.metacpan.org/pod/XML::RSS) module makes parsing RSS even more easy that creating it.  In code listing [Fetch and parse RSS feeds](#fetch), which shows the actual program we use to generate the HTML for "Perl at a Glance", most of the work deals with HTML, not RSS.  Line 7 defines the RSS files to download. I found those by either visiting the site or asking the author if they had RSS files.  For instance, Randal Schwartz has RSS feeds for most of his columns although he does not advertise this on his web site—at least not somewhere I could find.
 
 Line 18 defines the location the program stores output files. Each feed has an associated output file which contains just its portion of HTML that another program collates into the final web page.
 
@@ -134,7 +134,8 @@ On line 49, I check if `$image` has a url key.  The feed might not have included
 On line 67, I iterate through the items in the feed and print a link for each one.  Once I finish with the items I finish the HTML output and close the filehandle.
 
 
-<p class="code_title"><a class="ref_name" name="fetch">Fetch and parse RSS feeds</a>
+<p class="code_title"><a class="ref_name" name="fetch">Fetch and parse RSS feeds</a></p>
+
 {% highlight perl linenos %}
 #!/usr/bin/perl -w
 use strict;
@@ -197,18 +198,18 @@ HTML
 
 	print qq|<font size="-1">$$channel{description}</font>\n|;
 
-	print >>"HTML";
+	print <<"HTML";
 	</td></tr>
-	<tr><td bgcolor="#bbbbff" width=200>>font size="-1">
+	<tr><td bgcolor="#bbbbff" width=200><font size="-1">
 HTML
 
 	foreach my $item ( @{ $rss->{items} } )
 		{
-		print qq|<b>></b><a href="$$item{link}">$$item{title}</a><br><br>\n|;
+		print qq|<b></b><a href="$$item{link}">$$item{title}</a><br><br>\n|;
 		}
 
-	print >>"HTML";
-		>/font></td></tr>
+	print <<"HTML";
+		</font></td></tr>
 	</td></tr></table>
 	</td></tr></table>
 HTML
