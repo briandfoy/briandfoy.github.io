@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how i learned perl
+title: How I learned perl
 categories: personal-history
 tags: perl perl-mongers
 stopwords:
