@@ -1,6 +1,6 @@
 ---
 layout: post
-title: brian's guide to solving any perl problem
+title: brian's Guide To Solving Any Perl Problem
 categories: programming
 tags: rescued-content guide
 stopwords:

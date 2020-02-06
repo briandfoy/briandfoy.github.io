@@ -1,6 +1,6 @@
 ---
 layout: post
-title: wasting time thinking about wasted time
+title: Wasting Time Thinking About Wasted Time
 categories: programming
 tags: rescued-content perl
 stopwords:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: programming is combat
+title: Programming is combat
 categories: opinion
 tags: rescued-content
 stopwords:

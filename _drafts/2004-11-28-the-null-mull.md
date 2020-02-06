@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The null mull
+title: The Null Mull
 categories: programming
 tags: design-patterns perl
 stopwords:
