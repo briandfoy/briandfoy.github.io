@@ -55,6 +55,8 @@ Set aside the particular content for a moment, though. Consider these extra-cont
 
 All of these things, and more, are clues into what sort of person the advertiser thinks it will reach, and the message is tailored for that person. That person might not be you. It might be for a small portion of the people who see it. This doesn't mean they executed it well or correctly, but that's what's going on.
 
+And here's something that might make you scratch your head, but I've seen it in a lot of places. There are high-end storefronts that are practically empty because no one really shops there. They exist, however, to remind you that the brand exists. There are plenty of those in New York City.
+
 Now that you've figured out who the ad is trying to reach, what is the ad trying to get you to do? That is, in all of this, there is a particular sort of person, a particular message, and a desired behavior. The location, time, and manner of the message is specifically chosen to select the particular sort of person.
 
 Beyond that, the ad might be targeted at you but designed to affect the behavior of someone else. Is the ad aspirational, creating a brand that only a few can afford but all can recognize? Your recognition, even when you aren't a customer, might add to the value of the actual customer. The advertisement might be there just for you to know something instead of doing something.
