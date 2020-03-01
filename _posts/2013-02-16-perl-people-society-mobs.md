@@ -29,9 +29,9 @@ Most of his wisdom came from the constraints of being a medium-sized business: h
 
 The trick is to put the people in the market into the right group. You don't want to shun someone who you might have been able to help, but you don't waste your resources on someone you can't help.
 
-*There are people we can't help, so don't waste time on them.
+* There are people we can't help, so don't waste time on them.
 
-*There are people we can help, so we figure out what they need and want.
+* There are people we can help, so we figure out what they need and want.
 
 One of the really interesting exercises to start to think about this is to look at all of the advertising around you. Although some marketing people will draw a distinction between what they do and what advertisers do, the marketing people figure out the groups they want to target.
 
@@ -41,17 +41,17 @@ If you get the opportunity to travel the world, you'll get to see a perfect exam
 
 Set aside the particular content for a moment, though. Consider these extra-content factors that select an audience based on where they will be, when they will be there, and how :
 
-*__Where did you see it?__ Downtown? Highway billboard? Website? In a bar? At a busstop? Was it advertising something nearby, like a restaurant or store, or for something that you can get anywhere, like a can of Coke?
+* __Where did you see it?__ Downtown? Highway billboard? Website? In a bar? At a busstop? Was it advertising something nearby, like a restaurant or store, or for something that you can get anywhere, like a can of Coke?
 
-*__When did you see it?__ Is it something you see in the morning or in the afternoon? Say, for instance, a billboard on the highway leading into town as opposed to the highway leading out of town?
+* __When did you see it?__ Is it something you see in the morning or in the afternoon? Say, for instance, a billboard on the highway leading into town as opposed to the highway leading out of town?
 
-*__What else was going on around it at the same time?__ Was there a sporting event or a concert, for instance?
+* __What else was going on around it at the same time?__ Was there a sporting event or a concert, for instance?
 
-*__Is the advertisement passive or active?__ Did you have to do something to see the advertisement, such as buy something at a grocery store where they give you a receipt with an ad on the back, or was the ad forced on you by being conspicuously where you would be?
+* __Is the advertisement passive or active?__ Did you have to do something to see the advertisement, such as buy something at a grocery store where they give you a receipt with an ad on the back, or was the ad forced on you by being conspicuously where you would be?
 
-*__In what form was it?__ A flyer, a radio commercial, billboard, side of the bus?
+* __In what form was it?__ A flyer, a radio commercial, billboard, side of the bus?
 
-*__Did you get to see it for free, or did you have to pay to see it?__ You might think that's silly, but do you pay for newspapers or magazines? How about an in-flight magazine, or a movie preview on a DVD? Have you ever wondered why some magazines are free? Why is Gmail free?
+* __Did you get to see it for free, or did you have to pay to see it?__ You might think that's silly, but do you pay for newspapers or magazines? How about an in-flight magazine, or a movie preview on a DVD? Have you ever wondered why some magazines are free? Why is Gmail free?
 
 All of these things, and more, are clues into what sort of person the advertiser thinks it will reach, and the message is tailored for that person. That person might not be you. It might be for a small portion of the people who see it. This doesn't mean they executed it well or correctly, but that's what's going on.
 
