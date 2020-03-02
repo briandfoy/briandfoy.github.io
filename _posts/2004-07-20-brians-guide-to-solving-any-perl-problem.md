@@ -197,6 +197,10 @@ Since you will probably need to do this so much, I recommend some sort of plush 
 
 You have been staring at the computer screen, so maybe a different medium will let you look at things in a new way. Try looking at a print-out of your program.
 
+### Try working on something else
+
+There are probably other things you need to work on within the same  project. Perhaps paying attention to other items in your to-do list gives you some ideas.
+
 ### Have you watched *Last Week Tonight*?
 
 Seriously. Perhaps you do not like John Oliver, so choose something else. Take a break. Stop thinking about the problem for a bit and let your mind relax. Come back to the problem later and the fix may become immediately apparent.
