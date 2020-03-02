@@ -8,7 +8,7 @@ last_modified:
 original_url: https://www.perlmonks.org/?node_id=376075
 ---
 
-[I originally wrote this for [Perlmonks](https://www.perlmonks.org/?node_id=376075), and then included it as an appendix in [Mastering Perl](http://www.masteringperl.org). I've updated it here.]
+*[I originally wrote this for [Perlmonks](https://www.perlmonks.org/?node_id=376075), and then included it as an appendix in [Mastering Perl](http://www.masteringperl.org). I've updated it here.]*
 
 ## My Philosophy of Debugging
 
