@@ -3,7 +3,7 @@ layout: post
 title: The Perl Bus Factor
 categories: opinion perl
 tags:
-stopwords:
+stopwords: Klint
 last_modified:
 original_url:
 ---
