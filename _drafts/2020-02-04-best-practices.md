@@ -9,7 +9,7 @@ last_modified:
 
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 * [Guidelines for authors submitting code & software](https://www.nature.com/documents/GuidelinesCodePublication.pdf)
-
+* [API Practices If You Hate Your Customers](https://queue.acm.org/detail.cfm?ref=rss&id=3375635)
 
 What is a best practice?
 
