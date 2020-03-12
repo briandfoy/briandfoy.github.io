@@ -16,7 +16,9 @@ td.gutter  pre {
 p.callout {
 	text-align: center;
 	margin-left: 50px;
-	font-size: 3em;
+	font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
 	}
 
 p.code_title {
