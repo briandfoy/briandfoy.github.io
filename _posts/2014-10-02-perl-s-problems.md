@@ -3,18 +3,18 @@ layout: post
 title: Perl's Problems
 categories:
 tags:
-stopwords:
+stopwords: CMS Tachibana notest
 last_modified:
 original_url:
 ---
 
-In [Perl's Problems](https://perlhacks.com/2014/09/perls-problems/), David Cross mis-attributes Perl's popularity to Matt Wright and Selena Sol (Eric Tachibana). I think that's a simplistic view of history, and I was there. Dave Cross was there too, though, and are views intersect in some areas, but I think we start from different assumptions.
+In [Perl's Problems](https://perlhacks.com/2014/09/perls-problems/), David Cross misattributes Perl's popularity to Matt Wright and Selena Sol (Eric Tachibana). I think that's a simplistic view of history, and I was there. Dave Cross was there too, though, and are views intersect in some areas, but I think we start from different assumptions.
 
 <p class="callout">
 We think we should change their minds instead of solve their problems
 </p>
 
-Tom Christainsen and Randal Schwartz made Perl popular by making new Perl programmers, explaining Perl, and documenting it. People who needed the things Perl allowed them to do latched on and kept going. This was, at first, a market of system administrators. These people are constantly and consistently making their own tools for novel tasks. They would work with computers for free. You might pay them at work but then they go home to work their side projects.
+Tom Christiansen and Randal Schwartz made Perl popular by making new Perl programmers, explaining Perl, and documenting it. People who needed the things Perl allowed them to do latched on and kept going. This was, at first, a market of system administrators. These people are constantly and consistently making their own tools for novel tasks. They would work with computers for free. You might pay them at work but then they go home to work their side projects.
 
 People like Matt and Selena fulfilled a market demand that didn't care anything about Perl. They would have happily used Java had it worked, but Java didn't (and I worked at the company that had the very first Java applet on the web since one of the principals worked at JavaSoft). Nothing that was client-side worked reliably. Matt and Selena built tools for people who didn't want to need them in the first place. They most likely be happy not being near a computer at all.
 
