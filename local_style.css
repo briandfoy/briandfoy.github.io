@@ -13,6 +13,12 @@ td.gutter  pre {
     color: #ccc
 }
 
+p.callout {
+	text-align: center;
+	margin-left: 50px;
+	font-size: 3em;
+	}
+
 p.code_title {
     margin-top: 2em;
     padding: 5px;
