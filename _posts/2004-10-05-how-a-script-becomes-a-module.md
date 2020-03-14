@@ -2,13 +2,13 @@
 layout: post
 title: How a script becomes a module
 categories: programming
-tags: rescued-content perlmonks
-stopwords:
+tags: rescued-content perlmonks perl
+stopwords: MLDBM Flintstone's arounds crypto proto
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=396759
 ---
 
-*I orignally published this on Perlmonks as [How a script becomes a module](https://www.perlmonks.org/?node_id=396759)*
+*I originally published this on Perlmonks as [How a script becomes a module](https://www.perlmonks.org/?node_id=396759)*
 
 First, the House of Representatives proposes... wait a minute, that's "How a bill becomes a law", and although it got its own Schoolhouse Rock song, it's not what I'm talking about.
 
