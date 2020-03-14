@@ -26,9 +26,6 @@ To cap all of this, most people who answer questions on [tex.stackexchange.com](
 
 Sometimes things just work
 
-
-
-
 ![]()
 
 I mentioned the **listings** package before. Many people have problems
@@ -48,9 +45,7 @@ with Latin-1 characters or national codeset characters. Consider the advice in [
 
 If you can't represent the character as a combination of things that TeX already knows about, you're still stuck. Not only that, the advice only seems to work.
 
-
 Some advice naïvely suggest that you replace **listings** with [listingsutf8](https://ctan.org/pkg/listingsutf8?lang=en). From the name you'd think that would understand Unicode. However, it merely maps some UTF-8 characters into single-octet 8-bit characters. It can still only handle 255 characters. It's basically the same advice with fewer steps. Curiously, the CJK world seems to have an easier time with it because they are already so different that they needed [completely different solutions](https://tex.stackexchange.com/q/17143/130987).
-
 
 Consider this small document with has some body text and some literal text. Both use literal characters for copyright (U+00A9) and snowflake (U+2744). The first is within the 8-bit, single-octet region and has its own TeX sequence (`\copyright`). The other has three octets in UTF-8:
 
@@ -97,7 +92,7 @@ Then I ran into [Typesetting UTF8 APL code with the LaTeX lstlisting package](ht
 
 The first block of codepoints is for the the upper half of the 8-bit range (0x80 to 0xff). I can then add a four digit hex code (lowercase!) for other characters. If I add the snowflake's codepoint, it works out:
 
-{% highlight tex %}
+{% highlight text %}
 \documentclass[b5paper,12pt]{book}
 
 \usepackage{fontspec}
@@ -107,7 +102,7 @@ The first block of codepoints is for the the upper half of the 8-bit range (0x80
 \usepackage{listings}
 \makeatletter
 \lst@InputCatcodes
-\def\lst@DefEC{%
+\def\lst@DefEC{&#25;
  \lst@CCECUse \lst@ProcessLetter
   ^^80^^81^^82^^83^^84^^85^^86^^87^^88^^89^^8a^^8b^^8c^^8d^^8e^^8f%
   ^^90^^91^^92^^93^^94^^95^^96^^97^^98^^99^^9a^^9b^^9c^^9d^^9e^^9f%
@@ -141,7 +136,7 @@ So, solved, right? What about combining characters? Can I make a dotless ı (U+0
 {% highlight tex %}
 \makeatletter
 \lst@InputCatcodes
-\def\lst@DefEC{%
+\def\lst@DefEC{&#25;
  \lst@CCECUse \lst@ProcessLetter
   ^^80^^81^^82^^83^^84^^85^^86^^87^^88^^89^^8a^^8b^^8c^^8d^^8e^^8f%
   ^^90^^91^^92^^93^^94^^95^^96^^97^^98^^99^^9a^^9b^^9c^^9d^^9e^^9f%
@@ -172,7 +167,7 @@ Get a little bit weirder. How can I make an emoji work? Now that I know this map
 {% highlight tex %}
 \makeatletter
 \lst@InputCatcodes
-\def\lst@DefEC{%
+\def\lst@DefEC{&#25;
  \lst@CCECUse \lst@ProcessLetter
   ^^80^^81^^82^^83^^84^^85^^86^^87^^88^^89^^8a^^8b^^8c^^8d^^8e^^8f%
   ^^90^^91^^92^^93^^94^^95^^96^^97^^98^^99^^9a^^9b^^9c^^9d^^9e^^9f%
