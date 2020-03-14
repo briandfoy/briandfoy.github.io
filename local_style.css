@@ -5,6 +5,33 @@
   width: 50%;
 }
 
+table {
+    border: 1px solid lightgrey;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+th {
+    border: 1px solid lightgrey;
+    background: yellow;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid lightgrey;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td.number {
+    text-align: right;
+}
+
 td.gutter {
     padding-right: 15px;
 }
@@ -12,6 +39,19 @@ td.gutter {
 td.gutter  pre {
     color: #ccc
 }
+
+a.ref_name {
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 0.8em;
+    background: lightgrey;
+    padding: 5px;
+    padding-right: 50px;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 15px;
+    font-style: italic;
+    }
 
 p.callout {
 	text-align: center;
