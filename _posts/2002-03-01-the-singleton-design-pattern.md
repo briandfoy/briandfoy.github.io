@@ -149,7 +149,7 @@ my $my_dbh = DBI::Singleton->connect( @arguments );
 
 The `$my_dbh` variable stores a [DBI](https://www.metacpan.org/pod/DBI) instance since I did not re-bless it into my `DBI::Singleton` package. If you know about design patterns already, you may recognize a bit of the Factory and Adapter patterns in `DBI::Singleton`'s `connect()`.
 
-How does it work? I call the `connect()` method in my package. The first argument is the name of the package, `DBI::Singleton`, which I ignore because I will return a [DBI](https://www.metacpan.org/pod/DBI) instance. Next, I check to see if the variable `$Dbh` is defined. I created `$Dbh` as a lexical variable with `my()` which means that it is only available inside `DBI::Singleton` file just as in my Counter example from code listing <a class="internal_link" href="#counter.pm">counter.pm</a>. If `$Dbh` is undefined, I continue through the method and connect to the database with the remaining arguments left on the argument list. I save the return value from `connect()` in `$Dbh`, which will be a [DBI](https://www.metacpan.org/pod/DBI) instance if the `connect()` succeeds and `undef`, the original value of `$Dbh`, if it fails. I still look in `$DBI::errstr` to see what went wrong, but I fix that in section <a class="internal_link" href="#fix">fix</a>.
+How does it work? I call the `connect()` method in my package. The first argument is the name of the package, `DBI::Singleton`, which I ignore because I will return a [DBI](https://www.metacpan.org/pod/DBI) instance. Next, I check to see if the variable `$Dbh` is defined. I created `$Dbh` as a lexical variable with `my()` which means that it is only available inside `DBI::Singleton` file just as in my Counter example from code listing <a class="internal_link" href="#counter.pm">counter.pm</a>. If `$Dbh` is undefined, I continue through the method and connect to the database with the remaining arguments left on the argument list. I save the return value from `connect()` in `$Dbh`, which will be a [DBI](https://www.metacpan.org/pod/DBI) instance if the `connect()` succeeds and `undef`, the original value of `$Dbh`, if it fails. I still look in `$DBI::errstr` to see what went wrong, but I fix that in the next section.
 
 Assuming that the connection succeeds, the second time I try to connect to the database with `DBI::Singleton`, `$Dbh` is defined, so `DBI::Singleton`'s `connect()` method returns the stored instance instead of a completely new one. As long as each part of my program that needs a database connection uses `DBI::Singleton->connect()`, my program should only ever use one database connection.
 
@@ -487,7 +487,8 @@ use WeakRef;
 
 my $singleton = undef;
 
-sub new {
+sub new
+	{
     my( $class, $count ) = @_;
 
     if( defined $singleton ) {
@@ -504,7 +505,7 @@ sub new {
     }
 {% endhighlight %}
 
-In code listing <a class="internal_link" href="#weaken">weaken</a> I weaken `$singleton` in line 20 with the `weaken()` function from `WeakRef` which tells perl not to count the existence of `$singleton` in the reference count to the data which it represents. Other references to that data, like the reference that I get back from `new()`, do count. When all of those references disappear, perl destroys `$singleton`.
+I weaken `$singleton` in line 20 with the `weaken()` function from `WeakRef` which tells perl not to count the existence of `$singleton` in the reference count to the data which it represents. Other references to that data, like the reference that I get back from `new()`, do count. When all of those references disappear, perl destroys `$singleton`.
 
 ## Memoized (Modified) Singleton
 
