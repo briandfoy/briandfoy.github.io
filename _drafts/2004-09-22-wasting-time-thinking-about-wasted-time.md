@@ -2,7 +2,7 @@
 layout: post
 title: Wasting Time Thinking About Wasted Time
 categories: programming
-tags: rescued-content perl
+tags: rescued-content perl perlmonks
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=393128

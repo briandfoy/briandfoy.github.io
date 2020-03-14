@@ -2,11 +2,13 @@
 layout: post
 title: The Singleton Design Pattern
 categories: programming
-tags: perl design_patterns singletons rescued-content the-perl-review
-stopwords:
+tags: perl design-patterns singletons rescued-content the-perl-review
+stopwords: Devel Lukka Memoized SvREFCNT Tuomas Vlissides Wardley dbh srm
 last_modified:
 original_url:
 ---
+
+*I originally published this in The Perl Review 0.1, March 2002*
 
 The Singleton design pattern allows many parts of a program to share a single resource without having to work out the details of the sharing themselves. This article discusses this design pattern, shows several possible implementations, and highlights some Perl modules which use singletons.
 
@@ -147,7 +149,7 @@ my $my_dbh = DBI::Singleton->connect( @arguments );
 
 The `$my_dbh` variable stores a [DBI](https://www.metacpan.org/pod/DBI) instance since I did not re-bless it into my `DBI::Singleton` package. If you know about design patterns already, you may recognize a bit of the Factory and Adapter patterns in `DBI::Singleton`'s `connect()`.
 
-How does it work? I call the `connect()` method in my package. The first argument is the name of the package, `DBI::Singleton`, which I ignore because I will return a [DBI](https://www.metacpan.org/pod/DBI) instance. Next, I check to see if the variable `$Dbh` is defined. I created `$Dbh` as a lexical variable with `my()` which means that it is only available inside `DBI::Singleton` file just as in my Counter example from code listing <a class="internal_link" href="#counter.pm">counter.pm</a>. If `$Dbh` is undefined, I continue through the method and connect to the database with the remaining arguments left on the argument list. I save the return value from `connect()` in `$Dbh`, which will be a [DBI](https://www.metacpan.org/pod/DBI) instance if the `connect()` succeeds and `undef`, the original value of `$Dbh`, if it fails. I still look in `$DBI::errstr` to see what went wrong, but I can fix that in section <a class="internal_link" href="#fix">fix</a>.
+How does it work? I call the `connect()` method in my package. The first argument is the name of the package, `DBI::Singleton`, which I ignore because I will return a [DBI](https://www.metacpan.org/pod/DBI) instance. Next, I check to see if the variable `$Dbh` is defined. I created `$Dbh` as a lexical variable with `my()` which means that it is only available inside `DBI::Singleton` file just as in my Counter example from code listing <a class="internal_link" href="#counter.pm">counter.pm</a>. If `$Dbh` is undefined, I continue through the method and connect to the database with the remaining arguments left on the argument list. I save the return value from `connect()` in `$Dbh`, which will be a [DBI](https://www.metacpan.org/pod/DBI) instance if the `connect()` succeeds and `undef`, the original value of `$Dbh`, if it fails. I still look in `$DBI::errstr` to see what went wrong, but I fix that in section <a class="internal_link" href="#fix">fix</a>.
 
 Assuming that the connection succeeds, the second time I try to connect to the database with `DBI::Singleton`, `$Dbh` is defined, so `DBI::Singleton`'s `connect()` method returns the stored instance instead of a completely new one. As long as each part of my program that needs a database connection uses `DBI::Singleton->connect()`, my program should only ever use one database connection.
 

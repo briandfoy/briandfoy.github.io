@@ -1,12 +1,14 @@
 ---
 layout: post
 title: The Façade Design Pattern
-categories:
-tags:
+categories: programming
+tags: perl rescued-content the-perl-review design-patterns
 stopwords:
 last_modified:
 original_url:
 ---
+
+*I originally published this in The Perl Review 0.4, July 2002*
 
 The Façade design pattern provides an easy-to-use interface to an otherwise complicated collection of interfaces or subsystems. It makes things easier by hiding the details of its implementation.
 

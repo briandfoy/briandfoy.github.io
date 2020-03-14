@@ -2,7 +2,7 @@
 layout: post
 title: The Null Mull
 categories: programming
-tags: design-patterns perl
+tags: design-patterns perl rescued-content perlmonks
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=410871
@@ -10,8 +10,7 @@ original_url: https://www.perlmonks.org/?node_id=410871
 
 *I originally published this as [The Null Mull](https://www.perlmonks.org/?node_id=410871) on Perlmonks*
 
-Recently, I've been thinking about the Null design pattern. People get wrapped up in UML diagrams, [Gang of Four](https://amzn.to/2OuJ0Sr) descriptions, and all sorts of other things. Patterns are simple, and this is one of the simpler one. It's not complicated enough to get it's own module (there is a [Class::Null](https://www.metacpan.org/pod/Class::Null)), but if you
-are using a module you are missing the point. These aren't components that you plug into problems; they are ways of thinking and designing programs.
+Recently, I've been thinking about the Null design pattern. People get wrapped up in UML diagrams, [Gang of Four](https://amzn.to/2OuJ0Sr) descriptions, and all sorts of other things. Patterns are simple, and this is one of the simpler one. It's not complicated enough to get it's own module (there is a [Class::Null](https://www.metacpan.org/pod/Class::Null)), but if you are using a module you are missing the point. These aren't components that you plug into problems; they are ways of thinking and designing programs.
 
 Everyone has probably experienced the pain and frustration of something in their script trying to call a method on something that isn't a reference:
 
@@ -48,7 +47,7 @@ sub new { $all }
 sub AUTOLOAD { $_[0] }
 {% endhighlight %}
 
-Now I use this in my methods. If you already do the right thing with your failure codes, you have the magic value in some sort of variable or symbolic constant. Just shove the new object in there instead. The object `$all` only exists once, and everyone shares it. Since it doesn't do anything or store any information, we don't need more than one. This is the Singleton design pattern, for those that care. <a href="http://www.theperlreview.com/Issues/">I wrote about singletons in The Perl Review 0.1</a>
+Now I use this in my methods. If you already do the right thing with your failure codes, you have the magic value in some sort of variable or symbolic constant. Just shove the new object in there instead. The object `$all` only exists once, and everyone shares it. Since it doesn't do anything or store any information, we don't need more than one. This is the Singleton design pattern, for those that care. [I wrote about singletons in The Perl Review 0.1](/the-singleton-design-pattern/).
 
 {% highlight perl %}
 # my $False = 0; # old way
@@ -143,7 +142,7 @@ sub can      { 1 }
 sub what_happened { @{ $self }{ qw( message setter ) } }
 {% endhighlight %}
 
-If that doesn't work for us, we can make it return false, except for the methods we defined. If we are alrady using `can()`, we probably expect the object to actually do something useful when we call the method we check and have a way to handle it if the object can't do what we need. Since we define our own `can()`, Perl finds that one before it gets a chance to check `UNIVERSAL`.
+If that doesn't work for us, we can make it return false, except for the methods we defined. If we are already using `can()`, we probably expect the object to actually do something useful when we call the method we check and have a way to handle it if the object can't do what we need. Since we define our own `can()`, Perl finds that one before it gets a chance to check `UNIVERSAL`.
 
 {% highlight perl %}
 package Object::EveryMethod;

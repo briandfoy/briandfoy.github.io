@@ -1,12 +1,14 @@
 ---
 layout: post
 title: The Iterator Design Pattern
-categories:
-tags:
+categories: programming
+tags: perl design-patterns rescued-content the-perl-review
 stopwords:
 last_modified:
 original_url:
 ---
+
+*I originally published this in The Perl Review 0.5, September 2002*
 
 The Iterator pattern separates the details of traversing a collection so that they can vary independently.  Perl provides some of these parts already, although in some cases I need to provide my own implementations of them.
 

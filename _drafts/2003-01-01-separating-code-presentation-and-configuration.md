@@ -1,17 +1,16 @@
 ---
 layout: post
 title: Separating Code, Presentation, and Configuration
-categories: programming rescued-content the-perl-review
-tags: config perl mvc config
+categories: programming
+tags: config perl mvc config rescued-content the-perl-review
 stopwords:
 last_modified:
 original_url:
 ---
 
-*I originally published this as "Separating Code, Presentation, and Configuration" in The Perl Review 0.7*
+*I originally published this in The Perl Review 0.7, January 2003*
 
 I take a program from a previous article and separate the code, presentation, and configuration into separate parts to make the program more flexible and easier to maintain.
-
 
 ## Introduction
 
@@ -19,8 +18,7 @@ In the last issue, I presented a program I use to pull and display Rich Site Sum
 
 Code listing <a href="#old_code" class="internal_link">Hard-Coded Configuration</a> shows the same program I presented in the previous article. The `@files` array holds the files I want to download, `$base` is the directory where my output is stored, and several print statements create HTML with simple variable interpolation (rather than CGI.pm's HTML functions, for example). This code is inflexible and a maintenance hassle. When I want to change the list of sites or the output, I risk breaking the program if I type the wrong thing or make another mistake.
 
-<p class="code_title"><a class="ref_name" name="old_code">Hard-Coded Configuration</a></p>
-
+<a class="ref_name" name="old_code">Hard-Coded Configuration</a>
 {% highlight perl %}
 #!/usr/bin/perl -w
 use strict;
@@ -101,8 +99,6 @@ HTML
     }
 {% endhighlight %}
 
-
-
 ## Separating presentation
 
 A good design does not tie itself to a particular presentation of the data. My program should fetch the data and make it available to something that presents it&mdash;that I am working with RSS should not matter. I might want to produce HTML, TeX, plain text, or even some format that I cannot anticipate.
@@ -115,7 +111,7 @@ The [Text::Template](https://www.metacpan.org/pod/Text::Template) module can acc
 
 The object created by [XML::RSS](https://www.metacpan.org/pod/XML::RSS) is an anonymous hash. The module has an abstract interface for creation, but not for access. This is just the sort of thing I need to pass to my template. In the template, `$rss->{channel}`, which has a anonymous hash value, becomes `%channel` in the template, and `$rss->{items}`, which has an anonymous array value, becomes `@items` in the template.
 
-<p class="code_title"><a class="ref_name" name="use_template">Using Templates</a></p>
+<a class="ref_name" name="use_template">Using Templates</a>
 {% highlight perl %}
 #!/usr/bin/perl -w
 use strict;
@@ -157,7 +153,7 @@ foreach my $url ( @files )
 Inside the template, [Text::Template](https://www.metacpan.org/pod/Text::Template) runs blocks of code it finds between curly braces. It replaces the block of code with the last evaluated expression. The variable names are the keys of the hash reference I passed as an argument to `fill_in_file()` in code listing <a href="#use_template" class="internal_link">Using Templates</a>.
 
 
-<p class="code_title"><a class="ref_name" name="html">HTML Output</a></p>
+<a class="ref_name" name="html">HTML Output</a>
 {% highlight perl %}
 <table cellpadding=1><tr><td bgcolor="#000000">
 <table cellpadding=5>
@@ -192,8 +188,7 @@ Inside the template, [Text::Template](https://www.metacpan.org/pod/Text::Templat
 
 Once I have the templating system in place, I can change the presentation without affecting the logic of the code. If I decide to change the way I present the data, I only change the template. If I want plain text instead of HTML, I simply modify the template for the new format that I want, as I do in code listing <a href="#text" class="internal_link">Text Output</a>.
 
-
-<p class="code_title"><a class="ref_name" name="text">Text Output</a></p>
+<a class="ref_name" name="text">Text Output</a>
 {% highlight perl %}
 { $channel{title} }
 
@@ -223,8 +218,7 @@ When I first started to routinely separate configuration data from my scripts, I
 
 Code listing <a href="#use_config" class="internal_link">Using External Config</a> adapts code listing <a href="#use-template" class="internal_link">use-template</a> to use [ConfigReader::Simple](https://www.metacpan.org/pod/ConfigReader::Simple). I create a new configuration object, then read values from the object. The module turns the names of the configuration keys into method names for easy access (although exotic key names that I cannot coerce into a Perl identifier require the `get()` method to access their value). Code listing <a href="#config_file" class="internal_link">External Config File</a> shows the configuration file.
 
-
-<p class="code_title"><a class="ref_name" name="use_config">Using External Config</a></p>
+<a class="ref_name" name="use_config">Using External Config</a>
 {% highlight perl %}
 #!/usr/bin/perl -w
 use strict;
@@ -264,7 +258,9 @@ foreach my $url ( @files ) {
     }
 {% endhighlight %}
 
-<p class="code_title"><a class="ref_name" name="config_file">External Config File</a></p>
+The configuration file:
+
+<a class="ref_name" name="config_file">External Config File</a>
 {% highlight text %}
 base .
 template rss-html.tmpl

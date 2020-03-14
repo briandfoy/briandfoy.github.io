@@ -2,7 +2,7 @@
 layout: post
 title: How a script becomes a module
 categories: programming
-tags: rescued-content
+tags: rescued-content perlmonks
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=396759

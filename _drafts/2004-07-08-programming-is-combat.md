@@ -2,7 +2,7 @@
 layout: post
 title: Programming is combat
 categories: opinion
-tags: rescued-content
+tags: rescued-content perlmonks
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=372693
