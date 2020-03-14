@@ -6,6 +6,16 @@ MediaWiki
 callout
 isa
 signalling
+HREF
+HTTPS
+HyperText
+LWP
+NNTP
+postgresql
+reimplement
+screenfuls
+filesystem
+TCP
 subclasses
 typeglob
 unperly

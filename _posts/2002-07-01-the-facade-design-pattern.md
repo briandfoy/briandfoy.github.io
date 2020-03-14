@@ -3,7 +3,7 @@ layout: post
 title: The Façade Design Pattern
 categories: programming
 tags: perl rescued-content the-perl-review design-patterns
-stopwords:
+stopwords: arounds Starsinic's Vlissides hoc
 last_modified:
 original_url:
 ---
@@ -99,7 +99,7 @@ What if I want to check the status of a web resource? If I went through all of t
 
 I first ran into the link validation problem when I created a user-configurable directory of internet resources which I wanted to validate every day. I wanted to make sure that the links in the directories actually led to a web page rather than the annoying **404 Not Found** server error. I also wanted to catch dead links before a customer added them to his directory. I needed to do the same simple task in several applications, and the few lines of repeated code in each application seemed so innocent that I missed the obvious refactoring potential.
 
-With a couple of customers using the service, I did not notice anything amiss with my validation code. It caught dead links and did not have false positives. With tens of users and a couple hundred thousand resources to validate, I discovered that not all web servers respond in the same way to certain types of HTTP requests, and that some servers even had little known bugs. One notorious server returned an HTTP error for any HEAD request\footnote{ Every HTTP request specifies a method. A HEAD request asks the server for the resource's meta data, but not the resource itself so it does not have to download potentially large amounts of data.}, so I had to program some special cases. The task which I thought was simple grew much more complex, but I wanted to work on the level of a "ping"—a simple "yes" or "no" answer. Tests on small data sets did not reveal any problems in the parts per ten thousand range, but things quickly got out of hand after that.
+With a couple of customers using the service, I did not notice anything amiss with my validation code. It caught dead links and did not have false positives. With tens of users and a couple hundred thousand resources to validate, I discovered that not all web servers respond in the same way to certain types of HTTP requests, and that some servers even had little known bugs. One notorious server returned an HTTP error for any HEAD request, so I had to program some special cases. The task which I thought was simple grew much more complex, but I wanted to work on the level of a "ping"—a simple "yes" or "no" answer. Tests on small data sets did not reveal any problems in the parts per ten thousand range, but things quickly got out of hand after that.
 
 My refactored solution was a façade. At the application level I did not care about server eccentricities, work-arounds for HTTP non-compliance, or most error recovery. I simply wanted to know if the URL actually pointed to something. I created a glorified subroutine, gave it a module name, and used it whenever I needed an HTTP response code. I uploaded the module to [CPAN](http://search.cpan.org) as [HTTP::SimpleLinkChecker](https://metacpan.org/pod/HTTP::SimpleLinkChecker). The next program shows the entire façade—a single function behind which all of the real work takes place. The façade takes care of all of the details, including all of my accrued knowledge about specific server behaviors, so that it could recognize possible problems and double check errors to a HEAD request by actually downloading the resource.
 
