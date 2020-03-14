@@ -208,3 +208,9 @@ Find the following modules on the [Comprehensive Perl Archive Network (CPAN)](ht
 
 * [Benchmark](https://metacpan.org/pod/Benchmark)
 * [List::Util](https://metacpan.org/pod/List::Util)
+
+## Some interesting links
+
+I come up with these links much later, but still think they are interesting:
+
+* [fibs, lies, and benchmarks](http://wingolog.org/archives/2019/06/26/fibs-lies-and-benchmarks)

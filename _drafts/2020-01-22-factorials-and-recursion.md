@@ -7,3 +7,4 @@ stopwords:
 
 https://mvanier.livejournal.com/2897.html
 http://raganwald.com/2018/09/08/practical-use-for-the-y-combinator.html
+http://wingolog.org/archives/2019/06/26/fibs-lies-and-benchmarks
