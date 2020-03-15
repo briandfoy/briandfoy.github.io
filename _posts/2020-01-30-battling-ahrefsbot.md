@@ -153,7 +153,7 @@ nonsense, and it was [AS16276](https://ipinfo.io/AS16276) bothering
 me. French IPs addresses claiming to be from a company located
 Singapore with offices in France and with ["roots" in the
 Ukraine](https://ahrefs.com/about) (a country that I already block
-outright).
+outright). (See also [Fighting referral spam](https://ro-che.info/articles/2018-03-25-fighting-referral-spam), about some of the same French ISPs).
 
 I fall back to another `RewriteRule`. Since that URL doesn't map to
 anything I have, I can do it with just the front part of the URL. This
