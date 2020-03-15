@@ -3,7 +3,7 @@ layout: post
 title: Separating Code, Presentation, and Configuration
 categories: programming
 tags: config perl mvc config rescued-content the-perl-review
-stopwords:
+stopwords: Bek Dominus's Oberin pm's
 last_modified:
 original_url:
 ---
