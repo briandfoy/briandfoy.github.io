@@ -9,7 +9,7 @@ original_url:
 ---
 
 
-Klint Finley's article for *Wired*<i>*, [Giving Open-Source Projects Life After A Developer's Death](https://www.wired.com/story/giving-open-source-projects-life-after-a-developers-death/), discusses the trouble taking over Ruby projects when the lead developer dies. He interviewed Neil Bowers, one of the people who helps maintain the Comprehensive Perl Archive Network (CPAN), but then he mangles the information to make it seem like the Neil by himself sometimes finds volunteers to take over projects if he feels like it at the time.
+Klint Finley's article for *Wired*, [Giving Open-Source Projects Life After A Developer's Death](https://www.wired.com/story/giving-open-source-projects-life-after-a-developers-death/), discusses the trouble taking over Ruby projects when the lead developer dies. He interviewed Neil Bowers, one of the people who helps maintain the Comprehensive Perl Archive Network (CPAN), but then he mangles the information to make it seem like the Neil by himself sometimes finds volunteers to take over projects if he feels like it at the time.
 
 The PAUSE (Perl Authors Upload Server) admins do much more than that. We've had an official policy around it for years. I remember the first time we had to deal with this. Over a decade ago [Iain Truskett, an important Perl developer, passed away](http://archive.oreilly.com/pub/post/perl_loses_contributor_and_col.html). Andy Lester took it upon himself to act as a executor of the developer's CPAN packages. He didn't want to maintain them necessarily but he would transfer them to anyone who wanted to handle them. As I recall he took over the CPAN account and merely used its existing tools to transfer permissions.
 
