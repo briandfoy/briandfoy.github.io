@@ -13,13 +13,13 @@ original_url:
 
 2. Lists are data, arrays are containers that hold lists.
 
-3.
+3. Perl has several contexts: scalar-array, number-string, and so on.
 
-4.
+4. The verbs (operators) decide how things happen instead of the nouns (data types), often based on context.
 
-5.
+5. Dynamic scope is based on time but affects the entire program. `local` makes changes inside a dynamic scope.
 
-6.
+6. Lexical scope is based on the static position in the program text. That's the enclosing braces or the entire file.
 
 7.
 
