@@ -3,7 +3,7 @@ layout: post
 title: Adding Apple mobile icons
 categories: web-admin
 tags: perl apple iOS
-stopwords:
+stopwords: png Bynens ico
 last_modified:
 original_url:
 ---
@@ -42,4 +42,4 @@ a square crop of my book cover and it gives me back some files.
 
 ![](https://www.effectiveperlprogramming.com/apple-touch-icon-180x180.png)
 
-But, the newest hotness are larger versions, including <i>apple-touch-icon-152x152.png</i>. I don't see that in my logs, but it's easy enough to make. I've been using <A href="/goodbye-adobe/">Affinity Photo</a> for that stuff and I'm getting used to its interface.
+But, the newest hotness are larger versions, including *apple-touch-icon-152x152.png*. I don't see that in my logs, but it's easy enough to make. I've been using [Affinity Photo](/goodbye-adobe/) for that stuff and I'm getting used to its interface.
