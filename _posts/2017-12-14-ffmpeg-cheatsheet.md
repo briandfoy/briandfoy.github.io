@@ -18,6 +18,10 @@ Extract audio:
 
     ffmpeg -i input.mp4 -vn audio_only.m4a
 
+Remove audio:
+
+	ffmpeg -i input.mp4 -c copy -an input-nosound.mp4
+
 Change size:
 
     ffmpeg -i input.mp4 -s 1280x720 -c:a copy resized.mp4
