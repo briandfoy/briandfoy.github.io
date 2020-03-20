@@ -26,3 +26,9 @@ balance with its actual uses, and its excessive popularity is ended. ... But it 
 has the grandiose, all-promising scope, the infinite versatility
 of apparent application, it once had." - Thick Description: Toward an Interpretive Theory of Culture
 Clifford Geertz, 1973
+
+
+https://aeon.co/essays/how-margaret-mead-became-a-hate-figure-for-conservatives
+Boas’s seminal essay ‘The Study of Geography’ (1887) distinguished between the two poles of the ‘physical’ and the ‘historical’ method (‘geography’ here being akin to what we call anthropology).
+Boas never jettisoned biology entirely: he simply made culture far more influential. This view of humanity came to be known as cultural determinism,
+
