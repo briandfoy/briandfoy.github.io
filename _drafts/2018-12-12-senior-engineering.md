@@ -5,8 +5,7 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+https://medium.com/swlh/what-happens-when-you-lack-senior-engineering-leadership-84ce189158b2

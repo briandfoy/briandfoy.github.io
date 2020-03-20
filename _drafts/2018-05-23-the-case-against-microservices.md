@@ -21,3 +21,5 @@ https://www.martinfowler.com/microservices/
 https://dwmkerr.com/the-death-of-microservice-madness-in-2018/
 
 https://cloudacademy.com/blog/microservices-architecture-challenge-advantage-drawback/
+
+https://tanzu.vmware.com/content/blog/should-that-be-a-microservice-keep-these-six-factors-in-mind
