@@ -24,3 +24,6 @@ Joseph Williams, “Style: Ten Lessons in Clarity and Grace”, 6th Edition, Add
 
 Craig Partridge’s excellent book “Gigabit Networking” (Addison-Wesley, 1993).
 
+
+
+Protocol sentences - relate to personal experience rather then universal knowledge - Protocol Sentence Debate
