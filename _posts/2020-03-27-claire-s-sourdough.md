@@ -3,12 +3,12 @@ layout: post
 title: Claire's Sourdough
 categories: cooking
 tags: sourdough bon-appetit
-stopwords:
+stopwords: boule doughs pillowy
 last_modified:
 original_url:
 ---
 
-Claire from Bon Appétit shows Brad how to make sourdough. She has a recipe in the [Times](https://cooking.nytimes.com/guides/59-how-to-make-sourdough-bread).
+Claire from Bon Appétit shows Brad how to make sourdough. She published a much more thorough recipe in the [Times](https://cooking.nytimes.com/guides/59-how-to-make-sourdough-bread).
 
 <div align="center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oidnwPIeqsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,7 +30,32 @@ There are some differences from what I was doing while following Sourdough U.
 
 ![](/images/sourdough/claire/sliced.jpg)
 
-Some results from other people:
+That's promising, but the crumb (the inside structure) is inconsistent. There is good gluten structure to trap air, but it gets trapped at the top of the crust.
+
+## Trying again
+
+I try again, because what else am I going to do in self-quarantine? This time I make two doughs. One has 80% King Arthur Bread Flour / 20% Red Mill semolina, and the other is 100% King Arthur Bread. Each had 20% starter by flour weight.
+
+### 100% King Arthur Bread Flour
+
+This turned out almost exactly how I wanted it, but I need to work on upping the sourness.
+
+![](/images/sourdough/claire/white-flour.jpg)
+
+![](/images/sourdough/claire/white-sliced.jpg)
+
+### 20% Red Mill Semolina
+
+The semolina is a bit softer texture and the boule itself is pillowy with a softer crust.
+
+![](/images/sourdough/claire/semolina.jpg)
+
+![](/images/sourdough/claire/semolina-sliced.jpg)
+
+
+
+
+## Results from others
 
 * [Claire and Brad’s Bon Appetit Sourdough recipe](https://www.reddit.com/r/Breadit/comments/ca83ab/claire_and_brads_bon_appetit_sourdough_recipe/)
 
