@@ -95,3 +95,6 @@ a.ref_name {
     color: #000;
 }
 
+figure.highlight pre code {
+	font-size: 65%;
+}
