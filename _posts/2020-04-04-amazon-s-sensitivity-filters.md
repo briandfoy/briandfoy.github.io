@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Amazon's Sensitivity Filters
-categories:
-tags:
+categories: wtf
+tags: amazon
 stopwords:
 last_modified:
 original_url:
