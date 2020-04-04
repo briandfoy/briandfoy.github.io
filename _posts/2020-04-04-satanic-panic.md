@@ -9,7 +9,7 @@ last_modified:
 original_url:
 ---
 
-A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts about it and wondered who was copying whom.
+A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts about it and wondered who was copying whom, and why the topic was popular again.
 
 * March 2020 - [Satanic Panic](https://www.20k.org/episodes/satanicpanic) - record backmasking
 * January 2020 - [Gimlet Media's "Conviction" podcast: American Panic](https://gimletmedia.com/shows/conviction)
