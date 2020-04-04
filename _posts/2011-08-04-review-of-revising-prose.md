@@ -2,11 +2,13 @@
 layout: post
 title: Review of Revising Prose
 categories: book-review
-tags: writing amazon
-stopwords:
+tags: writing amazon rescued-content
+stopwords: english skotison
 last_modified:
-original_url: https://www.amazon.com/gp/customer-reviews/R1ZXLBLPOZPMBK?ref=pf_ov_at_pdctrvw_srp
+original_url: https://www.amazon.com/gp/customer-reviews/R1ZXLBLPOZPMBK
 ---
+
+*(This review originally [appeared on Amazon.com](https://www.amazon.com/gp/customer-reviews/R1ZXLBLPOZPMBK))*
 
 Professor Lanham correctly finds the problem with the Official Style people pick up as they go through school and their jobs. They write noun-heavy, passive sentences that pile up prepositional phrases on each other. Having diagnosed the problem, though, his Paramedic Method for solving it worships at the altar of his Lard Factor, the ratio of his revised sentence to the original sentence length. Since he only deals at the sentence level, he rewrites each gargantuan sentence into exactly one smaller sentence, and this is where he goes wrong and often loses the meaning of the original.
 

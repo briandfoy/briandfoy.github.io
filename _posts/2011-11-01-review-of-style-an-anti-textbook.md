@@ -2,11 +2,13 @@
 layout: post
 title: "Review of Style: An Anti-Textbook"
 categories: book-review
-tags: amazon writing
-stopwords:
+tags: amazon writing rescued-content
+stopwords: proto
 last_modified:
-original_url: https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE?ref=pf_ov_at_pdctrvw_srp
+original_url: https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE
 ---
+
+*(This review originally [appeared on Amazon.com](https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE))*
 
 I don't think much of the Robert Lanham's writing ability. I first read [Revising Prose (5th Edition)](https://amzn.to/2UIFkjN) and found it wanting, and I think this book is merely the proto-version of that book.
 

@@ -2,11 +2,13 @@
 layout: post
 title: "Review of Taft 2012: A Novel"
 categories: book-review
-tags: fiction amazon
-stopwords:
+tags: fiction amazon rescued-content
+stopwords: mance
 last_modified:
-original_url: https://www.amazon.com/gp/customer-reviews/R29G6KHDDPX1YF?ref=pf_ov_at_pdctrvw_srp
+original_url: https://www.amazon.com/gp/customer-reviews/R29G6KHDDPX1YF
 ---
+
+*(This review originally [appeared on Amazon.com](https://www.amazon.com/gp/customer-reviews/R29G6KHDDPX1YF))*
 
 President Taft suddenly shows up, covered in mud, on the White House lawn in 2011. In this imagined timeline, he had mysteriously disappeared in 1913. From the book's title, you already know that he's going to be pressed into service as a presidential candidate, perhaps TR-style with his own, new party. That's a great idea for a story and discussion of current issues. And, it will still be a great idea when someone decides to write it.
 
