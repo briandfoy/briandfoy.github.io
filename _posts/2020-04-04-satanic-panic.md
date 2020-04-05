@@ -27,6 +27,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * September 2015 - Dan Shewan - [Conviction of Things Not Seen: The Uniquely American Myth of Satanic Cults](https://psmag.com/social-justice/make-a-cross-with-your-fingers-its-the-satanic-panic)
 * August 2015 - Richard Beck - *We Believe the Children: A Moral Panic in the 1980s*
 * July 2015 - *TIME* - [The Evolution of Modern Satanism in the United States](https://time.com/3973573/satanism-american-history/)
+* June 2015 - Robert Lamb - ["How Satanic Panic Worked"](https://history.howstuffworks.com/historical-events/satanic-panic.htm)
+* April 2015 - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
 * January 2014 - Linda Rodriguez McRobbie - [The Real Victims of Satanic Ritual Abuse](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * December 2013 - Richard Noll - [When Psychiatry Battled the Devil](https://www.garygreenbergonline.com/w/wp-content/uploads/2013/12/Psychiatric_Times_-_When_Psychiatry_Battled_the_Devil_-_2013-12-06.pdf)
 * 2013 - *PAUL: The Secret Story of Olympia's Satanic Sheriff* ([Vimeo](https://vimeo.com/48557671) - Thurston County case
