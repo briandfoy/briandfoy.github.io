@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programming the Shell
-categories:
+categories: programming
 tags: bash
 stopwords:
 last_modified:
