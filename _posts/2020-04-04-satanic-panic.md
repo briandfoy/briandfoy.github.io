@@ -19,6 +19,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * April 2019 - Penny Lane ["Hail Satan", documentary](https://www.hailsatanfilm.com)
 * November 2018 - Chelsey Weber-Smith - ["American Hysteria" podcast](https://www.stitcher.com/podcast/chelsey-webersmith/american-hysteria/e/57668940)
 * August 2017 - *Stuff You Should Know* - ["How Satanism Works"](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/how-satanism-works-29467653/)
+* August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
 * June 2017 - Travis County District Attorney Margaret Moore files a motion to dismiss the Kellers case
 * October 2016 - Aja Romano- [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
@@ -63,6 +64,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1987 - DSM-III-R, with extensive revisions for dissociative disorders
 * 1984-1990 - First Accusations in the [McMartin Preschool case](https://en.wikipedia.org/wiki/McMartin_preschool_trial)
 * 1986 - SRA classes taught by International Society for the Study of Multiple Personality and Dissociation
+* November 1986 - Mike Wallace, *60 Minutes* - interviews on the McMartin case
 * 1986 - *The Devil Rides Out*
 * 1985 - Warnke on 20/20
 * December 1983 - International Society for the Study of Multiple Personality and Dissociation Annual Conference
@@ -83,9 +85,14 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * "A Place Called Dagon" - H.P. Lovecraft
 * Pamela Klein - trainer
 * Jerry Simandl, Chicago Police - trainer
+* Children's Institute International
+* Manhattan Ranch Pre-School
+
 
 ## Other References
 
+* [Psychiatric Times retracts essay on “satanic ritual abuse”](http://retractionwatch.com/2014/02/13/psychiatric-times-retracts-essay-on-satanic-ritual-abuse/)
+* [Little Rascals Daycare Case](https://www.littlerascalsdaycarecase.org) - Edenton Seven
 * *Satanic Panic: Pop-Cultural Paranoia in the 1980s*
 * 1932 Frederic Bartlett - *Remembering: A Study in Experimental and Social Psychology*
 * [Law Enforcement Guide to Satanic Cults](https://www.youtube.com/watch?v=NBf35HS6atU)
