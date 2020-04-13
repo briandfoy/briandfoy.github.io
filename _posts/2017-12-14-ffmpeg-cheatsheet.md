@@ -22,6 +22,14 @@ Remove audio:
 
 	ffmpeg -i input.mp4 -c copy -an input-nosound.mp4
 
+Be quiet:
+
+	ffmpeg -hide_banner -loglevel warning
+
+Fire and forget (redirect stdin):
+
+	nohup ffmpeg ... </dev/null &
+
 Change size:
 
     ffmpeg -i input.mp4 -s 1280x720 -c:a copy resized.mp4
