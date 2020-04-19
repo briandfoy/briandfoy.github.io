@@ -3,7 +3,7 @@ layout: post
 title: ffmpeg cheatsheet
 categories: programming
 tags: cheatsheet ffmpeg
-stopwords:
+stopwords: stdin
 last_modified:
 original_url:
 ---
@@ -29,6 +29,12 @@ Be quiet:
 Fire and forget (redirect stdin):
 
 	nohup ffmpeg ... </dev/null &
+
+Find the size:
+
+	ffprobe -v error -show_entries stream=width,height \
+		-select_streams v:0 -of json  input.mp4 \
+		| jq '.streams[0]|.width,.height' | paste - -
 
 Change size:
 
