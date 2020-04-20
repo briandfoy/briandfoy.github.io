@@ -9,6 +9,7 @@ last_modified:
 
 ## Unvetted
 
+* [The Unix Chainsaw - Gary Bernhardt](https://www.youtube.com/watch?v=sCZJblyT_XM)
 * [The shells building blocks](https://blog.balthazar-rouberol.com/the-shells-building-blocks)
 * [Bash Special Characters](http://mywiki.wooledge.org/BashGuide/SpecialCharacters)
 * [Writing Safe Shell Scripts](https://sipb.mit.edu/doc/safe-shell/)
