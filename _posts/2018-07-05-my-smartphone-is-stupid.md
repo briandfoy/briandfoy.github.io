@@ -3,7 +3,7 @@ layout: post
 title: My Smartphone is Stupid
 categories: technology
 tags: iphone stupidity
-stopwords:
+stopwords: wayfinding
 last_modified:
 original_url:
 ---
