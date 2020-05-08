@@ -15,3 +15,5 @@ The article goes here
 * https://eklitzke.org/bash-$%2A-and-$@
 
 * https://advancedweb.hu/how-to-bash-and-jq-generate-statistics-for-a-rest-api/
+
+* https://stackoverflow.com/questions/4824590/propagate-all-arguments-in-a-bash-shell-script
