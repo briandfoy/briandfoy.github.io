@@ -3,7 +3,7 @@ layout: post
 title: Postgres can't find llvmjit.so
 categories: programming
 tags: postgres
-stopwords:
+stopwords: conf libffi libs llvm
 last_modified:
 original_url:
 ---
@@ -26,13 +26,13 @@ I flailed around trying to track down libraries on the local side, but then it o
 
 Looking at the ArchLinux box, I saw that _/usr/lib/postgresql/llvmjit.so_ was there. There are those times that you hope something is missing because it makes the fix so easy. I tried reinstalling `llvm-libs` and `libffi`, but they are both up to date (and I don't customize my ArchLinux box):
 
-{% start highlight text %}
+{% highlight text %}
 $ sudo pacman -S llvm-libs libffi
 {% endhighlight %}
 
 Same error. So, _llvmjit.so_ exists, what about _libffi.so.6_? Well, it's not there. It's _libffi.so.7_:
 
-{% start highlight text %}
+{% highlight text %}
 $ ldconfig -p | grep libffi
 	libffi.so.7 (libc6,x86-64) => /usr/lib/libffi.so.7
 	libffi.so (libc6,x86-64) => /usr/lib/libffi.so
@@ -48,14 +48,14 @@ Reinstalling the _postgresql_ package didn't help either. This is the sort of no
 
 I still don't know what's up with that, but there was another thing I noticed; I can turn off JIT, either in _postgresql.conf_ or as a setting in the database:
 
-{% start highlight text %}
+{% highlight text %}
 postgres=# alter system set jit=on;
 ALTER SYSTEM
 {% endhighlight %}
 
 To do that you need to be a superuser, so I added that to my Terraform and reapplied. This is much nicer than doing it through Postgres:
 
-{% start highlight %}
+{% highlight text %}
 resource "postgresql_role" "su_brian" {
         name     = "su_brian"
         login    = true
@@ -65,5 +65,4 @@ resource "postgresql_role" "su_brian" {
 }
 {% endhighlight %}
 
-So, now things are off and I can get some work done.
 
