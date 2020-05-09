@@ -3,7 +3,7 @@ layout: post
 title: Switching From FreeBSD to Linux
 categories: sysadmin
 tags: freebsd archlinux linux linode
-stopwords:
+stopwords: ish MGB
 last_modified:
 original_url:
 ---
