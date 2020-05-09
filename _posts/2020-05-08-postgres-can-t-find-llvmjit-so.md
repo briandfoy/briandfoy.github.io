@@ -3,7 +3,7 @@ layout: post
 title: Postgres can't find llvmjit.so
 categories: programming
 tags: postgres
-stopwords: conf libffi libs llvm
+stopwords: conf libffi libs llvm cp ffi
 last_modified:
 original_url:
 ---
@@ -44,7 +44,7 @@ lrwxrwxrwx  1 root root       15 Apr  9 00:09 libffi.so.7 -> libffi.so.7.1.0
 
 Reinstalling the _postgresql_ package didn't help either. This is the sort of nonsense that made me leave FreeBSD to try ArchLinux. It's all just supposed to work. I'm trying my best to let ArchLinux manage itself even though I'm comfortable compiling everything myself.
 
-The Unix StackExchange question [Arch: broken lib-llvm dependency using postgresql on Manjaro](https://unix.stackexchange.com/q/583225/12567) appears to have the same problem, but there is no answer. The Reddit thread [Warning - latest udpate of ffi stuff broke mostly everything](https://www.reddit.com/r/archlinux/comments/fyutoz/warning_latest_udpate_of_ffi_stuff_broke_mostly/) notes something broke in _libffi_ in April.
+The Unix StackExchange question [Arch: broken lib-llvm dependency using postgresql on Manjaro](https://unix.stackexchange.com/q/583225/12567) appears to have the same problem, but there is no answer. The Reddit thread [Warning - latest update of ffi stuff broke mostly everything](https://www.reddit.com/r/archlinux/comments/fyutoz/warning_latest_udpate_of_ffi_stuff_broke_mostly/) notes something broke in _libffi_ in April.
 
 The expedient fix it to simply cp _libffi.so.7_ to _libffi.so.6_ (or link or whatever), but future updates might clean it out. I'm reluctant to use that sort of fix on this box.
 
