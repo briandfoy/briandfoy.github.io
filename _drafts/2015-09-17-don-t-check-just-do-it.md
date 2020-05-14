@@ -5,8 +5,11 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+In various things, you can simplfy programming with idempotent interfaces.
+
+* idempotency
+make_path( $backup_dir, { mode => 0700 } unless -d $backup_dir;
 
