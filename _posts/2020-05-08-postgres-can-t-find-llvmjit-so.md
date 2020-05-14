@@ -20,7 +20,9 @@ I was fortunate to get this error because other things I tried were dumping core
 
 At first, I figured the problem was on the local side with the way I built DBD::Pg. I tracked it down to the line in Perl where it dumps core, then did very verbose DBI tracing (`DBI_TRACE=9`) to find the spot in the _.c_ file where it blows up. Knowing that was different than being about to fix it.
 
-I flailed around trying to track down libraries on the local side, but then it occurred to me that the error message was from the remote side. That seems so obvious now, but that's split milk under the bridge. But yeah, I turned on Postgres logging on the server and there was the error message:
+I flailed around trying to track down libraries on the local side, but then it occurred to me that the error message was from the remote side. That seems so obvious now, but that's split milk under the bridge. I was biased in that direction because I'd already identified [an issue with library paths in the _.bundle_ that DBD::Pg produces](https://github.com/bucardo/dbdpg/issues/69).
+
+But yeah, I turned on Postgres logging on the remote server and there was the error message:
 
 > 2020-05-08 15:17:01.236 EDT [923606] ERROR:  could not load library "/usr/lib/postgresql/llvmjit.so": libffi.so.6: cannot open shared object file: No such file or directory
 
@@ -42,7 +44,7 @@ lrwxrwxrwx  1 root root       15 Apr  9 00:09 libffi.so.7 -> libffi.so.7.1.0
 -rwxr-xr-x  1 root root    42976 Apr  9 00:09 libffi.so.7.1.0
 {% endhighlight %}
 
-Reinstalling the _postgresql_ package didn't help either. This is the sort of nonsense that made me leave FreeBSD to try ArchLinux. It's all just supposed to work. I'm trying my best to let ArchLinux manage itself even though I'm comfortable compiling everything myself.
+Reinstalling the _postgresql_ package didn't help either. This is the sort of nonsense that made me leave FreeBSD to try ArchLinux. It's all just supposed to work. [That's why I'm using it, after all](/switching-from-freebsd-to-linux/). I'm trying my best to let ArchLinux manage itself even though I'm comfortable compiling everything myself.
 
 The Unix StackExchange question [Arch: broken lib-llvm dependency using postgresql on Manjaro](https://unix.stackexchange.com/q/583225/12567) appears to have the same problem, but there is no answer. The Reddit thread [Warning - latest update of ffi stuff broke mostly everything](https://www.reddit.com/r/archlinux/comments/fyutoz/warning_latest_udpate_of_ffi_stuff_broke_mostly/) notes something broke in _libffi_ in April.
 
