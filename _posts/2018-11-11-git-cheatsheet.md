@@ -17,4 +17,5 @@ Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766
 	git remote prune origin
 
 Show filenames in log messages ([Stackoverflow](https://stackoverflow.com/a/1230094/2766176))
+
 	git log --name-only
