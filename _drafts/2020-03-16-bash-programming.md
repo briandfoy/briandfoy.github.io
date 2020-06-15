@@ -17,3 +17,5 @@ The article goes here
 * https://advancedweb.hu/how-to-bash-and-jq-generate-statistics-for-a-rest-api/
 
 * https://stackoverflow.com/questions/4824590/propagate-all-arguments-in-a-bash-shell-script
+
+* https://github.com/scop/bash-completion.git
