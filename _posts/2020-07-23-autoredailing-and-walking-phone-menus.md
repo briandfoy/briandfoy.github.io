@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-There's a particular government service I need to interact with and they have rebuffed my messaging through their official website. I'm supposed to call them, but everyone else is calling them too. Instead of a callback service or something similar, this government office makes you walk through a two minute phone tree where several messages (all completely irrelevant to me) cannot be bypassed. After two and a half minutes, it tells you that no agents are busy and to call back later.
+There's a particular government service I need to interact with and they have rebuffed my messaging through their official website. I'm supposed to call them, but everyone else is calling them too. Instead of a callback service or something similar, this government office makes you walk through a two minute phone tree where several messages (all completely irrelevant to me) cannot be bypassed. After two and a half minutes, it tells you that no agents are available and to call back later.
 
 Many people say they spend their days calling this number, over and over. Some people say they've called it 300 times a day. Ridiculous. Some people use various redialer programs on Android, which I don't have. But what could I do with my MacBook?
 
@@ -118,3 +118,17 @@ Your browser does not support the video tag.
 </video>
 
 But, eventually a human picks up and I'll fumble getting to my phone. Luckily I have a program to automate trying again.
+
+## Next day update
+
+The next day, the phone menu had changed to add another unskippable message, so I had to add five more commas after the 1 option:
+
+	8005551212,1,,,,,,,,,,,,,,9,,2,,,,,ACCOUNTNO,,1,,PERSONALCODE
+
+I let this script run for a couple hours and finally got to an agent, but an agent who couldn't see what was wrong with my account until I offered a likely explanation. In that case, it was apparent to him, but he couldn't deal with that so I was transferred to a specialist. But, I wasn't really transferred. Rather, I was put into the hold queue for "between 120 and 127 minutes".
+
+After 10 minutes, the automated service gave me the option to get a call back rather than wait. But wait! I had to "press 1" to confirm my number and the touchpad on the FaceTime notification. Clicking the number on the mouse sent a very short tone that the system would not pick up on. I tried this several times as it cycled me through the phone tree after it "couldn't understand my response".
+
+![Keypad](/images/phone_menu_automation/keypad.png)
+
+However, I wondered if I could type the 1 on my keyboard. That worked where clicking on the keypad didn't. It worked for the next keypress too.
