@@ -3,7 +3,7 @@ layout: post
 title: Autoredailing and walking phone menus
 categories: programming
 tags: perl applescript
-stopwords: cH AppleEvents
+stopwords: cH AppleEvents FaceTime StackExchange's
 last_modified:
 original_url:
 ---
@@ -32,7 +32,7 @@ I get a notification with a "Call" button, which is still annoying: because I ha
 
 ## Automate the macOS UI
 
-But, I can control the UI with AppleScript to press buttons for me. I found an example on Apple StackExchange's [Auto Facetime call using Applescript, without confirm
+But, I can control the UI with AppleScript to press buttons for me. I found an example on Apple StackExchange's [Auto FaceTime call using AppleScript, without confirm
 ](https://apple.stackexchange.com/a/363833/26244). I wasn't motivated enough to take values from arguments or other settings because I'm using this for a simple purpose. I'll just hardcode those values:
 
 	set number to "8885551212"
