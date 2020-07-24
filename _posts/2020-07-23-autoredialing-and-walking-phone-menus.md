@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Autoredailing and walking phone menus
+title: Autoredialing and walking phone menus
 categories: programming
 tags: perl applescript
 stopwords: cH AppleEvents FaceTime StackExchange's
