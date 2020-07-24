@@ -29,3 +29,5 @@ My iPhone is stupid, and here's why.
 * I have to do extra work to tell Safari to locally save things in my Reading List. Lame. I sit down on the subway and discover my phone wants to fetch those from the network.
 
 * Same with Books. Sync that stuff immediately. Music and videos too.
+
+* Why are you calling? Why do I have to answer to find out? [Google might solve that](https://www.engadget.com/google-phone-app-verified-calls-014543128.html)
