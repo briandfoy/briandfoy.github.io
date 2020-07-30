@@ -123,3 +123,14 @@ span.book_list_title {
 img.book_cover {
 	margin-bottom: 20px;
 	}
+
+div.main_menu {
+	text-align: right;
+	font-size: 2em;
+	margin-right: 30px
+	}
+
+span.big_name {
+	font-size: 3em;
+	}
+
