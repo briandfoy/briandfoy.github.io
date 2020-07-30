@@ -3,7 +3,7 @@ layout: post
 title: No ifs, ands, or buts
 categories: programming object-orientation perl smalltalk
 tags:
-stopwords:
+stopwords: Pharo's ifFalse ifTrue
 last_modified:
 original_url:
 ---
@@ -104,10 +104,10 @@ package Number {
 	}
 
 package None {
-	sub new        ( $class      ) { bless {}, $_[0] }
-	sub if_three   ( $self, $sub ) { $_[0] }
-	sub if_five    ( $self, $sub ) { $_[0] }
-	sub if_neither ( $self, $sub ) { $_[0] }
+	sub new        { bless {}, $_[0] }
+	sub if_three   { $_[0] }
+	sub if_five    { $_[0] }
+	sub if_neither { $_[0] }
 	}
 
 package Neither {
