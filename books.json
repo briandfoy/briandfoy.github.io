@@ -1,0 +1,127 @@
+[
+{
+	"title": "Learning Perl, 7th Edition",
+	"publisher": "O'Reilly Media",
+	"pushlisher_page": "",
+	"date": "2016-10-28",
+	"authors": [
+		"Tom Phoenix",
+		"Randal L. Schwartz",
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/390HsqZ",
+	"good_reads": "",
+	"website": "https://www.learning-perl.com/",
+	"cover": "/images/book_covers/learning_perl.jpg",
+	"description": ""
+},
+{
+	"title": "Intermediate Perl, 2nd Edition",
+	"publisher": "O'Reilly Media",
+	"pushlisher_page": "",
+	"date": "2012-07-31",
+	"authors": [
+		"Randal L. Schwartz",
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/2Um09A7",
+	"good_reads": "",
+	"website": "https://www.intermediateperl.com/",
+	"cover": "/images/book_covers/intermediate_perl.jpg",
+	"description": ""
+},
+{
+	"title": "Mastering Perl, 2nd Edition",
+	"publisher": "O'Reilly Media",
+	"pushlisher_page": "",
+	"date": "2014-01-09",
+	"authors": [
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/3daH1xn",
+	"good_reads": "",
+	"website": "https://www.masteringperl.org/",
+	"cover": "/images/book_covers/mastering_perl.jpg",
+	"description": ""
+},
+{
+	"title": "Programming Perl, 4th Edition",
+	"publisher": "O'Reilly Media",
+	"pushlisher_page": "",
+	"date": "2012-03-13",
+	"authors": [
+		"Larry Wall",
+		"Tom Christiansen",
+		"Jon Orwant",
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/3a2Vutu",
+	"good_reads": "",
+	"website": "https://www.programmingperl.org/",
+	"cover": "/images/book_covers/programming_perl.jpg",
+	"description": ""
+},
+{
+	"title": "Effective Perl Programming, 2nd Edition",
+	"publisher": "Addison-Wesley Professional",
+	"pushlisher_page": "",
+	"date": "2010-04-29",
+	"authors": [
+		"Joseph Hall",
+		"Joshua McAdams",
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/2QtvIa2",
+	"good_reads": "",
+	"website": "https://www.effectiveperlprogramming.com/",
+	"cover": "/images/book_covers/effective_perl_programming.png",
+	"description": ""
+},
+{
+	"title": "Learning Perl Exercises",
+	"publisher": "Perl School",
+	"pushlisher_page": "https://perlschool.com/books/learning-perl-exercises/",
+	"date": "2020-02-04",
+	"authors": [
+		"brian d foy"
+		],
+	"amazon": "",
+	"leanpub": "https://leanpub.com/learning_perl_exercises",
+	"good_reads": "",
+	"website": "https://www.effectiveperlprogramming.com/",
+	"cover": "/images/book_covers/learning_perl_exercises.jpg",
+	"description": ""
+},
+{
+	"title": "Mojolicious Web Clients",
+	"publisher": "Perl School",
+	"pushlisher_page": "https://perlschool.com/books/mojolicious-web-clients/",
+	"date": "2019-11-30",
+	"authors": [
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/2P4StQB",
+	"leanpub": "https://leanpub.com/mojo_web_clients",
+	"good_reads": "",
+	"website": "",
+	"cover": "/images/book_covers/mojolicious_web_clients.png",
+	"description": ""
+},
+{
+	"title": "Preparing for Perl 7",
+	"publisher": "Perl School",
+	"pushlisher_page": "https://perlschool.com/books/preparing-for-perl-7/",
+	"date": "2020-06-24",
+	"authors": [
+		"brian d foy"
+		],
+	"amazon": "",
+	"leanpub": "https://leanpub.com/preparing_for_perl7",
+	"good_reads": "",
+	"website": "",
+	"cover": "/images/book_covers/preparing_for_perl7.png",
+	"description": ""
+}
+
+
+]

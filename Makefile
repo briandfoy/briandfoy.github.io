@@ -60,7 +60,7 @@ localstop: ## stop the local server
 localrestart: localstop localstart ## restart the local server
 
 .PHONY: preprocess
-preprocess: archives.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+preprocess: archives.md books.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 # https://longqian.me/2017/02/09/github-jekyll-tag/
 .PHONY: tag
@@ -116,6 +116,9 @@ archives.md: bin/make_archives bin/post_years $(POSTS)
 	@ bin/post_years $(POSTS) | xargs bin/make_archives > $@
 	- git add $@
 	- git commit -m 'Update archives for the years' $@
+
+books.md: bin/make_books_page.pl books.json
+	$(PERL) bin/make_books_page.pl > $@
 
 .PHONY: show_vars
 show_vars: ## show some variables, useful for debugging
