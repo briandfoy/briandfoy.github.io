@@ -28,3 +28,7 @@ Along with the, I use *jq* to extract the URL:
 Run Software Update from the command line:
 
 	$ softwareupdate -ia --include-config-data
+
+## Start Screen Sharing
+
+	$ open vnc://user:password@host

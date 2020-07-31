@@ -38,13 +38,13 @@ One of the really interesting exercises to start to think about this is to look 
 
 Take any bit of advertising that you see, whether that's a billboard, TV commercial, pop-up ad, or even just a conspicuous product placement. You might make fun of quite a bit of what you see, and some of it is probably stupid, but I'd say that most of it is purposely executed to reach its target audience based on what the advertiser *thinks* that market wants. Advertising, then, delineates market segments.
 
-If you get the opportunity to travel the world, you'll get to see a perfect example of this. Much to my despair, American fast food chains seem to be everywhere. Literally across the street from the Sphinx (outside Cairo), is a Kentucky Fried Chicken. I can find a McDonald's in many places I go, and the *Economist* uses that fact to produce their [Big Mac Index](https://www.economist.com/comment/2186355). And, since not everyone is an American, the same company can't advertise in the same manner or with the same content everywhere. That is, McDonald's doesn't have a single or unified message. McDonald's in Auckland has a lamb burger, and one in Dubai has falafel.
+If you get the opportunity to travel the world, you'll get to see a perfect example of this. Much to my despair, American fast food chains seem to be everywhere. Literally across the street from the Sphinx (outside Cairo), is a Kentucky Fried Chicken (but chips, not biscuits!). I can find a McDonald's in many places I go, and the *Economist* uses that fact to produce their [Big Mac Index](https://www.economist.com/comment/2186355). And, since not everyone is an American, the same company can't advertise in the same manner or with the same content everywhere. That is, McDonald's doesn't have a single or unified message. McDonald's in Auckland has a lamb burger (don't recommend), and one in Dubai has falafel.
 
 Set aside the particular content for a moment, though. Consider these extra-content factors that select an audience based on where they will be, when they will be there, and how :
 
-* __Where did you see it?__ Downtown? Highway billboard? Website? In a bar? At a busstop? Was it advertising something nearby, like a restaurant or store, or for something that you can get anywhere, like a can of Coke?
+* __Where did you see it?__ Downtown? Highway billboard? Website? In a bar? At a bus stop? Was it advertising something nearby, like a restaurant or store, or for something that you can get anywhere, like a can of Coke?
 
-* __When did you see it?__ Is it something you see in the morning or in the afternoon? Say, for instance, a billboard on the highway leading into town as opposed to the highway leading out of town?
+* __When did you see it?__ Is it something you see in the morning or in the afternoon? Say, for instance, a billboard on the highway leading into town as opposed to the highway leading out of town? Did you hear it on drive time radio? Late night TV infomercials?
 
 * __What else was going on around it at the same time?__ Was there a sporting event or a concert, for instance?
 

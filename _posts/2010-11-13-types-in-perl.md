@@ -20,7 +20,7 @@ I think this is why I get confused with most people's explanations. Most of the 
 
 >When we say that Haskell has a strong type system, we mean that the type system guarantees that a program cannot contain certain kinds of errors.
 
-That provides an easy way for Haskell to compare itself to other languages. In Haskell, certain classes of errors can't occur in a valid program. In other languages, maybe those classes or errors can. The question is, does that matter to you, both personally as a matter of beauty, and economically, as a productive use of your time?
+That provides an easy way for Haskell to compare itself to other languages. In Haskell, certain classes of errors can't occur in a valid program. In other languages, maybe those classes of errors can. The question is, does that matter to you, both personally as a matter of beauty, and economically, as a productive use of your time?
 
 And now comes the bit where I try to do better and will fail.
 

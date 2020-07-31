@@ -38,6 +38,6 @@ open source in terms of licenses in kinda outmoded in my view. Open
 source is about transparency at the community level but also about
 privacy in terms of my motivations.
 
-Simon also said quoted:
+Simon also said:
 
 > Whenever you create a system, you create the game that plays it.
