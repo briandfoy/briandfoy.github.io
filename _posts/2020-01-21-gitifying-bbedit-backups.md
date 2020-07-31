@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gitifying BBEdit Backups
+categories:  sysadmin
 tags: bbedit gist git gitx
 stopwords: Gitifying gitx
 ---

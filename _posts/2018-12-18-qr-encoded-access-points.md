@@ -1,6 +1,7 @@
 ---
 layout: post
 title: QR-encoded Access Points
+categories: sysadmin
 tags: qr-code wifi ruby ubuntu
 stopwords: QR ZXing qrencode qrencoder auth png th
 ---

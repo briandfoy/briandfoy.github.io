@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My Perl 6 Talking Points
+categories: opinion
 tags: perl6 raku rescued-content
 stopwords: raku
 ---

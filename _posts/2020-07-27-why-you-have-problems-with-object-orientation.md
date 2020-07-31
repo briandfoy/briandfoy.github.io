@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Why you have problems with object orientation
-categories: perl smalltalk programming object-orientation
-tags:
+categories: programming
+tags: perl smalltalk object-orientation
 stopwords: Magna Carta Cincom Cor's DateOlderThan Leapseconds ORMs Smalltalk's fullstack uncloned MVC webservers
 last_modified:
 original_url:

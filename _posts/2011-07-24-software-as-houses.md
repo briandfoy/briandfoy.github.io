@@ -1,7 +1,8 @@
 ---
 layout: post
 title: If software were houses
-tags: opinion rescued-content software-engineering
+categories: opinion programming
+tags: rescued-content programming
 stopwords:
 ---
 

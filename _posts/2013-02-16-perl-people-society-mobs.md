@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Perl, people, society, & mobs
+categories: opinion
 tags: perl marketing opinion rescued-content
 stopwords: flyer
 ---

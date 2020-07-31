@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use several Git Services at Once
-categories: git sysadmin
+categories: sysadmin
 tags: github bitbucket gitlab
 stopwords: misflag
 last_modified:

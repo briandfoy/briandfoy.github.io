@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Converting YAML to JSON
+categories: programming
 tags: json yaml jq yq aliases cpan
 ---
 

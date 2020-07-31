@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The coming schism in Perl
+categories: opinion
 tags: history legacy opinion perl rescued-content
 stopwords:
 ---

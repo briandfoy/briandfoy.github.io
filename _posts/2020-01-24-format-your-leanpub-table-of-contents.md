@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: programming
 title: Format Your LeanPub Table of Contents
 tags: css-selector leanpub mojolicious mojo-web-clients
 stopwords: culted toc mojo

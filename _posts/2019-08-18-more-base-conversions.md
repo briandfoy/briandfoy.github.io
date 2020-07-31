@@ -1,6 +1,7 @@
 ---
 layout: post
 title: More number base conversions on the command line
+categories: shell
 tags: perl bash aliases base-36
 ---
 

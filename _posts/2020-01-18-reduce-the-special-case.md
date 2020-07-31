@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Reduce the Special Case
-tags: edge-cases
+categories: programming
+tags: edge-cases perl
 stopwords:
 ---
 

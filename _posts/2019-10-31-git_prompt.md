@@ -1,6 +1,7 @@
 ---
 layout: post
 title: My bash prompt is now two lines
+categories: sysadmin
 tags: git bash prompt
 stopwords: png
 ---

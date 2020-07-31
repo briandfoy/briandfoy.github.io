@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Backing up my WordPress blogs
+categories: sysadmin
 tags: wordpress systemd mysqldump wp-cli
 stopwords: Arp cli conf php usr wordpress wp
 ---

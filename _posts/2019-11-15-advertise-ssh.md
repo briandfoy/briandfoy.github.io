@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Advertising SSH on Ubuntu
+categories: sysadmin
 tags: ubuntu my-macbook-air
 stopwords: dns sd
 ---

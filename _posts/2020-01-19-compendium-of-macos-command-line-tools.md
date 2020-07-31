@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Compendium of macOS Command-Line Tools
+categories:
 tags: macOS command-line
-stopwords:  plist webloc
+stopwords: plist webloc
 last_modified:
 original_url:
 ---

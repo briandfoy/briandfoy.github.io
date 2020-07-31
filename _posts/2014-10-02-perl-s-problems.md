@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Perl's Problems
-categories: opinion perl
-tags:
+categories: opinion programming
+tags: perl
 stopwords: CMS Tachibana notest
 last_modified:
 original_url:

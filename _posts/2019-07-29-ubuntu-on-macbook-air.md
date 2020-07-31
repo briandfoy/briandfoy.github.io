@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rescuing my MacBook Air by Installing Ubuntu
+categories: sysadmin
 tags: ubuntu my-macbook-air
 ---
 

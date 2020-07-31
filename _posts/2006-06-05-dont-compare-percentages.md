@@ -1,5 +1,6 @@
 ---
 layout: post
+compare: math
 title: Don't compare percentages
 tags: general-idiocy rescued-content math
 stopwords: APPL MSFT sigzero tiobe's O'Reilly's Binstock

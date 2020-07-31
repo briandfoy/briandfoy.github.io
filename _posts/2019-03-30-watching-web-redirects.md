@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Watching web redirects
+categories: sysadmin
 tags: http perl ruby python mojolicious
 stopwords: Mojolicious's
 ---
