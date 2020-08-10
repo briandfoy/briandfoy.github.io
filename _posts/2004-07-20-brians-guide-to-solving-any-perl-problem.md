@@ -197,6 +197,8 @@ Since you will probably need to do this so much, I recommend some sort of plush 
 
 You have been staring at the computer screen, so maybe a different medium will let you look at things in a new way. Try looking at a print-out of your program.
 
+If you don't want to use dead trees, try looking at the source without syntax highlight, or even in a different editor. Change up the way it looks and the fonts you use so you see different patterns.
+
 ### Try working on something else
 
 There are probably other things you need to work on within the same  project. Perhaps paying attention to other items in your to-do list gives you some ideas.
