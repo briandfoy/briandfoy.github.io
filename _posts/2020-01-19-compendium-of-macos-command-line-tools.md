@@ -2,7 +2,7 @@
 layout: post
 title: Compendium of macOS Command-Line Tools
 categories:
-tags: macOS command-line
+tags: macOS command-line cheatsheet
 stopwords: plist webloc
 last_modified:
 original_url:
@@ -32,3 +32,19 @@ Run Software Update from the command line:
 ## Start Screen Sharing
 
 	$ open vnc://user:password@host
+
+## Share a remote volume
+
+Don't use the Unix path for the remote side. It's the name under */Volumes*:
+
+	$ open afp://host/VolumeName
+
+Normal URL encoding doesn't seem to work. Instead of `+` for a space,
+use a shell escape or quote that part
+
+	$ open afp://host/Volume\ Name
+	$ open afp://host/'Volume Name'
+
+Supply credentials:
+
+	$ open afp://user:pass@host/VolumeName
