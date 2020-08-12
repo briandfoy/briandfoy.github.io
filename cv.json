@@ -196,7 +196,7 @@
 	},
 	{
 	"title": "Learning Perl, 4th Edition",
-	"url": "http://www.learning-perl.com"
+	"url": "http://www.learning-perl.com",
 	"edition": "4th",
 	"covers": "5.8",
 	"role": "co-author",
@@ -892,7 +892,7 @@
 	"publisher": "The Perl Journal",
 	"publisher_site": "",
 	"publication_date": "issue 9"
-	},
+	}
 	],
 "Interviews": [
 	{
@@ -1218,7 +1218,10 @@
       "venue" : "YAPC::Brasil",
       "location" : "Rio de Janeiro",
       "date" : "November 5, 2011",
-      "url" : "https://www.slideshare.net/brian_d_foy/bag-of-tricks,https://www.youtube.com/watch?v=nXeyGvvQYlM"
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/bag-of-tricks",
+      	"https://www.youtube.com/watch?v=nXeyGvvQYlM"
+      	]
    },
    {
       "url" : "https://www.youtube.com/watch?v=WXscw0qjqMg",
@@ -1249,7 +1252,10 @@
       "date" : "June 17, 2012"
    },
    {
-      "url" : "https://www.slideshare.net/brian_d_foy/reverse-installing-cpan,https://www.youtube.com/watch?v=AvvqKAbCU5s",
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/reverse-installing-cpan",
+      	"https://www.youtube.com/watch?v=AvvqKAbCU5s"
+      	],
       "date" : "May 25, 2013",
       "venue" : "Polish Perl Workshop",
       "location" : "Warsaw",
@@ -1257,7 +1263,10 @@
    },
    {
       "date" : "October 17, 2013",
-      "url" : "https://www.slideshare.net/brian_d_foy/json-regex,https://www.youtube.com/watch?v=-O-Uajd2WzU",
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/json-regex",
+      	"https://www.youtube.com/watch?v=-O-Uajd2WzU"
+      	],
       "title" : "Parsing JSON with a single regex",
       "location" : "Houston",
       "venue" : "Houston Perl mongers"
@@ -1291,7 +1300,10 @@
       "title" : "Perl Power Tools"
    },
    {
-      "url" : "https://www.slideshare.net/brian_d_foy/the-surprisingly-tense-history-of-the-schwartzian-transform,https://www.youtube.com/watch?v=QsqBgK_30r4",
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/the-surprisingly-tense-history-of-the-schwartzian-transform",
+      	"https://www.youtube.com/watch?v=QsqBgK_30r4"
+      	],
       "date" : "September 1, 2016",
       "venue" : "Alpine Perl Workshop",
       "location" : "Innsbruck",
@@ -1341,7 +1353,10 @@
    },
    {
       "date" : "June 29, 2017",
-      "url" : "https://www.slideshare.net/brian_d_foy/prettydump-perl-6-,https://www.youtube.com/watch?v=I7O6Raj922U",
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/prettydump-perl-6-",
+      	"https://www.youtube.com/watch?v=I7O6Raj922U"
+      	],
       "title" : "PrettyDump Perl 6",
       "location" : "London",
       "venue" : "London Perl mongers"
@@ -1351,7 +1366,10 @@
       "location" : "Amsterdam",
       "venue" : "The Perl Conference",
       "date" : "August 9, 2017",
-      "url" : "https://www.slideshare.net/brian_d_foy/20-years-in-perl,https://www.youtube.com/watch?v=S_L6Ey2bs-k"
+      "url" : [
+      	"https://www.slideshare.net/brian_d_foy/20-years-in-perl",
+      	"https://www.youtube.com/watch?v=S_L6Ey2bs-k"
+      	]
    },
    {
       "venue" : "The Open Source Convention",
@@ -1378,7 +1396,10 @@
       "venue" : "",
       "location" : "",
       "title" : "Recognizing Jim Brandt or brian d foy",
-      "url" : "http://vimeo.com/1195961,http://youtube.com/watch?v=Koa0ovy7Xjw,http://video.google.com/videoplay?docid=6216683031255536909",
+      "url" : [
+      	"http://vimeo.com/1195961,http://youtube.com/watch?v=Koa0ovy7Xjw",
+      	"http://video.google.com/videoplay?docid=6216683031255536909"
+      	],
       "date" : "June 2008"
    },
    {
@@ -1386,7 +1407,11 @@
       "location" : "Chicago",
       "venue" : "YAPC::NA",
       "date" : "June 2008",
-      "url" : "http://vimeo.com/1213843,http://www.youtube.com/watch?v=YoiJvlTUfTo,http://video.google.com/videoplay?docid=1633158924015426750A"
+      "url" : [
+      	"http://vimeo.com/1213843",
+      	"http://www.youtube.com/watch?v=YoiJvlTUfTo",
+      	"http://video.google.com/videoplay?docid=1633158924015426750A"
+      	]
    },
    {
       "title" : "Oslo QA Hackathon 2008, Closing Remarks",
