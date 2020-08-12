@@ -124,13 +124,34 @@ img.book_cover {
 	margin-bottom: 20px;
 	}
 
-div.main_menu {
+div.right {
+	margin-top: 82px;
+	}
+
+div.left div {
 	text-align: right;
+	margin-right: 30px;
+	}
+
+div.buttons {
+
+	}
+
+div.superior_menu {
 	font-size: 2em;
-	margin-right: 30px
+    font-weight: bold;
+	margin-top: 20px;
+	}
+
+div.inferior_menu {
+	font-size: 0.8em;
+	margin-top: 30px;
+	margin-right: 30px;
+    font-style: italic;
 	}
 
 span.big_name {
 	font-size: 3em;
+    font-weight: bold;
 	}
 
