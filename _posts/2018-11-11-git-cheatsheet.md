@@ -19,3 +19,7 @@ Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766
 Show filenames in log messages ([Stackoverflow](https://stackoverflow.com/a/1230094/2766176))
 
 	git log --name-only
+
+Show all merged branches
+
+	git branch --merged master
