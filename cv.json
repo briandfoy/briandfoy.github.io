@@ -97,6 +97,27 @@
 	],
 "Books": [
 	{
+	"title": "Preparing for Perl 7",
+	"url": "https://leanpub.com/preparing_for_perl7",
+	"role": "author",
+	"publication_date": "",
+	"publisher": "Perl School"
+	},
+	{
+	"title": "Learning Perl Exercises",
+	"url": "https://leanpub.com/learning_perl_exercises",
+	"role": "author",
+	"publication_date": "February 4, 2020",
+	"publisher": "Perl School"
+	},
+	{
+	"title": "Mojolicious Web Clients",
+	"url": "https://leanpub.com/mojo_web_clients",
+	"role": "author",
+	"publication_date": "",
+	"publisher": "Perl School"
+	},
+	{
 	"title": "Learning Raku",
 	"url": "http://www.learningraku.com",
 	"role": "author",
