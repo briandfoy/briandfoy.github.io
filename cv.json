@@ -121,7 +121,8 @@
 	"title": "Learning Raku",
 	"url": "http://www.learningraku.com",
 	"role": "author",
-	"publication_date": "September 25, 2018"
+	"publication_date": "September 25, 2018",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Intermediate Perl",
@@ -129,14 +130,16 @@
 	"edition": "2nd",
 	"role": "co-author",
 	"publication_date": "August 16, 2012",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Learning Perl Student Workbook",
 	"url": "http://shop.oreilly.com/product/0636920018469.do",
 	"edition": "2nd",
-	"covers": "5.14"
+	"covers": "5.14",
 	"role": "author",
-	"publication_date":
+	"publication_date": "October 1, 2006",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Programming Perl, 4th Edition",
@@ -144,7 +147,8 @@
 	"edition": "4th",
 	"covers": "5.14",
 	"role": "co-author",
-	"publication_date": "March 13, 2012"
+	"publication_date": "March 13, 2012",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Learning Perl, 7th Edition",
@@ -152,14 +156,16 @@
 	"edition": "7th",
 	"covers": "5.24",
 	"role": "co-author",
-	"publication_date": "October 28, 2016"
+	"publication_date": "October 28, 2016",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Mastering Perl",
 	"url": "http://www.masteringperl.org",
-	"edition": "2nd"
+	"edition": "2nd",
 	"role": "author",
-	"publication_date": "January 27, 2014"
+	"publication_date": "January 27, 2014",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Learning Perl, 6th Edition",
@@ -167,7 +173,8 @@
 	"edition": "6th",
 	"covers": "5.14",
 	"role": "co-author",
-	"publication_date": "July 1, 2011"
+	"publication_date": "July 1, 2011",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Effective Perl Programming, 2nd Edition",
@@ -175,7 +182,8 @@
 	"edition": "2nd",
 	"covers": "5.12",
 	"role": "co-author",
-	"publication_date": "April 29, 2010"
+	"publication_date": "April 29, 2010",
+	"publisher": "Addison-Wesley Professional"
 	},
 	{
 	"title": "Learning Perl, 5th Edition",
@@ -183,7 +191,8 @@
 	"edition": "5th",
 	"covers": "5.10",
 	"role": "co-author",
-	"publication_date": "July 7, 2008"
+	"publication_date": "July 7, 2008",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Learning Perl, 4th Edition",
@@ -191,39 +200,45 @@
 	"edition": "4th",
 	"covers": "5.8",
 	"role": "co-author",
-	"publication_date": "July 24, 2005"
+	"publication_date": "July 24, 2005",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Intermediate Perl",
 	"url": "http://www.intermediateperl.com",
 	"role": "co-author",
-	"publication_date": "March 18, 2006"
+	"publication_date": "March 18, 2006",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Learning Perl Student Workbook",
 	"url": "https://amzn.to/2QMs9cR",
 	"role": "author",
-	"publication_date": "October 1, 2006"
+	"publication_date": "October 1, 2006",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "Mastering Perl",
 	"url": "http://www.masteringperl.org",
 	"role": "author",
-	"publication_date": "July 26, 2007"
+	"publication_date": "July 26, 2007",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "iPod &amp; iTunes Hacks",
 	"url": "https://amzn.to/2RCslMZ",
 	"role": "contributor",
 	"chapter": "Hack 61: Control iTunes with Perl",
-	"publication_date": "October 23, 2004"
+	"publication_date": "October 23, 2004",
+	"publisher": "O'Reilly Media"
 	},
 	{
 	"title": "The Best of The Perl Journal: Computer Science and Perl Programming",
 	"url": "https://amzn.to/2Pt9e6x",
 	"chapter": "Chapter 40: Benchmarking",
 	"role": "contributor",
-	"publication_date": "November 15, 2002"
+	"publication_date": "November 15, 2002",
+	"publisher": "O'Reilly Media"
 	}
 	],
 "Articles": [
