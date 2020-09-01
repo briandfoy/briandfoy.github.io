@@ -3,7 +3,7 @@ layout: post
 title: If software were houses
 categories: opinion programming
 tags: rescued-content programming
-stopwords:
+stopwords: html
 ---
 
 chromatic asks ["if we built houses like we build
