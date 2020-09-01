@@ -107,3 +107,7 @@ What is there if you aren't going after numbers? Forsaking profit in volume mean
 This is the point where various people like to interject that something like PHP affects the perception of Perl. Maybe so, but do you really think that you're going to change the minds of people who already don't pay attention? You can get your message out to as many places as you like, but if people aren't going to be there to see it, you might as well do nothing.
 
 The problem with the numbers game is that there is no way to really win. You're constantly fighting short term battles just to keep the numbers up, but you don't care at all who makes up those numbers as long as you can count them. Does the Perl community really care about PHP for anything but watching a number of users? Did Perl really lose anything else? Did major developers leave Perl to work on PHP? Did PHP's emergence really keep Perl from doing anything that it wanted? Or did it just siphon off a lot of Darknet? There's a lot of room for argument there, but I challenge you to really think about why you care. Be honest with yourself. Get down to the crux of it. When you get there, ask yourself if it really matters for anything other than numbers. I bet it doesn't.
+
+## Other interesting takes
+
+* [Planet Money's "Advertising and Race"](https://www.npr.org/2020/08/19/903894678/summer-school-7-advertising-race)
