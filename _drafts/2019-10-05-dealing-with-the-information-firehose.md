@@ -14,13 +14,13 @@ special tools or workflows. That's a topic for a different post,
 
 ## Aggregate, Aggregate, Aggregate
 
-Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that <A href="https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/">NetNewsWire 5</a> came out a couple of months ago! This is about
-a year after <a href="https://medium.com/bpxl-craft/the-future-of-netnewswire-8fc999387a8a">Black Rock officially gave up</a> after years
-of stagnation. It turns out that I don't use the new NetNewsWire because it's interface is in three columns and can't show as much information as the old, still working version.
+Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that [NetNewsWire 5](https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/) came out a couple of months ago! This is about
+a year after [Black Rock officially gave up](https://medium.com/bpxl-craft/the-future-of-netnewswire-8fc999387a8a) after years
+of stagnation. It turns out that I don't use the new NetNewsWire because its interface is in three columns and can't show as much information as the old, still working version.
 
 Back to the story.
 
-I try to collect everything I want to read into my RSS Aggregator. Tech, News, whatever. I even have a program that turns some Twitter
+I try to collect everything I want to read into my RSS Aggregator—Tech, News, whatever. I even have a program that turns some Twitter
 feeds into RSS. I go to one place for all of this.
 
 
