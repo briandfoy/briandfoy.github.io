@@ -48,6 +48,8 @@ Safari has a "Reading List" feature.  The address bar has an icon that I can use
 
 I usually scan something to see if it's interesting to me; if so, I put it into the reading list for later, closer reading. This significantly reduces my time wasted at the beginning of the day.
 
+And, I often find later that I don't really want to read whatever I thought was interesting earlier.
+
 ## Fill in gap time
 
 Once that I have a list of things I know I want to read, I can go back
@@ -63,7 +65,7 @@ For what it's worth, I remember when CNN started. It's promise then didn't quite
 
 I also use Apple's Reminders app. It's basic and should be embarrassing to Apple, but every alternative is deficient in some way.
 
-I sort into
+I sort into:
 
 * Today
 * Tomorrow
@@ -71,12 +73,11 @@ I sort into
 * Long Term
 * Subject specific
 
-My goal isn't to accomplish more through constant reminder. I want some things to lose importance so I can not do them. If I don't need to do this today, I can put it off to tomorrow or the short term. Fanciful ideas I have might go into "Long Term".
+My goal isn't to accomplish more through constant reminder. I want some things to lose importance so I can *not* do them. If I don't need to do this today, I can put it off to tomorrow or the short term. Fanciful ideas I have might go into "Long Term".
 
 Later, as I have time and perspective, I can review the items I put off. Often I find that I'm not as interested as I originally thought and am happy I didn't spend time on those.
 
 If an item sticks around long enough, I might be interested in it.
-
 
 ## Other interesting links
 
