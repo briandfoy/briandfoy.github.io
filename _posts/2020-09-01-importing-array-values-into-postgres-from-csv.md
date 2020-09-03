@@ -78,7 +78,7 @@ What if I swap those quotes around so the single quotes are on the outside? This
 The default quote is a " so this won't work:
 
 {% highlight text %}
-postgres=# \copy array_test from '/Users/brian/Desktop/import.csv' delimiter ',' CSV
+postgres=# \copy array_test from 'import.csv' delimiter ',' CSV
 ERROR:  extra data after last expected column
 CONTEXT:  COPY array_test, line 1: "6,'{rat,"",mouse}'"
 {% endhighlight %}
@@ -86,17 +86,17 @@ CONTEXT:  COPY array_test, line 1: "6,'{rat,"",mouse}'"
 I can change the quote but it's a bit odd. At first I thought that I could quote the quote, like `"'"`, but that doesn't work. Nor does `"\'"` nor various things like that. Inside the single ticks, I double up the single tick:
 
 {% highlight text %}
-postgres=# \copy array_test from '/Users/brian/Desktop/import.csv' delimiter ',' quote '''' CSV
+postgres=# \copy array_test from 'import.csv' delimiter ',' quote '''' CSV
 COPY 1
 {% endhighlight %}
 
 But Postgres also has [dollar quoting](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-DOLLAR-QUOTING), where I form the quote delimiter with double `$` on each side, with an optional tag between the `$`:
 
 {% highlight text %}
-postgres=# \copy array_test from '/Users/brian/Desktop/import.csv' delimiter ',' quote $$'$$ CSV
+postgres=# \copy array_test from 'import.csv' delimiter ',' quote $$'$$ CSV
 COPY 1
 
-postgres=# \copy array_test from '/Users/brian/Desktop/import.csv' delimiter ',' quote $foo$'$foo$ CSV
+postgres=# \copy array_test from 'import.csv' delimiter ',' quote $foo$'$foo$ CSV
 COPY 1
 {% endhighlight %}
 
