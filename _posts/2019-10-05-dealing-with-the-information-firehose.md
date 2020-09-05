@@ -3,7 +3,7 @@ layout: post
 title: Dealing with the information firehose
 categories:
 tags: netnewswire reminders apple safari
-stopwords:
+stopwords: Aniston Digitacene
 last_modified:
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: The software I live in
 categories:
 tags:
-stopwords:
+stopwords: APIs BBEdit's Metrowerks SDKs chipset iTerm zsh
 last_modified:
 original_url:
 ---

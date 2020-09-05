@@ -3,7 +3,7 @@ layout: post
 title: Anything new will help
 categories:
 tags:
-stopwords:
+stopwords: ScrumMaster Bourdain Kanter's Taylorism italian
 last_modified:
 original_url:
 ---
@@ -49,10 +49,10 @@ That's one reason for process: highly competent people under extreme stress and 
 
 I first learned about this when a *Top Gun* pilot visited my high school. He was the guy who was flying the Tomcat that did a roll off the carrier in that movie (and was quick to point out that he'd get in trouble if he did that roll in normal flying). He showed us his flight checklist, a small, tabbed, and color coded book that is strapped to his leg during flight. If something went wrong, he went to the right tab in the book. There he found the instructions on what he needed to do. Some of the things were in bold; those things he could not skip. If he had time, he went through all the steps. If he was in deep shit, we did only the bold items. You don't see Maverick or Goose going through their checklists during their fatal flat spin, though.
 
-But, there's another application of process: low skilled workers. These are not competent people and you don't hire them to think. You want them to carry out a task just like they are told, with no deviations. Anthony Bourdain mentioned this in [Kitchen Confidential](): you want the Guatemalans to make the risotta because they'd make it the same way every time, as opposed to the italian worker who thinks he knows better based on his grandmother's version.
+But, there's another application of process: low skilled workers. These are not competent people and you don't hire them to think. You want them to carry out a task just like they are told, with no deviations. Anthony Bourdain mentioned this in [Kitchen Confidential](): you want the Guatemalans to make the risotto because they'd make it the same way every time, as opposed to the italian worker who thinks he knows better based on his grandmother's version.
 
 If you've dealt with offshore teams, you've probably experienced this. You may have experienced this with onshore teams. At some point in your career, you may have been the problem.
 
 The process allows new people to contribute. You've given them training wheels. Continuous Integration, Quality Assurance, and many other things are process to let low-skilled people to participate.
 
-Consider Frederick Taylor, who applied an engineer's eye to organizing labor and might even be one of the fathers of management fads in what he called "scientific management". Arrange humans like a machine and give them very little latitude, and measure everything. He literally wanted to remove thought from the menial work, and assign that work to educated people. Harvard Business School's first year (1908) focussed on Taylorism. You may have heard of Gantt Charts. Gantt and Taylor worked together at Bethlehem Steel (which shut down in 2001 despite all that process).
+Consider Frederick Taylor, who applied an engineer's eye to organizing labor and might even be one of the fathers of management fads in what he called "scientific management". Arrange humans like a machine and give them very little latitude, and measure everything. He literally wanted to remove thought from the menial work, and assign that work to educated people. Harvard Business School's first year (1908) focused on Taylorism. You may have heard of Gantt Charts. Gantt and Taylor worked together at Bethlehem Steel (which shut down in 2001 despite all that process).
