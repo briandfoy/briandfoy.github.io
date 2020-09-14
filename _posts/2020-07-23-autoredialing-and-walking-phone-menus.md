@@ -52,7 +52,7 @@ I can run that right from Script Editor. It runs the program, clicks the button,
 
 ![AppleScript Runner](/images/phone_menu_automation/applescript.png)
 
-But I can also export this as an Application. Now I have a clicky thing on my Desktop. I open that and it all happens. I have to give it permission to use Accessibility (in Preferences) and AppleEvents (allow in the dialog). I can also open it from the terminal:
+But I can also export this as an Application. Now I have a clicky thing on my Desktop. I open that and it all happens. I have to give it permission to use Accessibility (in Preferences / Security & Privacy) and AppleEvents (allow in the dialog). I can also open it from the terminal:
 
 	% open /Users/brian/Desktop/CallStupidPhoneTree.app
 
