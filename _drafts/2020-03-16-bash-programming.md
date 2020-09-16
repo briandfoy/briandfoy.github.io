@@ -19,3 +19,7 @@ The article goes here
 * https://stackoverflow.com/questions/4824590/propagate-all-arguments-in-a-bash-shell-script
 
 * https://github.com/scop/bash-completion.git
+
+* https://opensource.com/article/20/6/bash-trap
+
+* https://effective-shell.com/docs/section2/6-job-control/
