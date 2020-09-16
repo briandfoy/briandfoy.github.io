@@ -121,7 +121,7 @@ package Chainer {
 	}
 {% endhighlight %}
 
-From there, you can follow Stepan's post to learn more about how this resembles monads. I want to look at the particular problem and a few techniques for dealing with it.
+From there, you can follow [Stepan's post]((https://stopa.io/post/247) to learn more about how this resembles monads. I want to look at the particular problem and a few techniques for dealing with it.
 
 ## Promises
 
