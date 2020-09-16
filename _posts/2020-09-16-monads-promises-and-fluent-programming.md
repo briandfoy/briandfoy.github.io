@@ -3,7 +3,7 @@ layout: post
 title: Monads, Promises, and Fluent Programming
 categories:
 tags:
-stopwords:
+stopwords: Parunashvili
 last_modified:
 original_url:
 ---
@@ -208,7 +208,7 @@ my $chain = $promise
 	;
 {% endhighlight %}
 
-Now expand that into something real. Create a Promise and resolve it with the user ID I want to find. That's just priming the pump.
+Now expand that into something real. Create a Promise and resolve it with the user ID I want to find. That's primes the pump.
 
 After that, use a series of `then`s that each do the next step in the process. Each `then` only handles the `resolve` branch. If the function call works (returns a defined value in this example), I return that defined value. That value becomes the argument for the subroutines in the next `then`. If I make it all the way to the final `then` with a resolved Promise, I assign to final value (the picture) to `$picture` and output a message.
 
@@ -290,7 +290,7 @@ $ perl promises.pl 137
 Picture is brian.jpg
 {% endhighlight %}
 
-But, that code is pretty ugly. One of the major proglems (among others), is that I hard-coded the chain. That's easy enough to fix—I'll construct all the middle `then`s from a table instead. Rather than check with `defined`, I'll add a new step to verify the input.
+But, that code is pretty ugly. One of the major problems (among others), is that I hard-coded the chain. That's easy enough to fix—I'll construct all the middle `then`s from a table instead. Rather than check with `defined`, I'll add a new step to verify the input.
 
 {% highlight perl %}
 sub looks_like_id ( $id      ) { $id =~ /\A[0-9]+\z/ ? $id : undef }
@@ -329,7 +329,7 @@ $chain
 
 ## Method chaining
 
-There's a trick I like a bit too much, but it's fun enough to justfy sometimes. Sometimes this sort of thing is called [fluent programming](https://martinfowler.com/bliki/FluentInterface.html), but I'm just going to call it "method chaining". The trick is handling errors in the middle of the chain.
+There's a trick I like a bit too much, but it's fun enough to justify sometimes. Sometimes this sort of thing is called [fluent programming](https://martinfowler.com/bliki/FluentInterface.html), but I'm going to stick with "method chaining". The trick is handling errors in the middle of the chain.
 
 I want to write something like this, where I have a chain of methods one after the other. This isn't a good design for this problem, but it's fine for showing the method chaining idea. Each method returns an object. It could be the same object or different objects. I don't have to know too much about that:
 
@@ -342,7 +342,7 @@ my $picture = UserThings->new($user_id)
 	->picture;
 {% endhighlight %}
 
-So, how do I handle errors? Here's the trick. If a method fails, I'll return a null object that responds to any method name by returning itself. That soaks up the rest of the method chain without an error. When you want to know if the whole thing worked, you look at what you got back. This is the same object type technique I used in [No ifs, ands, or buts](/no-ifs-ands-or-buts/), [The Null Mull](/the-null-mull/), and the Stackoverflow answer [How do I handle errors in methods chains in Perl?](https://stackoverflow.com/a/7068271/2766176):
+So, how do I handle errors? Here's the trick. If a method fails, I'll return a null object that responds to any method name by returning itself. That soaks up the rest of the method chain without an error. When you want to know if the whole thing worked, you look at what you got back. This is the same object type technique I used in [No ifs, ands, or buts](/no-ifs-ands-or-buts/), [The Null Mull](/the-null-mull/), and the StackOverflow answer [How do I handle errors in methods chains in Perl?](https://stackoverflow.com/a/7068271/2766176):
 
 {% highlight perl %}
 if( $picture isa 'Local::Null' ) {
