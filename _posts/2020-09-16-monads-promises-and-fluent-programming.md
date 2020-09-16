@@ -121,6 +121,8 @@ package Chainer {
 	}
 {% endhighlight %}
 
+From there, you can follow Stepan's post to learn more about how this resembles monads. I want to look at the particular problem and a few techniques for dealing with it.
+
 ## Promises
 
 So, lets try something else. How about Promises? I only want to go to the next step if the previous step works? Stepan mentions that the `Chainer` sidesteps callback hell, but so does Promises:
