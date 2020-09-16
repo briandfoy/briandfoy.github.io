@@ -5,8 +5,7 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+* https://www.perforce.com/blog/qac/8-tips-working-legacy-code*
