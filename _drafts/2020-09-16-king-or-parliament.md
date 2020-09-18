@@ -5,8 +5,8 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+* [Managing the Raku project as it is Coming of Age
+](https://github.com/Raku/problem-solving/issues/203)
