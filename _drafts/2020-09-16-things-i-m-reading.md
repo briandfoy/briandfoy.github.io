@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+* [Why Pascal is Not My Favorite Programming Language](http://doc.cat-v.org/bell_labs/why_pascal/why_pascal_is_not_my_favorite_language.pdf) - Brian Kernighan "Pascal is not adequate for writing real programs. It is suitable only for small, self-contained programs that have only trivial interactions with their environment and that make no use of any software written by anyone else."
+
 * [Why Nobody Pays for Database Software](https://docs.keydb.dev/blog/2020/01/20/blog-post/) - "Users accustomed to installing software with a simple “apt-get” or “docker pull” at little to no cost were now expected to suffer through hours long sales calls, pricing that was wildly out of proportion to the value provided, and artificial limitations on what hardware could be used."
 
 * [Hints of Programming Language Design](https://apps.dtic.mil/dtic/tr/fulltext/u2/773391.pdf) - C.A.R. Hoare makes various observations that still seem important today as they were in 1973. "It therefore seems especially necessary in the design of a new programming language, intended to attract programmers away from their current high level language, to pursue the goal of simplicity to an extreme, so that a programmer can readily learn and remember all its features, can select the best facility for each of his purposes, can full understand the effects and consequences of each decision, and can then concentrate the major part of his intellectual effort to understanding his problem and his programs rather than his tool."
