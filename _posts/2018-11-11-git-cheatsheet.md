@@ -26,8 +26,8 @@ Show all merged branches
 
 See which _.gitignore_ rules exclude a file ([Stackoverflow](https://stackoverflow.com/a/467053/2766176))
 
-	git check-ignore **/*
+	git check-ignore -v **/*
 
-Find the commit that deleted a file ([Stackoverflow](https://stackoverflow.com/a/1113140/2766176))
+Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-check-ignore)) ([Stackoverflow](https://stackoverflow.com/a/1113140/2766176))
 
 	git rev-list -n 1 HEAD -- <file_path>
