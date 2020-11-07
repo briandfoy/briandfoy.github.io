@@ -14,7 +14,7 @@ original_url:
 
 * [Hints of Programming Language Design](https://apps.dtic.mil/dtic/tr/fulltext/u2/773391.pdf) - C.A.R. Hoare makes various observations that still seem important today as they were in 1973. "It therefore seems especially necessary in the design of a new programming language, intended to attract programmers away from their current high level language, to pursue the goal of simplicity to an extreme, so that a programmer can readily learn and remember all its features, can select the best facility for each of his purposes, can full understand the effects and consequences of each decision, and can then concentrate the major part of his intellectual effort to understanding his problem and his programs rather than his tool."
 
-* [A Generation Lost in the Bazaar](https://queue.acm.org/detail.cfm?id=2349257) - Poul-Henning Kamp looks back on how Eric Raymonds "The Cathedral and the Bazaar" ruined it for everyone. "Quality happens only when someone is responsible for it."
+* [A Generation Lost in the Bazaar](https://queue.acm.org/detail.cfm?id=2349257) - Poul-Henning Kamp looks back on how Eric Raymonds "The Cathedral and the Bazaar" ruined it for everyone. "Quality happens only when someone is responsible for it." See also [Open Source Software Development as a Special Type of Academic Research (Critique of Vulgar Raymondism) by Nikolai Bezroukov](https://journals.uic.edu/ojs/index.php/fm/article/view/696/606) and [Software development realism vs Software development idealism](http://www.softpanorama.org/OSS/index.shtml).
 
 * [Courtney Love does the math](https://www.salon.com/2000/06/14/love_7/) - How "Hollywood accounting" conspires to rob artists of the fruits of their labor. No, really—this is how they do it.
 
@@ -29,3 +29,5 @@ original_url:
 * [Third Base](https://www.jstor.org/stable/27857554) - Hayes, Brian. "Computing Science: Third Base." American Scientist 89, no. 6 (2001): 490-94. Accessed October 30, 2020. - The most efficient radix balances the number of symbols it needs and the width of the representation. Balanced ternary unifies positive and negative numbers. The Soviets even tried making a computer using it. Claude Shannon makes an appearance. [Why Not Ternary Computers?](https://www.techopedia.com/why-not-ternary-computers/2/32427) is a summary.
 
 * [How A Little Money Laundering Can Have A Big Impact On Real Estate Prices](https://betterdwelling.com/how-a-little-money-laundering-can-have-a-big-impact-on-real-estate-prices/) - any transaction affects other transactions. Artificially elevated transactions feed into future market prices.
+
+* [Why are there 5280 feet in a mile?](https://petersmagnusson.org/2009/09/15/why-are-there-5280-feet-in-a-mile/) - adapting the roman measure to the english measures. The Romans wanted to know how far men could walk whereas the English wanted to tax land. Ten chains is a furlong, and ten square chains is an acre.
