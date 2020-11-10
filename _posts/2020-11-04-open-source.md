@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Open Source
+title: Open source is not about money, or you
 categories:
-tags:
+tags: open-source
 stopwords:
 last_modified:
 original_url:
@@ -75,7 +75,7 @@ Identifying and reporting those issues are a cost to the user. This is even a wo
 
 ## Project stewardship
 
-But, as Rich explains, contributions to Clojure are often low quality (but so is feedback from testers, often). They know something is weird, but not how to fix it. Not only that, as casual participants, they aren't aware of all of the processes and history.
+But, as Rich explains, contributions to Clojure are often low quality (but so is feedback from testers, often). They know something is weird, but not how to fix it. Not only that, as casual participants, they aren't aware of all of the processes and history. Read [Should Cognitect Do More for Clojure?](https://lispcast.com/cognitect-clojure/) for some of the flavor of the tension between the maintainers and the community.
 
 Clojure is a very conservative project with a strong, single-person leader. I think that's that best model for global success. Someone has to be the spiritual guardian of the project so it doesn't turn into a Homer Simpson's dream car.
 
@@ -87,7 +87,7 @@ But, as Steve Jobs like to quote Henry Ford saying:
 
 However, Henry Ford's conservative actions after that ("Any color you like as long as its black") allowed General Motors to eat his lunch. Ford was selling most of the cars in the US when it came up with the Model T, but had fallen to about 15% of the market with the Model A.
 
-Low-quality contributions are just a fact of life. Incomplete thoughts, whims, and wishes are high noise and low signal, but the signal is there. Ignore it at your peril. You have to become comfortable with that messy environment. It's not perfect or optimal, but it's never going to be.
+Low-quality contributions are just a fact of life. Incomplete thoughts, whims, and wishes are high noise and low signal, but the signal is there. Ignore it at your peril. You have to become comfortable with that messy environment. It's not perfect or optimal, but it's never going to be. Although written about the node community, [Healthy Open Source](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951) is an interesting read in this area.
 
 You don't expect a casual contributor who's spent a weekend on the problem to understand your processes and codebase. Even if you outline all of that in READMEs and other documents, people are going to mess it up.
 
