@@ -3,7 +3,7 @@ layout: post
 title: Git cheatsheet
 categories: programming
 tags: git cheatsheet
-stopwords:
+stopwords: gitignore
 last_modified:
 original_url:
 ---
