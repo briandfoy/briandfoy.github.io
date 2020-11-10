@@ -18,7 +18,7 @@ permalink: /books/
 
 <div class="row" id="llama">
 	<div class="column left book_cover">
-		<a href="https://www.learning-perl.com/"></a><img class="book_cover" src="/images/book_covers/learning_perl.jpg" height="" width="" alt="" /></a>
+		<a href="https://www.learning-perl.com/"><img class="book_cover" src="/images/book_covers/learning_perl.jpg" height="" width="" alt="" /></a>
 	</div>
 	<div class="column right book_details">
 		<span class="book_list_title">Learning Perl, 7th Edition</span><br/>
