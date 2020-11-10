@@ -48,10 +48,31 @@ For Git, I have a remote named "all" that has one URL to pull from but several t
 		pushurl = git@bitbucket.org:briandfoy/briandfoy.github.io.git
 		pushurl = git@gitlab.com:briandfoy/briandfoy.github.io.git
 
-I have a kludgy Perl program that constructs this config once I make the GitHub repo (and one day. I hope Terraform will be able to handle all of that).
+I have a kludgy Perl program that constructs this config once I make the GitHub repo (and one day. I hope Terraform will be able to handle all of that). But, I usually end up in the command line. The `set-url` line adds that `pushurl`, which I'll need here because I'm going to add more so I multiplex the push:
 
-When I run `git pull`, it fetches from GitHub because the remote for master is "all". When I push, though, it goes to every push URL. As long as I don't mess with the BitBucket and GitLab clones, that works. I still need to arrange to archive and backup other parts of a GitHub project, such as Issues and Wiki, but there are services for that.
+{% highlight plain %}
+$ git init
+$ git add .; ... make the git repo stuff
+$ git remote add github ...github address...
+$ git remote add all ...github address...
+$ git remote set-url --push origin ...github address...
+$ git push -u all master
+{% endhighlight %}
+
+After that, I setup BitBucket and GitLab manually, then add their remotes:
+
+{% highlight plain %}
+$ git remote add bitbucket ...bitbucket address...
+$ git remote add gitlab ...gitlab address...
+$ git remote set-url --push all ...bitbucket address...
+$ git remote set-url --push all ...gitlab address...
+$ git push
+{% endhighlight %}
+
+When I run `git pull`, it fetches from GitHub because the remote for master is `all`. When I push, though, it goes to every push URL. As long as I don't mess with the BitBucket and GitLab clones, that works. I still need to arrange to archive and backup other parts of a GitHub project, such as Issues and Wiki, but there are services for that.
 
 ---
 
-**Postscript** I once had a small battle with a company that insisted on a data center within Manhattan. There certainly are services for that, but my main complaint was that if anything disastrous happened on the island, the bridges and tunnels would be blocked or heavily managed to the point it would be difficult for a data center to get enough diesel fuel to keep their generators running. It would be much easier to do that it New Jersey, which is not that much of an inconvenience especially considering that we hardly ever went to the data center. Across the river would have also been cheaper. They didn't like that, and since it was their company, they won. But the next year, 9/11 happened. Although their business wasn't a critical part of anyone's life, their data center stopped working. Not only that, their application relied on cellular links to communicate with the cell phone market—the cell towers were overloaded. The only "backups" they had were on the laptops of the NYC developers, who were understandably busy with other things. Their loss was hardly tragic, but it was avoidable.
+**Postscript** I once had a small battle with a company that insisted on a data center within Manhattan. There certainly are services for that, but my main complaint was that if anything disastrous happened on the island, the bridges and tunnels would be blocked or heavily managed to the point it would be difficult for a data center to get enough diesel fuel to keep their generators running. It would be much easier to do that it New Jersey, which is not that much of an inconvenience especially considering that we hardly ever went to the data center. Across the river would have also been cheaper. They didn't like that, and since it was their company, they won.
+
+But the next year, 9/11 happened. Although their business wasn't a critical part of anyone's life, their data center stopped working. Not only that, their application relied on cellular links to communicate with the cell phone market—the cell towers were overloaded. The only "backups" they had were on the laptops of the NYC developers, who were understandably busy with other things. Their loss was hardly tragic, but it was avoidable.
