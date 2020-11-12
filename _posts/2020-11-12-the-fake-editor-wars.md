@@ -14,7 +14,9 @@ At first I thought this was an April Fools / Onion style article. I can see wher
 
 My advice about code editors is simple and disinterested: use whatever you want as long as it doesn't force anyone else to use what you want. Along with that, try different editors throughout your career. Done and done. If you want to use emacs, that's fine as long as I don't have to use emacs and you get your work done.
 
-Their idea has a much better version written by Sourcerer Bot: [Vim, Emacs and their forever war. Does it even matter any more?](https://blog.sourcerer.io/vim-emacs-and-their-forever-war-does-it-even-matter-any-more-697b1322d510), and Oliver Steele thinks it's the [difference between language people and tools people](https://blog.osteele.com/2004/11/ides). There are lots of interesting ideas, just not in this blog post.
+Today I've used vi, nano, BBEdit, and XCode. I've used scores of other editors throughout my career. I spent over a year in emacs because I figured I had to learn it and that was a suitable time to discover if I liked it past the initial effort. It was fine, although some of the key combos were backward from the EDT editor in VMS, which I was also using heavily at the time. I've used various IDEs, but I don't like to live in one despite their efforts to take over your screen (a particular bit of culture from Windows). But, I really don't care what anyone else uses or what they like. And, many people I work with have tried lots of things just because they are curious people.
+
+Their idea has a much better version written by Sourcerer Bot: [Vim, Emacs and their forever war. Does it even matter any more?](https://blog.sourcerer.io/vim-emacs-and-their-forever-war-does-it-even-matter-any-more-697b1322d510), and Oliver Steele thinks it's the [difference between language people and tools people](https://blog.osteele.com/2004/11/ides). There are lots of interesting ideas, just not in this Stack Exchange blog post.
 
 ## Who are these guys?
 
