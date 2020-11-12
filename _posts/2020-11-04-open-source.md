@@ -3,7 +3,7 @@ layout: post
 title: Open source is not about money, or you
 categories:
 tags: open-source
-stopwords:
+stopwords: Bianculli READMEs Cognitect's Stallman's emptor deps gifter offerer codebase NYU contraindicative codebase
 last_modified:
 original_url:
 ---
@@ -22,7 +22,7 @@ But, Rich also makes a dubious claim:
 
 It's a staple of the "open source" ethos that money or gain is immoral. Open source people have to pretend that money is meaningless, mostly because some of the notable people who started this movement had other political ideas and tended to ignore anything outside of coding to the point that they were literally homeless or couchsurfing. It's a convenient fiction that celebrates a false virtue for acceptance.
 
-This fiction is so ingrained in the open source culture that most people don't even realize its there. It's one of the reasons that open source has the heros it does. The people who want to live indoors, have and feed families, and prepare for retirement have different motivations. People who want to run businesses have different motivations.
+This fiction is so ingrained in the open source culture that most people don't even realize its there. It's one of the reasons that open source has the heroes it does. The people who want to live indoors, have and feed families, and prepare for retirement have different motivations. People who want to run businesses have different motivations.
 
 Consider what else Rich says:
 
@@ -41,7 +41,7 @@ Open source isn't about doing free work or not making money. That's an extra pol
 
 Simon Phipps expressed it best in his interview with Randal Schwartz on [FLOSS Weekly #39](https://twit.tv/shows/floss-weekly/episodes/326) (starting around 14:30):
 
-> Randal [Schwartz], I don't care what your motivations are for being involved in Perl. They're of no relevance to my life because our relationship around Perl depends on code. And, the code and the community are transparent. But your motivations and my motivations for participating in it are opaque. They are private to me. ... So I'm able to maintain my privacy around my motivations and the degree of my involvement and how I'm funding it. I maintain responsibility for taht what is private as well. On the other hand, I'm able to work in an environment of transparency where all the code is known, all of its origins are known, all of its defects are potentially known. And that combination of transparency with privacy is in my opinion what characterizes open source. Trying to define open source in terms of licenses is kinda outmoded in my view. Open source is about the transparency at the community level but also the privacy in terms of my motivations and belief systems.
+> Randal [Schwartz], I don't care what your motivations are for being involved in Perl. They're of no relevance to my life because our relationship around Perl depends on code. And, the code and the community are transparent. But your motivations and my motivations for participating in it are opaque. They are private to me. ... So I'm able to maintain my privacy around my motivations and the degree of my involvement and how I'm funding it. I maintain responsibility for that what is private as well. On the other hand, I'm able to work in an environment of transparency where all the code is known, all of its origins are known, all of its defects are potentially known. And that combination of transparency with privacy is in my opinion what characterizes open source. Trying to define open source in terms of licenses is kinda outmoded in my view. Open source is about the transparency at the community level but also the privacy in terms of my motivations and belief systems.
 
 When I contribute to a project, I don't care if they are making money or even what their political beliefs are. I care that the thing I want to use works as designed and works for my use case. If I don't contribute, I'm worse off no matter how much money the other side makes. It's much easier to have those patches upstream.
 

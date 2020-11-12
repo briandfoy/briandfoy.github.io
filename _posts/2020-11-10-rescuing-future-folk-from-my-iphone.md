@@ -3,7 +3,7 @@ layout: post
 title: Rescuing Future Folk from my iPhone
 categories:
 tags: apple music dropbox
-stopwords:
+stopwords: peasy Dalrymple's
 last_modified:
 original_url:
 ---

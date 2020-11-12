@@ -1,9 +1,9 @@
 ---
 layout: post
-title: The Fake Editor Wars
+title: Stack Exchange clickbait "editor war"
 categories:
 tags: opinion
-stopwords:
+stopwords: Biggs Tindall finnicky ist th regurgitations
 last_modified:
 original_url:
 ---
@@ -114,7 +114,7 @@ Think about that. This is MIT, one of the most revered technical schools in the 
 
 These are the same people who show up in the workplace, where no one knows what is happening or how things work. The developers job is to figure those things out. How does this new JavaScript library work? Figure it out. Why does every 100th request fail? Figure it out. Why is my AWS configuration not working? Figure it out. There are no manuals for many of these things: if you can't learn about the things with manuals, how do you think you are going to learn the things without them?
 
-In, [The Perils of JavaSchools](https://www.joelonsoftware.com/2005/12/29/the-perils-of-javaschools-2/), Joel Spolsky, one of the Co-founders of StackOverflow, noted the change in CS curriculla away from C/C++ or LISP to Java as almost purely a way to influence graduation rates. He notes:
+In, [The Perils of JavaSchools](https://www.joelonsoftware.com/2005/12/29/the-perils-of-javaschools-2/), Joel Spolsky, one of the Co-founders of StackOverflow, noted the change in CS curricula away from C/C++ or LISP to Java as almost purely a way to influence graduation rates. He notes:
 
 > Nothing about an all-Java CS degree really weeds out the students who lack the mental agility to deal with these concepts. As an employer, I’ve seen that the 100% Java schools have started churning out quite a few CS graduates who are simply not smart enough to work as programmer
 
