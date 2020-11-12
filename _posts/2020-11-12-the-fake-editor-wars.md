@@ -85,7 +85,7 @@ They also failed to include one of the more interesting products of Stack Exchan
 
 Is it even true that developers don't use IDEs?  Visual Studio Code is available for all major platforms and most respondents use it, although half of the respondents work on Windows as their primary platform. Visual Studio is the second most reported IDE. Notepad++ is the third. There's a heavy Windows focus here, but the site is a .NET technology.
 
-And, 25.6% of the respondents report that their primary operating system is Unix, which is essentially the same number of people who reported Vim as their editor.
+And, 25.6% of the respondents report that their primary operating system is Unix, which is essentially the same number of people who reported Vim as their editor. There's [What tools does Linux programmer use to develop programs?](https://stackoverflow.com/q/1706870/2766176) that has some interesting answers. Again, this is interesting content that Stack Exchange can promote.
 
 There's no Vim versus Emacs here; it's more about the platform. Linux comes with an editor suitable for code, and people use it. Windows doesn't come with such an editor, so people need to install something else. Visual Studio Code is free.
 
