@@ -47,9 +47,9 @@ And, after about 10 minutes and lots of output:
 Corrupted files: 3920
 {% endhighlight %}
 
-The list isn't just PDFs or images. Several git repos are corrupted, often because _.git/config_ is corrupted. Many of those I have [stored all over the place](/use-several-git-services-at-once/), including their origin, GitHub (usually origin though), Bitbucket, and GitLab all at once.
+The list isn't just PDFs or images. Several git repos are corrupted, often because _.git/config_ is corrupted. Many of those I have [stored all over the place](/use-several-git-services-at-once/), including their origin, GitHub (usually origin though), Bitbucket, and GitLab all at once. Those I simply delete locally or re-clone.
 
-I was able to recover some files from another machine connected to the same Dropbox account. That's odd too. Why are they good on one machine but not another? That wasn't universally true though. Many files were missing on the other machine.
+I was able to recover some files from another machine connected to the same Dropbox account. That's odd too; why are they good on one machine but not another? That wasn't universally true though. Many files were missing on the other machine.
 
 But, the really painful piece of the problem was the disappearance of my [Future Folk](https://futurefolk.com) music.
 
