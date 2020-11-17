@@ -3,7 +3,7 @@ layout: post
 title: Stack Exchange clickbait "editor war"
 categories:
 tags: opinion
-stopwords: Biggs Tindall finnicky ist th regurgitations
+stopwords: Biggs Tindall finnicky ist th regurgitations lites
 last_modified:
 original_url:
 ---
@@ -97,6 +97,10 @@ There are more interesting questions such a post might have asked. Why should we
 
 Imagine trying to maintain or develop Java, .Net, or Swift in anything but an IDE. Those environments don't really want you to know how the sausage is made. It's a convoluted set of steps that the IDE hides from you. Worse yet, since you shouldn't know these things, you can't do the same from a different environment. People often use the IDE they are forced to use by the technology that someone else chose for them.
 
+Hillel Wayne notes in his response to the authors, [Why I Still Use Vim](https://buttondown.email/hillelwayne/archive/why-i-still-use-vim/):
+
+>  There are fantastic IDEs for some languages, and good enough IDE-lites for most languages.
+
 Leonora Tindall addresses this in [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/).
 
 > Most IDEs, though, primarily serve two purposes for students. First, in a Java-focused curriculum, it insulates the student from the javac command line program, and the command line environment itself. Second, it catches some basic mistakes and allows the student to defer learning about the finnicky language requirements that aren’t deemed core to the curriculum, like imports and file naming requirements.
@@ -105,7 +109,7 @@ She goes on the note the consequence of reliance on an IDE so early in a Compute
 
 > What they can’t do, unless they’ve figured it out on their own, is operate a computer outside of the confines of the IDE they’ve been taught.
 
-She notes that very few students figure it out on there own, even to the point that there is a [Missing Semester](https://github.com/missing-semester/videos) series of videos for the [MIT class of the same name](https://missing.csail.mit.edu).
+She notes that very few students figure it out on their own, even to the point that there is a [Missing Semester](https://github.com/missing-semester/videos) series of videos for the [MIT class of the same name](https://missing.csail.mit.edu).
 
 As a side note, if you're able to pass your college class doing only what the instructor told you to do, you aren't getting your money's worth. If you could simply watch a video of the class and get the same experience (as many now are during this pandemic), why should you pay so much money?
 
