@@ -28,7 +28,9 @@ My Perl program then couldn't find */Library/PostgreSQL/12/lib/libssl.1.1.dylib*
 
 Googling did not help that much. Most answers were just cargo-culting advice about Homebrew that is essentially "have you tried reinstalling it?"
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/t2F1rFmyQmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 As an aside, I don't mind that people use convenience tools such as `brew`. However, you should understand what it does and how it does it if you want to be a developer. You can see the trail of destruction and wasted time from people who've neglected to learn their tools—they can't even diagnose the problem.
 

@@ -79,7 +79,9 @@ But, as Rich explains, contributions to Clojure are often low quality (but so is
 
 Clojure is a very conservative project with a strong, single-person leader. I think that's that best model for global success. Someone has to be the spiritual guardian of the project so it doesn't turn into a Homer Simpson's dream car.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1kshrfvkLZE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 But, as Steve Jobs like to quote Henry Ford saying:
 

@@ -21,6 +21,8 @@ https://jme.bmj.com/content/29/4/261.full
 
 It's what leads Sherlock Holmes to be wrong so often. He's consistently adding his priors to his contextless, <i>thin descriptions</i> of the world. Well, Watson is the one actually telling us these things, so there's a fictional character describing what some other fictional character is doing, so there's another layer of interpretation. Peter Holmes (a real-life comic, no relation) rightly satirizes a scene from the BBC's <i>Sherlock</i> that was the actually the last scene I saw because it was so ludicrous.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eKQOk5UlQSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 You might like <a href="https://amzn.to/3belDFE">Sherlock Holmes was Wrong</a>, although you should know that it was written by a Frenchman—they tend to approach problems in a way that an American like me finds tedious when it's actually just different.

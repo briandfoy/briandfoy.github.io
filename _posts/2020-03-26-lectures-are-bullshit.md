@@ -16,12 +16,12 @@ Lecturing was the 13th century version of audio books and as well as the 13th ce
 
 [Jeff Jarvis](https://buzzmachine.com) literally says this is "bullshit". And, he includes his old racket, journalism, in that. The power dynamic and information flow is unbalanced.
 
-<div class="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rTOLkm5hNNU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 But Benjamin Bratton takes it a step further saying that TED itself is bullshit and that the entire TED exercise is one in tribe forming (well, "validation").
 
-<div class="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yo5cKRmJaf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

@@ -12,7 +12,9 @@ New York City is lock-down for the Virus, and I've been infected with the Bon Ap
 
 Here's Gordan Ramsey's turn:
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Gdl-A1DvpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 At one point, Ramsey tells Shane that a he shouldn't blame the tools. So, why does Ramsey blame Shane? Notice that he hardly ever checks in with Shane to see where he is, tosses off terms that Shane wouldn't know, uses British slang, and doesn't answer questions. You can tell that Shane basically gives up after he doesn't understand what "julienne" means. Ramsey never notices.
 
@@ -20,19 +22,27 @@ Some of Ramsey's instructions are wrong. He says to "put the flat side down", an
 
 Compare this with Mitchell & Webb's satire that barely qualifies as that.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i1NfWIaYed8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 As a computer programmer, I'm already primed for this situation because I've gone through the Peanut Butter Sandwich Exact Instructions exercise a few times.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct-lOOUqmyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Shane tried again with Bobby Flay, who does much better in checking in and explaining each step.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C9rVBzHvn8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Now, see what Carla Lalli Music does with Marlon Wayans. She has an easier time because he fights back a bit, but that's at least feedback. A few times she stops and forces him to perform a task because she doesn't hear the clanging she expects.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mOdZkU5-rfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 There are a few things that would improve these situations.
 

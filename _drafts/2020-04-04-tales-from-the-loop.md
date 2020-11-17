@@ -35,8 +35,9 @@ Susan Sontag
 
 There's a better imagining of Stålenhag.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iXCKGrDWylE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</div>
 
 The Electric
 https://archive.nytimes.com/www.nytimes.com/books/97/09/21/reviews/oates-poet.html

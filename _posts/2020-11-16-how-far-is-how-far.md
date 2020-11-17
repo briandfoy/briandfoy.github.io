@@ -30,7 +30,9 @@ The heliosphere, the giant ball of the Sun's influence is about 100 AU away (and
 
 If the Sun suddenly shines its last light, it will take us Earthlings (Terrans?) eight minutes to find out, and once we find out everyone knows at roughly the same time, although we might be able to live for [a couple more months](http://curious.astro.cornell.edu/our-solar-system/39-our-solar-system/the-earth/other-catastrophes/61-how-long-could-life-on-earth-survive-if-the-sun-stopped-shining-beginner), although there would still be people interjecting at the space heater parties "it's a dry cold". If the Cloud just sits there, we'll have an additional season we call simply DarkTime.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4-F5TfXtue8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 It's 10,000 earths from New York City to the center of the sun, and the light travel time across just one of them is less than a second. A rolling blackout takes longer to affect New York City. For what it's worth, that last photon may have started at the center of the Sun and taken over 100,000 years to finally reach the surface, and if it happens to miss everything else along the way dodging nine planets, 210 moons, 128 million bits of man-made space debris, a Tesla, 150 million asteroids, one teapot, and maybe the *Enterprise*). And, that the Tesla is legally abandoned property, so you can just take it if you want it.
 

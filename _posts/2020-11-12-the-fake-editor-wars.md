@@ -113,7 +113,9 @@ She notes that very few students figure it out on their own, even to the point t
 
 As a side note, if you're able to pass your college class doing only what the instructor told you to do, you aren't getting your money's worth. If you could simply watch a video of the class and get the same experience (as many now are during this pandemic), why should you pay so much money?
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hIdsjNGCGz4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Think about that. This is MIT, one of the most revered technical schools in the world. These students are the brainics, we're led to believe. Yet, they don't figure this out on their own.
 

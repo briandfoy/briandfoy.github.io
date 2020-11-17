@@ -60,4 +60,6 @@ I like this phrase, and it might even be a way to bring up the subject with mana
 As a curious side note, there's at least one Perl person the real Chuck Norris admires. Chris Nandor met him at the 2007 GOP Debate when
 Chris's song was featured in CNN's national broadcast. [The Seattle Times reports that Chuck Norris told him “It’s a real honor to meet you, man.”](https://www.seattletimes.com/seattle-news/putting-politics-to-music-makes-arlington-man-star-of-the-cnn-youtube-debate/).
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Z5_7nWgcSjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

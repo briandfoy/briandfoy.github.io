@@ -78,7 +78,9 @@ But, the really painful piece of the problem was the disappearance of my [Future
 
 They sell only one album on Amazon, but they sell both on Apple Music. I thought about buying CDs, then realized that I don't have a CD player to I could re-rip the songs (do kids today even know "ripping"?) I'm not sure when these files were corrupted, but I listen to these guys while cleaning the kitchen (and how is that possible if they are corrupted files)?
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fZrDALCsKwI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 I was momentarily relieved when I realized this some of the rare music I download from the cloud. There's that little icon next to the album and songs:
 

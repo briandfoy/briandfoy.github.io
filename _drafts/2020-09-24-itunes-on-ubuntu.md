@@ -42,7 +42,9 @@ SUCCESS: Paired with device ...
 
 But, the iPhone doesn't remember this trust. Every time we connect the phone we have the two step process of unlocking it and responding to the prompt. Blech.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0udlgkKGRYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Once connected, we can use `ifuse` to mount the thing.
 

@@ -105,7 +105,7 @@ In his [Twelve Views of Mark Jason Dominus](https://perl.plover.com/yak/12views/
 
 > Anyway, the module quickly stabilized. ... Since the module was perfect, there was no need to upload new versions of it to CPAN.
 
-> But then I started to get disturbing emails. ``Hi, I notice you have not updated Text::Template for nine months. Are you still maintaining it?''
+> But then I started to get disturbing emails. "Hi, I notice you have not updated Text::Template for nine months. Are you still maintaining it?"
 
 > People seem to think that all software requires new features or frequent bug fixes. Apparently, the idea of software that doesn't get updated because it's finished is inconceivable.
 
@@ -206,7 +206,9 @@ But let's say you have a qualified and competent team of the size you like. That
 
 Consider this drawing of Iron Man in different time constraints. In the most generous constraint, the artist uses several different tools. He starts with a sketch that you won't see in the final product, employs ink and more pencil, and even a Sharpie. There's more time to put the subject in context. In the others, it's mostly just the Sharpie:
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6-ksI6FWST4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 But, let's concede that you get 40 hours a week to do real work because your manager shields the team from bullshit, you aren't in an open office plan, and everyone else does their work on time too. Still, work expands to fill all available time. If you need it by friday, you get it on friday (one of my rules of programming is don't deliver before you are forced to). With 10 hours a week you get the bare minimum that someone will accept. With 40 hours maybe you get some tests, code comments, and a couple of versions of the starting idea.
 

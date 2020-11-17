@@ -14,7 +14,9 @@ Holmes turns *thin descriptions* of the world into a mystery's conclusion so he 
 
 Peter Holmes (a real-life comic, no relation) rightly satirizes a scene from the BBC's *Sherlock* that was the actually the last scene I saw from that series because it was so ludicrous. Cumberbatch's character sees a scuffed phone charger port and "deduces" the man's life. The transposition of Victorian thought to the internet age of abundance and infinite choice is as laughable as he makes it out to be:
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eKQOk5UlQSc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 You might like [Sherlock Holmes was Wrong](https://amzn.to/3belDFE), although you should know that it was written by a Frenchman. The French philosophic approach seems as tedious and unhelpful as trying to speak French to a clerk in Gare du Nord, but it is what it is. They weren't ruled by Queen Victoria, didn't have the a stable economic environment, and a generation would have seen two or more major upheavals in political organization. He argues that Holmes isn't as deductive as we revere him to be. But then, I don't think Doyle was working that hard to make the stories air-tight. Holmes was, after all, his day hustle.
 

@@ -12,7 +12,9 @@ In [/r/perl](https://www.reddit.com/r/perl), I responded to [The Pervert's Guide
 
 In brief, Watson's talk connects the rantings of Slavoj Žižek and his Critical Theory reinterpretation to the classification of programming languages. Ignoring the fact that programming languages have as much animus or consciousness as a garden rake, the classification is facile and broad. That's not odd for sophomoric Žižek fanfic—I suspect Žižek's actually Tony Clifton.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jgJhAEcq6Q?start=19&end=38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---
 
