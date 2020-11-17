@@ -1,0 +1,20 @@
+<svg width="600" height="239" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="241" width="602" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="60" rx="60" id="svg_2" cy="123" cx="345.5" stroke-width="1.5" stroke="#000" fill="#f4c69a"/>
+  <ellipse opacity="0.67" ry="82" rx="82" id="svg_1" cy="122.5" cx="270.5" stroke-width="1.5" stroke="#000" fill="#90dbdb"/>
+  <path id="svg_4" d="m345.07999,119.89429l4.58386,0l1.41614,-4.20154l1.41614,4.20154l4.58386,0l-3.70825,2.59674l1.4165,4.20172l-3.70825,-2.59692l-3.70825,2.59692l1.4165,-4.20172l-3.70825,-2.59674l0,0z" stroke-width="1.5" stroke="#ff0000" fill="#ff0000"/>
+  <path id="svg_5" d="m283.15387,121.46494c0.0206,-0.21988 0.02936,-0.44485 0.02936,-0.66986c0,-3.91531 -2.70346,-7.08975 -6.03827,-7.08975c-2.58865,0 -4.79126,1.91605 -5.64917,4.60416c-0.56915,-0.73218 -1.37979,-1.20126 -2.29114,-1.20126c-1.71887,0 -3.11047,1.63571 -3.11047,3.65222c0,0.23715 0.02362,0.47083 0.05872,0.69406c-2.29071,0.44489 -4.0451,2.76422 -4.0451,5.58047c0,3.13284 2.16409,5.67035 4.83249,5.67035l15.3381,0c2.66803,0 4.82941,-2.53751 4.82941,-5.67035c0,-2.78162 -1.70401,-5.08371 -3.95392,-5.57004z" stroke-width="1.5" stroke="#0000bf" fill="#0000bf"/>
+  <text stroke="#0000bf" transform="matrix(1 0 0 1.14278 0 -13.0664)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_6" y="160.37823" x="407" stroke-width="0" fill="#000000">Distance to Pluto</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_8" y="188" x="422" stroke-width="0" stroke="#0000bf" fill="#000000">at perihelion</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_9" y="60" x="95" stroke-width="0" stroke="#0000bf" fill="#000000">V'ger Cloud reach</text>
+ </g>
+</svg>
