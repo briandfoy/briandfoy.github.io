@@ -43,7 +43,7 @@ Numbers are hard to read. Here's a pie chart of the proportion of all gravitatio
 
 ![](/images/randi_astrology/pie_chart.png)
 
-Even better, here's those different pie charts presented by their proportions to each other:
+Even better, here are those different pie charts presented by their proportions to each other:
 
 ![](/images/randi_astrology/pie_relative.png)
 
