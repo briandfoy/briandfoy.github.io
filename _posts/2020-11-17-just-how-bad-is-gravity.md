@@ -15,9 +15,11 @@ usemathjax: true
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r70HsEvNRck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-He notes that astrologers like to say that the effect of the planets alignment matter. Randi asserts for in the case where every planet aligns, merely changing your position from standing up to sitting down nullifies any of that effect. He uses the number "25 inches", which is also magical later in the book as a cubit, which leads to the ["pyramid inch"](https://en.wikipedia.org/wiki/Pyramid_inch) (1/25th of a cubit), or 1 millionth the polar radius.
+He notes that astrologers like to say that the effect of the planets alignment matter. Randi asserts for in the case where every planet aligns, merely changing your position from standing up to sitting down nullifies any of that effect.
 
-Randi doesn't specifically say that he's thinking of gravity, but which other force might he be imagining that would operate over vast distances? It's not the strong nor weak forces. The electro-magnetic force can operate over distances, but most planets have an extremely weak magnetic field. He mentions it might be [theta waves](https://en.wikipedia.org/wiki/Theta_wave), but also that people who say that don't know what those actually are. And, those aren't realted to [Thetans](https://en.wikipedia.org/wiki/Thetan), or maybe they are. Who knows?
+> Lowering the body a distance of 25 inches would bring it closer to the gravitational center of the earth and nuetralize all effects of the other heavenly bodies... (in Chapter 4, "Into the Air, Junior Birdman")
+
+He uses the number "25 inches", which is also magical later in the book as a cubit, which leads to the ["pyramid inch"](https://en.wikipedia.org/wiki/Pyramid_inch) (1/25th of a cubit), or 1 millionth the polar radius.
 
 I set out to do the math. That's actually a bit too complicated at first pass even if it was fun to research. Who cares about 25 inches when we're dealing with objects and masses tens of orders of magnitude higher? The Sun is 150 million miles away. What instrument is going to know the difference?
 
