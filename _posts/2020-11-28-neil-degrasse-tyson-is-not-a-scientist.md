@@ -141,4 +141,14 @@ The worst part of Rogan interview it that Tyson later goes on to complain about 
 
 ## Interesting links
 
-* [Provenance of 1889 Starry Night](http://www.vggallery.com/painting/p_0612.htm#provenance)
+I started reading more about Tyson after I wrote most of this, mostly because I'm suddenly fearful that I wasted a lot of time researching something that someone has already explained. I didn't realize he was this bad.
+
+* [Neil deGrasse Tyson apologizes for tweet about mass shootings: 'I got this one wrong'](https://www.usatoday.com/story/entertainment/celebrities/2019/08/04/neil-degrasse-tyson-slammed-tweet-el-paso-dayton-shootings/1916347001/)
+* [Neil deGrasse Tyson Please Shut the Fuck Up](https://www.vice.com/en/article/5dmkgz/neil-degrasse-tysons-tweets-are-so-bad-and-he-needs-to-go-away)
+* [Fact checking Neil deGrasse Tyson](http://hopsblog-hop.blogspot.com/2016/01/fact-checking-neil-degrasse-tyson.html)
+* [Does Neil deGrasse Tyson make up stories?](https://www.washingtonpost.com/news/volokh-conspiracy/wp/2014/09/22/does-neil-degrasse-tyson-make-up-stories/)
+* [Neil DeGrasse Tyson: There's more transcendental numbers than irrationals and 5 sizes of infinity](https://www.reddit.com/r/badmathematics/comments/5vnnym/neil_degrasse_tyson_theres_more_transcendental/)
+* [Actually, Bats See Just Fine, Neil.](https://www.discovermagazine.com/the-sciences/actually-bats-see-just-fine-neil#.VvXEWevFypM)
+* [What Neil deGrasse Tyson Doesn't Know About Sex Fills Many Books](https://www.forbes.com/sites/emilywillingham/2016/03/12/what-neil-degrasse-tyson-doesnt-know-about-sex-fills-many-books/?sh=1d2006cc29b6)
+* [Annotations on a Tweet-Storm Directed More-or-Less Toward Neil deGrasse Tyson](http://nautil.us/blog/annotations-on-a-tweet_storm-directed-more_or_less-towards-neil-degrasse-tyson)
+* [Neil DeGrasse Tyson bungles science of Deflate-gate scandal (UPDATED)](https://news.avclub.com/neil-degrasse-tyson-bungles-science-of-deflate-gate-sca-1798276120)
