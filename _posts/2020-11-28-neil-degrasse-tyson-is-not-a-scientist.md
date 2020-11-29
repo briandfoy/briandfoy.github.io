@@ -60,7 +60,7 @@ My immediate reaction to his statement was that I thought that Van Gogh often pa
 
 It turned out very easy to prove Tyson wrong (almost). At first, I thought I'd just get a list of all titles of paintings in the 1800s and find other backgroundy titles. Before that, I went to check van Gogh's *Starry Night*'s date. [It's Wikipedia page](https://en.wikipedia.org/wiki/The_Starry_Night) lists two other paintings with the same title, and one is Jean-François Millet's *[Nuit Étoilée](https://artgallery.yale.edu/collections/objects/52945)* from somewhere between 1850 and 1865!
 
-![](/images/starry_night/Starry_Night_by_Jean-François_Millet.jpeg)
+![](/images/starry_night/Starry_Night_by_Millet.jpeg)
 
 But, there's a catch, and this is where scientific training should come into play.
 
