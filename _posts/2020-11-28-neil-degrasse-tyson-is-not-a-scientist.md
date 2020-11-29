@@ -141,11 +141,12 @@ The worst part of Rogan interview it that Tyson later goes on to complain about 
 
 ## Interesting links
 
-I started reading more about Tyson after I wrote most of this, mostly because I'm suddenly fearful that I wasted a lot of time researching something that someone has already explained. I didn't realize he was this bad.
+I started reading more about Tyson after I wrote most of this, mostly because I'm suddenly fearful that I wasted a lot of time researching something that someone had already explained. I didn't realize he was this bad, so what I found in this instance appears to be a pattern.
 
 ### Starry Night
 
 * [Originality in arts vs. sciences: I disagree with Neil deGrasse Tyson.](https://www.education4site.org/blog/2012/originality-in-arts-vs-sciences-neil-degrasse-tyson-gets-it-wrong/)
+* [Meaning & Analysis: Starry Night Over the Rhone by Vincent Van Gogh](https://legomenon.com/meaning-analysis-starry-night-over-the-rhone-van-gogh.html)
 
 ### General screw ups
 
