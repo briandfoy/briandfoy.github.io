@@ -88,7 +88,7 @@ More formally, given the same pattern of input photons, what do we know about th
 
 Although it would be tedious to explain this during a Rogan interview, I would have expected that Tyson would have thought it through and have a much better spiel. Since he's obsessed with this painting, I would think that he would know about the digitalis idea and how that would mediate perception. For an astrophysicist, like Tyson once was, optics and their effect on inputs should also be a deeply explored and exciting topic, but that's another fight between theorists and experimentalists. There are idea people who want to think about stars, and there are grease monkeys who want to capture light. The ideas of direct and indirect measurement here are at the core of science.
 
-This is even more interesting because later he talks about the [first image of a black hole](https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/). Tyson had made a big deal about the difference between an artists interpretation of a scene and a photograph. That image of the black hole is not a photograph; it's a heavily processed visualization of the data from a network of telescopes. This isn't the Hubble with an open shutter collecting light. Scientists collect a bunch of electrical signals, combine them, colorize them, and present them. The NASA announcement is very careful to note that it's an image of *the silhouette* of a black hole, because you obviously can't take a picture of something which emits nothing.
+This is even more interesting because later he talks about the [first image of a black hole](https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/). Tyson had made a big deal about the difference between an artists interpretation of a scene and a photograph. That image of the black hole is not a photograph; it's a heavily processed visualization of the data from a network of telescopes. This isn't the Hubble with an open shutter collecting light. Scientists collect a bunch of electrical signals, combine them, colorize them, and present them. The NASA announcement is very careful to note that it's an image of *the silhouette* of a black hole, because you obviously can't take a picture of something which emits nothing. That is, in terms of art, "negative space", which is a somewhat joyful convergence of art and science (should black holes even have space).
 
 ![](/images/starry_night/blackhole20190410.jpg)
 
@@ -143,6 +143,14 @@ The worst part of Rogan interview it that Tyson later goes on to complain about 
 
 I started reading more about Tyson after I wrote most of this, mostly because I'm suddenly fearful that I wasted a lot of time researching something that someone has already explained. I didn't realize he was this bad.
 
+### Starry Night
+
+* [Originality in arts vs. sciences: I disagree with Neil deGrasse Tyson.](https://www.education4site.org/blog/2012/originality-in-arts-vs-sciences-neil-degrasse-tyson-gets-it-wrong/)
+
+### General screw ups
+
+* [Neil deGrasse Tyson blows more minds with idea to prevent computer hacking](https://twitchy.com/dougp-3137/2015/01/03/neil-degrasse-tyson-blows-more-minds-with-idea-to-prevent-computer-hacking)
+* [Neil deGrasse Tyson Finally Addresses Why His Tweets Are So Bad](https://www.inverse.com/article/50672-neil-degrasse-tyson-addresses-why-his-tweets-are-bad)
 * [Neil deGrasse Tyson apologizes for tweet about mass shootings: 'I got this one wrong'](https://www.usatoday.com/story/entertainment/celebrities/2019/08/04/neil-degrasse-tyson-slammed-tweet-el-paso-dayton-shootings/1916347001/)
 * [Neil deGrasse Tyson Please Shut the Fuck Up](https://www.vice.com/en/article/5dmkgz/neil-degrasse-tysons-tweets-are-so-bad-and-he-needs-to-go-away)
 * [Fact checking Neil deGrasse Tyson](http://hopsblog-hop.blogspot.com/2016/01/fact-checking-neil-degrasse-tyson.html)
