@@ -3,7 +3,7 @@ layout: post
 title: What's the pull of that planet?
 categories:
 tags:
-stopwords:
+stopwords: Birdman Flim
 last_modified:
 original_url:
 usemathjax: true

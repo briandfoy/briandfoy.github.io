@@ -3,7 +3,7 @@ layout: post
 title: iTunes on Ubuntu
 categories:
 tags: ubuntu itunes wine
-stopwords:
+stopwords: Blech Fn Lenovo ifuse iso mkdir passcode wtf
 last_modified:
 original_url:
 ---
