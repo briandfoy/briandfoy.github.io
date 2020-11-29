@@ -17,13 +17,13 @@ usemathjax: true
 
 He notes that astrologers like to say that the effect of the planets alignment matter. Randi asserts for in the case where every planet aligns, merely changing your position from standing up to sitting down nullifies any of that effect.
 
-> Lowering the body a distance of 25 inches would bring it closer to the gravitational center of the earth and nuetralize all effects of the other heavenly bodies... (in Chapter 4, "Into the Air, Junior Birdman")
+> Lowering the body a distance of 25 inches would bring it closer to the gravitational center of the earth and neutralize all effects of the other heavenly bodies... (in Chapter 4, "Into the Air, Junior Birdman")
 
 He uses the number "25 inches", which is also magical later in the book as a cubit, which leads to the ["pyramid inch"](https://en.wikipedia.org/wiki/Pyramid_inch) (1/25th of a cubit), or 1 millionth the polar radius.
 
 I set out to do the math. That's actually a bit too complicated at first pass even if it was fun to research. Who cares about 25 inches when we're dealing with objects and masses tens of orders of magnitude higher? The Sun is 150 million miles away. What instrument is going to know the difference?
 
-What's the gravitational effect on the Earth right now (November 17, 2000 at about 1800h UTC)? Very few sources give real time distances between planets, prefering to give "average" distances based on dubious calculations. But, if you go through the actual orbital mechanics, you discover that most of the time, [Mercury is closer to Earth than any other planet](https://physicstoday.scitation.org/do/10.1063/PT.6.3.20190312a/full/). That's the sort of data I want to think about astrological effects. If we're talking about 25 inches, I don't want to be off by several million miles because I used an average distance. [timeanddate.com](https://www.timeanddate.com/astronomy/planets/distance) gives the real time distances.
+What's the gravitational effect on the Earth right now (November 17, 2000 at about 1800h UTC)? Very few sources give real time distances between planets, preferring to give "average" distances based on dubious calculations. But, if you go through the actual orbital mechanics, you discover that most of the time, [Mercury is closer to Earth than any other planet](https://physicstoday.scitation.org/do/10.1063/PT.6.3.20190312a/full/). That's the sort of data I want to think about astrological effects. If we're talking about 25 inches, I don't want to be off by several million miles because I used an average distance. [timeanddate.com](https://www.timeanddate.com/astronomy/planets/distance) gives the real time distances.
 
 ![](/images/randi_astrology/timeanddate.png)
 
@@ -31,7 +31,7 @@ That's a linear representation even through the planets are all over the place. 
 
 ![](/images/randi_astrology/solar_system.png)
 
-I plug that into a Google Sheet to figure out some relative gravity numbers. The Force column leaves out the gravitational constant and the mass of earth because the last column divides everything by the force from the Sun, cancelling out those values. Sadly, no one wants to report numbers for Pluto, which is still a planet, but it's so small (smaller than our Moon) and so far away it doesn't matter.
+I plug that into a Google Sheet to figure out some relative gravity numbers. The Force column leaves out the gravitational constant and the mass of earth because the last column divides everything by the force from the Sun, canceling out those values. Sadly, no one wants to report numbers for Pluto, which is still a planet, but it's so small (smaller than our Moon) and so far away it doesn't matter.
 
 <div align="center">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhjBD08iBStX3sv-ySo7Ugl1v9wc9UTd7u9SfSeSj8l0cYi5mupuY-QikNPp4UfeqIg8o63Ij06QTF/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp" width="100%" height="300"></iframe>
