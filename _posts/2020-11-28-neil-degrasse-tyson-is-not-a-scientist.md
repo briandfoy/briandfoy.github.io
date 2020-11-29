@@ -42,7 +42,7 @@ I immediately knew his statement was false, even without evidence. Just on intui
 
 In the entire history of art, Tyson is asserting that a painting from 1889 is the very first to have the background as the title. He's very cagey to say "I think" and "I could be wrong", but you only get to say that once when you are going to make it part of your act. You have to verify it after that. He hasn't done that, and it's so easy to disprove. He says later in the Rogan interview that his (Tyson's) brother teaches art history, which makes this even worse. His brother should have corrected him.
 
-For what it's worth, categorical statements, such as "first", are often wrong because they rely on the knowledge of a single person or a small group of people. There may have been millions of paintings with the background as the title that never survived or that no one other than the painter saw. The survivorship bias means that Tyson would be better off saying "that we know about".
+For what it's worth, categorical statements, such as "first" (or "none of anything that came before"), are often wrong because they rely on the knowledge of a single person or a small group of people. There may have been millions of paintings with the background as the title that never survived or that no one other than the painter saw. The survivorship bias means that Tyson would be better off saying "that we know about".
 
 Consider, for instance, the scientific idea that Man was distinguished from the other animals as a maker and user of tools. The people who thought that just hadn't seen enough of the world yet. Sea otters, dolphins, and chimpanzees are known tool users.
 
@@ -68,7 +68,7 @@ How do we know the artists used these titles? Van Gogh most likely (I don't know
 
 And this is where Tyson shows his lack of scientific rigor, curiosity, and ethical behavior. Like many working scientists, there's doing Science, the 9-to-5 job, and then there's clocking out and being a normal human with all of the foibles, biases, and laziness that Tyson attributes to the hoi polloi. Behold, a man!
 
-Three things form the fundamentals of philosophy, which is the precursor to science (Tyson is a Ph.D—a Doctor of Philosophy), and that are at issue here:
+Three things form the fundamentals of philosophy, which is the precursor to science (Tyson is a Ph.D—a Doctor of Philosophy) and that are at issue here:
 
 * What do I know?
 * How do I know it?
