@@ -3,7 +3,7 @@ layout: post
 title: Neil deGrasse Tyson fails at science
 categories:
 tags: science neil-degrasse-tyson
-stopwords:
+stopwords: Fleischman François Ph Pons Rogan's assholishness backgroundy deGrasse hoi polloi experimentalists
 last_modified:
 original_url:
 ---
@@ -14,7 +14,7 @@ Following an internet hole about the future of physics led me to a discussion of
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0pmviUS1Zac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-Rogan compliments Tyson's vest, which has Van Gogh's *The Starry Night* printed on it. He makes sures to call attention to it be starting the interview by leaning back, opening his coat, and remarking on it. That is, he has prepared notes and practiced stories to launch into:
+Rogan compliments Tyson's vest, which has Van Gogh's *The Starry Night* printed on it. He makes sure to call attention to it be starting the interview by leaning back, opening his coat, and remarking on it. That is, he has prepared notes and practiced stories to launch into:
 
 > Tyson: Look at that, a little bit of Starry Night there
 >
@@ -86,7 +86,7 @@ What does it mean "to see"? Photons enter our eyes, hit the retina, and turn int
 
 More formally, given the same pattern of input photons, what do we know about them after they enter a particular eyeball? Does every person's eye turn them into the same electrical pattern? Does a particular person's eyeball turn them into the same pattern every time? Do that pattern of electrical signals trigger the same brain reaction every time? This is the basic idea of reproducibility that modern science relies on. What happens when people take mind altering substances? What does it mean to perceive? If our perception is electrical activity in the brain, is Van Gogh's depiction any less real that any other, including a photograph?
 
-Although it would be tedious to explain this during a Rogan interview, I would have expected that Tyson would have thought it through and have a much better speil. Since he's obsessed with this painting, I would think that he would know about the digitalis idea and how that would mediate perception. For an astrophysicist, like Tyson once was, optics and their affect on inputs should also be a deeply explored and exciting topic, but that's another fight between theorists and experimentalists. There are idea people who want to think about stars, and there are grease monkeys who want to capture light. The ideas of direct and indirect measurement here are at the core of science.
+Although it would be tedious to explain this during a Rogan interview, I would have expected that Tyson would have thought it through and have a much better spiel. Since he's obsessed with this painting, I would think that he would know about the digitalis idea and how that would mediate perception. For an astrophysicist, like Tyson once was, optics and their affect on inputs should also be a deeply explored and exciting topic, but that's another fight between theorists and experimentalists. There are idea people who want to think about stars, and there are grease monkeys who want to capture light. The ideas of direct and indirect measurement here are at the core of science.
 
 This is even more interesting because later he talks about the [first image of a black hole](https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/). Tyson had made a big deal about the difference between an artists interpretation of a scene and a photograph. That image of the black hole is not a photograph; it's a heavily processed visualization of the data from a network of telescopes. This isn't the Hubble with an open shutter collecting light. Scientist collect a bunch of electrical signals, combine them, colorize them, and present them. The NASA announcement is very careful to note that it's an image of *the silhouette* of a black hole, because you obviously can't take a picture of something which emits nothing.
 
@@ -123,7 +123,7 @@ So, the null hypothesis is that the 1889 *The Starry Night* by Van Gogh is the f
 
 I also found that one of Van Gogh's influences, Millet, painted a work with the same title several years (at least) before. Again, a third grader would have discovered this by reading Wikipedia (and note the talk section where kids are asking questions for school reports). When did Millet's painting get its title? It was auctioned in 1875, so I wonder how it was listed in the catalog then.
 
-So, Tyson seems to be wrong, but as I've noted, there's some hand-waving involved in own my investigation. I make some glaring inferences, and those can't be discounted. I don't mind that he's wrong because we all are on some subject, but he positions himself as a man of science and makes fun of people who aren't. He's the sort of authority who's supposed to think deeply about what they know and how they know it so he can enrich other people to help them decide how to live (that last pillar of philosophy). He has a schtick that he's practiced and repeated.
+So, Tyson seems to be wrong, but as I've noted, there's some hand-waving involved in own my investigation. I make some glaring inferences, and those can't be discounted. I don't mind that he's wrong because we all are on some subject, but he positions himself as a man of science and makes fun of people who aren't. He's the sort of authority who's supposed to think deeply about what they know and how they know it so he can enrich other people to help them decide how to live (that last pillar of philosophy). He has a shtick that he's practiced and repeated.
 
 However, putting all this in the balance, Tyson's claim is very, very weak to the point he shouldn't be saying anything. That's a generous assessment, especially considering he's positioned himself as America's scientific conscience.
 
