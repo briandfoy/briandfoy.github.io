@@ -64,7 +64,7 @@ It turned out very easy to prove Tyson wrong (almost). At first, I thought I'd j
 
 But, there's a catch, and this is where scientific training should come into play.
 
-How do we know the artists used these titles? Van Gogh most likely (I don't know!) didn't call it *The Starry Night* because he was a Dutch man living in sanitarium in France. Not even the MoMA lists a non-english title, although I've written to them to see if they know the answer because english Wikipedia, the Van Gogh Gallery, and many other places list only the english title. Maybe Van Gogh didn't name it at all.
+How do we know the artists used these titles? Van Gogh most likely (I don't know!) didn't call it *The Starry Night* because he was a Dutch man living in sanitarium in France. Not even the MoMA lists a non-english title, although I've written to them to see if they know the answer because english Wikipedia, the Van Gogh Gallery, and many other places list only the english title. Maybe Van Gogh didn't name it at all. *UPDATE: <A href="#moma">MoMA's response</a> is at the end*.
 
 And this is where Tyson shows his lack of scientific rigor, curiosity, and ethical behavior. Like many working scientists, there's doing Science, the 9-to-5 job, and then there's clocking out and being a normal human with all of the foibles, biases, and laziness that Tyson attributes to the hoi polloi. Behold, a man!
 
@@ -74,7 +74,7 @@ Three things form the fundamentals of philosophy, which is the precursor to scie
 * How do I know it?
 * How should I live knowing that?
 
-Notice that Rogan's question is one of those fundamental concepts, and the most interesting one to a scientist. "How do you know what he felt?" That "how" is the basic philosophical question that a scientist must be able to answer about any assertion. How do you know what you just told me and want me to believe? Indeed, most of the activity of science is trying to disprove the assertion ("rejecting" the null hypothesis).
+Notice that Rogan's question is one of those fundamental concepts, and the most interesting one to a scientist. "How do you know what he felt?" That "how" is the basic philosophical question that a scientist must be able to answer about any assertion. How do you know what you just told me and want me to believe? Indeed, most of the activity of science is trying to disprove the assertion ("rejecting" the null hypothesis). Tyson makes the huge assumption that personal feeling is an artist's motivation rather than something like developing and perfecting a technique. There could be all sorts of reasons any particular person does something, but Tyson wants to make it about Tyson feeling something, so the producer of the art must have done it for the feels.
 
 Tyson deflects Rogan with a bunch of bullshit that he (nor anyone) can't prove, and I think he does that because he doesn't think he owes it to anyone to verify his story or to educate them about real science.
 
@@ -147,6 +147,10 @@ I started reading more about Tyson after I wrote most of this, mostly because I'
 
 * [Originality in arts vs. sciences: I disagree with Neil deGrasse Tyson.](https://www.education4site.org/blog/2012/originality-in-arts-vs-sciences-neil-degrasse-tyson-gets-it-wrong/)
 * [Meaning & Analysis: Starry Night Over the Rhone by Vincent Van Gogh](https://legomenon.com/meaning-analysis-starry-night-over-the-rhone-van-gogh.html)
+* [Van Gogh's Starry Night: A History of Matter and Matter of History](http://www.albertboime.com/Articles/Dec1984.pdf)
+* [Starry Night by Jean-Francois Millet](https://science.nasa.gov/starry-night-jean-francois-millet)
+* [Vincent Van Gogh: Starry Night](https://www.vangoghgallery.com/painting/starry-night.html)
+* [11 Things You Didn't Know About The Starry Night](https://www.mentalfloss.com/article/62621/11-things-you-didnt-know-about-starry-night)
 
 ### General screw ups
 
@@ -161,3 +165,17 @@ I started reading more about Tyson after I wrote most of this, mostly because I'
 * [What Neil deGrasse Tyson Doesn't Know About Sex Fills Many Books](https://www.forbes.com/sites/emilywillingham/2016/03/12/what-neil-degrasse-tyson-doesnt-know-about-sex-fills-many-books/?sh=1d2006cc29b6)
 * [Annotations on a Tweet-Storm Directed More-or-Less Toward Neil deGrasse Tyson](http://nautil.us/blog/annotations-on-a-tweet_storm-directed-more_or_less-towards-neil-degrasse-tyson)
 * [Neil DeGrasse Tyson bungles science of Deflate-gate scandal (UPDATED)](https://news.avclub.com/neil-degrasse-tyson-bungles-science-of-deflate-gate-sca-1798276120)
+
+<a name="moma"/>
+
+## MoMA responds
+
+The Department of Collections and Research at MoMA sent me this reply the next day:
+
+> Thank you for your question concerning the Starry Night.
+>
+> Titles are formalized in several ways, through oeuvre catalogues for example, but mostly by the institutions who own the paintings.
+>
+> You are correct to say that already Vincent and Theo talked about the painting in this way, thus in this case the source is very clear.
+>
+> On the matter of titles being translated: that is completely arbitrary, some will be known by their French name, others by a more commonly used English translation.
