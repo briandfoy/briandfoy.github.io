@@ -31,3 +31,10 @@ See which _.gitignore_ rules exclude a file ([Stackoverflow](https://stackoverfl
 Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-check-ignore)) ([Stackoverflow](https://stackoverflow.com/a/1113140/2766176))
 
 	git rev-list -n 1 HEAD -- <file_path>
+
+
+## Interesting links
+
+* [Why Git blame sucks for understanding WTF code (and what to use instead)](https://tekin.co.uk/2020/11/patterns-for-searching-git-revision-histories)
+* [Git stash doesn’t have to be scary | Jemma Issroff](https://jemma.dev/blog/git-stash)
+

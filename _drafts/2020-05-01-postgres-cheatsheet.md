@@ -2,7 +2,7 @@
 layout: post
 title: Postgres Cheatsheet
 categories:
-tags:
+tags: postgres
 stopwords:
 last_modified:
 original_url:
@@ -30,3 +30,9 @@ In _postgresql.conf_:
 	ssl on
 
 In _pg_hba.conf_, change `host` to `hostssl`.
+
+## Interesting links
+
+* [PostGraphile | PostgreSQL Schema Design](https://www.graphile.org/postgraphile/postgresql-schema-design/)
+* [Doubling the Sorting Speed of Postgres Network Types with Abbreviated Keys — brandur.org](https://brandur.org/sortsupport-inet)
+* [Common DBA tasks for PostgreSQL - Amazon Relational Database Service](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Appendix.PostgreSQL.CommonDBATasks.html)

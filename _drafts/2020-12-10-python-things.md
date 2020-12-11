@@ -2,11 +2,10 @@
 layout: post
 title: Python things
 categories:
-tags:
+tags: python
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
 
