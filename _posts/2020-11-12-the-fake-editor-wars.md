@@ -3,7 +3,7 @@ layout: post
 title: Stack Exchange clickbait "editor war"
 categories:
 tags: opinion
-stopwords: Biggs Tindall finnicky ist th regurgitations lites
+stopwords: Biggs Tindall finnicky ist th regurgitations lites StackOverflow's de facto
 last_modified:
 original_url:
 ---
@@ -145,7 +145,7 @@ So, lets see what happens. They list as "Unacceptable behavior" the guidance:
 
 > No subtle put-downs or unfriendly language. Even if you don’t intend it, this can have a negative impact on others.
 
-The post clearly crosses that line. It also forbids "bigotry", which the post clearly demostrates:
+The post clearly crosses that line. It also forbids "bigotry", which the post clearly demonstrates:
 
 > No bigotry. We don’t tolerate any language likely to offend or alienate people based on race, gender, sexual orientation, or religion — and those are just a few examples. Use stated pronouns (when known). When in doubt, don't use language that might offend or alienate.
 
