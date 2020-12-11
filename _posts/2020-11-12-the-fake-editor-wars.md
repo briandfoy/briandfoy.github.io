@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+*UPDATE: I filed a Code of Conduct violation over this blog post, and I include StackOverflow's response at the end*
+
 In [Modern IDEs are magic. Why are so many coders still using Vim and Emacs?](https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs), the writers John Biggs and Ryan Donovan go a long way to offend and patronize programmers "of a certain generation" in an effort to promote IDEs (but not a particular IDE). They're kicking a sleeping dog for no good reason.
 
 At first I thought this was an April Fools / Onion style article. I can see where they are trying to make jokes, and, having been around comics, I've been told that's the worst feedback. "I can see what you were trying to do there" explains that not only did it fail, but the mechanics were apparent. The content and the mechanism failed.
@@ -132,3 +134,40 @@ The most telling statement from the Stack Exchange blog post is something that m
 That really means that young developers are stuck if their IDE doesn't do it for them. They are less creative in investigating, debugging, and exploring because they are limited to what their IDE allows, and I think you'll see this in the quality of questions and answers on StackOverflow overall.
 
 That's not an age thing either. That's a culture thing.
+
+## I complain to StackOverflow
+
+I made a formal complaint using  [StackOverflow's Code of Conduct](https://stackoverflow.com/conduct). I figured nothing would happen with it, but as a programmer and given a new system, I want to see what happens when I push the button. I'm especially interested in what StackOverflow will do since the big brouhaha over them [dismissing Monica Cellio](https://meta.stackoverflow.com/q/393046/2766176) for asking a question about a *proposed* amendment to the Code of Conduct ([dumpster fire timeline](https://meta.stackexchange.com/q/334399/136666)).
+
+My own view is that Codes of Conduct are basically an escape hatch that allows the Enforcers a way to rescue themselves when they fear a backlash from a particular group that is favored by the group they actually want to appease. If the complainant is not in the right group, the Code of Conduct *de facto* does not apply.
+
+So, lets see what happens. They list as "Unacceptable behavior" the guidance:
+
+> No subtle put-downs or unfriendly language. Even if you don’t intend it, this can have a negative impact on others.
+
+The post clearly crosses that line. It also forbids "bigotry", which the post clearly demostrates:
+
+> No bigotry. We don’t tolerate any language likely to offend or alienate people based on race, gender, sexual orientation, or religion — and those are just a few examples. Use stated pronouns (when known). When in doubt, don't use language that might offend or alienate.
+
+On December 3, about three weeks after I sent the complaint, I got a response in which the StackOverflow Team seems to acknowledge that my complaint is valid, but also seems to say they don't really care to do anything about it:
+
+{% highlight text %}
+Re: COGRO-6691 Stack Overflow - I want to report a Code of Conduct violation - 202011121122024625
+
+Hi there, thank you for contacting us about this!
+
+We recognize that some of the opinion and attempts at humor in this piece might have been hurtful to older readers. We will work to be more sensitive to ageism in the future. Thanks for bringing this to our attention. We welcome feedback on our editorial and it helps to improve and live up to our own standards.
+
+We really apologize for the offense caused.
+
+Best,
+
+The Stack Overflow Team.
+{% endhighlight %}
+
+However, the post is still there. This is yet another example of a Code of Conduct being selectively enforced. I replied on the same day:
+
+{% highlight text %}
+Why is the blog post still there?
+{% endhighlight %}
+
