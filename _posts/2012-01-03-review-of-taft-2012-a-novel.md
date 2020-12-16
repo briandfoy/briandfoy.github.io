@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review of Taft 2012: A Novel
+title: "Review of Taft 2012: A Novel"
 categories: book-review
 tags: fiction amazon rescued-content book-review
 stopwords: mance
