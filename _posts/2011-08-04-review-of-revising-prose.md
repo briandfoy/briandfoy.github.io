@@ -2,7 +2,7 @@
 layout: post
 title: Review of Revising Prose
 categories: book-review
-tags: writing amazon rescued-content
+tags: writing amazon rescued-content book-review
 stopwords: english skotison
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R1ZXLBLPOZPMBK
