@@ -46,9 +46,9 @@ This makes the entire formula:
 
 To get this far, I didn't have to remember any more that I should already know. With basic physical properties, I can work my way back to the conversions.
 
-As an aside, why are the Fahrenheit numbers 32 and 212? It's easy to understand the Celcius number because they are based off the properties of water. It wasn't until around 1743 that they figured out the melting point of ice and boiling point of water were invariable under certain conditions.
+As an aside, why are the Fahrenheit numbers 32 and 212? It's easy to understand the Celcius number because they are based off the properties of water. It wasn't until around the 1740s that they figured out the melting point of ice and boiling point of water were invariable under certain conditions.
 
-The Fahrenheit scale, from 1724, is different but choose similar numbers for different reasons. The point for 100 was the human body temperature, but that's not a constant. It's not reproducible across people are even the same person across time. The 0 was a different story: the fable goes that Fahrenheit chose the coldest temperature he could measure with this invention, the mercury thermometer. Using that scale, ice water was at 32. From that, we get 212 for the boiling point.
+The Fahrenheit scale, from 1720s, is different but choose similar numbers for different reasons. The point for 100 was the human body temperature, but that's not a constant. It's not reproducible across people are even the same person across time. The 0 was a different story: the fable goes that Fahrenheit chose the coldest temperature he could measure with this invention, the mercury thermometer. Using that scale, ice water was at 32. From that, we get 212 for the boiling point.
 
 But then there is the Kelvin scale, which based its idea on the energy in a fixed quantity of gas. In statistical thermodynamics with *N* gas particles, you have something familiar:
 
