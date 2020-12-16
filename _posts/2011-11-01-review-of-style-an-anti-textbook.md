@@ -10,7 +10,7 @@ original_url: https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE
 
 *(This review originally [appeared on Amazon.com](https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE))*
 
-I don't think much of the Robert Lanham's writing ability. I first read [Revising Prose (5th Edition)](https://amzn.to/2UIFkjN) and found it wanting, and I think this book is merely the proto-version of that book.
+I don't think much of the Richard Lanham's writing ability. I first read [Revising Prose (5th Edition)](https://amzn.to/2UIFkjN) and found it wanting, and I think this book is merely the proto-version of that book.
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=1589880323&asins=1589880323&linkId=7eed9dc0e9ab0fb12e9f5d4309615a9c&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
