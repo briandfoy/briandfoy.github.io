@@ -75,3 +75,6 @@ filename = "%s-%s.md" % [
 result = template.result()
 path = base_path + filename
 File.open( path, "w" ) { |fh| fh.write(result) }
+
+system( "git", "add", path.to_s );
+system( "git", "commit", "-m", "Initial draft #{title}", "--date", date );

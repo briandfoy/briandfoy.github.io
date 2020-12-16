@@ -38,8 +38,6 @@ new: ## create a new draft an open it in an editor
 	  LATEST_FILE=`ls -1Art $(DRAFTS_DIR) | tail -n 1`;\
 	  echo "Latest file " $$LATEST_FILE;\
 	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
-	  git add $(DRAFTS_DIR)/$$LATEST_FILE;\
-	  git commit -m "Initial $$LATEST_FILE" $(DRAFTS_DIR)/$$LATEST_FILE;
 
 .PHONY: publish
 publish: preprocess ## remake stuff and send it to GitHub
