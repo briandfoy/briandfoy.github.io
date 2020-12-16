@@ -1,5 +1,6 @@
 #!/usr/local/bin/ruby
 
+require 'date'
 require 'erb'
 require 'readline'
 require 'pathname'
@@ -16,6 +17,27 @@ def slugify( title )
 	slug.sub!( /^-+/, "" );
 	slug.sub!( /-+$/, "" );
 	return slug
+end
+
+def days_of_month(year, month)
+  Date.new(year.to_i, month.to_i, -1).day
+end
+
+def fix_up_date( date )
+	if /\A\d{4}\z/ =~ date then
+		@months = [ '01', '02', '03', '04', '05', '06',
+				   '07', '08', '09', '10', '11', '12' ]
+		month = @months.sample;
+		date = "#{date}-#{month}"
+	end
+
+	if /\A\d{4}-\d\d?\z/ =~ date then
+		days = days_of_month( *date.split( '-', 2 ) )
+		day = rand(1..days)
+		date = "#{date}-#{format('%02d', day)}"
+	end
+
+	date
 end
 
 template = ERB.new( <<~HERE )
@@ -40,7 +62,8 @@ now = "%4d-%02d-%02d" % [
 	Time.now.month,
 	Time.now.day,
 	]
-date = input( "date? ", now )
+date = fix_up_date( input( "date? ", now ) )
+
 original = input( "Original URL? ", '' )
 
 base_path = Pathname.new( "_drafts" )
