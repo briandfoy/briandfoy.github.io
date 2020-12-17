@@ -3,7 +3,7 @@ layout: post
 title: Simpler is Better
 categories:
 tags:
-stopwords:
+stopwords: Govee LLL Siri luddite tri
 last_modified:
 original_url:
 ---
