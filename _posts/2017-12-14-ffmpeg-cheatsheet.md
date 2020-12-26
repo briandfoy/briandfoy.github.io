@@ -10,6 +10,10 @@ original_url:
 
 I use cheatsheets to remember commands I use frequently.
 
+Batch convert:
+
+	for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
+
 Convert formats:
 
     ffmpeg -i input.mkv output.mp4
