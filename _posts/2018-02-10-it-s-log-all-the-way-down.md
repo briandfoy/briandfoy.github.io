@@ -2,8 +2,8 @@
 layout: post
 title: It's log all the way down
 categories:
-tags:
-stopwords:
+tags: math programming
+stopwords: ULP glibc ivln libm
 last_modified:
 original_url:
 ---
