@@ -32,4 +32,8 @@ So, here's what I did. Most of it is finding the different places in GitHub wher
 * emailed *data@travis-ci.com* to ask them to remove my account (per [their privacy policy](https://docs.travis-ci.com/legal/privacy-policy#vii-your-rights)), since there's no setting to do that in my account. As a German company, they are governed by the GDPR
 * email to *data@travis-ci.com* bounces, so I tried *support@travis-ci.com* too
 
+Some things I didn't need to do but you may need:
+
+* [remove "require status checks"](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-required-status-checks) for Travis CI passing
+
 If you know of other things I need to do, let me know.
