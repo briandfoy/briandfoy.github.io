@@ -3,7 +3,7 @@ layout: post
 title: Simple mail processing
 categories: sysadmin
 tags:
-stopwords: IMAPing procmail
+stopwords: IMAPing procmail IMAP linux sunsetted mbox
 last_modified:
 original_url:
 ---
