@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Turning off Travis CI
-categories:
-tags:
+categories: programming
+tags: ci devops programming
 stopwords: GDPR
 last_modified:
 original_url:

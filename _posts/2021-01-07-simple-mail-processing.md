@@ -2,7 +2,7 @@
 layout: post
 title: Simple mail processing
 categories: sysadmin
-tags:
+tags: sysadmin leanpub
 stopwords: IMAPing procmail IMAP linux sunsetted mbox
 last_modified:
 original_url:
