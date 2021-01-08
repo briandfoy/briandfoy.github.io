@@ -3,7 +3,7 @@ layout: post
 title: Turning off Travis CI
 categories:
 tags:
-stopwords:
+stopwords: GDPR
 last_modified:
 original_url:
 ---
