@@ -30,5 +30,6 @@ So, here's what I did. Most of it is finding the different places in GitHub wher
 * turned off Travis in the Third-Party Access section for all of my organizations
 * removed my Travis API key from by various environment files and secrets
 * emailed *data@travis-ci.com* to ask them to remove my account (per [their privacy policy](https://docs.travis-ci.com/legal/privacy-policy#vii-your-rights)), since there's no setting to do that in my account. As a German company, they are governed by the GDPR.
+* email to *data@travis-ci.com* bounces, so I tried *support@travis-ci.com* too.
 
 If you know of other things I need to do, let me know.
