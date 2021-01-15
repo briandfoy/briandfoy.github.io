@@ -30,6 +30,7 @@ INCLUDES:=$(wildcard _includes/*.html)
 LAYOUTS:=$(wildcard _layouts/*.html)
 STYLES:=$(wildcard _sass/*.scss)
 
+OPEN=open
 EDITOR=bbedit
 
 .PHONY: new
@@ -65,6 +66,10 @@ preprocess: archives.md books.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $
 tag: ## create the tag files
 	$(PERL) bin/tags
 	- git add tag && git commit -m 'New tags' tag
+
+.PHONY: open
+open: ## open the website
+	@ $(OPEN) $(SITE_URL)
 
 # https://developer.github.com/v3/repos/pages/
 .PHONY: status
