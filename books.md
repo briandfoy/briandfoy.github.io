@@ -4,6 +4,18 @@ title: Books
 permalink: /books/
 ---
 
+<div class="row" id="perl_new_features">
+	<div class="column left book_cover">
+		<a href="https://leanpub.com/perl_new_features"><img class="book_cover" src="/images/book_covers/perl_new_features.png" height="" width="" alt="" /></a>
+	</div>
+	<div class="column right book_details">
+		<span class="book_list_title">Perl New Features</span><br/>
+		<span class="publisher">Perl School</span>, <span class="pubdate">2021-01-05</span><br/>
+		<span class="book_list_authors">brian d foy</span><br/>
+		<span class="website"><a href="https://leanpub.com/perl_new_features">https://leanpub.com/perl_new_features</a></span>
+	</div>
+</div>
+
 <div class="row" id="perl7">
 	<div class="column left book_cover">
 		<a href="https://leanpub.com/preparing_for_perl7"><img class="book_cover" src="/images/book_covers/preparing_for_perl7.png" height="" width="" alt="" /></a>
