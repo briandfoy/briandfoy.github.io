@@ -36,5 +36,5 @@ Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-che
 ## Interesting links
 
 * [Why Git blame sucks for understanding WTF code (and what to use instead)](https://tekin.co.uk/2020/11/patterns-for-searching-git-revision-histories)
-* [Git stash doesn’t have to be scary | Jemma Issroff](https://jemma.dev/blog/git-stash)
+* [Git stash doesn’t have to be scary - Jemma Issroff](https://jemma.dev/blog/git-stash)
 
