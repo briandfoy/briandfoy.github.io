@@ -10,6 +10,11 @@ original_url:
 
 Various things I need to remember for Git, but that I don't remember. I know I can read the help to get this, but I still have to wade through a bunch of verbiage.
 
+Undo the last commit (`--soft` keeps changes):
+
+	git reset --soft HEAD~1
+	git reset --hard HEAD~1
+
 Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766176)):
 
 	git push all --delete <branch-name>
