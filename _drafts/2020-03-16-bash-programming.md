@@ -30,3 +30,5 @@ original_url:
 * https://opensource.com/article/20/6/bash-trap
 
 * https://effective-shell.com/docs/section2/6-job-control/
+
+* https://olafur-palsson.medium.com/easiest-guide-to-bashrc-7ad0063d37eb
