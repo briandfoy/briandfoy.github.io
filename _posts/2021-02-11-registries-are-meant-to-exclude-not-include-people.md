@@ -3,7 +3,7 @@ layout: post
 title: Registries are meant to exclude, not include, people
 categories:
 tags: the-perl-foundation perl
-stopwords:
+stopwords: Dax Gladwell Hacktoberfest Idiocracy Jacobsen Katzer NOC Stackoverflow Stallman ZipRecruiter bootcamp employability hodge lifecycle onboarding podge pushback reputational résumé trainings
 last_modified:
 original_url: https://www.reddit.com/r/perl/comments/lgohqo/perl_and_raku_growing_as_a_profession_borrowing/gmwt0hp/
 ---
@@ -114,11 +114,11 @@ Not only that, you can get a lot of the same effect just by paying attention. Re
 
 Almost none of this has to do with Perl or programming, though. If you want to be a good programmer, you need to work at it everyday. Read lots of books. Improve your work habits slowly and constantly, such as automating your processes or becoming better with a particular tool. Learn new things.
 
-But let's talk about the real issue. Employers are betting that someone else will train their employees for them. They don't commit to a person's career. They want ready-made programmers who they will let go when they don't need them anymore. How are they made ready? Some other company trains thems, mistreats them, and they leave, voluntarily or otherwise.
+But let's talk about the real issue. Employers are betting that someone else will train their employees for them. They don't commit to a person's career. They want ready-made programmers who they will let go when they don't need them anymore. How are they made ready? Some other company trains them, mistreats them, and they leave, voluntarily or otherwise.
 
 As such, companies skip building skills pipelines. They don't create or reinforce the skills they want, but are then surprised that the market doesn't provide them.
 
-Consider this: I cut my teeth in Perl doing trainings. Stonehenge Consulting had six Perl trainers working practically full time in the 90s. Sure, Perl was hot, but companies were training people, too. Some do that now, but those companies have so much money they do it inhouse on the tools that those people can't use at a different employer.
+Consider this: I cut my teeth in Perl doing trainings. Stonehenge Consulting had six Perl trainers working practically full time in the 90s. Sure, Perl was hot, but companies were training people, too. Some do that now, but those companies have so much money they do it in-house on the tools that those people can't use at a different employer.
 
 And the problem isn't just that you can't find a person who wants to work in your technology. A new person, no matter how good they are, has no institutional knowledge of your problem. Your company invested a couple of years in some person they didn't retain; that investment in institutional knowledge walked away. Now you have to start over. And, that's the hardest problem.
 
