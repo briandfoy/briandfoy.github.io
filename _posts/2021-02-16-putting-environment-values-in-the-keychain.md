@@ -8,9 +8,7 @@ last_modified:
 original_url:
 ---
 
-If I lose my laptop,
-
-I do the same stupid but expedient things that most people probably do. I write passwords on paper (which I latter shred) or I type them into notes. Sometimes I have them in *~/.bash_profile*:
+I do the same stupid but expedient things that most people probably do. I write passwords on paper (which I latter shred) or I type them into notes. Sometimes I have them in *~/.bash_profile*, right there where anyone can see them if they have access to my terminal.
 
 {% highlight bash %}
 export SOME_API_KEY=abcdeadbeef
