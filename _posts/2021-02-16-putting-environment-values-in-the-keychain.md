@@ -21,7 +21,7 @@ But, good news everyone! I got far enough down my to do list that I've fixed thi
 
 First, I moved all the sensitive stuff in their own file, *~/.bash_secrets* and change mode 400 (whereas my *~/.bash_profile* is 644 for no particular reason). I'll load that in *~/.bash_profile*:
 
-{% highlight text %}
+{% highlight bash %}
 [ -f ~/.bash_secrets ] && source ~/.bash_secrets
 {% endhighlight %}
 
@@ -29,7 +29,7 @@ In *~/.bash_secrets*, I create a function to use macOS's [security](https://ss64
 
 {% highlight bash %}
 function get_secret () {
-    security find-generic-password -a $LOGNAME -s $1 -w
+	security find-generic-password -a $LOGNAME -s $1 -w
 	}
 
 # Appveyor
