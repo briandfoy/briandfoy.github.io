@@ -99,3 +99,11 @@ sub _platform_settings {
 	$settings->{$^O};
 	}
 {% endhighlight %}
+
+## Other things to read
+
+* [Reading Code Is a Skill](https://dzone.com/articles/reading-code-is-a-skill) says some of the same stuff
+	* The code predates more recent features
+	* The best practices were different then
+	* The original code made sense, but then other lines were added
+	* There were business constraints that no one remembers
