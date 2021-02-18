@@ -107,3 +107,4 @@ sub _platform_settings {
 	* The best practices were different then
 	* The original code made sense, but then other lines were added
 	* There were business constraints that no one remembers
+* [Code Is Not Literature](http://www.gigamonkeys.com/code-reading/)
