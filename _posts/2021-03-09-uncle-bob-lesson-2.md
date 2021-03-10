@@ -12,7 +12,8 @@ original_url:
 may have heard of the Agile Alliance, Extreme Programming, and the SOLID
 principles. That's "Uncle Bob".*
 
-
+I align much less loosely with the advice in this lesson than the one
+on [Clean Code]().
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2a_ytyt9sf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
