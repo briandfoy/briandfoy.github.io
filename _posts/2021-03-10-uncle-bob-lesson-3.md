@@ -36,6 +36,18 @@ Uncle Bob as your new CTO has some expectations.
 	* When you release code, you know it works.
 	* It will be as high as quality code as it can be in the time given.
 	* Mercury space program had a "sprint" length of one day
+* You do not slow down with product age. "Stable productibity"
+	* code messes cause slowness.
+* Inexpensive adaptability
+	* hard to change software might as well be hardware
+* Continuous improvement
+* Fearless competence
+	* People change code to minimize their personal risk, not improve the system
+	* Shouldn't be afraid to touch the code.
+	* The "Fragile Test Problem"
+		* tests are an integral part of the system and must be accountable for
+* We will not dump on QA
+* Honest estimates
 
 ## Also in this series
 
