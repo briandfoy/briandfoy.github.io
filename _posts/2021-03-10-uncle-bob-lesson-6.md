@@ -16,10 +16,10 @@ principles. That's "Uncle Bob".*
 
 ## Also in this series
 
-* [Lesson 1 - Clean Code]()
-* [Lesson 2 - Comments]()
-* [Lesson 3 - Professionalism]()
-* [Lesson 4 - Test Driven Development]()
-* [Lesson 5 - Good Software Architecture]()
-* [Lesson 6 - Production vs. Development]()
+* [Lesson 1 - Clean Code](/uncle-bob-lesson-1/)
+* [Lesson 2 - Comments](/uncle-bob-lesson-2/)
+* [Lesson 3 - Professionalism](/uncle-bob-lesson-3/)
+* [Lesson 4 - Test Driven Development](/uncle-bob-lesson-4/)
+* [Lesson 5 - Good Software Architecture](/uncle-bob-lesson-5/)
+* [Lesson 6 - Production vs. Development](/uncle-bob-lesson-6/)
 

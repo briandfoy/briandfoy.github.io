@@ -48,3 +48,12 @@ functionality
 * prefer exceptions to returning error codes (Java thing)
 * don't repeat yourself
 * structured programming - Edsger Dijkstra
+
+## Also in this series
+
+* [Lesson 1 - Clean Code](/uncle-bob-lesson-1/)
+* [Lesson 2 - Comments](/uncle-bob-lesson-2/)
+* [Lesson 3 - Professionalism](/uncle-bob-lesson-3/)
+* [Lesson 4 - Test Driven Development](/uncle-bob-lesson-4/)
+* [Lesson 5 - Good Software Architecture](/uncle-bob-lesson-5/)
+* [Lesson 6 - Production vs. Development](/uncle-bob-lesson-6/)
