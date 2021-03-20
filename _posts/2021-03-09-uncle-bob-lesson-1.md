@@ -3,7 +3,7 @@ layout: post
 title: Uncle Bob, Lesson 1
 categories:
 tags:
-stopwords:
+stopwords: Bjarne Booch Edsger Stroustrup booleans polymorphism
 last_modified:
 original_url:
 ---

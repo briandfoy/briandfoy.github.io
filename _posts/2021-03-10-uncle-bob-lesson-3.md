@@ -3,7 +3,7 @@ layout: post
 title: Uncle Bob, Lesson 3
 categories:
 tags:
-stopwords:
+stopwords: doublings
 last_modified:
 original_url:
 ---
@@ -38,7 +38,7 @@ Uncle Bob as your new CTO has some expectations.
 	* When you release code, you know it works.
 	* It will be as high as quality code as it can be in the time given.
 	* Mercury space program had a "sprint" length of one day
-* You do not slow down with product age. "Stable productibity"
+* You do not slow down with product age. "Stable productivity"
 	* code messes cause slowness.
 * Inexpensive adaptability
 	* hard to change software might as well be hardware

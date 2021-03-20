@@ -3,7 +3,7 @@ layout: post
 title: Neil deGrasse Tyson fails at science
 categories:
 tags: science neil-degrasse-tyson
-stopwords: Fleischman François Ph Pons Rogan's assholishness Maslak Morrisseau Orson Wittman's backgroundy deGrasse hoi polloi experimentalists MoMA's catalogues href
+stopwords: Fleischman François Ph Pons Rogan's assholishness Maslak Morrisseau Orson Wittman's backgroundy deGrasse hoi polloi experimentalists MoMA's catalogues href synesthesia Photoshoppers Mumler Cousteau
 last_modified:
 original_url:
 ---
@@ -41,7 +41,7 @@ There are many other instances of Tyson telling this story, including this video
 I immediately knew his statement was false, even without evidence. Just on intuition, it's often easy to disprove these sorts of statements because they often rely on ignorance. I don't think, as a scientist, he genuinely tried to verify the truth of his assertion. I
 think that because I disproved it in 15 minutes, and I don't even care that much about the painting.
 
-In the entire history of art, Tyson is asserting that a painting from 1889 is the very first to have the background as the title. He's very cagey to say "I think" and "I could be wrong", but you only get to say that once when you are musing about it. After that, when you are going to repeat it and make a point of it, you must verify it. As a scientist, heHe hasn't done that, and it's so easy to disprove. He says later in the Rogan interview that his (Tyson's) brother teaches art history, which makes this even worse. His brother should have corrected him.
+In the entire history of art, Tyson is asserting that a painting from 1889 is the very first to have the background as the title. He's very cagey to say "I think" and "I could be wrong", but you only get to say that once when you are musing about it. After that, when you are going to repeat it and make a point of it, you must verify it. As a scientist, he hasn't done that, and it's so easy to disprove. He says later in the Rogan interview that his (Tyson's) brother teaches art history, which makes this even worse. His brother should have corrected him.
 
 For what it's worth, categorical statements, such as "first" (or "none of anything that came before"), are often wrong because they rely on the knowledge of a single person or a small group of people. There may have been millions of paintings with the background as the title that never survived or that no one other than the painter saw. The survivorship bias means that Tyson would be better off saying "that we know about".
 
@@ -125,7 +125,7 @@ Van Gogh painted what we now call *The Starry Night* in June 1889. In [the July 
 
 But, in other letters, such as [an unsent fragment to Gauguin from October 1888](http://vangoghletters.org/vg/letters/RM16/letter.html) (that is, before June 1889), Van Gogh also uses "la nuit étoilée", probably to refer to what we now call *Starry Night over the Rhône*. Likewise, that was probably less a title and more a description. Things are fuzzy here, but that's an interesting discovery! Think about that; if an artist doesn't assign a formal title, does it have a title? If I post this essay with no title, but you call it something, is that the title? When does the title exist and when can we say it is "first"? What if the title wasn't assigned much later when the painting changed hands?
 
-I've asked the MoMA, the current owner of *The Starry Night*, if they know what the correct history is and who gave it the title. I've also sent an inquiry to the Van Gogh Museum. Maybe some art historian at one of these museums will enjoy educating me about art. That's part of science, too: ask people who would already know. I call that the Jacques Costeau method. He'd pull into port and ask the fisherman "you seen anything weird?"
+I've asked the MoMA, the current owner of *The Starry Night*, if they know what the correct history is and who gave it the title. I've also sent an inquiry to the Van Gogh Museum. Maybe some art historian at one of these museums will enjoy educating me about art. That's part of science, too: ask people who would already know. I call that the Jacques Cousteau method. He'd pull into port and ask the fisherman "you seen anything weird?"
 
 Second, suppose *The Starry Night* is the title, which seems plausible. Was it the first painting to do that? Again, here's part of the problem beyond the title. When was that the title and not merely a description? We can't assume that the date of creation is the same as the date of titling. This is an important thing to figure out! Do we understand the relationship between the creation of a work of art, its classification, its identity, and author's intent? And, is that a rule of the universe that we can know, or something we have to know for every piece of art? Does every piece of art have its own, unique title (already shown to false)? If we know something about one painting, what can we know about another one?
 
@@ -139,7 +139,7 @@ So, Tyson seems to be wrong, but as I've noted, there's some hand-waving involve
 
 However, putting all this in the balance, Tyson's claim is very, very weak to the point he shouldn't be saying anything. That's a generous assessment, especially considering he's positioned himself as America's scientific conscience.
 
-He can like the painting all he wants, and he can talk about how much he likes the painting all he wants. But, he can't make up facts. And, beyond that, if he loves the paintings based on that fiction he's created, does he love the painting or does he love the story? Many people conflate their affinity for a painting's story over its material, organic existence. The art world is full of stories of frauds and counterfeits that make copies that convince experts. Why aren't those as valuable as the orignal?
+He can like the painting all he wants, and he can talk about how much he likes the painting all he wants. But, he can't make up facts. And, beyond that, if he loves the paintings based on that fiction he's created, does he love the painting or does he love the story? Many people conflate their affinity for a painting's story over its material, organic existence. The art world is full of stories of frauds and counterfeits that make copies that convince experts. Why aren't those as valuable as the original?
 
 If you love the art, you shouldn't care who created the exact replica of what you love. Read more about that in Robert Wittman's book [Priceless](https://amzn.to/3pphLcG) and the history of the importance of provenance. Witness the saga of the First Nations artist Morrisseau and the Maslak-McLeod Gallery, or the saga of a parent possibly passing off work as their kid's in [My Kid Could Paint that](https://www.imdb.com/title/tt0912592/), or even Orson Welles's [F is for Fake](https://www.criterion.com/films/908-f-for-fake). All of these point to the same underlying trend: we care more about the story than the actual object. Art is good if it has a good story, but sometimes the story is bullshit.
 

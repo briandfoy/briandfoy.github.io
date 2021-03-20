@@ -3,7 +3,7 @@ layout: post
 title: Uncle Bob, Lesson 4
 categories:
 tags:
-stopwords:
+stopwords: Prolog
 last_modified:
 original_url:
 ---
@@ -42,7 +42,7 @@ with them dictating what your ideas and concerns should be.
 * Write the code in a way that you can test it
 * Testable code is decoupled code
 * Inheritance is the tightest coupling we get
-* Mutation tests (fuzz) - if tests survive a mutution, the tests are crap
+* Mutation tests (fuzz) - if tests survive a mutation, the tests are crap
 
 * Outside-In - lots of mocks and test doubles
 * Stateless - no mocks

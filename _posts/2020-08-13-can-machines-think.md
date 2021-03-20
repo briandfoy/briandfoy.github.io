@@ -3,7 +3,7 @@ layout: post
 title: Can Machines Think?
 categories:
 tags:
-stopwords:
+stopwords: Broderick Eurisko's Gladwell Ranadivé Sheedy SkyNet Vivek WOPR cancelled grandmaster intuitional nerf outsized pre un
 last_modified:
 original_url:
 ---
@@ -21,7 +21,7 @@ Richard Feynman was asked this question in 1985. He had some interesting ideas.
 
 He makes the further interesting point that we only think the machine is valuable if it could beat every human at the task. Why don't we value the machine that could merely beat most humans? Why does Deep Blue have to beat the top chess grandmaster if it can beat everyone else?
 
-This entire video is interesing, but the good stuff starts at about 10:50:
+This entire video is interesting, but the good stuff starts at about 10:50:
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ipRvjS7q1DI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
