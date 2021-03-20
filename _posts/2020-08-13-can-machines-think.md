@@ -35,7 +35,7 @@ Lenat was studying AI at Stanford, and had a program, Eurisko, that could figure
 
 So, given a certain number of resources, what was the optimal navy he could create to fight other navies?
 
-For the 1981 tournament, instead of making a fancy navy, he made a immobile, heavily armed one. There wasn't enough firepower to sink these big ship that were able to armor themselves with all the resources they saved by not being mobile.
+For the 1981 tournament, instead of making a fancy navy, he made a immobile, heavily armed one. There wasn't enough firepower to sink these big ships that were able to armor themselves with all the resources they saved by not being mobile.
 
 They then changed the rules for 1982 so that ships had to be mobile. So, he made a navy of scores of small, lightly-armored and lightly-armed but highly mobile ships. His ships were easily defeated, but he had so many of them that he outlasted his opponent. In the third year they threatened to cancel the tournament if he participated.
 
