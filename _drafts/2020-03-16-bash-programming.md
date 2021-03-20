@@ -32,3 +32,5 @@ original_url:
 * https://effective-shell.com/docs/section2/6-job-control/
 
 * https://olafur-palsson.medium.com/easiest-guide-to-bashrc-7ad0063d37eb
+
+* https://github.com/koalaman/shellcheck
