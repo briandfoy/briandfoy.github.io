@@ -161,4 +161,10 @@ div.youtube {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	float: none;
+	clear: both;
+	width: 700px;
+	padding-top: 25px;
+	margin: 0 auto;
+	max-width: 100%;
 	}
