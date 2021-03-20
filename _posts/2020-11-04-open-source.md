@@ -32,7 +32,7 @@ You don't get to say in one breath that you aren't doing it for the money then i
 
 For what it's worth, any good coder is going to spend considerable non-billable time learning and exploring things. That's what allows them to make a good living.
 
-There's no heroism here and there shouldn't be any pity. That's capitalism—you put up the initial resources for the chance to do what you want in the way that you want. You make money and you help other people make money. Your a job creator. That's a good thing.
+There's no heroism here and there shouldn't be any pity. That's capitalism—you put up the initial resources for the chance to do what you want in the way that you want. You make money and you help other people make money. You're a job creator. That's a good thing.
 
 ## Actual open source
 
