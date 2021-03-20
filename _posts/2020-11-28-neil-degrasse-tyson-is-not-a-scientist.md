@@ -10,7 +10,7 @@ original_url:
 
 Following an internet hole about the future of physics led me to a discussion of Neil deGrasse Tyson's assholishness. In particular, his interview with Joe Rogan ([#1347](https://www.youtube.com/watch?v=0pmviUS1Zac)) where he acts in the same way that he decries in others.
 
-<div align="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0pmviUS1Zac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -32,7 +32,7 @@ This is not a casual exchange with Tyson. He's obsessed with this painting and h
 
 There are many other instances of Tyson telling this story, including this video where Tyson often uses the same words:
 
-<div align="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0nBMyj-r92A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -49,7 +49,7 @@ Consider, for instance, the scientific idea that Man was distinguished from the 
 
 <br/>
 
-<div align="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uc7Ahp5--eE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -106,7 +106,7 @@ But, if you listen to Tyson enough, you start to understand that he's locked int
 
 This is the sort of existential crisis that scientists and wannabe scientists have because it's the orderliness of the universe that allows them their place in society. If there is order, there is something that can be explained (unlike, say, the problem with the "soft sciences" where we don't have a corresponding set of equations or theories). Scientists are the High Priests of that order, and because of that we must bow and scrape to them. Tyson wants to be the Pope to those High Priests.
 
-<div align="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wgSZA3NPpBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -147,7 +147,7 @@ Tyson's scientific training should lead him to verify his ideas. His training an
 
 What happens to the scientist who spends years working on something to find out it won't work? The situation that stands out in my mind is Fleischman and Pons and their cold fusion scandal that played out while I was in college. They had spent so much of their own money that it couldn't fail—that would be a waste. It's the sunk cost fallacy. They doubled-down and conducted science by press conference. Even in disgrace they have not given up.
 
-<div align="center">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6CfHaeQo6oU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

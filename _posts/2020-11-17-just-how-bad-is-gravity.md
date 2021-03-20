@@ -59,14 +59,14 @@ If you've seen one of his presentations, you know he's eccentrically charismatic
 
 ## Some better versions of The Amazing Randy
 
-<div align="center">
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lTn0t_7pGZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div align="center">
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqCJDpNnHNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div align="center">
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LjF1sUZEy2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

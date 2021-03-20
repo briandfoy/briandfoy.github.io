@@ -12,7 +12,9 @@ original_url:
 may have heard of the Agile Alliance, Extreme Programming, and the SOLID
 principles. That's "Uncle Bob".*
 
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l-gF0vDhJVI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Also in this series
 

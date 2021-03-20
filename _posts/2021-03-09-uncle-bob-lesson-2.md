@@ -16,8 +16,9 @@ I align much less loosely with Uncle Bob's advice in this lesson than the one
 on [Lesson 1 - Clean Code](/uncle-bob-lesson-1/). I think part of that
 is the different ways of thinking about Java/C++ and anything else.
 
-
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2a_ytyt9sf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## What is the purpose of a comment?
 

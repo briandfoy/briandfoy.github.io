@@ -173,4 +173,6 @@ This is similar to something John Ousterhout says about clean, minimal
 code. We don't know how long it took to get the code that simple and clean.
 We see end (sometimes intermediate) results.
 
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bmSAYlu0NcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

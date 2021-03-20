@@ -18,7 +18,9 @@ and leave the rest. Most of these sorts of debates center on people's
 disagreements on how to optimize for their preferences and ideas, along
 with them dictating what your ideas and concerns should be.
 
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/58jGpV2Cg50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Three laws of Test Driven Development
 
@@ -50,7 +52,9 @@ with them dictating what your ideas and concerns should be.
 
 * [Distillation of “TDD, Where Did It All Go Wrong”](https://herbertograca.com/2018/08/27/distillation-of-tdd-where-did-it-all-go-wrong/)
 
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EZ05e7EMOLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Also in this series
 

@@ -10,7 +10,9 @@ original_url:
 
 Can machines think? Sure, but do you want the solutions they come up with? Consider *Terminator*. SkyNet decided that the solution to the problem was to kill all humans.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RLtlTV-VQDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Richard Feynman was asked this question in 1985. He had some interesting ideas.
 
@@ -21,7 +23,9 @@ He makes the further interesting point that we only think the machine is valuabl
 
 This entire video is interesing, but the good stuff starts at about 10:50:
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ipRvjS7q1DI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 What happens if we don't tell the computer how to solve the problem? He talks about [Traveller Trillion Credit Squadron](https://wiki.travellerrpg.com/Trillion_Credit_Squadron), which Douglas Lenat's AI beat so hard they almost cancelled it.
 
@@ -43,7 +47,9 @@ Feynman goes on to describe other surprising heuristics that Lenat came across. 
 
 As much as I like *War Games*, the movie with Matthew Broderick, I never believed that WOPR would conclude that the only way not to win would be to not play. It would have come up with something very unexpected (and not having a nuclear war was never in question a movie with Ally Sheedy).
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s93KC4AGKnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Feynman notes this earlier in the same talk. Computers accomplish goals, but they don't know what our real intentions are. For example, we like to watch sports and we like our favorite team to win, but we like to watch a good game even more. Any sporting match, where the outcome is obvious and unavoidable, is also boring. It's why Traveller threatened to cancel itself.
 
