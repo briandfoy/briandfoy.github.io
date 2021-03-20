@@ -33,19 +33,19 @@ Lenat was studying AI at Stanford, and had a program, Eurisko, that could figure
 
 > Eurisko was creating concepts on its own. It was distilling thousands of experiences into the judgmental, almost intuitional, knowledge that constitutes expertise -rules that can't always be proved logically, that can't guarantee a correct answer, but that are reliable guides to the way the world works, a means of cutting through complexity and chaos.
 
-So, given a certain number of resources, what was the optimal navy he can create to fight other navies? Read  for some amazing details.
+So, given a certain number of resources, what was the optimal navy he could create to fight other navies?
 
-For the 1981 tournament, instead of making a fancy navy, he made a immobile, heavily armed one. There wasn't enough firepower to sink these big ship that were able to armor themselves with all the resources they saved by not being mobile..
+For the 1981 tournament, instead of making a fancy navy, he made a immobile, heavily armed one. There wasn't enough firepower to sink these big ship that were able to armor themselves with all the resources they saved by not being mobile.
 
 They then changed the rules for 1982 so that ships had to be mobile. So, he made a navy of scores of small, lightly-armored and lightly-armed but highly mobile ships. His ships were easily defeated, but he had so many of them that he outlasted his opponent. In the third year they threatened to cancel the tournament if he participated.
 
-As an aside, some of what I've read is that the players were dismayed that the outcomes of their simulations were practically pre-determined and took no skill. That is, the actual game was a foregone conclusion once you pitted two known navies against each other. And, knowing the best navies robbed the game of any of its meaning. That is, the game is fun because we are stupid and ignorant, not because we are clever.
+As an aside, some of what I've read is that the players were dismayed that the outcomes of their simulations were practically pre-determined and took no skill. The actual game was a foregone conclusion once you pitted two known navies against each other. And, knowing the best navies robbed the game of any of its meaning. That is, the game is fun because we are stupid and ignorant, not because we are clever.
 
 One of Lenat's strategies was used by General Paul K. Van Riper when he played the Iraqi side of the real-life war games in the [Millennium Challenge 2002](https://en.wikipedia.org/wiki/Millennium_Challenge_2002). Van Riper basically overwhelmed the American navy by launching all his missiles at once when the navy entered the Persian Gulf. Van Riper won so hard that they had to nerf him so America could win (and hence, invade Iraq confidently). He quit the exercise over it.
 
-Feynman goes on to describe other surprising heuristics that Lenat came across. Leant was comparing his own solutions to computer solutions for various unspecified problems. In one run, the machine would win because its heuristic was to ignore Lenat's heuristics and give them no credit. In another heuristic, numbered 693, the winning strategy was to take credit for every successful heuristic. Indeed, one of the Eurisko's Traveller solutions was to change the rules.
+Feynman goes on to describe other surprising heuristics that Lenat came across. Lenat was comparing his own solutions to computer solutions for various unspecified problems. In one run, the machine would win because its heuristic was to ignore Lenat's heuristics and give them no credit. In another heuristic, numbered 693, the winning strategy was to take credit for every successful heuristic. Indeed, one of the Eurisko's Traveller solutions was to change the rules.
 
-As much as I like *War Games*, the movie with Matthew Broderick, I never believed that WOPR would conclude that the only way not to win would be to not play. It would have come up with something very unexpected (and not having a nuclear war was never in question a movie with Ally Sheedy).
+As much as I like *War Games*, the movie with Matthew Broderick, I never believed that WOPR would conclude that the only way not to win would be to not play. It would have come up with something very unexpected (and not having a nuclear war was never in question in a movie with Ally Sheedy).
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s93KC4AGKnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
