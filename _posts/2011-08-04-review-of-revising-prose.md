@@ -12,8 +12,10 @@ original_url: https://www.amazon.com/gp/customer-reviews/R1ZXLBLPOZPMBK
 
 Professor Lanham correctly finds the problem with the Official Style people pick up as they go through school and their jobs. They write noun-heavy, passive sentences that pile up prepositional phrases on each other. Having diagnosed the problem, though, his Paramedic Method for solving it worships at the altar of his Lard Factor, the ratio of his revised sentence to the original sentence length. Since he only deals at the sentence level, he rewrites each gargantuan sentence into exactly one smaller sentence, and this is where he goes wrong and often loses the meaning of the original.
 
+<div align="amazon">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=0321441699&asins=0321441699&linkId=06e4759c5f60aa1605347e4ebe202e3a&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
+</div>
 
 For instance, he takes this sentence:
 

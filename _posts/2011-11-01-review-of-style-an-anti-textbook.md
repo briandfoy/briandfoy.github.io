@@ -12,8 +12,10 @@ original_url: https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE
 
 I don't think much of the Richard Lanham's writing ability. I first read [Revising Prose (5th Edition)](https://amzn.to/2UIFkjN) and found it wanting, and I think this book is merely the proto-version of that book.
 
+<div class="amazon">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=1589880323&asins=1589880323&linkId=7eed9dc0e9ab0fb12e9f5d4309615a9c&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
+</div>
 
 The problem, however, is that he has correct and useful insights into the problems of writing, and, in this book, the writing about writing. He has good things to say. He has good ideas. He just can't write convincingly. This book is the delight of the person who considers himself the thinking sort—everyone else is wrong and the system is rigged. The textbooks are written by hacks, published by bean counting idiots, and assigned by failed writers to cretins fulfilling general education requirements. The thinking person who must endure all of this copes by putting himself above the fray. If you liked [Lies My Teacher Told Me](https://amzn.to/3bRzvq0), you'll probably enjoy reading Lanham's evisceration of composition instruction. However, by the time you're in college, you should have already advanced as reader to questioning and evaluating sources, working with primary sources, and synthesizing ideas. The concept of a "textbook" at the college level is fundamentally wrong unless you think college is really just four more years of high school.
 
