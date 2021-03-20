@@ -30,7 +30,9 @@ There's this big mess of terms: strong, weak, loose, static, dynamic, concrete, 
 
 The original video link I had has disappeared, but there's another video that relates the same story:
 
+<div align="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lFIYKmos3-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 Types are just a kind of thing. It doesn't matter how we define that thing or how it works. The type is not the algebra. Forget about the terms, which no one can agree on (mostly), and figure out what you what to know and why you want to know it. It doesn't really matter what you call it as long as you get what you want.
 
