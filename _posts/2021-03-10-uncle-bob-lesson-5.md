@@ -12,7 +12,7 @@ original_url:
 may have heard of the Agile Alliance, Extreme Programming, and the SOLID
 principles. That's "Uncle Bob".*
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sn0aFEMVTpA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
@@ -34,6 +34,10 @@ principles. That's "Uncle Bob".*
 * Easiest way to go fast is to go well. It might not be very fast, but it's not going to slow down.
 
 * People think that you can go fast by going dirty—quick and dirty. But, things slow to a crawl later.
+
+* Software has two values
+	* what it does (the requirements)
+	* it's structure
 
 ## Also in this series
 
