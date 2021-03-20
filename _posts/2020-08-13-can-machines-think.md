@@ -39,7 +39,7 @@ As an aside, some of what I've read is that the players were dismayed that the o
 
 One of Lenat's strategies was used by General Paul K. Van Riper when he played the Iraqi side of the real-life war games in the [Millennium Challenge 2002](https://en.wikipedia.org/wiki/Millennium_Challenge_2002). Van Riper basically overwhelmed the American navy by launching all his missiles at once when the navy entered the Persian Gulf. Van Riper won so hard that they had to nerf him so America could win (and hence, invade Iraq confidently). He quit the exercise over it.
 
-Feynman goes on to describe other surprising heuristics that Lenat came across. Leant was comparing his own solutions to computer solutions for unspecified problems. In one run, the machine would win because its heuristic was to ignore Lenat's heuristic and give them no credit. In another heuristic, numbered 693, the winning strategy was to take credit for every successful heuristic.
+Feynman goes on to describe other surprising heuristics that Lenat came across. Leant was comparing his own solutions to computer solutions for various unspecified problems. In one run, the machine would win because its heuristic was to ignore Lenat's heuristics and give them no credit. In another heuristic, numbered 693, the winning strategy was to take credit for every successful heuristic. Indeed, one of the Eurisko's Traveller solutions was to change the rules.
 
 As much as I like *War Games*, the movie with Matthew Broderick, I never believed that WOPR would conclude that the only way not to win would be to not play. It would have come up with something very unexpected (and not having a nuclear war was never in question a movie with Ally Sheedy).
 
