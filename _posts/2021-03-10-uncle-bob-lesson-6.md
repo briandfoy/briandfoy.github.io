@@ -16,6 +16,36 @@ principles. That's "Uncle Bob".*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l-gF0vDhJVI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+## All About Agile
+
+Symptoms of mismanagement:
+
+* delivering the wrong project
+* project is inferior in quality
+* late
+* Iron Cross of project management (choose 3)
+	* Good
+	* Fast
+	* Cheap
+	* Done
+
+* Data
+	* Story points
+	* Burn down chart
+* Put the charts on the wall
+
+* The purpose of Agile is to destroy hope
+	* want to know how messed up we are as soon as we can
+
+* Flacid scrum
+
+* Small teams to do small things
+
+* Project is not over when everything is done; it's over when there is nothing left doing.
+
+* keep one task as a reference point for assigning story points
+
+
 ## Also in this series
 
 * [Lesson 1 - Clean Code](/uncle-bob-lesson-1/)

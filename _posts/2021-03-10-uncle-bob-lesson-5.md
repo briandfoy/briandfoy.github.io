@@ -39,6 +39,32 @@ principles. That's "Uncle Bob".*
 	* what it does (the requirements)
 	* it's structure
 
+## Clean Architecture
+
+* Object-Oriented Software Engineering: A use case approach
+
+* MVC was invented for small things, not application level things. - Trygve Mikkjel Heyerdahl Reenskaug invented it for GUIs.
+
+* There's no such thing as an Object Relational Mapper.
+	* An object has behavior, not data
+	* A database has data, not behavior
+	* An ORM actually just fills in data structures
+	* The authors of frameworks do not have your best interests in mind—they have theirs
+
+* Good architecture allows you to defer decisions as long as possible
+	* or even not made at all
+	* you don't need to select the database right away
+	* or, maximizes the decisions not made
+
+* Frameworks
+	* are not made for your benefit—made for author's benefit
+	* you have to tightly couple into someone else's decisions
+	* you commit to them, not them to you
+	* framework authors don't care if their framework is in the way
+	* first month is easy, the years are hard
+	* A good architect looks at how it benefits and hurts, then uncouples
+	* Build v Buy decision. Even a free thing might cost more over building yourself
+
 ## Also in this series
 
 * [Lesson 1 - Clean Code](/uncle-bob-lesson-1/)
