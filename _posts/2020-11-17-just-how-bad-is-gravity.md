@@ -33,7 +33,7 @@ That's a linear representation even through the planets are all over the place. 
 
 I plug that into a Google Sheet to figure out some relative gravity numbers. The Force column leaves out the gravitational constant and the mass of earth because the last column divides everything by the force from the Sun, canceling out those values. Sadly, no one wants to report numbers for Pluto, which is still a planet, but it's so small (smaller than our Moon) and so far away it doesn't matter.
 
-<div align="center">
+<div class="center">
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQhjBD08iBStX3sv-ySo7Ugl1v9wc9UTd7u9SfSeSj8l0cYi5mupuY-QikNPp4UfeqIg8o63Ij06QTF/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false&amp" width="100%" height="300"></iframe>
 </div>
 
@@ -59,14 +59,14 @@ If you've seen one of his presentations, you know he's eccentrically charismatic
 
 ## Some better versions of The Amazing Randy
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lTn0t_7pGZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qqCJDpNnHNI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LjF1sUZEy2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

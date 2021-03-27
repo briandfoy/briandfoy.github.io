@@ -30,7 +30,7 @@ There's this big mess of terms: strong, weak, loose, static, dynamic, concrete, 
 
 The original video link I had has disappeared, but there's another video that relates the same story:
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lFIYKmos3-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

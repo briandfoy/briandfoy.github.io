@@ -10,7 +10,7 @@ original_url: https://www.reddit.com/r/perl/comments/lgohqo/perl_and_raku_growin
 
 *Nigel Hamilton has some suggestions on what The Perl Foundation to improve the employment situation for Perl programmers. I respond with some historical perspective and pushback. There's some context to this: TPF doesn't know what they want to do and they are trying to figure it out. I responded to [their call for a survey, too](https://www.reddit.com/r/perl/comments/ko88ie/coding_in_perl_what_support_do_you_need/ghpw86y/). This [originally appeared in Reddit](https://www.reddit.com/r/perl/comments/lgohqo/perl_and_raku_growing_as_a_profession_borrowing/gmwt0hp/)*
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FtZzYzqjuGM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 

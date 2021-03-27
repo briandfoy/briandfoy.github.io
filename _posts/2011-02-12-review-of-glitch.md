@@ -12,7 +12,7 @@ original_url: https://www.amazon.com/gp/customer-reviews/R1K43RB54DL9HX
 
 This is designed a C-level executive book and should give those executives an idea about the pitfalls of software, why software is apparently difficult to get right, and how it can go disastrously wrong. The reader who is unfamiliar with software and the business of software is likely to believe much of this book despite its obvious lack of connection to reality and its anecdotal lessons and vague and useless tips. This book isn't really about software anyway. It's about technology management, a wholly different topic. It's about the whole of information technology, with all the buzzwords and hot trends that will make this book a remainder within six months. Indeed, by scrapping the title and changing the focus slightly, this book wouldn't be so egregiously bad.
 
-<div align="amazon">
+<div class="amazon">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=B003WJRW5W&asins=B003WJRW5W&linkId=ca837620a1e6f67ff8779d9d0f9325db&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
 </div>
@@ -31,7 +31,7 @@ Computer Science is not vocational training for software creators anymore than a
 
 At one point, the author says that the senior level executives should trust their IT managers. Again with the trust. Instead of trust, the senior level executives should be holding their managers' feet to the fire to find out how much they really understand what they are doing, how they are evaluating alternatives, and what long term effects their decisions will have. They should also be holding their vendors feet to same fires so they aren't sold a bill of goods that not only doesn't meet their needs but doesn't even do what it says on the tin. However, since very few people actually understand any of this (compare with the _Better Off Ted_'s "Jabberwocky" episode), they let it slide. Again, they can shift the blame and shirk their responsibility as managers. Who gets fired when something goes wrong? It's often not the top. Compare that to the Navy, for instance. Who gets fired if something goes wrong on a ship? It's usually at least the captain of the ship, even if he did everything he should have done; he is ultimately responsible. Add career consequences to IT failure, and you'll change the game. Make people liable for what they do and they'll be more careful.
 
-<div align="youtube">
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spyJ5yxTfas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
