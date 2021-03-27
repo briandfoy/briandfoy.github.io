@@ -3,7 +3,7 @@ layout: post
 title: Skipping profile parts while running through BBEdit
 categories:
 tags: bbedit macOS secrets
-stopwords:
+stopwords: env
 last_modified:
 original_url:
 ---

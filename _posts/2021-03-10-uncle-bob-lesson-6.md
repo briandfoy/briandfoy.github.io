@@ -37,7 +37,7 @@ Symptoms of mismanagement:
 * The purpose of Agile is to destroy hope
 	* want to know how messed up we are as soon as we can
 
-* Flacid scrum
+* Flaccid scrum
 
 * Small teams to do small things
 
