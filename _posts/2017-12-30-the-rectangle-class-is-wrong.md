@@ -51,7 +51,7 @@ Conversely, every regular, closed, convex polygon of four sides (there's on one!
 
 In the abstract, our polygon doesn't have a magnitude. That's something done elsewhere. A graphics thingy may scale the polygon, but that's not something the polygon knows about itself just like it doesn't know it's orientation. These things are projected onto a polygon by something else. They are external descriptions. Until there are concrete measures, we only have relative distances and relative areas. But, these are derived properties. That is, if we know what we already know, we can compute these. In good database design, we remove anything that we can compute from something else. Consider that for object designs too.
 
-Likewise, the polygon doesn't have a name. In English, a closed, regular, convex polygon with four sides is called a "square", but in French it's *un carré*. But maybe I want to call it MegaEquiQuad. That name is not a property of the polygon; it's something that we project onto it based on our estimation and categorization. We choose something that sets apart one thing from another, then assign a name to represent that distinction. The thing doesn't care; it is what it is. We don't need something else, like a class name or inheritance relationship, to define that. Deciding to have a name carves the projection into the code. We've limited the object based on an externality. If we can avoid that, don't do it.
+Likewise, the polygon doesn't have a name. In English, a closed, regular, convex polygon with four sides is called a "square", but in French it's *un carré*. But maybe I want to call it MegaEquiQuad. That name is not a property of the polygon; it's something that we project onto it based on our estimation and categorization. We choose some property that sets apart one thing from another, then assign a name to represent that distinction. The thing doesn't care; it is what it is. We don't need something else, like a class name or inheritance relationship, to define that. Deciding to have a name carves the projection into the code. We've limited the object based on an externality. If we can avoid that, don't do it.
 
 This brings us back to philosophy. What do we really know and what do we add to these ideas? What's the simplest way to define and think about them so that we do less overall work?
 
@@ -59,7 +59,7 @@ Compare this to internationalization and localization where message text is mere
 
 ## Non-regular polygons
 
-Knowing the number of vertices is everything we need to have in that case, but it's not the best we can do. We specify the number of vertices because we knew several things. Closed regular polygons all have the same angles at each vertex, there are at least three vertices,the sides are the same length, all angles are less than 180 degrees, and the sum of all exterior angles is 360 degrees. This is fundamental to a closed, regular, convex polygon.
+Knowing the number of vertices is everything we need to have in the regular case, but it's not the best we can do. We specify the number of vertices because we assume several things. Closed regular polygons all have the same angles at each vertex, there are at least three vertices,the sides are the same length, all angles are less than 180 degrees, and the sum of all exterior angles is 360 degrees. This is fundamental to a closed, regular, convex polygon.
 
 {% highlight ruby %}
 #!/usr/local/bin/ruby
@@ -78,7 +78,7 @@ There's a problem. Now that we've left the realm of regular polygons, we can no 
 
 Are we getting a bit pedantic here? It may seem so, but this is a simple demonstration of the process you should go through when choosing objects for much more complex systems. What really defines that thing you are thinking about, and knowing that, what things does it know and what can it do?
 
-An easy thing might be to specify two arrays: one for side length and one for angles. Again, we skip the checks to ensure the array arguments are the same length and that the numbers can actually represent a closed polygon. For example, if there are four vertices, we can't have three sides of length 1 and another of length 5 million. That's not a closed polygon.
+An easy thing might be to specify two arrays: one for edge length and one for angles. Again, we skip the checks to ensure the array arguments are the same length and that the numbers can actually represent a closed polygon. For example, if there are four vertices, we can't have three sides of length 1 and another of length 5 million. That's not a closed polygon.
 
 But, how would a Ruby programmer handle this? The sanity checking can't be part of the instance because a polygon is already what it is. There's nothing it could return but true. So, we move that up to a class method, but look what we have to do in `initialize` now.
 
