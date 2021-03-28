@@ -239,13 +239,18 @@ class Square
 end
 {% endhighlight %}
 
-## Answering
+## Answering questions
 
 There are several things we may want to know about the polygon:
 
 * sides
 * vertices
 * path
+
+If we had been more general and implemented things as possibly open paths, we might also ask about that:
+
+* open?
+* closed?
 
 These are questions that we'd have for any polygon, so we could add instance methods to `ClosedPolygon` to answer them. We don't particular care how they answer them, so maybe they figure it out just in time and cache the result. Since the polygon will not change, the answers to these questions don't change either.
 
@@ -258,10 +263,9 @@ Beyond that, we might want to categorize them, but this isn't something the poly
 * rhombus?
 * parallelogram?
 
-If we had been more general and implemented things as possibly open paths, we might also ask about that:
+And now here's a big point. A polygon is not a square because we call it a square. It's a square because it satisfies the external categorizations we apply. A parallelogram, rhombus, rectangle, and even other categories probably, can supply an exemplar that satisfy the definition of a square. How would any sort of inheritance faithfully represent those overlapping sets?
 
-* open?
-* closed?
+![](/images/rectangle=class/overlap.png)
 
 These are things that a categorizer can figure out based on the properties. It's not a huge tragedy to add these to the polygon class itself, but we don't want to pollute its list of methods with tens or hundreds of external judgments. Remember, if we are consistently adding methods to an instance to support something an actor wants to do with that instance, we're probably doing it wrong.
 
