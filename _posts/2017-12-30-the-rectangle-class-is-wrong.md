@@ -80,15 +80,15 @@ Are we getting a bit pedantic here? It may seem so, but this is a simple demonst
 
 An easy thing might be to specify two arrays: one for edge length and one for angles. Again, we skip the checks to ensure the array arguments are the same length and that the numbers can actually represent a closed polygon. For example, if there are four vertices, we can't have three sides of length 1 and another of length 5 million. That's not a closed polygon.
 
-But, how would a Ruby programmer handle this? The sanity checking can't be part of the instance because a polygon is already what it is. There's nothing it could return but true. So, we move that up to a class method, but look what we have to do in `initialize` now.
+But, how would a Ruby programmer handle this? The sanity checking can't be part of the instance because a polygon is already a polygon. There's nothing it could do but say it is a polygon. So, we move that up to a class method.
 
-We already have a `ClosedPolygon` object! We don't even know if we have something sane, but we are already in the wrong part of the code! That's not a huge deal because we can easily extract ourselves before we return the instance to the caller, but it's messy. Our design already has a problem. We should never have had an instance that had to reach back up to the class to stop what should have never happened.
+Look what we have to do in `initialize` now. We already have a `ClosedPolygon` object! We don't even know if we have something sane, but we are already in the wrong part of the code! That's not a huge deal because we can easily extract ourselves before we return an instance to the caller, but it's messy. Our design already has a problem. We should never have had an instance that had to reach back up to the class to stop what should have never happened.
 
 {% highlight ruby %}
 #!/usr/local/bin/ruby
 
 class ClosedPolygon
-	def self.sanity( lengths, angles ); 1; end
+	def self.sanity( lengths, angles ); ...; end
 
 	def initialize( lengths, angles );
 		raise "Nope" if ! self.class.sanity( lengths, angles );
