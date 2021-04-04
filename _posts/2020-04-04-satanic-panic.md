@@ -18,6 +18,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * April 2019 - Cameron Styles and Hannah Waterbury ["The Satanic Panic" podcast](https://www.satanicpanicpodcast.com/episodes)
 * April 2019 - Penny Lane ["Hail Satan", documentary](https://www.hailsatanfilm.com)
 * **November 2018** - Chelsey Weber-Smith - ["American Hysteria" podcast](https://www.stitcher.com/podcast/chelsey-webersmith/american-hysteria/e/57668940)
+* October 2017 - Q starts the Pizzagate conspiracy rumor
 * **August 2017** - *Stuff You Should Know* - ["How Satanism Works"](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/how-satanism-works-29467653/)
 * August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
@@ -38,6 +39,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
 * December 1997 - Last issue of *Dissociation*
 * 1996 - Mike Snedeker gets cases overturned
+* 1995 - "The Law Enforcement Guide to Satanic Cults", training video
 * 1994 - *Treating Survivors of Satanist Abuse*
 * 1994 - National Center on Child Abuse and Neglect report noting no evidence of SRA
 * 1994 - DSM-IV removes the Multiple Personality Disorders, demoting it to dissociative identity disorder
@@ -49,8 +51,9 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1992 - Keller case
 * 1992 - Joan Baez - "Play Me Backwards"
 * March 1992 - False Memory Syndrome Foundation
-* 1991 - Laurel Rose Willson - *Satan's Underground* - hoax, also witness in McMartin case
+* 1991 - Laurel Rose Willson (Lauren Stratford) - *Satan's Underground* - hoax, also witness in McMartin case
 * 1991 - *A Thousand Acres*
+* 1991 - *20/20* airs a live Roman Catholic exorcism ([YouTube](https://www.youtube.com/watch?v=L5-FW4wRnTE)) ([NY Times](https://www.nytimes.com/1991/04/05/news/the-rite-of-exorcism-on-20-20.html))
 * 1990 - *Judas Priest* trial
 * 1990 - [Don’t Make Me Go Back, Mommy: A Child’s Book About Satanic Ritual Abuse](http://awfullibrarybooks.net/satan-for-kids/), Multnomah Press
 * October 1989 - preliminary report of an investigation by Supervisory Special Agent Ken Lanning from the FBI Behavioral Science Unit at Quantico
@@ -58,6 +61,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1989 - Sally Jesse Raphael has two shows on SRA
 * 1989 - Oprah Winfrey hosts Laurel Rose Willson and Michelle Smith on her show
 * 1989 - *Unlocking the Secrets of Your Childhood Mind*
+* 1989 - *Hell's Bells: The Dangers of Rock 'N' Roll* - documentary film by Eric Holmberg
 * 1988 - *The Courage to Heal: A Guide for Women Survivors of Child Sexual Abuse* (induced memories)
 * 1988 - [Thurston County ritual abuse case](https://en.wikipedia.org/wiki/Thurston_County_ritual_abuse_case)
 * 1988 - Geraldo Rivera show, "Devil Worship: Exposing Satan's Underground" ([whole show](https://www.youtube.com/watch?v=0mytkRybjNI)) (Parts [1](https://www.youtube.com/watch?v=qocBf3_mmic) [2](https://www.youtube.com/watch?v=4kK4yAmwpCU) [3](https://www.youtube.com/watch?v=qnM95xmLoMY) [4](https://www.youtube.com/watch?v=YTY0p-yEo70) [5](https://www.youtube.com/watch?v=B5KaTXjMUaA) [6](https://www.youtube.com/watch?v=aGHulFE7-o0) [7](https://www.youtube.com/watch?v=WvjFzrH90pk) [8](https://www.youtube.com/watch?v=xDpZGBQ4h4k) [9](https://www.youtube.com/watch?v=v1Y8xWMxqus)
@@ -72,11 +76,16 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1982 - Kern County case (36 convictions, 34 overturned) - prosecution and support used *Michelle Remembers* as training
 * 1980 - DSM III includes "dissociative disorders"
 * 1980 - Lawrence Pazder, Michelle Smith *Michelle Remembers* - first book on Satanic Ritualized Abuse (Pazder later marries his patient, Michelle) based on West African secret societies. Padzer works as a consultant on the McMartin PreSchool case.
+* 1978 - Jonestown mass suicide
+* 1977 - Son of Sam murders
 * December 1973 - *Exorcist*, the movie
 * June 19, 1972 - *TIME* Magazine - "The Occult Revival", "A Substitute Religion"
+* 1972 - LaVey publishes *Satanic Rituals*
 * 1972 - Hal Lindsey - *Satan Is Alive and Well On Planet Earth*
 * 1972 - Mike Warnke - *The Satan Seller* - hoax
 * June 1971 - William Peter Blatty, *Exorcist*, the book
+* 1969 - Manson murders
+* 1969 - LaVey publishes *The Satanic Bible*
 * 1968 - *[Rosemary's Baby](https://www.imdb.com/title/tt0063522/)*
 * 1966 - Anton LaVey starts The Church of Satan (San Francisco)
 
@@ -91,6 +100,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 
 ## Other References
 
+* [List of satanic ritual abuse allegations](https://en.wikipedia.org/wiki/List_of_satanic_ritual_abuse_allegations)
 * [Psychiatric Times retracts essay on “satanic ritual abuse”](http://retractionwatch.com/2014/02/13/psychiatric-times-retracts-essay-on-satanic-ritual-abuse/)
 * [Little Rascals Daycare Case](https://www.littlerascalsdaycarecase.org) - Edenton Seven
 * *Satanic Panic: Pop-Cultural Paranoia in the 1980s*
@@ -104,3 +114,6 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * [Conviction of Things Not Seen: The Uniquely American Myth of Satanic Cults](https://psmag.com/social-justice/make-a-cross-with-your-fingers-its-the-satanic-panic)
 * Mark Pendergrast - [The Repressed Memory Epidemic: How It Happened and What We Need to Learn from It](https://books.google.com/books?id=FdQ5DwAAQBAJ&pg=PA36&lpg=PA36&dq=*Ms*+“Surviving+the+Unbelievable”&source=bl&ots=igaxK3w8Yv&sig=ACfU3U32akupZCOEORnNqkLxWaGVKWPwRg&hl=en&sa=X&ved=2ahUKEwj72t2Zr8_oAhWDmHIEHTZ8AnIQ6AEwAHoECAgQKA#v=onepage&q=*Ms*%20“Surviving%20the%20Unbelievable”&f=false)
 * [“Michelle Remembers”: The story of the literary hoax that started a tragic moral panic.](https://seanmunger.com/2014/11/06/michelle-remembers-the-story-of-the-literary-hoax-that-started-a-tragic-moral-panic/)
+* ["Why Satanic Panic never really ended"](https://www.vox.com/culture/22358153/satanic-panic-ritual-abuse-history-conspiracy-theories-explained)
+* [Chuckle-Worthy Video: Law Enforcement Guide to Satanic Cults](https://dangerousminds.net/comments/chuckle-worthy_video_law_enforcement_guide_to_satanic_cults)
+* ["Law Enforcement Guide to Satanic Cults Part 2: Satanists Love Strolls Through the Park"](https://dangerousminds.net/comments/law_enforcement_guide_to_satanic_cults_part_2_satanists_love_strolls)
