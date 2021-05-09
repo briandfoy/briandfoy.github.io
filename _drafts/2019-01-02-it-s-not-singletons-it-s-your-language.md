@@ -2,7 +2,7 @@
 layout: post
 title: It's not Singletons, it's your language
 categories:
-tags:
+tags: programming singletons
 stopwords:
 last_modified:
 original_url:
@@ -176,9 +176,10 @@ A final criticism is that people use the Singleton pattern incorrectly or in pla
 ## Hall of Shame
 
 * [Singleton Design Pattern in Automated Testing](https://www.automatetheplanet.com/singleton-design-pattern/)
-https://www.davidtanzer.net/david%27s%20blog/2016/03/14/6-reasons-why-you-should-avoid-singletons.html
+* [6 Reasons Why You Should Avoid Singletons | David Tanzer - Coach Consultant Trainer](https://www.davidtanzer.net/david%27s%20blog/2016/03/14/6-reasons-why-you-should-avoid-singletons.html)
 
 ## Further reading
 
-https://mattcarroll.medium.com/singletons-the-safe-way-9d1e019220fc
-https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what
+* [Singletons The Safe Way. The Singleton pattern is a useful… | by Matt Carroll | Medium](https://mattcarroll.medium.com/singletons-the-safe-way-9d1e019220fc)
+* [design patterns - So Singletons are bad, then what? - Software Engineering Stack Exchange](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
+* [Singleton Considerations | Johannes Rudolph's Blog](https://jorudolph.wordpress.com/2009/11/22/singleton-considerations/)
