@@ -5,8 +5,8 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+* [How I learned rake | robertg](https://rbglod.com/2019/how_i_learned_rake/)
 
