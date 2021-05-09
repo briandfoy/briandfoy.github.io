@@ -2,7 +2,7 @@
 layout: post
 title: Reminding myself about new tools
 categories: programming
-tags:
+tags: programming ncdu
 stopwords:
 last_modified:
 original_url:
