@@ -3,7 +3,7 @@ layout: post
 title: On Readability
 categories:
 tags:
-stopwords:
+stopwords: APL Monde Perlishness Spolsky's culting dbh else's fu goto intra kung fu french's subroutining
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=592616
 ---
@@ -43,9 +43,9 @@ I particularly like Joel Spolsky's ["Making Wrong Code Look Wrong"](http://www.j
 
 ### I need to understand the task, too
 
-Someone can write a perfectly readble bit of device driver code and I still won't understand it. I'll probably be able to figure out the syntax and the various operations but I'll be foggy on what its doing and why it has to happen that way. That's not the fault of the code. I'm not a device driver sort of guy, and as complicated as those can be, I don't expect the code to make me understand the field.
+Someone can write a perfectly readable bit of device driver code and I still won't understand it. I'll probably be able to figure out the syntax and the various operations but I'll be foggy on what its doing and why it has to happen that way. That's not the fault of the code. I'm not a device driver sort of guy, and as complicated as those can be, I don't expect the code to make me understand the field.
 
-I don't expect the documentation to explain the complete history of device drivers either. Documentation is good, but anything useful is going to assume quite a bit of basic knowledge about the domain. I've done a lot of web apps, but I don't document the cookie specification in my programs. I might note an exception that covers a particular browser bug and how the code deals with that, but I'm not writing an encyclopedia. Leaving code comments to knowledgable developers isn't the same as teaching newbies.
+I don't expect the documentation to explain the complete history of device drivers either. Documentation is good, but anything useful is going to assume quite a bit of basic knowledge about the domain. I've done a lot of web apps, but I don't document the cookie specification in my programs. I might note an exception that covers a particular browser bug and how the code deals with that, but I'm not writing an encyclopedia. Leaving code comments to knowledgeable developers isn't the same as teaching newbies.
 
 Going the other way, even with "unreadable" code, if I understand the task I can probably figure it out pretty easily. I already know the steps involved, so I just have to connect that to the code.
 

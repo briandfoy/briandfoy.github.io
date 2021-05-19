@@ -3,7 +3,7 @@ layout: post
 title: Reminding myself about new tools
 categories: programming
 tags: programming ncdu
-stopwords:
+stopwords: NCurses
 last_modified:
 original_url:
 ---

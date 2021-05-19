@@ -3,7 +3,7 @@ layout: post
 title: The Rectangle Class is Wrong
 categories:
 tags:
-stopwords: MVCs Pythagorus Reenskaug Rotaters Scalers Trygve absurdium carré categorizer english un webpage
+stopwords: MVCs Pythagorus Reenskaug Rotaters Scalers Trygve absurdium carré categorizer english un webpage ClosedRegularConvexPolygon MegaEquiQuad externality scrollbars scrollbars frankenstein façile
 last_modified:
 original_url:
 ---
@@ -35,7 +35,7 @@ square = ClosedRegularConvexPolygon.new(4);
 puts square.sides;
 {% endhighlight %}
 
-I'm going to omit all error and sanity checking since that's just a matter of programming that obscures the structure. Not only that, error checking and handling is often an architectural issues about the interplay of objects, so there's no True Way to do it. Assume that the methods do whatever they need to do to ensure their arguments make sense, and complain in an appropriate way when they do not. For example, `ClosedRegularConvexPolygon` needs at least three sides.
+I'm going to omit all error and sanity checking since that's just a matter of programming that obscures the structure. Not only that, error checking and handling are often an architectural issues about the interplay of objects, so there's no True Way to do it. Assume that the methods do whatever they need to do to ensure their arguments make sense, and complain in an appropriate way when they do not. For example, `ClosedRegularConvexPolygon` needs at least three sides.
 
 If we only ever had to deal with closed, regular, convex polygons, we are done. There's no reason to go any further, especially if there are better things to do. Sometimes, that's enough for the application. And here's a big point to remember to as you read through the rest of this: Our goal is not to model the Platonic ideals of the world. Instead, we want to get to a suitable level of abstraction that allows us to easily work with and maintain code so that we don't have problems later. If our design is good, we won't have to work around it later. Not only that, we can hide various sins behind methods and classes. We all know that the Real World forces inconvenient constraints on otherwise tidy solutions. We deal with that as best we can without making more work for us or others.
 
@@ -43,11 +43,11 @@ But, notice what's missing in the our class. We don't give this thing a name. It
 
 This is the first (and second) place where most examples start to paint themselves into corners. Once we have a polygon, why would we ever want to change it?
 
-That's not as stupid as it sounds. Not all object have to be mutable. If we want something different, we make a new object.
+That's not as stupid as it sounds. Not all object have to be mutable. If we want something different, we make a new object. Mutability is, by the way, one of the chief complaints that functional programming zealots bring up about OO. But, it's not something that's intrinsic to OO.
 
-The goal of these misguided examples is to show inheritance, so it ignores the 15 other things that impact the problem. In the short term, it seems like inheritance provides re-use because one class steals parts of the other class.
+The goal of the misguided examples is to show inheritance, so it ignores the 15 other things that impact the problem. Conversely, every regular, closed, convex polygon of four sides (there's on one!) can be the same object everywhere in the program. That is, you only need one square. Envision all sorts of objects, representing distinct things, that all have the same interface (polymorphism). In the short term, it seems like inheritance provides re-use because one class steals parts of the other class. But, if you choose the wrong general attributes, the specifics will be wrong too.
 
-Conversely, every regular, closed, convex polygon of four sides (there's on one!) can be the same object everywhere in the program. That is, you only need one square. Envision all sorts of objects, representing distinct things, that all have the same interface (polymorphism). We don't want to start adding methods to only some of them because that breaks polymorphism: every time we add a method to one class, we have to add it to every such class. Do those methods represent something fundamental about the object, and if they don't, do they belong in the class? There are other ways to handle this.
+We don't want to start adding methods to only some of them because that breaks polymorphism: every time we add a method to one class, we have to add it to every such class. Do those methods represent something fundamental about the object, and if they don't, do they belong in the class? There are other ways to handle this.
 
 In the abstract, our polygon doesn't have a magnitude. That's something done elsewhere. A graphics thingy may scale the polygon, but that's not something the polygon knows about itself just like it doesn't know it's orientation. These things are projected onto a polygon by something else. They are external descriptions. Until there are concrete measures, we only have relative distances and relative areas. But, these are derived properties. That is, if we know what we already know, we can compute these. In good database design, we remove anything that we can compute from something else. Consider that for object designs too.
 
@@ -112,7 +112,7 @@ house = ClosedPolygon.new(
 puts house.sides;
 {% endhighlight %}
 
-This isn't an entirely trivial point. Consider the Single Responsibility Principle. Who's job is it to check if this instance can be constructed? This is the point where, if you care enough, you diverge from what most Ruby programmers are willing to tolerate becaus this isn't what the language wants you to do even as it allows it. You make your own `new`, which has to handle the `new` interface. This checks the arguments and only creates the instance if it makes it past that step:
+This isn't an entirely trivial point. Consider the Single Responsibility Principle. Who's job is it to check if this instance can be constructed? This is the point where, if you care enough, you diverge from what most Ruby programmers are willing to tolerate because this isn't what the language wants you to do even as it allows it. You make your own `new`, which has to handle the `new` interface. This checks the arguments and only creates the instance if it makes it past that step:
 
 {% highlight ruby %}
 class ClosedPolygon
@@ -134,7 +134,7 @@ class ClosedPolygon
 end
 {% endhighlight %}
 
-Since that combination is not a closed polygon, so it will never a `ClosedPolygon` object. There's never a chance for it to do `ClosedPolygon` things. We're not going to the pet store to buy a dog, being sold a collar, and told that that's a dog. A dog object doesn't have to know it's not a collar, nor an airplane, nor a prime number. It's a collar and the only way it can be a collar is by being a collar. Ask Plato what a man is and watch Diogenes own him (and they were all about geometry as the purest expression of truth even after Pythagorus had to threaten people not to talk about the irrational length of the hypotenuse).
+Since that combination is not a closed polygon, so it will never a `ClosedPolygon` object. There's never a chance for it to do `ClosedPolygon` things. We're not going to the pet store to buy a dog, being sold a collar, and told that that's a dog. A dog object doesn't have to know it's not a collar, nor an airplane, nor a prime number. It's a collar and the only way it can be a collar is by being a collar. Ask Plato what a man is and watch Diogenes own him (and they were all about geometry as the purest expression of truth even after Pythagorus had to threaten people not to talk about the irrational length of the hypotenuse):
 
 {% highlight ruby %}
 house = ClosedPolygon.new(
@@ -191,7 +191,7 @@ And, we should be thinking about our requirement that the path be closed at all.
 
 I used angles and lengths as the properties, but that's not the only way to define this. If I define coordinates, in some idealized space, I can get the angles and lengths from those. We might specify the polygon as the closed path connecting points. A square would be (0,0), (0,1), (1, 1), (1, 0). We could easily convert these to angles and lengths and answer the same questions as before.
 
-Which should we choose? The problem will tell you. What information do you know and what's the least amount of work you need to make it useable? What are you trying to do with it and what sort of questions are you trying to answer?
+Which should we choose? The problem will tell you. What information do you know and what's the least amount of work you need to make it usable? What are you trying to do with it and what sort of questions are you trying to answer?
 
 Later you'll see some transformations. If you want to orient and scale the polygon in space, it's probably easier to work in coordinates from the start.
 
@@ -207,7 +207,7 @@ This is where GUI examples of the same problem show up. If we have some widget i
 
 ## Curves
 
-Now imagine adding a circle. What defines a circle? It's all the points equidistant from some point. Do we care that center is? Not really. We could assign it some value, but it's really a translation from some coordinate system we don't know yet.
+Now imagine adding a circle. What defines a circle? It's all the points equidistant from some point. Do we care what that center is? Not really. We could assign it some value, but it's really a translation from some coordinate system we don't know yet.
 
 But, a circle is a degenerate case of an oval, which has two foci and a combined distance to them. We need to know how far apart the foci are from each other compared to that combined distance to define the ellipse.
 
@@ -365,14 +365,14 @@ Also, consider this is how many image manipulation programs work. They associate
 
 ## Wrapping it up
 
-Where do the facile examples go wrong? The examples show inheritance because they are demonstrating a feature. They aren't trying to demonstrate good design. It's a big problem when anyone is trying to come up with tractable and relatable examples that can fit easily on a page.
+Where do the façile examples go wrong? The examples show inheritance because they are demonstrating a feature. They aren't trying to demonstrate good design. It's a big problem when anyone is trying to come up with tractable and relatable examples that can fit easily on a page.
 
 * The instances know more than they should and do things unrelated to their identity.
 * Inheritance interferes with reuse. The Square / Rectangle problem is a problem because people give Rectangles responsibilities they shouldn't have.
 * We're told a square is a type of rectangle somewhere in grammar school, but what we're really being taught it that two things share a particular set of properties. It's easier to manage that in software by comparing properties rather than hard-coding these relationships.
 * People tend to shove everything they know about something into the class that represents it. Consider the Employee class examples!
 
-I presented an alternative, but as I equivocated many times, you don't want to design past the point where you get any flexibility or benefit. What I've implemented might not be the right approach for your problem, but you should still go through the process. What does an instance really know about itself, how can you compartmentalize it and protect it from the application, and what other ways do you have to manipulate it?
+I presented an alternative, but as I equivocated many times, you don't want to design past the point where you get any additional flexibility or benefit. What I've implemented might not be the right approach for your problem, but you should still go through the process. What does an instance really know about itself, how can you compartmentalize it and protect it from the application, and what other ways do you have to manipulate it?
 
 ## Some other things to read
 
