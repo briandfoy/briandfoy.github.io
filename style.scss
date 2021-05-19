@@ -115,6 +115,16 @@ img {
   max-width: 100%;
 }
 
+.float-left {
+	float: left;
+}
+
+.book_cover {
+	border: 1px solid grey;
+	box-shadow: 10px 10px 5px grey;
+	margin-right: 20px;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
