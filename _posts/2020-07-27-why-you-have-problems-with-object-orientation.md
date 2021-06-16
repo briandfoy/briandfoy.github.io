@@ -39,7 +39,7 @@ Another issue is that I have to construct a very heavy object when I probably do
 
 The computation for drinking age is very simple. Your birthdate has to be before a certain date. Leapseconds and timezones, two of the big advantages of `DateTime`, don't come into it. This computation has the granularity of a day. You don't even care about Daylight Saving time. You need to know the year, month, and day. The answer changes exactly once every calendar day. Indeed, in YYYYMMDD, you simply compare the numbers.
 
-Instead, I'd rather see this, where I give a known string the year, month, and day. I can construct that string however I like before I get there. The constructor can verify that how it decides to. It should have already verified that the `DateTime` made sense (like, wasn't the date the Magna Carta was signed, or past the current date), so that's not extra work:
+Instead, I'd rather see this, where I give a known string the year, month, and day. I can construct that string however I like before I get there. The constructor can verify that however it decides to. It should have already verified that the `DateTime` made sense (like, wasn't the date the Magna Carta was signed, or past the current date), so that's not extra work:
 
 {% highlight perl %}
 my $customer = Customer->new(
@@ -97,11 +97,11 @@ More likely, and Ovid eventually gets to this, Object Relational Mappers create 
 
 Essentially, these ORMs give you back a data structure that has no particularly interesting behavior or domain knowledge. It's just an object to do that, but it's not really oriented to objects. It's using a chainsaw to sand a bit of wood, and it's doing it because chainsaws are cool and sandpaper isn't.
 
-Not only that, but inflating huge objects, each that may contain several other huge objects, for long results lists, is often a waste of time. Most consumers aren't going to use most of the objects you created. All those unused objects take up memory and time. When companies try to shave milliseconds off time to first byte, this is where many of them find the inefficiencies.
+Not only that, it's inflating huge objects, each that may contain several other huge objects, for long results lists. This is often a waste of time. Most consumers aren't going to use most of the objects you created. All those unused objects take up memory and time. When companies try to shave milliseconds off time to first byte, this is where many of them find the inefficiencies.
 
 People's database designs tend to be poor as well—they might as well be magic. Your database server sits there mostly idle as your webservers fall over while your application code does work that database server could have done for you. Not only that, the database does it in a way that's available to anything that connects to it no matter the implementation language of the application.
 
-But most people don't use the power their database server provides. They are essentially large spreadsheets, which is also why  people like to use spreadsheets for their databases.
+But most people don't use the power their database server provides. They are essentially large spreadsheets, which is also why people like to use spreadsheets for their databases.
 
 If you are calling yourself a fullstack developer and you aren't creating views, triggers, and stored procedures, well, you are really just a frontend developer. But then, do you even make your own microchips, bro?
 
