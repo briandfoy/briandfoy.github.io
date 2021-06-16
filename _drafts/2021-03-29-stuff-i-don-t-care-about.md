@@ -8,5 +8,10 @@ last_modified:
 original_url:
 ---
 
-The article goes here
+Things I Don't Care About
 
+* Time to first compile
+
+* Number of lines of code
+
+"Start small, finish big",

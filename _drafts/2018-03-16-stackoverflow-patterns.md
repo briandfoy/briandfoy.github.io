@@ -8,5 +8,6 @@ last_modified:
 original_url:
 ---
 
-The article goes here
+* Does not try new things in a separate, small program
+* Does not read any docs
 
