@@ -3,7 +3,7 @@ layout: post
 title: Neil deGrasse Tyson fails at science
 categories:
 tags: science neil-degrasse-tyson
-stopwords: Fleischman François Ph Pons Rogan's assholishness Maslak Morrisseau Orson Wittman's backgroundy deGrasse hoi polloi experimentalists MoMA's catalogues href synesthesia Photoshoppers Mumler Cousteau
+stopwords: Fleischman François Ph Pons Rogan's assholishness Maslak Morrisseau Orson Wittman's backgroundy deGrasse hoi polloi experimentalists MoMA's catalogues href synesthesia Photoshoppers explainers Mumler Cousteau
 last_modified:
 original_url:
 ---
@@ -97,7 +97,7 @@ What does it mean "to see"? Photons enter our eyes, hit our retinas, and turn in
 
 More formally, given the same pattern of input photons, what do we know about them after they enter a particular eyeball? Does every person's eye turn them into the same electrical pattern? Does a particular person's eyeball turn them into the same pattern every time? Do that pattern of electrical signals trigger the same brain reaction every time? This is the basic idea of reproducibility that modern science relies on. What happens when people take mind altering substances? What does it mean to perceive? If our perception is electrical activity in the brain, is Van Gogh's depiction any less real that any other, including a photograph?
 
-Not only that, is a photograph any more genuine than a painting? Tyson asserts it is, and thats a bit different than saying "I believe a photograph over a painting".
+Not only that, is a photograph any more genuine than a painting? Tyson asserts it is, and that's a bit different than saying "I believe a photograph over a painting".
 
 The photographer is not an automaton, pushing a button to capture an objective truth. The optics change perspectives and relationships, distort sizes and shapes, and shift colors. Then, the non-automaton photographer plays with colors, light balance, black points, and so on. Photoshoppers further distort "reality". And, this is not something new. This has been around since the invention of the camera. Read, for instance, Susan Sontag's [On Photography](https://amzn.to/38uE4al). Read about William Mumler, who
 claimed to have captured Abraham Lincoln's ghost in a photo.
