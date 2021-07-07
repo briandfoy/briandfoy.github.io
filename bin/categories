@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+use strict;
+use v5.26;
+
+use lib qw(lib);
+use ArticleUtil;
+use Data::Dumper;
+
+my %tags;
+
+foreach my $path ( @ARGV ) {
+	say "Processing $path";
+	my $metadata = ArticleUtil::metadata_in( $path );
+
+	my $errors = ArticleUtil::check_metadata( $metadata );
+
+	say "\tERROR! " . dumper( $errors ) if keys %$errors;
+
+	# my $string = dumper( $metadata ); $string =~ s/^/\t/gm;
+
+	foreach my $tag ( $metadata->{tags}->@* ) {
+		$tags{$tag}++;
+		}
+
+#	say $string;
+	}
+
+say "TAGS:\n\n", dumper( \%tags );
+
+sub dumper { Data::Dumper->new([@_])->Indent(1)->Sortkeys(1)->Terse(1)->Useqq(1)->Dump }
