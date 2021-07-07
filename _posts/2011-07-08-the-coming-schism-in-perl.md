@@ -137,7 +137,9 @@ thing and moved to GitHub. Part of this was to escape Request Tracker as the bug
 
 Perl 5 is doing fine. The very capable Sawyer X has been shepherding the effort for many years and many people have worked hard to right the ship. So, no worries.
 
+## Looking back from 2021
 
+Maybe I was too optimistic last year. Some Perl maintainers led a coup that deposed Sawyer X and installed a committee in his place. That's the best tactic to prevent change and progress. As Nicholas Clark pointed out, this committee has no power because nobody has to obey it either affirmatively or even passively.
 
 
 

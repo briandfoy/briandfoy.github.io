@@ -3,7 +3,7 @@ layout: post
 title: Perl versions included in Mac releases
 categories:
 tags: perl mac
-stopwords:
+stopwords: VERSIONER usr
 last_modified:
 original_url:
 ---

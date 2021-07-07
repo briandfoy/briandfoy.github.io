@@ -1,9 +1,9 @@
 ---
 layout: post
 title: So long, HP-48, my good friend
-categories:
-tags: hp-48 physics
-stopwords:
+categories: physics
+tags: hp-48 physics calculator
+stopwords: Mathematica RPN untethered
 last_modified:
 original_url:
 ---
