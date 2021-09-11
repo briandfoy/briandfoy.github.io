@@ -45,7 +45,7 @@ In the entire history of art, Tyson is asserting that a painting from 1889 is th
 
 For what it's worth, categorical statements, such as "first" (or "none of anything that came before"), are often wrong because they rely on the knowledge of a single person or a small group of people. There may have been millions of paintings with the background as the title that never survived or that no one other than the painter saw. The survivorship bias means that Tyson would be better off saying "that we know about".
 
-Consider, for instance, the scientific idea that Man was distinguished from the other animals as a maker and user of tools. The people who thought that just hadn't seen enough of the world yet. Sea otters, dolphins, and chimpanzees are known tool users.
+Consider, for instance, the scientific idea that Man was distinguished from the other animals as a maker and user of tools. The people who thought that just hadn't seen enough of the world yet. Sea otters, dolphins, and chimpanzees are known tool users. Ravens use tools!
 
 <br/>
 
@@ -99,14 +99,24 @@ More formally, given the same pattern of input photons, what do we know about th
 
 Not only that, is a photograph any more genuine than a painting? Tyson asserts it is, and that's a bit different than saying "I believe a photograph over a painting".
 
-The photographer is not an automaton, pushing a button to capture an objective truth. The optics change perspectives and relationships, distort sizes and shapes, and shift colors. Then, the non-automaton photographer plays with colors, light balance, black points, and so on. Photoshoppers further distort "reality". And, this is not something new. This has been around since the invention of the camera. Read, for instance, Susan Sontag's [On Photography](https://amzn.to/38uE4al). Read about William Mumler, who
+The photographer is not an automaton, pushing a button to capture an objective truth. The optics change perspectives and relationships, distort sizes and shapes, and shift colors. Then, the non-automaton photographer plays with colors, light balance, black points, and so on. Photoshoppers further distort "reality". And, this is not something new. This has been around since the invention of the camera. Read, for instance, Susan Sontag's [On Photography](https://amzn.to/38uE4al) or John Berger's [Understanding a Photograph](https://amzn.to/3k383wn). Read about William Mumler, who
 claimed to have captured Abraham Lincoln's ghost in a photo.
 
-Although it would be tedious to explain this during a Rogan interview, I would have expected that Tyson would have thought it through and have a much better spiel. Since he's obsessed with this painting, I would think that he would know about the digitalis idea. I would have expected him to know how that would mediate perception. For an astrophysicist, like Tyson once was, optics and their effect on inputs should also be a deeply explored and exciting topic. But, that's another fight between theorists and experimentalists. There are idea people who want to think about stars, and there are grease monkeys who want to capture light. The ideas of direct and indirect measurement here are at the core of science.
+Although it would be tedious to explain this during a Rogan interview, I would have expected that Tyson would have thought it through and have a much better spiel. Since he's obsessed with this painting, I would think that he would know about the digitalis idea. I would have expected him to know how that would mediate perception. For an astrophysicist, like Tyson once was, optics and their effect on inputs should also be a deeply explored and exciting topic. But, that's another fight between theorists and experimentalists. There are idea people who want to think about stars, and there are grease monkeys who want to capture light (or some subset of the electromagnetic spectrum). The ideas of direct and indirect measurement are at the core of science.
 
 This is even more interesting since he later talks about the [first image of a black hole](https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/) after making a big deal about the difference between an artist's interpretation of a scene and a photograph. That image of the black hole is not a photograph; it's a heavily processed visualization of the data from a network of telescopes. This isn't the Hubble with an open shutter collecting light. Scientists collect a bunch of electrical signals (that are often not photons), combine them, colorize them, and present them. The NASA announcement is very careful to note that it's an image of *the silhouette* of a black hole, because you obviously can't take a picture of something which emits nothing. That is, in terms of art, "negative space", which is a somewhat joyful convergence of art and science (should black holes even have space). And, remember, gravity curves space-time, so the light we do see is already distorted—the distortion of light from Mercury was one of the tests for general relativity (and not what got Einstein the Nobel).
 
 ![](/images/starry_night/blackhole20190410.jpg)
+
+Curiously, there's some interesting science about what the image of a black hole would look like:
+
+<br/>
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zUyH3XhpLTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
 
 ## It's an old story
 
@@ -114,9 +124,13 @@ If you listen to Tyson enough, you start to understand that he's locked into a v
 
 This is the sort of existential crisis that scientists and wannabe scientists have because it's the orderliness of the universe that allows them their place in society. If there is order, there is something they can explain (unlike, say, the problem with the "soft sciences" where we don't have a corresponding set of equations or theories). Scientists are the High Priests of that order, and because of that we must bow and scrape to them. Tyson wants to be the Pope to those High Priests.
 
+<br/>
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wgSZA3NPpBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<br/>
 
 ## Does it have a title?
 
@@ -149,13 +163,29 @@ So, Tyson seems to be wrong, but as I've noted, there's some hand-waving involve
 
 Putting all this in the balance, Tyson's claim is very, very weak to the point he shouldn't be saying anything. That's a generous assessment, especially considering he's positioned himself as America's scientific conscience.
 
-He can like the painting all he wants, and he can talk about how much he likes the painting all he wants. But, he can't make up facts. And, beyond that, if he loves the painting based on that fiction he's created, does he love the painting or does he love the story? Many people conflate their affinity for a painting's story over its material, organic existence. The art world is full of stories of frauds and counterfeits that make copies that convince experts. Why aren't those as valuable as the original?
+He can like the painting all he wants, and he can talk about how much he likes the painting all he wants. But, he can't make up facts. And, beyond that, if he loves the painting based on that fiction he's created, does he love the painting or does he love the story? Many people conflate their affinity for a painting's story over its material, organic existence. The art world is full of stories of frauds and counterfeits who make copies that convince experts. Why aren't those as valuable as the original?
 
 If you love the art, you shouldn't care who created the exact replica of what you love. Read more about that in Robert Wittman's book [Priceless](https://amzn.to/3pphLcG) and the history of the importance of provenance. Witness the saga of the First Nations artist Morrisseau and the Maslak-McLeod Gallery, or the saga of a parent possibly passing off work as their kid's in [My Kid Could Paint that](https://www.imdb.com/title/tt0912592/), or even Orson Welles's [F is for Fake](https://www.criterion.com/films/908-f-for-fake). All of these point to the same underlying trend: we care more about the story than the actual object. Art is good if it has a good story, but sometimes the story is bullshit.
 
-Try this the next time you go to an art museum. Choose a room to stand in and watch people look at the art. I bet that you'll notice that people glance at the work, but then look at the title card or other explainers. Then they move on. The art is forever linked with metadata.
+Try this the next time you go to an art museum. Choose a room to stand in and watch people look at the art. I bet that you'll notice that people glance at the work, but then look at the title card or other explainers. Then they move on. The art is forever linked with metadata. And, this is most of John Berger's point in [Ways of Seeing](https://www.youtube.com/watch?v=0pDE4VX_9Kk): we don't consume art in its original context and are poorer for it.
+
+<br/>
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0pDE4VX_9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
 
 I'd love to run this experiment: have current art students paint works that the casual observer would think are Monets. In the same gallery, title these recent works as Monets with appropriate back dates. Along side that, take real Monets and label them as recent works by art students. Gauge people's reactions. Conversely, as a control, label everything correctly. Is the general reaction different? I bet that it is.
+
+<br/>
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0pDE4VX_9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
 
 ## What's a scientist to do?
 
@@ -165,15 +195,19 @@ He does qualify his story with "I think", but he also says he's checked. He says
 
 What happens to the scientist who spends years working on something to find out it won't work? The situation that stands out in my mind is Fleischman and Pons and their cold fusion scandal that played out while I was in college. They had spent so much of their own money that it couldn't fail—that would be a waste of their money. It's the sunk cost fallacy. They doubled-down and conducted science by press conference. Even in disgrace they didn't give up.
 
+<br/>
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6CfHaeQo6oU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<br/>
 
 I quickly disproved Tyson's assertion about *The Starry Night* with a casual glance at Wikipedia, which quickly led to [first documents](http://vangoghletters.org/vg/), the gold standard of historical research. I don't think Tyson checked, and I further assert that I think he doesn't want to find the truth because that would invalidate his good story and his passion for the painting.
 
 This is big problem in science: you are biased to believe what you have believed because it's a better story and validates the work you've already done. If the thing you love or has toiled over becomes less valuable, your relationship to it is less valuable and by consequence, you become less valuable. And, apparently having gone unchallenged long enough, it becomes true. The longer you believe something, the more truth you assign to it and the less likely you become to challenge it.
 
-The worst part of Rogan interview it that Tyson later goes on to complain about climate deniers and the cherry picking of science, despite the fact that he just passed on unverified assertions as fact. And, verifying this story is much easier than figuring out the climate. He's acting exactly like the people he despises, yet sees none of the human condition in himself. As such, he sees no reason for empathy or understanding.
+The worst part of Rogan's interview it that Tyson later goes on to complain about climate deniers and the cherry picking of science, despite the fact that he just passed on unverified assertions as fact. And, verifying this story is much easier than figuring out the climate. He's acting exactly like the people he despises, yet sees none of the human condition in himself. As such, he sees no reason for empathy or understanding.
 
 ## Interesting links
 
@@ -201,6 +235,10 @@ I started reading more about Tyson after I wrote most of this, mostly because I'
 * [What Neil deGrasse Tyson Doesn't Know About Sex Fills Many Books](https://www.forbes.com/sites/emilywillingham/2016/03/12/what-neil-degrasse-tyson-doesnt-know-about-sex-fills-many-books/?sh=1d2006cc29b6)
 * [Annotations on a Tweet-Storm Directed More-or-Less Toward Neil deGrasse Tyson](http://nautil.us/blog/annotations-on-a-tweet_storm-directed-more_or_less-towards-neil-degrasse-tyson)
 * [Neil DeGrasse Tyson bungles science of Deflate-gate scandal (UPDATED)](https://news.avclub.com/neil-degrasse-tyson-bungles-science-of-deflate-gate-sca-1798276120)
+* [The Cult of Neil deGrasse Tyson](https://www.politico.com/magazine/story/2014/10/the-cult-of-neil-degrasse-tyson-111540/)
+* [Super Scientist Neil deGrasse Tyson Doesn’t Understand Statistics](https://thefederalist.com/2014/09/10/super-scientist-neil-degrasse-tyson-doesnt-understand-statistics/)
+* [Did Neil deGrasse Tyson Just Try To Justify Blatant Quote Fabrication?](https://thefederalist.com/2014/09/15/did-neil-degrasse-tyson-just-try-to-justify-blatant-quote-fabrication/)
+* [Another Day, Another Quote Fabricated By Neil deGrasse Tyson](https://thefederalist.com/2014/09/16/another-day-another-quote-fabricated-by-neil-degrasse-tyson/)
 
 <a name="moma"/>
 
