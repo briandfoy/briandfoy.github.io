@@ -47,7 +47,7 @@ from both sides in the Civil War. These numbers disputed too, and different arti
 See [the American Battlefield Trust's accounting](https://www.battlefields.org/learn/articles/civil-war-casualties), for example. Indeed, the deaths from the US Civil War are close to our total COVID
 numbers.
 
-| War         | Combatant deaths | Total deaths |
+| War         | Combat deaths    | Total combatant deaths |
 |-------------|------------------|--------------|
 | Civil War   |   214,938        | 655,000      |
 | World War 2 |   291,557        | 405,399      |
@@ -67,7 +67,7 @@ The Soviet Union lost much more: 8,800,000 combat deaths and 24,000,000
 total deaths. That is, if you believe those numbers instead of something much
 higher.
 
-| Country | Combatant deaths | Total deaths |
+| Country | Combat deaths | Total combatant deaths |
 |---------|------------------|--------------|
 | US      |    416,000       |    418,500   |
 | Germany |  5,553,000       |  6,600,000   |
