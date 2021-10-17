@@ -2,7 +2,7 @@
 layout: post
 title: What's the pull of that planet?
 categories:
-tags:
+tags: numeracy astronomy
 stopwords: Birdman Flim
 last_modified:
 original_url:

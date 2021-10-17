@@ -2,7 +2,7 @@
 layout: post
 title: Don't compare COVID to deaths from war
 categories:
-tags: innumeracy willful-ignorance math
+tags: numeracy willful-ignorance math
 stopwords: Bloomberg COVID's overcounted underreport
 last_modified:
 original_url:
@@ -14,6 +14,18 @@ nonsense, but I'm sure they were relying on people's ignorance of
 actual numbers and inability to think about large numbers. This also
 relies on nobody questioning the numbers. Indeed, I think the people who
 repeat this assertion never bothered to check themselves.
+
+[Shifting attention to accuracy can reduce misinformation online](https://www.nature.com/articles/s41586-021-03344-2),
+an article in the March 2021 of [Nature](https://www.nature.com/), says
+
+> people often share misinformation because their attention is focused on factors other than accuracy—and therefore they fail to implement a strongly held preference for accurate sharing.
+
+The study bends over backward to suggest that most people aren't doing
+this maliciously. People are lazy, don't know how to discover
+information, and can't synthesize it. Being uneducated in this way
+means they can't effectively evaluate information.
+
+## What are the actual numbers?
 
 How many deaths have we had from COVID? To be generous, I'll concede
 the numbers from the WHO, which I think are inflated and overcounted from some

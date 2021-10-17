@@ -2,7 +2,7 @@
 layout: post
 title: Accidental Numeracy
 categories:
-tags: math feynman
+tags: math feynman numeracy
 stopwords:
 last_modified:
 original_url:
