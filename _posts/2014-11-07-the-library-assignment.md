@@ -97,14 +97,14 @@ composition in 1982. So, you have a set of parallel equations—one per variable
 There are two variables and two equations:
 
 $$
-\begin{align}
+\begin{align*}
 W_x &= ... \\
 W_y &= ... \\
 W_{total} &= ... \\
 \\
 x + y &= 100\\
 W_x x + W_y y &= W_{total}
-\end{align}
+\end{align*}
 $$
 
 ## A life skill
