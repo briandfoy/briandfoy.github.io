@@ -1,6 +1,11 @@
 #!/usr/local/bin/ruby
 
 puts <<~HERE
+    ---
+    layout: default
+    title: Archives
+    permalink: /archives/
+    ---
 	{% assign years = "#{ARGV.join(",")}" | split: "," %}
 	{% for year in years %}
 	  <h3 class="archive_year" id="archive_year_{{year}}">{{ year }}</h3>
