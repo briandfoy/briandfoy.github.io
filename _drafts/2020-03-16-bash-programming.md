@@ -16,7 +16,7 @@ original_url:
 * [Anybody can write good bash (with a little effort)](https://blog.yossarian.net/2020/01/23/Anybody-can-write-good-bash-with-a-little-effort)
 * [Make and Bash Tips](https://github.com/Teradata/stampede/wiki/Make-and-Bash-Tips)
 * [Unit testing bash scripts](https://advancedweb.hu/unit-testing-bash-scripts/)
-
+* https://wiki.bash-hackers.org/howto/redirection_tutorial
 * https://www.linuxjournal.com/content/understanding-bash-elements-programming
 
 * https://eklitzke.org/bash-$%2A-and-$@
@@ -34,3 +34,4 @@ original_url:
 * https://olafur-palsson.medium.com/easiest-guide-to-bashrc-7ad0063d37eb
 
 * https://github.com/koalaman/shellcheck
+* https://effective-shell.com
