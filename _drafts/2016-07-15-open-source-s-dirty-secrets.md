@@ -38,3 +38,6 @@ http://www.consortiuminfo.org/standardsblog/articles/brief-history-open-source-s
 first wave - right to vote
 second wave - betty friedan
 third wave - intersectionality
+
+
+https://www.theregister.com/2016/05/13/open_source_insider_myth_of_opensource/
