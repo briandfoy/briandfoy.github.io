@@ -6,7 +6,6 @@ tags: numeracy astronomy
 stopwords: Birdman Flim
 last_modified:
 original_url:
-usemathjax: true
 ---
 
 [The Amazing Randi recently passed](https://www.rollingstone.com/culture/culture-news/james-randi-obituary-1079316/), so I finally starting reading his book [Flim Flam](https://amzn.to/3kDjWWU). In one of the early chapters, he goes after astrology, but makes a unsupported, weird, glib claim. The entire book is him castigating others for doing just that.
