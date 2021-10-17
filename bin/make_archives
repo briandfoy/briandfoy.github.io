@@ -5,6 +5,7 @@ puts <<~HERE
     layout: default
     title: Archives
     permalink: /archives/
+    generated-by: $0
     ---
 	{% assign years = "#{ARGV.join(",")}" | split: "," %}
 	{% for year in years %}
