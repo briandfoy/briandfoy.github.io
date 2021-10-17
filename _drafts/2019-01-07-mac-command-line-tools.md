@@ -5,8 +5,8 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+* https://github.com/BlueM/cliclick
+* https://github.com/rptb1/aliasPath

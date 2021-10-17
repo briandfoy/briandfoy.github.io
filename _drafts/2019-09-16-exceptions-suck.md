@@ -5,8 +5,7 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+* http://joeduffyblog.com/2016/02/07/the-error-model/

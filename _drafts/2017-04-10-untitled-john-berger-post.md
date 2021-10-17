@@ -5,8 +5,8 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+* https://theconversation.com/how-john-berger-changed-our-way-of-seeing-art-70831
 

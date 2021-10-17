@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+* https://en.wikipedia.org/wiki/TRIZ
+* https://www.npd-solutions.com/afd.html
 
