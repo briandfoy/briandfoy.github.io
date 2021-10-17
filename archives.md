@@ -1,3 +1,8 @@
+---
+layout: default
+title: Archives
+permalink: /archives/
+---
 {% assign years = "2021,2020,2019,2018,2017,2016,2014,2013,2012,2011,2010,2008,2007,2006,2005,2004,2003,2002" | split: "," %}
 {% for year in years %}
   <h3 class="archive_year" id="archive_year_{{year}}">{{ year }}</h3>
