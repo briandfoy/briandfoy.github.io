@@ -2,7 +2,7 @@
 layout: post
 title: What is Legacy Code?
 categories: opinion
-tags: opinion programming
+tags: opinion programming legacy
 stopwords: Rik dzil Feathers's else's unserious greybeard ness DSL externalities performant résumés understandability
 last_modified:
 original_url:

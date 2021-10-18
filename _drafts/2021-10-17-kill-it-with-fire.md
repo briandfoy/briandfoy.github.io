@@ -2,7 +2,7 @@
 layout: post
 title: Kill It with Fire
 categories:
-tags:
+tags: legacy
 stopwords:
 last_modified:
 original_url: 
