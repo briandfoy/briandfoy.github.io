@@ -1,16 +1,18 @@
 ---
 layout: post
-title: Notes on Kill It with Fire
+title: Notes on Kill It With Fire
 categories:
-tags: legacy
-stopwords:
+tags: legacy software-lifecycle
+stopwords: Etsy's href img js br Bellotti's
 last_modified:
 original_url:
 ---
 
-<a target="_blank"  href="https://www.amazon.com/gp/product/B08CTFY4JP/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08CTFY4JP&linkCode=as2&tag=hashbang09-20&linkId=e0c15536e295a4fdca05586fb603fa7c"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08CTFY4JP&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hashbang09-20" ></a>
-*Kill It with Fire*. These are my notes, rather than a summary of the book.
-Things that I've already known or considered don't appear here.
+<a target="_blank" href="https://www.amazon.com/gp/product/B08CTFY4JP/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08CTFY4JP&linkCode=as2&tag=hashbang09-20&linkId=e0c15536e295a4fdca05586fb603fa7c" ><img style="padding-top: 0; padding-right: 20px" align="left" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08CTFY4JP&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hashbang09-20"></a>
+
+I just finished Marianne Bellotti's [Kill It with Fire](https://amzn.to/3G0pXbW) (a book, not he video game). These are my notes, rather than a summary of the book.
+Things that I've already known or considered don't appear here. Marianne writes about legacy modernization projects, but not from the usual tactics and techniques
+perspectives that most technologists would take. Instead, this is real world experience, mostly working on government projects.
 
 <br clear="all" />
 
@@ -24,8 +26,7 @@ Things that I've already known or considered don't appear here.
 
 * some goals are *alignable*; they can be compared to existing expectations
 * some goals are *non-alignable*; they have no reference frame
-* COBOL was for people who want to get work done with existing capabilities, and Algol60
-was for people who want to create new capabilities
+* COBOL was for people who want to get work done with existing capabilities, and Algol60 was for people who want to create new capabilities
 * *artificial consistency* is the work we do to fit into an idea even though the work does not produce additional value. For example, new libraries that provide the same capabilities as existing ones (Node.js and React, for example)
 * Keeping things simple often means accepting historical artifacts that people can easily grasp, even if these are not pure. For example, the 80 column limit on code, carried over from punch cards.
 
@@ -41,13 +42,13 @@ was for people who want to create new capabilities
 * Map out system dependencies two levels down
 * Cloud platforms are leading to more vendor lock-in (using special platform features not available elsewhere).
 
-## Chapter 5, "Building and Protecting Momemtum"
+## Chapter 5, "Building and Protecting Momentum"
 
 * Given the chance to modernize, developers tend to use tactics and strategies that they know won't work, such as "waterfall" design
 * You can apply Agile to modernization
 * Look at the actual problems. Find small scopes and big impacts.
 * Parts of the business have already aligned with the system architecture, so there will be politics
-* The fix has to make actual, noticable improvements, not just rearrange things
+* The fix has to make actual, noticeable improvements, not just rearrange things
 * "The hard problems around legacy modernization are not technical problems; they are people problems"
 * minimize the number of big decisions
 
@@ -64,7 +65,7 @@ was for people who want to create new capabilities
 		* Fix: use chaos testing
 	* Institutional failure
 		* Compounding factor: no owners
-		* Fix: [Code Yellow](https://devops.com/code-yellow-when-operations-isnt-perfect/)
+		* Fix: [Code Yellow](https://markcarrigan.net/2016/01/10/googles-war-against-latency/)
 	* Leadership has lost the room
 		* Compounding factor: self sabotaging teams
 		* Fix: murder boards to ensure that decision makers know the answers
@@ -92,9 +93,9 @@ was for people who want to create new capabilities
 ## Chapter 8, "Breaking Changes"
 
 * "air cover" - management supports you
-* behaviors that get noticed create incentives (and behaviors that aren't noticed are discentives)
+* behaviors that get noticed create incentives (and behaviors that aren't noticed are disincentives)
 * Etsy's ["just culture"](https://codeascraft.com/2012/05/22/blameless-postmortems/) and the [three-armed sweater](https://www.infoq.com/articles/crafting-resilient-culture/)
-* [Service recovery paradox](https://www.customerthermometer.com/customer-retention-ideas/the-service-recovery-paradox/)
+* [Service recovery paradox](https://www.customerthermometer.com/customer-retention-ideas/the-service-recovery-paradox/) - customer confidence is greater when they know you have previously recovered from an outage
 
 ## Chapter 9, "How to Finish"
 
@@ -106,3 +107,8 @@ was for people who want to create new capabilities
 * design so you don't need a huge effort next time
 * null values eventually become real values (like 9/9/99 is at some point a meaningful date)
 * automation means we ignore whatever we automated (so, garbage collection means we stop caring about memory)
+
+## Other reviews
+
+* [Laura Nolan in ;login:](https://www.usenix.org/publications/loginonline/kill-it-fire)
+* [iProgrammer](https://www.i-programmer.info/bookreviews/28-general-interest/14808-kill-it-with-fire.html)
