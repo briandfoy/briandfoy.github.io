@@ -3,7 +3,7 @@ layout: post
 title: The library assignment
 categories:
 tags: chemistry numeracy
-stopwords:
+stopwords: Lange's copyeditors ramped
 last_modified:
 original_url:
 usemathjax: true

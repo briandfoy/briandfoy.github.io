@@ -3,7 +3,7 @@ layout: post
 title: Quake's Fast Inverse Square Algorithm
 categories:
 tags:
-stopwords:
+stopwords: WTF threehalfs
 last_modified:
 original_url:
 usemathjax: true
