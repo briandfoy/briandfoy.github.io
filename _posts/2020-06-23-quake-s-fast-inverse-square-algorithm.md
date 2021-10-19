@@ -2,7 +2,7 @@
 layout: post
 title: Quake's Fast Inverse Square Algorithm
 categories:
-tags:
+tags: math floating-point programming
 stopwords: WTF threehalfs
 last_modified:
 original_url:
