@@ -119,10 +119,12 @@ img {
 	float: left;
 }
 
-.book_cover {
-	border: 1px solid grey;
-	box-shadow: 10px 10px 5px grey;
-	margin-right: 20px;
+img.book_cover {
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 1px solid grey;
+  box-shadow: 10px 10px 5px grey;
+  margin-right: 20px;
 }
 
 // Fixes images in popup boxes from Google Translate
