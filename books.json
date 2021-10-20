@@ -13,7 +13,8 @@
 	"good_reads": "",
 	"website": "https://www.learning-perl.com/",
 	"cover": "/images/book_covers/learning_perl.jpg",
-	"description": ""
+	"description": "",
+	"id": "llama"
 },
 {
 	"title": "Intermediate Perl, 2nd Edition",
@@ -28,7 +29,8 @@
 	"good_reads": "",
 	"website": "https://www.intermediateperl.com/",
 	"cover": "/images/book_covers/intermediate_perl.jpg",
-	"description": ""
+	"description": "",
+	"id": "alpaca"
 },
 {
 	"title": "Mastering Perl, 2nd Edition",
@@ -42,7 +44,8 @@
 	"good_reads": "",
 	"website": "https://www.masteringperl.org/",
 	"cover": "/images/book_covers/mastering_perl.jpg",
-	"description": ""
+	"description": "",
+	"id": "vicuna"
 },
 {
 	"title": "Programming Perl, 4th Edition",
@@ -59,7 +62,8 @@
 	"good_reads": "",
 	"website": "https://www.programmingperl.org/",
 	"cover": "/images/book_covers/programming_perl.jpg",
-	"description": ""
+	"description": "",
+	"id": "camel"
 },
 {
 	"title": "Effective Perl Programming, 2nd Edition",
@@ -75,7 +79,8 @@
 	"good_reads": "",
 	"website": "https://www.effectiveperlprogramming.com/",
 	"cover": "/images/book_covers/effective_perl_programming.png",
-	"description": ""
+	"description": "",
+	"id": "effective"
 },
 {
 	"title": "Learning Perl Exercises",
@@ -90,7 +95,8 @@
 	"good_reads": "",
 	"website": "https://www.effectiveperlprogramming.com/",
 	"cover": "/images/book_covers/learning_perl_exercises.jpg",
-	"description": ""
+	"description": "",
+	"id": "exercises"
 },
 {
 	"title": "Mojolicious Web Clients",
@@ -105,7 +111,8 @@
 	"good_reads": "",
 	"website": "",
 	"cover": "/images/book_covers/mojolicious_web_clients.png",
-	"description": ""
+	"description": "",
+	"id": "mojo"
 },
 {
 	"title": "Preparing for Perl 7 (retired)",
@@ -120,7 +127,8 @@
 	"good_reads": "",
 	"website": "",
 	"cover": "/images/book_covers/preparing_for_perl7.png",
-	"description": ""
+	"description": "",
+	"id": "perl7"
 }
 
 
