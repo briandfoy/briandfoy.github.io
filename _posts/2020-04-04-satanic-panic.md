@@ -47,6 +47,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1993 - *Ms* "Elizabeth Rose" - “Surviving the Unbelievable” - Gloria Steinem worked to help convict the McMartin suspects
 * 1993 - [West Memphis Three case](https://www.history.com/this-day-in-history/west-memphis-three-released-from-prison-after-18-years)
 * June 1993 - *Vanity Fair* - Leslie Bennetts - "Nightmares on Main Street"
+* January 1993 - [Satanic Cult Awareness](https://www.ojp.gov/pdffiles1/Photocopy/140554NCJRS.pdf) - Gayland W. Hurst, Ph.D. and Robert L. Marsh
 * October 1992 - *Self* "The Terrible Truth"
 * 1992 - Keller case
 * 1992 - Joan Baez - "Play Me Backwards"
