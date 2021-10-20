@@ -19,15 +19,23 @@ foreach my $book ( $perl->@* ) {
 			join ', ', $book->{authors}->@*;
 			}
 		};
+
+	my( $link ) = grep { defined } map { $book->{$_} } qw(amazon leanpub);
+	my $website = do {
+		my $web_link = $book->{website} // $link;
+		if( $web_link ) { qq(\n\t\t\t<span class="website"><a href="$web_link">$web_link</a></span>\n) }
+		else { '' }
+		};
+
 	say <<~"HERE"
-	<div class="row">
+	<div class="row" id="$book->{id}">
 		<div class="column left book_cover">
-			<img class="book_cover" src="$book->{cover}" height="" width="" alt="" />
+			<a href="$link"><img class="book_cover" src="$book->{cover}" height="" width="" alt="" /></a>
 		</div>
 		<div class="column right book_details">
 			<span class="book_list_title">$book->{title}</span><br/>
 			<span class="publisher">$book->{publisher}</span>, <span class="pubdate">$book->{date}</span><br/>
-			<span class="book_list_authors">$authors</span><br/>
+			<span class="book_list_authors">$authors</span><br/>$website
 		</div>
 	</div>
 	HERE
@@ -42,6 +50,7 @@ say <<~"HERE";
 layout: default
 title: Books
 permalink: /books/
+generated-by: $0
 ---
 
 HERE
