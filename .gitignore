@@ -9,3 +9,4 @@ node_modules
 package.json
 *.bak
 .jekyll-cache
+books.md
