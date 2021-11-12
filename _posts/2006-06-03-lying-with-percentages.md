@@ -2,7 +2,7 @@
 layout: post
 title: Lying with percentages
 categories:
-tags:
+tags: mathematics percentages
 stopwords:
 last_modified:
 original_url:
@@ -105,4 +105,8 @@ So, I run the sample again and get these numbers:
 
 Do my earlier conclusions still hold? Nope.
 
+## Further research
 
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xHjQhliXUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

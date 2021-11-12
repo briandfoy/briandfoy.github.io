@@ -2,7 +2,7 @@
 layout: post
 compare: math
 title: Don't compare percentages
-tags: general-idiocy rescued-content math
+tags: rescued-content mathematics percentages
 stopwords: APPL MSFT sigzero tiobe's O'Reilly's Binstock
 ---
 
@@ -16,11 +16,10 @@ DDJ](http://www.drdobbs.com/jvm/the-rise-and-fall-of-languages-in-2013
 (now read only) suddenly disappears.*
 
 sigzero recently asked [if the Perl community was
-atrophying](http://use.perl.org/use.perl.org/_sigzero/journal/29798.
-html), someone else pointed me to Tim O'Reilly's [State of the
+atrophying](http://use.perl.org/use.perl.org/_sigzero/journal/29798.html),
+someone else pointed me to Tim O'Reilly's [State of the
 Computer Book
-Market](http://radar.oreilly.com/archives/2006/04/
-state_of_the_computer_book_mar.html), and there's a [Wikipedia revert
+Market](http://radar.oreilly.com/archives/2006/04/state_of_the_computer_book_mar.html), and there's a [Wikipedia revert
 war](http://en.wikipedia.org/w/index.php?title=Perl&action=history)
 over Tiobe's [Programming Programming
 Index](http://www.tiobe.com/tpci.htm). All of these suffer from a
@@ -247,3 +246,10 @@ market (as in the case of the silly business between Microsoft and
 Apple arguments). Market penetration is the false idol of stock
 speculators. The totals and first-derivatives are the numbers that
 translate into real money and real value.
+
+
+## Further research
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xHjQhliXUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
