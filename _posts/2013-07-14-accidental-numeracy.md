@@ -2,13 +2,13 @@
 layout: post
 title: Accidental Numeracy
 categories:
-tags: math feynman numeracy
+tags: feynman numeracy
 stopwords:
 last_modified:
 original_url:
 ---
 
-Richard Feynman told a story about him meeting an abacus salesman in some diner. Feynman challenged him, and got pummeled on sums and products. The abacus operator essentially did the work while recording the numbers. But then they got to cube roots and the number they were given was 1729.03. I don't remember all of the details of the story but I remember that number because it's the cube of 12 added to 1.03. Feynman knew that and of course he did because a foot has 12 inches so there are 1728 cubic inches in a cubic foot. He also knew an approximation trick to get the rest of the digits.
+Richard Feynman told a story about meeting an abacus salesman in some diner. Feynman challenged him, and got pummeled on sums and products. The abacus operator essentially did the work while recording the numbers. But then they got to cube roots and the number they were given was 1729.03. I don't remember all of the details of the story but I remember that number because it's the cube of 12 added to 1.03. Feynman knew that and of course he did because a foot has 12 inches so there are 1728 cubic inches in a cubic foot. He also knew an approximation trick to get the rest of the digits.
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SCn7SurOKdw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

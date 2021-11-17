@@ -2,7 +2,7 @@
 layout: post
 title: Don't compare COVID to deaths from war
 categories:
-tags: numeracy willful-ignorance math
+tags: numeracy willful-ignorance
 stopwords: Bloomberg COVID's overcounted underreport
 last_modified:
 original_url:
