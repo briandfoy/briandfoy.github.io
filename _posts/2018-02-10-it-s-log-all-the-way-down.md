@@ -14,8 +14,6 @@ So I was curious how far Perl would be. These things measure themselves in ULP (
 
 This is one of those things that Computer Scientists can geek out about, but for which most of us don't really care. Even with the inaccuracy, most of us probably don't care. Even if you are reading this, you probably don't care.
 
-I won't
-
 {% highlight perl %}
 #!/usr/bin/perl
 
