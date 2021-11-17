@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+use v5.10;
+use strict;
+use warnings;
+
+use File::FindLib 'lib';
+use File::Spec::Functions;
+
+use ArticleUtil;
+
+my %Tags = map { $_, [] } @ARGV;
+
+foreach my $file ( all_posts() ) {
+	foreach my $tag ( tags_in( $file ) ) {
+		next unless exists $Tags{$tag};
+		push $Tags{$tag}->@*, $file;
+		}
+	}
+
+foreach my $tag ( sort keys %Tags ) {
+	print $tag, "\n";
+	foreach my $file ( sort $Tags{$tag}->@* ) {
+		print "\t$file\n";
+		}
+	}

@@ -3,6 +3,31 @@ use v5.18;
 
 package ArticleUtil;
 use experimental qw(signatures);
+use Exporter qw(import);
+our @EXPORT = qw(all_posts tags_in metadata_in);
+
+sub all_posts () { glob( '_posts/*.md' ) }
+
+sub tags_in ( $file ) {
+	open my $fh, '<:utf8', $file or do {
+		warn "Could not open <$_>: $!";
+		return;
+		};
+
+	my $in_header = 0;
+	my @tags;
+	while( <$fh> ) {
+		chomp;
+		$in_header = ! $in_header if /\A---$/;
+		next unless $in_header;
+		next unless /\Atags:\s*(.*)/;
+		#say "Passed through: $_ -> $1";
+		@tags = split /\s+/, $1;
+		last;
+		}
+
+	@tags;
+	}
 
 sub metadata_in ( $file ) {
 	open my $fh, '<:encoding(UTF-8)', $file or do {

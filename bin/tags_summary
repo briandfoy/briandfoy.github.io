@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+use v5.10;
+use strict;
+use warnings;
+
+use File::FindLib 'lib';
+use File::Spec::Functions;
+
+use ArticleUtil;
+
+@ARGV = all_posts() unless @ARGV;
+
+my %Seen;
+my @tags =
+	grep { ! $Seen{$_}++ }
+	map { tags_in( $_ ) }
+	@ARGV;
+
+foreach my $tag ( sort { $Seen{$b} <=> $Seen{$a} } keys %Seen ) {
+	printf "%4d %s\n", $Seen{$tag}, $tag;
+	}
