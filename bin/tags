@@ -3,7 +3,7 @@ use v5.10;
 use strict;
 use warnings;
 
-use File::FindLib;
+use File::FindLib 'lib';
 use File::Spec::Functions;
 
 use ArticleUtil;
