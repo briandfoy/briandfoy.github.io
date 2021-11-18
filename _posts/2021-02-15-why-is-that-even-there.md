@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why is that even there?
-categories:
+categories: programming
 tags: code-review
 stopwords:
 last_modified:

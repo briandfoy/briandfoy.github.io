@@ -13,10 +13,10 @@ permalink: /blog/
       <div class="entry">
 		  <div class="byline">
 			<p>
-			<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> - <span class="tags">
-				{% assign tags = post.tags | sort %}
-				{% for tag in tags %}
-				<a href="/tag/{{ tag }}">{{ tag }}&nbsp;</a>
+			<span class="date">{{ post.date | date: "%B %e, %Y" }}</span> - <span class="categories">
+				{% assign categories = post.categories | sort %}
+				{% for category in categories %}
+				<a href="/category/{{ category }}">{{ category }}&nbsp;</a>
 				{% endfor %}
 			</span>
 			</p>

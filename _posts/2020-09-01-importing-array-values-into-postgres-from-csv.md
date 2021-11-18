@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Importing array values into Postgres from CSV
-categories:
+categories: databases
 tags: postgres
 stopwords: csv
 last_modified:

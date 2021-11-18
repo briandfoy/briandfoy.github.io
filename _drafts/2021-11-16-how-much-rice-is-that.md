@@ -1,15 +1,15 @@
 ---
 layout: post
 title: How much rice is that?
-categories:
-tags: numeracy
+categories: numeracy
+tags: rice exponential-growth
 stopwords:
 last_modified:
 original_url:
 usemathjax: true
 ---
 
-Someone on some podcast told the story of the chessboard and the grains of rice. Sometimes it's wheat. Sometimes it's some other staple. This apocryphal story illustrates exponential growth.
+Someone on some podcast told the story of the chessboard and the grains of rice. Sometimes it's wheat. Sometimes it's some other staple, but no matter which way they tell it, they story is about  exponential growth.
 
 > A lowly person provides some clever amusement for the king, who rewards with with whatever he might ask for. Appearing humble, he asks for a single grain of rice on the first square of a chessboard, two on the second, and doubled for each subsequent square. Once the king figures out the ruse, he has the person killed.
 
@@ -77,7 +77,7 @@ With the US numbers, we can work out a global production in 1,000 tonnes. Althou
 | Japan       |           |         7,763 |
 | TOTAL       |           |       418,789 |
 
-That's the answer for that, but we can actually [ask Wolfram Alpha](https://www.wolframalpha.com/input/?i=annual+production+of+rice+in+tonnes), which reports 623.8 million metric tonnes per year, or 623,800 1,000 tonnes. So, we're pretty close.
+That's the answer for that, but we can also [ask Wolfram Alpha](https://www.wolframalpha.com/input/?i=annual+production+of+rice+in+tonnes), which reports 623.8 million metric tonnes per year, or 623,800 1,000 tonnes. So, we're pretty close.
 
 This brings us to the second lesson of government statistics. Not only are they hard to use, but they are also wrong. Recall Stamp's Law (from Josiah Stamp, 1st Baron Stamp recounting Harold Cox):
 

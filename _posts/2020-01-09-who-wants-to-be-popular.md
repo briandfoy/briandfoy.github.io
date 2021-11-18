@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Who wants to be popular?
-categories: opinion
-tags: perl rescued-content opinion
+categories: programming rescued-content
+tags: perl
 stopwords: yq jq
 original_url: https://www.reddit.com/r/perl/comments/eldoks/perl_as_top_language/fdhj6qb/
 ---

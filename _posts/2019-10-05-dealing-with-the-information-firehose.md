@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dealing with the information firehose
-categories:
-tags: netnewswire reminders apple safari
+categories: consumer-software productivity
+tags: netnewswire reminders apple safari vienna-rss
 stopwords: Aniston Digitacene
 last_modified:
 ---
@@ -10,13 +10,15 @@ last_modified:
 I've been refining my daily dose of information.
 
 I tend to use my computers with the basic installation as opposed to
-special tools or workflows. That's a topic for a different post,
+special tools or workflows. That's a topic for a different post—this one
+is about
 
 ## Aggregate, Aggregate, Aggregate
 
 Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that [NetNewsWire 5](https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/) came out a couple of months ago! This is about
 a year after [Black Rock officially gave up](https://medium.com/bpxl-craft/the-future-of-netnewswire-8fc999387a8a) after years
-of stagnation. It turns out that I don't use the new NetNewsWire because its interface is in three columns and can't show as much information as the old, still working version.
+of stagnation. It turns out that I don't use the new NetNewsWire because its interface is in three columns and can't show as much information as the old, still working version. (In 2021, I switched to
+[ViennaRSS](https://www.vienna-rss.com), which is much of the same thing).
 
 Back to the story.
 

@@ -2,7 +2,7 @@
 layout: post
 title: My Smartphone is Stupid
 categories: technology
-tags: iphone stupidity
+tags: iphone
 stopwords: wayfinding
 last_modified:
 original_url:
@@ -12,7 +12,7 @@ My iPhone is stupid, and here's why.
 
 * If I don't have signal, Messages doesn't try to send the message later.
 
-* Even worse, I can't schedule messages. Some of my friends don't like receiving messages during certain times (at work, at night, whatever). I'd like to note this in their contact record and have Messages delay sending the message. Or, ask me if it's urgent to send right away.
+* Even worse, I can't schedule messages. Some of my friends don't like receiving messages during certain times (at work, at night, whatever). I'd like to note this in their contact record and have Messages delay sending the message. Or, ask me if it's urgent to send right away. (Note, there are tricks to doing this, but they are unnatural).
 
 * If I type the same thing over and over, stop correcting it on the third time I don't accept your suggestion.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Get this blog
-categories: web
+categories: blogging
 tags: github-pages jekyll
 stopwords: github rws yml shortcodes gh localserver mdlrc mdl jekyll
 ---

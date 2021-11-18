@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Review of Taft 2012: A Novel"
-categories: book-review
-tags: fiction amazon rescued-content book-review
+categories: book-review rescued-content
+tags: taft fiction
 stopwords: mance
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R29G6KHDDPX1YF

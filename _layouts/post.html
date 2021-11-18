@@ -8,10 +8,19 @@ layout: default
   <div class="byline">
 
   	<p>
-    <span class="date">{{ page.date | date: "%B %e, %Y" }}</span> - <span class="tags">
+    <span class="date">{{ page.date | date: "%B %e, %Y" }}</span> -
+		 <span class="categories">
+			{% assign categories = page.categories | sort %}
+			{% for category in categories %}
+			<a href="/category/{{ category }}">{{ category }}&nbsp;</a>
+			{% endfor %}
+		</span>
+
+	<br/>
+    <span class="tags">
     	{% assign tags = page.tags | sort %}
 		{% for tag in tags %}
-		<a href="/tag/{{ tag }}">{{ tag }}&nbsp;</a>
+		tags: <a href="/tag/{{ tag }}">{{ tag }}&nbsp;</a>
 		{% endfor %}
 	</span>
 	</p>

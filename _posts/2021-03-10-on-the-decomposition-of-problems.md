@@ -1,8 +1,8 @@
 ---
 layout: post
 title: On the decomposition of problems
-categories:
-tags:
+categories: programming
+tags: mark-jason-dominus magnus-carlson
 stopwords: Arcus Blaise Carlsen Dominus's Magnus Ousterhout Tullius bn empathies unencouraging
 last_modified:
 original_url:

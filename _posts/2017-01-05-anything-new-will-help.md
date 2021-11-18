@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Anything new will help
-categories:
-tags:
+categories: programming
+tags: scrum scrum-master
 stopwords: ScrumMaster Bourdain Kanter's Taylorism italian
 last_modified:
 original_url:
@@ -33,7 +33,7 @@ Once one process doesn't play out, managers choose another one. And, these perio
 
 Why did the previous process fail? It worked at Google, or Facebook, or whatever. Why didn't it work here?
 
-That's simple: it's survivorship bias. Those companies would have succeeded despite the way they did it. Their success wasn't do to their management process. It's probably more attributed to social connections, accidents of timing, and changes in customer preferences. A friend likes to tell me that Lance Armstrong on a Schwinn Huffy would still beat most bike riders. Although for other reasons, Lance himself has written that its [Not About the Bike](https://amzn.to/2WK66bg). The first step in being a champion is choosing better parents.
+That's simple: it's survivorship bias. Those companies would have succeeded despite the way they did it. Their success wasn't due to their management process. It's probably more attributed to social connections, accidents of timing, and changes in customer preferences. A friend likes to tell me that Lance Armstrong on a Schwinn Huffy would still beat most bike riders. Although for other reasons, Lance himself has written that its [Not About the Bike](https://amzn.to/2WK66bg). The first step in being a champion is choosing better parents.
 
 Consider financial investing; why do some mutual funds do so much better than others? Given some collection of random funds, statistically, some are going to do better ([Survivorship Bias and Mutual Fund Performance](https://www.jstor.org/stable/2962224)). You don't even need to know anything about the funds. The same funds might do worse the next time period; see Long Term Capital Management for an extreme example. Something like 15% of funds survive longer than 15 years. That's why good advisors tell you to choose index funds, which is the average of how well you'd do over a sufficiently long time period. See Vanguard's [What is ‘survivorship bias’ and why does it matter?](https://www.vanguard.co.uk/documents/adv/literature/survivorship-bias.pdf).
 
@@ -43,15 +43,15 @@ So you fail to improve with one process and change to another. You end up perpet
 
 ## Why is there process?
 
-Process is something that substitutes for thought. When you're Captain Sully putting a plane down in the Hudson River, you don't want to think too much. Pull out the checklists and go through them. Perform from muscle memory the tasks you've practiced in the simulators. You fall back to process because you have two minutes. There's no time for discussion.
+Process is something that substitutes for thought. It's a shortcut. When you're Captain Sully putting a plane down in the Hudson River, you don't want to think too much. Pull out the checklists and go through them. Perform from muscle memory the tasks you've practiced in the simulators. You fall back to process because you have two minutes. There's no time for discussion.
 
 That's one reason for process: highly competent people under extreme stress and time pressure.
 
 I first learned about this when a *Top Gun* pilot visited my high school. He was the guy who was flying the Tomcat that did a roll off the carrier in that movie (and was quick to point out that he'd get in trouble if he did that roll in normal flying). He showed us his flight checklist, a small, tabbed, and color coded book that is strapped to his leg during flight. If something went wrong, he went to the right tab in the book. There he found the instructions on what he needed to do. Some of the things were in bold; those things he could not skip. If he had time, he went through all the steps. If he was in deep shit, we did only the bold items. You don't see Maverick or Goose going through their checklists during their fatal flat spin, though.
 
-But, there's another application of process: low skilled workers. These are not competent people and you don't hire them to think. You want them to carry out a task just like they are told, with no deviations. Anthony Bourdain mentioned this in [Kitchen Confidential](): you want the Guatemalans to make the risotto because they'd make it the same way every time, as opposed to the italian worker who thinks he knows better based on his grandmother's version.
+But, there's another application for process: low skilled workers. These are not competent people and you don't hire them to think. You want them to carry out a task just like they are told, with no deviations. Anthony Bourdain mentioned this in [Kitchen Confidential](https://amzn.to/3crGKau): you want the Guatemalans to make the risotto because they'd make it the same way every time, as opposed to the Italian worker who thinks he knows better based on his grandmother's version.
 
-If you've dealt with offshore teams, you've probably experienced this. You may have experienced this with onshore teams. At some point in your career, you may have been the problem.
+If you've dealt with offshore teams, you've probably experienced this. You may have experienced this with onshore teams. At some point in your career, you may have been the problem. They do exactly what they are told with no deviations or understanding.
 
 The process allows new people to contribute. You've given them training wheels. Continuous Integration, Quality Assurance, and many other things are process to let low-skilled people to participate.
 

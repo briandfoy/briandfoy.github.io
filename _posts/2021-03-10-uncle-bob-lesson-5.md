@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Uncle Bob, Lesson 5
-categories:
+categories: programming
 tags: programming uncle-bob
 stopwords: GUIs MVC Mikkjel Reenskaug Trygve
 last_modified:

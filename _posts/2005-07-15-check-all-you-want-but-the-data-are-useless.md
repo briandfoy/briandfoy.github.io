@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Check all you want, but the data are useless
-categories:
-tags: graduate_school
+categories: economics
+tags: graduate_school tcl expect
 stopwords: pre
 last_modified:
 original_url:
@@ -23,7 +23,7 @@ If you were logged in, that was good. But, if you had been idle for too long, th
 
 I didn't particularly like this, and I didn't particularly like him. He didn't understand how I was able to produce results that ended up in papers, so he incentivized all the wrong things and discentivized the right things. I, in turn, discentivized his incentives.
 
-At the time I was neck deep in TCL because I was doing a lot of Tk work to create interfaces to custom hardware and so on. This is pre-web stuff and Tk was advanced magic technology. A few lines of code turned into a graphical interface with clicky pointy buttons.
+At the time I was neck deep in TCL because I was doing a lot of Tk work to create interfaces to custom hardware and so on. This is pre-web stuff and Tk was advanced, magic technology. A few lines of code turned into a graphical interface with clicky pointy buttons.
 
 TCL had this amazingly library called [Expect](http://tcl.tk/man/expect5.31/expect.1.html). It allows you to programmatically interact with systems that think a person is on the other side. Here's a short program that logs in to some system and gets its output. It matches what it sees and sends input based on that. In this case, if it sees `$ ` (my prompt) in the output, it sends back some input. This little program waits five seconds, runs `who`, and then does it again. Forever. As long as I let this run, that login is never idle:
 

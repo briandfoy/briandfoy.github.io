@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The coming schism in Perl
-categories: opinion
-tags: history legacy opinion perl rescued-content
+categories: programming opinion rescued-content
+tags: history legacy opinion perl chip-salzenberg
 stopwords:
 ---
 

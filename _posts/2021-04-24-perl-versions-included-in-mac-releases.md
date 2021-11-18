@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Perl versions included in Mac releases
-categories:
-tags: perl mac
+categories: programming macos
+tags: perl
 stopwords: VERSIONER usr
 last_modified:
 original_url:

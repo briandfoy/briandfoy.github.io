@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pausing all Cloudflare domains
-categories: sysadmin
+categories: system-administration
 tags: cloudflare web-api
 stopwords:
 ---

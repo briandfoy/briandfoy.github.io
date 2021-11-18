@@ -1,8 +1,8 @@
 ---
 layout: post
 title: It's log all the way down
-categories:
-tags: math programming
+categories: programming
+tags: logarithms
 stopwords: ULP glibc ivln libm
 last_modified:
 original_url:

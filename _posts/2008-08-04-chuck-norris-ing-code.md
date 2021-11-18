@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chuck Norris-ing code
-categories: opinion
+categories: programming opinion
 tags: rescued-content chuck-norris randal-schwartz stonehenge
 stopwords: Meng CPUs guo ing
 last_modified:

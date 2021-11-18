@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Lying with percentages
-categories:
-tags: mathematics percentages
+categories: numeracy
+tags: percentages
 stopwords:
 last_modified:
 original_url:

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: screw-spectrum-hello-nyc-mesh
-categories: nyc-mesh
+title: Screw Spectrum, hello NYC Mesh
+categories: system-administration
 tags: spectrum nyc-mesh
 stopwords:
 last_modified:
@@ -23,7 +23,7 @@ install line-of-sight antennas on their rooftops then share the
 connections through [mesh
 networking](https://en.wikipedia.org/wiki/Mesh_networking).
 
-I had mine installed today. There are antenna on top of the building,
+I had mine installed today. There are antennas on top of the building,
 which the entire building will share. I'm the test case.
 
 So far the connection is decent. It's not as fast as Spectrum, but its

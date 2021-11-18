@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Number base conversions on the command line
-categories: shell
+categories: programming command-line
 tags: perl bash aliases
 ---
 

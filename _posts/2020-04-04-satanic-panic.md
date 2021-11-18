@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Satanic Panic
-categories: history
-tags: satan mass-delusion
+categories: society
+tags: satan mass-delusion panic
 stopwords: Edenton Pre backmasking Aja Aranza Bennetts Bethania Blatty Bryn Chelsey Dagon Geraldo Kellers Ketcham LaVey Lanning Loftus Martensville McRobbie Multnomah Noll Padzer Palma Pendergrast PreSchool Quantico Rundle Shewan Simandl Thurston backmasking Holmberg Jonestown Pizzagate Stratford
 last_modified:
 original_url:

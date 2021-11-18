@@ -2,7 +2,7 @@
 layout: post
 title: Autoredialing and walking phone menus
 categories: programming
-tags: perl applescript
+tags: perl applescript phone-tree
 stopwords: cH AppleEvents FaceTime StackExchange's
 last_modified:
 original_url:
@@ -127,7 +127,7 @@ The next day, the phone menu had changed to add another unskippable message, so 
 
 I let this script run for a couple hours and finally got to an agent, but an agent who couldn't see what was wrong with my account until I offered a likely explanation. In that case, it was apparent to him, but he couldn't deal with that so I was transferred to a specialist. But, I wasn't really transferred. Rather, I was put into the hold queue for "between 120 and 127 minutes".
 
-After 10 minutes, the automated service gave me the option to get a call back rather than wait. But wait! I had to "press 1" to confirm my number and the touchpad on the FaceTime notification. Clicking the number on the mouse sent a very short tone that the system would not pick up on. I tried this several times as it cycled me through the phone tree after it "couldn't understand my response".
+After 10 minutes, the automated service gave me the option to get a call back rather than wait. But wait! I had to "press 1" to confirm my number. The touchpad on the FaceTime notification lets me click the number on the mouse, but it sends a very short tone that the system would not pick up on. I tried this several times as it cycled me through the phone tree after it "couldn't understand my response".
 
 ![Keypad](/images/phone_menu_automation/keypad.png)
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: macOS's System Integrity Protection sanitizes your environment
-categories: mac
+categories: programming macos
 tags:
 stopwords: El Capitan LIRARY DLYD culting
 last_modified:

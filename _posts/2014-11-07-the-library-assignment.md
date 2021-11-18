@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The library assignment
-categories:
-tags: chemistry numeracy
+categories: numeracy
+tags: chemistry graduate_school
 stopwords: Lange's copyeditors ramped
 last_modified:
 original_url:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Postgres can't find llvmjit.so
-categories: programming
+categories: system-administration
 tags: postgres
 stopwords: conf libffi libs llvm cp ffi
 last_modified:

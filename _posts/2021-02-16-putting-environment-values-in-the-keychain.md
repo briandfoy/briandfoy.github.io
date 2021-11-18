@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Putting environment values in the keychain
-categories:
+categories: programming
 tags: macOS secrets bash
 stopwords: macOS's
 last_modified:

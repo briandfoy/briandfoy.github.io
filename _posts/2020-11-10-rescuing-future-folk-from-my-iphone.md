@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Rescuing Future Folk from my iPhone
-categories:
-tags: apple music dropbox
+categories: programming
+tags: apple music dropbox iphone
 stopwords: peasy Dalrymple's
 last_modified:
 original_url:

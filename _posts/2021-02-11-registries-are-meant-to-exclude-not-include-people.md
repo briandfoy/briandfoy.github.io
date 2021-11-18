@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Registries are meant to exclude, not include, people
-categories:
+categories: open-source
 tags: the-perl-foundation perl
 stopwords: Dax Gladwell Hacktoberfest Idiocracy Jacobsen Katzer NOC Stackoverflow Stallman ZipRecruiter bootcamp employability hodge lifecycle onboarding podge pushback reputational résumé trainings
 last_modified:
@@ -26,7 +26,7 @@ Besides Nigel's suggestions, the one tip for can take from barristers is "don't 
 
 ## No Justice
 
-Nigel states that barristers are trying to "achieve Justice", but we all know that's not true. Now, he was barrister himself, and I never was or will be. He correctly notes that barristers swear an oath to the court and have a duty of care. But, on my side of the business, that also means it's maddening to get them to "just tell me the answer". The lawyers (and accountants) I've dealt with in a variety or circumstances don't have answers. Instead, they know what's defensible and what is allowed.
+Nigel states that barristers are trying to "achieve Justice", but we all know that's not true. Now, he was barrister himself, and I never was nor will be. He correctly notes that barristers swear an oath to the court and have a duty of care. But, on my side of the business, that also means it's maddening to get them to "just tell me the answer". The lawyers (and accountants) I've dealt with in a variety or circumstances don't have answers. Instead, they know what's defensible and what is allowed.
 
 As an aside, the UK legal system is different that the US, but a barrister is someone who stand at the "bar" to represent you in court. These aren't administrative law types preparing documents and what not. Creating a trust or contract is a known process, unlike knowing the outcome of a dispute. That's only a slight wrinkle because administrative law people have a good idea of the outcome and their fee, whereas a legal tactic in court is the bleed the other side dry so they give up or settle.
 

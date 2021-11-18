@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finding domains to block
-categories: sysadmin
+categories: system-administration
 tags: dns dnsmasq domain-fronting privacy
 stopwords:
 ---

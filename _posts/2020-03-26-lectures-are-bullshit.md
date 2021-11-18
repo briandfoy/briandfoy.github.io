@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Lectures are bullshit
-categories: opinion
-tags: oreilly conferences teaching
+categories: teaching
+tags: oreilly conferences
 stopwords: Bratton
 last_modified:
 original_url:

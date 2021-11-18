@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The software I live in
-categories:
-tags:
+categories: consumer-software macos
+tags: bbedit iterm quicksilver perl
 stopwords: APIs BBEdit's Metrowerks SDKs chipset iTerm zsh
 last_modified:
 original_url:

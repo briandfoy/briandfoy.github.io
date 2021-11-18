@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Review of Glitch: The Hidden Impact of Faulty Software"
-categories: book-review
+categories: software-pitfalls
 tags: amazon rescued-content book-review
 stopwords: sensationalistic
 last_modified:

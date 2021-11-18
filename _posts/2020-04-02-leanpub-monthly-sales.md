@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LeanPub Monthly Sales
-categories: publishing
+categories: publishing programming
 tags: leanpub numbers cheatsheet
 stopwords:
 last_modified:
@@ -14,11 +14,9 @@ I can get a spreadsheet of sales if I dig around the site enough. My link is [ht
 
 Once downloaded, I want to look at it in Numbers (because I'm a Mac weenie who doesn't pay for Excel, perhaps the most important software ever written). But, I want to group it by months, and that's been a hassle the last two times.
 
-
 Here's where I mess up: I need to format the "Date Purchased (UTC)" column as a date. It's not very smart that organizing a column as a date does not either format it as a date for me or warn me that I haven't formatted it. That's the part that I never remember because without this step, categorizing still thinks it's a date and can still organize by the days of the month no matter which period I choose.
 
 ![](/images/numbers-categorize/date-format.png)
-
 
 After that, it's a simple matter of "organizing" (the round button with three horizontal lines in the upper right), choosing the date column, and selecting "Month":
 

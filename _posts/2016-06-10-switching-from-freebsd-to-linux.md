@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Switching From FreeBSD to Linux
-categories: sysadmin
-tags: freebsd archlinux linux linode
+categories: system-administration
+tags: freebsd archlinux linux linode arp-networks
 stopwords: ish MGB
 last_modified:
 original_url:

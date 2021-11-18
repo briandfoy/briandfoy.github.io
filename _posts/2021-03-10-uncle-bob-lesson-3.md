@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Uncle Bob, Lesson 3
-categories:
-tags:
+categories: programming
+tags: uncle-bob object-oriented
 stopwords: doublings
 last_modified:
 original_url:

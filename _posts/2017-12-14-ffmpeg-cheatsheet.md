@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ffmpeg cheatsheet
-categories: programming
-tags: cheatsheet ffmpeg
+categories: cheatsheet
+tags: ffmpeg
 stopwords: stdin
 last_modified:
 original_url:

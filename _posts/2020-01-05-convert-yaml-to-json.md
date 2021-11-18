@@ -2,7 +2,7 @@
 layout: post
 title: Converting YAML to JSON
 categories: programming
-tags: json yaml jq yq aliases cpan
+tags: json yaml jq yq aliases python go
 ---
 
 I had this old program I called

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Should I buy that Perl book?
-categories: programming
-tags: rescued-content catalyst book
+categories: programming rescued-content economics
+tags:  catalyst
 stopwords: Champoux Diment GOTO IPAs Kieren Perlers Yanick's groupthink href px
 last_modified:
 original_url: http://blogs.perl.org/users/brian_d_foy/2012/03/should-i-buy-that-perl-book.html

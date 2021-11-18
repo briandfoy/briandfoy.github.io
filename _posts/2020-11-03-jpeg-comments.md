@@ -1,8 +1,8 @@
 ---
 layout: post
 title: JPEG comments
-categories:
-tags:
+categories: command-line
+tags: jpeg
 stopwords: exiftool
 last_modified:
 original_url:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use several Git Services at Once
-categories: sysadmin
+categories: system-administration
 tags: github bitbucket gitlab
 stopwords: misflag pushurl url
 last_modified:

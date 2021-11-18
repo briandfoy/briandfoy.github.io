@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BBEdit Text Filters
-categories: programming-tools
+categories: programming consumer-software
 tags: bbedit perl
 stopwords:
 last_modified:

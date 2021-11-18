@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iTunes on Ubuntu
-categories:
+categories: macos consumer-software
 tags: ubuntu itunes wine
 stopwords: Blech Fn Lenovo ifuse iso mkdir passcode wtf
 last_modified:

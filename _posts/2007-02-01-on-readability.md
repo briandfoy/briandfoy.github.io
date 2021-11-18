@@ -1,7 +1,7 @@
 ---
 layout: post
 title: On Readability
-categories:
+categories: programming
 tags:
 stopwords: APL Monde Perlishness Spolsky's culting dbh else's fu goto intra kung fu french's subroutining
 last_modified:

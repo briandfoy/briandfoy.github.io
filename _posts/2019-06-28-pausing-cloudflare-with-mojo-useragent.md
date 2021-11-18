@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pausing Cloudflare with Mojo::UserAgent
-categories:
+categories: programming
 tags: cloudflare mojo-useragent
 stopwords: ebook pre slashdotted
 last_modified:

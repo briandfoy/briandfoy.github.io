@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Can Machines Think?
-categories:
-tags:
+categories: uncategorized
+tags: feynman
 stopwords: Broderick Eurisko's Gladwell Ranadivé Sheedy SkyNet Vivek WOPR cancelled grandmaster intuitional nerf outsized pre un
 last_modified:
 original_url:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: IPv4 conversion aliases
-categories: shell
+categories: programming command-line
 tags: ipv4 perl bash
 stopwords: ipv PostgreSQL
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: No ifs, ands, or buts
 categories: programming
-tags: programming object-orientation perl smalltalk
+tags: object-orientation perl smalltalk ruby
 stopwords: Pharo's ifFalse ifTrue
 last_modified:
 original_url:
@@ -15,7 +15,6 @@ Sometimes I force myself to not use a feature. What if I couldn't use `if`? Were
 	ifTrue: [...]
 	ifFalse: [...].
 {% endhighlight %}
-
 
 That's easy enough to do in Perl too, and this is almost the same implementation as Smalltalk (at least Pharo's, but I haven't checked any others). The object knows what to do because it knows what it is rather than what it contains. Different classes have the same methods but act differently only based on their identity:
 

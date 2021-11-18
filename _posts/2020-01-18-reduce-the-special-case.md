@@ -2,6 +2,7 @@
 layout: post
 title: Reduce the Special Case
 categories: programming
+tags: perl mojolicious
 tags: edge-cases perl
 stopwords:
 ---

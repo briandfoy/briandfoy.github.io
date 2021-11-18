@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CPAN's Social Continuity of Code
-categories:
+categories: software-lifecycle
 tags: cpan perl
 stopwords: Hietaniemi's namespaces scalable pre camelherd
 last_modified:

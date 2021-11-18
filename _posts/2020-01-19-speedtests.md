@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Speedtests
-categories: sysadmin
-tags: command-line python speedtest nyc-mesh
+categories: system-administration command-line
+tags: python speedtest nyc-mesh
 stopwords:
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Perl, people, society, & mobs
-categories: opinion
-tags: perl marketing opinion rescued-content
+categories: opinion rescued-content
+tags: perl marketing
 stopwords: flyer
 ---
 
@@ -90,7 +90,7 @@ Why should we change a message that has already been so successful in making Per
 
 I think I can answer this question.
 
-Everybody does something for some sort of gain, whether that is monetary or not. The "Free Software" movement likes to say words like "scratch an itch" or "meritocracy". That's just trading in a different sort of capital, and it's still self interest.
+Everybody does something for some sort of gain, whether that is monetary or otherwise. The "Free Software" movement likes to say words like "scratch an itch" or "meritocracy". That's just trading in a different sort of capital, and it's still self interest.
 
 That's not a bad thing, necessarily. Hiding or denying it, however, distorts the economics. What's good for you locally might not be good Perl globally. Are the changes that you want in Perl good for you or good for everyone? What would change in Perl if you got what you wanted?
 

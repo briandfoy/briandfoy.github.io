@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Accidental Numeracy
-categories:
-tags: feynman numeracy
+categories: numeracy
+tags: feynman abacus
 stopwords:
 last_modified:
 original_url:

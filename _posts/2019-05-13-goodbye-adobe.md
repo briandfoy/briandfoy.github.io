@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goodbye Adobe
-categories: design
+categories: consumer-software
 tags: adode affinity
 stopwords:
 last_modified:

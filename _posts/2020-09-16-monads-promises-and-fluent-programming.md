@@ -125,7 +125,7 @@ From there, you can follow [Stepan's post]((https://stopa.io/post/247) to learn 
 
 ## Promises
 
-So, lets try something else. How about Promises? I only want to go to the next step if the previous step works? Stepan mentions that the `Chainer` sidesteps callback hell, but so does Promises:
+So, lets try something else. How about Promises? I only want to go to the next step if the previous step works? Stepan mentions that the `Chainer` sidesteps callback hell, but so do Promises:
 
 [Mojo::Promise](https://docs.mojolicious.org/Mojo/Promise) is a Perl implementation of A+ Promises. I've wrote [Higher Order Promises](https://mojolicious.io/blog/2018/12/03/higher-order-promises/) for the 2018 Mojo Advent Calendar, and [solved some exercises using Raku's Promises](https://www.learningraku.com/2017/04/18/the-24-puzzle-in-perl-6-using-channels-and-promises/).
 
