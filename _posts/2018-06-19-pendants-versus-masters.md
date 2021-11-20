@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Pendants versus Masters
-categories: mathematics
-tags: pólya
+categories: teaching
+tags: pólya mathematics
 stopwords: Pólya br img
 last_modified:
 original_url:

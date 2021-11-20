@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Check all you want, but the data are useless
-categories: economics
+categories: productivity
 tags: graduate_school tcl expect
 stopwords: pre
 last_modified:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Review of Glitch: The Hidden Impact of Faulty Software"
-categories: software-pitfalls
-tags: amazon rescued-content book-review
+categories: rescued-content book-review software-lifecycle
+tags:
 stopwords: sensationalistic
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R1K43RB54DL9HX
@@ -41,4 +41,4 @@ I would have also like to have read a lot more personal stories from leaders of 
 
 How do you balance the desire for having it now and keeping it working with the rest of your IT infrastructure with the competing forces of doing it well no matter how long it takes? How about Steve Jobs talking about any of his many failures, which he readily admits to (Apple III, Newton, etc)? Why do you have to buy expensive support contracts for Oracle, SAP, or PeopleSoft? What is the real reason those products takes so much care and feeding and cause so much frustration?
 
-What about Open Source software that still hasn't delivered a desktop operating system that normal people want to use, can't outshine Adobe's Photoshop, and still has egregious bugs despite it's "many eyes"? Why do we lie to ourselves? Is it just confirmation bias, or is it something else?
+What about Open Source software that still hasn't delivered a desktop operating system that normal people want to use, can't outshine Adobe's Photoshop, and still has egregious bugs despite its "many eyes"? Why do we lie to ourselves? Is it just confirmation bias, or is it something else?

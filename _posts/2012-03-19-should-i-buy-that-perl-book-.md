@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Should I buy that Perl book?
-categories: programming rescued-content economics
-tags:  catalyst
+categories: programming rescued-content
+tags: catalyst economics
 stopwords: Champoux Diment GOTO IPAs Kieren Perlers Yanick's groupthink href px
 last_modified:
 original_url: http://blogs.perl.org/users/brian_d_foy/2012/03/should-i-buy-that-perl-book.html
@@ -33,7 +33,7 @@ Here are some possible goals you might have in buying a Catalyst book:
 * Learn various wet chemistry organic synthesis techniques
 * Work on catalytic converters for muscle cars
 
-Now, the goal actually feeds back into the question of resources. Someone who wants to become a Catalyst developer will probably want to spend more in resources than someone who wants to merely get an overview without actually using Catalyst. Even two people with the same goal might want to spend different resources.
+Someone who wants to become a Catalyst developer will probably want to spend more in resources than someone who wants to merely get an overview without actually using Catalyst. Even two people with the same goal might want to spend different resources.
 
 If you're trying to do the last two goals, make sure that you can return the book once you get home and realized you were in the wrong section of the bookstore.
 
@@ -41,7 +41,7 @@ If you're trying to do the last two goals, make sure that you can return the boo
 
 There are several sorts of costs, which many people at least know subconsciously. A cost is something where you lose resources. There are two that matter, but there are some other sorts of costs that shouldn't matter.
 
-There's the *acquisition cost*. That's the particular sub-cost that most people call "cost" or "price". It's the amount of money that disappears from your bank account or wallet. This is the easiest cost to pay, and the easiest to see because a number changes. But, it's only the beginning. Buying a gold mine doesn't get you any immediately usable gold, after all. You still have to work your mine. If you just want to decorate your bookshelf, there are probably [prettier books](https://amzn.to/2GUe75U) for the same price, or you can print the spine yourself and glue it to cardboard for much less, perhaps to hide your secret stash of, well, whatever you need to secret.
+There's the *acquisition cost*. That's the particular sub-cost that most people call "cost" or "price". It's the amount of money that disappears from your bank account or wallet. This is the easiest cost to pay, and the easiest to see because a number changes. But, it's only the beginning. Buying a gold mine doesn't get you any immediately-usable gold, after all. You still have to work your mine. If you just want to decorate your bookshelf, there are probably [prettier books](https://amzn.to/2GUe75U) for the same price, or you can print the spine yourself and glue it to cardboard for much less, perhaps to hide your secret stash of, well, whatever you need to secret.
 
 The *opportunity cost* is what you prevent yourself from acheiving by choosing a particular alternative. If you get one book, maybe you won't have the resources to acquire a different book. That might mean that you don't have enough money for another one, or you run out of time before you find out the first book isn't for you. You used your resource for the wrong thing.
 
