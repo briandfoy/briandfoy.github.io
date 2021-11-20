@@ -10,3 +10,7 @@ package.json
 *.bak
 .jekyll-cache
 books.md
+tags/
+categories/
+tag/
+category/
