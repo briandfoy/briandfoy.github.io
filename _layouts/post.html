@@ -9,26 +9,29 @@ layout: default
 
   	<p>
     <span class="date">{{ page.date | date: "%B %e, %Y" }}</span> -
-		 <span class="categories">
+		<span class="categories">
 			{% assign categories = page.categories | sort %}
 			{% for category in categories %}
-			<a href="/category/{{ category }}">{{ category }}&nbsp;</a>
+			<a href="/category/{{ category }}">{{ category }}</a>&nbsp;
 			{% endfor %}
 		</span>
-
-	<br/>
-    <span class="tags">
-    	{% assign tags = page.tags | sort %}
-		{% for tag in tags %}
-		tags: <a href="/tag/{{ tag }}">{{ tag }}&nbsp;</a>
-		{% endfor %}
-	</span>
 	</p>
   </div>
 
-  <div class="tags">
 
+{% if page.tags != '' %}
+  <div class="tags">
+  	<p>
+    <span class="tags">
+    	{% assign tags = page.tags | sort %}
+    		tags:
+			{% for tag in tags %}
+			  <a href="/tag/{{ tag }}">{{ tag }}</a>&nbsp;
+			{% endfor %}
+	</span>
+	</p>
   </div>
+{% endif %}
 
   <div class="entry">
     {{ content }}

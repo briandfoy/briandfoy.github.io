@@ -10,6 +10,10 @@ GITHUB_API_BASE:=https://api.github.com/repos/$(GITHUB_USER)/$(SITE_HOST)/pages
 # These things are related to Perl
 CPANMODULES=.cpanmodules
 
+# These things are related to Ruby
+RUBYLIB=lib
+export RUBYLIB
+
 # These things are related to Markdown Lint (mdl)
 # https://github.com/markdownlint/markdownlint
 MDL:=mdl -c .mdlrc
@@ -48,24 +52,19 @@ publish: preprocess ## remake stuff and send it to GitHub
 # https://help.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll
 .PHONY: localstart ## serve the site locally
 localstart: preprocess ## run jekyll locally
+	- pkill -f jekyll 2> /dev/null
 	bundle exec jekyll serve --drafts --detach
 	open -a 'Safari' http://127.0.0.1:4000/
 
 .PHONY: localstop
 localstop: ## stop the local server
-	pkill -f jekyll
+	- pkill -f jekyll > /dev/null
 
 .PHONY: localrestart
 localrestart: localstop localstart ## restart the local server
 
 .PHONY: preprocess
 preprocess: archives.md books.md tag $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
-
-# https://longqian.me/2017/02/09/github-jekyll-tag/
-.PHONY: tag
-tag: ## create the tag files
-	$(PERL) bin/tags
-	- git add tag && git commit -m 'New tags' tag
 
 .PHONY: open
 open: ## open the website

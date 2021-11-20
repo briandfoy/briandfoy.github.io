@@ -1,0 +1,25 @@
+#!/Users/brian/bin/perl
+use v5.10;
+use strict;
+use warnings;
+
+use File::FindLib 'lib';
+use File::Spec::Functions;
+
+use ArticleUtil;
+
+my %Categories = map { $_, [] } @ARGV;
+
+foreach my $file ( all_posts() ) {
+	foreach my $category ( categories_in( $file ) ) {
+		next unless exists $Categories{$category};
+		push $Categories{$category}->@*, $file;
+		}
+	}
+
+foreach my $category ( sort keys %Categories ) {
+	print $category, "\n";
+	foreach my $file ( sort $Categories{$category}->@* ) {
+		print "\t$file\n";
+		}
+	}

@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+use v5.10;
+use strict;
+use warnings;
+
+use File::FindLib 'lib';
+use File::Spec::Functions;
+
+use ArticleUtil;
+
+@ARGV = all_posts() unless @ARGV;
+
+my %Seen;
+%Seen =
+	map { $_, ++$Seen{$_} }
+	map { "Cat: $_"; $_ }
+	map { categories_in( $_ ) }
+	@ARGV;
+
+foreach my $category ( sort { $Seen{$b} <=> $Seen{$a} } keys %Seen ) {
+	printf "%4d %s\n", $Seen{$category}, $category;
+	}
