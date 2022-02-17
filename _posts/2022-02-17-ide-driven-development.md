@@ -40,7 +40,7 @@ All of that code learning is parroting the bad habits of the 90% crud. I'm very 
 
 ![](/images/github_copilot/mojo_success.png)
 
-I'm impressed that it suggests something close to the structure that I probably want, but not so impressed that it chose something that doesn't work. The `success` method on a transaction was deprecated in 8.02 (October 2018) and removed in 9.0 (February 2021). That is, it is suggesting code that was bad three and a half years ago. Garbage in, garbage out (and, there's an interesting, unexpected history of [that phrase](https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out)). In that sense, the suggestions are "dumb".
+I'm impressed that it suggests something close to the structure that I probably want, but not so impressed that it chose something that doesn't work. The `success` method on a transaction was deprecated in 8.02 (October 2018) and removed in 9.0 (February 2021). That is, it is suggesting code that was bad three and a half years ago and hasn't worked in a year. Garbage in, garbage out (and, there's an interesting, unexpected history of [that phrase](https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out)). In that sense, the suggestions are "dumb".
 
 The Copilot doesn't particularly know anything about what you are trying to do. It's making guesses based on what other people have done. But, you aren't doing what other people have done. You're trying to write a *good* program. Well, maybe you are.
 
