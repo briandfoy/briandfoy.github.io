@@ -5,8 +5,10 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+Any system will have immediate benefits
 
+* new diet
+* organizing your files

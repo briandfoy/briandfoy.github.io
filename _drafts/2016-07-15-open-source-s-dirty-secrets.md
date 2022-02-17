@@ -21,6 +21,7 @@ https://www.theatlantic.com/technology/archive/2020/01/ice-contract-github-spark
 
 Hippocratic License
 
+http://blog.ieeesoftware.org/2016/04/dissecting-myth-that-open-source.html
 
 https://web.archive.org/web/20200108101510/https://dev.to/degoodmanwilson/open-source-is-broken-g60
 
@@ -39,5 +40,6 @@ first wave - right to vote
 second wave - betty friedan
 third wave - intersectionality
 
-
+https://christine.website/blog/open-source-broken-2021-12-11
+https://developpaper.com/the-author-of-core-js-was-jailed-for-18-months-and-26-million-open-source-projects-downloaded-each-week-would-be-left-unattended/
 https://www.theregister.com/2016/05/13/open_source_insider_myth_of_opensource/

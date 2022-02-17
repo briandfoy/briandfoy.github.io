@@ -7,6 +7,7 @@ stopwords:
 
 https://mkaz.blog/misc/notes-on-technical-writing/
 
+https://betterprogramming.pub/5-ingredients-of-a-successful-technical-article-ff3fdb4250de
 
 https://www.cs.tufts.edu/~nr/cs257/archive/john-carlis/one-draft.pdf
 
