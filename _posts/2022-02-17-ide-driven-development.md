@@ -44,7 +44,7 @@ I'm impressed that it suggests something close to the structure that I probably 
 
 The Copilot doesn't particularly know anything about what you are trying to do. It's making guesses based on what other people have done. But, you aren't doing what other people have done. You're trying to write a *good* program. Well, maybe you are.
 
-The Copilot knows only what you might want to type next, which is what people are used to from dumber IDEs. What does it suggest if I start typing a line that uses a module I haven't loaded? Nothing special happens, such as suggesting a line above my typing that loads the module:
+Furthermore, The Copilot knows only what you might want to type next, which is what people are used to from dumber IDEs. What does it suggest if I start typing a line that uses a module I haven't loaded? Nothing special happens, such as suggesting a line above my typing that loads the module:
 
 ![](/images/github_copilot/mojo_ua.png)
 
