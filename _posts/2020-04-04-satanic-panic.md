@@ -3,7 +3,7 @@ layout: post
 title: Satanic Panic
 categories: society
 tags: satan mass-delusion panic
-stopwords: Edenton Pre backmasking Aja Aranza Bennetts Bethania Blatty Bryn Chelsey Dagon Geraldo Kellers Ketcham LaVey Lanning Loftus Martensville McRobbie Multnomah Noll Padzer Palma Pendergrast PreSchool Quantico Rundle Shewan Simandl Thurston backmasking Holmberg Jonestown Pizzagate Stratford
+stopwords: Chammah Gayland Gizmodo Ph Edenton Pre backmasking Aja Aranza Bennetts Bethania Blatty Bryn Chelsey Dagon Geraldo Kellers Ketcham LaVey Lanning Loftus Martensville McRobbie Multnomah Noll Padzer Palma Pendergrast PreSchool Quantico Rundle Shewan Simandl Thurston backmasking Holmberg Jonestown Pizzagate Stratford
 last_modified:
 original_url:
 ---
@@ -23,14 +23,18 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
 * June 2017 - Travis County District Attorney Margaret Moore files a motion to dismiss the Kellers case
+* November 2016 - San Antonio Four exonerated
 * October 2016 - Aja Romano- [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
 * September 2016 - ["Exorcist" TV show, Fox](https://www.fox.com/the-exorcist/)
+* 2016 - [Southwest of Salem: The Story of the San Antonio Four](http://www.southwestofsalem.com)
 * **January 2016** - Josh Clark and Chuck Bryant ["Stuff You Should Know" podcast](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-satanic-panic-of-the-1980s-29467671/) - they say they lived through this.  - working off the [Slate article](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * September 2015 - Dan Shewan - [Conviction of Things Not Seen: The Uniquely American Myth of Satanic Cults](https://psmag.com/social-justice/make-a-cross-with-your-fingers-its-the-satanic-panic)
 * August 2015 - Richard Beck - *We Believe the Children: A Moral Panic in the 1980s*
 * July 2015 - *TIME* - [The Evolution of Modern Satanism in the United States](https://time.com/3973573/satanism-american-history/)
 * June 2015 - Robert Lamb - ["How Satanic Panic Worked"](https://history.howstuffworks.com/historical-events/satanic-panic.htm)
 * **April 2015** - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
+* January 2015 - Cheryl Eddy (Gizmodo) - [A Brief History of the "Satanic Panic" in the 1980s](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
+* January 2014 - Maurice Chammah (Texas Observer) - [The Mystery of the San Antonio Four](https://www.texasobserver.org/mystery-san-antonio-four/)
 * January 2014 - Linda Rodriguez McRobbie - [The Real Victims of Satanic Ritual Abuse](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * December 2013 - Richard Noll - [When Psychiatry Battled the Devil](https://www.garygreenbergonline.com/w/wp-content/uploads/2013/12/Psychiatric_Times_-_When_Psychiatry_Battled_the_Devil_-_2013-12-06.pdf)
 * 2013 - *PAUL: The Secret Story of Olympia's Satanic Sheriff* ([Vimeo](https://vimeo.com/48557671) - Thurston County case
@@ -38,6 +42,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
 * December 1997 - Last issue of *Dissociation*
+* 1997 - San Antonio Four case (4 convictions, 4 overturned in 2016)
 * 1996 - Mike Snedeker gets cases overturned
 * 1995 - "The Law Enforcement Guide to Satanic Cults", training video
 * 1994 - *Treating Survivors of Satanist Abuse*
@@ -98,9 +103,9 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * Children's Institute International
 * Manhattan Ranch Pre-School
 
-
 ## Other References
 
+* ["A Brief History of the Satanic Panic"](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
 * [List of satanic ritual abuse allegations](https://en.wikipedia.org/wiki/List_of_satanic_ritual_abuse_allegations)
 * [Psychiatric Times retracts essay on “satanic ritual abuse”](http://retractionwatch.com/2014/02/13/psychiatric-times-retracts-essay-on-satanic-ritual-abuse/)
 * [Little Rascals Daycare Case](https://www.littlerascalsdaycarecase.org) - Edenton Seven

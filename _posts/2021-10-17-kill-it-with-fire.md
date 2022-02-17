@@ -3,7 +3,7 @@ layout: post
 title: Notes on Kill It With Fire
 categories: software-lifecycle
 tags: legacy
-stopwords: Etsy's href img js br Bellotti's
+stopwords: px Etsy's href img js br Bellotti's
 last_modified:
 original_url:
 ---
