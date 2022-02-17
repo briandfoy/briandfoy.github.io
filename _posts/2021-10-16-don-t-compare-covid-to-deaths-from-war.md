@@ -55,7 +55,7 @@ Holocaust alone.
 In all US wars (combat actions, police actions, whatever), we've lost
 1,350,000 [according to
 Wikipedia](https://en.wikipedia.org/wiki/Talk:United_States_military_casualties_of_war), although that counts totals
-from both sides in the Civil War. These numbers disputed too, and different articles even within Wikipedia have slightly different numbers.
+from both sides in the Civil War. These numbers are disputed too, and different articles even within Wikipedia have slightly different numbers.
 See [the American Battlefield Trust's accounting](https://www.battlefields.org/learn/articles/civil-war-casualties), for example. Indeed, the deaths from the US Civil War are close to our total COVID
 numbers.
 
@@ -101,6 +101,6 @@ tried a sugar tax](https://www.bloomberg.com/opinion/articles/2018-05-14/tax-sod
 
 This is still a bit misleading though because some of those numbers can
 overlap. Heart disease and COVID can apply to the same death. But, that's not
-the point. It's the scale of the problem and it's comparison to other
+the point. It's the scale of the problem and its comparison to other
 things. COVID is as bad as it is and we don't need to drag other numbers
 into it.
