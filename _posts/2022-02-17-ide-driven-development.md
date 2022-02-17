@@ -2,7 +2,7 @@
 layout: post
 title: What do you really get from IDE-driven development?
 categories: programming
-tags:
+tags: github-copilot ide perl java
 stopwords: smithian UserAgent else's
 last_modified:
 original_url:
