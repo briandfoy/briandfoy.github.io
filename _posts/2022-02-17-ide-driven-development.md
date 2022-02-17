@@ -50,6 +50,12 @@ Furthermore, The Copilot knows only what you might want to type next, which is w
 
 In effect, as my friend experienced in his coding class, these sorts of things don't make better programs and don't make us better programmers. We end up knowing less than we should and get less than we deserve.
 
+Part of our job as programmers is to know what's possible and what we can do. IDEs, because of their interface, aren't about discovery. They are about typing shortcuts, and there are a limited number of things that they can show us and people who aren't going to see the docs outside of the IDE are unlikely to look through all the options that a cramped dropdown offers them.
+
+Typing's a completely different problem, and one that I don't have. I know how to touch type (yes, I'm old enough that I had a typing class on mechanical typewriters in high school). For example, Perl has the idea of synonyms. You can type out `foreach`, but `for` will do the same thing. Some people like to optimize for that. But, as an experienced typer, I don't think of `foreach` as more than `for`. Just like we read words as units rather than sounding out its parts, I type out words as a unit rather than thinking of each character.
+
+Even if I were a poor typer, that's still not a significant part of my programmer time. Mostly I'm staring at a screen mapping out connections and considering consequences. An IDE doesn't help with that. Even as I'm typing, I'm taking the time to think about the consequences of whatever I'm doing. Taking that time away means I'd create less thoughtful code.
+
 <hr/>
 
 As a postscript, I've heard several stories about people who leave Google or Facebook and have a hard doing being productive at the next place. Both of those companies have planetary-scaled systems and the amazing tools to handle that. The next place doesn't have those tools, and suddenly you have to know how to do things at much lower levels. If you never learned those levels, [you are practically starting over](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/) and your previous experience isn't that important. Their tools do their things, not general things, and certainly not someone else's things.
