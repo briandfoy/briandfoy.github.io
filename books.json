@@ -1,16 +1,16 @@
 [
 {
-	"title": "Learning Perl, 7th Edition",
+	"title": "Learning Perl, 8th Edition",
 	"publisher": "O'Reilly Media",
-	"pushlisher_page": "",
-	"date": "2016-10-28",
+	"pushlisher_page": "https://learning.oreilly.com/library/view/learning-perl-8th/9781492094944/",
+	"date": "2021-06-01",
 	"authors": [
 		"Tom Phoenix",
 		"Randal L. Schwartz",
 		"brian d foy"
 		],
-	"amazon": "https://amzn.to/390HsqZ",
-	"good_reads": "",
+	"amazon": "https://amzn.to/3GZVOso",
+	"good_reads": "https://www.goodreads.com/book/show/58153486-learning-perl",
 	"website": "https://www.learning-perl.com/",
 	"cover": "/images/book_covers/learning_perl.jpg",
 	"description": "",
