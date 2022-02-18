@@ -25,7 +25,7 @@ What's "Code Helper (Renderer)"? Google quickly led to a [Visual Studio bug repo
 * [Code Helper Renderer #98168](https://github.com/microsoft/vscode/issues/98168)
 * *I gave up because there are some many more*
 
-What's really curious is that Microsoft likes to ask for more info, but also likes to close the issues after the lowly user can't bring to bear all the resources of a Fortune 100 company to explain something that has multiple reports.
+What's really curious is that Microsoft likes to ask for more info, but also likes to close the issues after the lowly user can't bring to bear all the resources of a Fortune 100 company to explain something that has multiple people experience. But then, if there are only 1,000 reports, that's not a significant part of the user base, so who cares. Just buy more hardware.
 
 This has been going on since at least 2019, and it doesn't seem much different from the old Microsoft reputation of having to reboot multiple times a day just to get work done.
 
