@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-## About Random Adventures
-
 This blog diverges how you've probably experienced blogs as episodic and fixed wherein someone writes something complete and fixes it in time. This is especially true of blogs with comments since major changes in content obviate or disconnect from the current content.
 
 I have a folder on my desktop where I've kept ideas for writing subjects: it contains many more ideas that I can get to in a day. One competent blog post of around 1,000 words usually takes me about a day of research and writing, but it's not uncommon to take several days. Often, my idea at the start is unrecognizable or absent in the final result. Sometimes I couldn't support the original idea and sometimes I'd thought about it so deeply that I discovered I didn't have a story worth telling. Rarely, the idea disappeared so completely that I abandoned the writing altogether.
