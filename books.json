@@ -19,7 +19,7 @@
 {
 	"title": "Intermediate Perl, 2nd Edition",
 	"publisher": "O'Reilly Media",
-	"pushlisher_page": "",
+	"pushlisher_page": "https://learning.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/",
 	"date": "2012-07-31",
 	"authors": [
 		"Randal L. Schwartz",
@@ -35,7 +35,7 @@
 {
 	"title": "Mastering Perl, 2nd Edition",
 	"publisher": "O'Reilly Media",
-	"pushlisher_page": "",
+	"pushlisher_page": "https://learning.oreilly.com/library/view/mastering-perl-2nd/9781449364946/",
 	"date": "2014-01-09",
 	"authors": [
 		"brian d foy"
@@ -50,7 +50,7 @@
 {
 	"title": "Programming Perl, 4th Edition",
 	"publisher": "O'Reilly Media",
-	"pushlisher_page": "",
+	"pushlisher_page": "https://learning.oreilly.com/library/view/programming-perl-4th/9781449321451/",
 	"date": "2012-03-13",
 	"authors": [
 		"Larry Wall",
@@ -68,7 +68,7 @@
 {
 	"title": "Effective Perl Programming, 2nd Edition",
 	"publisher": "Addison-Wesley Professional",
-	"pushlisher_page": "",
+	"pushlisher_page": "https://www.pearson.com/us/higher-education/program/Hall-Effective-Perl-Programming-Ways-to-Write-Better-More-Idiomatic-Perl-2nd-Edition/PGM95897.html",
 	"date": "2010-04-29",
 	"authors": [
 		"Joseph Hall",
