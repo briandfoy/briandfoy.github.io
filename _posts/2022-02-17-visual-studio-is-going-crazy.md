@@ -3,7 +3,7 @@ layout: post
 title: Visual Studio is going crazy
 categories: programming
 tags: visual-studio mac
-stopwords:
+stopwords: Gb
 last_modified:
 original_url:
 ---
