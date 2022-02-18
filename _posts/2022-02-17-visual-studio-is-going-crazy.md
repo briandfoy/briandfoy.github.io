@@ -19,7 +19,7 @@ What's "Code Helper (Renderer)"? Google quickly led to a [Visual Studio bug repo
 * [Runaway Jedi Language task in VSCode](https://stackoverflow.com/questions/66518708/runaway-jedi-language-task-in-vscode)
 * [VS Code Installation Creates Runaway Background Processes](https://www.reddit.com/r/macbookpro/comments/i94rn6/vs_code_installation_creates_runaway_background/)
 * [Visual Studio Code Consumpt high CPU while typing](https://forum.freecodecamp.org/t/visual-studio-code-consumpt-high-cpu-while-typing/474289)
-* [https://developercommunity.visualstudio.com/t/vs-for-mac-is-frozen-cannot-force-quit-not-visible-1/716319](https://developercommunity.visualstudio.com/t/vs-for-mac-is-frozen-cannot-force-quit-not-visible-1/716319)
+* [VS for Mac is frozen. Cannot Force Quit. Not visible in Activity Monitor](https://developercommunity.visualstudio.com/t/vs-for-mac-is-frozen-cannot-force-quit-not-visible-1/716319)
 * [High CPU load by Visual Studio for mac](https://developercommunity.visualstudio.com/t/high-cpu-load-by-visual-studio-for-mac/442804)
 * [workspaceContains starts a search over full workspace, including .git/, node_modules/](https://github.com/microsoft/vscode/issues/34711)
 * [Code Helper Renderer #98168](https://github.com/microsoft/vscode/issues/98168)
