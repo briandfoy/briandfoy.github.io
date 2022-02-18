@@ -8,11 +8,11 @@ generated-by: bin/make_books_page.pl
 
 <div class="row" id="llama">
 	<div class="column left book_cover">
-		<a href="https://amzn.to/390HsqZ"><img class="book_cover" src="/images/book_covers/learning_perl.jpg" height="" width="" alt="" /></a>
+		<a href="https://amzn.to/3GZVOso"><img class="book_cover" src="/images/book_covers/learning_perl.jpg" height="" width="" alt="" /></a>
 	</div>
 	<div class="column right book_details">
-		<span class="book_list_title">Learning Perl, 7th Edition</span><br/>
-		<span class="publisher">O'Reilly Media</span>, <span class="pubdate">2016-10-28</span><br/>
+		<span class="book_list_title">Learning Perl, 8th Edition</span><br/>
+		<span class="publisher">O'Reilly Media</span>, <span class="pubdate">2021-06-01</span><br/>
 		<span class="book_list_authors">Tom Phoenix, Randal L. Schwartz, and brian d foy</span><br/>
 			<span class="website"><a href="https://www.learning-perl.com/">https://www.learning-perl.com/</a></span>
 
@@ -67,6 +67,19 @@ generated-by: bin/make_books_page.pl
 		<span class="publisher">Addison-Wesley Professional</span>, <span class="pubdate">2010-04-29</span><br/>
 		<span class="book_list_authors">Joseph Hall, Joshua McAdams, and brian d foy</span><br/>
 			<span class="website"><a href="https://www.effectiveperlprogramming.com/">https://www.effectiveperlprogramming.com/</a></span>
+
+	</div>
+</div>
+
+<div class="row" id="raku">
+	<div class="column left book_cover">
+		<a href="https://amzn.to/3uUIFyF"><img class="book_cover" src="/images/book_covers/learning_perl_6.jpg" height="" width="" alt="" /></a>
+	</div>
+	<div class="column right book_details">
+		<span class="book_list_title">Learning Perl 6 (Raku)</span><br/>
+		<span class="publisher">O'Reilly Media</span>, <span class="pubdate">2018-09-01</span><br/>
+		<span class="book_list_authors">brian d foy</span><br/>
+			<span class="website"><a href="https://www.learningraku.com/">https://www.learningraku.com/</a></span>
 
 	</div>
 </div>
