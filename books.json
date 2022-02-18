@@ -83,6 +83,21 @@
 	"id": "effective"
 },
 {
+	"title": "Learning Perl 6 (Raku)",
+	"publisher": "O'Reilly Media",
+	"pushlisher_page": "https://learning.oreilly.com/library/view/learning-perl-6/9781491977675/",
+	"date": "2018-09-01",
+	"authors": [
+		"brian d foy"
+		],
+	"amazon": "https://amzn.to/3uUIFyF",
+	"good_reads": "https://www.goodreads.com/book/show/35023928-learning-perl-6",
+	"website": "https://www.learningraku.com/",
+	"cover": "/images/book_covers/learning_perl_6.jpg",
+	"description": "",
+	"id": "raku"
+},
+{
 	"title": "Learning Perl Exercises",
 	"publisher": "Perl School",
 	"pushlisher_page": "https://perlschool.com/books/learning-perl-exercises/",
