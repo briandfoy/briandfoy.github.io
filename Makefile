@@ -128,7 +128,8 @@ spell: ## spellcheck the markdown files in _posts/
 .PHONY: publish
 publish: preprocess ## remake stuff and send it to GitHub
 	git status
-	git push all master
+	$(PERL) bin/tag_release
+	git push --follow-tags all master
 
 .PHONY: rebuild
 rebuild: ## tell GitHub to rebuild the site
