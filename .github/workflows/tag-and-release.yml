@@ -1,0 +1,29 @@
+# brian's standard GitHub Actions release config for Perl 5 modules
+# version 20220125.002
+# https://github.com/briandfoy/github_actions
+# https://github.com/features/actions
+# This file is licensed under the Artistic License 2.0
+name: release
+
+on:
+    push:
+        tags:
+            - '20*'
+jobs:
+    tag:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: version
+              run: echo "::set-output name=version::${GITHUB_REF#refs\/tags\//}"
+              id: version
+            - name: release
+              uses: actions/create-release@v1
+              id: create_release
+              env:
+                GITHUB_TOKEN: ${{ github.token }}
+              with:
+                draft: false
+                prerelease: false
+                release_name: ${{ steps.version.outputs.version }}
+                tag_name: ${{ github.ref }}
