@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-Many tutorials on object-oriented programming use geometric shapes because they think it's an easy way to start. It could be an easy way to start, but most people make it hard because they don't think about what a shape actually is, what they want it to do, and how it should relate to other objects.
+Many tutorials on object-oriented programming use geometric shapes because they think it's an easy way to start. It could be an easy way to start, but most people make it hard because they don't think about what a shape actually is, what they want it to do, or how it should relate to other objects.
 
 * [Object-Oriented Coding in Python](https://freecontent.manning.com/object-oriented-coding-in-python/)
 * [Object-oriented Rectangle program](https://cboard.cprogramming.com/cplusplus-programming/154407-object-oriented-rectangle-program.html)
@@ -16,13 +16,13 @@ Many tutorials on object-oriented programming use geometric shapes because they 
 
 Let's start with something simple. We'll do regular, closed, convex polygons, which is cheating a bit but a decent place to start. What is a polygon, what makes it regular, and what does it know about itself? As an aside, consider that this is fully in the realm of philosophy, and that in general I think people going through formal Computer Science training have a huge blind spot here. Accidental programmers coming up through the sciences (like me) and humanities have a completely different way of approaching their evaluation and categorization of knowledge.
 
-At it's most basic level, meaning that we can't know anything less or more fundamental, a closed, regular, convex polygon has a number of vertices and none of its edges cross each other. The number of sides and angles are completely determined by that one number. We'll question that assumption later, but for now let it stand.
+At its most basic level, meaning that we can't know anything less or more fundamental, a closed, regular, convex polygon has a number of vertices and none of its edges cross each other. The number of sides and angles are completely determined by that one number. We'll question that assumption later, but for now let it stand.
 
-Once we know that, we don't need to know anything else. Some people will object to say that me need to know a length of a side, but that's not something the polygon knows about itself. That's something we impose on the polygon when we choose a particular measure. Consider, for example, a polygon with a side length of 1 inch, or 2.54 centimeters, or 0.1 bananas.
+Once we know that, we don't need to know anything else. Some people will object to say that we need to know a length of a side, but that's not something the polygon knows about itself. That's something we impose on the polygon when we choose a particular measure. Consider, for example, a polygon with a side length of 1 inch, or 2.54 centimeters, or 0.1 bananas. The number doesn't particularly matter.
 
 > There's a physics joke: what's the speed of light in a vacuum? It's 1 (in units of the speed of light).
 
-Which of those lengths is something intrinsic to the polygon that changes its form? None of them. The relative length of the sides, the number or vertices, and the number of sides are unaffected by our ruler.
+Which of those measures is something intrinsic to the polygon that changes its form? None of them. The relative length of the sides, the number or vertices, and the number of sides are unaffected by our ruler.
 
 {% highlight ruby %}
 class ClosedRegularConvexPolygon
@@ -55,11 +55,11 @@ Likewise, the polygon doesn't have a name. In English, a closed, regular, convex
 
 This brings us back to philosophy. What do we really know and what do we add to these ideas? What's the simplest way to define and think about them so that we do less overall work?
 
-Compare this to internationalization and localization where message text is merely a pointer into a dictionary. The message is just the message. Maybe it's just message 1202. We don't care what 1202 is or what the local languages. Something else handles all that.
+Compare this to internationalization and localization where message text is merely a pointer into a dictionary. The message is just the message. Maybe it's just message 1202. We don't care what 1202 is or what the local languages are. Something else handles all that.
 
 ## Non-regular polygons
 
-Knowing the number of vertices is everything we need to have in the regular case, but it's not the best we can do. We specify the number of vertices because we assume several things. Closed regular polygons all have the same angles at each vertex, there are at least three vertices,the sides are the same length, all angles are less than 180 degrees, and the sum of all exterior angles is 360 degrees. This is fundamental to a closed, regular, convex polygon.
+Knowing the number of vertices is everything we need to have in the regular case, but it's not the best we can do. We specify the number of vertices because we assume several things. Closed regular polygons all have the same angles at each vertex, there are at least three vertices, the sides are the same length, all angles are less than 180 degrees, and the sum of all exterior angles is 360 degrees. This is fundamental to a closed, regular, convex polygon.
 
 {% highlight ruby %}
 #!/usr/local/bin/ruby
@@ -197,11 +197,11 @@ Later you'll see some transformations. If you want to orient and scale the polyg
 
 ## Are you using the right property?
 
-We started with regular convex polygons, where we only needed to know the number of vertices to define the object. Now we've moved on the defining angles and lengths. This changes the situation somewhat.
+We started with regular convex polygons, where we only needed to know the number of vertices to define the object. Now we've moved on to defining angles and lengths. This changes the situation somewhat.
 
 If we are thinking about angles and lengths, a square is more similar to a rhombus. Both have equal sides, and specifying exactly one angle determines everything else. But, where does a parallelogram fit into that? There are two more fundamental types, both of which may be useful in our application, and rectangles and squares are particular expressions of those.
 
-Which set of ideas should you use when you want to inherit from something? A square and rectangle share some properties, and when we look closely enough, we see they are related in more fundamental ways, but as siblings, not parent or child. We don't need to know any of this though because we didn't try to classify the polygons. We used their fundamental properties. We'll see classifications in a moment.
+Which set of ideas should you use when you want to inherit from something? A square and rectangle share some properties, and when we look closely enough, we see they are related in more fundamental ways, but as siblings, not parent nor child. We don't need to know any of this though because we didn't try to classify the polygons. We used their fundamental properties. We'll see classifications in a moment.
 
 This is where GUI examples of the same problem show up. If we have some widget in our, perhaps a window, what does its manifestation express? Often, examples show a widget inheriting from more than one thing because that sort of modeling expresses it as a frankenstein monster of ideas: scrollbars, menus, text pane, and so on.
 
@@ -355,9 +355,9 @@ end
 
 Now, when we want to render a polygon somewhere, we just walk its path, applying the various translations. The polygon doesn't change because we rotate it. If I want to do things such as detect overlaps, we place two polygons and do whatever we need to do to check if their paths cross. But, an overlap is not a property of the polygon. Something else knows how to check that.
 
-The polygon doesn't even know how to walk its path. It doesn't think about that at all because its just a polygon. It has an idealized path up to the point that we apply translation and scale to it. We will have to figure out how to start the path, and perhaps define a "north", but that's not necessarily something we need to figure out at the lowest level. It's a particular thorny problem too. Do we assume that we start by point "north" then follow the path? What if we make two equivalent polygons but start at different points in the path (or go anti-clockwise instead)? Do we prefer a particular edge (the shortest one to set the normalized lengths?)
+The polygon doesn't even know how to walk its path. It doesn't think about that at all because it's just a polygon. It has an idealized path up to the point that we apply translation and scale to it. We will have to figure out how to start the path, and perhaps define a "north", but that's not necessarily something we need to figure out at the lowest level. It's a particular thorny problem too. Do we assume that we start by point "north" then follow the path? What if we make two equivalent polygons but start at different points in the path (or go anti-clockwise instead)? Do we prefer a particular edge (the shortest one to set the normalized lengths?)
 
-This `PlacedPolygon` instance might decide this on is own. It contains several bits of independent info that we need to orient and measure a polygon in space. These aren't the things that any particular polygon knows. Every instance thinks they are the center of the universe because they have no concept of anything else. If we don't like how `PlacedPolygon` does it, we simply make a different class that does what we want (without disturbing the polygon class).
+This `PlacedPolygon` instance might decide this on its own. It contains several bits of independent info that we need to orient and measure a polygon in space. These aren't the things that any particular polygon knows. Every instance thinks they are the center of the universe because they have no concept of anything else. If we don't like how `PlacedPolygon` does it, we simply make a different class that does what we want (without disturbing the polygon class).
 
 But, do you see the other thing happening? Do you recognize this yet? The polygon is the data, and the `PlacedPolygon` is using that data with other data to do something. The only thing left is to render it. Still guessing? How about Model-View-Controller? You might be surprised by that because today people talk about MVC as huge application-level ideas. However, that's not how Trygve Reenskaug thought about it when he used that idea in Smalltalk. Each little thing would have their own set of MVC components and they'd send messages to each other. Imagine every widget in your webpage being its own MVC and sending messages to other widgets, each of which had their own MVCs.
 
