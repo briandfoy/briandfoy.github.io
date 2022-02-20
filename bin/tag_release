@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+use v5.10;
+
+chomp(
+	my @tags = qx/ git describe --tags `git rev-list --tags --max-count=1` /
+	);
+
+say "Last tag is <$tags[0]>" if $ENV{DEBUG};
+
+my( $last_date, $last_serial ) =
+	$tags[0] =~ m/\A(\d\d\d\d-\d\d-\d\d)-(\d+)\z/a;
+say "Last date is <$last_date>" if $ENV{DEBUG};
+say "Last serial is <$last_serial>" if $ENV{DEBUG};
+
+my( $year, $month, $day ) = (localtime)[5,4,3];
+$year  += 1900;
+$month += 1;
+
+my $today = sprintf '%4d-%02d-%02d', $year, $month, $day;
+say "Next date is <$today>" if $ENV{DEBUG};
+
+my $next_serial = $last_date eq $today ? $last_serial + 1 : 1;
+say "Next serial is <$next_serial>" if $ENV{DEBUG};
+
+my $next_tag = join '-', $today, sprintf '%03d', $next_serial;
+say "Next tag is <$next_tag>" if $ENV{DEBUG};
+
+# qx/ git tag $next_tag /;
