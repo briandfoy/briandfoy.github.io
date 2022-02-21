@@ -25,4 +25,4 @@ say "Next serial is <$next_serial>" if $ENV{DEBUG};
 my $next_tag = join '-', $today, sprintf '%03d', $next_serial;
 say "Next tag is <$next_tag>" if $ENV{DEBUG};
 
-# qx/ git tag $next_tag /;
+system 'git', 'tag', $next_tag;
