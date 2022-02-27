@@ -14,7 +14,7 @@ I'm not a fan of IDEs, but I don't mind if other people use one. As long as your
 
 But that's not why I'm not a fan. Again, I'm not really against them, but I don't think they help you as much as you think they do.
 
-Awhile ago, a friend recounted to me a story about him and his team taking a class to learn a new language. Most of the team used an IDE and mostly came up with the same solutions to exercises. He didn't use an IDE. He didn't get method name suggestions, code completion, and so on, so his solutions were completely differen. And, they were smaller and faster.
+Awhile ago, a friend recounted to me a story about him and his team taking a class to learn a new language. Most of the team used an IDE and mostly came up with the same solutions to exercises. He didn't use an IDE. He didn't get method name suggestions, code completion, and so on, so his solutions were completely different. And, they were smaller and faster.
 
 He's a really good programmer, but that's not why his solutions were better. Since he didn't have suggestions to guide him, he read the docs and by simply perusing them, was aware of methods and other features that the IDE did not suggest. There were better ways that weren't apparent in the IDE. And that makes sense: in the interface for a suggestion in an editor, how much complexity can you really manage?
 
