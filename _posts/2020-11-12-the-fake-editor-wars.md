@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stack Exchange clickbait "editor war"
-categories:
+categories: programming
 tags: opinion
 stopwords: Biggs Tindall finnicky ist th regurgitations lites StackOverflow's de facto
 last_modified:
