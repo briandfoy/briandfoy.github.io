@@ -35,3 +35,10 @@ So how do we know the difference between these two? Well, that's the standard de
 And which one would you expect for New York, that has about 8 times the land area and ten times the population? I'd expect much more variability in New York and many more budget options.
 
 I'm not going to chase down those numbers though.
+
+## An epidemic!
+
+More articles that highlight the median:
+
+* [Rents Surge in New York City at Double the National Rate - The New York Times](https://www.nytimes.com/2022/03/07/nyregion/nyc-rent-surge.html)
+
