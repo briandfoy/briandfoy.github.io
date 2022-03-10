@@ -10,11 +10,12 @@ original_url:
 
 Major League Baseball is trying to make baseball less boring and I have some ideas of my own.
 
-At the moment there is a league-imposed lockout because MLB and the Players Association disagree on three points:
+At the moment there is a league-imposed lockout because MLB and the Players Association disagree on four points, among others:
 
 * Notice period for league-imposed new features, such as larger bases and anti-shift rules
 * Salary pool caps and the luxury tax
-* Player salary minimums.
+* Player salary minimums
+* Instituting an international draft
 
 This disagreement has been going on for three months now. MLB cancelled the first two series of the year, and now my tickets to a Cincinatti Reds home game are at stake.
 
