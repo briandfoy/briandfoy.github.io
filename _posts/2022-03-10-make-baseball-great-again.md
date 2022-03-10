@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Make baseball great again
-categories:
-tags:
-stopwords:
+categories: sports
+tags: baseball
+stopwords: Blernsball Skee Cincinatti cancelled
 last_modified:
 original_url:
 ---
@@ -33,11 +33,11 @@ play seven pitches, he is out. Additionally, if the batter does not swing at any
 
 3. Maximum defensive time - each team's time on the field is measured. You have 90 minutes. If you run out first, you lose. But, at any time you can end the inning but accepting all current base-runners as runs, and if there are no baserunners, giving up one run. These don't count against that pitcher as earned runs however and creates completely new stats for the nerds. The timing starts immediately one the third out of the half inning. If the previous defensive team is not off the field by the time the current defensive team is ready to play, the next batter is automatically out.
 
-4. Declared fights - forget these long running feuds about beaned batters and logn term revenge. Before each game, managers will declare if there will be a fight during the game. If both teams declare that there will be a fight, the umpire will select a particularly boring stretch of the game to give a signal to the scorekeeper to light the "Fight Light". After that, both teams can fight, and a run will be awarded to the one with the most fight points. The instigating team starts with -2 fight points (to discourage initiative to build suspense), the first team whose player has his ass touch the field gets -2 points, and after that, it's basically Olympic boxing rules until one team has 10 points.
+4. Declared fights - forget these long running feuds about beaned batters and long-term revenge. Before each game, managers will declare if there will be a fight during the game. If neither team declares a fight, there is no fight. If one team declares a fight while the other doesn't, the declaring team starts with one run. If both teams declare that a fight, the umpire will select a particularly boring stretch of the game to give a signal to the scorekeeper to light the "Fight Light". After that, both teams can fight, and a run will be awarded to the one with the most fight points. The team to instigate the fight by making contact with the opposing team player starts with -2 fight points (to discourage initiative to build suspense), the first team whose player has his ass touch the field gets -2 points, and after that, it's basically Olympic boxing rules until one team has 10 points. If the instigating team does not win the fight, they lose one out at their next at-bat.
 
 5. Wildcard base - add a new base behind the pitchers mound, but offset toward first. Any baserunner can go to that base from any other base other than home base without using the baselines, but only if there is a baserunner on the next base. For example, with runners on first and second and a ground ball to third, the runner on first can go to the wildcard base so the runner on second does not have to advance. This would force more action as the wildcard base runner can see the catcher's signs. This also means that infield tactics have to change to keep the wildcard runner from running to home plate, especially on a wild pitch.
 
-6. Skee-Ball style home runs - each part of the outfield is given a different home run score that applies to the batter but not any runners. For example, a long right field fence might count for two runs for the batter. These scores are decided before each game based on frequency of balls hit into that area. The rarer the home run, the higher the score. In-field home runs count for three runs. All runs have a 2 multiplier if the batter calls the shot, Babe Ruth style.
+6. Skee-Ball style home runs - each part of the outfield is given a different home run score that applies to the batter but not any runners. For example, a home run over a long right field fence might count for two runs for the batter. These scores are decided before each game based on frequency of balls hit into that area. The rarer the home run, the higher the score, to a maximum of 10 points. In-field home runs count for three runs. All runs have a 2 multiplier if the batter calls the shot, Babe Ruth style.
 
 7. Off-center weighted baseballs - make ball travel unpredictable with a small, off-center weight inside the ball. This weight is not uniform in mass or placement, so there isn't a good way for a pitcher or batter to know what the ball will do. This should reduce fastball speed and increase junk ball hits.
 
