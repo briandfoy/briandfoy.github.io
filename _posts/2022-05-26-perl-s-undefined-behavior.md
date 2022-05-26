@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-A list of undefined behaviors in Perl. There's one that matters to you,
+A list of documented undefined behaviors in Perl. There's one that matters to you,
 and others that are rare cases.
 
 The `each` function iterates through a hash (or an array). If you mess
