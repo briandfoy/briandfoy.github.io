@@ -11,28 +11,28 @@ original_url:
 <style>
 span.label {
     border-radius: 10%;
-    display:inline-block;
-    width:20px;
-    height:20px;
-    text-align:center;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-span.red {
-	background:red;
-}
-
-span.yellow {
-	background:yellow;
-}
-
-span.orange {
-	background:orange;
-}
+span.red    { background: red;    }
+span.yellow { background: yellow; color: black; }
+span.orange { background: orange; }
+span.green  { background: green;  }
+span.blue   { background: blue;   }
+span.purple { background: purple; }
+span.grey   { background: gray;   }
 </style>
 
-I use Finder labels, also know as "tags", to organize the files in directories. Suppose that I have a bunch of data files to inspect. I'll mark the really interesting ones as <span class="label red">Red</span>, the ones I've seen as <span class="label red">Orange</span>, and the ones I can ignore as <span class="label red">Yellow</span>.
+I use Finder labels, also know as "tags", to organize the files in directories. Suppose that I have a bunch of data files to inspect. I'll mark the really interesting ones as <span class="label red">Red</span>, the ones I've seen as <span class="label orange">Orange</span>, and the ones I can ignore as <span class="label yellow">Yellow</span>.
 
 But, the interface for this is annoying. Select a file, right-click, select a color, and repeat. There has to be a better way.
+
+<!--more-->
 
 I had been looking for an excuse to try [Hammerspoon](https://www.hammerspoon.org), a Lua-based macOS interface controller. I can bind keys to actions and I can tag files. The thing it apparently can't do easily is access the list of files selected in a Finder window. If I've missed how to do that, let me know by pointing at some docs.
 
@@ -41,11 +41,6 @@ You may ask about Applescript at this point. That's possible, probably, activati
 Then I had the idea to use Automator, which I haven't really enjoyed using in the past. I created a Quick Action to label an item. That looks deceptively simple:
 
 ![](/images/macos-tags/automator-label-red.png)
-
-
-
-
-
 
 I then bound that Quick Action to a key combo in *System Preferences > Keyboard > Shortcuts > App Shortcuts*. I chose Control-digit because it uses one modifier key:
 
@@ -71,13 +66,13 @@ Wait, what? I thought I had set these shortcuts in Path Finder. Why are they sho
 
 I went through a lot of work to discover that Finder already does what I want. It's [hidden in an Apple Support doc](https://support.apple.com/guide/mac-help/tag-files-and-folders-mchlp15236/mac) and not shown in the contextual menu.
 
-* <kbd class="kbc-button">Ctrl</kbd> + <kbd class="kbc-button">1</kbd> - <span class="label red">Red</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">2</kbd> - <span class="label red">Orange</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">3</kbd> - <span class="label yellow">Yellow</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">4</kbd> - <span class="label green">Green</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">5</kbd> - <span class="label blue">Blue</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">6</kbd> - <span class="label purple">Purple</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">7</kbd> - <span class="label grey">Grey</span>
-* <kbd class="kbc-button">Control</kbd> <kbd class="kbc-button">0</kbd> - Clear all
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">1</kbd> - <span class="label red">Red</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">2</kbd> - <span class="label orange">Orange</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">3</kbd> - <span class="label yellow">Yellow</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">4</kbd> - <span class="label green">Green</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">5</kbd> - <span class="label blue">Blue</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">6</kbd> - <span class="label purple">Purple</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">7</kbd> - <span class="label grey">Grey</span>
+* <kbd class="kbc-button">Ctrl</kbd> <kbd class="kbc-button">0</kbd> - Clear all
 
 So damn, I get what I want, in the way I reinvented it
