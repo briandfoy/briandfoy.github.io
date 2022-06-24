@@ -8,6 +8,8 @@ stopwords: github rws yml shortcodes gh localserver mdlrc mdl jekyll
 
 It's a new decade tomorrow for you 0-based types, so I figured I'd try a new blog setup. I've used all sorts of things, but the GitHub Jekyll stuff seems easy to setup. This is whatever I did to get what you see here. Mostly, I have this to remind myself what I did if I do this again.
 
+<!--more-->
+
 I suppose you could also fork my repository. Most of the interesting stuff is in the _Makefile_.
 
 ## Fork jekyll-now

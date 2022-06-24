@@ -10,6 +10,8 @@ original_url:
 
 Can machines think? Sure, but do you want the solutions they come up with? Consider *Terminator*. SkyNet decided that the solution to the problem was to kill all humans.
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RLtlTV-VQDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

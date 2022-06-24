@@ -10,6 +10,8 @@ original_url:
 
 A friend sent me a link to a gist from Rich Hickey, the inventor of Clojure, discussing his idea of the community's relationship to his open source project. In [Open Source is Not About You](https://gist.github.com/richhickey/1563cddea1002958f96e7ba9519972d9), he lays out his idea of the relationship:
 
+<!--more-->
+
 > Just because someone open sources something does not imply they owe the world a change in their status, focus and effort, e.g. from inventor to community manager.
 
 He's ranting and his frustration is clear. It happens. As the head of a community, elected or otherwise, that's how it goes sometimes. Leadership is hard, and not saying everything you think is part of that. It's regrettable, but we all make mistakes.

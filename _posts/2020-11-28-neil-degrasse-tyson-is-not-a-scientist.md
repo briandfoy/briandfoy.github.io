@@ -10,6 +10,8 @@ original_url:
 
 Following an internet hole about the future of physics led me to a discussion of Neil deGrasse Tyson's assholishness. In particular, his interview with Joe Rogan ([#1347](https://www.youtube.com/watch?v=0pmviUS1Zac)) where he acts in the same way that he decries in others.
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0pmviUS1Zac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

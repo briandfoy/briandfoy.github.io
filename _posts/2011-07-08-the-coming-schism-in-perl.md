@@ -8,7 +8,7 @@ stopwords:
 
 *I wrote this something in early 2012 and did not publish it. Rereading it, I like the first part that covers some history. The second part not so much, but I've added a 2020 update at the end*.
 
----
+<!--more-->
 
 In 2000, Chip Salzenberg summoned several notable Perl people, me included, to a room during OSCON in Monterey and told us to think about a new Perl. His Topaz experiment to reimplement Perl in C++ had failed for various technical reasons, and if Chip can't get it done, it probably is impossible. If he could get it done, it still might have been impossible. Chip's a excellent developer and his experience taught him a lot about what a new `perl` codebase needed to be. Chip's motivation was simple: the codebase behind `perl` was becoming more and more intractable and past designs were in the way of future progress.
 

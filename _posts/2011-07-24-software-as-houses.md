@@ -7,9 +7,10 @@ stopwords: html
 ---
 
 chromatic asks ["if we built houses like we build
-software"](http://www.modernperlbooks.com/mt/2011/07/if-we-built-
-houses-like-we-build-software.html), but I think the more interesting
+software"](http://www.modernperlbooks.com/mt/2011/07/if-we-built-houses-like-we-build-software.html), but I think the more interesting
 question is why we don't build more software like we build houses.
+
+<!--more-->
 
 Consider what it takes to build a house, at least in the US. You don't
 start putting up walls without laying a foundation. Before you even

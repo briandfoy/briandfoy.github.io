@@ -12,6 +12,8 @@ original_url: https://www.amazon.com/gp/customer-reviews/R1K43RB54DL9HX
 
 This is designed a C-level executive book and should give those executives an idea about the pitfalls of software, why software is apparently difficult to get right, and how it can go disastrously wrong. The reader who is unfamiliar with software and the business of software is likely to believe much of this book despite its obvious lack of connection to reality and its anecdotal lessons and vague and useless tips. This book isn't really about software anyway. It's about technology management, a wholly different topic. It's about the whole of information technology, with all the buzzwords and hot trends that will make this book a remainder within six months. Indeed, by scrapping the title and changing the focus slightly, this book wouldn't be so egregiously bad.
 
+<!--more-->
+
 <div class="amazon">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=B003WJRW5W&asins=B003WJRW5W&linkId=ca837620a1e6f67ff8779d9d0f9325db&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>

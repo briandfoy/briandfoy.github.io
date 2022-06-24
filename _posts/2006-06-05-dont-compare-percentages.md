@@ -30,6 +30,8 @@ divorce the percentages from the absolute numbers (either because the
 original data are restricted or the people know that they tell a
 different story).
 
+<!--more-->
+
 I start with six topics I'll call { A, B, C, D, E, F }, and I'll
 arbitrarily assign them a number. It doesn't matter what this number
 actually is. It could be hits on a web search engine, book sales on

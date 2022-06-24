@@ -10,6 +10,8 @@ original_url:
 
 In [Perl's Problems](https://perlhacks.com/2014/09/perls-problems/), David Cross misattributes Perl's popularity to Matt Wright and Selena Sol (Eric Tachibana). I think that's a simplistic view of history, and I was there. Dave Cross was there too, though, and are views intersect in some areas, but I think we start from different assumptions.
 
+<!--more-->
+
 <p class="callout">
 We think we should change their minds instead of solve their problems
 </p>

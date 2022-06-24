@@ -18,6 +18,8 @@ and leave the rest. Most of these sorts of debates center on people's
 disagreements on how to optimize for their preferences and ideas, along
 with them dictating what your ideas and concerns should be.
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/58jGpV2Cg50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

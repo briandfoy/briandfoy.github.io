@@ -10,6 +10,8 @@ original_url:
 
 While I was in graduate school in the late 90s, there was a particular scientist who wanted all of the graduate students to be working. It didn't matter if he was supervising them or not, but he was cracking the whip in the salt mines. He didn't even care if you were doing something useful or productive. You just had to be working.
 
+<!--more-->
+
 His supervision was mostly logging onto the Unix system and running `who -u` to get the list of users logged in and their idle time. This is despite most people working in the same building and along the same hallway.
 
 He could see output like this:

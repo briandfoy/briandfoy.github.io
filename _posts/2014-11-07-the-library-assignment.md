@@ -9,11 +9,11 @@ original_url:
 usemathjax: true
 ---
 
-
-
 My high school chemistry teacher offered points for a weekly question
 he posed. Sometimes it was about chemistry, sometimes about science, and
 sometimes just random subjects. Unfortunately, I don't remember any of the questions.
+
+<!--more-->
 
 These questions were not the recitation of simple facts, and the answers
 weren't things that anyone would know off the top of their heads. They

@@ -13,6 +13,8 @@ Quake III has a super-optimized, good-enough [inverse square algorithm](https://
 a graphical game, they need millions and millions of these operations so
 it better be fast.
 
+<!--more-->
+
 $$
 f(x) = \frac{1}{\sqrt{x}}
 $$

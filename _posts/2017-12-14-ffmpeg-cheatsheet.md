@@ -10,6 +10,8 @@ original_url:
 
 I use cheatsheets to remember commands I use frequently.
 
+<!--more-->
+
 Batch convert:
 
 	for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done

@@ -10,6 +10,8 @@ original_url:
 
 *UPDATE: I filed a Code of Conduct violation over this blog post, and I include StackOverflow's response at the end*
 
+<!--more-->
+
 In [Modern IDEs are magic. Why are so many coders still using Vim and Emacs?](https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs), the writers John Biggs and Ryan Donovan go a long way to offend and patronize programmers "of a certain generation" in an effort to promote IDEs (but not a particular IDE). They're kicking a sleeping dog for no good reason.
 
 At first I thought this was an April Fools / Onion style article. I can see where they are trying to make jokes, and, having been around comics, I've been told that's the worst feedback. "I can see what you were trying to do there" explains that not only did it fail, but the mechanics were apparent. The content and the mechanism failed.

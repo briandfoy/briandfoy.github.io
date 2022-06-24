@@ -11,6 +11,8 @@ original_url: https://www.perlmonks.org/?node_id=413324
 *I originally posted this on [Perlmonks](https://www.perlmonks.org/?node_id=413324),
 and now I've added a video of it in action*
 
+<!--more-->
+
 <iframe src="https://player.vimeo.com/video/387975820" width="640" height="417" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/387975820">Curses-based Perl JAPH (Just another Perl hacker)</a> from <a href="https://vimeo.com/briandfoy">brian d foy</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 

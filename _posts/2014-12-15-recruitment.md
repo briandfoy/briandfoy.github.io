@@ -8,8 +8,6 @@ original_url: http://blogs.perl.org/users/brian_d_foy/2014/12/my-perl-recruitmen
 
 *I originally wrote this on blogs.perl.org [My Perl recruitment thoughts](http://blogs.perl.org/users/brian_d_foy/2014/12/my-perl-recruitment-thoughts.html)*
 
----
-
 Dave Cross posted his [Perl
 Recruitment Thoughts](http://perlhacks.com/2014/12/perl-recruitment-thoughts/), which led to the same tired responses we see
 every time someone is frustrated enough to bring it up. Again. In the
@@ -18,6 +16,8 @@ wasn't worth the shitstorm I'd get for posting it, then let it die.
 This time, I'll write just the highlights, turn off comments, and let
 people who care enough rant do it on their own blogs.
 
+<!--more-->
+
 First, Dave does quite a bit of work to make new Perl programmers. He
 teaches accessible and cheap classes in London (and anywhere that will
 have him). I don't work in UK, so I can't speak to the particular
@@ -25,8 +25,6 @@ things he sees. I teach all over the US, write the books, and
 occasionally step into companies to unscrew up whatever they have
 going on. Here's what I've learned in 20 years of doing this, but, as
 I said, just the highlights.
-
----
 
 **It doesn't matter what universities teach** If you think a
 university is a trade school and that the graduates are going to show

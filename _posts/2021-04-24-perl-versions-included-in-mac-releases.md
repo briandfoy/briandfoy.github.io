@@ -10,6 +10,8 @@ original_url:
 
 I compiled [a list of the Perl versions](https://github.com/briandfoy/mac-perl-versions) included with each Mac release. There have been previous efforts, but those are dated. Some of the earlier efforts tried to be clever by writing code to extract that data, but it's easier just to look inside—especially since Apple did it in at least three different ways through the years.
 
+<!--more-->
+
 It didn't take long for me to trawl through the code in [https://opensource.apple.com](https://opensource.apple.com), where Apple shows what they did to prepare various packages for inclusion in the operating system. I'm probably missing something else to make it all work, but then I'm not releasing an operating system so who cares.
 
 Apple has this curious system where it can ship multiple versions of a package at the same time. For example, macOS 10.15 ships with both Perls v5.18.4 and v5.28.2. The thing in */usr/bin/perl* isn't even *perl*—it's the thing that dispatches the right one. You can find which versions it knows about by extracting the string-looking stuff from the binary and looking for lines that have `5`:

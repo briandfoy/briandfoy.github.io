@@ -10,6 +10,8 @@ original_url:
 
 *This originally appeared in The Perl Review 0.3, May 2002*
 
+<!--more-->
+
 ## Introduction
 
 I worked on a web project which included a customer login screen, and I found, after studying the error logs, that people often mistype their usernames. They do not mean to mistype their names, so they often do not know why the login failed. I thought that if I could take what they actually typed and, if it did not match an existing username, find something close, I could create a better interface that helped them solve their login problem while generating fewer support tickets for me.

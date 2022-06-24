@@ -10,6 +10,8 @@ Leo Laporte and Randal Schwartz interviewed Simon Phipps, the Chief
 Open Source Officer at Sun. It's not the normal open source religion,
 and a much better view than I've heard for the "Open Source" people.
 
+<!--more-->
+
 The entire hour long interview is excellent, but this was my favorite
 part:
 

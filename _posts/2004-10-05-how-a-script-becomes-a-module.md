@@ -12,6 +12,8 @@ original_url: https://www.perlmonks.org/?node_id=396759
 
 First, the House of Representatives proposes... wait a minute, that's "How a bill becomes a law", and although it got its own Schoolhouse Rock song, it's not what I'm talking about.
 
+<!--more-->
+
 Lately my scripts have been turning into modules. This doesn't happen by itself, or even all at once. These scripts just sort of evolve, and pretty soon they are modules. The script doesn't necessarily get any better (maybe it gets worse), and they aren't even the best looking modules. They aren't a product of top-down design where I know everything that I want and have a nice specification. They aren't bottom-up design either, really, because I don't even start as a module. I call this sort of programming "side over" design, mostly because the extra work gets you no immediate benefit. It doesn't add functionality, and it doesn't necessarily save computer or human time. I could probably also call it "quality time with the keyboard" or "divorce maker".
 
 I'm going to make up a script for this (real cases are too long to think about) and follow it from its simple beginning as it evolves into a modulino and finally a full-blown module. The example is contrived, but it illustrates what actually happens. If you want a real life example, you can look back at the history of my release(1) utility (it's on CPAN) and track its evolution to Module::Release which Ken Williams created out of it (and Andy Lester maintained for a while, and which I am re-designing).

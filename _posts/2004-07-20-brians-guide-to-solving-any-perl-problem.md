@@ -10,6 +10,8 @@ original_url: https://www.perlmonks.org/?node_id=376075
 
 *[I originally wrote this for [Perlmonks](https://www.perlmonks.org/?node_id=376075), and then included it as an appendix in [Mastering Perl](http://www.masteringperl.org). I've updated it here, and I've made this the main version.]*
 
+<!--more-->
+
 ## My Philosophy of Debugging
 
 I believe in three things:

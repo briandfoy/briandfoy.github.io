@@ -12,6 +12,8 @@ original_url: http://blogs.perl.org/users/brian_d_foy/2012/03/should-i-buy-that-
 
 I wrote this over a year ago, but I never posted it. I found it again when I was writing [Can you learn Perl from an old Learning Perl?](https://www.learning-perl.com/2012/03/can-you-learn-perl-from-an-old-learning-perl/). I still like it, so I've give it to you.
 
+<!--more-->
+
 At the heart of this question is (probably) the definition of economics: "How do I spend my limited resources on any of my alternatives to reach my goal?" There are, at least, three components there:
 
 * Your resources (money, time)

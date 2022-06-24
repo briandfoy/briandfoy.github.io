@@ -10,6 +10,8 @@ original_url:
 
 For a long time, I've used Photoshop and InDesign. I'm stuck on Creative Suite 5.5, which I completely paid for. I'm not giving up money on a monthly subscription for something I lightly use.
 
+<!--more-->
+
 ![Affinity Photo](/images/affinity-photo-prices.png)
 
 <a href="https://affinity.serif.com">Affinity</a>, however, is trying to be the professional-level competitor to Adobe, and after trying them, I think they've mostly done it. I paid $50 once and I have it now and forever. That's two and a half months of a Creative Cloud subscription. That's about $250 a year just for Photoshop, although for $53, I can get all the Creative Cloud apps. I think I paid maybe $1,500 for the entire Creative Suite (Photoshop, InDesign, Illustrator, and a bunch of other stuff) and used it for years and years.

@@ -15,6 +15,8 @@ for 10 minutes. A day later I forget about them and never use them
 again. Sometimes, months later, I remember there was a better tool,
 but I can't remember the name.
 
+<!--more-->
+
 No more. I now have a low-tech annoyance device. I put a small shell
 script in *~/bin*, which is first in my `PATH`. Here's my personal
 `du` to remind me I want to use [ncdu](https://dev.yorhel.nl/ncdu)

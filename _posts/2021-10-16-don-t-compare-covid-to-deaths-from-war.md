@@ -15,6 +15,8 @@ actual numbers and inability to think about large numbers. This also
 relies on nobody questioning the numbers. Indeed, I think the people who
 repeat this assertion never bothered to check themselves.
 
+<!--more-->
+
 [Shifting attention to accuracy can reduce misinformation online](https://www.nature.com/articles/s41586-021-03344-2),
 an article in the March 2021 of [Nature](https://www.nature.com/), says
 

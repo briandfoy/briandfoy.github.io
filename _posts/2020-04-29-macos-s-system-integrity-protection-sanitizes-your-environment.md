@@ -10,6 +10,8 @@ original_url:
 
 macOS added [System Integrity Protection](https://support.apple.com/en-us/HT204899) in El Capitan. It's supposed to limit what root users can do and prevent changes to system files. Noble goals, especially for non-developers.
 
+<!--more-->
+
 But its more than. Some programs sanitize the environment before they start child processes so I can't substitute my own, potentially malicious libraries. I'm being generous when I say that this is lightly documented. Specifically, environment variables starting with `DYLD_` and `LD_` are unset for child process started by system programs. This works in the Apple ecosystem, but some third-party tools still rely on it.
 
 That macOS would do this makes sense for most people. These environment variables were supposed to be about debugging so you could compile a library and try it with a program. As with many things, how people used it was different. As a developer, I'm doing things virtually no one else in the world is doing. I don't want to use these variables, but other things I want to use wants to use these variables.

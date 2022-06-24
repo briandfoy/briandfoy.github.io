@@ -10,6 +10,8 @@ original_url:
 
 Curtis 'Ovid' Poe is working on the [Cor Proposal](https://gist.github.com/Ovid/68b33259cb81c01f9a51612c7a294ede) to add new object syntax to Perl. There have been various efforts in the last decade, including [Moose](https://metacpan.org/pod/Moose) and the many variations of it. The syntax is nice enough, but syntax isn't the issue that's driving these frameworks. You don't make appropriate classes—that's the source of all of your problems.
 
+<!--more-->
+
 Today, Ovid writes [Why Do We Want Immutable Objects?](https://ovid.github.io/articles/using-immutable-datetime-objects-with-dbixclass.html), in which he uses this example:
 
 {% highlight perl %}

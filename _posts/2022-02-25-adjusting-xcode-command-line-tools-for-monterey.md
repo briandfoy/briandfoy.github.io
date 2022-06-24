@@ -10,6 +10,8 @@ original_url:
 
 I upgraded my laptop to macOS Monterey, then some command-line dev things broke with errors, including these:
 
+<!--more-->
+
 {% highlight plain %}
 clang: error: invalid version number in '-mmacosx-version-min=12.3'
 

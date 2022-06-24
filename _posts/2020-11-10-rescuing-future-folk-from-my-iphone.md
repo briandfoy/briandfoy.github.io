@@ -10,6 +10,8 @@ original_url:
 
 I think Dropbox has corrupted a bunch of my files. I don't care enough to verify the culprit, but this only happened under _~/Dropbox_ and not under my iCloud, Google Drive, or local directories. I went to investigate, restore from backup, and otherwise replace. But, I find some of my favorite music is borked.
 
+<!--more-->
+
 My first hint of a problem, months ago, was many corrupted PDFs or images. They looked normal and had the expected file size, but the contents were all null bytes. Most of these weren't a problem because I could get them from backups, email, or their original source. I figured it was a fluke.
 
 As an aside, I've noticed that a couple of my banks no longer have the complete history of statements. I don't really need my statements from 2003, but when did they stop giving me complete records? And, since they won't email the statements or give me an API to download them, I'm not going to check every month. I guess I'll do it all at tax time. Get the previous 12 months so Dropbox has more to corrupt.

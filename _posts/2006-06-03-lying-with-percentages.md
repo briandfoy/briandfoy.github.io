@@ -11,6 +11,8 @@ original_url:
 If you really really want to misuse statistics, use percentages. It's the easy
 way to hide what's actually happen.
 
+<!--more-->
+
 First, let's consider a group of somethings. It doesn't matter if they
 are cars, candy bars, or rock stars. I won't give them names other
 than letters from the alphabet, *{ A, B, C, D, E, F }*. Now I conduct a

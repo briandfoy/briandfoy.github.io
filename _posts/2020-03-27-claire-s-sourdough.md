@@ -10,6 +10,8 @@ original_url:
 
 Claire from Bon Appétit shows Brad how to make sourdough. She published a much more thorough recipe in the [Times](https://cooking.nytimes.com/guides/59-how-to-make-sourdough-bread).
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oidnwPIeqsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

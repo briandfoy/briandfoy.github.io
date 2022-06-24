@@ -9,6 +9,8 @@ stopwords: Gitifying gitx
 [BBEdit](https://www.barebones.com/products/bbedit/) has a feature to make historical backups of a file, so I
 have a *BBEdit Backups* directory in [Dropbox](https://db.tt/TOfJe58D).
 
+<!--more-->
+
 ![BBEdit Backups](/images/bbedit_backups.png)
 
 Sometimes I mess up in a way where a file disappears or I miss out on a

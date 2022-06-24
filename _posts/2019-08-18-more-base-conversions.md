@@ -7,6 +7,8 @@ tags: perl bash aliases base-36
 
 Here are some more number conversion aliases to go with [/base-conversions]. Sometimes I need to deal with Base-36, which includes the normal decimal digits then the 26 letters from the Latin alphabet. Think of Base-16 that didn't stop at F.
 
+<!--more-->
+
 I wanted to use some Bash stuff to do this, but it was easier to simply use Perl again.
 
 {% highlight text %}

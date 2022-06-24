@@ -10,6 +10,8 @@ original_url:
 
 I want to import from a CSV file some array values into a Postgres table, but I didn't find examples. There are many examples with INSERT statements, but I already know how to do that (because there are examples).
 
+<!--more-->
+
 Postgres allows a column to hold multiple values (or almost anything, really). In text, you put array values in braces and separate them with commas. There are plenty of examples of this:
 
 {% highlight text %}

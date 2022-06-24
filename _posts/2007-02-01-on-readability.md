@@ -12,6 +12,8 @@ original_url: https://www.perlmonks.org/?node_id=592616
 
 Start a language war, and no matter what side you're really on, you'll probably try to claim that your language is more readable. Is Python really easier to read than Perl, or Java easier to read than Python? Anyone voting for APL or LISP? If you're Damian Conway it doesn't really matter because you turn any language into what you want anyway and it is more readable as long as you forget which language it started as.
 
+<!--more-->
+
 Worse than that is the intra-language readability wars. Everyone thinks that their code is readable and almost everyone thinks that nobody else's code is even decipherable. Do you use K&R or ANSI kung-fu style? Two or four spaces? Or tabs? Do you even use whitespace (I'm looking at you, Monks-Who-Posts-In-Obfuscation). I, like everyone else, have my own ideas about where things should go in code.
 
 Maybe you get three people to agree on the right style. Now which built-in functions do you get to use? You get two of the three to agree not to use `goto`, but nobody can agree on `unless` except for a moment before someone asks "You mean just in statement modifiers" and the other person sucker punches him.

@@ -8,12 +8,11 @@ last_modified:
 original_url:
 ---
 
-
-
-
 There's a joke that I can never quite get right, and even then telling it
 at a party often gets the rather unencouraging response that the tale attempts
 to illustrate. It's all about how people reduce problems.
+
+<!--more-->
 
 > The Engineer, the Physicist, and the Mathematician are each given the
 task of solving the problem of the light bulbs burning out in the

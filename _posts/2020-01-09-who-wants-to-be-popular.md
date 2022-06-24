@@ -16,7 +16,7 @@ the coolest language again. It's an evergreen topic and a natural one for a
 new person to ask. That it's a mine field is a completely reasonable thing
 to not know.
 
----
+<!--more-->
 
 Perl doesn't need to be popular to be a good decision. It's available
 and supported, and it's easy to find help. All for free. As long as it

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Key bindings for macOS tags
-categories:
+categories: macos
 tags:
 stopwords:
 last_modified:

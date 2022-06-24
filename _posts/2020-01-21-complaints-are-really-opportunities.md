@@ -12,6 +12,8 @@ original_url: https://www.reddit.com/r/perl/comments/erxeh9/this_has_to_be_the_g
 Upwork](https://www.upwork.com/job/you-know-Perl-you-want-new-part-time-client_~014fdeeb326d0a79a0/).
 I've included a screenshot at the end in case the posting disappears.*
 
+<!--more-->
+
 For those of you making fun of [this job posting](https://www.upwork.com/job/you-know-Perl-you-want-new-part-time-client_~014fdeeb326d0a79a0/), welcome to your audience.
 
 This is Perl's customer. Here's a person who's desperately trying to

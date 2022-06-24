@@ -10,6 +10,8 @@ original_url:
 
 New York City is lock-down for the Virus, and I've been infected with the Bon Appetit test kitchen. As I've run out of videos of Brad Leone or Claire Saffitz, I've started watching the Keep Up Challenge videos. Some game person agrees to try to cook like a trained, experienced chef with only words to guide them. The two are set up in back-to-back, mirror image stations and the chef has to talk the mark through the process. But, they only have 15 minutes to do it.
 
+<!--more-->
+
 Here's Gordan Ramsey's turn:
 
 <div class="youtube">

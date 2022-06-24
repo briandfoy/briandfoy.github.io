@@ -12,6 +12,8 @@ original_url:
 
 I take a program from a previous article and separate the code, presentation, and configuration into separate parts to make the program more flexible and easier to maintain.
 
+<!--more-->
+
 ## Introduction
 
 In the previous issue, I presented a program I use to pull and display Rich Site Summaries (RSS) from other web sites (see [Simple RSS with Perl](/2002-11-01-simple-rss-with-perl/). I used literal values in the code to specify which files to download and how to present the data, and I promised I would fix that in this issue.

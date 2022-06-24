@@ -10,6 +10,8 @@ original_url:
 
 I've recently thrown away my last HP-48, of the handful that I've owned. I've found a new tool that's adequate and takes lots less space.
 
+<!--more-->
+
 This wasn't just another calculator. This was full on scientific tool and created cults of its own. There's an [HP calculator museum](https://www.hpmuseum.org) and you can [still buy software for it](https://www.hpcalc.org). These may not have been as prized as good slide rules, but they did come with soft cases.
 
 ![](/images/hp48/calculator.jpg)

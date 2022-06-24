@@ -10,6 +10,8 @@ original_url:
 
 This blog is quickly becoming my to-do list for larger, long term projects.
 
+<!--more-->
+
 ### Mojolicious
 
 I've already written [Mojolicious Web Clients](https://www.leanpub.com/mojo_web_clients) as a prelude to something for the entire framework. I have [some ideas in a gist](https://gist.github.com/briandfoy/6f21a8c0228e109ef48904c26422cb2d).

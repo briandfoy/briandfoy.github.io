@@ -11,6 +11,8 @@ In 1981, Brian Kernighan, co-creator of Unix, wrote a paper he
 called ["Why Pascal is Not My Favorite Programming Language"](http://doc.cat-v.org/bell_labs/why_pascal/why_pascal_is_not_my_favorite_language.pdf). Part of
 his abstract points out that the language was not originally aimed at systems programming.
 
+<!--more-->
+
 > Pascal was originally intended primarily as a teaching language, but it has been more and more often recommended as a language for serious programming as well, for example, for system programming tasks and even operating systems.
 
 I originally ran into Pascal because some of the electrical engineering

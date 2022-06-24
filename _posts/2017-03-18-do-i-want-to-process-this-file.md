@@ -10,6 +10,8 @@ original_url:
 
 I ran across a question about selecting files to process. In short, the programmer didn't want to process uninteresting files. This might be a case of pre-mature optimization, but more likely, tied-and-true knowledge from ETL. That file might take several minutes (hours) to process; you don't want to waste that on a file you don't want.
 
+<!--more-->
+
 # Who cares?
 
 First, should you care? How often do you think you incur the penalty? For example, if one file out of a thousand doesn't have the pattern, does checking the other 999 actually save work? Maybe it does, but do you know that? Maybe you do for your task, but other readers may like this.

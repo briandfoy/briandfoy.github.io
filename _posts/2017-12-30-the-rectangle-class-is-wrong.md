@@ -10,6 +10,8 @@ original_url:
 
 Many tutorials on object-oriented programming use geometric shapes because they think it's an easy way to start. It could be an easy way to start, but most people make it hard because they don't think about what a shape actually is, what they want it to do, or how it should relate to other objects.
 
+<!--more-->
+
 * [Object-Oriented Coding in Python](https://freecontent.manning.com/object-oriented-coding-in-python/)
 * [Object-oriented Rectangle program](https://cboard.cprogramming.com/cplusplus-programming/154407-object-oriented-rectangle-program.html)
 * [A Solution to the Square-Rectangle Problem Within the Framework of Object Morphology](https://aip.vse.cz/pdfs/aip/2016/01/03.pdf)

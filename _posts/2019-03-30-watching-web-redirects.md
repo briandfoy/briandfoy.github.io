@@ -8,6 +8,8 @@ stopwords: Mojolicious's
 
 I've been working with some tricky web stuff where I need to see that everything redirects to the right addresses through multiple steps of third party tools and services. If I let the user-agents handle it, they just handle it (and that's what I prefer). If I program all the redirections myself, well, I have to program it all myself.
 
+<!--more-->
+
 It's not as simple as sending a HEAD request to the server to see if it gives me a Location header. Some of these services don't respond to HEAD, and some respond without a Location header.
 
 But, I can make a tiny tool that can do it for me. I call it [3xx](https://github.com/briandfoy/3xx):

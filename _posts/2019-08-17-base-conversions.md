@@ -7,6 +7,8 @@ tags: perl bash aliases
 
 I made some bash aliases to convert between number bases. Remember that Perl's [oct](https://perldoc.perl.org/functions/oct.html) can translate the other bases as long as the input string has the prefix, such as `0b10101`:
 
+<!--more-->
+
 {% highlight text %}
 alias d2h="perl -e 'printf qq|%X\n|, int( shift )'"
 alias d2o="perl -e 'printf qq|%o\n|, int( shift )'"

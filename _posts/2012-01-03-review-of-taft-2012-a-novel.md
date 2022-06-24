@@ -12,6 +12,8 @@ original_url: https://www.amazon.com/gp/customer-reviews/R29G6KHDDPX1YF
 
 President Taft suddenly shows up, covered in mud, on the White House lawn in 2011. In this imagined timeline, he had mysteriously disappeared in 1913. From the book's title, you already know that he's going to be pressed into service as a presidential candidate, perhaps TR-style with his own, new party. That's a great idea for a story and discussion of current issues. And, it will still be a great idea when someone decides to write it.
 
+<!--more-->
+
 <div align="amazon">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=tf_til&ad_type=product_link&tracking_id=hashbang09-20&marketplace=amazon&region=US&placement=1594745501&asins=1594745501&linkId=f4d236852cce4e598034ccf0554d3c60&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>

@@ -11,6 +11,7 @@ original_url:
 In [Putting environment values in the keychain](/putting-environment-values-in-the-keychain/), I noted how I moved a bunch of sensitive info into the Keychain, but set env variables in the shell when I got a log-in shell. That has worked well, except for running a program through BBEdit. Every time I run a program, all that work is redone as BBEdit gets a new interactive shell. It takes a couple seconds for the secrets to load, and that's
 annoying.
 
+<!--more-->
 
 This isn't a big deal. I have to figure out how to test whether BBEdit is the thing that started this shell. It turns out to be easy. I write a program to dump the environment:
 

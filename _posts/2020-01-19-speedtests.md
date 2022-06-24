@@ -11,6 +11,8 @@ how it stacks up to what I have currently. I can do that with the Speedtest.net
 web pages or mobile app, but I'd like to collect a lot of stats over
 time.
 
+<!--more-->
+
 There's a python command-line program for it:
 
 {% highlight text %}

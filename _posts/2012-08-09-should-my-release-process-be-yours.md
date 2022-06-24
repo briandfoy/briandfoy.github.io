@@ -16,6 +16,8 @@ but that got a little out of hand too. Whereas [Learning Perl](https://www.learn
 [Intermediate Perl](https://www.intermediateperl.com) are much more "do what I show you because you're
 new", [Mastering Perl](http://www.masteringperl.org/) is much more "why do we do this?".
 
+<!--more-->
+
 There are two opposing ways to go with any process. Your process can
 be completely external to the actual distribution so that nothing in
 the distribution is set up to support the process or its automation.

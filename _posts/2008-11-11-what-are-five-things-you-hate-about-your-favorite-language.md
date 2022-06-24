@@ -12,6 +12,8 @@ original_url: https://web.archive.org/web/20070306084310/http://use.perl.org/~br
 
 There's been a cluster of Perl-hate on Stack Overflow lately, so I thought I'd bring my "Five things you hate about your favorite language" question to Stack Overflow. Take your favorite language and tell me five things you hate about it. Those might be things that just annoy you, admitted design flaws, recognized performance problems, or any other category. You just have to hate it, and it has to be your favorite language.
 
+<!--more-->
+
 Don't compare it to another language, and don't talk about languages that you already hate. Don't talk about the things you like in your favorite language. I just want to hear the things that you hate but tolerate so you can use all of the other stuff, and I want to hear it about the language you wished other people would use.
 
 I ask this whenever someone tries to push their favorite language on me, and sometimes as an interview question. If someone can't find five things to hate about his favorite tool, he doesn't know it well enough to either advocate it or pull in the big dollars using it. He hasn't used it in enough different situations to fully explore it. He's advocating it as a culture or religion, which means that if I don't choose his favorite technology, I'm wrong.

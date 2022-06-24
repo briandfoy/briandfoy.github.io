@@ -11,6 +11,8 @@ Cloudflare account, so I need to pause Cloudflare. I do have direct
 access through another hostname, but that's sometimes not the same
 thing.
 
+<!--more-->
+
 [Cloudflare has an API](https://api.cloudflare.com), so this action is
 easy to script once I've collected some Zone IDs:
 

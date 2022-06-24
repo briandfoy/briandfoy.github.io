@@ -10,6 +10,8 @@ original_url:
 
 Sometimes I force myself to not use a feature. What if I couldn't use `if`? Were that true, I'd have to do something else. Here's an example from Smalltalk, where there's no special syntax for `if`. Instead, there's a `Boolean` receiver with `ifTrue:` and `ifFalse:` methods:
 
+<!--more-->
+
 {% highlight text %}
 ( ... )
 	ifTrue: [...]

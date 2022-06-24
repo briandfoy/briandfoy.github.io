@@ -14,6 +14,8 @@ I just finished Marianne Bellotti's [Kill It with Fire](https://amzn.to/3G0pXbW)
 Things that I've already known or considered don't appear here. Marianne writes about legacy modernization projects, but not from the usual tactics and techniques
 perspectives that most technologists would take. Instead, this is real world experience, mostly working on government projects.
 
+<!--more-->
+
 <br clear="all" />
 
 ## Chapter 1, "Time is a flat circle"

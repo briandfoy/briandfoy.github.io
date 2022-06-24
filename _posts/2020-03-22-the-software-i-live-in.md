@@ -10,6 +10,8 @@ original_url:
 
 My rule in managing programmers is that I don't care what you use as long as it doesn't affect what other people use. Your operating system, editor, or whatever don't matter to me *a priori*. Sometimes it's good to force people to use a particular setup that matches their audience, but otherwise, be productive however you are productive, even if you use the "wrong" software.
 
+<!--more-->
+
 I also tell people to try different things so they know different things. I'm a *vi* guy because that's the best editor, but I also forced myself to use *emacs* for two years to really get into it. I didn't like it (but my business partner around that time, Randal Schwartz, lives in it).
 
 ## macOS

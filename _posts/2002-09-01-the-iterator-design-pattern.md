@@ -12,6 +12,8 @@ original_url:
 
 The Iterator pattern separates the details of traversing a collection so that they can vary independently. Perl provides some of these parts already, although in some cases I need to provide my own implementations of them.
 
+<!--more-->
+
 ## Introduction
 
 Iterators as a design pattern are much more apparent as a pattern in languages that do not have aggregates as first class objects. Perl has lists, along with the variable types arrays and hashes, and it is trivial to go through any of these with built-in Perl structures like `foreach`, `each`, `map`, and so on. The file input operator, `<>`, iterates through the lines of the file. The `readdir()` and `glob()` functions iterate through filenames. In scalar context, the match operator with the global flag, `m//g`, iterates through matches.

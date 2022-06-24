@@ -8,6 +8,8 @@ stopwords: png
 
 Every ten years or so I change up my shell prompt. This year I added a newline so that the ever increasing information I display doesn't crowd out the actual command I'm using (especially since I added [git_prompt.sh](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)):
 
+<!--more-->
+
 {% highlight text %}
 # PS1="\h_\u[\!]\$ "
 

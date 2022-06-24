@@ -13,6 +13,8 @@ doesn't LeanPub extract this from my ePub automatically?". Maybe is
 does, but it has no instructions of what to do to make that happen.
 I'll make that much easier for you.
 
+<!--more-->
+
 It the book details page, I can add HTML that LeanPub will insert into
 my book's summary page. It's instructions tell you to look at the HTML
 source for other book pages, but also that they can change their rules

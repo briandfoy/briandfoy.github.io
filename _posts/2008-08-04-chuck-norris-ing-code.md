@@ -13,6 +13,8 @@ original_url: https://www.perlmonks.org/?node_id=702200
 
 Sometimes when Randal Schwartz or I consult on Perl projects, it turns out that the client expects a magic wand because we have our names on books or speak at conferences. When we load code into an editor, that alone should magically fix things while at the same time not changing any code or any part of the process. Randal has started calling this "chuck norris"-ing the code. I don't know if he invented the phrase, but it's likely. He hasn't heard anyone use it, so I say he's the inventor.
 
+<!--more-->
+
 [Chuck Norris](https://chucknorris.com) is a real, yet mythic and legendary figure for Americans. He's a kick-ass martial arts guy who fought Bruce Lee in [Meng long guo jiang](http://www.imdb.com/title/tt0068935/). In his various movies and TV series he saves the world through force of will and by just showing up. Chuck Norris is the man who can do anything, and the universe is afraid of him. Not just the people in the universe, the actual universe itself. Chuck Norris's abilities are collected in [Chuck Norris Facts](https://en.wikipedia.org/wiki/Chuck_Norris_facts), which include:
 
 *Chuck Norris doesn't read books. He stares them down until he gets the information he wants.

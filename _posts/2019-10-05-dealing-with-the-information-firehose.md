@@ -13,6 +13,8 @@ I tend to use my computers with the basic installation as opposed to
 special tools or workflows. That's a topic for a different post—this one
 is about
 
+<!--more-->
+
 ## Aggregate, Aggregate, Aggregate
 
 Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that [NetNewsWire 5](https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/) came out a couple of months ago! This is about

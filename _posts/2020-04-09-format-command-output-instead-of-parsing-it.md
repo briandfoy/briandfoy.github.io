@@ -10,6 +10,8 @@ original_url:
 
 Perl is a great tool to parse command output, especially if you want to use that for something else. But, this sort of thinking is an artifact of a time when we couldn't affect the output. What a command spit out was what it spit out and we needed extra-command tools to deal with it.
 
+<!--more-->
+
 However, many modern tools have facilities to do this for you. You don't need to parse the output because the command can format it for you. Using builtin features makes for simpler scripts.
 
 I've answered some StackOverflow questions about this; I think people aren't reading the docs for what their commands can do:

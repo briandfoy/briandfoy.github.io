@@ -14,6 +14,8 @@ Networks](https://arpnetworks.com) to ArchLinux on
 */usr/ports* over the past decade. And, while I'm changing, why not do
 something drastically different?
 
+<!--more-->
+
 More on that in a moment though. First, I used to have a process to
 backup my WordPress blogs automatically. I even had those backups in
 git and hosted in private repositories on three different services.

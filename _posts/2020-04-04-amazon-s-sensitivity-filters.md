@@ -10,6 +10,8 @@ original_url:
 
 Some of my Amazon Reviews are hidden by sensitivity features. That means you won't see them on my profile, but they will be on the product page.
 
+<!--more-->
+
 ![](/images/amazon-filters/batteries.png)
 
 ![](/images/amazon-filters/bread-book.png)

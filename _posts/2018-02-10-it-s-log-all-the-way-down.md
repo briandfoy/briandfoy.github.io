@@ -10,6 +10,8 @@ original_url:
 
 I read [A Logarithm Too Clever by Half](https://people.eecs.berkeley.edu/~wkahan/LOG10HAF.TXT) about MATLAB 6's messed up `LOG10` function.
 
+<!--more-->
+
 So I was curious how far Perl would be. These things measure themselves in ULP (units in last place). There's some precision that these functions have based on the number of bits they are able to use, and the path that final number can lose accuracy in each step.
 
 This is one of those things that Computer Scientists can geek out about, but for which most of us don't really care. Even with the inaccuracy, most of us probably don't care. Even if you are reading this, you probably don't care.

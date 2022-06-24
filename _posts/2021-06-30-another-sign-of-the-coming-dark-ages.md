@@ -10,6 +10,8 @@ original_url:
 
 My iPhone is killing me. iOS recently stopped supporting 32-bit apps, and iOS decided to update itself too. Now there are a bunch of apps I can't use. Not just some apps, but some of that I use frequently.
 
+<!--more-->
+
 The first app is an NYC subway map app—most features of which stopped working long ago. I didn't care that I couldn't see alerts or schedules because I wanted the map. No big worries because there are plenty of other apps that can do the same thing.
 
 But, Mark Bittman's app for his book [How to Cook Everything](https://amzn.to/3AAj3aD)  stopped working. Instead of using his app for his [Flaky Pie Crust recipe](http://www.howtocookeverything.com/recipes/flaky-piecrust), I had to find it on the internet. I didn't even have to find a pirate copy because he has it [on his website](http://www.howtocookeverything.com/recipes/flaky-piecrust).

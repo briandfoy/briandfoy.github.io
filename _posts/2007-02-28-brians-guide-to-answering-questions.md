@@ -13,6 +13,8 @@ brian's Guide to Answering Questions](https://www.perlmonks.org/?node_id=602571)
 
 Answering questions well is a skill, although not necessarily one in explaining things cogently. Picking the right questions to answer and avoiding the time wasters helps quite a bit too.
 
+<!--more-->
+
 ## What do you get out of it?
 
 Someone has asked a question, whether directly or in a public forum, so you have to figure out if you should answer it. As a Perl trainer, I have to answer the questions from students. It's my job. As a PerlMonks reader, I don't have to answer questions.

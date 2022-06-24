@@ -10,6 +10,8 @@ original_url:
 
 I bought a new meat thermometer, the Govee single probe thing with four buttons, all of which are single function. Well, the orange button does two things I think, but I don't need that other function.
 
+<!--more-->
+
 <a target="_blank"  href="https://www.amazon.com/gp/product/B08N4S1Y7Y/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08N4S1Y7Y&linkCode=as2&tag=hashbang09-20&linkId=1a37ff073b448753efa26267306c2d75"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08N4S1Y7Y&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hashbang09-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hashbang09-20&l=am2&o=1&a=B08N4S1Y7Y" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 Overall I'm happy with its uncluttered display, simple buttons, and limited functionality. I'm less happy that it reports ice water at equilibrium to to 34℉ and boiling water to be 208℉. It's stated uncertainty is 1.8℉/1°C.

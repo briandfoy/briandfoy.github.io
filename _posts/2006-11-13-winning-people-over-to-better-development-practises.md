@@ -13,6 +13,8 @@ original_url: https://www.perlmonks.org/?node_id=536338
 
 Win people over by showing results. If your way improves their lives, they'll be interested. You have to show them what's in it for them, and not everyone is in it for the purity of experience or artistic beauty.
 
+<!--more-->
+
 Here are some things that programmers might care about and what will appeal to them. Tell them how agile programming benefits them personally and you'll probably have an easier time convincing them. Peer pressure through public praise (or shame) can work too.
 
 * Spending less time debugging

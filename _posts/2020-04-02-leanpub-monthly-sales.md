@@ -10,6 +10,8 @@ original_url:
 
 At the beginning of each month I look at my sales and royalties for  my various books. My latest two, *[Mojo Web Clients](https://www.leanpub.com/mojo_web_clients)* and *[Learning Perl Exercises](https://www.leanpub.com/learning_perl_exercises)*, are on LeanPub. They make it easy to sell books but they don't make it easy to find what I need.
 
+<!--more-->
+
 I can get a spreadsheet of sales if I dig around the site enough. My link is [https://leanpub.com/u/briandfoy/generate_all_royalties_csv](https://leanpub.com/u/briandfoy/generate_all_royalties_csv); you'll have to add your own account name. Now I can use this cheatsheet to go right to that link. Sadly, I can ask for the CSV file there but they send me the actual link in email. That's annoying, but it's once a month.
 
 Once downloaded, I want to look at it in Numbers (because I'm a Mac weenie who doesn't pay for Excel, perhaps the most important software ever written). But, I want to group it by months, and that's been a hassle the last two times.

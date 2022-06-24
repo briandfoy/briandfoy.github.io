@@ -10,6 +10,8 @@ original_url:
 
 I've been playing with [GitHub Copilot](https://copilot.github.com), an IDE extensions that uses GitHub's vast knowledge of how people code to suggest what you probably meant to type next. I'm running it through [Visual Studio Code](https://code.visualstudio.com), but it also runs in [JetBrains](https://www.jetbrains.com) and [Neovim](https://neovim.io).
 
+<!--more-->
+
 I'm not a fan of IDEs, but I don't mind if other people use one. As long as your tool choice doesn't affect mine, more power to you. Indeed, try several things over your career. I even tried emacs for a year, and now I never have to use it again. But, a year is a fair evaluation period. It's enough that I have to commit to learning it and get over the hump of initial transition pains.
 
 But that's not why I'm not a fan. Again, I'm not really against them, but I don't think they help you as much as you think they do.

@@ -10,6 +10,8 @@ original_url:
 
 I can never remember the formula for the conversion between degrees Celcius and degrees Fahrenheit, but that's not a problem because I know something better. You likely know it too. Each time you need the formula, simply derive it again based on things you know.
 
+<!--more-->
+
 This process is handy when your chemistry practical exam is the construction and gradation of a thermometer.
 
 Temperature scales are linear and if you know two points on the line, you can get the other ones.

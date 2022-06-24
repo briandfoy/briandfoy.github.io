@@ -13,6 +13,8 @@ I had a need for something like that again and started to update my
 *ypath*. But, I don't really want to build or support another tool.
 It's been a long time, so I looked around:
 
+<!--more-->
+
 ## yq (Go)
 
 [yq](https://github.com/mikefarah/yq), a Go thing, is really a program

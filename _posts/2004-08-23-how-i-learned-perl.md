@@ -14,7 +14,7 @@ I was going through some papers in my office, mostly because I've been having a 
 
 So I started to piece together what has happened since then. My memory isn't complete, and I think I have the order mixed up a bit, but here's how I learned Perl. Most of this doesn't show up in any Perl history I've ever seen, so now it does.
 
----
+<!--more-->
 
 Sometime during the summer of 1995 I decided to learn Perl, which puts me a year into graduate school where I was studying nuclear physics. I bought [Programming perl](https://www.programmingperl.org) on June 24, 1995 in Auburn, Mass., and [Learning Perl](https://www.learning-perl.com) on June 28 on Lon Gisland (so I must have been at Brookhaven that week).
 

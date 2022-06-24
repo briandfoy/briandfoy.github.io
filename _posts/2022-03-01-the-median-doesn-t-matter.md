@@ -10,6 +10,8 @@ original_url:
 
 The *New York Post* ran [Why you don’t want to rent a one-bedroom apartment in New York City](https://nypost.com/2022/02/28/why-you-dont-want-to-rent-a-one-bedroom-in-new-york-city/) by Ariel Zilber. I live in a one-bedroom apartment and I don't really want to. I'd like to like in [Bette Midler's old place](https://www.6sqft.com/bette-midler-sells-palatial-upper-east-side-penthouse-last-listed-for-50m/). I don't think that's what the article is about though.
 
+<!--more-->
+
 As an aside, Bette Midler was instrumental in [planting trees along the Harlem River](https://www.architecturaldigest.com/story/million-trees-nyc). I only knew this because I stopped to read some small plaques on the bike path around 210th St (as I recall). Her [New York Restoration Project](https://www.nyrp.org/en/) went on to add a million more trees to New York City.
 
 But back to apartments. Ariel writes:

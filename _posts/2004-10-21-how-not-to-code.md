@@ -17,6 +17,8 @@ creation of new program statements that is the most fun though, and
 since it's so fun, we gravitate towards that part of the process and
 do it as much as we can. Damn the torpedoes!
 
+<!--more-->
+
 This isn't a complete list of code avoidance techniques, and I'm sure
 plenty of monks will have their own to share.
 

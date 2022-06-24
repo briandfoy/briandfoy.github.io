@@ -10,6 +10,8 @@ original_url: https://stackoverflow.com/a/1348945/2766176
 
 I'm a frequent abuser of `&`, but mostly because I'm doing weird interface stuff. If you don't need one of these situations, don't use the `&`. Most of these are just to access a subroutine definition, not call a subroutine. It's all in [perlsub](http://perldoc.perl.org/perlsub.html).
 
+<!--more-->
+
 1. Taking a reference to a named subroutine. This is probably the only common situation for most Perlers:
 
 	my $sub = \&foo;

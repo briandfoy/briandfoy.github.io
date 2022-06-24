@@ -11,6 +11,8 @@ My [NYC Mesh](https://www.nycmesh.net) basic installation used the TP-Link
 [TL-WR841N](https://amzn.to/2OrRhXA), a $20 router. And why not? It's
 enough to get started without spending too much money.
 
+<!--more-->
+
 <a target="_blank"  href="https://www.amazon.com/gp/product/B01CS73ELY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01CS73ELY&linkCode=as2&tag=hashbang09-20&linkId=f8567c2a5d70721f8742411009700ced"><img class="center" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B01CS73ELY&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hashbang09-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hashbang09-20&l=am2&o=1&a=B01CS73ELY" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 My neighbor said the Netgear Orbi [RBK50](https://amzn.to/2Uni7DO)

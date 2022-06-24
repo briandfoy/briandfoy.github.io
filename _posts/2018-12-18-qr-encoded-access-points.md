@@ -10,6 +10,8 @@ I give my visitors the password for my guest WiFi, usually by writing
 it down because dictating it is too hard. Was it the 53rd or 54th character
 that they messed up? Or which character did I write down incorrectly?
 
+<!--more-->
+
 Now I have that encoded in QR:
 
 ![WiFi QR code](/images/wifi-qr-code.png)

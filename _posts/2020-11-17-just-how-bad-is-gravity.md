@@ -10,6 +10,8 @@ original_url:
 
 [The Amazing Randi recently passed](https://www.rollingstone.com/culture/culture-news/james-randi-obituary-1079316/), so I finally starting reading his book [Flim Flam](https://amzn.to/3kDjWWU). In one of the early chapters, he goes after astrology, but makes a unsupported, weird, glib claim. The entire book is him castigating others for doing just that.
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r70HsEvNRck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

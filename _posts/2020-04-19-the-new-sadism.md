@@ -10,6 +10,8 @@ original_url:
 
 In [/r/perl](https://www.reddit.com/r/perl), I responded to [The Pervert's Guide to Computer Programming Language](https://www.reddit.com/r/perl/comments/g44zin/perl_as_a_sadistic_language_in_lacanian/). There were many things I excised from my response before I posted it, so I capture those here. I might want these ideas later.
 
+<!--more-->
+
 In brief, Watson's talk connects the rantings of Slavoj Žižek and his Critical Theory reinterpretation to the classification of programming languages. Ignoring the fact that programming languages have as much animus or consciousness as a garden rake, the classification is facile and broad. That's not odd for sophomoric Žižek fanfic—I suspect Žižek's actually Tony Clifton.
 
 <div class="youtube">

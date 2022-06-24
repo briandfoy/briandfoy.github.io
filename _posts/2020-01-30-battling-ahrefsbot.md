@@ -12,6 +12,8 @@ of traffic. I had just added some new content, so maybe it got onto
 Hacker News. Nope. The cache was missing about 40% of the time on a
 fairly long expiry time, so nefarious things were afoot.
 
+<!--more-->
+
 [AhrefsBot](+http://ahrefs.com/robot/) was going to town on my server.
 Or, at least it was something claiming to be this bot. Eventually I'll
 put a stop to this, but first, what's up?

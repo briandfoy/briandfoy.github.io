@@ -12,6 +12,8 @@ original_url:
 
 The Façade design pattern provides an easy-to-use interface to an otherwise complicated collection of interfaces or subsystems. It makes things easier by hiding the details of its implementation.
 
+<!--more-->
+
 ## Introduction
 
 The Façade design pattern connects the code we write for applications, which do specific tasks such as creating a report, and the low level implementation that handles the details such as reading file, interacting with the network, and creating output. The façade is an interface that an application can use to get things done without worrying about the details. The façade decouples these layers so that they don't depend on each other, which makes each easier to develop, easier to use, and promotes code re-use.

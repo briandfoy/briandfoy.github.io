@@ -12,6 +12,8 @@ original_url: https://www.perlmonks.org/?node_id=410871
 
 Recently, I've been thinking about the Null design pattern. People get wrapped up in UML diagrams, [Gang of Four](https://amzn.to/2OuJ0Sr) descriptions, and all sorts of other things. Patterns are simple, and this is one of the simpler one. It's not complicated enough to get it's own module (there is a [Class::Null](https://www.metacpan.org/pod/Class::Null)), but if you are using a module you are missing the point. These aren't components that you plug into problems; they are ways of thinking and designing programs.
 
+<!--more-->
+
 Everyone has probably experienced the pain and frustration of something in their script trying to call a method on something that isn't a reference:
 
 {% highlight perl %}

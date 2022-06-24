@@ -10,6 +10,8 @@ original_url:
 
 I was watching [Star Trek: The Motion Picture](https://www.imdb.com/title/tt0079945/), which is to say that that Amazon Prime Video recommended it to me, I selected it, and then went about my business. Captain Kirk and Commander Spock were the background podcast for my work evening, and like most podcasts I'd pay attention in the moments where I needed a distraction.
 
+<!--more-->
+
 In one of these moments, a red shirt, right before he was assimilated into V'ger's memory, said the alien cloud had [a diameter of 82 AU](https://memory-alpha.fandom.com/wiki/V%27ger), or astronomical units. Out of habit I converted that to 41 AU because only savages and lumberjacks care about diameter while the rest of us deal in radii. Henceforth, it's just the Could.
 
 ![](/images/vger/vger-enterprise.jpg)

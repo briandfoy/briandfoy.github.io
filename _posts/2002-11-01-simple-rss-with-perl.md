@@ -10,6 +10,8 @@ original_url:
 
 *I originally published this as "Simple RSS with Perl" in The Perl Review 0.6*
 
+<!--more-->
+
 ## Introduction
 
 The Rich Site Summary (RSS) is a set of stories, usually from the same

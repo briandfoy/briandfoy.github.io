@@ -10,6 +10,8 @@ original_url:
 
 Yesterday I installed Visual Studio Code so I could [play with GitHub Copilot](/ide-driven-development/). For the rest of day my laptop was sluggish, but I didn't connect the two.
 
+<!--more-->
+
 Some process calling itself "Code Helper (Renderer)" was eating about 200% of the CPU and 44Gb of memory. The sluggishness was likely from paging so often because I only wish I had that much RAM on this thing.
 
 What's "Code Helper (Renderer)"? Google quickly led to a [Visual Studio bug report](https://github.com/microsoft/vscode/issues/101555) that Microsoft closed in 2020 despite lots of reports still having the problem. There's a [second issue](https://github.com/microsoft/vscode-python/issues/15586) they marked as resolved despite people saying it wasn't, based on a [third issue](https://github.com/microsoft/vscode-python/issues/12037). There are so many reports:

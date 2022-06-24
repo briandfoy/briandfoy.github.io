@@ -10,6 +10,8 @@ original_url:
 
 I've lived through several management or computer programming process fads; Six Sigma, XP, Lean, Agile, Kanban, TDD, and many others. They come and go, but the outcome is the same. Applying a new process either fails for the same reason the old process failed, or it allows people the reset to restart development.
 
+<!--more-->
+
 ## The new failed process
 
 I have a ScrumMaster certification, which I find worse than helpful. There's no better way to ostracize yourself in a group than to know how things are supposed to work. Most people don't even bother to read the [Agile Manifesto](https://agilemanifesto.org) before they buy into it, and then they don't review it to check that they haven't fallen into old habits.

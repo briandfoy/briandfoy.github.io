@@ -9,6 +9,8 @@ stopwords:
 
 Can I make the edge case look just like the rest of the cases?
 
+<!--more-->
+
 Consider this problem where I want to fetch a URL, extract links, then fetch those links.
 
 The first pass on this problem maps the cognitive model into code. I fetch a link and do things, and then I need to start looping. In this way, I prime the pump by providing the initial set of links for the `while` loop to work on. Here's what that might look like with [Mojolicious](http://mojolicious.org):

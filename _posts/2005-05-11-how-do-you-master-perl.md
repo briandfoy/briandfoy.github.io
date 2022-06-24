@@ -10,6 +10,8 @@ original_url: https://www.perlmonks.org/?node_id=446556
 
 *I originally published this as [How do you master Perl?](https://www.perlmonks.org/?node_id=446556) on Perlmonks.*
 
+<!--more-->
+
 I've thinking about what's beyond the basics of Perl, and here's where everyone gets to expand my thinking and provide a reality check. What comes next? What's the "upgrade path"? Do we keep teaching them more facts about Perl until they know all of the documentation? Teach them to use the modules they need to use to get their particular job done? Or is it something else?
 
 I just finished working on the fourth edition of [Learning Perl](https://www.learning-perl.com/), which should be out towards the end of summer. (I don't have details on anything yet, but I'm working with the O'Reilly marketing people to get all that stuff.  And yes, Randal and Tom worked on it: I was just renamed "Dances with Wolves and Editors", Teaching beginners is easy because we know where to start and everyone is pretty much in the same place. A lot of people are content to stay at that level, and that might be okay for them. What catapults people into the higher levels, though?

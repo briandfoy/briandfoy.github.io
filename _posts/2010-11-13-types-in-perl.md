@@ -8,6 +8,8 @@ stopwords: PPI accelerometer allowfullscreen autoplay frameborder
 
 I'm about to start writing about a bunch of stuff that will definitely show my lack of a computer science background. Unlike many of my posts, this is your chance to correct me rather than me explain things to you.
 
+<!--more-->
+
 I've been reading [Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages](https://amzn.to/2tDwqJJ), which is an enjoyable book except for the parts where he starts to talk about types and, ahem, types of programming languages. It's mostly distracting, not very useful, probably misguided, it not outright wrong.
 
 So, Ovid posts [a clever summary of type arguments](http://blogs.perl.org/users/ovid/2010/07/static-and-dynamic-typing.html). This reminded me of smart, educated, and quite entertaining ["Strong Typing" talk](http://perl.plover.com/yak/typing/notes.html) that Mark Jason Dominus gave to several Perl mongers groups. It also reminds me that no one seems to think the same things about the same terms. Also see [mjd's message in comp.lang.perl.moderated](http://groups.google.com/group/comp.lang.perl.moderated/msg/89b5f256ea7bfadb?pli=1).

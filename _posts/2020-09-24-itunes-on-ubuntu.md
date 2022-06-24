@@ -10,6 +10,8 @@ original_url:
 
 So I was helping a friend with a Windows computer whose disk was so full that it couldn't do anything. I mean, it only had 2GB free! The horrors!
 
+<!--more-->
+
 I couldn't run the Control Panel thingy so I could look up the serial number to make a restore CD from Lenovo. Why Windows makes this so hard is another rant. I understand why they do it, but I question how big a deal it is.
 
 I cleaned up Windows, which I thought removed a 4GB Windows Update file, but apparently not. No advice worked, so I punted to Linux. I flashed a drive (now it has to be larger than 2GB, so I had to hunt for one of those) on my Mac using the *.iso* I downloaded from Ubuntu and [balenaEtcher](https://www.balena.io/etcher/). No big whoop, although it took about four hours.

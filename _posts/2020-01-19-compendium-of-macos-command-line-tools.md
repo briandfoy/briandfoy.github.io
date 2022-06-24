@@ -12,6 +12,8 @@ There are a variety of macOS commands I can never remember. Sometimes
 I forget that they exist and other times I forget how I constructed
 their command line. The docs aren't always helpful.
 
+<!--more-->
+
 ## Property Lists
 
 Turn a plist into JSON. I often do this with *.webloc* files. The

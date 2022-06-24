@@ -10,6 +10,8 @@ original_url:
 
 There's a practice known as the 3-2-1 Backup Rule: three copies using two copies on different media with at least one off-site. Plan on completely losing one site or one set of hardware.
 
+<!--more-->
+
 I use GitHub everyday, but I've arranged my `git` usage to not rely on them. It's not that I distrust GitHub, but they may go down for reasons they can't control, automatically misflag my account, or some other scenario I can't envision. People were very concerned about this when Microsoft bought GitHub.
 
 My strategy keeps up-to-date copies of all of my repos both locally and on other services. I have a two local servers that keep a copy, and I push to BitBucket and GitLab as well.

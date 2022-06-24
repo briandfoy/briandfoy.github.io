@@ -10,6 +10,8 @@ Up until today, I've only used my Ubuntu MacBook Air. My home network
 is mostly Apple products, so service discovery is built in. I want to
 enable and advertise the SSH service on the Air too.
 
+<!--more-->
+
 First, I need to enable ssh. No big whoop:
 
 {% highlight text %}

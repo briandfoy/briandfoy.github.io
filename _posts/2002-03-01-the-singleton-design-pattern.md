@@ -12,6 +12,8 @@ original_url:
 
 The Singleton design pattern allows many parts of a program to share a single resource without having to work out the details of the sharing themselves. This article discusses this design pattern, shows several possible implementations, and highlights some Perl modules which use singletons.
 
+<!--more-->
+
 ## About design patterns
 
 Design patterns help structure code, although they do not say anything about how to implement it. They solve problems before we start to write code because they affect the design of programs by recognizing the possible abstractions in the problem. More than one pattern may apply, and within any pattern, many ways to implement it.

@@ -10,6 +10,8 @@ original_url:
 
 My various Perl blogs, such as [learningraku.com](https://www.learningraku.com), run through [Cloudflare](https://www.cloudflare.com), a global service that sits in front of servers to filter and respond to traffic. Should I ever be slashdotted (unlikely) or the target of some random attack (much more likely but still unlikely), I can turn off traffic at Cloudflare before it ever reaches my server.
 
+<!--more-->
+
 But sometimes I don't want that extra layer, like when I'm debugging something. Cloudflare lets me pause their service so I can deal with the servers directly. For a long time, I'd pause the sites by hand through the web UI. You can probably already see where this is going.
 
 The first time I need to do something, anything, I do it manually. The second time I think "I should automate this". The third time, "I really should automate this". At some point, maybe the fifth time, I say "I'm automating this right now". Typically it's very easy to automate, but I still have half my brain in the pre-web-API world. Now everything has an API, and some are even easy to use. Embarrassingly, I didn't think to automate this because the task deserved it. Instead, I wanted an example for my upcoming ebook on [Mojolicious web user agents](https://leanpub.com/mojo_web_clients).

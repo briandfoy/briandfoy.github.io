@@ -10,6 +10,8 @@ original_url:
 
 I read Stepan Parunashvili [Inventing Monads](https://stopa.io/post/247), in which he starts with some small, simple functions and quickly runs into problems in their use. He mutates them until he ends up with monads, a hot feature I mostly associate with Haskell. These compose separate actions to get something that's safe and predictable.
 
+<!--more-->
+
 I wanted to redo this is Perl so I could make some other points. Stepan contrives a situation to get to a particular endpoint, which is what us tech writers do. He wants to show something about Monads and that's why he follows the progression he does. He's not trying to suggest a particular way of programming.
 
 ## Chaining operations

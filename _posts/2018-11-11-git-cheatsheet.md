@@ -10,6 +10,8 @@ original_url:
 
 Various things I need to remember for Git, but that I don't remember. I know I can read the help to get this, but I still have to wade through a bunch of verbiage.
 
+<!--more-->
+
 Undo the last commit (`--soft` keeps changes):
 
 	git reset --soft HEAD~1

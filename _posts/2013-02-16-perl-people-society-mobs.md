@@ -8,6 +8,8 @@ stopwords: flyer
 
 I've had in my mind a couple of ideas about Perl and its relationship to people, society, and mobs. Some parts of the Perl community like to talk about Perl marketing, and even spread the meme that "Perl sucks at marketing". I don't think that's true at all.
 
+<!--more-->
+
 Marketing is one of those odd words that nobody knows how to define but at the same time most people think they know what it is. This is not just for people outside of marketing job: I've asked many people in many different marketing departments "What is marketing?"
 
 Most of the answers are unsatisfying, and most of them are different. This is true for almost any business department, though, because there are no formal rules that govern the area, say, like for accounting or legal departments. As an aside, this difference is what actually separates professions from all other jobs.

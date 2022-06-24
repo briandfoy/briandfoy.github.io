@@ -10,6 +10,8 @@ original_url:
 
 Major League Baseball is trying to make baseball less boring and I have some ideas of my own.
 
+<!--more-->
+
 At the moment there is a league-imposed lockout because MLB and the Players Association disagree on four points, among others:
 
 * Notice period for league-imposed new features, such as larger bases and anti-shift rules

@@ -10,6 +10,8 @@ original_url:
 
 During code reviews, I often run into weird code organization, and I'm about to show you one example from code that I wrote this week.
 
+<!--more-->
+
 These things often have reason, even if they aren't good reasons. There was something that the programmer was thinking about or had done previously that isn't apparent anymore. Maybe there was a constraint or feature in place, but neither of those matter now. Perhaps the programmer thought there was some constraint, or that there would be some constraint, but it didn't turn out to be true.
 
 I have my own example from this week. Looking at it fresh, the decision doesn't make sense. Source control doesn't even help because I hadn't committed the original since I wasn't done with the feature yet.

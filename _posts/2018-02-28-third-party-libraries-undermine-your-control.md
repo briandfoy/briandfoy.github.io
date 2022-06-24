@@ -10,6 +10,8 @@ original_url:
 
 Some people say that Perl's greatest strength is the Comprehensive Archive Network (CPAN)—the loosely organized collection of rsync mirrors of a directory structure of tens of thousands of Perl module distributions. However, it's also one of it's greatest pain points. This isn't uniquely a Perl problem, but that's where I have the most experience with the issue.
 
+<!--more-->
+
 One of the most frequently asked Perl questions in StackOverflow is something like "Can't find some module in @INC". Someone wants to run some Perl script they have but they don't know about code, modules, libraries, and all that stuff. They just want to do their job.
 
 Part of that would be solved if people distributed [program as modules](https://www.drdobbs.com/scripts-as-modules/184416165) so we could use all of the module infrastructure to resolve dependencies. There's still the primer problem of people knowing what to do with the first step.

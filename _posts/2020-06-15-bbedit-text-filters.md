@@ -10,6 +10,8 @@ original_url:
 
 BBEdit allows you to make your own text processing programs. It gives your program the contents of a selection then replaces that selection with the output of your program. I also wrote about these in [BBEdit Text Filters in Perl 6](https://www.learningraku.com/2017/01/17/bbedit-text-filters-in-perl-6/).
 
+<!--more-->
+
 These show up in the _Text > Apply Text Filters_ menu item, but I tend to use them from the Text Filters palette (_Windows > Palettes > Text Filters_).
 
 ![](/images/bbedit_text_filters/palette.png)

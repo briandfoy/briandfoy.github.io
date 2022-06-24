@@ -9,6 +9,8 @@ last_modified:
 
 Often in classes I'll tell the story of my excessive yet justify use of computing resources while in graduate school in the late 90s. Sometimes I tell it to point out that computers are often idle, and other times to show that programs don't need to be that fast if you don't need the results right away. Mostly, it's about not running the program at all if you can get the answer and remember it.
 
+<!--more-->
+
 I barely remember the specifics, and even then, I've probably enhanced the story in my memory through repeated telling. How I tell it is better than the truth anyway. There was a simulation where the input was a beam of some sort of atom or ion impinging on a foil at some energy. The output was what and how much we expected to get out of the collision. This is the basic idea of this sort of nuclear and particle physics—crash two cars into each other then look at the pieces.
 
 In preparation for my time on the equipment, I'd have to run a series of simulations for the beam type, beam energy, and target to find the optimum beam energy. I'd typically want about 8 or 10 different beam energies to find the maximum yield in the curve. Each simulation would take three to four hours, excluding time to notice it had completed and for me to notice. The program would take over the machine such that anything else had to wait.

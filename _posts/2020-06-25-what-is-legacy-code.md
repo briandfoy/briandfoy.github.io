@@ -10,6 +10,8 @@ original_url:
 
 What is "legacy" code? Or, what makes some code "legacy" and other code not? I looked for a good definition, and I didn't find one that made any sense. Many people seemed to have not considered their definition before choosing it.
 
+<!--more-->
+
 A label is only good in so far as it distinguishes one thing from another. If everything is the same, you don't need a label. It's once we start to categorize things that we recognize finer distinctions and make finer labels.
 
 Consider the English word "apple". You think you know what that is, and you and I probably would agree on something's apple-ness if a piece of fruit were placed in front of us. But, English's use of "apple" is much narrower than its beginnings. It used to mean any fruit, aside from berries. Some fruits then needed additional disambiguation—"pineapple" for instance, or "apples of paradise" (bananas), or "golden apples" (oranges).

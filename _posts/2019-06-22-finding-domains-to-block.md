@@ -12,6 +12,8 @@ I find those domains I add them to */etc/hosts* with an non-routable
 address of 0.0.0.0. Probably not kosher, but it's better than it
 trying localhost and potentially hitting a webserver I have running.
 
+<!--more-->
+
 I installed [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/) and run it
 without starting a daemon.
 

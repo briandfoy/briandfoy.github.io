@@ -12,6 +12,8 @@ original_url: https://www.foo.be/docs/tpj/issues/vol3_3/tpj0303-0009.html
 
 Perl's motto is "There Is More Than One Way To Do It". Some ways are easier to read, some are faster, and some are just plain incomprehensible. Eventually, I want to know how long it takes for my Perl code to execute, and I can use the Benchmark module to find out. The [Benchmark](https://metacpan.org/pod/Benchmark) module comes with the standard Perl distribution and is written completely in Perl, so you should be able to use it right away.
 
+<!--more-->
+
 ## Trouble with time()
 
 The module formerly known as "builtin" is now [List::Util](https://metacpan.org/pod/List::Util), and the run times on the original test machine seem quite slow compared to my Powerbook. I updated the output and some of the run times for modern technology, except where noted.

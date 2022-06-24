@@ -10,6 +10,8 @@ last_modified:
 I'm onto a different type of internet access and I hope it works out
 because I loathe Spectrum.
 
+<!--more-->
+
 Spectrum rose their rates again, but they also think they are the only
 game in town. It's not something that's exactly wrong since Verizon
 has slow-rolled fiber rollout (across the street has it and but I

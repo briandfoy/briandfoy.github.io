@@ -10,6 +10,8 @@ original_url: https://www.perlmonks.org/?node_id=393128
 
 *I originally posted this in Perlmonks as [Wasting Time Thinking About Wasted Time](https://www.perlmonks.org/?node_id=393128). The "Alpaca" course was based on the book Learning Perl Objects, References, and Modules, which is now [Intermediate Perl](https://www.intermediateperl.com)*
 
+<!--more-->
+
 ## The Problem
 
 I'm teaching our (Stonehenge's) Alpaca course (Packages, References, Objects, and Modules) this week. Day 2 is sponsored by the letter R, so after we talk about references, we throw in some stuff about the Schwartzian Transform, which uses a reference to do its magic.

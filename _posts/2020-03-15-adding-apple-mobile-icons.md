@@ -10,6 +10,8 @@ original_url:
 
 iOS devices request special icon files. Besides offering *favicon.ico*, I now need to add other files. But, which ones? I'll look through the web logs to see what the devices are asking for:
 
+<!--more-->
+
 {% highlight text %}
 $ cd /var/log/httpd
 $ grep touch *.log | perl -nE 'm/GET (\/apple-\S+)/&&say $1' | sort -u

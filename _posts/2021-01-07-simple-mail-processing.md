@@ -10,6 +10,8 @@ original_url:
 
 Why can't things be simple anymore? Why can't I easily send a Gmail message to some sort of action and save the result? There is a way to do this, but it's a deep pit of despair that delves into a long questionnaire by Google about how I want to use their API, how I'm going to protect user data, and many other things. Even if I made it through all of that—and I didn't—the API docs are just crap.
 
+<!--more-->
+
 I want to process my Leanpub royalty data. I can make a request for that data at a particular endpoint, after which LeanPub will email me a link to a file on S3. I understand there's a bit of capacity planning here because LeanPub may not be able to make the file right away, but so far I always get the email right away. And that email has to go to my account email, which is my Gmail address.
 
 ![](/images/leanpub/wait_for_mail.png)

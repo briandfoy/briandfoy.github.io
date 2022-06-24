@@ -11,6 +11,8 @@ original_url:
 A list of documented undefined behaviors in Perl. There's one that
 matters to you, and others that are rare cases.
 
+<!--more-->
+
 The `each` function iterates through a hash (or an array). If you mess
 with the underlying hash, including adding or deleting a hash key,
 Perl may rearrange the data structure. When that rearrangement

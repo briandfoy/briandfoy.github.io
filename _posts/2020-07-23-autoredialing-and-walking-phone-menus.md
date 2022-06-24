@@ -10,6 +10,8 @@ original_url:
 
 There's a particular government service I need to interact with and they have rebuffed my messaging through their official website. I'm supposed to call them, but everyone else is calling them too. Instead of a callback service or something similar, this government office makes you walk through a two minute phone tree where several messages (all completely irrelevant to me) cannot be bypassed. After two and a half minutes, it tells you that no agents are available and to call back later.
 
+<!--more-->
+
 Many people say they spend their days calling this number, over and over. Some people say they've called it 300 times a day. Ridiculous. Some people use various redialer programs on Android, which I don't have. But what could I do with my MacBook?
 
 ## Automate the phone menu

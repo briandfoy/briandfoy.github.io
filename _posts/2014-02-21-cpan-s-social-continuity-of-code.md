@@ -10,6 +10,8 @@ original_url: http://radar.oreilly.com/2014/02/cpans-social-continuity-of-code.h
 
 Open source software has been about a large enough collection of people scratching their own itches, but as more and more people, especially those less able to scratch in the same way as the people who contribute. It's how we handle those situations that show the strength of crowd-sourcing and open source.
 
+<!--more-->
+
 I contribute heavily in the Perl community, and I'm consistently impressed by the pains we take with code and assets when personally have no interest in. There's a group of Perl people who shepherd (camelherd?) code and projects that have lost their maintainers. I'm one of those people.
 
 First, let me explain the very simple system CPAN uses, which has been working since around 1994. Basically, CPAN is a big directory structure that other mirrors rsync (see Jarkko Hietaniemi's [The Zen of Comprehensive Archive Networks](http://www.cpan.org/misc/ZCAN.html)). People contribute code through the [Perl Authors Upload Server (PAUSE)](http://pause.perl.org), which does some light verification for identity and permission for the namespaces in that code. No one really "owns" a namespace in Perl, but developers have permissions to control it, including extending that permission to other developers. This is a small bit of social control  (As an aside, Perl 6's design handles this differently [by allowing people to specify an "authority" for modules](http://perlcabal.org/syn/S11.html)).

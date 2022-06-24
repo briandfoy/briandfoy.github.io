@@ -15,6 +15,8 @@ often got a jolt of adrenaline when I thought I had left it somewhere.
 Now it was either find a use for it (with its sticking *ell* key) or
 walk it down to the Apple Store to recycle.
 
+<!--more-->
+
 Maybe I should try putting Linux on it and use it instead of a virtual
 machine as I do now on my MacBook Pro. I gave myself a time box on
 this. If I couldn't get it done the same night, the Air was going to
