@@ -5,8 +5,11 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+A list of papers I want to keep track of
 
+<!--more-->
+
+* https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf
