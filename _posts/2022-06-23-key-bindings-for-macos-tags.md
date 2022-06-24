@@ -8,8 +8,6 @@ last_modified:
 original_url:
 ---
 
-<link rel="stylesheet" href="https://unpkg.com/keyboard-css@1.2.2/dist/css/main.min.css" />
-
 <style>
 span.label {
     border-radius: 10%;
