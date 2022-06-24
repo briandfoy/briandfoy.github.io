@@ -10,6 +10,8 @@ original_url:
 
 I'm trying to make a statistics joke about how I was almost a pro quarterback.
 
+<!--more-->
+
 So, the requirements, from general to specific
 
 * Be Alive

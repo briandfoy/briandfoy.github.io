@@ -12,6 +12,8 @@ Very few people seem to think about computer programming language design
 in terms of how existing tools will interact with its interface. Consider
 these scenarios:
 
+<!--more-->
+
 1. no thought at all
 2. creating completely new tools
 3. using the designers favorite tools

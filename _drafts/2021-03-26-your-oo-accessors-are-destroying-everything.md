@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Your OO Accessors Are Destroying Everything
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:
@@ -9,6 +9,8 @@ original_url:
 ---
 
 Many people treat object orientation as data structures with behavior, and because of that, they build a data structure and then put all sorts of scaffolding around it. Often, that scaffolding just obscures the path to get to the data structure, which means you are doing a lot of needless work for negative benefit.
+
+<!--more-->
 
 Objects are not about "accessors", the name given to methods that get at internal details. Yet, the idea of "accessors" is elevated to the principal virtue of objects, eclipsing all of the other gains one could reap. OO programming becomes a procedure for listing accessors and giving them names. That's why you have trouble programming with objects.
 

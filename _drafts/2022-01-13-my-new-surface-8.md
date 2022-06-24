@@ -1,12 +1,16 @@
 ---
 layout: post
 title: My new Surface 8
-categories:
+categories: microsoft
 tags:
 stopwords:
 last_modified:
 original_url:
 ---
+
+I got a Surface. I don't like it.
+
+<!--more-->
 
 /images/tom-brady-surface.gif
 

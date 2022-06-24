@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+If someone else can take it away from you, you didn't buy it.
+
+<!--more-->
+
 # Software
 
 * Adobe

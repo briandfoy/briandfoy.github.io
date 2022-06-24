@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+Programming language design
+
+<!--more-->
+
 * [http://flint.cs.yale.edu/cs428/doc/HintsPL.pdf](http://flint.cs.yale.edu/cs428/doc/HintsPL.pdf)
 * Christopher Strachey
 * https://www.amazon.com/The-Elements-Computing-Systems-Principles/dp/0262640686/

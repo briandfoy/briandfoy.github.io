@@ -10,6 +10,8 @@ original_url:
 
 There are two types of people in the world.
 
+<!--more-->
+
 I ran across the terms "clumpers" and "splitters" while reading about
 the trade-offs in monolithic software thingys (say, a function) and
 strictly decomposed version of that.

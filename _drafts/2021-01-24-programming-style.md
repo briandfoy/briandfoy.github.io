@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programming Style
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:

@@ -10,6 +10,8 @@ original_url:
 
 I have this rule I like to apply to program architecture. Setup whatever you are doing so that it can handle three different cases. I first heard about this idea with internationalization. Start with three languages instead of two, and make the default one Pig Latin so you can always tell where you've left out a translation.
 
+<!--more-->
+
 Choosing between three cases requires more thought than choosing from two, where there's a default and alternate case. You start to realize that you can't do it with an `if-else` and have to come up with something more robust, and, honestly, something more simple.
 
 Consider a program that wants to output the same information if different formats. There's the normal output we might expect to see on the terminal and read with our eyes, but then an alternate format that we might want to pipe to other programs.

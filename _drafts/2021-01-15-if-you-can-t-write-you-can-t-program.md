@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If you can't write, you can't program
-categories:
+categories: programming
 tags: programming stackoverflow
 stopwords:
 last_modified:
@@ -9,6 +9,8 @@ original_url:
 ---
 
 I spend a decent amount on Stackoverflow, but throughout my career I've spent too much time on various BBSs, Usenet, Perlmonks, mailing lists, and other places. I've written a lot and answered thousands of questions online. I've noticed that most people have problems not because programming is hard, but they can't organize and synthesize information.
+
+<!--more-->
 
 There are two problems with this:
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stuff I Don't Care About
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:
@@ -9,6 +9,8 @@ original_url:
 ---
 
 Things I Don't Care About
+
+<!--more-->
 
 * Time to first compile
 

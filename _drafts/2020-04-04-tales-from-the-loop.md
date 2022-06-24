@@ -10,6 +10,8 @@ original_url:
 
 *Tales from the Loop* shows what happens when you try to force one type of art into another. Margaret Atwood said a poem is a poem because it can't be anything else.
 
+<!--more-->
+
 Simon Stålenhag painted scenes in the style of a used rather then sterile universe; Futuristic technology exists, driving the scene without dominating it. He's Edward Hopper's lonely New England but with sci-fi elements. The people, should you see them, pay no more attention to the abandoned or decrepit technology than the trees or rocks or rustic cabin.
 
 ![](/images/tales-from-the-loop/the-electric-state.jpeg)

@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
-* Quoting the shell
+Boring programming things
+
+<!--more-->
+
+* [Quoting the shell](https://www.perl.com/article/quoting-the-shell/)
 
 * Escaping filenames

@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+The 10 Developers You'll Meet (not in Heaven)
+
+<!--more-->
+
 ## The Employee
 
 ## The Retiree

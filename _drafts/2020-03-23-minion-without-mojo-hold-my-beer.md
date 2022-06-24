@@ -10,6 +10,8 @@ original_url:
 
 Minion is a job queue. You add jobs to the queue and various workers can ask for jobs, do those jobs, and return their results. There's a backend that holds the list of jobs, and workers (local, remote, whatever) connect to get jobs.
 
+<!--more-->
+
 I generally like to play with things in a way that I don't necessary recommend for production code. Some of that is simply goofing around, but most of it is tinkering with the innards to see what things can do. Now I want to do that with Minion but without a Mojolicious web application. I don't have a particular reason other than "Hold my beer".
 
 In the 2018 Mojolicious Advent Calendar, Doug Bell (preaction) wrote about using [Minion without a full web application](/blog/2018/12/10/minion-stands-alone/). The advantage there is obviously in the commands that [Mojolicious::Plugin::Minion](https://metacpan.org/pod/Mojolicious::Plugin::Minion) provides. It's very easy to do it that way, and it's probably what you should do. However, it doesn't tell you much about how things work because it does everything for you. It's very Mojo, which is why we love it.

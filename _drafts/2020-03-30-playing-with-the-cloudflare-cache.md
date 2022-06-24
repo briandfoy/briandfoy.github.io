@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
-The article goes here
+Cloudflare stuff
 
-https://blog.afoolishmanifesto.com/posts/busting-cloudflare-cache/
+<!--more-->
+
+* https://blog.afoolishmanifesto.com/posts/busting-cloudflare-cache/

@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+Qualified immunity
+
+<!--more-->
+
 * Civil Rights Act of 1871
 * [§ 1983 of the U.S. Code](https://www.law.cornell.edu/uscode/text/42/1983)
 

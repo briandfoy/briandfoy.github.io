@@ -1,6 +1,18 @@
+---
+layout: post
+title: Python's httpx is not so great
+categories:
+tags: javascript
+stopwords:
+last_modified:
+original_url:
+---
+
 Python has a new web user agent library, [HTTPx](https://www.python-httpx.org). It adds some features,
 but since it's still the old [requests API](https://2.python-requests.org//en/v2.7.0/),
 it's similarly hampered.
+
+<!--more-->
 
 Here's a basic program. It's not different from what you've seen before:
 
@@ -80,6 +92,3 @@ def blocking_request(
         )
         return r
 {% endhighlight %}
-
-
-https://danielkvist.net/code/printing-and-debugging-python-http-requests

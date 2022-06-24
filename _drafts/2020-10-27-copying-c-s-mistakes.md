@@ -10,6 +10,8 @@ original_url:
 
 In [One Hundred Year Mistakes](https://ericlippert.com/2020/02/27/hundred-year-mistakes/), Eric Lippert discusses C's addition of the `&&` and placing it incorrectly in the precedence table. This addition happened sometime in 1972 ([history of C](https://en.cppreference.com/w/c/language/history)). By comparison, `grep` was invented in 1974, so searching the source to find the thing to fix isn't an option.
 
+<!--more-->
+
 Here's Eric's example. What should the last line return?
 
 {% highlight c %}

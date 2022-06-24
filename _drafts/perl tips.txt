@@ -1,4 +1,17 @@
+---
+layout: post
+title: 64 programming things
+categories: programming
+tags:
+stopwords:
+last_modified:
+original_url:
+---
+
 64 programming things
+
+<!--more-->
+
 
 * write to a temp file first, then replace
 * use a pid file

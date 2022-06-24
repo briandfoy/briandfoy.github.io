@@ -10,6 +10,8 @@ original_url:
 
 Sherlock Holmes is so often wrong, but I'm not actually that concerned about it because his character is merely the bystander, not so innocent, when I started writing tonight.
 
+<!--more-->
+
 Holmes turns *thin descriptions* of the world into a mystery's conclusion so he can tell us what actually happened (or [didn't](https://en.wikipedia.org/wiki/The_Adventure_of_Silver_Blaze)). Well, Watson is narrating these things, so there's an additional layer of a second fictional character describing what the titular one is doing. As he's the roommate and biographer of his subject, his ethnography has quite a bit more context. But, even then Watson can only record Holmes's mistakes, regardless if they are intentional conceptions or lack of craft.
 
 Peter Holmes (a real-life comic, no relation) rightly satirizes a scene from the BBC's *Sherlock* that was the actually the last scene I saw from that series because it was so ludicrous. Cumberbatch's character sees a scuffed phone charger port and "deduces" the man's life. The transposition of Victorian thought to the internet age of abundance and infinite choice is as laughable as he makes it out to be:

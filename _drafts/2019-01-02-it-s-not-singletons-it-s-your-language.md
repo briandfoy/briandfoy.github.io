@@ -10,6 +10,8 @@ original_url:
 
 Every so often I run across some programmer who says that Singleton objects are bad, and I then go reading to see what people are saying about Singletons. I'm struck how often their complaints are limitations of their language and misapplication of object-orientation principles.
 
+<!--more-->
+
 The Singleton comes from Object-Oriented Design Patterns, a Smalltalk book (later ported to C++) that described how you can arrange and connect objects to solve various organizational problems. Think about this as you read people's complaints. This book was originally written for one language then lightly edited to use a completely different language with different ideas.
 
 ## Object-Orientation

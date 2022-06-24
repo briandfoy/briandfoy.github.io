@@ -9,9 +9,7 @@ original_url:
 ---
 
 * I know some a few things and I use that to solve all problems
-*
 * Someone must have done this before
-*
 * Get someone else to do it
 
 ##

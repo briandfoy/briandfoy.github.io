@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 #!/Users/brian/bin/perl
 
 use v5.10;

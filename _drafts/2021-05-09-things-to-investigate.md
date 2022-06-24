@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+Things to investigate
+
+<!--more-->
+
 Introduction to Algorithms (CLRS)
 Programming Pearls (PP)
 Designing Data-Intensive Applications (DDIA)

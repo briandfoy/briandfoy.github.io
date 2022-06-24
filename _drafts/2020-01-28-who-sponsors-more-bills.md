@@ -10,6 +10,8 @@ original_url:
 Hillary Clinton said of Bernie Sanders that "nobody wants to work
 with him".
 
+<!--more-->
+
 Okay, fine. But is that true? I don't know who "nobody" is or what
 "work" means, or even "want" means.
 

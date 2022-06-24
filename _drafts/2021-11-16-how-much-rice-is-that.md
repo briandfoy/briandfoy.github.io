@@ -9,7 +9,9 @@ original_url:
 usemathjax: true
 ---
 
-Someone on some podcast told the story of the chessboard and the grains of rice. Sometimes it's wheat. Sometimes it's some other staple, but no matter which way they tell it, they story is about  exponential growth.
+Someone on some podcast told the story of the chessboard and the grains of rice. Sometimes it's wheat. Sometimes it's some other staple, but no matter which way they tell it, the story is about  exponential growth.
+
+<!--more-->
 
 > A lowly person provides some clever amusement for the king, who rewards with with whatever he might ask for. Appearing humble, he asks for a single grain of rice on the first square of a chessboard, two on the second, and doubled for each subsequent square. Once the king figures out the ruse, he has the person killed.
 
@@ -33,7 +35,7 @@ How much rice would actually fit on this chessboard? I'd never much thought abou
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fKBhvDjuy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-I knew that $2^{63}$ is a really, really big number (and, remember it's 63 because the first square is 0 because $2^{0}$ is $1$). $2^{63}$ is about $10^{18.963}$, which is easier to think about in the physical world. It's not as big as $10^{80}$, the number of particles in the universe and it's not as big than $10^{27}$, the number of atoms in our bodies (maybe $10^{28}$ after the holidays). It might be close to the number of grains of sand on the Earth ($10^{21}$), where close is a few orders of magnitude. Those are still unfathomable numbers though.
+I knew that $2^{63}$ is a really, really big number (and, remember it's 63 because the first square is 0 because $2^{0}$ is $1$). $2^{63}$ is about $10^{18.963}$, which is easier to think about in the physical world. It's not as big as $10^{80}$, the number of particles in the universe and it's not as big than $10^{27}$, the number of atoms in our bodies (maybe $10^{28}$ after the holidays). It might be close to the number of grains of sand on the Earth ($10^{21}$), where close simply means a few orders of magnitude. Those are still unfathomable numbers though.
 
 All of which reminds me of this glib comparison:
 
@@ -85,7 +87,7 @@ This brings us to the second lesson of government statistics. Not only are they 
 
 With the total weight of rice produced in the top 10 countries plus the US, we need to figure out how many grains of rice there are. This is a bit tricky because there are several types of rice. But, [The Measure of Things](https://www.themeasureofthings.com/results.php?comp=weight&unit=gms&amt=0.021) estimates of 0.021 grams ($4.6 \cdot 10^{-5}$ pounds). That's a great resource to relate numbers to physical things. That per-grain weight works out to 22,000 grains per pound, or 2.1 billion grains per 1,000 tonnes.
 
-The annual global production is about $2 \cdot 10^{13}$ grains of rice, roughly. We can translate the grains on a square to the equivalent units of annual production. It's not until square 45 that the amount of grain on the is close to one unit. We might be able to better grasp that number by thinking about it in terms of days of production, although the rice season is very short and not year round. Recall Werner von Braun's quip that [getting nine women pregnant does not get you a baby in a month](https://quotefancy.com/quote/1105018/Wernher-von-Braun-Crash-programs-fail-because-they-are-based-on-theory-that-with-nine).
+The annual global production is about $2 \cdot 10^{13}$ grains of rice, roughly. We can translate the grains on a square to the equivalent units of annual production. It's not until square 45 that the amount of grain on the square is close to one year's production. We might be able to better grasp that number by thinking about it in terms of days of production, although the rice season is very short and not year round. Recall Werner von Braun's quip that [getting nine women pregnant does not get you a baby in a month](https://quotefancy.com/quote/1105018/Wernher-von-Braun-Crash-programs-fail-because-they-are-based-on-theory-that-with-nine):
 
 | Square  | Grains of rice | Annual production units | Days |
 |--------:|---------------:|------------------------:|-----:|
@@ -102,4 +104,6 @@ The annual global production is about $2 \cdot 10^{13}$ grains of rice, roughly.
 | 56      | 3.60E+16       | 1.81E+03                |      |
 | 64      | 9.22E+18       | 4.63E+05                |      |
 
-In the fable, the king kills the person once he figures out the ruse, but I think that I'd give him another option. You can have all the rice you ask, but you personally have to carry it away. That reminded me of a story of a day trader I knew who had some future contracts on eggs. Most day traders don't actually want the commodities; they want the arbitrage. But, he forgot about these contracts and the eggs showed up at the rail yard. He had to pay to unload and transport the eggs. That wasn't a good day for him.
+In the fable, the king kills the person once he figures out the ruse, but I think that I'd give him another option. You can have all the rice you ask, but you personally have to carry it away.
+
+That reminded me of a story of a day trader I knew who had some future contracts on eggs. Most day traders don't actually want the commodities; they want the arbitrage. But, he forgot about these contracts and the eggs showed up at the rail yard. He had to pay to unload and transport the eggs. That wasn't a good day for him.

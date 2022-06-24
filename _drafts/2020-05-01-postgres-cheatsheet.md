@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+Postgres cheatsheet
+
+<!--more-->
+
 Show user who owns a database (if `\l` is insufficient):
 
 	SELECT d.datname as "Name",

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My editor progression
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:
@@ -9,6 +9,8 @@ original_url:
 ---
 
 I started programming before I had a mouse, or even persistent storage. Typing things into a console isn't weird to me. I was also responsible for my own hardware, which is one of the best ways to learn programming, which is essentially telling hardware to do something.
+
+<!--more-->
 
 I learned both vi and emacs as an undergraduate and used them both extensively. I don't particularly like emacs, but its existence or use doesn't offend me. My former business parter, [Randal Schwartx](https://en.wikipedia.org/wiki/Randal_L._Schwartz) basically uses emacs for everything from text editing to video production. I leaned more toward vi because it was available in single user and console modes. However, one sysadmin told me I should use ed because it's always there even when vi isn't. That's an editor from back in the day before monitors. Tom Ryder has an interesting ed walkthrough in [Actually using ed](https://sanctum.geek.nz/arabesque/actually-using-ed/)
 

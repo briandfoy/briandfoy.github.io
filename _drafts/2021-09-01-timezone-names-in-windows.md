@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Timezone names in Windows
-categories:
+categories: windows timezones
 tags:
 stopwords:
 last_modified:
@@ -9,6 +9,8 @@ original_url:
 ---
 
 The Perl Power Tools tries to provide Perl versions of Unix tools so you can use those tools wherever you have Perl, such as Windows. Tom Christiansen started this project ages ago and I merely dust and mop every so often.
+
+<!--more-->
 
 Recently, [kal247](https://github.com/kal247) [filed a bug](https://github.com/briandfoy/PerlPowerTools/issues/98) that the Perl Power Tools version of `date` did the wrong thing with timezones.
 

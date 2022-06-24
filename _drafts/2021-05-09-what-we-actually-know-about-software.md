@@ -8,10 +8,11 @@ last_modified:
 original_url:
 ---
 
-The article goes here
 
 Starts by talking about microfiches criminal records in Scotland, and
 handwriting AI.
+
+<!--more-->
 
 There's nothing that we do day to day that wouldn't have been familiar 25 years ago
 

@@ -10,6 +10,8 @@ original_url:
 
 I've had a long history with LaTeX, but I'm not really a fan. Thirty years ago it was amazing. I used it in my former life as a scientist and I used it to start *The Perl Review*, a magazine I formerly published. I'm once again exploring it to composite and typeset my book [Mojolicious Web Clients](https://leanpub.com/mojo_web_clients).
 
+<!--more-->
+
 Today TeX just clunky and it's Unicode support is the best demonstration of that. It's former glory came from a world where any
 solution might have seemed state of the art. Producing output for any device—a major breakthrough at the time—diminishes in the face of HTML, CSS, and "responsive design". The world is so much different now that TeX would not have been invented if didn't already exist.
 

@@ -1,40 +1,39 @@
 ---
 layout: post
 title: Sunsetting Perl's vars pragma
-categories:
+categories: perl
 tags:
 stopwords:
 last_modified:
 original_url:
 ---
 
-After Sawyer X gave his Perl 5 Porters status talks at conferences this summer, I got a couple of questions about the <code>vars</code> pragma disappearing from Perl.
+After Sawyer X gave his Perl 5 Porters status talks at conferences this summer, I got a couple of questions about the `vars` pragma disappearing from Perl.
 
-The <code>vars</code> pragma is still there and as far as I know, it's going to stay there. However, <a href="https://github.com/Perl/perl5/commit/4d457ce0560741d33b57646b4da5e244cee8f8ef#diff-b1508d462171f45972ccee5ef2fb0e82">v5.18 changed its documentation to discourage it</a>, even though it had previously been <a href="https://github.com/Perl/perl5/commit/86a9aef26fb49fa244fdb909e2ecabafc79006a1#diff-b1508d462171f45972ccee5ef2fb0e82">marked as "obsolete"</a> way back in 2000.
+<!--more-->
 
-However, some changes in v5.28 <a href="https://rt.perl.org/Public/Bug/Display.html?id=132077
-">removed <code>use vars</code></a> in favor of <code>our</code> in core modules.
+The `vars` pragma is still there and as far as I know, it's going to stay there. However, [v5.18 changed its documentation to discourage it](https://github.com/Perl/perl5/commit/4d457ce0560741d33b57646b4da5e244cee8f8ef#diff-b1508d462171f45972ccee5ef2fb0e82), even though it had previously been [marked as "obsolete"](https://github.com/Perl/perl5/commit/86a9aef26fb49fa244fdb909e2ecabafc79006a1#diff-b1508d462171f45972ccee5ef2fb0e82) way back in 2000.
+
+However, some changes in v5.28 [removed `use vars`](https://rt.perl.org/Public/Bug/Display.html?id=132077) in favor of `our` in core modules.
 
 <h2>Declaring package variables</h2>
 
-In <a href="https://www.learning-perl.com">Learning Perl</a>, we write about the ways that you can declare a package ("global") variable so <code>strict</code> doesn't complain:
+In [Learning Perl](https://www.learning-perl.com), we write about the ways that you can declare a package ("global") variable so `strict` doesn't complain:
 
-<ul>
-<li>Use the full package specification, such as <code>$main::global</code>
-<li>Pre-declare the variable with <code>vars</code>
-<li>Declare (and perhaps initialize) the variable with <code>our</code>
-</ul>
+* Use the full package specification, such as `$main::global`
+* Pre-declare the variable with `vars`
+* Declare (and perhaps initialize) the variable with `our`
 
-Lexical variables was a major addition to Perl 5.0. Before that, we only had package variables. Everything was global as long as you knew the package it was in. This was back in the day when the package separator was still <code>'</code>.
+Lexical variables was a major addition to Perl 5.0. Before that, we only had package variables. Everything was global as long as you knew the package it was in. This was back in the day when the package separator was still `'`.
 
-<code>our</code> was added later, in v5.006, as a complement to <code>my</code>. Since we had a way to declare lexicals, Perl added a way to declare packages too.
+`our` was added later, in v5.006, as a complement to `my`. Since we had a way to declare lexicals, Perl added a way to declare packages too.
 
 
-<h2>Drawbacks of vars()</h2>
+## Drawbacks of vars()
 
-The <a href="https://perldoc.perl.org/vars.html">vars</a> (and similarly, <a href="https://perldoc.perl.org/subs.html">subs</a>) don't behave like other pragmas.
+The [vars](https://perldoc.perl.org/vars.html) (and similarly, [subs](https://perldoc.perl.org/subs.html)) don't behave like other pragmas.
 
-Most pragmas are lexically scoped. Their effect exists only in their scope and they are disable their effect with <code>no</code>:
+Most pragmas are lexically scoped. Their effect exists only in their scope and they are disable their effect with `no`:
 
 <pre class="brush:perl">
 use warnings;
@@ -51,7 +50,7 @@ print "3. $empty"; # no warning!
 print "4. $empty"; # uninitialized warning again!
 </pre>
 
-This outputs an uninitialized value four times, but warns only three times. The <code>print</code> on line 9 doesn't warn because that pragma was temporarily turned off. At the end of the scope, the pragma reverts to its previous setting:
+This outputs an uninitialized value four times, but warns only three times. The `print` on line 9 doesn't warn because that pragma was temporarily turned off. At the end of the scope, the pragma reverts to its previous setting:
 
 <pre class="brush:perl">
 1. 2. 3. 4.
@@ -60,7 +59,7 @@ Use of uninitialized value $empty in concatenation (.) or string at /Users/brian
 Use of uninitialized value $empty in concatenation (.) or string at /Users/brian/Desktop/test.pl line 12.
 </pre>
 
-The <a href="https://perldoc.perl.org/vars.html">vars</code> pragma is different. Use it anywhere in the file and it applies to any variable use that comes after it because the parser knows that you want to use that variable:
+The [vars](https://perldoc.perl.org/vars.html) pragma is different. Use it anywhere in the file and it applies to any variable use that comes after it because the parser knows that you want to use that variable:
 
 <pre class="brush:perl">
 use strict;
@@ -74,7 +73,7 @@ $fred = 'Flintstone';
 print $fred;
 </pre>
 
-You also can't turn it off. This compiles and runs, but despite the <code>no vars</code>, it still outputs <code>Flintstone</code>:
+You also can't turn it off. This compiles and runs, but despite the `no vars`, it still outputs `Flintstone`:
 
 <pre class="brush:perl">
 use strict;
