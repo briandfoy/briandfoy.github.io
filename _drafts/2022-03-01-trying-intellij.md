@@ -1,12 +1,16 @@
 ---
 layout: post
 title: Trying IntelliJ
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+Intellij was a disaster for me.
 
+<!--more-->
+
+* start up is very slow
+* Good for projects only
