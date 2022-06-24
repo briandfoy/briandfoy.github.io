@@ -35,3 +35,5 @@ original_url:
 
 * https://github.com/koalaman/shellcheck
 * https://effective-shell.com
+* https://cuddly-octo-palm-tree.com/posts/2021-10-31-better-bash-functions/
+* https://effective-shell.com/part-5-building-your-toolkit/customising-your-command-prompt/
