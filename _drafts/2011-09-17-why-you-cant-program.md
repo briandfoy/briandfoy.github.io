@@ -10,6 +10,8 @@ chromatic posts about [some ideas he has about why new
 programmers have a tough time writing programs](http://www.modernperlbooks.com/mt/2011/09/why-novice-programmers-cant-program-and-how-to-fix-it.html). He lists three
 things:
 
+<!--more-->
+
 * Abstraction and Composition
 * User input
 * Robustness

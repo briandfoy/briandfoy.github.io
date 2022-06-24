@@ -8,6 +8,11 @@ last_modified:
 original_url:
 ---
 
+Open Source can only exist in the world that doesn't depend on it.
+
+<!--more-->
+
+
 * It's corporate funded
 
 * It's a political movement

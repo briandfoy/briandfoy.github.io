@@ -8,13 +8,17 @@ last_modified:
 original_url: http://blogs.perl.org/users/brian_d_foy/2011/10/perl-traps-for-ruby-programmers.html
 ---
 
+I started writing this and never quite got there.
+
+<!--more-->
+
 =over 4
 
 =item *
 
 
 
-There's no B>irb>. See the Python section.
+There's no B<irb>. See the Python section.
 
 
 

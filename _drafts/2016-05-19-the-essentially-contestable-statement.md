@@ -8,11 +8,10 @@ last_modified:
 original_url:
 ---
 
-https://en.wikipedia.org/wiki/Essentially_contested_concept
-
 Clarke argued that to state that a concept is merely "contested" is to "attribute significance to the contest rather than to the concept". Yet, to state that a concept is "contestable" (rather than "merely contested") is to "attribute some part of any contest to the concept"; namely, "to claim that some feature or property of the concept makes it polysemantic, and that [from this] the concept contains some internal conflict of ideas"; and it's this state of affairs that provides the "essentially contestable concept" with its "inherent potential [for] generating disputes".[16]
 
-https://en.wikipedia.org/wiki/Turtles_all_the_way_down
+
+<!--more-->
 
  'essential' refers to the location of the disagreement or indeterminacy; it is contestation at the core, not just at the borderlines or penumbra of a concept"
 
@@ -26,3 +25,7 @@ It's what leads Sherlock Holmes to be wrong so often. He's consistently adding h
 </div>
 
 You might like <a href="https://amzn.to/3belDFE">Sherlock Holmes was Wrong</a>, although you should know that it was written by a Frenchman—they tend to approach problems in a way that an American like me finds tedious when it's actually just different.
+
+* https://en.wikipedia.org/wiki/Essentially_contested_concept
+
+* https://en.wikipedia.org/wiki/Turtles_all_the_way_down

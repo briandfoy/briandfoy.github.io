@@ -10,7 +10,7 @@ original_url: http://blogs.perl.org/users/brian_d_foy/2011/10/perl-traps-for-pyt
 
 Perl and Python come from common roots, and even came out at the same time (1987 and 1991), and Perl even stole Python's object system.
 
-
+<!--more-->
 
 =for TODO
 

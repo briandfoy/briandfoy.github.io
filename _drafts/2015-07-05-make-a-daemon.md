@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+How to make a daemon
+
+<!--more-->
+
 exit(0) if( fork or fork );
 
 close all the standard filehandles

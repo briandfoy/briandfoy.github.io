@@ -12,6 +12,8 @@ original_url: http://www.defectiveperlprogramming.com/2014/01/08/why-i-didnt-sub
 
 [Ovid notes his three requirements for submitting a patch](http://blogs.perl.org/users/ovid/2014/01/why-i-didnt-submit-a-patch.html):
 
+<!--more-->
+
 * The other devs should be pleasant to work with
 * The code base should be relevant to me or at least fun
 * The barrier to entry should be as low as possible

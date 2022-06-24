@@ -10,6 +10,9 @@ original_url:
 
 What is a best practice?
 
+
+<!--more-->
+
 	* You get behavior you want
 	* You exclude behavior you don't want
 	* What you want isn't what someone else wants
