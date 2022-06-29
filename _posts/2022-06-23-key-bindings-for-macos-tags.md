@@ -3,7 +3,7 @@ layout: post
 title: Key bindings for macOS tags
 categories: macos
 tags:
-stopwords:
+stopwords: Automator Hammerspoon Lua unsetting
 last_modified:
 original_url:
 ---
@@ -36,7 +36,7 @@ But, the interface for this is annoying. Select a file, right-click, select a co
 
 I had been looking for an excuse to try [Hammerspoon](https://www.hammerspoon.org), a Lua-based macOS interface controller. I can bind keys to actions and I can tag files. The thing it apparently can't do easily is access the list of files selected in a Finder window. If I've missed how to do that, let me know by pointing at some docs.
 
-You may ask about Applescript at this point. That's possible, probably, activating it is just slow enough that it's painful. Hammerspoon did its work quickly with no perceptible lag.
+You may ask about AppleScript at this point. That's possible, probably, activating it is just slow enough that it's painful. Hammerspoon did its work quickly with no perceptible lag.
 
 Then I had the idea to use Automator, which I haven't really enjoyed using in the past. I created a Quick Action to label an item. That looks deceptively simple:
 
@@ -50,7 +50,7 @@ Now here's the problem: I don't have an action to add a new tag. I have an actio
 
 
 
-I can label an item with exactly the label the service specifies, unsetting all the other labels. This is the problem I've run into Automator in general. Notice that Automater calls these "Labels"—that's old school. Mavericks turned labels into tags, making it possible to not only define your own tags but to add more than one tag to a file. It's quite annoying because these tags show up as little dots instead of highlighting the entire line.
+I can label an item with exactly the label the service specifies, unsetting all the other labels. This is the problem I've run into Automator in general. Notice that Automator calls these "Labels"—that's old school. Mavericks turned labels into tags, making it possible to not only define your own tags but to add more than one tag to a file. It's quite annoying because these tags show up as little dots instead of highlighting the entire line.
 
 
 

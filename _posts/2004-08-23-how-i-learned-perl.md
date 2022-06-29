@@ -3,7 +3,7 @@ layout: post
 title: How I learned perl
 categories: personal-history
 tags: perl perl-mongers
-stopwords:
+stopwords: Bally's Cavalletto DCL Gisland ISBNs MegaPath OSCON OSF Orwant PANIX PowerBook Slowaris Tcl Tk Turoff comdog commo msql mysql résumé sig
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=385334
 ---
@@ -41,7 +41,7 @@ I wrote my first perl module, [Chemistry::Elements](https://www.metacpan.org/pod
 
 Eventually I moved down to New Haven because I was continuing my studies at Yale (although I was not matriculated, just working in a nuclear lab down there). Whereas Clark University was DEC hardware, thus VMS, Yale was Sun hardware, so I got to learn Slowaris and emacs, both of which I finally managed to untangle myself from. I started doing a lot of Perl, along with some Tcl and Tk stuff to control hardware. In the great academic traditions, I was teaching myself a lot of different things, but I kept on with the Perl too. I used whatever got the job done, although DCL seemed pretty handy under that philosophy.
 
-I also started doing a lot more outside work. As a lowly graduate student, and the newest one at the lab, I got the evening shifts. Oh no, not the briar patch! I was the night operator (on the experiments, not the sysadmin stuff) sometimes, so I just answered Perl questions on usenet until my shift was over. That was one of the best ways to learn Perl: solve somebody else's problems. **We don't learn by success, we learn by failure. The more failure you run into, the more you learn.**
+I also started doing a lot more outside work. As a lowly graduate student, and the newest one at the lab, I got the evening shifts. Oh no, not the brier patch! I was the night operator (on the experiments, not the sysadmin stuff) sometimes, so I just answered Perl questions on usenet until my shift was over. That was one of the best ways to learn Perl: solve somebody else's problems. **We don't learn by success, we learn by failure. The more failure you run into, the more you learn.**
 
 I found the academic world of nuclear structure a bit silly and claustrophobic, so I decided to leave. This must have been 1996, I think. I got a job as a contract programmer with Smith Renaud, Inc. (SRI, but not [*that* SRI](http://www.sri.com/)) in New York City where I would do Perl all day long, mostly literally. I had a cot in my office and a membership at the Bally's around the corner where I could take a shower. I was still living in New Haven, so I would kill myself for three days, then take the train back to New Haven and take a couple days off, which meant working from home really.
 
@@ -53,7 +53,7 @@ So I worked really hard for a while, and kept plugging at being a usenet answer 
 
 Sometime before the second Perl Conference, Adam and I got the idea that we should make a bunch of Perl user groups. I remember proposing the whole thing to Jon Orwant and Randal Schwartz over drinks at The Peculiar Pub. The Perl Institute was still around, and I didn't want to step on their toes. They said it was a good idea, so off we went with it. I think we had five or six by the time we got to the second Perl Conference. I think they were London, Philly, Toronto? and, um, I don't recall. I'll look them up later.
 
-A momentary digression. Just about anything I've done in the Perl community I've done with Adam. He the first guy I talked to at The Perl Conference, and as I look back on  Perl mongers and other big things, Adam has been a part of it. Wierd.
+A momentary digression. Just about anything I've done in the Perl community I've done with Adam. He the first guy I talked to at The Perl Conference, and as I look back on  Perl mongers and other big things, Adam has been a part of it. Weird.
 
 Adam recently found the 200 odd sign-up sheets we put out at the conference. We basically squatted at a banquet table in the hall way. Then two tables. Then three. We made friends with the hotel staff. People signed up to receive information about a user group in their area. A new area got a new page. It was on the brink of chaos, but all of a sudden we had created this global monster that linked all sorts of Perl people. **Want to learn something? Know a bunch of people who already know it.**
 
