@@ -10,7 +10,9 @@ original_url:
 
 Neil deGrasse Tyson, who've I've previously shown to repeatedly [distort the truth about van Gogh's Starry Night](https://briandfoy.github.io/neil-degrasse-tyson-is-not-a-scientist/), makes some very basic mistakes in astrophysics, in which he holds a Ph.D., while on *Hot Ones*. It's not a new mistake for him either, but it suits his political goals.
 
+<div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Da8-QfGemgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 The host, Sean Evans, is famous for his [deep research](https://www.theverge.com/2019/10/31/20938739/hot-ones-sean-evans-youtube-guests-gordon-ramsey-idris-elba-late-night-tv) to find obscure topics from his guests' past. But this softball setup is not something obscure about Tyson:
 
@@ -119,7 +121,7 @@ The entropy angle itself should be interesting to a scientist. This leads to exp
 
 Tyson forecloses all of these questions, though, because we're nothing special to him. There's nothing to wonder about and no interesting questions to ask. We are just talking cosmic dust. What would be special? If aliens showed up, and he's often said he hopes aliens exist, would they be special? If they are, why aren't we? And if they aren't, is nothing special?
 
-But, Tyson is also [anti-philosophy](https://scientiasalon.wordpress.com/2014/05/12/neil-degrasse-tyson-and-the-value-of-philosophy/), seemingly from a mistaken, utilitarianist perspective. He simply thinks it's a waste of time because is doesn't "advance" science. But, he's always seemed to be a backward, Victorian-era thinker to me; less scientist and more cataloger and collector. He doesn't need to think about what he is doing because it's just work. That Philosophy doesn't get through Science's to-do list is its chief failing to him.
+But, Tyson is also [anti-philosophy](https://scientiasalon.wordpress.com/2014/05/12/neil-degrasse-tyson-and-the-value-of-philosophy/), seemingly from a mistaken, utilitarianist perspective. He simply thinks it's a waste of time because it doesn't "advance" science. But, he's always seemed to be a backward, Victorian-era thinker to me; less scientist and more cataloger and collector. He doesn't need to think about what he is doing because it's just work. That Philosophy doesn't get through Science's to-do list is its chief failing to him.
 
 But the philosopher might quip that Philosophy doesn't score touchdowns either. I think that might be lost on Tyson, but who better than a philosopher to think about what "special" or "advance" means, their relationship to what we are doing, and what we should do about it?
 
@@ -137,9 +139,7 @@ That Oxygen would get together to do that seems very unlikely, and we don't have
 
 Maybe we need a different role model for scientists, perhaps one with a bit more gumption. They don't even have to be real. Or maybe we just need to abandon Tyson on Mars.
 
-<div class="center">
 ![](/images/tyson-hot-ones/science-the-shit.gif)
-</div>
 
 ## Some interesting reading
 
