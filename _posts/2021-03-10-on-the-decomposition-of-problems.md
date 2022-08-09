@@ -41,7 +41,7 @@ had fallen on the floor, a new light bulb showed up. They could not
 explain how their solution worked for burnt out light bulbs, but they knew
 that they could restate that problem into one that had a solution.
 
-Set aside the realms of reality in each Archetype deals (from more
+Set aside the realms of reality in which each Archetype deals (from more
 concrete to more abstract) because they are all mostly doing the same
 thing: reducing most of a problem to something else. The first two,
 the Engineer and the Physicist, fall back on things they know:
@@ -121,7 +121,7 @@ they probably have those memorized. They go straight from observation
 to final results because they have been in that situation so many
 times before.
 
-That's is, the more situations you've seen and the more ways you've
+That is, the more situations you've seen and the more ways you've
 experienced a problem, the more likely you can go straight to an idea
 of a solution. The more ways that you've previously approached a problem,
 the more likely you have an approach that will work for another problem.
@@ -162,7 +162,7 @@ Consider Mark Jason Dominus's post [484848 is excellent
 ](https://blog.plover.com/math/484848.html). He starts by proving *for
 all n, 4bn - 7an = 4*. Why? Because he'd already struggled with the
 problem and that was the answer. When he came back to answer the
-question, he took the knowledge he had at the end of this struggles
+question, he took the knowledge he had at the end of his struggles
 and used it straightaway to answer the question. And, I then expanded
 Mark's excellent number ideas greatly ([excellentnums.com](http://www.excellentnums.com))
 before Matthew Arcus completely and brilliantly [solved it](https://matthewarcus.wordpress.com/2016/01/16/excellent-numbers/)
