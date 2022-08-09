@@ -43,6 +43,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
+* January 18, 1998 - [Weird crime is "occult cop's' specialty](https://www.tampabay.com/archive/1998/01/18/weird-crime-is-occult-cop-s-specialty/)
 * December 1997 - Last issue of *Dissociation*
 * 1997 - San Antonio Four case (4 convictions, 4 overturned in 2016)
 * 1996 - Mike Snedeker gets cases overturned
