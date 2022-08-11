@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-Neil deGrasse Tyson, who've I've previously shown to repeatedly [distort the truth about van Gogh's Starry Night](https://briandfoy.github.io/neil-degrasse-tyson-is-not-a-scientist/), makes some very basic mistakes in astrophysics, in which he holds a Ph.D., while on *Hot Ones*. It's not a new mistake for him either, but it suits his political goals.
+Neil deGrasse Tyson, who I've previously shown to repeatedly [distort the truth about van Gogh's Starry Night](https://briandfoy.github.io/neil-degrasse-tyson-is-not-a-scientist/), makes some very basic mistakes in astrophysics, in which he holds a Ph.D., while on *Hot Ones*. It's not a new mistake for him either, but it suits his political goals.
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Da8-QfGemgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -18,11 +18,11 @@ The host, Sean Evans, is famous for his [deep research](https://www.theverge.com
 
 > Sean Evans: So now that you've eaten ten scorching hot chicken wings on YouTube with a bald guy I think this is now as good a time as any talk about how insignificant we all are.
 
-Tyson likes to push a particular philosophy that eliminates that things that he can't explain or understand. He has a complicated history with atheism and agnosticism: he doesn't believe something without proof, there's no proof for God, but he also shies away from the atheism label. This somehow turns anti-humanist:
+Tyson likes to push a particular philosophy that eliminates the things  he can't explain, doesn't understand, or finds inconvenient. His response somehow turns anti-humanist:
 
 > Neil deGrasse Tyson: Yeah we have come to define significance as I'm special, everything else isn't. Religions thinking they're special, cultures thinking they're special, individuals thinking they're special.
 
-Then he makes his science mistake, and it's not just saying "atoms" when he means "elements". This is something that jumped out to me because I spent quite a bit of time in graduate school thinking about element production in the universe. But a high school student interested in the same thing would know this.
+Then he makes his science mistake, and it's not just saying "atoms" when he means "elements". His mistake jumped out to me because I spent quite a bit of time in graduate school thinking about element production in the universe. But a high school student interested in the same thing would know this. Or, maybe, the host of the "Unafraid of the Dark" *Cosmos*:
 
 > The top four ingredients in life in your body top 4 atoms in order hydrogen oxygen carbon nitrogen those four atoms do you don't the top ingredients are in the universe the top four chemically active atoms in the universe hydrogen oxygen carbon nitrogen.
 
@@ -62,13 +62,11 @@ This is a pretty important point: if we are not special, who cares, besides us, 
 
 ## Elements are rare, and so are atoms.
 
-Tyson says the human body is mostly four different elements (although he says "atoms", which is not quite right, but whatever). Humans are mostly Hydrogen, Oxygen, Carbon, and Nitrogen. Those are indeed the top elements in our bodies. He jumps to the conclusion that we are not special since those elements are most common stuff in the Universe.
+Tyson says the human body is mostly four different elements (although he says "atoms", which is not quite right, but whatever). Humans are mostly Hydrogen, Oxygen, Carbon, and Nitrogen. Those are indeed the top elements in our bodies. He jumps to the conclusion that we are not special since those are most common elements in the Universe.
 
-We haven't found life anywhere in the Universe, so whatever we are isn't common, which is another way of saying special. Tyson doesn't see it that way. The only Life we know in the Universe is not special to him. We are no more significant than the cosmic dust.
+But he assumes that atoms is all there is. In truth, the baryonic matter (*i.e.*, atomic matter), is a small sliver of the Universe. NASA says that the Universe is about 73% dark energy, 23% dark matter, and the rest, about 4%, is all the stuff we have ever seen (baryonic matter). Those numbers are slightly fuzzy and experiments divide most of the Universe slightly differently, but the baryonic fraction is always around 4-5%.
 
-But he assumes that atoms is all there is. In truth, the baryonic matter (i.e., atomic matter), is a small sliver of the Universe. NASA says that the Universe is about 73% dark energy, 23% dark matter, and the rest, about 4%, is all the stuff we have ever seen (baryonic matter). Those numbers are slightly fuzzy and experiments divide most of the Universe slightly differently, but the baryonic fraction is always around 4-5%.
-
-We aren't even made from the most common stuff of the Universe. This is something that Tyson surely knows; he does have a Ph.D. in Astrophysics. But, he's not trying to educate us on Science, so facts are not important. We are made from the stuff that we can see and interact with, so he just ignores the rest of the Universe. That's not all he'll ignore though.
+We aren't even made from the most common stuff of the Universe. This is something that Tyson surely knows; he does have a Ph.D. in Astrophysics and he hosted a TV show about it. But, he's not trying to educate us on Science, so facts and context are not important. We are made from the stuff that we can see and interact with, so he just ignores the rest of the Universe. That's not all he'll ignore though.
 
 In that 4-5% of the mass of the universe, the four most abundant elements by mass are, in order, Hydrogen, Helium, Oxygen, and Carbon. Tyson omitted Helium on purpose because it's inconvenient for his point. That's why he has to add "chemically active", since Helium is a noble gas and as such, chemically inert. Once he knocks out Helium, he can promote Nitrogen, the fifth most common element, into fourth place. But, Nitrogen is exceedingly rare in the Universe. It's a stepping stone to Oxygen in solar production of the light elements.
 
@@ -76,12 +74,11 @@ Here's a bar plot of their relative mass fraction. Hydrogen is about 74% of the 
 
 ![](/images/tyson-hot-ones/by-mass.png)
 
-
 This looks even worse if you count atoms instead of weighing them. Since Carbon is about 12 times heavier than Hydrogen and Oxygen is about 16 times heavier, their fraction by mass gets a big boost. By count, they virtually disappear:
 
 ![](/images/tyson-hot-ones/by-count.png)
 
-We are not made of the main elements of the Universe. We are made of the most abundant, and then some minor ones. That looks even worse when we look at our bodies composition.
+We are not made of the main elements of the Universe. We are made of the most abundant one, and then some minor ones. That looks even worse when we look at our bodies composition.
 
 And, remember that all of this is just 4-5% of the Universe. That Oxygen bar that you can barely see is relative to just the baryonic count.
 
@@ -119,11 +116,13 @@ All of this happens against the Second Law of Thermodynamics. We have specifical
 
 The entropy angle itself should be interesting to a scientist. This leads to exploring the composition of asteroids and meteors, the planets that formed from those asteroids and meteors, how we got liquid water onto this planet, and so on.
 
-Tyson forecloses all of these questions, though, because we're nothing special to him. There's nothing to wonder about and no interesting questions to ask. We are just talking cosmic dust. What would be special? If aliens showed up, and he's often said he hopes aliens exist, would they be special? If they are, why aren't we? And if they aren't, is nothing special?
+Tyson forecloses all of these questions, though, because we're nothing special to him. There's nothing to wonder about and no interesting questions to ask. A scientist is the person who wonders "How did it get this way?". Tyson is actively arguing against wonder.
+
+If aliens showed up, and he's often said he hopes aliens exist, would they be special? If they are, why aren't we? And if they aren't, is nothing special?
 
 But, Tyson is also [anti-philosophy](https://scientiasalon.wordpress.com/2014/05/12/neil-degrasse-tyson-and-the-value-of-philosophy/), seemingly from a mistaken, utilitarianist perspective. He simply thinks it's a waste of time because it doesn't "advance" science. But, he's always seemed to be a backward, Victorian-era thinker to me; less scientist and more cataloger and collector. He doesn't need to think about what he is doing because it's just work. That Philosophy doesn't get through Science's to-do list is its chief failing to him.
 
-But the philosopher might quip that Philosophy doesn't score touchdowns either. I think that might be lost on Tyson, but who better than a philosopher to think about what "special" or "advance" means, their relationship to what we are doing, and what we should do about it?
+But the philosopher might quip that Philosophy doesn't score touchdowns, and neither does Science. I think that might be lost on Tyson, but who better than a philosopher to think about what "special" or "advance" means, their relationship to what we are doing, and what we should do about it?
 
 ## Just the numbers
 
