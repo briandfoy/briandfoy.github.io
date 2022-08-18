@@ -26,7 +26,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
 * June 2017 - Travis County District Attorney Margaret Moore files a motion to dismiss the Kellers case
 * November 2016 - San Antonio Four exonerated
-* October 2016 - Aja Romano- [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
+* October 2016 - Aja Romano - [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
 * September 2016 - ["Exorcist" TV show, Fox](https://www.fox.com/the-exorcist/)
 * 2016 - [Southwest of Salem: The Story of the San Antonio Four](http://www.southwestofsalem.com)
 * **January 2016** - Josh Clark and Chuck Bryant ["Stuff You Should Know" podcast](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-satanic-panic-of-the-1980s-29467671/) - they say they lived through this.  - working off the [Slate article](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
@@ -36,12 +36,17 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * June 2015 - Robert Lamb - ["How Satanic Panic Worked"](https://history.howstuffworks.com/historical-events/satanic-panic.htm)
 * **April 2015** - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
 * January 2015 - Cheryl Eddy (Gizmodo) - [A Brief History of the "Satanic Panic" in the 1980s](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
+* May 2014 - [When Satan Was Spotted at Head Start](https://reason.com/2014/05/13/when-satan-was-spotted-at-head-start/)
+* April 2014 - *The Witch-Hunt Narrative: Politics, Psychology, and the Sexual Abuse of Children* by Ross E. Cheit
 * January 2014 - Maurice Chammah (Texas Observer) - [The Mystery of the San Antonio Four](https://www.texasobserver.org/mystery-san-antonio-four/)
 * January 2014 - Linda Rodriguez McRobbie - [The Real Victims of Satanic Ritual Abuse](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * December 2013 - Richard Noll - [When Psychiatry Battled the Devil](https://www.garygreenbergonline.com/w/wp-content/uploads/2013/12/Psychiatric_Times_-_When_Psychiatry_Battled_the_Devil_-_2013-12-06.pdf)
 * 2013 - *PAUL: The Secret Story of Olympia's Satanic Sheriff* ([Vimeo](https://vimeo.com/48557671) - Thurston County case
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
+* October 25, 2005 - *Paradise Lost - The Child Murders at Robin Hood Hills* (movie) (West Memphis Three)
+* April 2003 [Hell Hounds](https://reason.com/2003/04/01/hell-hounds-2/) (West Memphis Three)
+* February 2003 [Satanic Panic and the West Memphis Three](https://reason.com/2010/02/25/satanic-panic-and-the-west-mem/)
 * 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
 * January 18, 1998 - [Weird crime is "occult cop's' specialty](https://www.tampabay.com/archive/1998/01/18/weird-crime-is-occult-cop-s-specialty/)
 * December 1997 - Last issue of *Dissociation*
@@ -60,6 +65,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1992 - Keller case
 * 1992 - Joan Baez - "Play Me Backwards"
 * March 1992 - False Memory Syndrome Foundation
+* November 1991 - [The Devil Made Me Do It](https://reason.com/1991/11/01/the-devil-made-me-do-it/) - *Reason* magazine
+* 1991 - *In Pursuit of Satan: The Police and the Occult* by Robert D. Hicks (debunking the idea)
 * 1991 - Laurel Rose Willson (Lauren Stratford) - *Satan's Underground* - hoax, also witness in McMartin case
 * 1991 - *A Thousand Acres*
 * 1991 - *20/20* airs a live Roman Catholic exorcism ([YouTube](https://www.youtube.com/watch?v=L5-FW4wRnTE)) ([NY Times](https://www.nytimes.com/1991/04/05/news/the-rite-of-exorcism-on-20-20.html))
