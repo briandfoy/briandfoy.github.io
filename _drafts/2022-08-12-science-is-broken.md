@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+* https://www.worksinprogress.co/issue/we-dont-know-how-to-fix-science/
+* https://www.worksinprogress.co/issue/real-peer-review/
 

@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+* https://css-tricks.com/technical-writing-for-developers/
+* https://developers.google.com/tech-writing
 

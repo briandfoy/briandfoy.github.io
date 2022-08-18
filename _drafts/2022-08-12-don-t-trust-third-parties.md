@@ -5,8 +5,8 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
-
+* https://csswizardry.com/2019/05/self-host-your-static-assets/
+* https://csswizardry.com/2017/07/performance-and-resilience-stress-testing-third-parties/

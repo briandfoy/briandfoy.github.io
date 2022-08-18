@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
-The article goes here
+
+* https://www.worksinprogress.co/issue/biases-the-wrong-model/
 
