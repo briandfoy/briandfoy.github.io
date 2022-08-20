@@ -30,16 +30,16 @@ while (<file_name>){
 }
 {% endhighlight %}
 
-The outer `if` checks some variable for the run mode, then does the same operation with a slightly different regex. Here are the patterns aligned, so that you see that the second pattern has `QA/` at the front:
+The outer `if` checks some variable for the run mode, then does the same operation with a slightly different regex. Here are the patterns aligned so that you see that the second pattern has `QA/` at the front:
 
 {% highlight perl %}
     (\d{2})(\d{2})(\d{2})\/([a-z]{5})\/\d{6}\.(dw[a-z]+)\.001
 QA\/(\d{2})(\d{2})(\d{2})\/([a-z]{5})\/\d{6}\.(dw[a-z]+)\.001
 {% endhighlight %}
 
-The problem is that the structure hides that simple difference. The `if` are only there to select between slight differences before going the same thing.
+The problem is that the structure hides that simple difference. The `if` is only there to select between slight differences before going on to do the same thing.
 
-One way to fix that is the take the pattern out of the loop. The can use the `qr` to build a regex without using it, and you can even use that result inside another regex to make a bigger one. Once you have the final pattern, apply it with `m//` as usual:
+One way to fix that is the take the pattern out of the loop. You can use the `qr` to build a regex without using it, and you can even use that result inside another regex to make a bigger one. Once you have the final pattern, apply it with `m//` as usual:
 
 {% highlight perl %}
 my $base = qr|(\d{2})(\d{2})(\d{2})/([a-z]{5})/\d{6}\.(dw[a-z]+)\.001|;
