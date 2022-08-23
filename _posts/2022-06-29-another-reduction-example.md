@@ -12,6 +12,8 @@ I started to answer a StackOverflow question, but it was deleted before I could 
 
 Often, programming, well, good programming, relies on our ability to [reduce problems to known solutions](on-the-decomposition-of-problems/). This relies on our ability to see structures and patterns, and possibly see possible structures.
 
+<!--more-->
+
 # The Answer
 
 Here's your code, indented so I can see what belongs to what:

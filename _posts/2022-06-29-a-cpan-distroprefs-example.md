@@ -10,6 +10,8 @@ original_url: https://stackoverflow.com/a/72807390/2766176
 
 The `Data::Match` module has some syntax that Perl v5.22 tightened up. That's why it fails. Note that force installing a module with an egregious problem like that means it will just fail when you run your program.
 
+<!--more-->
+
 If you can, don't use this module. I have no idea what it does, so I don't have any suggestions for a replacement.
 
 Let's suppose you need this module for whatever reason, even though it's 20 years old. Perhaps you're supporting a legacy app that you just need to get working.

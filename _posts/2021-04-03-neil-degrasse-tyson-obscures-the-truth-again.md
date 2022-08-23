@@ -10,6 +10,8 @@ original_url:
 
 Neil deGrasse Tyson, whom I've previously shown to repeatedly [distort the truth about van Gogh's Starry Night](https://briandfoy.github.io/neil-degrasse-tyson-is-not-a-scientist/), makes some very basic mistakes in astrophysics, in which he holds a Ph.D., while on *Hot Ones*. It's not a new mistake for him either, but it suits his political goals.
 
+<!--more-->
+
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Da8-QfGemgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

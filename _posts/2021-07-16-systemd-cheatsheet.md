@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+My cheatsheet for dealing with systemd, which I hate for the things I need to do.
+
+<!--more-->
+
 ## Some admin
 
 Clean out the journal:

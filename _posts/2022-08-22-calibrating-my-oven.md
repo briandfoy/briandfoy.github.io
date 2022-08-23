@@ -10,6 +10,8 @@ original_url:
 
 After a baking disaster, I decided to calibrate my oven. When the dial says 375, what is the actual temperature? This oven is a fairly new, so I don't have a feeling about what it's doing like I had with the previous one. I suspect this oven is about 50 F too low.
 
+<!--more-->
+
 # The setup
 
 I have a cheap [dial thermometer from Taylor](https://amzn.to/3R01Uyy) which I keep in the oven. I figure that's not very accurate, but I did specifically buy it based on its brand.
