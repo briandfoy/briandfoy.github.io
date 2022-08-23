@@ -24,7 +24,7 @@ On the first go I just hung the probes from the oven rack, but the results were 
 
 I constructed a holder from some spare silicon to hold the probes away from everything.
 
-![](/images/oven/probes.jpeg)
+![](/images/oven/probes.jpg)
 
 None of these have been calibrated at high temps. I don't even know how I'd do that; would I use boiling glycerin (554 F)? Now I wonder if my rangetop could boil glycerin. I don't think I've even done that in a working wet lab.
 
