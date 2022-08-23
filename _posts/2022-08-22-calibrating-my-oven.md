@@ -40,8 +40,10 @@ The Yacumama agrees with the other two until it doesn't. That doesn't make it a 
 
 My oven's maximum temp is about 400 F. This is a problem for some bread recipes which want 500 F at the beginning and 450 after that.
 
+I haven't bothered to adjust the temperature knob to realign it. Maybe that's a solution.
+
 ## Other reading
 
-* https://foodcrumbles.com/choosing-the-best-baking-temperature/
-* http://thecakeblog.com/2015/04/baking-temperature-comparison.html
-I haven't bothered to adjust the temperature knob to realign it.
+* [How to Choose the Correct Oven Temperature When You're Unsure - FoodCrumbles](https://foodcrumbles.com/choosing-the-best-baking-temperature/)
+* [Baking Temperature Comparison](https://thecakeblog.com/2015/04/baking-temperature-comparison.html)
+
