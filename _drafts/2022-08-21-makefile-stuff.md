@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 https://tech.davis-hansson.com/p/make/
 https://news.ycombinator.com/item?id=32541016
 https://news.ycombinator.com/item?id=21812656

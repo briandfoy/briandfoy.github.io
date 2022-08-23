@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 https://crh.arizona.edu/blog/evidence-based-eminence-based-and-eloquence-based-medicine
 
 https://www.aao.org/eyenet/article/of-eminence-based-and-evidence-based-medicine

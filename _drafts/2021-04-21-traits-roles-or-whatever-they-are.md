@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 http://modernperlbooks.com/mt/2009/04/the-why-of-perl-roles.html
 http://blogs.perl.org/users/jesse_shy/2021/01/roles-huh-what-are-they-good-for.html
 

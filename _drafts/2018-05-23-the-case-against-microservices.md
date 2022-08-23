@@ -7,6 +7,8 @@ stopwords:
 last_modified:
 ---
 
+<!--more-->
+
 https://www.reddit.com/r/programming/comments/evkor0/what_i_wish_i_had_known_before_scaling_uber_to/
 
 <div class="youtube">

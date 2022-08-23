@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * https://www.anilada.com/courses/15251f15/www/notes/turing-1936.pdf
 
 Charles Petzold

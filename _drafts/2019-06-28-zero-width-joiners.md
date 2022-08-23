@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 $ perl -le 'print join "\x{200D}", "\N{BLACK CIRCLE}"
 
 

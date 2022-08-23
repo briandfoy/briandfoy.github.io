@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * In HTML, people assume that links will always be good, so they write "see here" instead of something like "Joe Public says in 'Article Title' that...". With that citation information captured in the text, a reader might be able to find it elsewhere when the link breaks.
 
 * No one knows how to do anything on their own.

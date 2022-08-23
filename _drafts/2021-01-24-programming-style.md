@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 Instead of doing this:
 
 	do_something if ....

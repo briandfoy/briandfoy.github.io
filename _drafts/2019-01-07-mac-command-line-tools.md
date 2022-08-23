@@ -8,5 +8,7 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * https://github.com/BlueM/cliclick
 * https://github.com/rptb1/aliasPath

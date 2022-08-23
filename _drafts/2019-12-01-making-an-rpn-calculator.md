@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 
 git@github.com:enhydra/perl_rpn.git
 

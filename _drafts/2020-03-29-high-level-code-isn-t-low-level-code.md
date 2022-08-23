@@ -8,4 +8,6 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * [Andy Wingo uses fibonacci numbers to discuss benchmarks in Guile](http://wingolog.org/archives/2019/06/26/fibs-lies-and-benchmarks)

@@ -11,6 +11,8 @@ original_url:
 More science than you realize is outright fraud. If it can't make
 reliable predictions, it's bad.
 
+<!--more-->
+
 Now, there are scientific frauds that are quickly debunked—usually because people didn't believe their outlandish claims. These aren't that interesting.
 
 

@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * write to a temp file first, then replace
 * use a pid file
 * get it right, then get it small

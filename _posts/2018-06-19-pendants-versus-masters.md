@@ -8,11 +8,14 @@ last_modified:
 original_url:
 ---
 
+*Pedantry and mastery are opposite attitudes toward rules.*
+
+<!--more-->
+
 <a target="_blank"  href="https://www.amazon.com/gp/product/0140124993/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0140124993&linkCode=as2&tag=hashbang09-20&linkId=81181786fabf85a963b51df8b0724a8a"><img class="book_cover float-left" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0140124993&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=hashbang09-20" /></a> From *<a target="_blank"  href="https://www.amazon.com/gp/product/0140124993/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0140124993&linkCode=as2&tag=hashbang09-20&linkId=81181786fabf85a963b51df8b0724a8a">How to Solve It</a>* by G. Pólya. Although this sounds like a book about solving math problems, it's more about how to think through math problems and understand what you know, what's important, and how to apply that to get to the result. There's a difference between blindly applying techniques and understanding when they are useful:
 
 <br clear="all" />
 
-*Pedantry and mastery are opposite attitudes toward rules.*
 
 *1\. To apply a rule to the letter, rigidly, unquestioningly, in cases where it fits and in cases where it does not fit, is pedantry. Some pedants are poor fools: they never did understand the rule which they apply so conscientiously and so indiscriminately. Some pedants are quite successful; they understood their rule, at least in the beginning (before they became pedants), and chose a good one that fit in many cases and fails only occasionally.*
 

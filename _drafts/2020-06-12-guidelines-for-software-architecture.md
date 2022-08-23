@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * https://iism.org/article/30
 * Factor #1, Discovery of a Solution – finding positive new value
 * Factor #2, Discovery of Chaos – eliminating the value eroding effects of chaos.

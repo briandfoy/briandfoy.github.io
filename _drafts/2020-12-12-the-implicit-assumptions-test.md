@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * [Barbara Kay: Actually, it turns out that you may be less racist than you've been led to believe | National Post](https://nationalpost.com/opinion/barbara-kay-actually-it-turns-out-that-you-may-be-less-racist-than-youve-been-led-to-believe)
 * [Psychology’s Racism-Measuring Tool Isn’t Up to the Job -- Science of Us](https://www.thecut.com/2017/01/psychologys-racism-measuring-tool-isnt-up-to-the-job.html)
 * [The Creators of the IAT Should Get Their Story Straight](https://nymag.com/intelligencer/2017/12/iat-behavior-problem.html)

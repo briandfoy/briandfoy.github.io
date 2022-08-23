@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * https://www.worksinprogress.co/issue/we-dont-know-how-to-fix-science/
 * https://www.worksinprogress.co/issue/real-peer-review/
 

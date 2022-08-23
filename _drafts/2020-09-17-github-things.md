@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * the repo named user/user (such as briandfoy/briandfoy) can contain a _README.md_ that GitHub will use on your profile (such as https://github.com/briandfoy)
 
 * [Getting Started with Github Actions](https://itnext.io/getting-started-with-github-actions-fe94167dbc6d)

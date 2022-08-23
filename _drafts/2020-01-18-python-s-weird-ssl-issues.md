@@ -7,6 +7,8 @@ stopwords:
 last_modified:
 ---
 
+<!--more-->
+
 brian@macpro ~ [3028]$ bin/speedtest-cron
 Cannot retrieve speedtest configuration
 ERROR: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1108)>

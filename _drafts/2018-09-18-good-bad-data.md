@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 Interesting values can easily expose bad design.
 
 ## Some specials values might be boring

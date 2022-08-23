@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 * [Linux Productivity Tools](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
 * [The Unix Chainsaw - Gary Bernhardt](https://www.youtube.com/watch?v=sCZJblyT_XM)
 * [The shells building blocks](https://blog.balthazar-rouberol.com/the-shells-building-blocks)

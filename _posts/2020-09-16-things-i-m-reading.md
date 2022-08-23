@@ -8,6 +8,10 @@ last_modified:
 original_url:
 ---
 
+Some things I'm reading.
+
+<!--more-->
+
 * [Why Pascal is Not My Favorite Programming Language](http://doc.cat-v.org/bell_labs/why_pascal/why_pascal_is_not_my_favorite_language.pdf) - Brian Kernighan "Pascal is not adequate for writing real programs. It is suitable only for small, self-contained programs that have only trivial interactions with their environment and that make no use of any software written by anyone else."
 
 * [Why Nobody Pays for Database Software](https://docs.keydb.dev/blog/2020/01/20/blog-post/) - "Users accustomed to installing software with a simple “apt-get” or “docker pull” at little to no cost were now expected to suffer through hours long sales calls, pricing that was wildly out of proportion to the value provided, and artificial limitations on what hardware could be used."

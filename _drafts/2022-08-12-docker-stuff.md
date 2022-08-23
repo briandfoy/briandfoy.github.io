@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 Create an image
 
 	docker build --no-cache -t creator/name:version -f Dockerfile .

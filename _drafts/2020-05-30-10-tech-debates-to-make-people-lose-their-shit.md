@@ -8,6 +8,8 @@ last_modified:
 original_url:
 ---
 
+<!--more-->
+
 1. vi or emacs
 2. tabs or spaces
 3. narrow tabs or wide tabs

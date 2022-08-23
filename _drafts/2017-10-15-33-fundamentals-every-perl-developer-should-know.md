@@ -9,6 +9,8 @@ original_url:
 ---
 
 
+<!--more-->
+
 1. Sigils tell you how you are accessing a variable, not what type it is.
 
 2. Lists are data, arrays are containers that hold lists.
