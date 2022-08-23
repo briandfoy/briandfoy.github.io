@@ -51,7 +51,7 @@ template = ERB.new( <<~HERE )
 	original_url: <%= original %>
 	---
 
-	The article goes here
+	<!--more-->
 
 	HERE
 
