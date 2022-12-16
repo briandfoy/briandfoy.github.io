@@ -27,3 +27,7 @@ But Benjamin Bratton takes it a step further saying that TED itself is bullshit 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yo5cKRmJaf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+# Further reading
+
+* [Why hasn’t technology disrupted higher education already?](https://www.slowboring.com/p/why-hasnt-technology-disrupted-higher)
