@@ -34,6 +34,37 @@ And then his logic mistake where he goes from that to a conclusion with no suppo
 
 Tyson is expressing a political opinion and bending the science to support it. It's no secret that Neil deGrasse Tyson thinks he's special and treats people poorly. Part of that game is that he has to make sure that other people don't feel special, and he does that by shitting on them. Tyson is all about punching down.
 
+##
+
+Carl Sagan, an actual extraterrestial posing as a human and the host of the original *Cosmos*, contrasts the world-annoyed, pedantic Tyson in his first words of the first episode:
+
+> The Cosmos is all that is or ever was or ever will be. Our feeblest contemplations of the Cosmos stir us—there is a tingling in the spine, a catch in the voice, a faint sensation, as if a distant memory, of falling from a height. We know we are approaching the greatest of
+mysteries.
+
+Shortly after those lush poetic sentences, he adds even more wonder. We are not just boring space matter:
+
+> Some part of our being knows this is where we came from. We long to return. And we can. Because the cosmos is also within us. We’re made of star-stuff. We are a way for the cosmos to know itself.
+
+And give credit where credit is due: Ann Druyan, who eventually married Sagan, co-wrote, produced, and directed this amazingly presentation of our knowledge of the skies. She also wrote the movie [Contact](https://www.imdb.com/name/nm0238668/), where Jody Foster acts out Sagan's words "The universe is a pretty big place. If it's just us, seems like an awful waste of space."
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L5BdLVRg7Lo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+In another video, he's just as inviting:
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tLPkpBN6bEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+> Our ancestors worshiped the Sun and they were far from foolish. It makes good sense to revere the Sun and the stars because we are their children; we have witnessed the life cycles of the stars they are born they mature and then they die as time goes on. There are more white dwarfs. More neutron stars. More black holes, the remains of the stars accumulate as the eons pass. But interstellar space also becomes progressively enriched in heavy elements out of which form new generations of stars and planets life and intelligence. The events in one star can influence a world halfway across the galaxy and a billion years in the future.
+
+and also:
+
+> All the elements of the Earth except hydrogen and some helium
+have been cooked by a kind of stellar alchemy billions of years ago in stars, some of which are today inconspicuous white dwarfs on the other side of the Milky Way Galaxy. The nitrogen in our DNA, the calcium in our teeth, the iron in our blood, the carbon in our apple pies were made in the interiors of collapsing stars. We are made of starstuff.
+
+
 ## First, the Drake Equation
 
 If we aren't special, why aren't there more of us out there in the Universe?
@@ -142,13 +173,23 @@ Maybe we need a different role model for scientists, perhaps one with a bit more
 
 ![](/images/tyson-hot-ones/science-the-shit.gif)
 
+## Finally
+
+Sam Kriss might have said it best in [Neil deGrasse Tyson: pedantry in space](https://samkriss.com/2016/03/14/neil-degrasse-tyson-pedantry-in-space/):
+
+> What he actually does is make the universe boring, tell people things that they already know, and dispel misconceptions that nobody actually holds.
+
+And later:
+
+> ‘Science’ here has very little to do with the scientific method itself; it means ontological physicalism, not believing in our Lord Jesus Christ, hating the spectrally stupid, and, more than anything, pretty pictures of nebulae and tree frogs. ‘Science’ comes to metonymically refer to the natural world, the object of science; it’s like describing a crime as ‘the police,’ or the ocean as ‘drinking.’ What ‘I Fucking Love Science’ actually means is ‘I Fucking Love Existing Conditions.’
+
 ## Some interesting reading
 
 * [Energy Production in Stars.](https://journals.aps.org/pr/pdf/10.1103/PhysRev.55.434)
+* [How Two Astronomers With Some Markers Linked Us To the Stars](https://modernsciences.org/how-two-astronomers-with-some-markers-linked-us-to-the-stars/)
 * [Appreciating Oxygen](https://pubs.acs.org/doi/abs/10.1021/ed085p1218)
 * [Chemical Composition of the Human Body](https://www.thoughtco.com/chemical-composition-of-the-human-body-603995)
 * [Oxygen in Stars](https://pweb.cfa.harvard.edu/news/oxygen-stars)
 * [Oxygen in the Solar System](http://www.minsocam.org/msa/rim/rim68.html)
 * [What is the body made of?](https://www.newscientist.com/question/what-is-the-body-made-of/)
-
 
