@@ -2,7 +2,7 @@
 layout: post
 title: A format for RPSL
 categories:
-tags:
+tags: perl programming
 stopwords: perlform printf reselect
 last_modified:
 original_url:
