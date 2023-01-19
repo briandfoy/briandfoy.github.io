@@ -40,3 +40,4 @@ original_url:
 * https://cuddly-octo-palm-tree.com/posts/2021-10-31-better-bash-functions/
 * https://effective-shell.com/part-5-building-your-toolkit/customising-your-command-prompt/
 * http://redsymbol.net/articles/unofficial-bash-strict-mode/
+* https://sharats.me/posts/shell-script-best-practices/
