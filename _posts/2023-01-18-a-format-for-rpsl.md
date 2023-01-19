@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-The [Routing Policy Specification Language](https://www.rfc-editor.org/rfc/rfc2622) is a pain in the ass, but at least its not XML. A record is a bunch of key-value pairs, with possible multiline values (for example, [RIPE's files](https://ftp.ripe.net/ripe/dbase/)):
+The [Routing Policy Specification Language](https://www.rfc-editor.org/rfc/rfc2622) is a pain in the ass, but at least it's not XML. A RPSL object is a bunch of key-value pairs, with possible multiline values and comments (for example, [RIPE's files](https://ftp.ripe.net/ripe/dbase/)). Here's a simple example:
 
 <!--more-->
 
@@ -48,7 +48,7 @@ Just make the field format a fixed width to get that alignment:
 printf "%-12s: %s\n", $field, $value;
 {% endhighlight %}
 
-The problem is that the field names are shorter than the field width so the output is padded:
+The field names are shorter than the field width so the placeholder is padded, which moves the colon away from the shorter names:
 
 {% highlight text %}
 route       : 1.2.3.4/32
@@ -64,7 +64,7 @@ With a little tortured logic, I can get this same template to work for continuat
 
 ## How about formats?
 
-Sometimes we follow these paths further than we should and don't consider other alternatives. A co-worker half-jokingly suggested Perl's formats might work, but neither of us followed up on that. Still, it gnawed at me and I had to give it a try. Here it is:
+Sometimes we follow these paths further than we should and don't consider other alternatives. A co-worker half-jokingly suggested Perl's formats might work, but neither of us followed up on that because we weren't going to do that in production anyway. Still, the task gnawed at me and I had to give it a try just so I could stop thinking about it. Here's a RPSL formatter using `format`:
 
 {% highlight perl %}
 use v5.36;
@@ -73,19 +73,18 @@ use vars qw($k $v);
 format RPSL =
 ^<<<<<<<<<<<    ^*
 $k,             $v
-~~				^*
-				$v
+~~              ^*
+                $v
 .
 
-
 my %hash = (
-	_class_key => 'route',  # this key needs to be first
-	route      => '1.2.3.4/12',
-	origin     => 'AS237',
-	remarks    => "first line\nsecond line\nthird line\n",
-	address    => "1234 Main St\nAnytown, MI 12345",
-	'admin-c'  => 'MAINT-AS237',
-	);
+    _class_key => 'route',  # this key needs to be first
+    route      => '1.2.3.4/12',
+    origin     => 'AS237',
+    remarks    => "first line\nsecond line\nthird line\n",
+    address    => "1234 Main St\nAnytown, MI 12345",
+    'admin-c'  => 'MAINT-AS237',
+    );
 
 # just do the first line, which is the class key
 my $field = delete $hash{_class_key};
@@ -93,50 +92,60 @@ do_field( $field, delete $hash{$field} );
 
 # the rest of the fields
 foreach my $key ( keys %hash ) {
-	do_field( $key, $hash{$key} );
-	}
+    do_field( $key, $hash{$key} );
+    }
 
 # Add the
 sub do_field ( $field, $value ) {
-	my $old_handle = select(STDOUT);
-	local $~ = "RPSL";  # name of format to use for current filehandle
-	local $k = "$field:";
-	local $v = $value;
-	write STDOUT;
-	select $old_handle;
-	}
+    my $old_handle = select(STDOUT);
+    local $~ = "RPSL";  # name of format to use for current filehandle
+    local $k = "$field:";
+    local $v = $value;
+    write STDOUT;
+    select $old_handle;
+    }
 {% endhighlight %}
 
-This gets me the nicely formatted object:
+This gets me the nicely formatted object where the multiline address and remarks value are nicely aligned:
 
 {% highlight text %}
+route:          1.2.3.4/12
+address:        1234 Main St
+                Anytown, MI 12345
+origin:         AS237
+admin-c:        MAINT-AS237
+remarks:        first line
+                second line
+                third line
 {% endhighlight %}
 
-Since Perl's formats are a pre-v5 feature, it doesn't work with the things that Perl 5 gave us: lexical filehandles and variables. I have to work with bareword filehandles and package variables.
+Since Perl's `format` is a pre-v5 feature, it doesn't work with the things that Perl 5 gave us: lexical filehandles and variables. I have to work with the Perl 4 bareword filehandles and package variables.
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQA5aLctA0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 
-Perl's `format` has some implicit knobs and dials, and most of them are at least distasteful in today's world. When I call `write STDOUT`, it looks for a format of the same name as the filehandle. Or, more correctly, it looks in the `$~` per-filehandle variable. That value is the same as the filehandle name by default.  Since I've named my format `RPSL`, I have to set the per-filehandle variable `$~` to the name of the format I want to use. To do that properly, I need to first `select` the filehandle I want in case it's no longer the default, change the value of `$~` to the one I want, and at the end, reselect the previous default filehandle. And, I can't do this just once because someone else may have changed it for their own purposes. It's essentially global variable hell.
+Perl's `format` has some implicit knobs and dials, and most of them are at least distasteful in today's world. When I call `write STDOUT`, it looks for a format of the same name as the bareword filehandle. Or, more correctly, it looks in the `$~` per-filehandle variable that specifies the format name, which is the same as the filehandle name by default.  Since I've named my format `RPSL`, I have to set the per-filehandle variable `$~` to the name of the format I want to use. To do that properly, I need to first `select` the filehandle I want in case it's not currently the default, change the value of `$~` to the one I want, and at the end, reselect the previous default filehandle to undo my mess. I can't do this just once because someone else may have changed the defaults for their own purposes. It's essentially global variable hell.
 
-I also have to set the package variables `$k` and `$v` since those are the package variables I use in the format. Global variables again, so I liberally use `local` to restore their previous values at the end of the scope.
+I also have to set the package variables `$k` and `$v` since those are the package variables I use in the format. It's the global variable problem again, so I liberally use `local` to restore their previous values at the end of the scope.
 
-Sure, it's ugly, but I've also compartmentalized it in the `do_field` subroutine. I'll come back to that in a moment because I'm still in the land of formats.
+Sure, it's ugly, but I've also compartmentalized it in the `do_field` subroutine. I'll come back to that in a moment because I'm still in the land of formats. Just know that all the ugliness is in one place.
 
-The template itself isn't that tricky, although I did read through the [original formats chapter from the first edition of Learning Perl](https://www.learning-perl.com/2014/07/formats/) and check the [perlform docs](https://perldoc.perl.org/perlform). I used to use formats a lot (mostly for paginated output I'd have to print on dead trees), but I haven't touched them for years. I knew what I wanted to do and that formats could do it, but I'd forgotten it's tricky syntax. Here's just the template:
+The template itself isn't that tricky, although I did read through the [original formats chapter from the first edition of Learning Perl](https://www.learning-perl.com/2014/07/formats/) and check the [perlform docs](https://perldoc.perl.org/perlform). I used to use formats a lot (mostly for paginated output I'd have to print on dead trees), but I haven't touched them for years. I knew what I wanted to do and that formats could do it, but I'd forgotten it's tricky syntax.
+
+Here's just the format again:
 
 {% highlight perl %}
 format RPSL =
 ^<<<<<<<<<<<    ^*
 $k,             $v
-~~				^*
-				$v
+~~              ^*
+                $v
 .
 {% endhighlight %}
 
-The basic setup is easy. There's the first `format` line, and the ending `.` line. Between those two lines are couplets of a template line and a variables line.
+The basic setup is easy. There's the first `format` line that specifies the name, and the `.` line that ends it. Between those two lines are couplets of a template line and a variables line.
 
 The first template line is simple: there's a fixed-width field and a variable width field. No big whoop. At least, it's no big whoop until `$v` has multiple lines (so, embedded newlines). The first template line only formats that first embedded line in `$v` and defers on the rest of the lines in `$v`.
 
@@ -150,11 +159,11 @@ Generally I try to use built-in features if I can get them to work, but there ar
 
 {% highlight perl %}
 sub do_field ( $field, $value ) {
-	state $rc = require Perl6::Form;
-	print form {layout=>"tabular"},
+    state $rc = require Perl6::Form;
+    print form {layout=>"tabular"},
      '{[[[[[[[[[[}    {[[[[[[[[[[}',
       "$field:",      $value;
-	}
+    }
 {% endhighlight %}
 
 That's certainly simpler in the code I typed out, but it also requires another dependency to get to the same place I was before. How much that matters is a personal decision though.
