@@ -3,7 +3,7 @@ layout: post
 title: systemd cheatsheet
 categories: cheatsheet
 tags: systemd
-stopwords:
+stopwords: cheatsheet systemd
 last_modified:
 original_url:
 ---

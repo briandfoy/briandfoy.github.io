@@ -3,7 +3,7 @@ layout: post
 title: A format for RPSL
 categories:
 tags:
-stopwords:
+stopwords: perlform printf reselect
 last_modified:
 original_url:
 ---

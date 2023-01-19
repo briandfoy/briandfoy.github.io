@@ -3,7 +3,7 @@ layout: post
 title: Neil deGrasse Tyson obscures the truth, again
 categories:
 tags: neil-degrasse-tyson science
-stopwords: baryonic Ph nebulas eightfold utilitarianist
+stopwords: baryonic Ph nebulas eightfold utilitarianist Druyan Kriss contemplations extraterrestial metonymically physicalism spectrally starstuff
 last_modified:
 original_url:
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Speeding up my secrets
 categories:
 tags: macOS secrets bash
-stopwords:
+stopwords: mtime precompute
 last_modified:
 original_url:
 ---

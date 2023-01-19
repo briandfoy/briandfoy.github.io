@@ -3,7 +3,7 @@ layout: post
 title: One-liners for Farhenheit to Celcius
 categories:
 tags:
-stopwords:
+stopwords: bc ssl
 last_modified:
 original_url:
 ---
