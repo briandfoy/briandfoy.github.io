@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-The [Routing Policy Specification Language](https://www.rfc-editor.org/rfc/rfc2622) is a pain in the ass, but at least it's not XML. A RPSL object is a bunch of key-value pairs, with possible multiline values and comments (for example, [RIPE's files](https://ftp.ripe.net/ripe/dbase/)). Here's a simple example:
+The [Routing Policy Specification Language](https://www.rfc-editor.org/rfc/rfc2622) is a pain in the ass, but at least it's not XML. A RPSL object is a bunch of key-value pairs, with possible multiline values and comments (for example, [RIPE's files](https://ftp.ripe.net/ripe/dbase/)). Here's a simple example for format (but not validity):
 
 <!--more-->
 
@@ -95,7 +95,7 @@ foreach my $key ( keys %hash ) {
     do_field( $key, $hash{$key} );
     }
 
-# Add the
+# Add the rest of the fields
 sub do_field ( $field, $value ) {
     my $old_handle = select(STDOUT);
     local $~ = "RPSL";  # name of format to use for current filehandle
@@ -119,7 +119,7 @@ remarks:        first line
                 third line
 {% endhighlight %}
 
-Since Perl's `format` is a pre-v5 feature, it doesn't work with the things that Perl 5 gave us: lexical filehandles and variables. I have to work with the Perl 4 bareword filehandles and package variables.
+Since this is a pre-v5 feature, it doesn't work with the things that Perl 5 gave us: lexical filehandles and variables. I have to work with the Perl 4 bareword filehandles and package variables.
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vQA5aLctA0I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
