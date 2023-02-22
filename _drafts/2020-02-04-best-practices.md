@@ -27,3 +27,8 @@ What is a best practice?
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 * [Guidelines for authors submitting code & software](https://www.nature.com/documents/GuidelinesCodePublication.pdf)
 * [API Practices If You Hate Your Customers](https://queue.acm.org/detail.cfm?ref=rss&id=3375635)
+
+* https://www.linkedin.com/pulse/critique-best-practice-approaches-build-better-dont-jon/?trk=organization-update-content_share-article
+* https://www.fastcompany.com/3052222/the-problem-with-best-practices
+* https://medium.com/@danielvthornton/whats-wrong-with-best-practice-252a45868167
+* https://hbr.org/2008/04/when-are-best-practices-not-be
