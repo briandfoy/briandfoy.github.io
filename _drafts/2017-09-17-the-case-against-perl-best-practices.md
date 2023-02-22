@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
 <!--more-->
 
+* https://www.perlmonks.org/?node_id=488824
