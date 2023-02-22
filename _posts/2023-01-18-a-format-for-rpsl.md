@@ -3,7 +3,7 @@ layout: post
 title: A format for RPSL
 categories:
 tags: perl programming
-stopwords: perlform printf reselect
+stopwords: perlform printf reselect RIPE's formatter pre reimplemented
 last_modified:
 original_url:
 ---
