@@ -226,6 +226,7 @@ I started reading more about Tyson after I wrote most of this, mostly because I'
 
 ### General screw ups
 
+* [Neil deGrasse Tyson: pedantry in space](https://samkriss.com/2016/03/14/neil-degrasse-tyson-pedantry-in-space/)
 * [Neil deGrasse Tyson blows more minds with idea to prevent computer hacking](https://twitchy.com/dougp-3137/2015/01/03/neil-degrasse-tyson-blows-more-minds-with-idea-to-prevent-computer-hacking)
 * [Neil deGrasse Tyson Finally Addresses Why His Tweets Are So Bad](https://www.inverse.com/article/50672-neil-degrasse-tyson-addresses-why-his-tweets-are-bad)
 * [Neil deGrasse Tyson apologizes for tweet about mass shootings: 'I got this one wrong'](https://www.usatoday.com/story/entertainment/celebrities/2019/08/04/neil-degrasse-tyson-slammed-tweet-el-paso-dayton-shootings/1916347001/)
