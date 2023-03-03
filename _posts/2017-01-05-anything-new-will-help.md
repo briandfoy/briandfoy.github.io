@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anything new will help
-categories: programming
+categories: programming opinion
 tags: scrum scrum-master
 stopwords: ScrumMaster Bourdain Kanter's Taylorism italian
 last_modified:

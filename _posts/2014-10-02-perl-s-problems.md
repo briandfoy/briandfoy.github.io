@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Perl's Problems
-categories: opinion programming
-tags: perl tom-christiansen randal-schwartz
+categories: perl opinion programming
+tags: tom-christiansen randal-schwartz
 stopwords: CMS Tachibana notest
 last_modified:
 original_url:

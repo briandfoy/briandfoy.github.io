@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Should my Perl release process be yours?
-categories: software-lifecycle opinion rescued-content
+categories: programming perl opinion rescued-content
 tags:
 stopwords: Hampstead Haryanto Signes Zilla
 original_url: http://blogs.perl.org/users/brian_d_foy/2012/08/should-my-perl-release-process-be-yours.html

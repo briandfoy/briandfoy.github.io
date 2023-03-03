@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Autoredialing and walking phone menus
-categories: programming
-tags: perl applescript phone-tree
+categories: perl programming
+tags: applescript phone-tree
 stopwords: cH AppleEvents FaceTime StackExchange's
 last_modified:
 original_url:
@@ -112,7 +112,7 @@ while( 1 ) {
 	}
 {% endhighlight %}
 
-The clever part of that program is my use of the carriage return (`\r`) to overwrite the same time on the next go around, and my use of the backspace (`\cH`, the control character represented by `H`) to overwrite the countdown timer.
+The clever part of that program is my use of the carriage return (`\r`) to overwrite the same line on the next go around, and my use of the backspace (`\cH`, the control character represented by `H`) to overwrite the countdown timer.
 
 <video class="center" width="436" height="226" autoplay>
   <source src="/images/phone_menu_automation/PhoneTree.mp4" type="video/mp4">

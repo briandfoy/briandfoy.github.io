@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books I want to write
-categories: uncategorized
+categories: writing
 tags: books programming
 stopwords: numpy PDL
 last_modified:

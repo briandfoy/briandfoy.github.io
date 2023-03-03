@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My Perl 6 Talking Points
-categories: programming opinion
-tags: perl6 raku rescued-content
+categories: programming raku
+tags: raku rescued-content
 stopwords: raku
 ---
 

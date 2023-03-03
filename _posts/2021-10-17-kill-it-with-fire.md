@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Notes on Kill It With Fire
-categories: software-lifecycle
+categories: book-review programming
 tags: legacy
 stopwords: px Etsy's href img js br Bellotti's
 last_modified:

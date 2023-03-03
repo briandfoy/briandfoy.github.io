@@ -2,7 +2,7 @@
 layout: post
 title: How far is the cloud?
 categories: numeracy
-tags: star-trek cloud spheres numeracy
+tags: star-trek cloud spheres
 stopwords: DarkTime V'ger's rager nerdist
 last_modified:
 original_url:

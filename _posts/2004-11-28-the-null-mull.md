@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Null Mull
-categories: programming
-tags: design-patterns perl rescued-content perlmonks
+categories: perl programming
+tags: design-patterns rescued-content perlmonks
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=410871

@@ -14,7 +14,7 @@ What is "legacy" code? Or, what makes some code "legacy" and other code not? I l
 
 A label is only good in so far as it distinguishes one thing from another. If everything is the same, you don't need a label. It's once we start to categorize things that we recognize finer distinctions and make finer labels.
 
-Consider the English word "apple". You think you know what that is, and you and I probably would agree on something's apple-ness if a piece of fruit were placed in front of us. But, English's use of "apple" is much narrower than its beginnings. It used to mean any fruit, aside from berries. Some fruits then needed additional disambiguation—"pineapple" for instance, or "apples of paradise" (bananas), or "golden apples" (oranges).
+Consider the English word "apple". You think you know what that is, and you and I probably would agree on something's apple-ness if a piece of fruit were placed in front of us. But, modern English's use of "apple" is much narrower than its beginnings. It used to mean any fruit, aside from berries. Some fruits then needed additional disambiguation—"pineapple" for instance, or "apples of paradise" (bananas), or "golden apples" (oranges). Freia, the keeper of the golden apples for the gods in Wagner's Ring cycle, is often protrayed handing out gold painted modern apples instead of oranges, which would make more sense as a food for the immortals.
 
 Philosophy has three parts, roughly, that help us observe the world, figure out what we see, then make decisions based on that. When we are talking about what an idea means and consequence that idea has, we are essentially in the realm of philosophy:
 
@@ -38,7 +38,7 @@ StackOverflow has several answers for [What makes code legacy?](https://stackove
 * Code written last week
 * Code that you'd rather replace
 
-These are hardly worth dispelling, but in a later section I lay out the logic that easily dispatches them. In short, that says more about the practitioner than the product. This is that religiosity; surely *I* would never write such code, but other people do.
+These are hardly worth dispelling, but in a later section I lay out the logic that easily dispatches them. In short, that says more about the practitioner than the product. There are religiosity on display; surely *I* would never write such code, but other people do.
 
 ### The less flippant
 
@@ -55,7 +55,7 @@ Software Engineering StackExchange site's [When is code "legacy"?](https://softw
 
 > In some cases there's nothing wrong with legacy code. It's not a bad word. Legacy code/systems are not Evil. They've just collected some dust - sometimes a little, sometimes a lot.
 
-That answer is ultimately unsatisfying because it presents contradictory definitions that skirt the issue. The first definition says that it's legacy if its used in production, but the second then qualifies that. That last statement equivocates a bit.
+That answer is ultimately unsatisfying because it presents contradictory definitions that skirt the issue. The first definition says that it's legacy if it's used in production, but the second then qualifies that. That last statement equivocates a bit.
 
 ### Michael C. Feathers
 
@@ -71,7 +71,7 @@ What's understandable? What does that even mean? The best definition of "underst
 
 Here's the rub, though. Not many people are skilled practitioners. Many people in the software industry get by with cut-and-paste and luck. Not only do they not understand their tools, they don't care to. It's the same with their problem domain. How many programmers do you know who would talk to a customer (or co-worker) to see what they need? Maybe you know some, but when you consider all of the programmers whom you have met, how often is that true?
 
-Now consider the counter case. You have a talented but unskilled junior programmer who is starting to learn their tools and is new to the problem domain. They have the aptitude but not the experienced. They are motivated to learn. Does that make the enterprise code they see in source control any easier to understand? Does that junior programmer's comfort level change the quality of the code?
+Now consider the counter case. You have a talented but unskilled junior programmer who is starting to learn their tools and is new to the problem domain. They have the aptitude but not the experience. They are motivated to learn. Does that make the enterprise code they see in source control any easier to understand? Does that junior programmer's comfort level change the quality of the code?
 
 But what about the burnt-out greybeard sitting next them who knows every corner of the code, has been with the same company for a couple decades, and is friends with people in the non-tech departments. They are well-versed in the problem domain and know their tools. They can fix any problem that comes up in the same day. Is that code difficult to understand or difficult to change? Not for them it isn't. Does that make it not legacy?
 
@@ -101,7 +101,7 @@ The rest of his book is very much like [Design Patterns](https://amzn.to/3fXZQo9
 
 ### The saga of Text Template
 
-Mark Jason Dominus is the original author of the Perl module [Text::Template](https://metacpan.org/pod/Text::Template), a no-frills, small template processing module. I've used it in tiny projects where I didn't need anything fancier. He's also the author of perhaps the best book ever written about the language, [Higher Order Perl](https://hop.perl.plover.com). Talk to him and he's likely so casually drop references about ML into the conversation. And then a week later you think "Holy shit! My whole life has been wrong!"
+Mark Jason Dominus is the original author of the Perl module [Text::Template](https://metacpan.org/pod/Text::Template), a no-frills, small template-processing module. I've used it in tiny projects where I didn't need anything fancier. He's also the author of perhaps the best book ever written about the language, [Higher Order Perl](https://hop.perl.plover.com). Talk to him and he's likely so casually drop references about ML into the conversation. And then a week later you think "Holy shit! My whole life has been wrong!"
 
 In his [Twelve Views of Mark Jason Dominus](https://perl.plover.com/yak/12views/samples/notes.html) talk, he writes that his modest module has reached its goal, but that was not enough.
 
@@ -139,7 +139,7 @@ Dictionaries tend to be a hazardous place to find definitions, even when they do
 
 Oxford Dictionaries has a restrictive clause that requires the software to have been superseded. That doesn't quite square with other definitions of legacy which imply a continuation of something, such as a deceased rich person's continued influence through a foundation.
 
-Dictionary.com requires the software to not work well with up to date systems. That's a bit more tricky. What does up to date mean? Have you updated your Linux box today, even though you did so yesterday? What if you have a planned upgrade cycle of several months so you aren't constantly responding to the whims of your platform, but save that for part of the business cycle that allows for some breathing room? How long can that period be? Is this like a new car, which loses most of its value when you drive it off the lot? What if it has always been the same people involved?
+Dictionary.com requires the software to not work well with up-to-date systems. That's a bit more tricky. What does up-to-date mean? Have you updated your Linux box today, even though you did so yesterday? What if you have a planned upgrade cycle of several months so you aren't constantly responding to the whims of your platform, but save that for part of the business cycle that allows for some breathing room? How long can that period be? Is this like a new car, which loses most of its value when you drive it off the lot? What if it has always been the same people involved?
 
 Merriam Webster places their definition in time. It doesn't remark on the quality or appropriateness of the idea or object.
 
@@ -147,7 +147,7 @@ Merriam Webster places their definition in time. It doesn't remark on the qualit
 
 Remember that the main assertion from Feathers was that legacy code is code without "tests". He admits it's a facile description suited to his purpose. But, let's go there. I think tests actually create legacy code. Some of the major code that runs the world has tests, and those are legacy too.
 
-I've lived and worked through many testing fads. Test Driven Development was a big one and I half used it. People forget that your testing strategy has to be designed for your process. If an aerospace company hands me a completely written specification, I can write the tests first because I already know the expected outputs. I have no say in that. However, if I'm a startup with no idea where I might end up, I can start with tests.
+I've lived and worked through many testing fads. Test Driven Development was a big one and I half used it. People forget that your testing strategy has to be designed for your process. If an aerospace company hands me a completely written specification, I can write the tests first because I already know the expected outputs. I have no say in that. However, if I'm a startup with no idea where I might end up, I can start with tests but I'm not bound by them.
 
 So here's the problem. I offer to you the idea that tests do more to lock in code than the code does itself. People who put in a significant amount of time testing their codebase are loathe to change the tests. Consider the monstrosity that is RSpec. I'll simply point you to Joe Ferris's [Let's Not](https://thoughtbot.com/blog/lets-not) who comes up with this code:
 
@@ -198,9 +198,9 @@ So, if Feathers says that legacy code is code without tests and I say it's code 
 
 This is not necessarily bad, and it's not a property of the code itself. It's something we assign to code based on externalities. It's a mix of art (politics) and science (economics), but at its heart, it's also an existential question of survival.
 
-First, consider the political will to do something. I've found that this is largely unrelated to the merit of that something. Politics is the art of compromises, and those competing factors often have nothing to do with code quality. The problem however, it's rare that the decisions about the quality of the code because that's not why the code exists.
+First, consider the political will to do something. I've found that this is largely unrelated to the merit of that something. Politics is the art of compromises, and those competing factors often have nothing to do with code quality. The problem however, it's rare that the decisions are made based on the quality of the code because that's not why the code exists. More pointedly, people may think that replacing the prior code with new code will improve quality, but that's merely hopeful thinking.
 
-Second, there's the will to commit or consume resources to any venture. Economics is, after all, the science of scarce resources. Given an infinite supply of qualified and competent programmers, an unlimited budget, and access to all the fancy hardware you desire, you can completely rewrite whatever you want to get new code that's as beautiful and performant as you desire.
+Second, there's the will to commit or consume resources to any particular venture. Economics is, after all, the science of the allocation of scarce resources. Given an infinite supply of qualified and competent programmers, an unlimited budget, and access to all the fancy hardware you desire, you can completely rewrite whatever you want to get new code that's as beautiful and performant as you desire.
 
 But, what I hear from almost all of my friends hiring programmers, no matter the language, is that hundreds of résumés lead to a handful of interviews. In that handful of interviews, it's slim pickings. This is a topic for a different post, but if you have to advertise for a job and accept whoever shows up, you're already on the losing end. I've almost always hired people away from situations that they hadn't considered leaving. And now you can't hire anyone away from Google; those people just disappear from the world.
 

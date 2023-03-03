@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Format command output instead of parsing it
-categories: programming
-tags: git nmcli perl command-line 10x
+categories: perl programming command-line
+tags: git nmcli 10x
 stopwords:
 last_modified:
 original_url:

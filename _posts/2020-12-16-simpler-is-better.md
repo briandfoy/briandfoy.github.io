@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simpler is Better
-categories: uncategorized
+categories: technology
 tags: thermometers
 stopwords: Govee LLL Siri luddite tri
 last_modified:

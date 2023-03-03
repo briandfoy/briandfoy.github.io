@@ -2,7 +2,7 @@
 layout: post
 title: I dumped GMail
 categories: technology
-tags:
+tags: gmail google-plus
 stopwords: Arendt's Budaev Carlota Compuserve FastMail GCal Geocities Hollyfield IMAP Lazlo Maps's Schoolman Sergey comsumers de facto mak naïve organiz pobox slimey
 last_modified:
 original_url:

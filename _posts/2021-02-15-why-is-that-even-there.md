@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why is that even there?
-categories: programming
+categories: perl programming
 tags: code-review
 stopwords:
 last_modified:

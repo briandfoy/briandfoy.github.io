@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Check all you want, but the data are useless
-categories: productivity
+categories: personal-history productivity
 tags: graduate_school tcl expect poisoning-the-well
 stopwords: pre
 last_modified:

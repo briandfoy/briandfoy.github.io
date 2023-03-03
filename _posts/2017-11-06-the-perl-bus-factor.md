@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Perl Bus Factor
-categories: software-lifecycle opinion
-tags: ruby pause perl
+categories: perl programming opinion
+tags: ruby pause
 stopwords: Klint
 last_modified:
 original_url:

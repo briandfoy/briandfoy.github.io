@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The New Sadism
-categories: programming
-tags: perl
+categories: perl programming
+tags:
 stopwords: Slavoj Žižek's fanfic
 last_modified:
 original_url:

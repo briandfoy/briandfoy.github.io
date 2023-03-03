@@ -27,7 +27,7 @@ I'm not too bothered by that, and it was a nice ride while it lasted. Things don
 So, here's what I did. Most of it is finding the different places in GitHub where I allowed Travis access. I started putting this together once I realized that I had several things to do, and you might want to go through all the steps too:
 
 * removed the *.travis.yml* file and Travis badges from all of my projects
-* turned off all repo in my Travis dashboard
+* turned off all repos in my Travis dashboard
 * turned off Travis in the personal section of my GitHub account ("Applications")
 * turned off Travis in the Third-Party Access section for all of my organizations
 * removed my Travis API key from by various environment files and secrets

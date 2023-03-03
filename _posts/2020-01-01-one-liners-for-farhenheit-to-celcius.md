@@ -1,8 +1,8 @@
 ---
 layout: post
 title: One-liners for Farhenheit to Celcius
-categories:
-tags:
+categories: command-line perl
+tags: bash
 stopwords: bc ssl
 last_modified:
 original_url:

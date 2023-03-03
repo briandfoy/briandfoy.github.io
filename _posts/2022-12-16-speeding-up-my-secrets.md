@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Speeding up my secrets
-categories:
-tags: macOS secrets bash
+categories: macos
+tags: secrets bash
 stopwords: mtime precompute
 last_modified:
 original_url:
 ---
 
-In [Putting environment values in the keychain](), I showed how I use the macOS keychain to store passwords and then read those into my shell's environment. It worked, but it's also a bit annoying; every time I start a new interactive shell, I have to wait five seconds for it all to happen. Now I've fixed that.
+In [Putting environment values in the keychain](/putting-environment-values-in-the-keychain/), I showed how I use the macOS keychain to store passwords and then read those into my shell's environment. It worked, but it's also a bit annoying; every time I start a new interactive shell, I have to wait five seconds for it all to happen. Now I've fixed that.
 
 <!--more-->
 

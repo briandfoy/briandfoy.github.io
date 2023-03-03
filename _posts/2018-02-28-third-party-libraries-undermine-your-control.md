@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Third-party libraries undermine your control
-categories: programming
-tags: perl cpan
+categories: perl programming
+tags: cpan
 stopwords: cpanfile
 last_modified:
 original_url:

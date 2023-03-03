@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Rescuing Future Folk from my iPhone
-categories: programming
-tags: apple music dropbox iphone
+categories: technology
+tags: apple music dropbox iphone synology
 stopwords: peasy Dalrymple's
 last_modified:
 original_url:
 ---
+**UPDATE: I replaced Dropbox with a Synology array that sits in my office. I can still get to things from outside my network with Quickconnect, and that's been just fine. I paid about $600 for the Synology and that will pay for itself in three years of my Dropbox plan.**
 
 I think Dropbox has corrupted a bunch of my files. I don't care enough to verify the culprit, but this only happened under _~/Dropbox_ and not under my iCloud, Google Drive, or local directories. I went to investigate, restore from backup, and otherwise replace. But, I find some of my favorite music is borked.
 

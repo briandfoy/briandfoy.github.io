@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Why you have problems with object orientation
-categories: programming
-tags: perl smalltalk object-orientation
+categories: perl programming
+tags: smalltalk object-orientation
 stopwords: Magna Carta Cincom Cor's DateOlderThan Leapseconds ORMs Smalltalk's fullstack uncloned MVC webservers
 last_modified:
 original_url:
@@ -127,7 +127,7 @@ Cincom has a nice introduction to the ideas in [
 Smalltalk User's Guide](http://www.cincomsmalltalk.com/pub/cstnc/ostudio/osnc6.9.old/OS_Smtlk.pdf). Alan Kay's original concept didn't focus on the objects. He was more concerned with [sending messages between objects](http://wiki.c2.com/?AlanKayOnMessaging). Eric Elliott nicely
 provides the context in [The Forgotten History of OOP](https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f).
 
-If you want to use object-oriented programming in Perl, read Damian Conway's [Object Oriented Perl](https://www.manning.com/books/object-oriented-perl). You should already know Perl, though. We teach the syntax and mechanics in [Intermediate Perl](https://www.intermediateperl.com), but Damian teaches the ideas. Likewise, Mark Jason Dominus teaches functional programming in [Higher Order Perl]().
+If you want to use object-oriented programming in Perl, read Damian Conway's [Object Oriented Perl](https://www.manning.com/books/object-oriented-perl). You should already know Perl, though. We teach the syntax and mechanics in [Intermediate Perl](https://www.intermediateperl.com), but Damian teaches the ideas. Likewise, Mark Jason Dominus teaches functional programming in [Higher Order Perl](https://hop.perl.plover.com).
 
 ### Recognize object orientation
 
@@ -141,7 +141,20 @@ Here are these principles, greatly simplified. When you are looking at something
 * Inheritance - you can make more specific versions of something while reusing the code from the general case
 * Polymorphism - similar things can act the same without the code knowing their differences
 
-For what it's worth, I don't see anything in Cor that makes any of these easier or better in Perl. I don't see anything that is going to help people employ these ideas any better than they are doing now. I do see an extra layer of syntax.
+But consider this. Cor is overly-focussed on Encapsulation. This has severe drawbacks. It seems like a good idea when you have a simple collection of object types with uncomplicated relationships, but it otherwise gets tricky. Watch Brian Will's "Object Orientation is bad" talk:
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QM1iUe6IofM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+And maybe follow it up with him looking at some code from people's public talks:
+
+<div class="youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IRTfhkiAqPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+For what it's worth, I don't see anything in Cor that makes any of these precepts easier or better in Perl. I don't see anything that is going to help people employ these ideas any better than they are doing now. I do see an extra layer of syntax, and that extra layer is the devil in the details.
 
 Take, for instance, [Hash::AsObject](https://www.metacpan.org/pod/Hash::AsObject). This is a handy module that turns hash keys into method names on that hash:
 
@@ -151,14 +164,22 @@ use Hash::AsObject;
 my $hash = Hash::AsObject->new( 'otter' => 'lutris' );
 print $hash->otter;
 $hash->otter( 'Enhydra' );
+$hash->{otter} = 'Lutra';
 {% endhighlight %}
 
 This is practically the same thing as a C struct. Does it deal with any of those four items? Nope. It's just a bag of data. I can see everything, change anything, and I know it's exactly a hash. I can use [Hash::AsObject](https://www.metacpan.org/pod/Hash::AsObject) as a base class and override some methods, but that doesn't really improve anything.
 
-However, many people use objects as Bags of data. They put in some data and they take out some data. However, there a few other things that you want to know when you get and give data:
+The point of this code is not to completely encapsulate something; that's almost entirely a secondary (or lower) goal. People don't build useful tools around the idea that their code will be purely encapsulated. They build tools to get a particular task done better than it has been done before. Encapsulation is what we might call "first world problems".
+
+## Bags of data
+
+Many people use objects as Bags of data. They put in some data and they take out some data. Perl's blessed hashes are essentially that idea. But that's not the point of objects, which have behavior. Interesting objects have behavior that is more interesting than simply representing the existing data in some new way.
+
+There a few other things that you want to know when you get and give data:
 
 * Are these data valid?
 * Are they valid for this context?
+* Does anything else need to change when this changes?
 
 The setter method isn't there to primarily to store the data. It's the traffic cop that ensures you are following the rules and what you are doing makes sense. If it makes sense, the inner working continues, and otherwise the traffic cop complains. That's the primary job of the setter.
 

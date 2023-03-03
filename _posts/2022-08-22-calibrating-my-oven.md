@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Calibrating my oven
-categories: thermometers
-tags: oven
+categories: technology
+tags: oven thermometer
 stopwords: Govee Yacumama rangetop
 last_modified:
 original_url:

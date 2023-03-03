@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The library assignment
-categories: numeracy
+categories: numeracy personal-history
 tags: chemistry graduate_school
 stopwords: Lange's copyeditors ramped
 last_modified:

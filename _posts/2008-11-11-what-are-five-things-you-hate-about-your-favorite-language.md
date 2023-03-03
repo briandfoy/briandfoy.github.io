@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What are five things you hate about your favorite language?
-categories:
+categories: programming opinion
 tags:
 stopwords: reposted
 last_modified:

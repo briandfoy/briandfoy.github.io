@@ -1,8 +1,8 @@
 ---
 layout: post
 title: IPv4 conversion aliases
-categories: programming command-line
-tags: ipv4 perl bash
+categories: perl programming command-line
+tags: ipv4 bash
 stopwords: ipv PostgreSQL
 ---
 

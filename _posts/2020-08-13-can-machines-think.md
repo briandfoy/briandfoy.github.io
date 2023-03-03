@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Can Machines Think?
-categories: uncategorized
+categories: technology
 tags: feynman
 stopwords: Broderick Eurisko's Gladwell Ranadivé Sheedy SkyNet Vivek WOPR cancelled grandmaster intuitional nerf outsized pre un
 last_modified:
 original_url:
 ---
 
-Can machines think? Sure, but do you want the solutions they come up with? Consider *Terminator*. SkyNet decided that the solution to the problem was to kill all humans.
+Can machines think? Sure, but do you want the solutions they come up with? Consider *Terminator*: SkyNet decided that the solution to the problem was to kill all humans.
 
 <!--more-->
 

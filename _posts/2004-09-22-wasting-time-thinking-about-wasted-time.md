@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Wasting Time Thinking About Wasted Time
-categories: programming
-tags: rescued-content perl perlmonks perl
+categories: perl programming
+tags: rescued-content perlmonks benchmarking
 stopwords: pre timethese
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=393128

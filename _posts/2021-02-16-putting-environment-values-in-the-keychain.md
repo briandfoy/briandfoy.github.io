@@ -16,8 +16,7 @@ I do the same stupid but expedient things that most people probably do. I write 
 export SOME_API_KEY=abcdeadbeef
 {% endhighlight %}
 
-If I lose my laptop, all that's easily compromised once someone opens
-a terminal.
+If I lose my laptop, all that's easily compromised once someone opens a terminal.
 
 But, good news everyone! I got far enough down my to do list that I've fixed this. I can put all that in a secure keychain. Here I'll do this on macOS.
 

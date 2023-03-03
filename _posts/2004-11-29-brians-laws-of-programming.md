@@ -1,8 +1,8 @@
 ---
 layout: post
 title: brian's Laws of Programming
-categories: programming
-tags: programming
+categories: programming opinion
+tags:
 stopwords:
 last_modified:
 original_url:

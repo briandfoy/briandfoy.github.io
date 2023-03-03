@@ -1,8 +1,8 @@
 ---
 layout: post
 title: When should I use the & to call a Perl subroutine?
-categories: programming
-tags: perl
+categories: perl programming
+tags: subroutines
 stopwords: perlers href unrare
 last_modified:
 original_url: https://stackoverflow.com/a/1348945/2766176

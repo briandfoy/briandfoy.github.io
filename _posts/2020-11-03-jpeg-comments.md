@@ -2,7 +2,7 @@
 layout: post
 title: JPEG comments
 categories: command-line
-tags: jpeg
+tags: jpeg exiftool
 stopwords: exiftool
 last_modified:
 original_url:

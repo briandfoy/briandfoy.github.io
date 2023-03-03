@@ -9,9 +9,7 @@ original_url:
 usemathjax: true
 ---
 
-Quake III has a super-optimized, good-enough [inverse square algorithm](https://en.wikipedia.org/wiki/Fast_inverse_square_root). As
-a graphical game, they need millions and millions of these operations so
-it better be fast.
+Quake III has a super-optimized, good-enough [inverse square algorithm](https://en.wikipedia.org/wiki/Fast_inverse_square_root). As a graphical game, they need millions and millions of these operations so it better be fast.
 
 <!--more-->
 
@@ -19,17 +17,13 @@ $$
 f(x) = \frac{1}{\sqrt{x}}
 $$
 
-The first pass in code is easy. Take the square root and divide one
-by it:
+The first pass in code is easy. Take the square root and divide one by it:
 
 {% highlight cpp %}
 y = 1 / sqrt(x);
 {% endhighlight %}
 
-But, that `sqrt(x)` is not that fast, or, more properly, not fast
-enough for Quake's purposes (because "fast" only matters when you have
-an expectation). Division isn't a speedy operation either. The
-developers had to come up with something faster.
+But, that `sqrt(x)` is not that fast, or, more properly, not fast enough for Quake's purposes (because "fast" only matters when you have an expectation). Division isn't a speedy operation either. The developers had to come up with something faster.
 
 Here's the code from Quake:
 
@@ -52,42 +46,24 @@ float Q_rsqrt( float number )
 }
 {% endhighlight %}
 
-Here's a discussion of it on YouTube, and mostly what I'm about to
-write. Wikipedia explains it, for I found it's discussion very dense
-and convoluted. I think this YouTube video does a much better job, but
-there were times he asks the viewer to work it out for themselves. So,
-that's what I'm here to do. Plenty of people have written about this
-before, and you won't find anything new here.
+Here's a discussion of it on YouTube, and mostly what I'm about to write. Wikipedia explains it, for I found its discussion very dense and convoluted. I think this YouTube video does a much better job, but there were times he asks the viewer to work it out for themselves. So, that's what I'm here to do. Plenty of people have written about this before, and you won't find anything new here.
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p8u_k2LIZyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-The algorithm plays various clever, deep-magic tricks with bits to
-make everything work out.
+The algorithm plays various clever, deep-magic tricks with bits to make everything work out.
 
-First, notice that `i` is a long and that `y` is float. Each is 32
-bits, but the computer uses those bits differently. Notice that the
-code puts the value in `number` in `y`, a `float`, but then translate
-it to a `long`.
+First, notice that `i` is a long and that `y` is float. Each is 32 bits, but the computer uses those bits differently. Notice that the code puts the value in `number` in `y`, a `float`, but then translates it to a `long`.
 
-The rest of the magic comes from knowing things about the bit patterns
-and messing with those. Reading [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
-may be helpful here, but it's far more than you need. Here's what a IEEE 754
-float looks like:
+The rest of the magic comes from knowing things about the bit patterns and messing with those. Reading [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html) may be helpful here, but it's far more than you need. Here's what a IEEE 754 float looks like:
 
     sign   exponent (E) mantissa (M)
     0      00000000     00000000000000000000000
 
-The exponent is signed to give us values from -127 to 128, and the
-mantissa is a value between 1 and 2 (because, in binary exponential
-notation, the leading one is assumed: it's the only possible non-zero
-value).
+The exponent is signed to give us values from -127 to 128, and the mantissa is a value between 1 and 2 (because, in binary exponential notation, the leading one is assumed: it's the only possible non-zero value).
 
-For some value, the bit pattern is $2^{23}E$ (to shift the exponent
-into the right place) added to whatever is in $M$. That's $2^{23}E+M$.
-That's just to make the right sequence of bits appear, manually,
-without something else constructing that for us.
+For some value, the bit pattern is $2^{23}E$ (to shift the exponent into the right place) added to whatever is in $M$. That's $2^{23}E+M$. That's just to make the right sequence of bits appear, manually, without something else constructing that for us.
 
 The actual number works out to be:
 
@@ -140,7 +116,7 @@ long (`i  = * ( long * ) &y`) by telling C to treat the 32 bits
 starting at address `&y` as a `long`. So, `i` had the value of
 $log(y)$ (still without scaling and shifting).
 
-Consider what we are trying to get, noticing that working in
+Consider what we are trying to get—working in
 logarithms has some big wins. The value we want is minus one half of
 the logarithm of the input number. And, we know what the log of that
 input number is already:
@@ -170,14 +146,11 @@ log( \Gamma ) &= -\frac{1}{2} log(y)       \\
 \end{align*}
 $$
 
-That magic `0x5f3759df` comes from trial and error and decades of
-fooling around with this algorithm. It's basically an approximation of
-$\sqrt{2^127}$.
+That magic `0x5f3759df` comes from trial and error and decades of fooling around with this algorithm. It's basically an approximation of $\sqrt{2^127}$.
 
 To get back to the floating point value, reverse the bit magic by
 reading 23 bits from the address `i` and treating it as a `float`:
-`y = * ( float * ) &i`. That's almost the answer. It's not exact, but we
-can send it through a single iteration of Newton's Method:
+`y = * ( float * ) &i`. That's almost the answer. It's not exact, but we can send it through a single iteration of Newton's Method:
 
 $$
 y_1 = y_0 - \frac{f(y_0)}{f'(y_0)}
@@ -194,8 +167,7 @@ y^2               &= \frac{1}{n}         \\
 \end{align*}
 $$
 
-So, $f(y) = \frac{1}{y^2} - n = 0$. The derivative of that is
-$f'(y) = -\frac{2}{y^3}$.
+So, $f(y) = \frac{1}{y^2} - n = 0$. The derivative of that is $f'(y) = -\frac{2}{y^3}$.
 
 $$
 \begin{align*}
@@ -209,13 +181,9 @@ y_1 &= y_0 ( \frac{3}{2} - \frac{n}{2} y_0 y_0 )
 \end{align*}
 $$
 
-That last line looks like the expression `y = y * ( threehalfs - ( x2 * y * y ) )`
-since `x2 = number * 0.5F`.
+That last line looks like the expression `y = y * ( threehalfs - ( x2 * y * y ) )` since `x2 = number * 0.5F`.
 
-That line is repeated (but commented) because one iteration of Newton's
-Method is close enough. And, notice that even though it looks like there
-are divisions, there are no divisions. Those are constants that we've
-previously set up.
+That line is repeated (but commented) because one iteration of Newton's Method is close enough. And, notice that even though it looks like there are divisions, there are no divisions. Those are constants that we've previously set up.
 
 ## Further reading
 

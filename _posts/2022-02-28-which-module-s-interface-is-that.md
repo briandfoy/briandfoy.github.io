@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Which module's interface is that?
-categories:
+categories: opinion programming perl
 tags:
 stopwords: AnyDBM distro https pre prereq lifecycle
 last_modified:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Another sign of the coming Dark Ages
-categories: technology
-tags: macos
+categories: technology macos
+tags:
 stopwords: Bittman's Curation QAnon's curation href nerded nerf pre img
 last_modified:
 original_url:

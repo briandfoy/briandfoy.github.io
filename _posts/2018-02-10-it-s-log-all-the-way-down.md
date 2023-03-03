@@ -1,7 +1,7 @@
 ---
 layout: post
 title: It's log all the way down
-categories: programming
+categories: perl programming
 tags: logarithms
 stopwords: ULP glibc ivln libm
 last_modified:
@@ -12,7 +12,7 @@ I read [A Logarithm Too Clever by Half](https://people.eecs.berkeley.edu/~wkahan
 
 <!--more-->
 
-So I was curious how far Perl would be. These things measure themselves in ULP (units in last place). There's some precision that these functions have based on the number of bits they are able to use, and the path that final number can lose accuracy in each step.
+So I was curious how far off Perl would be. These things measure themselves in ULP (units in last place). There's some precision that these functions have based on the number of bits they are able to use, and the path that final number can lose accuracy in each step.
 
 This is one of those things that Computer Scientists can geek out about, but for which most of us don't really care. Even with the inaccuracy, most of us probably don't care. Even if you are reading this, you probably don't care.
 

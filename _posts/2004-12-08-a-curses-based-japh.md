@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A curses-based japh
-categories: programming
-tags: rescued-content perl japh video
+categories: perl programming
+tags: rescued-content japh video
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=413324

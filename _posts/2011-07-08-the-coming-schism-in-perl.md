@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The coming schism in Perl
-categories: programming opinion rescued-content
-tags: history legacy opinion perl chip-salzenberg
+categories: programming opinion perl
+tags: chip-salzenberg
 stopwords: Allbery CVEs Gurusamy beancounters blead downstreams mindshare raison rsyncing wikilawyering
 ---
 

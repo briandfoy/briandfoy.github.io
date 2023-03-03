@@ -1,8 +1,8 @@
 ---
 layout: post
 title: A CPAN distroprefs example
-categories: perl cpan
-tags:
+categories: perl
+tags: cpan
 stopwords: Distroprefs circumfix dereferences
 last_modified:
 original_url: https://stackoverflow.com/a/72807390/2766176

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: I hold my pen differently
-categories:
-tags:
+categories: technology
+tags: taylor-swift pen
 stopwords: Kylee Kylee's Quora Spotify fanbase
 last_modified:
 original_url:

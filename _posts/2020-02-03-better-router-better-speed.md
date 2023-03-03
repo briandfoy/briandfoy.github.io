@@ -2,7 +2,7 @@
 layout: post
 title: Better router, better speed
 categories: nyc-mesh
-tags: nyc-mesh
+tags:
 stopwords: tp
 last_modified:
 ---

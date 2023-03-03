@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Neil deGrasse Tyson fails at science
-categories: uncategorized
-tags: science neil-degrasse-tyson
+categories: science
+tags: neil-degrasse-tyson
 stopwords: Fleischman François Ph Pons Rogan's assholishness Maslak Morrisseau Orson Wittman's backgroundy deGrasse hoi polloi experimentalists MoMA's catalogues href synesthesia Photoshoppers explainers Mumler Cousteau
 last_modified:
 original_url:

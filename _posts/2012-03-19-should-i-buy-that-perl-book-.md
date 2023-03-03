@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Should I buy that Perl book?
-categories: programming rescued-content
+categories: perl programming rescued-content opinion
 tags: catalyst economics
 stopwords: Champoux Diment GOTO IPAs Kieren Perlers Yanick's groupthink href px
 last_modified:

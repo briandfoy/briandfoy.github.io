@@ -17,34 +17,22 @@ is about
 
 ## Aggregate, Aggregate, Aggregate
 
-Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that [NetNewsWire 5](https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/) came out a couple of months ago! This is about
-a year after [Black Rock officially gave up](https://medium.com/bpxl-craft/the-future-of-netnewswire-8fc999387a8a) after years
-of stagnation. It turns out that I don't use the new NetNewsWire because its interface is in three columns and can't show as much information as the old, still working version. (In 2021, I switched to
-[ViennaRSS](https://www.vienna-rss.com), which is much of the same thing).
+Lately when I think of my RSS reader (the no longer supported NetNewsWire)- no, wait a minute! Checking my sources like a good writer I see that [NetNewsWire 5](https://www.macstories.net/reviews/netnewswire-review-the-mac-rss-client-rebooted-with-a-solid-foundation-for-the-future/) came out a couple of months ago! This is about a year after [Black Rock officially gave up](https://medium.com/bpxl-craft/the-future-of-netnewswire-8fc999387a8a) after years of stagnation. It turns out that I don't use the new NetNewsWire because its interface is in three columns and can't show as much information as the old, still working version. (In 2021, I switched to [ViennaRSS](https://www.vienna-rss.com), which is much of the same thing).
 
 Back to the story.
 
-I try to collect everything I want to read into my RSS Aggregator—Tech, News, whatever. I even have a program that turns some Twitter
-feeds into RSS. I go to one place for all of this.
+I try to collect everything I want to read into my RSS Aggregator—Tech, News, whatever. I even have a program that turns some Twitter feeds into RSS. I go to one place for all of this.
 
 
 ## Don't read everything right away
 
-I don't read most of the stuff I aggregate though. I skim and filter.
-Some things end up in Safari's Reading List, and some things end up
-in Reminders.
+I don't read most of the stuff I aggregate though. I skim and filter. Some things end up in Safari's Reading List, and some things end up in Reminders.
 
-In the Digitacene, we've lost an important and serendipitous way
-of educating ourselves. The direct access to information means that
-we hardly ever have to scan and filter. That's an important process
-for context and discovery though.
+In the Digitacene, we've lost an important and serendipitous way of educating ourselves. The direct access to information means that we hardly ever have to scan and filter. That's an important process for context and discovery though.
 
-How many kids today have to pull out a paper dictionary to look up a
-word? Surely much fewer than it used to be. I can directly look up a word by simply googling it (so not even a dictionary app).
+How many kids today have to pull out a paper dictionary to look up a word? Surely much fewer than it used to be. I can directly look up a word by simply googling it (so not even a dictionary app).
 
-It's the same with what I decide to read. How did I select those things? I scanned lists of of what's out there and chose the ones
-interesting to me. That's much different that taking a single link
-from a social media post.
+It's the same with what I decide to read. How did I select those things? I scanned lists of of what's out there and chose the ones interesting to me. That's much different that taking a single link from a social media post.
 
 ## Reading List
 

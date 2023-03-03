@@ -1,8 +1,8 @@
 ---
 layout: post
 title: More number base conversions on the command line
-categories: programming command-line
-tags: perl bash aliases base-36
+categories: perl programming command-line
+tags: bash aliases base-36
 ---
 
 Here are some more number conversion aliases to go with [/base-conversions]. Sometimes I need to deal with Base-36, which includes the normal decimal digits then the 26 letters from the Latin alphabet. Think of Base-16 that didn't stop at F.

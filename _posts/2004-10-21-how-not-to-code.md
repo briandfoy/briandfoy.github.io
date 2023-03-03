@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How not to code
-categories: programming
-tags: rescued-content opinion
+categories: programming opinion
+tags: rescued-content
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=401293

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Stack Exchange clickbait "editor war"
-categories: programming
-tags: opinion
+categories: programming opinion
+tags:
 stopwords: Biggs Tindall finnicky ist th regurgitations lites StackOverflow's de facto
 last_modified:
 original_url:
@@ -14,7 +14,7 @@ original_url:
 
 In [Modern IDEs are magic. Why are so many coders still using Vim and Emacs?](https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs), the writers John Biggs and Ryan Donovan go a long way to offend and patronize programmers "of a certain generation" in an effort to promote IDEs (but not a particular IDE). They're kicking a sleeping dog for no good reason.
 
-At first I thought this was an April Fools / Onion style article. I can see where they are trying to make jokes, and, having been around comics, I've been told that's the worst feedback. "I can see what you were trying to do there" explains that not only did it fail, but the mechanics were apparent. The content and the mechanism failed.
+At first I thought this was an April Fools / Onion style article. I can see where they are trying to make jokes, and, having been around comics, I've been told that's the worst feedback: "I can see what you were trying to do there" explains that not only did it fail, but the mechanics were apparent. Both the content and the mechanism failed.
 
 My advice about code editors is simple and disinterested: use whatever you want as long as it doesn't force anyone else to use what you want. Along with that, try different editors throughout your career. Done and done. If you want to use emacs, that's fine as long as I don't have to use emacs and you get your work done.
 
@@ -133,7 +133,7 @@ The most telling statement from the Stack Exchange blog post is something that m
 
 > [IDEs] serve an ever-growing segment of young developers who were never forced to thrive in Vim or Emacs environments.
 
-That really means that young developers are stuck if their IDE doesn't do it for them. They are less creative in investigating, debugging, and exploring because they are limited to what their IDE allows, and I think you'll see this in the quality of questions and answers on StackOverflow overall.
+That really means that young developers are stuck if their IDEs don't do it for them. They are less creative in investigating, debugging, and exploring because they are limited to what their IDE allows, and I think you'll see this in the quality of questions and answers on StackOverflow overall.
 
 That's not an age thing either. That's a culture thing.
 

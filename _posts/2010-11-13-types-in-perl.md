@@ -1,8 +1,8 @@
 ---
 layout: post
 title: types in perl
-categories: programming
-tags: perl types
+categories: perl programming
+tags: types
 stopwords: PPI accelerometer allowfullscreen autoplay frameborder
 ---
 

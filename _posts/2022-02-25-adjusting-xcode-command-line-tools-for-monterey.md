@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Adjusting XCode command-line tools for Monterey
-categories: mac
-tags:
+categories: macos
+tags: xcode
 stopwords: Xcode dev
 last_modified:
 original_url:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Singleton Design Pattern
-categories: programming
-tags: perl design-patterns singletons rescued-content the-perl-review
+categories: perl programming rescued-content
+tags: design-patterns singletons the-perl-review
 stopwords: Devel Lukka Memoized SvREFCNT Tuomas Vlissides Wardley dbh srm
 last_modified:
 original_url:

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Neil deGrasse Tyson obscures the truth, again
-categories:
-tags: neil-degrasse-tyson science
+categories: science
+tags: neil-degrasse-tyson
 stopwords: baryonic Ph nebulas eightfold utilitarianist Druyan Kriss contemplations extraterrestial metonymically physicalism spectrally starstuff JRE Zipf's
 last_modified:
 original_url:
@@ -136,6 +136,14 @@ This looks even worse if you count atoms instead of weighing them. Since Carbon 
 We are not made of the main elements of the Universe. We are made of the most abundant one, Hydrogen, and then some minor ones. That looks even worse when we look at our bodies composition.
 
 And, remember that all of this is just 4-5% of the Universe. That Oxygen bar that you can barely see is relative to just the baryonic count.
+
+### There might not be any dark matter
+
+Let's say that there is no dark matter, which is something astrophysicists invented to explain why the galaxies didn't rotate the way we expected them too. And, I think we should use the original name: *dunkle Materie*. We've never been able to see this, so it's like Einstein's cosmological constant. It's fairy dust.
+
+There's another theory that doesn't require dark matter fairy dust to explain what's going on: Modified Newton Dynamics. This article isn't about that though.
+
+Even if I concede that there is no dark matter, there's another major point that doesn't depend on baryonic scarity.
 
 ## Oxygen is rare
 

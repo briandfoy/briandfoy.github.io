@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How I learned perl
-categories: personal-history
+categories: personal-history perl  programming
 tags: perl perl-mongers
 stopwords: Bally's Cavalletto DCL Gisland ISBNs MegaPath OSCON OSF Orwant PANIX PowerBook Slowaris Tcl Tk Turoff comdog commo msql mysql résumé sig
 last_modified:
