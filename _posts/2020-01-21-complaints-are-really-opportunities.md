@@ -2,7 +2,7 @@
 layout: post
 title: People's complaints are really opportunities
 categories: perl programming opinion rescued-content
-tags: perl
+tags:
 stopwords: Griffenpoof Upwork Ravendor managementless upwork js
 original_url: https://www.reddit.com/r/perl/comments/erxeh9/this_has_to_be_the_greatest_perl_job_listing_ever/ff7u7je/
 ---

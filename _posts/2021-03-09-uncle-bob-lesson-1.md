@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Uncle Bob, Lesson 1
-categories: programming
-tags: uncle-bob object-oriented
+categories: programming object-orientation
+tags: uncle-bob
 stopwords: Bjarne Booch Edsger Stroustrup booleans polymorphism
 last_modified:
 original_url:

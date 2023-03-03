@@ -2,7 +2,7 @@
 layout: post
 title: The AV2000 passthrough powerline extender
 categories: nyc-mesh
-tags: tplink nyc-mesh
+tags: tplink
 stopwords: ungeeky
 last_modified:
 ---

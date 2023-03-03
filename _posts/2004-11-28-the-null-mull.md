@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Null Mull
-categories: perl programming
+categories: perl programming object-orientation
 tags: design-patterns rescued-content perlmonks
 stopwords:
 last_modified:

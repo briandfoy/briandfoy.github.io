@@ -1,8 +1,8 @@
 ---
 layout: post
 title: No ifs, ands, or buts
-categories: perl programming
-tags: object-orientation perl smalltalk ruby
+categories: perl programming object-orientation smalltalk ruby
+tags:
 stopwords: Pharo's ifFalse ifTrue
 last_modified:
 original_url:

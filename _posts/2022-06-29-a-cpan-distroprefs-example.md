@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A CPAN distroprefs example
-categories: perl
+categories: perl programming
 tags: cpan
 stopwords: Distroprefs circumfix dereferences
 last_modified:

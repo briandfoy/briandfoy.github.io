@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Perl's undefined behaviors
-categories: programming
+categories: programming perl
 tags:
 stopwords:
 last_modified:

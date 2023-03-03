@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Screw Spectrum, hello NYC Mesh
-categories: system-administration
-tags: spectrum nyc-mesh
+categories: system-administration nyc-mesh
+tags: spectrum
 stopwords:
 last_modified:
 ---

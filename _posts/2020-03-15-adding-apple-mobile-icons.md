@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Adding Apple mobile icons
-categories: web-administration
-tags: perl apple iOS
+categories: macos web-administration
+tags: apple iOS
 stopwords: png Bynens ico
 last_modified:
 original_url:

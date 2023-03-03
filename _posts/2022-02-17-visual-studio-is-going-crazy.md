@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual Studio is going crazy
-categories: programming
+categories: programming macos
 tags: visual-studio mac
 stopwords: Gb FAANG
 last_modified:

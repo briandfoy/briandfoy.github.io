@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Chuck Norris-ing code
-categories: programming opinion
-tags: rescued-content chuck-norris randal-schwartz stonehenge
+categories: programming opinion rescued-content
+tags: chuck-norris randal-schwartz stonehenge
 stopwords: Meng CPUs guo ing
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=702200

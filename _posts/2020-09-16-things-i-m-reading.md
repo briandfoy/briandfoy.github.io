@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Things I've read and want to remember
-categories: uncategorized
+categories: reading-list
 tags:
 stopwords: Henning Hoare Hossenfelder Kamp Ph Poul Raymondism Raymonds english radix
 last_modified:

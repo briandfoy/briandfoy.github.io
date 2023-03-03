@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Skipping profile parts while running through BBEdit
-categories: consumer-software programming
-tags: bbedit macOS secrets
+categories: consumer-software programming macos
+tags: bbedit secrets
 stopwords: env
 last_modified:
 original_url:

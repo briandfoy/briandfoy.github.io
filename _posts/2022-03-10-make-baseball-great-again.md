@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Make baseball great again
-categories: sports
+categories: sports opinion
 tags: baseball
 stopwords: Blernsball Skee Cincinatti cancelled
 last_modified:

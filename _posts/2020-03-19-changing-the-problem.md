@@ -2,7 +2,7 @@
 layout: post
 title: Changing the problem
 categories: dumbass
-tags: dumbass jello
+tags: jello
 stopwords:
 last_modified:
 original_url:

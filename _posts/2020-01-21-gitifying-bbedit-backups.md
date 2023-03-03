@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gitifying BBEdit Backups
-categories: consumer-software
+categories: consumer-software macos
 tags: bbedit gist git gitx
 stopwords: Gitifying gitx
 ---

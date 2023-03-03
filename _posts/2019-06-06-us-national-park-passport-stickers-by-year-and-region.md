@@ -1,8 +1,8 @@
 ---
 layout: post
 title: US National Park Passport Stickers, by Year and Region
-categories: programming
-tags: perl mojolicious national-parks
+categories: programming perl
+tags: mojolicious national-parks
 stopwords: csv
 last_modified:
 original_url:

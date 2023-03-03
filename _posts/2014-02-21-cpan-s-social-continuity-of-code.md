@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CPAN's Social Continuity of Code
-categories: perl programming
+categories: perl programming opinion
 tags: cpan
 stopwords: Hietaniemi's namespaces scalable pre camelherd
 last_modified:

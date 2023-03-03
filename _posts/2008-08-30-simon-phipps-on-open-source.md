@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Simon Phipps on Floss Weekly
-categories: programming
-tags: rescued-content open-source
+categories: programming rescued-content open-source opinion
+tags:
 ---
 
 For [FLOSS Weekly 39](https://twit.tv/shows/floss-weekly/episodes/39),
