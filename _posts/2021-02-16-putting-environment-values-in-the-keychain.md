@@ -13,7 +13,7 @@ I do the same stupid but expedient things that most people probably do. I write 
 <!--more-->
 
 {% highlight bash %}
-export SOME_API_KEY=abcdeadbeef
+export SOME_API_KEY="abcdeadbeef"
 {% endhighlight %}
 
 If I lose my laptop, all that's easily compromised once someone opens a terminal.
@@ -34,14 +34,14 @@ function get_secret () {
 	}
 
 # Appveyor
-export APPVEYOR_API_KEY=$(get_secret appveyor_api_key)
+export APPVEYOR_API_KEY="$(get_secret appveyor_api_key)"
 
 # O'Reilly Atlas
-export ATLAS_PASSWORD=$(get_secret atlas_password)
+export ATLAS_PASSWORD="$(get_secret atlas_password)"
 
 # For Amazon Web Services
-export AWS_ACCESS_KEY=$(get_secret aws_access_key)
-export AWS_SECRET_KEY=$(get_secret aws_secret_key)
+export AWS_ACCESS_KEY="$(get_secret aws_access_key)"
+export AWS_SECRET_KEY="$(get_secret aws_secret_key)"
 {% endhighlight %}
 
 Now none of the secrets are in the file.

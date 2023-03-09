@@ -47,8 +47,8 @@ What's the point of the secrets store if it's just sitting there as text? Now co
 
 {% highlight bash %}
 # still in ~/.bash_secrets_base_gpg
-gpg_fingerprint=$(get_secret bash_secrets_gpg_fingerprint)
-output_file=$(get_secret bash_secrets_gpg_filename)
+gpg_fingerprint="$(get_secret bash_secrets_gpg_fingerprint)"
+output_file="$(get_secret bash_secrets_gpg_filename)"
 echo -e $s | gpg --encrypt --armor -r $gpg_fingerprint > $output_file
 {% endhighlight %}
 
@@ -58,7 +58,7 @@ On the other side, in *.bash_profile*, I go backward. There's a nested `if` here
 source ~/.get_secret.sh
 
 base_secrets_create=~/.bash_secrets_base_gpg
-gpg_file=$(get_secret bash_secrets_gpg_filename)
+gpg_file="$(get_secret bash_secrets_gpg_filename)"
 days=1
 
 if [ -z "${BBEDIT_CLIENT_INTERACTIVE}" ]
