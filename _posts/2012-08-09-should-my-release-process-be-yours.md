@@ -2,7 +2,7 @@
 layout: post
 title: Should my Perl release process be yours?
 categories: programming perl opinion rescued-content
-tags:
+tags: dist-zilla
 stopwords: Hampstead Haryanto Signes Zilla
 original_url: http://blogs.perl.org/users/brian_d_foy/2012/08/should-my-perl-release-process-be-yours.html
 ---
@@ -38,7 +38,7 @@ process-oriented because, in the grand scheme, the process has more
 benefits than localized optimizations (and many of the bad things in
 such situations can be traced back to a deviation from process).
 
-But I'm not in the Army and there's no way we're going to convince
+But this isn't the Army and there's no way we're going to convince
 most of Open Source to do things the same way (although autoconf is
 amazing). I don't want anything in my distribution, repository, or
 code to know anything about the tools I use to play with it. But, I

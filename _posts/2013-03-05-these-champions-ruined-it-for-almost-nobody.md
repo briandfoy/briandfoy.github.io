@@ -1,8 +1,8 @@
 ---
 layout: post
 title: These champions ruined it for almost nobody
-categories: book-review
-tags: amazon rescued-content book-review
+categories: book-review rescued-content running
+tags: alberto-salazer bill-rodgers frank-shorter fred-lebow
 stopwords:
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R1EQP6EZ77LWY4
@@ -23,6 +23,6 @@ Cameron Stracher writes about the heydey of running legends Frank Shorter, Bill 
 
 He touches on, but largely ignores more interesting factors, such as the philosophy of amateur athletics in the US. He admits that Salazar benefited from university sponsorship and support while his US rivals supported themselves. He acknowledges that the US runners were at a disadvantage over Soviet-bloc doping programs or Scandinavian runners supported by athletic programs masquerading as cushy military assignments. The boycott of the 1980 Olympics in Moscow apparently shattered the morale of many elite US runners who realized they'd become pawns in a political fight that had no bearing on the sport. With no Olympics, there was no where for a US champion to be a champion. He briefly covers the rise of East African runners, but doesn't go so far as to say that maybe they are just better runners with more motivation and opportunity to train.
 
-Despite the title, it wasn't these runners who led the running boom. Throughout the book he shows how they were abused and exploited by promoters. He heaps special blame on Fred Lebow, whom he claims got rich off the back of elite runners who kept showing up to win peanuts for prize money. Still, here he is exploiting these stories for his own gain. He made no mention of the book sale proceeds he'd be donating to running programs.
+Despite the title, it wasn't these runners who led the running boom. Throughout the book he shows how they were abused and exploited by promoters. He heaps special blame on Fred Lebow, whom he claims got rich off the back of elite runners who kept showing up to win peanuts for prize money. Still, here Stracher is exploiting these stories for his own gain. He made no mention of the book sale proceeds he himself would be donating to running programs.
 
 Perhaps the US could produce one or two really good runners if nobody knew about running, leaving all the fun, excitement, and fitness to five people. I don't think that trade off is worth it.

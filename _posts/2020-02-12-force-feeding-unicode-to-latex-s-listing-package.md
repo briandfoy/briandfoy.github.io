@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Force feeding Unicode to LaTeX's listing package
-categories:
-tags: latex
+categories: unicode
+tags: latex tex donald-knuth
 stopwords:
 last_modified:
 original_url:
