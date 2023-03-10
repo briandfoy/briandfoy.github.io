@@ -8,18 +8,18 @@ last_modified:
 original_url:
 ---
 
-*Tales from the Loop* shows what happens when you try to force one type of art into another. Margaret Atwood said a poem is a poem because it can't be anything else.
+ Margaret Atwood said a poem is a poem because it can't be anything else. Sometimes, we should let poems jsut be poems, but *Tales from the Loop* shows what happens when you try to force one type of art into another.
 
 <!--more-->
 
-Simon Stålenhag painted scenes in the style of a used rather then sterile universe; Futuristic technology exists, driving the scene without dominating it. He's Edward Hopper's lonely New England but with sci-fi elements. The people, should you see them, pay no more attention to the abandoned or decrepit technology than the trees or rocks or rustic cabin.
+Simon Stålenhag painted scenes in the style of a used rather than sterile universe; Futuristic technology exists, driving the scene without dominating it. He's Edward Hopper's lonely New England but with sci-fi elements. The people, should you see them, pay no more attention to the abandoned or decrepit technology than the trees or rocks or rustic cabin.
 
 ![](/images/tales-from-the-loop/the-electric-state.jpeg)
 
 ![](/images/tales-from-the-loop/gas.jpeg)
 
 
-The paintings don't tell a story any more than any moment in time lays out a narrative. The moment you see isn't a story, and might not even be a moment. That's the one sentence summary of Sontag's *[On Photography](https://amzn.to/34agHiO)*.
+The paintings don't tell a story any more than any moment in time lays out a narrative, which is to say neither does. The moment you see isn't a story, and might not even be a moment. That's the one sentence summary of Sontag's *[On Photography](https://amzn.to/34agHiO)*. That's the beauty of that art; the narrative is left to the viewer, and every viewer can construct their own narrative.
 
 What is Stålenhag trying to paint? This is the natural and essential question of the storyteller. Margaret Atwood vented to Joyce Carol Oates:
 
