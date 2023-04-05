@@ -8,13 +8,13 @@ last_modified:
 original_url:
 ---
 
-I can never remember the formula for the conversion between degrees Celcius and degrees Fahrenheit, but that's not a problem because I know something better. You likely know it too. Each time you need the formula, simply derive it again based on things you know.
+I can never remember the formula for the conversion between degrees Celcius and degrees Fahrenheit, but that's not a problem because I know something better. You likely know it too, so each time you need the formula, simply derive it again based on things you know.
 
 <!--more-->
 
 This process is handy when your chemistry practical exam is the construction and gradation of a thermometer.
 
-Temperature scales are linear and if you know two points on the line, you can get the other ones.
+Temperature scales are linear and if you know two points on the line, you can get the other ones, even if they are far away:
 
 * The boiling point of water (at standard pressure) is 212℉ or 100℃.
 * The freezing point of water is 32℉ or 0℃.
@@ -50,7 +50,9 @@ To get this far, I didn't have to remember any more that I should already know. 
 
 As an aside, why are the Fahrenheit numbers 32 and 212? It's easy to understand the Celcius number because they are based off the properties of water. But, Celsius is a latecomer since it wasn't until around the 1740s that they figured out the melting point of ice and boiling point of water were invariable under certain conditions.
 
-The Fahrenheit scale, from the 1720s, is different but chooses similar numbers for different reasons. The point for 100 was the human body temperature, but that's not a constant. It's not reproducible across people are even the same person across time. The 0 was a different story: the fable goes that Fahrenheit chose the coldest temperature he could measure with this invention, the mercury thermometer. Using that scale, ice water was at 32. From that, we get 212 for the boiling point.
+The Fahrenheit scale, from the 1720s, is different but chooses similar numbers for different reasons. The point for 100 was the human body temperature, but that's not a constant. It's not reproducible across people are even the same person across time. The 0 was a different story: the fable goes that Fahrenheit chose the coldest temperature he could measure with this invention, the mercury thermometer. What that coldest thing was I don't know, but once notched on the thermometer, you know when it is that cold again. Now divide that coldest thing and Fahrenheit's own body temperature (probably) into exactly one hundred equally spaced units. Put that in ice (fresh) water and you get 32. Extend the scale and we get 212 for the boiling point of water.
+
+## Lord, Kelvin!
 
 But then there is the Kelvin scale, which based its idea on the energy in a fixed quantity of gas. In statistical thermodynamics with *N* gas particles, you have something familiar:
 
@@ -58,8 +60,4 @@ But then there is the Kelvin scale, which based its idea on the energy in a fixe
 
 	k = PV / NT
 
-Work out the numbers and you get -273℃, roughly, as the point where everything stops moving. That number is closer to -273.16℃, and that's one of life's magic numbers that you should just know. I need just one more fact:
-
-* The unit size is the same as the Celcius scale
-
-So, if I know the Celcius temperature, I use shift up 273.16.
+Work out the numbers and you get -273℃, roughly, as the point where everything stops moving. That number is closer to -273.16℃, and that's one of life's magic numbers that you should just know. I need just one more fact: The unit size is the same as the Celcius scale; if I know the Celcius temperature, I just shift up 273.16.

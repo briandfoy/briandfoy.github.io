@@ -7,7 +7,7 @@ stopwords: Ph
 last_modified:
 ---
 
-Often in classes I'll tell the story of my excessive yet justify use of computing resources while in graduate school in the late 90s. Sometimes I tell it to point out that computers are often idle, and other times to show that programs don't need to be that fast if you don't need the results right away. Mostly, it's about not running the program at all if you can get the answer and remember it.
+Often in classes I'll tell the story of my excessive yet justified use of computing resources while in graduate school in the late 90s. Sometimes I tell it to point out that computers are often idle, and other times to show that programs don't need to be that fast if you don't need the results right away. Mostly, it's about not running the program at all if you can get the answer and remember it.
 
 <!--more-->
 
@@ -19,9 +19,11 @@ When scientists had time on the beam, they'd figure out their beam and target th
 
 This is the sort of hazing that goes on in the sciences in grad school. As my advisor told me, the last thing a Ph.D. learns is whatever they were thinking about right before their dissertation. Although glib, I didn't find it to be untrue.
 
-One night I decide to write a little program to do all of this for me. My program, written in [DCL](http://h30266.www3.hpe.com/odl/vax/opsys/vmsos73/vmsos73/6489/6489pro_005.html), would start a simulation, wait for it to finish, then start the next one as soon as it was done. These are the sorts of skill you develop while sitting in a terminal room with nothing to do other than read the [grey wall](ftp://jttechonline.com/jargon/html/entry/Big-Gray-Wall.html)—the series of manuals in grey, three-ringed binders. Get bored enough and you'll read anything.
+## A better way
 
-This is where I think many scientists failed, and also how I didn't endear myself to the people who could make my life difficult even if I did make friends with people who couldn't make my life easier. I had a task, I looked at the tools available to me, then I learned them. That is, I learned the tools for what they were, not just what I could cobble together to the particular task. You might think you don't need something because it's not immediately useful, but it builds on everything that you've learned before. Everything you've learned feeds into the possibilities you see for future solutions. That's day-to-day science.
+One night I decide to write a little program to do all of this for me. My program, written in [DCL](http://h30266.www3.hpe.com/odl/vax/opsys/vmsos73/vmsos73/6489/6489pro_005.html), would start a simulation, wait for it to finish, then start the next one as soon as it was done. These are the sorts of skills you develop while sitting in a terminal room with nothing to do other than read the [grey wall](ftp://jttechonline.com/jargon/html/entry/Big-Gray-Wall.html)—the series of manuals in grey, three-ringed binders. Get bored enough and you'll read anything.
+
+This is where I think many scientists failed, and also how I didn't endear myself to the people who could make my life difficult even if I had made friends with people who couldn't make my life easier. I had a task, I looked at the tools available to me, then I learned them. That is, I learned the tools for what they were, not just what I could cobble together to the particular task. You might think you don't need something because it's not immediately useful, but it builds on everything that you've learned before. Everything you've learned feeds into the possibilities you see for future solutions. That's day-to-day science.
 
 A scientist had told me that the real work begins when the scientists go home for the night and the graduate students wake up. That gave me the Idea. I'd have my program start at 5pm every night and run until 8am, when the scientists came back. I'd get four simulations done every night.
 
@@ -36,6 +38,8 @@ The younger scientists were happy. They could look at my binder and have their a
 I didn't have to stop there. I could run more and more simulations to put more points into my curve fitting. The computer is idle at night, so why not? Just keep creating knowledge because you can never get past time back. Even if your program is slow now, start generating results. You don't know if it will be faster in the future. Once you have the results, save them. Reuse the results locally.
 
 And here's the part of the story that I don't tell in classes.
+
+## The danger
 
 The chief scientist didn't like the binder. Besides being an asshole, he was a technophobe. He didn't believe my program gave the same results as me sitting physically at the terminal. I hadn't written anything complex—just some automation code. He already had it in for me, liked to haze the graduate students, and [didn't care if you were producing as long as you were busy](/2005-07-15-check-all-you-want-but-the-data-are-useless/). Everything about him was the wrong way to do science and I think he knew that. He was the chief scientist mostly because he'd been demoted to the minor leagues to work at a university rather than a national laboratory.
 
