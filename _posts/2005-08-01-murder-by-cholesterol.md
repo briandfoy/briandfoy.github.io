@@ -3,7 +3,7 @@ layout: post
 title: Murder by Cholesterol
 categories: personal-history graduate-school
 tags:
-stopwords:
+stopwords: Dunkin Entemann's ramped
 last_modified:
 original_url:
 ---
@@ -15,7 +15,7 @@ of a national lab for being a lightweight.
 
 So I decided to assist in triggering the heart attack he seemed
 constantly worried about. It never happened though, so I have nothing
-to confess and there's no oreason to bring me in for questioning.
+to confess and there's no reason to bring me in for questioning.
 
 <!--more-->
 

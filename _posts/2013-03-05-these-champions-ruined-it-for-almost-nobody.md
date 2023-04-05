@@ -3,7 +3,7 @@ layout: post
 title: These champions ruined it for almost nobody
 categories: book-review rescued-content running
 tags: alberto-salazer bill-rodgers frank-shorter fred-lebow
-stopwords:
+stopwords: Lebow dumbed heydey href px
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R1EQP6EZ77LWY4
 book_link: https://amzn.to/34lFOAN

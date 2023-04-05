@@ -36,7 +36,7 @@ This requires a [pull request I created for Sodium::FFI](https://github.com/geni
 
 ## A bonus treat
 
-While testig this, I wanted a way to look at the secret in GitHub Actions
+While testing this, I wanted a way to look at the secret in GitHub Actions
 so I knew that I had uploaded what I intended. However, GitHub masks
 anything it thinks is a secret by replacing the secret's text with `***`.
 

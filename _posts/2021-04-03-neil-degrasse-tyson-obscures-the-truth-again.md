@@ -3,7 +3,7 @@ layout: post
 title: Neil deGrasse Tyson obscures the truth, again
 categories: science
 tags: neil-degrasse-tyson
-stopwords: baryonic Ph nebulas eightfold utilitarianist Druyan Kriss contemplations extraterrestial metonymically physicalism spectrally starstuff JRE Zipf's
+stopwords: baryonic Ph nebulas eightfold utilitarianist Druyan Kriss contemplations extraterrestial metonymically physicalism spectrally starstuff JRE Zipf's dunkle Materie
 last_modified:
 original_url:
 ---
@@ -143,7 +143,7 @@ Let's say that there is no dark matter, which is something astrophysicists inven
 
 There's another theory that doesn't require dark matter fairy dust to explain what's going on: Modified Newton Dynamics. This article isn't about that though.
 
-Even if I concede that there is no dark matter, there's another major point that doesn't depend on baryonic scarity.
+Even if I concede that there is no dark matter, there's another major point that doesn't depend on baryonic scarcity.
 
 ## Oxygen is rare
 

@@ -3,12 +3,12 @@ layout: post
 title: Why I didnt submit that patch
 categories: perl programming
 tags: github dzil dist-zilla
-stopwords:
+stopwords: IDEs Rik SourceForge devs
 last_modified:
 original_url: http://www.defectiveperlprogramming.com/2014/01/08/why-i-didnt-submit-that-patch/
 ---
 
-*I orignally posted this on a blog that no longer exists*
+*I originally posted this on a blog that no longer exists*
 
 [Ovid notes his three requirements for submitting a patch](http://blogs.perl.org/users/ovid/2014/01/why-i-didnt-submit-a-patch.html):
 

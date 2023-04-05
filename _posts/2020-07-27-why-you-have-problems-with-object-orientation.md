@@ -3,7 +3,7 @@ layout: post
 title: Why you have problems with object orientation
 categories: perl programming object-orientation
 tags: smalltalk
-stopwords: Magna Carta Cincom Cor's DateOlderThan Leapseconds ORMs Smalltalk's fullstack uncloned MVC webservers
+stopwords: Magna Carta Cincom Cor's DateOlderThan Leapseconds ORMs focussed Smalltalk's fullstack uncloned MVC webservers
 last_modified:
 original_url:
 ---

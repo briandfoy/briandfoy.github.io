@@ -3,7 +3,7 @@ layout: post
 title: Force feeding Unicode to LaTeX's listing package
 categories: unicode
 tags: latex tex donald-knuth
-stopwords:
+stopwords: APL CJK InDesign MWE Mobi UCS XeTeX clunkiness codeset culting dotless monospaced naïvely preplexing xff
 last_modified:
 original_url:
 ---

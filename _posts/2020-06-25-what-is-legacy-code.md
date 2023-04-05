@@ -3,7 +3,7 @@ layout: post
 title: What is Legacy Code?
 categories: programming opinion
 tags: legacy
-stopwords: Rik dzil Feathers's else's unserious greybeard ness DSL externalities performant résumés understandability
+stopwords: Rik dzil Feathers's else's unserious greybeard ness DSL externalities performant résumés understandability Freia
 last_modified:
 original_url:
 ---
@@ -14,7 +14,7 @@ What is "legacy" code? Or, what makes some code "legacy" and other code not? I l
 
 A label is only good in so far as it distinguishes one thing from another. If everything is the same, you don't need a label. It's once we start to categorize things that we recognize finer distinctions and make finer labels.
 
-Consider the English word "apple". You think you know what that is, and you and I probably would agree on something's apple-ness if a piece of fruit were placed in front of us. But, modern English's use of "apple" is much narrower than its beginnings. It used to mean any fruit, aside from berries. Some fruits then needed additional disambiguation—"pineapple" for instance, or "apples of paradise" (bananas), or "golden apples" (oranges). Freia, the keeper of the golden apples for the gods in Wagner's Ring cycle, is often protrayed handing out gold painted modern apples instead of oranges, which would make more sense as a food for the immortals.
+Consider the English word "apple". You think you know what that is, and you and I probably would agree on something's apple-ness if a piece of fruit were placed in front of us. But, modern English's use of "apple" is much narrower than its beginnings. It used to mean any fruit, aside from berries. Some fruits then needed additional disambiguation—"pineapple" for instance, or "apples of paradise" (bananas), or "golden apples" (oranges). Freia, the keeper of the golden apples for the gods in Wagner's Ring cycle, is often portrayed handing out gold painted modern apples instead of oranges, which would make more sense as a food for the immortals.
 
 Philosophy has three parts, roughly, that help us observe the world, figure out what we see, then make decisions based on that. When we are talking about what an idea means and consequence that idea has, we are essentially in the realm of philosophy:
 

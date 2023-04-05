@@ -31,6 +31,6 @@ college and I'm so much closer.
 * 5%: Geography: 350,000,000 of 7,000,000,000 (top 5%) (US Census Bureau)
 * 0.5%: College: 70,000,000 of 7,000,000 (20% of US Citizens in 1990)
 * ... [1.6% of college football players are drafted to the NFL](https://www.sportskeeda.com/nfl/what-percentage-college-football-players-make-nfl)
-* ... a much smaller percentage are quaterbacks
+* ... a much smaller percentage are quarterbacks
 * ... a an much smaller percentage ever play a regular season game, ever.
 
