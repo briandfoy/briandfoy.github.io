@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Winning people over to better development practices
-categories: programming opinion
-tags:  rescued-content
+categories: programming opinion rescued-content
+tags:
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=536338

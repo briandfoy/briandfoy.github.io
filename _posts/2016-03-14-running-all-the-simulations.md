@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Running all the Simulations
-categories: programming personal-history
-tags: graduate-school vms dcl
+categories: programming personal-history graduate-school
+tags:  vms dcl
 stopwords: Ph
 last_modified:
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: numeracy
+categories: numeracy rescued-content
 title: Don't compare percentages
-tags: rescued-content percentages
+tags:  percentages
 stopwords: APPL MSFT sigzero tiobe's O'Reilly's Binstock
 original_url:
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Check all you want, but the data are useless
-categories: personal-history programming
-tags: graduate_school tcl expect poisoning-the-well
+categories: personal-history programming graduate-school
+tags: tcl expect poisoning-the-well
 stopwords: pre
 last_modified:
 original_url:
