@@ -45,7 +45,7 @@ building modules that need some customization? [/Users/brian/.cpan/prefs]
 
 distroprefs has two parts. The first specifies what you want to happen. This can be a YAML, Storable, or Data::Dumper file. If YAML (which most people seem to use), then you need to install the `YAML` module first.
 
-Here's a simple distroprefs file. It tells CPAN.pm how to match a distribution as you'd see it on CPAN (AUTHOR/FILE). In this example, it's action is `patches`, which is an array of patch files. Since you set up `patches_dir`, that's where it will look. The file name for the patch isn't special, and it can be compressed. I chose the distro name, my name as the person who patched it, then *.patch*.
+Here's a simple distroprefs file. It tells CPAN.pm how to match a distribution as you'd see it on CPAN (AUTHOR/FILE). In this example, its action is `patches`, which is an array of patch files. Since you set up `patches_dir`, that's where it will look. The file name for the patch isn't special, and it can be compressed. I chose the distro name, my name as the person who patched it, then *.patch*.
 
 ```yaml
 ---
