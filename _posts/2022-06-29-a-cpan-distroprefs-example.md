@@ -30,9 +30,9 @@ If that's all you need, you can stop here.
 
 ## Distroprefs
 
-CPAN.pm has a way to handle these situations so you don't have to make the change every time that you want to install the module. Before CPAN.pm does its work, it can patch the problem distribution, suggest a replacement distro, or many other things. You do this with "distroprefs". There are many examples in the [CPAN.pm repo](https://github.com/andk/cpanpm/tree/master/distroprefs).
+CPAN.pm has a way to handle these situations so you don't have to make the change every time you want to install the module. Before CPAN.pm does its work, it can patch the problem distribution, suggest a replacement distro, or many other things. You do this with "distroprefs". There are many examples in the [CPAN.pm repo](https://github.com/andk/cpanpm/tree/master/distroprefs).
 
-There are a few things to set up. First, set up your distroprefs directory (`o conf init prefs_dir`). Second, configure a directory to hold you patches (`o conf patches_dir`). I choose *patches* under my *.cpan* directory, but it can be anything. Save your changes before you exit.
+There are a few things to set up. First, choose your distroprefs directory (`o conf init prefs_dir`). Second, configure a directory to hold your patches (`o conf patches_dir`). I choose *patches* under my *.cpan* directory, but it can be anything. Save your changes before you exit.
 
 ```
 % cpan
@@ -43,7 +43,7 @@ building modules that need some customization? [/Users/brian/.cpan/prefs]
 % cpan[3]> o conf commit
 ```
 
-distroprefs have two parts. The first specifies what you want to happen. This can be a YAML, Storable, or Data::Dumper file. If YAML (which most people seem to use), then you need to install the `YAML` module first.
+distroprefs has two parts. The first specifies what you want to happen. This can be a YAML, Storable, or Data::Dumper file. If YAML (which most people seem to use), then you need to install the `YAML` module first.
 
 Here's a simple distroprefs file. It tells CPAN.pm how to match a distribution as you'd see it on CPAN (AUTHOR/FILE). In this example, it's action is `patches`, which is an array of patch files. Since you set up `patches_dir`, that's where it will look. The file name for the patch isn't special, and it can be compressed. I chose the distro name, my name as the person who patched it, then *.patch*.
 
