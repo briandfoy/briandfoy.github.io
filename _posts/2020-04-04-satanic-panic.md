@@ -12,6 +12,10 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 
 <!--more-->
 
+* April 2023 - Melvin Quinney, falsely accused and convicted in 1991, is exonerated, [After 30 years, a father is exonerated in 'satanic panic' case](https://www.tpr.org/criminal-justice/2023-04-11/after-30-years-a-father-is-exonerated-in-satanic-panic-case)
+* **January 2023** - [Satanic Panic Pt. 3; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - The case of Anna Vasquez, one of the San Antonio Four
+* **November 2022** - [Satanic Panic Pt. 2; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - Melvin Quinney's story continues
+* **October 2022** - [Satanic Panic Pt. 1; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-1-South-Texas-Crime-Stories-Podcast/B0BJ8ZXF6J?ref=a_pd_South-_c1_lAsin_1_0) - Melvin Quinney falsely accused by kids after they were pressured by a mentally ill spouse during a divorce
 * **March 2020** - [20k Hertz - Satanic Panic](https://www.20k.org/episodes/satanicpanic) - record backmasking
 * **January 2020** - [Gimlet Media's "Conviction" podcast: American Panic](https://gimletmedia.com/shows/conviction)
 * **January 2020** - Lisa Bryn Rundle - [CBC podcast "Uncover", Season 6: "Satanic Panic"](https://www.cbc.ca/radio/uncover/new-podcast-explores-how-satanic-panic-overtook-a-saskatchewan-town-1.5449917) (Martensville, Saskatoon)
@@ -25,7 +29,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
 * June 2017 - Travis County District Attorney Margaret Moore files a motion to dismiss the Kellers case
-* November 2016 - San Antonio Four exonerated
+* November 2016 - San Antonio Four exonerated [Innocence Project of Texas](https://innocencetexas.org/cases/anna-vasquez-2/), [National Registry of Exonerations](https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=5051)
 * October 2016 - Aja Romano - [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
 * September 2016 - ["Exorcist" TV show, Fox](https://www.fox.com/the-exorcist/)
 * 2016 - [Southwest of Salem: The Story of the San Antonio Four](http://www.southwestofsalem.com)
@@ -35,6 +39,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * July 2015 - *TIME* - [The Evolution of Modern Satanism in the United States](https://time.com/3973573/satanism-american-history/)
 * June 2015 - Robert Lamb - ["How Satanic Panic Worked"](https://history.howstuffworks.com/historical-events/satanic-panic.htm)
 * **April 2015** - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
+* April 2015 - Texas court declines to recommend that the San Antonio Four be found innocent
 * January 2015 - Cheryl Eddy (Gizmodo) - [A Brief History of the "Satanic Panic" in the 1980s](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
 * May 2014 - [When Satan Was Spotted at Head Start](https://reason.com/2014/05/13/when-satan-was-spotted-at-head-start/)
 * April 2014 - *The Witch-Hunt Narrative: Politics, Psychology, and the Sexual Abuse of Children* by Ross E. Cheit
@@ -42,19 +47,22 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * January 2014 - Linda Rodriguez McRobbie - [The Real Victims of Satanic Ritual Abuse](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * December 2013 - Richard Noll - [When Psychiatry Battled the Devil](https://www.garygreenbergonline.com/w/wp-content/uploads/2013/12/Psychiatric_Times_-_When_Psychiatry_Battled_the_Devil_-_2013-12-06.pdf)
 * 2013 - *PAUL: The Secret Story of Olympia's Satanic Sheriff* ([Vimeo](https://vimeo.com/48557671) - Thurston County case
+* 2010 - San Antonio Four accuser recant testimony, Innocence Project takes up case
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * October 25, 2005 - *Paradise Lost - The Child Murders at Robin Hood Hills* (movie) (West Memphis Three)
 * April 2003 [Hell Hounds](https://reason.com/2003/04/01/hell-hounds-2/) (West Memphis Three)
 * February 2003 [Satanic Panic and the West Memphis Three](https://reason.com/2010/02/25/satanic-panic-and-the-west-mem/)
 * 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
+* February 1998 - San Antonio Four convicted (4 convictions, 4 overturned in 2016)
 * January 18, 1998 - [Weird crime is "occult cop's' specialty](https://www.tampabay.com/archive/1998/01/18/weird-crime-is-occult-cop-s-specialty/)
+* 1997 Dr. Nancy Kellogg gives testimony that abuse was from a satanic ritual in the San Antonio Four trial
 * December 1997 - Last issue of *Dissociation*
-* 1997 - San Antonio Four case (4 convictions, 4 overturned in 2016)
 * 1996 - Mike Snedeker gets cases overturned
 * 1995 - "The Law Enforcement Guide to Satanic Cults", training video
+* March 1995 - San Antonio Four indicted (Elizabeth Ramirez, Anna Vasquez, Cassandra Rivera, and Kristie Mayhugh) after Javier Limon forces his daughters to give false testimony after his lesbian partner declines to marry him
 * 1994 - *Treating Survivors of Satanist Abuse*
-* 1994 - National Center on Child Abuse and Neglect report noting no evidence of SRA
+* 1994 - National Center on Child Abuse and Neglect report noting no evidence of satanic ritual abuse
 * 1994 - DSM-IV removes the Multiple Personality Disorders, demoting it to dissociative identity disorder
 * 1994 - Elizabeth Loftus and Katherine Ketcham, *The Myth of Repressed Memory: False Memories and Allegations of Sexual Abuse*
 * 1993 - *Ms* "Elizabeth Rose" - “Surviving the Unbelievable” - Gloria Steinem worked to help convict the McMartin suspects
@@ -66,6 +74,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1992 - Joan Baez - "Play Me Backwards"
 * March 1992 - False Memory Syndrome Foundation
 * November 1991 - [The Devil Made Me Do It](https://reason.com/1991/11/01/the-devil-made-me-do-it/) - *Reason* magazine
+* 1991 - Melvin Quinney convicted after mentally-ill wife, therapists pressure his kids to make up stories
 * 1991 - *In Pursuit of Satan: The Police and the Occult* by Robert D. Hicks (debunking the idea)
 * 1991 - Laurel Rose Willson (Lauren Stratford) - *Satan's Underground* - hoax, also witness in McMartin case
 * 1991 - *A Thousand Acres*
@@ -74,7 +83,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1990 - [Don’t Make Me Go Back, Mommy: A Child’s Book About Satanic Ritual Abuse](http://awfullibrarybooks.net/satan-for-kids/), Multnomah Press
 * October 1989 - preliminary report of an investigation by Supervisory Special Agent Ken Lanning from the FBI Behavioral Science Unit at Quantico
 * July 1989 - "Cook Report: The Devil's Work"
-* 1989 - Sally Jesse Raphael has two shows on SRA
+* 1989 - Sally Jesse Raphael has two shows on satanic ritual abuse
 * 1989 - Oprah Winfrey hosts Laurel Rose Willson and Michelle Smith on her show
 * 1989 - *Unlocking the Secrets of Your Childhood Mind*
 * 1989 - *Hell's Bells: The Dangers of Rock 'N' Roll* - documentary film by Eric Holmberg
