@@ -19,5 +19,6 @@ original_url:
 * DOE low confidence rport
 * FBI report
 
+* https://www.cidrap.umn.edu/covid-19/commentary-masks-all-covid-19-not-based-sound-data
 
 https://blogs.jwatch.org/hiv-id-observations/index.php/dear-nation-a-series-of-apologies-on-covid-19/2020/04/06/
