@@ -40,6 +40,7 @@ But, then, you think, there are people we should trust. Say, like Neil deGrasse 
 * https://www.youtube.com/watch?v=IgxzcOugvEI
 * https://dkb.blog/p/bing-ai-cant-be-trusted
 * https://www.theatlantic.com/technology/archive/2022/12/chatgpt-openai-artificial-intelligence-writing-ethics/672386/
+* https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html
 
 ##
 
