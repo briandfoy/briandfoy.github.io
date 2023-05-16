@@ -12,3 +12,4 @@ original_url:
 
 * https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c
 * https://stratoflow.com/how-to-be-a-good-developer/
+* https://thecodist.com/how-i-stayed-relevant-over-four-decades/
