@@ -75,6 +75,14 @@ When I run `git pull`, it fetches from GitHub because the remote for master is `
 
 ---
 
-**Postscript** I once had a small battle with a company that insisted on a data center within Manhattan. There certainly are services for that, but my main complaint was that if anything disastrous happened on the island, the bridges and tunnels would be blocked or heavily managed to the point it would be difficult for a data center to get enough diesel fuel to keep their generators running. It would be much easier to do that it New Jersey, which is not that much of an inconvenience especially considering that we hardly ever went to the data center. Across the river would have also been cheaper. They didn't like that, and since it was their company, they won.
+**Postscript** I once had a small battle with a company that insisted on a data center within Manhattan. They were starstruck by the glamour of New York City (um, like, okay) and especially the island city-state of Manhattan.
 
-But the next year, 9/11 happened. Although their business wasn't a critical part of anyone's life, their data center stopped working. Not only that, their application relied on cellular links to communicate with the cell phone market—the cell towers were overloaded. The only "backups" they had were on the laptops of the NYC developers, who were understandably busy with other things. Their loss was hardly tragic, but it was avoidable.
+There certainly are data center services in Manhattan (along with many vanity address virtual office services), but my main complaint was that if anything disastrous happened on the island, the bridges and tunnels would be blocked or heavily managed to the point it would be difficult for a data center to get enough diesel fuel to keep their generators running. And, if they had to ration power, our piddly budget wouldn't get their attention.
+
+It would be much easier to host everything it New Jersey, which is not that much of an inconvenience especially considering that we hardly ever went to the data center. Something really rare would have to happen, like a power supply burning out so we couldn't access a machine through a console server.
+
+Across the river would have also been cheaper. They didn't like that, and since it was their company, they won. They really wanted that NYC data center, like potential customers are going to traceroute to be wowed that some router has *.nyc.* in it.
+
+But the next year, 9/11 happened. This isn't the sort of disaster I was thinking about (Hurricane Sandy in 2012 was more likely), but it still shut down the island. Although this company' business wasn't a critical part of anyone's life, both because it was a stupid product and there were almost no customers, the data center stopped working. Not only that, this application relied on cellular links to communicate with the cell phone market—the cell towers were overloaded for at least several days, and Manhattan has historically been a "marginal service" area because of the canyon effect and the sheer number of devices active during business hours.
+
+The only "backups" they had were on the laptops of the NYC developers, who were understandably busy with other things. The business loss was hardly tragic, but it was avoidable.
