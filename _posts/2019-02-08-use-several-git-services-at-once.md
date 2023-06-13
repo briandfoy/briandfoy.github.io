@@ -50,7 +50,7 @@ For Git, I have a remote named "all" that has one URL to pull from but several t
 		pushurl = git@bitbucket.org:briandfoy/briandfoy.github.io.git
 		pushurl = git@gitlab.com:briandfoy/briandfoy.github.io.git
 
-I have a kludgy Perl program that constructs this config once I make the GitHub repo (and one day. I hope Terraform will be able to handle all of that). But, I usually end up in the command line. The `set-url` line adds that `pushurl`, which I'll need here because I'm going to add more so I multiplex the push:
+I have a kludgy Perl program that constructs this config once I make the GitHub repo (and one day, I hope Terraform will be able to handle all of that). But, I usually end up in the command line. The `set-url` line adds that `pushurl`, which I'll need here because I'm going to add more so I multiplex the push:
 
 {% highlight plain %}
 $ git init
