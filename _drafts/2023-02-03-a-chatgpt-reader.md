@@ -41,6 +41,9 @@ But, then, you think, there are people we should trust. Say, like Neil deGrasse 
 * https://dkb.blog/p/bing-ai-cant-be-trusted
 * https://www.theatlantic.com/technology/archive/2022/12/chatgpt-openai-artificial-intelligence-writing-ethics/672386/
 * https://nymag.com/intelligencer/article/ai-artificial-intelligence-chatbots-emily-m-bender.html
+* https://www.theatlantic.com/ideas/archive/2023/07/godel-escher-bach-geb-ai/674589/?utm_source=feed
+* https://www.washingtonpost.com/technology/2023/07/08/gizmodo-ai-errors-star-wars/
+* https://reason.com/volokh/2023/07/13/new-lawsuit-against-bing-based-on-allegedly-ai-hallucinated-libelous-statements/
 
 ##
 
