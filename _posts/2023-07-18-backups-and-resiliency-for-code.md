@@ -64,3 +64,7 @@ I don't find much that's suitable:
 
 * Codeberg.org is a gitea installation hosted by a volunteer group in Berlin. It has an API and is outside the US and outside the US jurisdiction. Germany is a US ally though, so if the US was really mad at me, I could still be bitten.
 * The granddaddy of all services, https://repo.or.cz, which has mirror mode. There's no API, but the website is so simple I could probably wrap it very easily.
+
+# Where does that leave me?
+
+I guess I'm mostly hosting in the Virginia.
