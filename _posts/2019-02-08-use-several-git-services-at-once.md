@@ -3,7 +3,7 @@ layout: post
 title: Use several git services at once
 categories: system-administration
 tags: github bitbucket gitlab
-stopwords: misflag pushurl url
+stopwords: misflag pushurl url Akamai Atlassian Rackspace Sealandia tornados
 last_modified:
 original_url:
 ---
@@ -34,7 +34,7 @@ Even though I'm using different front-line services, am I actually using differe
 * [GitLab is mostly Google Cloud Platform us -east](https://about.gitlab.com/handbook/engineering/infrastructure/production/architecture/)
 * [Bitbucket is AWS us-east](https://www.atlassian.com/trust/reliability/cloud-architecture-and-operational-practices#data-backups) even though other parts of their marketing say "Atlassian servers".
 
-So there is some service diversity there, but almost all of that is in Virginia and Virgina adjacent. Knock out the US East Coast with a hurricane and it doesn't matter which service you are using.
+So there is some service diversity there, but almost all of that is in Virginia and Virgina-adjacent. Knock out the US East Coast with a hurricane and it doesn't matter which service you are using.
 
 I have a server on Linode (Akamai), and that's somewhere in the greater Philadelphia / southern New Jersey area. That's still US East Coast.
 

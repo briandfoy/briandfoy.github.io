@@ -3,7 +3,7 @@ layout: post
 title: Rescuing Future Folk from my iPhone
 categories: technology
 tags: apple music dropbox iphone synology Quickconnect
-stopwords: peasy Dalrymple's
+stopwords: peasy Dalrymple's QuickConnect
 last_modified:
 original_url:
 ---
