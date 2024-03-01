@@ -19,7 +19,7 @@ Undo the last commit (`--soft` keeps changes):
 
 Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766176)):
 
-	git push all --delete <branch-name>
+	git push REMOTENAME --delete <branch-name>
 
 	git remote prune origin
 
