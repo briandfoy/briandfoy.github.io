@@ -15,3 +15,7 @@ original_url:
 * [Getting Started with Github Actions](https://itnext.io/getting-started-with-github-actions-fe94167dbc6d)
 
 * [Doing Stupid things with GitHub Actions](https://devopsdirective.com/posts/2020/07/stupid-github-actions/)
+
+Compare the same file in two branches
+
+	git diff mybranch..master -- myfile.cs
