@@ -39,6 +39,9 @@ Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-che
 
 	git rev-list -n 1 HEAD -- <file_path>
 
+Diff the same file across commits:
+
+	git diff mybranch..master -- filename
 
 ## Interesting links
 
