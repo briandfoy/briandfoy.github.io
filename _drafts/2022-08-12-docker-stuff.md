@@ -22,7 +22,20 @@ Run the container once it exists but is stopped
 
 	docker start NAME
 
+# review a failed build
 
+https://stackoverflow.com/questions/26220957/how-can-i-inspect-the-file-system-of-a-failed-docker-build/35387446#35387446
+
+{% highlight text %}
+# Find the failed build CONTAINER ID
+docker ps -a
+
+# Commit the failed container to an image
+docker commit <sha>
+
+# Run the new image to inspect
+docker run -it <img-id> bash -il
+{% endhighlight %}
 
 ## Further reading
 
