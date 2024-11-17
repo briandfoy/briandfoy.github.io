@@ -53,9 +53,7 @@ I decided to fix that instead of focus on the database problem and that was quic
 
 ## What would I do differently?
 
-The big problem was the unbounded growth of the git repo for the database dumps. I don't need to have the git repo on that machine. Rather than that, I can rsync that directory to something locally,
-handle the git details off machine, and still ship to GitHub and
-Bitbucket.
+The big problem was the unbounded growth of the git repo for the database dumps. I don't need to have the git repo on that machine. Rather than that, I can rsync that directory to something locally, handle the git details off machine, and still ship to GitHub and Bitbucket.
 
 Also, I could pay a lot more for a much bigger disk so I delayed the time when I'd have to reckon with the consequences of my neglect for decades. But I'm not going to do that either.
 
