@@ -197,5 +197,3 @@ In short, this change should have never happened. If you maintain something, eve
 I understand that people don't want to support v5.8. That's fine. But when the thing you are working on supports something that supports v5.8, you have limited good reasons to subvert that. It's certainly worth guarding a deep dependency with the minimal effort to check if your version upgrade would upset things. MetaCPAN will show you [reverse dependencies](https://metacpan.org/module/HTML::Tagset/requires), but these are only the distros that explicitly depend on that module.
 
 It's a dependency on highly upstream Perl modules that declare they run on v5.8. You don't get to decide that they don't support v5.8 because you don't want to. This is even worse
-
-
