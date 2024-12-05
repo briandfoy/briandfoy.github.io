@@ -19,7 +19,7 @@ First, I start with a question that will enumerate the colors in the rainbow.
 {% highlight text %}
 $ ./ch n 'What are the colors in the rainbow'
 The colors in the rainbow are red, orange, yellow, green, blue, indigo, and violet.
-{% end highlight %}
+{% endhighlight %}
 
 But now I want it as a JSON array. This time, the response has a bunch of extraneous information but ends with a correct data structure:
 
@@ -37,7 +37,7 @@ As an AI language model, I do not have a sensory function to see the colors in t
 Here is the output of the requested JSON array:
 
 ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]
-{% end highlight %}
+{% endhighlight %}
 
 How about an object? I'll ask for the values to be their wavelengths:
 
@@ -52,7 +52,7 @@ $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON objec
   "indigo": "490-450 nm",
   "violet": "450-400 nm"
 }
-{% end highlight %}
+{% endhighlight %}
 
 This is pretty close to something useful, so I adjust that:
 
@@ -67,7 +67,7 @@ $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON objec
   "indigo": [420, 450],
   "violet": [380, 420]
 }
-{% end highlight %}
+{% endhighlight %}
 
 And now as a Perl data structure:
 

@@ -18,13 +18,13 @@ Take an hour
 exiftool -overwrite_original -TimeZoneCity=Chicago -TimeZone=-05:00 -alldates-=1 "-offsettime*=-05:00"
 
 exiftool overwrite_original -alldates-=3 "-offsettime*=-07:00" -TimeZone=-7:00 -TimeZoneCity#=30 -verbose test.CR3
-{% end highlight %}
+{% endhighlight %}
 
 ## Geotag
 
 {% highlight text %}
 exiftool -progress -overwrite_original -geotag foo.gpx DIR
-{% end highlight %}
+{% endhighlight %}
 
 ## Links
 
