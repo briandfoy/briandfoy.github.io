@@ -8,6 +8,9 @@ last_modified:
 original_url: http://www.onlamp.com/pub/a/onlamp/2007/04/12/five-ways-to-improve-your-perl-programming.html
 ---
 
+*[This originally appeared on O'Reilly's OnLamp blog, but became a
+broken link when O'Reilly rearranged their sites]*
+
 I recently finished writing [Mastering Perl](https://www.masteringperl.org), the third in the progression of Perl tutorial books from O'Reilly Media. In [Learning Perl](https://www.masteringperl.org), we wanted to show the 80 percent of Perl that most people use all of the time. That's good enough to write short script of around 100 lines or so. Next, in [Intermediate Perl](https://www.intermediateperl.com), we showed how to write reusable code that you could share with others, as well as how to write more complicated programs. When it came to writing [Mastering Perl](https://www.masteringperl.org), I considered all of the things that were usually missing from the Perl applications I saw in code reviews. What were Perl programmers missing?
 
 <!--more-->
