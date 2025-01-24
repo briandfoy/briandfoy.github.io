@@ -5,8 +5,9 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
 <!--more-->
 
+https://www.pcg-random.org/posts/bounded-rands.html
