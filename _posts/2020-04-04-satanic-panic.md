@@ -12,6 +12,10 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 
 <!--more-->
 
+* August 2024 - *Harper's* - "The New Satanic Parnic: Exorcism in the Age of TikTok" [August issue](https://harpers.org/archive/2024/08/)
+* July 30, 2024 - Rick Emerson publishes [Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries](https://amzn.to/4ax5sTR)
+* November 2023 - Rosie Waterhouse publishes [Satanic Panic: A Modern Myth](https://amzn.to/3Ck3sli)
+* October 2023 - Jack Legg publishes [Digging up Devils: The Search for a Satanic Murder Cult in Rural Ohio](https://amzn.to/3Ci3Vo5)
 * April 2023 - Melvin Quinney, falsely accused and convicted in 1991, is exonerated, [After 30 years, a father is exonerated in 'satanic panic' case](https://www.tpr.org/criminal-justice/2023-04-11/after-30-years-a-father-is-exonerated-in-satanic-panic-case)
 * **January 2023** - [Satanic Panic Pt. 3; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - The case of Anna Vasquez, one of the San Antonio Four
 * **November 2022** - [Satanic Panic Pt. 2; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - Melvin Quinney's story continues
@@ -21,6 +25,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * **January 2020** - Lisa Bryn Rundle - [CBC podcast "Uncover", Season 6: "Satanic Panic"](https://www.cbc.ca/radio/uncover/new-podcast-explores-how-satanic-panic-overtook-a-saskatchewan-town-1.5449917) (Martensville, Saskatoon)
 * **October 2019** - *Stuff You Should Know* replays "Satanic Panic"
 * September 2019 - [Satanic Panic, the movie](https://www.imdb.com/title/tt8510350/)
+* May 23,2019 - *The Guardian* ["Italian 'Satanic panic' case returns to court two decades later"](https://www.theguardian.com/world/2019/may/23/italian-satanic-panic-victim-hopes-to-clear-his-name-in-court)
 * April 2019 - Cameron Styles and Hannah Waterbury ["The Satanic Panic" podcast](https://www.satanicpanicpodcast.com/episodes)
 * April 2019 - Penny Lane ["Hail Satan", documentary](https://www.hailsatanfilm.com)
 * **November 2018** - Chelsey Weber-Smith - ["American Hysteria" podcast](https://www.stitcher.com/podcast/chelsey-webersmith/american-hysteria/e/57668940)
@@ -29,9 +34,12 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
 * June 2017 - Bethania Palma - [Couple Exonerated in ‘Satanic Panic’ Child Ritual Abuse Case](https://www.snopes.com/news/2017/06/23/satanic-panic/)
 * June 2017 - Travis County District Attorney Margaret Moore files a motion to dismiss the Kellers case
+* 2017 - Pablo Trincia publishes [All the Lies They Did Not Tell: The True Story of Satanic Panic in an Italian Community](https://amzn.to/4jmJCq9) about the "Devils of Lower Modena"
+* **2014** Pablo Trincia creates the *Velono* podcast about the "Devils of Lower Modena"
 * November 2016 - San Antonio Four exonerated [Innocence Project of Texas](https://innocencetexas.org/cases/anna-vasquez-2/), [National Registry of Exonerations](https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=5051)
 * October 2016 - Aja Romano - [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
 * September 2016 - ["Exorcist" TV show, Fox](https://www.fox.com/the-exorcist/)
+* August 1, 2016 - [Satanic Panic: Pop-cultural Paranoia in the 1980s](https://amzn.to/3PMNinM)
 * 2016 - [Southwest of Salem: The Story of the San Antonio Four](http://www.southwestofsalem.com)
 * **January 2016** - Josh Clark and Chuck Bryant ["Stuff You Should Know" podcast](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-satanic-panic-of-the-1980s-29467671/) - they say they lived through this.  - working off the [Slate article](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * September 2015 - Dan Shewan - [Conviction of Things Not Seen: The Uniquely American Myth of Satanic Cults](https://psmag.com/social-justice/make-a-cross-with-your-fingers-its-the-satanic-panic)
@@ -41,6 +49,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * **April 2015** - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
 * April 2015 - Texas court declines to recommend that the San Antonio Four be found innocent
 * January 2015 - Cheryl Eddy (Gizmodo) - [A Brief History of the "Satanic Panic" in the 1980s](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
+* 2015 - Richard Beck publishes [We Believe the Children: A Moral Panic in the 1980s](https://amzn.to/3Ckva1c)
 * May 2014 - [When Satan Was Spotted at Head Start](https://reason.com/2014/05/13/when-satan-was-spotted-at-head-start/)
 * April 2014 - *The Witch-Hunt Narrative: Politics, Psychology, and the Sexual Abuse of Children* by Ross E. Cheit
 * January 2014 - Maurice Chammah (Texas Observer) - [The Mystery of the San Antonio Four](https://www.texasobserver.org/mystery-san-antonio-four/)
@@ -51,13 +60,17 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * October 25, 2005 - *Paradise Lost - The Child Murders at Robin Hood Hills* (movie) (West Memphis Three)
+* April 27, 2004 - The *Toledo Blade* looks back at Sheriff James Telb's [misinformed and fruitless search for mass graves](https://www.toledoblade.com/Police-Fire/2004/04/27/Area-authorities-no-strangers-to-cult-ritual-probes.html)
 * April 2003 [Hell Hounds](https://reason.com/2003/04/01/hell-hounds-2/) (West Memphis Three)
 * February 2003 [Satanic Panic and the West Memphis Three](https://reason.com/2010/02/25/satanic-panic-and-the-west-mem/)
-* 2001 - Debbie Nathan, Michael Snedeker - *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*
+* 2001 - Debbie Nathan, Michael Snedeker - [*Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*](https://amzn.to/3PIv6M3)
+* April 1999 - Jeffrey S Victor publishes [Satanic Panic: The Creation of a Contemporary Legend](https://amzn.to/3EfxvLn)
+* November 12, 1998 - "The Devils of Lower Modena" ["The ‘Satanic Panic’ That Led to Parents Being Accused of Running a Paedophile Ring"](https://www.vice.com/en/article/satanic-panic-italy-paedophile-devils-lower-modena/) from *Vice*, about Lorena Morselli being arrested for allowing her children to be abused by satanic pedophiles.
 * February 1998 - San Antonio Four convicted (4 convictions, 4 overturned in 2016)
 * January 18, 1998 - [Weird crime is "occult cop's' specialty](https://www.tampabay.com/archive/1998/01/18/weird-crime-is-occult-cop-s-specialty/)
 * 1997 Dr. Nancy Kellogg gives testimony that abuse was from a satanic ritual in the San Antonio Four trial
 * December 1997 - Last issue of *Dissociation*
+* July 7, 1997 - Italian police arrest the Scotta family and separate them from their children based iff the manipulated testimony of children.
 * 1996 - Mike Snedeker gets cases overturned
 * 1995 - "The Law Enforcement Guide to Satanic Cults", training video
 * March 1995 - San Antonio Four indicted (Elizabeth Ramirez, Anna Vasquez, Cassandra Rivera, and Kristie Mayhugh) after Javier Limon forces his daughters to give false testimony after his lesbian partner declines to marry him
@@ -95,6 +108,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1986 - SRA classes taught by International Society for the Study of Multiple Personality and Dissociation
 * November 1986 - Mike Wallace, *60 Minutes* - interviews on the McMartin case
 * 1986 - *The Devil Rides Out*
+* June 24, 1985 - Chase Clements editorial in the *Toledo Blade* notes that Lucas County Sheriff James Telb could have save himself the national embarrassment by not starting the search for a mass grave with a press conference. See also [*Toledo Blade* June 25, 1985](https://news.google.com/newspapers?id=fwxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=6591%2C2907313)
+* June 20, 1985 - Lucas County (Ohio) Sheriff James Telb digs up private property to avert what he thinks will be a satanic mass murder event on the solstice ([Toledo Blade front page, June 21](https://news.google.com/newspapers?id=ewxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=4516%2C1619028))
 * 1985 - Warnke on 20/20
 * December 1983 - International Society for the Study of Multiple Personality and Dissociation Annual Conference
 * June 1983 - Jacob Aranza - *Backward Masking Unmasked: Backward Satanic Messages of Rock and Roll Exposed*
@@ -121,6 +136,11 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * Jerry Simandl, Chicago Police - trainer
 * Children's Institute International
 * Manhattan Ranch Pre-School
+
+## Videos
+
+* [ESOTERICA: The Satanic Panic - Historical, Mythological & Social Origins - How it Nearly Destroyed MY Life](https://www.youtube.com/watch?v=NgmPQGWn8pI) - Dr. Justin Sledge
+*
 
 ## Other References
 
