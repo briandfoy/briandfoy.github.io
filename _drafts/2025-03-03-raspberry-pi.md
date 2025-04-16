@@ -5,8 +5,10 @@ categories:
 tags:
 stopwords:
 last_modified:
-original_url: 
+original_url:
 ---
 
 <!--more-->
+
+* https://www.raspberrypi.com/documentation/computers/getting-started.html
 
