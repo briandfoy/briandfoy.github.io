@@ -12,14 +12,18 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 
 <!--more-->
 
+* **April 1, 2025** - CBC - [https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse](https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse)
 * August 2024 - *Harper's* - "The New Satanic Parnic: Exorcism in the Age of TikTok" [August issue](https://harpers.org/archive/2024/08/)
 * July 30, 2024 - Rick Emerson publishes [Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries](https://amzn.to/4ax5sTR)
 * November 2023 - Rosie Waterhouse publishes [Satanic Panic: A Modern Myth](https://amzn.to/3Ck3sli)
+** **November 2023** - *Do Go On* [The Satanic Panic (#422)](https://shows.acast.com/do-go-on/episodes/422-the-satanic-panic)
 * October 2023 - Jack Legg publishes [Digging up Devils: The Search for a Satanic Murder Cult in Rural Ohio](https://amzn.to/3Ci3Vo5)
 * April 2023 - Melvin Quinney, falsely accused and convicted in 1991, is exonerated, [After 30 years, a father is exonerated in 'satanic panic' case](https://www.tpr.org/criminal-justice/2023-04-11/after-30-years-a-father-is-exonerated-in-satanic-panic-case)
 * **January 2023** - [Satanic Panic Pt. 3; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - The case of Anna Vasquez, one of the San Antonio Four
 * **November 2022** - [Satanic Panic Pt. 2; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - Melvin Quinney's story continues
 * **October 2022** - [Satanic Panic Pt. 1; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-1-South-Texas-Crime-Stories-Podcast/B0BJ8ZXF6J?ref=a_pd_South-_c1_lAsin_1_0) - Melvin Quinney falsely accused by kids after they were pressured by a mentally ill spouse during a divorce
+* March 31, 2001 - - *New York Times* - [It’s Time to Revisit the Satanic Panic](https://www.nytimes.com/2021/03/31/us/satanic-panic.html)
+* March 31, 2001 - - *Vox.com* - [Why Satanic Panic never really ended](https://www.vox.com/culture/22358153/satanic-panic-ritual-abuse-history-conspiracy-theories-explained)
 * **March 2020** - [20k Hertz - Satanic Panic](https://www.20k.org/episodes/satanicpanic) - record backmasking
 * **January 2020** - [Gimlet Media's "Conviction" podcast: American Panic](https://gimletmedia.com/shows/conviction)
 * **January 2020** - Lisa Bryn Rundle - [CBC podcast "Uncover", Season 6: "Satanic Panic"](https://www.cbc.ca/radio/uncover/new-podcast-explores-how-satanic-panic-overtook-a-saskatchewan-town-1.5449917) (Martensville, Saskatoon)
@@ -28,7 +32,9 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * May 23,2019 - *The Guardian* ["Italian 'Satanic panic' case returns to court two decades later"](https://www.theguardian.com/world/2019/may/23/italian-satanic-panic-victim-hopes-to-clear-his-name-in-court)
 * April 2019 - Cameron Styles and Hannah Waterbury ["The Satanic Panic" podcast](https://www.satanicpanicpodcast.com/episodes)
 * April 2019 - Penny Lane ["Hail Satan", documentary](https://www.hailsatanfilm.com)
+* **February 2019** - *The Dollop* - ["Proctor and Satan"](https://open.spotify.com/episode/29UULdUFXDYcWHV6R3WjFL)
 * **November 2018** - Chelsey Weber-Smith - ["American Hysteria" podcast](https://www.stitcher.com/podcast/chelsey-webersmith/american-hysteria/e/57668940)
+* **May 2, 2018** - *You're Wrong About* - [The Satanic Panic](https://www.buzzsprout.com/1112270/episodes/3884114-the-satanic-panic)
 * October 2017 - Q starts the Pizzagate conspiracy rumor
 * **August 2017** - *Stuff You Should Know* - ["How Satanism Works"](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/how-satanism-works-29467653/)
 * August 2017 - Sarah Hughes - ["American Monsters: Tabloid Media and the Satanic Panic, 1970–2000"](https://www.cambridge.org/core/journals/journal-of-american-studies/article/american-monsters-tabloid-media-and-the-satanic-panic-19702000/D674D558FA7399E91149BFCAB138792D)
@@ -40,6 +46,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * October 2016 - Aja Romano - [The history of Satanic Panic in the US — and why it's not over yet](https://www.vox.com/2016/10/30/13413864/satanic-panic-ritual-abuse-history-explained)
 * September 2016 - ["Exorcist" TV show, Fox](https://www.fox.com/the-exorcist/)
 * August 1, 2016 - [Satanic Panic: Pop-cultural Paranoia in the 1980s](https://amzn.to/3PMNinM)
+* **January 5, 2016** - *Stuff You Should Know* [The "Satanic Panic" Of The 1980s](https://stuffyoushouldknow.com/episodes/?_search=satanic&#038;instance_id=b2832237-eeb0-49b7-b9e1-fc0bb4a16e3e)
 * 2016 - [Southwest of Salem: The Story of the San Antonio Four](http://www.southwestofsalem.com)
 * **January 2016** - Josh Clark and Chuck Bryant ["Stuff You Should Know" podcast](https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-satanic-panic-of-the-1980s-29467671/) - they say they lived through this.  - working off the [Slate article](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
 * September 2015 - Dan Shewan - [Conviction of Things Not Seen: The Uniquely American Myth of Satanic Cults](https://psmag.com/social-justice/make-a-cross-with-your-fingers-its-the-satanic-panic)
@@ -60,6 +67,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * October 25, 2005 - *Paradise Lost - The Child Murders at Robin Hood Hills* (movie) (West Memphis Three)
+* February 23, 2004 - *[The Day Care Ritual Abuse Moral Panic](https://amzn.to/42qnJyx)* - Mary de Young
 * April 27, 2004 - The *Toledo Blade* looks back at Sheriff James Telb's [misinformed and fruitless search for mass graves](https://www.toledoblade.com/Police-Fire/2004/04/27/Area-authorities-no-strangers-to-cult-ritual-probes.html)
 * April 2003 [Hell Hounds](https://reason.com/2003/04/01/hell-hounds-2/) (West Memphis Three)
 * February 2003 [Satanic Panic and the West Memphis Three](https://reason.com/2010/02/25/satanic-panic-and-the-west-mem/)
@@ -103,11 +111,13 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1988 - *The Courage to Heal: A Guide for Women Survivors of Child Sexual Abuse* (induced memories)
 * 1988 - [Thurston County ritual abuse case](https://en.wikipedia.org/wiki/Thurston_County_ritual_abuse_case)
 * 1988 - Geraldo Rivera show, "Devil Worship: Exposing Satan's Underground" ([whole show](https://www.youtube.com/watch?v=0mytkRybjNI)) (Parts [1](https://www.youtube.com/watch?v=qocBf3_mmic) [2](https://www.youtube.com/watch?v=4kK4yAmwpCU) [3](https://www.youtube.com/watch?v=qnM95xmLoMY) [4](https://www.youtube.com/watch?v=YTY0p-yEo70) [5](https://www.youtube.com/watch?v=B5KaTXjMUaA) [6](https://www.youtube.com/watch?v=aGHulFE7-o0) [7](https://www.youtube.com/watch?v=WvjFzrH90pk) [8](https://www.youtube.com/watch?v=xDpZGBQ4h4k) [9](https://www.youtube.com/watch?v=v1Y8xWMxqus)
+* 1988 - *[The Satan Hunter](https://amzn.to/4jpOABC)* Thomas W. Wedge
 * 1987 - DSM-III-R, with extensive revisions for dissociative disorders
 * 1984-1990 - First Accusations in the [McMartin Preschool case](https://en.wikipedia.org/wiki/McMartin_preschool_trial)
 * 1986 - SRA classes taught by International Society for the Study of Multiple Personality and Dissociation
 * November 1986 - Mike Wallace, *60 Minutes* - interviews on the McMartin case
 * 1986 - *The Devil Rides Out*
+* 1986 - *[He Came to Set the Captives Free: A Guide to Recognizing and Fighting the Attacks of Satan, Witches, and the Occult](https://amzn.to/42rCp0j)*
 * June 24, 1985 - Chase Clements editorial in the *Toledo Blade* notes that Lucas County Sheriff James Telb could have save himself the national embarrassment by not starting the search for a mass grave with a press conference. See also [*Toledo Blade* June 25, 1985](https://news.google.com/newspapers?id=fwxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=6591%2C2907313)
 * June 20, 1985 - Lucas County (Ohio) Sheriff James Telb digs up private property to avert what he thinks will be a satanic mass murder event on the solstice ([Toledo Blade front page, June 21](https://news.google.com/newspapers?id=ewxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=4516%2C1619028))
 * 1985 - Warnke on 20/20
