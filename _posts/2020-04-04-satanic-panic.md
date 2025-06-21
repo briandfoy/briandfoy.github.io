@@ -15,6 +15,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * **April 1, 2025** - CBC - [https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse](https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse)
 * August 2024 - *Harper's* - "The New Satanic Parnic: Exorcism in the Age of TikTok" [August issue](https://harpers.org/archive/2024/08/)
 * July 30, 2024 - Rick Emerson publishes [Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries](https://amzn.to/4ax5sTR)
+* May 2024 - *[The Devil is in the Details: An Analysis of the Satanic Panic](https://digitalcommons.memphis.edu/cgi/viewcontent.cgi?article=4629&context=etd)*, a master's thesis by Travis James Brooks at The University of Memphis
 * November 2023 - Rosie Waterhouse publishes [Satanic Panic: A Modern Myth](https://amzn.to/3Ck3sli)
 ** **November 2023** - *Do Go On* [The Satanic Panic (#422)](https://shows.acast.com/do-go-on/episodes/422-the-satanic-panic)
 * October 2023 - Jack Legg publishes [Digging up Devils: The Search for a Satanic Murder Cult in Rural Ohio](https://amzn.to/3Ci3Vo5)
@@ -24,6 +25,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * **October 2022** - [Satanic Panic Pt. 1; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-1-South-Texas-Crime-Stories-Podcast/B0BJ8ZXF6J?ref=a_pd_South-_c1_lAsin_1_0) - Melvin Quinney falsely accused by kids after they were pressured by a mentally ill spouse during a divorce
 * March 31, 2001 - - *New York Times* - [It’s Time to Revisit the Satanic Panic](https://www.nytimes.com/2021/03/31/us/satanic-panic.html)
 * March 31, 2001 - - *Vox.com* - [Why Satanic Panic never really ended](https://www.vox.com/culture/22358153/satanic-panic-ritual-abuse-history-conspiracy-theories-explained)
+* **October 29, 2020** [Part Two: The Satanic Panic: America's First QAnon](https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-two-the-satanic-panic-americas-73104714/)
+* **October 27, 2020** [Part One: The Satanic Panic: America's First QAnon](https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-the-satanic-panic-americas-73004015/)
 * **March 2020** - [20k Hertz - Satanic Panic](https://www.20k.org/episodes/satanicpanic) - record backmasking
 * **January 2020** - [Gimlet Media's "Conviction" podcast: American Panic](https://gimletmedia.com/shows/conviction)
 * **January 2020** - Lisa Bryn Rundle - [CBC podcast "Uncover", Season 6: "Satanic Panic"](https://www.cbc.ca/radio/uncover/new-podcast-explores-how-satanic-panic-overtook-a-saskatchewan-town-1.5449917) (Martensville, Saskatoon)
@@ -78,9 +81,10 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * January 18, 1998 - [Weird crime is "occult cop's' specialty](https://www.tampabay.com/archive/1998/01/18/weird-crime-is-occult-cop-s-specialty/)
 * 1997 Dr. Nancy Kellogg gives testimony that abuse was from a satanic ritual in the San Antonio Four trial
 * December 1997 - Last issue of *Dissociation*
-* July 7, 1997 - Italian police arrest the Scotta family and separate them from their children based iff the manipulated testimony of children.
+* July 7, 1997 - Italian police arrest the Scotta family and separate them from their children based on the manipulated testimony of children.
 * 1996 - Mike Snedeker gets cases overturned
 * 1995 - "The Law Enforcement Guide to Satanic Cults", training video
+* 1995 - Debbie Nathan and Michael Snedecker publishes *[Satan's Silence](https://archive.org/details/satanssilencerit00nath)*, a critical analysis of the legal and law enforcement failures in the Satanic Panic
 * March 1995 - San Antonio Four indicted (Elizabeth Ramirez, Anna Vasquez, Cassandra Rivera, and Kristie Mayhugh) after Javier Limon forces his daughters to give false testimony after his lesbian partner declines to marry him
 * 1994 - *Treating Survivors of Satanist Abuse*
 * 1994 - National Center on Child Abuse and Neglect report noting no evidence of satanic ritual abuse
@@ -101,18 +105,24 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1991 - *A Thousand Acres*
 * 1991 - *20/20* airs a live Roman Catholic exorcism ([YouTube](https://www.youtube.com/watch?v=L5-FW4wRnTE)) ([NY Times](https://www.nytimes.com/1991/04/05/news/the-rite-of-exorcism-on-20-20.html))
 * 1990 - *Judas Priest* trial
+* 1990 - Patricia Pulling leaves BADD
+* 1990 - *The Pulling Report* by Michael Stackpole debunks Patricia Pulling, expanding on his previous book *Game Hysteria and the Truth*
 * 1990 - [Don’t Make Me Go Back, Mommy: A Child’s Book About Satanic Ritual Abuse](http://awfullibrarybooks.net/satan-for-kids/), Multnomah Press
 * October 1989 - preliminary report of an investigation by Supervisory Special Agent Ken Lanning from the FBI Behavioral Science Unit at Quantico
 * July 1989 - "Cook Report: The Devil's Work"
 * 1989 - Sally Jesse Raphael has two shows on satanic ritual abuse
 * 1989 - Oprah Winfrey hosts Laurel Rose Willson and Michelle Smith on her show
+* 1989 - Patricia Pulling publishes *[The Devil's web: who is stalking your children for Satan?](https://archive.org/details/devilswebwhoisst00pull)*
 * 1989 - *Unlocking the Secrets of Your Childhood Mind*
 * 1989 - *Hell's Bells: The Dangers of Rock 'N' Roll* - documentary film by Eric Holmberg
+* 1989 - *Advanced Dungeons & Dragons*, Second Edition
+* 1989 - Matthew Stackpole writes *Game Hysteria and the Truth*
 * 1988 - *The Courage to Heal: A Guide for Women Survivors of Child Sexual Abuse* (induced memories)
 * 1988 - [Thurston County ritual abuse case](https://en.wikipedia.org/wiki/Thurston_County_ritual_abuse_case)
 * 1988 - Geraldo Rivera show, "Devil Worship: Exposing Satan's Underground" ([whole show](https://www.youtube.com/watch?v=0mytkRybjNI)) (Parts [1](https://www.youtube.com/watch?v=qocBf3_mmic) [2](https://www.youtube.com/watch?v=4kK4yAmwpCU) [3](https://www.youtube.com/watch?v=qnM95xmLoMY) [4](https://www.youtube.com/watch?v=YTY0p-yEo70) [5](https://www.youtube.com/watch?v=B5KaTXjMUaA) [6](https://www.youtube.com/watch?v=aGHulFE7-o0) [7](https://www.youtube.com/watch?v=WvjFzrH90pk) [8](https://www.youtube.com/watch?v=xDpZGBQ4h4k) [9](https://www.youtube.com/watch?v=v1Y8xWMxqus)
 * 1988 - *[The Satan Hunter](https://amzn.to/4jpOABC)* Thomas W. Wedge
 * 1987 - DSM-III-R, with extensive revisions for dissociative disorders
+* 1987 - *A Christian Response to Dungeons & Dragons: The Catechism of the New Age* associates *Dungeons & Dragons* with the occult and sexual deviancy
 * 1984-1990 - First Accusations in the [McMartin Preschool case](https://en.wikipedia.org/wiki/McMartin_preschool_trial)
 * 1986 - SRA classes taught by International Society for the Study of Multiple Personality and Dissociation
 * November 1986 - Mike Wallace, *60 Minutes* - interviews on the McMartin case
@@ -120,24 +130,31 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1986 - *[He Came to Set the Captives Free: A Guide to Recognizing and Fighting the Attacks of Satan, Witches, and the Occult](https://amzn.to/42rCp0j)*
 * June 24, 1985 - Chase Clements editorial in the *Toledo Blade* notes that Lucas County Sheriff James Telb could have save himself the national embarrassment by not starting the search for a mass grave with a press conference. See also [*Toledo Blade* June 25, 1985](https://news.google.com/newspapers?id=fwxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=6591%2C2907313)
 * June 20, 1985 - Lucas County (Ohio) Sheriff James Telb digs up private property to avert what he thinks will be a satanic mass murder event on the solstice ([Toledo Blade front page, June 21](https://news.google.com/newspapers?id=ewxPAAAAIBAJ&sjid=zwIEAAAAIBAJ&pg=4516%2C1619028))
+* 1986 - Patrica Pulling (BADD) and Gary Gygax on *60 Minutes* [Youtube](https://www.youtube.com/watch?v=yShqF1YSfDs)
 * 1985 - Warnke on 20/20
 * December 1983 - International Society for the Study of Multiple Personality and Dissociation Annual Conference
 * June 1983 - Jacob Aranza - *Backward Masking Unmasked: Backward Satanic Messages of Rock and Roll Exposed*
+* 1983 - Patricia Pulling founds Bothered About Dungeons and Dragons (BADD) after she attributes her son's suicide to his involvement with *Dungeons & Dragons*. She sues her son's school principal claiming a school-sponsored event put a curse on her son.
+* December 28, 1982 - CBS's *[Mazes and Monsters](https://www.imdb.com/title/tt0084314/?ref_=fn_all_ttl_1)* TV movie about *Dungeons & Dragons* driving people mad, based on the story of James Dallas Egbert III ("The Steam Tunnel Incident")
 * 1982 - Kern County case (36 convictions, 34 overturned) - prosecution and support used *Michelle Remembers* as training
 * 1980 - DSM III includes "dissociative disorders"
 * 1980 - Lawrence Pazder, Michelle Smith *Michelle Remembers* - first book on Satanic Ritualized Abuse (Pazder later marries his patient, Michelle) based on West African secret societies. Padzer works as a consultant on the McMartin PreSchool case.
 * 1978 - Jonestown mass suicide
+* 1979 - Private investigator William Dear attributes James Dallas Egbert III's disappearance at Michigan State University to *Dungeons & Dragons* ("The Steam Tunnel Incident")
+* 1979 - *Advanced Dungeons & Dragons*, First Edition
 * 1977 - Son of Sam murders
+* 1974 - The first edition of *Dungeons & Dragons*
 * December 1973 - *Exorcist*, the movie
 * June 19, 1972 - *TIME* Magazine - "The Occult Revival", "A Substitute Religion"
 * 1972 - LaVey publishes *Satanic Rituals*
 * 1972 - Hal Lindsey - *Satan Is Alive and Well On Planet Earth*
 * 1972 - Mike Warnke - *The Satan Seller* - hoax
 * June 1971 - William Peter Blatty, *Exorcist*, the book
+* 1971 - Gary Gygax and Jeff Perren create *Chainmail*, a proto *Dungeons & Dragons*
 * 1969 - Manson murders
 * 1969 - LaVey publishes *The Satanic Bible*
 * 1968 - *[Rosemary's Baby](https://www.imdb.com/title/tt0063522/)*
-* 1966 - Anton LaVey starts The Church of Satan (San Francisco)
+* 1966 - Anton LaVey starts The Church of Satan (San Francisco), declaring it the first year ("Anno Satanas") starting on April 30.
 
 ## Things of Dubious Connections
 
@@ -172,3 +189,5 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * ["Why Satanic Panic never really ended"](https://www.vox.com/culture/22358153/satanic-panic-ritual-abuse-history-conspiracy-theories-explained)
 * [Chuckle-Worthy Video: Law Enforcement Guide to Satanic Cults](https://dangerousminds.net/comments/chuckle-worthy_video_law_enforcement_guide_to_satanic_cults)
 * ["Law Enforcement Guide to Satanic Cults Part 2: Satanists Love Strolls Through the Park"](https://dangerousminds.net/comments/law_enforcement_guide_to_satanic_cults_part_2_satanists_love_strolls)
+* Los Narcosatanicos, a Satanic cult and drug cartel, murdered a University of Texas student in Mexico
+* Temple of Set
