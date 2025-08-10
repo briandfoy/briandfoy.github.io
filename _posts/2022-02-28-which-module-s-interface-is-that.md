@@ -12,7 +12,7 @@ original_url:
 
 <!--more-->
 
-*bug filed: https://github.com/makamaka/JSON/issues/54 with no response*
+*bug filed: [makamaka/JSON](https://github.com/makamaka/JSON/issues/54) with no response*
 
 Although he might not like `wantarray`, that's not really why he had a problem, and not using `wantarray` doesn't solve this. The tool had an implicit dependency on `JSON::XS` and apparently didn't test any other scenario.
 
