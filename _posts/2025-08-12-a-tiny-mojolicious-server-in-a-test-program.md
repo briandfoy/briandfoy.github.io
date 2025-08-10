@@ -14,7 +14,7 @@ Sometimes I need a simple web server to do something in a test. Most often this 
 
 <!--more-->
 
-In this test program I fork. In the child, I start a Mojolicious server where the `/` path has a 10 second delay. This will be longer than the time-out I set for the user-agent in the parent. The magic is the `Mojo::IOLoop->start that keeps the server going at the end of the program.
+In this test program I fork. In the child, I start a Mojolicious server where the `/` path has a 10 second delay. This will be longer than the time-out I set for the user-agent in the parent. The magic is the `Mojo::IOLoop->start` that keeps the server going at the end of the program.
 
 In the parent I do whatever I want to test, which is usually something much more complicated. When I'm done, I shut down the server and get on in life.
 
