@@ -59,37 +59,37 @@ perspectives that most technologists would take. Instead, this is real world exp
 * What happens when you join the effort in the middle instead of the beginning?
 * breaking up monoliths creates personnel problems, span of control issues, and is not a tech solution
 * Patterns
-	* Fixing things that aren't broken
-		* Compounding factor: diminishing trust
-		* Fix: institute with formal methods
-	* Forgotten / lost systems
-		* Compounding factor: crippling risk avoidance
-		* Fix: use chaos testing
-	* Institutional failure
-		* Compounding factor: no owners
-		* Fix: [Code Yellow](https://markcarrigan.net/2016/01/10/googles-war-against-latency/)
-	* Leadership has lost the room
-		* Compounding factor: self sabotaging teams
-		* Fix: murder boards to ensure that decision makers know the answers
+    * Fixing things that aren't broken
+        * Compounding factor: diminishing trust
+        * Fix: institute with formal methods
+    * Forgotten / lost systems
+        * Compounding factor: crippling risk avoidance
+        * Fix: use chaos testing
+    * Institutional failure
+        * Compounding factor: no owners
+        * Fix: [Code Yellow](https://markcarrigan.net/2016/01/10/googles-war-against-latency/)
+    * Leadership has lost the room
+        * Compounding factor: self sabotaging teams
+        * Fix: murder boards to ensure that decision makers know the answers
 
 ## Chapter 7, "Design as Destiny"
 
 * "Planning is problem solving, design is problem setting"
 * reactive versus responsive
 * Exercises:
-	* Find critical factors
-	* Play the saboteur
-	* Shared uncertainties
-		* simple ↔ complex
-		* orderly ↔ chaotic
-	* What are the 15% solutions?
+    * Find critical factors
+    * Play the saboteur
+    * Shared uncertainties
+        * simple ↔ complex
+        * orderly ↔ chaotic
+    * What are the 15% solutions?
 * 1968 - Conway's Law
-	* ["How Do Committees Invent?" ](https://web.archive.org/web/20190929004831/http://www.melconway.com/Home/Conways_Law.html)
+    * ["How Do Committees Invent?" ](https://web.archive.org/web/20190929004831/http://www.melconway.com/Home/Conways_Law.html)
 * Individual incentives decide plans
-	* career goals
-	* fame, other external factors
+    * career goals
+    * fame, other external factors
 * Most systems are not badly built, they are badly maintained.
-	* responsibility gap
+    * responsibility gap
 * Why are new things promoted? Do they actually add value or just assuage personal biases?
 
 ## Chapter 8, "Breaking Changes"

@@ -29,14 +29,14 @@ use File::Map qw(map_file);
 
 my $count = 0;
 my $wanted = sub {
-	return unless -f $File::Find::name;
-	return if -z $File::Find::name;
-	next if $File::Find::name =~ /\.git/;
-	map_file my $map, $File::Find::name;
-	return if $map =~ /[^\0]/;
-	say $File::Find::name;
-	$count++;
-	};
+    return unless -f $File::Find::name;
+    return if -z $File::Find::name;
+    next if $File::Find::name =~ /\.git/;
+    map_file my $map, $File::Find::name;
+    return if $map =~ /[^\0]/;
+    say $File::Find::name;
+    $count++;
+    };
 
 find( $wanted, @ARGV );
 
