@@ -141,7 +141,7 @@ I check with `otool` again to make sure it took:
 
 And that works. I've filed [an issue on DBD::Pg](https://github.com/bucardo/dbdpg/issues/69), but I haven't worked on fixing the module installer.
 
-## A list of ignored variables:
+## A list of ignored variables
 
 SIP strips out any environment variables starting with `DYLD_` or `LD_`, but here are the ones for the search engines:
 

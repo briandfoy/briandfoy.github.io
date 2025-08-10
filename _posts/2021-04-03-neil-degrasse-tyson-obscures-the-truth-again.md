@@ -109,7 +109,7 @@ This is a pretty important point: if we are not special, who cares, besides us, 
 
 What really dies is our human conception of earth, of Gaia, of Mother Nature. And, if we aren't special, as Neil deGrasse Tyson says, and aliens would not care what we think,
 
-## Elements are rare, and so are atoms.
+## Elements are rare, and so are atoms
 
 Tyson says the human body is mostly four different elements (although he says "atoms", which is not quite right, but whatever). Humans are mostly Hydrogen, Oxygen, Carbon, and Nitrogen. Those are indeed the top elements in our bodies. He jumps to the conclusion that we are not special since those are most common elements in the Universe.
 

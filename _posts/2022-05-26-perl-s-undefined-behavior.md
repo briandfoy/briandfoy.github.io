@@ -38,6 +38,6 @@ a persistent lexical variable, which Perl did not have prior to v5.10 with `stat
 [Perl v5.30 removed this misfeature.](https://www.effectiveperlprogramming.com/2019/07/no-more-false-postfix-lexical-declarations-in-v5-30/)
 
 
-# Further reading:
+# Further reading
 
 * [Undefined behavior in Perl and other languages](https://blog.plover.com/prog/perl/undefined.html)

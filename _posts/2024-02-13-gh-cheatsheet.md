@@ -59,7 +59,7 @@ Look at the complete JSON to see what's available
 gh COMMAND --json
 {% endhighlight %}
 
-## Get the repo name:
+## Get the repo name
 
 This is the command, but I aliased this to `owner/repo`:
 

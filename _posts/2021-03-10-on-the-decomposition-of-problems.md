@@ -139,7 +139,7 @@ cross-referencing projections, empathies, correlations, and rejections
 that is shaped by and shapes the interplay of genetic heritage, cultural
 tradition, previous experiences, and unfolding circumstances.
 
-## But...
+## But…
 
 Conversely, consider, Magnus Carlsen, the top chess
 player in the world (and perhaps of all time). His strategy is to
