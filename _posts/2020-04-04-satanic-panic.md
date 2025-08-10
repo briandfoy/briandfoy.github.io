@@ -17,7 +17,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * July 30, 2024 - Rick Emerson publishes [Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries](https://amzn.to/4ax5sTR)
 * May 2024 - *[The Devil is in the Details: An Analysis of the Satanic Panic](https://digitalcommons.memphis.edu/cgi/viewcontent.cgi?article=4629&context=etd)*, a master's thesis by Travis James Brooks at The University of Memphis
 * November 2023 - Rosie Waterhouse publishes [Satanic Panic: A Modern Myth](https://amzn.to/3Ck3sli)
-** **November 2023** - *Do Go On* [The Satanic Panic (#422)](https://shows.acast.com/do-go-on/episodes/422-the-satanic-panic)
+* **November 2023** - *Do Go On* [The Satanic Panic (#422)](https://shows.acast.com/do-go-on/episodes/422-the-satanic-panic)
 * October 2023 - Jack Legg publishes [Digging up Devils: The Search for a Satanic Murder Cult in Rural Ohio](https://amzn.to/3Ci3Vo5)
 * April 2023 - Melvin Quinney, falsely accused and convicted in 1991, is exonerated, [After 30 years, a father is exonerated in 'satanic panic' case](https://www.tpr.org/criminal-justice/2023-04-11/after-30-years-a-father-is-exonerated-in-satanic-panic-case)
 * **January 2023** - [Satanic Panic Pt. 3; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - The case of Anna Vasquez, one of the San Antonio Four
@@ -167,7 +167,6 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 ## Videos
 
 * [ESOTERICA: The Satanic Panic - Historical, Mythological & Social Origins - How it Nearly Destroyed MY Life](https://www.youtube.com/watch?v=NgmPQGWn8pI) - Dr. Justin Sledge
-*
 
 ## Other References
 
