@@ -8,7 +8,7 @@ last_modified:
 original_url:
 ---
 
-I'm collecting a bunch of misquotes:
+I'm collecting a bunch of incomplete quotes where the meaning is perverted::
 
 <!--more-->
 
@@ -21,8 +21,11 @@ I'm collecting a bunch of misquotes:
 * **My country right or wrong**; if right, to be kept right; and if wrong, to be set right (Carl Schurz)
 * **Blood** of the covenant **is thicker than water** of the womb.
 * **the proof** of the pudding **is in** the eating
+* **Winning isn’t everything.** It’s the only thing. (Vince Lombardi)
+* **History repeats itself**, first as tragedy, second as farce. (Karl Marx)
+* Why can not a man **lift himself up by pulling up his bootstraps**?
 
 # Other resources
 
 * [15 Incomplete Quotes You’ve Been Sharing](https://www.alux.com/incomplete-quotes/)
-
+* [The Big List of 47 Famous Misquotes That Have Fooled You](https://innovativewealth.com/puppet-show/famous-misquotes/)
