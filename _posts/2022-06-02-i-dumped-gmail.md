@@ -21,7 +21,7 @@ Instead, I've switched to *briandfoy@pobox.com*, which is backed by FastMail. I'
 There were plenty of reasons to use GMail for as long as I did:
 
 * I wanted to get my email from any computer, including those in hotel business centers. That seems like an odd requirement now that everything is cloud based.
-* I'm inclined to use Apple services, but they are possibly more inept at services than Google has been. And their old-school email clients are the reason I preferred GMail anyway.
+* I'm inclined to use Apple services, but they are possibly more inept at services than Google has been. And Apple's old-school email clients are the reason I preferred GMail anyway.
 * I hate running my own mail server. I've done it, and that's just not how I want to spend my time.
 * GMail and GCal cooperated nicely since various things such as ticket purchases automatically showed up in my calendar.
 
