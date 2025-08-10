@@ -51,9 +51,9 @@ use File::Find ();
 File::Find::find( { wanted => \&wanted }, '.' );
 
 sub wanted
-	{
-	print "$File::Find::name\n" if /^.*\.tex\z/s;
-	}
+    {
+    print "$File::Find::name\n" if /^.*\.tex\z/s;
+    }
 {% endhighlight %}
 
 [File::Find](https://metacpan.org/pod/File::Find) knows how to get to the next element because it keeps track of its place in the filesystem and makes repeated calls for directory contents. When it asks for more files and the filesystem tells it that no more exist, [File::Find](https://metacpan.org/pod/File::Find) knows it is done. As the programmer, I do not know any of this though. Once I start the `find()` function, it moves from element to element on its own.
@@ -102,7 +102,7 @@ my $dbh = DBI->new(...);
 my $sth = $dbh->prepare(...);
 
 while( my @row = $sth->fetchrow_array ) {
-	... }
+    ... }
 {% endhighlight %}
 
 ### One controller, multiple iterators
@@ -111,7 +111,7 @@ Since I control external iterators, I can use more than one iterator at the same
 
 {% highlight perl %}
 while( my ( $old, $new ) = (scalar <OLD>, scalar <NEW>) ) {
-	... }
+    ... }
 {% endhighlight %}
 
 ### One iterator, multiple controllers
@@ -123,8 +123,8 @@ my $titles = <STDIN>;
 
 my $count = 0;
 while( <STDIN> ) {
-	last if $count++ >= 10;
-	... }
+    last if $count++ >= 10;
+    ... }
 
 my @lines = grep { /Perl/ } <STDIN>;
 {% endhighlight %}
@@ -146,9 +146,9 @@ This is the same idiom as reading a file line-by-line rather than all at once. S
 <a class="ref_name" name="line-by-line">Reading line by line</a>
 {% highlight perl %}
 while( <FILE> )
-	{
-	...
-	}
+    {
+    ...
+    }
 {% endhighlight %}
 
 ## Iterator interfaces
@@ -170,7 +170,7 @@ my $cross_product = Set::CrossProduct->new( [ [qw(a b)], [ 1, 2 ] ] );
 my @combinations  = $cross_product->combinations;
 
 foreach my $item ( @combinations )
-	{
+    {
     print "The combination is @$item\n";
     }
 {% endhighlight %}
@@ -196,14 +196,14 @@ I can return a false value but does not always work. The line input operator, fo
 
 {% highlight perl %}
 while( defined( $line = <STDIN> ) ) {
-	... }
+    ... }
 {% endhighlight %}
 
 Perl has a special idiom for this if I use the default variable `$_`. I could write it out to look the same as code listing <a class="internal_link" href="#line-line">line-line</a> but with `$_`, or I can write in much more simply as in code listing <a class="internal_link" href="#line-default">line-default</a> which does the same thing. The `while()` condition tests to see if the item is defined, not that it is true. This is a special case only for when I use the line input operator with `$_` in the `while()` condition.
 
 {% highlight perl %}
 while( <STDIN> ) { # really while( defined( $_ = <STDIN> ) )
-	... }
+    ... }
 {% endhighlight %}
 
 What if `while()` value is a valid value? I cannot use it to signal the end of the iteration. I might be able to use another value that does not cannot appear in the data, but if any value is valid, I cannot use inspection to decide what to do (Mark Jason Dominus calls this the Semi-predicate Problem).
@@ -213,10 +213,10 @@ I can design an iterator which has another method which tells me the state of th
 <a class="ref_name" name="has_more">Checking for more elements</a>
 {% highlight perl %}
 while( $iterator->has_more_elements )
-	{
-	$item = $iterator->next;
-	...;
-	}
+    {
+    $item = $iterator->next;
+    ...;
+    }
 {% endhighlight %}
 
 More Perl-like methods work too. I can always return a reference to the data instead of the data itself. Even a reference to a false value is true since I test to determine if the variable is a reference instead of checking its value. The iterator returns a non-reference to signal that no more elements are available. The interface is the almost the same as code listing <a class="internal_link" href="#has-more">Checking for more elements</a> since a reference is always true, even if the data it points to would evaluate to false.
@@ -226,10 +226,10 @@ If the `next()` method always returns a reference, perhaps an array reference, I
 <a class="ref_name" name="ref">Returning references</a>
 {% highlight perl %}
 while( my $ref = $iterator->next ) # [ undef ] works, undef doesn't
-	{
-	my @items = @$ref;
-	...
-	}
+    {
+    my @items = @$ref;
+    ...
+    }
 {% endhighlight %}
 
 ### Custom controllers
@@ -254,22 +254,22 @@ Code listing <a class="internal_link" href="#object-iterate">iterate()</a> shows
 <a class="ref_name" name="object-iterate">iterate()</a>
 {% highlight perl linenos %}
 sub iterate (&$)
-	{
-	my( $sub, $object ) = @_;
+    {
+    my( $sub, $object ) = @_;
 
-	croak( "iterate object has no $Next() method" )
-		unless UNIVERSAL::can( $_[0], '__next__' );
-	croak( "iterate object has no $More() method" )
-		unless UNIVERSAL::can( $_[0], '__more__' );
+    croak( "iterate object has no $Next() method" )
+        unless UNIVERSAL::can( $_[0], '__next__' );
+    croak( "iterate object has no $More() method" )
+        unless UNIVERSAL::can( $_[0], '__more__' );
 
-	while( $object->__more__ ) {
-		local $_;
+    while( $object->__more__ ) {
+        local $_;
 
-		$_ = $object->__next__;
+        $_ = $object->__next__;
 
-		$sub->();
-		}
-	}
+        $sub->();
+        }
+    }
 {% endhighlight %}
 
 ### Closures

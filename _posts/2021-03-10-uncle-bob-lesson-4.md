@@ -27,9 +27,9 @@ with them dictating what your ideas and concerns should be.
 ## Three laws of Test Driven Development
 
 * Programming is basically (see end of [Lesson 1](/uncle-bob-lesson-1/), Halting Problem and Correctness):
-	* Sequence
-	* Selection
-	* Iteration
+    * Sequence
+    * Selection
+    * Iteration
 * There's nothing new in programming languages since Prolog.
 * New languages are old ideas repackaged.
 

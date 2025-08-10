@@ -24,11 +24,11 @@ send back.
 
 {% highlight perl %}
 sub _nacl_encrypt ($plain, $public_key_base64) {
-	state $rc =	require Sodium::FFI;
-	my $key_bin = Sodium::FFI::sodium_base642bin($public_key_base64);
-	my $crypted = Sodium::FFI::crypto_box_seal( $plain, $key_bin );
-	return Sodium::FFI::sodium_bin2base64($crypted);
-	}
+    state $rc =	require Sodium::FFI;
+    my $key_bin = Sodium::FFI::sodium_base642bin($public_key_base64);
+    my $crypted = Sodium::FFI::crypto_box_seal( $plain, $key_bin );
+    return Sodium::FFI::sodium_bin2base64($crypted);
+    }
 {% endhighlight %}
 
 This requires a [pull request I created for Sodium::FFI](https://github.com/genio/sodium-ffi/pull/3) to add

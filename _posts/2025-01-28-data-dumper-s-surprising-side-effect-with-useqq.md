@@ -21,9 +21,9 @@ First, I spend a lot of time testing Mojolicious things, so I have [Mojo::Util](
 {% highlight text %}
 $ perl -MData::Dumper -lE "say Dumper({'abc' => '123', 'xyz' => '987'})"
 $VAR1 = {
-		  'xyz' => '987',
-		  'abc' => '123'
-		};
+          'xyz' => '987',
+          'abc' => '123'
+        };
 {% endhighlight %}
 
 That's really nice, although many people may not find it that surprising because they don't remember the Before Times. But, there are some things that are unpleasant. First, the keys are not sorted, which makes it hard to find the key you want if there are many keys. Second, Perl has had hash randomization for a long time so they don't come out the same way every time, so another run gives a different order:
@@ -31,9 +31,9 @@ That's really nice, although many people may not find it that surprising because
 {% highlight text %}
 $ perl -MData::Dumper -lE "say Dumper({'abc' => '123', 'xyz' => '987'})"
 $VAR1 = {
-		  'abc' => '123',
-		  'xyz' => '987'
-		};
+          'abc' => '123',
+          'xyz' => '987'
+        };
 {% endhighlight %}
 
 And, although I don't ever really noticed the `$VAR1` becasue I go directly to the bit of data I want to see, it's still a bit ugly. [Mojo::Util](https://metacpan.org/pod/Mojo::Util) makes that look a bit nicer:
@@ -122,47 +122,47 @@ use v5.10;
 use Data::Dumper;
 
 my $data = {
-	luggage  => '12345',
-	zip_code => '02021',
-	long     => '123456789',
-	negative => '-123456789',
-	longer   => '1234567890',
-	};
+    luggage  => '12345',
+    zip_code => '02021',
+    long     => '123456789',
+    negative => '-123456789',
+    longer   => '1234567890',
+    };
 
 say 'DEFAULT: ' . Dumper( $data );
 
 foreach ( qw(0 1) ) {
-	local $Data::Dumper::Useqq = $_;
-	say "Useqq $Data::Dumper::Useqq: " . Dumper( $data );
-	}
+    local $Data::Dumper::Useqq = $_;
+    say "Useqq $Data::Dumper::Useqq: " . Dumper( $data );
+    }
 {% endhighlight %}
 
 The output has three groups, where the first two are the same. These first two quote everything and use single quotes:
 
 {% highlight text %}
 DEFAULT: $VAR1 = {
-		  'negative' => '-123456789',
-		  'luggage' => '12345',
-		  'zip_code' => '02021',
-		  'long' => '123456789',
-		  'longer' => '1234567890'
-		};
+          'negative' => '-123456789',
+          'luggage' => '12345',
+          'zip_code' => '02021',
+          'long' => '123456789',
+          'longer' => '1234567890'
+        };
 
 Useqq 0: $VAR1 = {
-		  'negative' => '-123456789',
-		  'luggage' => '12345',
-		  'zip_code' => '02021',
-		  'long' => '123456789',
-		  'longer' => '1234567890'
-		};
+          'negative' => '-123456789',
+          'luggage' => '12345',
+          'zip_code' => '02021',
+          'long' => '123456789',
+          'longer' => '1234567890'
+        };
 
 Useqq 1: $VAR1 = {
-		  "negative" => -123456789,
-		  "luggage" => 12345,
-		  "zip_code" => "02021",
-		  "long" => 123456789,
-		  "longer" => "1234567890"
-		};
+          "negative" => -123456789,
+          "luggage" => 12345,
+          "zip_code" => "02021",
+          "long" => 123456789,
+          "longer" => "1234567890"
+        };
 {% endhighlight %}
 
 The third group, where `$Data::Dumper::Useqq` is true, shows some oddities. Some of the numbers are quoted (and with double quotes), but some aren't. Why? In `Data::Dumper::_dump`, there's this branch in `_dump`:
@@ -191,18 +191,18 @@ If that's the case, either do it correctly or not at all. Why is the cut off 9 d
 {% highlight text %}
 $ perl -MData::Dumper -lE '$Data::Dumper::Useqq = 1; say Dumper({q(abc) => q(999999999)})'
 $VAR1 = {
-		  "abc" => 999999999
-		};
+          "abc" => 999999999
+        };
 
 $ perl -MData::Dumper -lE '$Data::Dumper::Useqq = 1; say Dumper({q(abc) => q(1000000000)})'
 $VAR1 = {
-		  "abc" => "1000000000"
-		};
+          "abc" => "1000000000"
+        };
 
 $ perl -MData::Dumper -lE '$Data::Dumper::Useqq = 1; say Dumper({q(abc) => q(4294967295)})'
 $VAR1 = {
-		  "abc" => "4294967295"
-		};
+          "abc" => "4294967295"
+        };
 {% endhighlight %}
 
 Notice that perl can handle very large numbers, but at some point the format output is going to change it and the numeric representation is not longer the same as the string and count round trip. That's probably why the ancient code wants to stay under `0xFFFF_FFFF`:
@@ -238,12 +238,12 @@ use v5.10;
 use Data::Dumper;
 
 my $data = {
-	luggage  => '12345',
-	zip_code => '02021',
-	long     => '123456789',
-	negative => '-123456789',
-	longer   => '1234567890',
-	};
+    luggage  => '12345',
+    zip_code => '02021',
+    long     => '123456789',
+    negative => '-123456789',
+    longer   => '1234567890',
+    };
 
 $Data::Dumper::Pair = ': ';
 $Data::Dumper::Terse = 1;

@@ -28,8 +28,8 @@ Which of those measures is something intrinsic to the polygon that changes its f
 
 {% highlight ruby %}
 class ClosedRegularConvexPolygon
-	def initialize( sides ); @sides = sides; end
-	def sides; @sides; end
+    def initialize( sides ); @sides = sides; end
+    def sides; @sides; end
 end
 
 square = ClosedRegularConvexPolygon.new(4);
@@ -67,8 +67,8 @@ Knowing the number of vertices is everything we need to have in the regular case
 #!/usr/local/bin/ruby
 
 class ClosedPolygon
-	def initialize( angles ); @angles = angles; end
-	def sides; @angles; end
+    def initialize( angles ); @angles = angles; end
+    def sides; @angles; end
 end
 
 square = ClosedPolygon.new(4);
@@ -90,15 +90,15 @@ Look what we have to do in `initialize` now. We already have a `ClosedPolygon` o
 #!/usr/local/bin/ruby
 
 class ClosedPolygon
-	def self.sanity( lengths, angles ); ...; end
+    def self.sanity( lengths, angles ); ...; end
 
-	def initialize( lengths, angles );
-		raise "Nope" if ! self.class.sanity( lengths, angles );
-		@angles  = angles;
-		@lengths = lengths;
-	end
+    def initialize( lengths, angles );
+        raise "Nope" if ! self.class.sanity( lengths, angles );
+        @angles  = angles;
+        @lengths = lengths;
+    end
 
-	def sides; @angles.length; end
+    def sides; @angles.length; end
 end
 
 square = ClosedPolygon.new( Array.new(4) { 1 }, Array.new(4) { 90 } );
@@ -108,9 +108,9 @@ pentagon = ClosedPolygon.new( Array.new(5) { 1 }, Array.new(5) { 72 } );
 puts pentagon.sides;
 
 house = ClosedPolygon.new(
-	[  1,   Math.sqrt(1/2), Math.sqrt(1/2),  1,   1    ],
-	[    90,              45,             90,  45,  90 ]
-	);
+    [  1,   Math.sqrt(1/2), Math.sqrt(1/2),  1,   1    ],
+    [    90,              45,             90,  45,  90 ]
+    );
 puts house.sides;
 {% endhighlight %}
 
@@ -118,21 +118,21 @@ This isn't an entirely trivial point. Consider the Single Responsibility Princip
 
 {% highlight ruby %}
 class ClosedPolygon
-	def self.new( *arguments, &block )
-		raise "Nope" if ! self.sanity( *arguments )
-		super
-	end
+    def self.new( *arguments, &block )
+        raise "Nope" if ! self.sanity( *arguments )
+        super
+    end
 
-	def self.sanity( lengths, angles );
-		lengths.length == angles.length
-	end
+    def self.sanity( lengths, angles );
+        lengths.length == angles.length
+    end
 
-	def initialize( lengths, angles );
-		@angles  = angles;
-		@lengths = lengths;
-	end
+    def initialize( lengths, angles );
+        @angles  = angles;
+        @lengths = lengths;
+    end
 
-	def sides; @angles.length; end
+    def sides; @angles.length; end
 end
 {% endhighlight %}
 
@@ -140,9 +140,9 @@ Since that combination is not a closed polygon, so it will never a `ClosedPolygo
 
 {% highlight ruby %}
 house = ClosedPolygon.new(
-	Array.new(10) { 1 },
-	[  18, -72, Array.new(4) { [144, -72] } ].flatten
-	);
+    Array.new(10) { 1 },
+    [  18, -72, Array.new(4) { [144, -72] } ].flatten
+    );
 {% endhighlight %}
 
 What is that? Maybe this LOGO program will help ([try it](https://www.calormen.com/jslogo/)):
@@ -181,7 +181,7 @@ Now our sanity checker need only ensure that we end up back at the spot we start
 
 {% highlight ruby %}
 def ClosedPath
-	... stuff ...
+    ... stuff ...
 end
 {% endhighlight %}
 
@@ -219,13 +219,13 @@ We know how to construct any closed polygon that we like, but we don't want to s
 
 {% highlight ruby %}
 class ClosedRegularPolygon
-	def self.new( *arguments, &block )
-		sides = arguments[0]
-		ClosedPolygon.new(
-			Array.new(sides) { 1 },
-			Array.new(sides) { 360 / sides },
-			);
-	end
+    def self.new( *arguments, &block )
+        sides = arguments[0]
+        ClosedPolygon.new(
+            Array.new(sides) { 1 },
+            Array.new(sides) { 360 / sides },
+            );
+    end
 end
 {% endhighlight %}
 
@@ -235,9 +235,9 @@ Go one step further:
 
 {% highlight ruby %}
 class Square
-	def self.new( *arguments, &block )
-		ClosedRegularPolygon.new(4)
-	end
+    def self.new( *arguments, &block )
+        ClosedRegularPolygon.new(4)
+    end
 end
 {% endhighlight %}
 
@@ -273,44 +273,44 @@ These are things that a categorizer can figure out based on the properties. It's
 
 {% highlight ruby %}
 class Categorizer
-	def self.closed?( polygon )
-		polygon.can( :angles )         and
-		polygon.can( :lengths )        and
-		1  # some complicated code to figure out the path
+    def self.closed?( polygon )
+        polygon.can( :angles )         and
+        polygon.can( :lengths )        and
+        1  # some complicated code to figure out the path
 
-	end
+    end
 
-	def self.rectangle?( polygon )
-		self.parallelogram?( polygon ) and
-	    polygon.angles.uniq.size  == 1
-	end
+    def self.rectangle?( polygon )
+        self.parallelogram?( polygon ) and
+        polygon.angles.uniq.size  == 1
+    end
 
-	def self.regular?( polygon )
-		self.closed?( polygon )        and
-	    polygon.angles.uniq.size  == 1
-	end
+    def self.regular?( polygon )
+        self.closed?( polygon )        and
+        polygon.angles.uniq.size  == 1
+    end
 
-	def self.irregular?( polygon )
-	   ! self.regular?( polygon )
-	end
+    def self.irregular?( polygon )
+       ! self.regular?( polygon )
+    end
 
-	def self.rhombus?( polygon )
-		self.parallelogram?( polygon ) and
-	    polygon.lengths.uniq.size == 1
-	end
+    def self.rhombus?( polygon )
+        self.parallelogram?( polygon ) and
+        polygon.lengths.uniq.size == 1
+    end
 
-	def self.parallelogram?( polygon )
-		self.closed?( polygon )        and
-		polygon.angles.size       == 4 and
-		( polygon.angles[0] == polygon.angles[2] ) and
-	    polygon.lengths.uniq.size <= 2 and
-	    polygon.angles.uniq.size  <= 2
-	end
+    def self.parallelogram?( polygon )
+        self.closed?( polygon )        and
+        polygon.angles.size       == 4 and
+        ( polygon.angles[0] == polygon.angles[2] ) and
+        polygon.lengths.uniq.size <= 2 and
+        polygon.angles.uniq.size  <= 2
+    end
 
-	def self.square?( polygon )
-	    self.rhombus?( polygon ) and
-	    polygon.angles.uniq.size  <= 1
-	end
+    def self.square?( polygon )
+        self.rhombus?( polygon ) and
+        polygon.angles.uniq.size  <= 1
+    end
 end
 
 if( Categorizer.square?( some_shape ) )
@@ -334,24 +334,24 @@ But we don't want polygons floating around our program knowing about polygons. W
 
 {% highlight ruby %}
 class PlacedPolygon
-	def initialize( shape, origin, angle, scale )
-		@polygon = polygon
-		@origin  = origin  # some point object
-		@angle   = angle
-		@scale   = scale
-	end
+    def initialize( shape, origin, angle, scale )
+        @polygon = polygon
+        @origin  = origin  # some point object
+        @angle   = angle
+        @scale   = scale
+    end
 
-	def rotate( angle )
-		@angle += angle
-	end
+    def rotate( angle )
+        @angle += angle
+    end
 
-	def translate( x, y )
-		... change some point object ...
-	end
+    def translate( x, y )
+        ... change some point object ...
+    end
 
-	def scale( n )
-		@scale *= scale
-	end
+    def scale( n )
+        @scale *= scale
+    end
 end
 {% endhighlight %}
 

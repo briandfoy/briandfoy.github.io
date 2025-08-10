@@ -24,16 +24,16 @@ The answer we gave in the materials is not the best answer, though. It is short,
 use Benchmark qw{ timethese };
 
 timethese( -2, {
-	Ordinary => q{
-		my @results = sort { -M $a <=> -M $b } glob "/bin/*";
-		},
-	Schwartzian => q{
-		map $_->[0],
-		sort { $a->[1] <=> $b->[1] }
-		map [$_, -M],
-		glob "/bin/*";
-		},
-	});
+    Ordinary => q{
+        my @results = sort { -M $a <=> -M $b } glob "/bin/*";
+        },
+    Schwartzian => q{
+        map $_->[0],
+        sort { $a->[1] <=> $b->[1] }
+        map [$_, -M],
+        glob "/bin/*";
+        },
+    });
 {% endhighlight %}
 
 First, if we are going to compare two things they need to be as alike as we can make them. Notice that in one case we assign to @results and in the other case we use `map()` in a void context. They do different things: one sorts and stores, and one just sorts. To compare them, they need to produce the same thing. In this case, they both need to store their result.
@@ -58,7 +58,7 @@ $L::glob = "/usr/local/*/*";
 print "Testing with " . @L::files . " files\n";
 
 my $transform =
-	q|map $_->[0], sort { $a->[1] <=> $b->[1] } map [ $_, -M ]|;
+    q|map $_->[0], sort { $a->[1] <=> $b->[1] } map [ $_, -M ]|;
 my $sort   = q|sort { -M $a <=> -M $b }|;
 
 my $code = {
@@ -118,7 +118,7 @@ $ perl benchmark
 Testing with 380 files
 Timing for 2 CPU seconds...
 Benchmark: running assign, glob, ordinary_mod, ordinary_orig, schwartz_mod, schwartz_orig,
-	schwartz_orig_assign, sort_names, sort_names_assign for at least 2 CPU seconds...
+    schwartz_orig_assign, sort_names, sort_names_assign for at least 2 CPU seconds...
   assign:      (2.03 usr + 0.00 sys = 2.03 CPU) (n=  6063)
    glob:      (0.81 usr + 1.27 sys = 2.08 CPU) (n=  372)
 ordinary_mod:     (0.46 usr + 1.70 sys = 2.16 CPU) (n=   80)
@@ -131,7 +131,7 @@ sort_names_assign:   (2.16 usr + 0.00 sys = 2.16 CPU) (n=  5698)
 -------------------------------------------------------------------------
 Timing for 1000 iterations
 Benchmark: timing 1000 iterations of assign, glob, ordinary_mod, ordinary_orig, schwartz_mod,
-	schwartz_orig, schwartz_orig_assign, sort_names, sort_names_assign...
+    schwartz_orig, schwartz_orig_assign, sort_names, sort_names_assign...
   assign:      1 secs ( 0.33 usr + 0.00 sys = 0.33 CPU)
    glob:      6 secs ( 2.31 usr + 3.30 sys = 5.61 CPU)
 ordinary_mod:     28 secs ( 5.57 usr + 21.49 sys = 27.06 CPU)

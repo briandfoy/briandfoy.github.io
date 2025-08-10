@@ -16,20 +16,20 @@ If you have better images for any of these covers, please send them to me.
 
 <style>
 table, tr, td {
-	border: none !important;
-	border-width: 0;
-	border-image-width: 0;
-	vertical-align: top;
+    border: none !important;
+    border-width: 0;
+    border-image-width: 0;
+    vertical-align: top;
 }
 
 
 img.cover {
-	border: 1px solid #000;
-	display: block;
-	line-height: 0;
-	vertical-align: top;
-	padding-top: 0;
-	padding-bottom: 0;
+    border: 1px solid #000;
+    display: block;
+    line-height: 0;
+    vertical-align: top;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 </style>
 

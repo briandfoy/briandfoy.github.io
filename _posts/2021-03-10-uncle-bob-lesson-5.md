@@ -24,22 +24,22 @@ principles. That's "Uncle Bob".*
 * The rules of architecture are independent of every other variable—environment, language, etc
 
 * There's magic when the software
-	* It takes minimal work to maintain
-	* It causes fewer problems
-	* There's a reduction in effort to keep it working
+    * It takes minimal work to maintain
+    * It causes fewer problems
+    * There's a reduction in effort to keep it working
 
 * Goal is to minimize human resources necessary to build and maintain software systems
 
 * The measure of design quality is the effort needed to meet the needs of the customer.
-	* If that shrinks with time, the design is good
+    * If that shrinks with time, the design is good
 
 * Easiest way to go fast is to go well. It might not be very fast, but it's not going to slow down.
 
 * People think that you can go fast by going dirty—quick and dirty. But, things slow to a crawl later.
 
 * Software has two values
-	* what it does (the requirements)
-	* it's structure
+    * what it does (the requirements)
+    * it's structure
 
 ## Clean Architecture
 
@@ -48,24 +48,24 @@ principles. That's "Uncle Bob".*
 * MVC was invented for small things, not application level things. - Trygve Mikkjel Heyerdahl Reenskaug invented it for GUIs.
 
 * There's no such thing as an Object Relational Mapper.
-	* An object has behavior, not data
-	* A database has data, not behavior
-	* An ORM actually just fills in data structures
-	* The authors of frameworks do not have your best interests in mind—they have theirs
+    * An object has behavior, not data
+    * A database has data, not behavior
+    * An ORM actually just fills in data structures
+    * The authors of frameworks do not have your best interests in mind—they have theirs
 
 * Good architecture allows you to defer decisions as long as possible
-	* or even not made at all
-	* you don't need to select the database right away
-	* or, maximizes the decisions not made
+    * or even not made at all
+    * you don't need to select the database right away
+    * or, maximizes the decisions not made
 
 * Frameworks
-	* are not made for your benefit—made for author's benefit
-	* you have to tightly couple into someone else's decisions
-	* you commit to them, not them to you
-	* framework authors don't care if their framework is in the way
-	* first month is easy, the years are hard
-	* A good architect looks at how it benefits and hurts, then uncouples
-	* Build v Buy decision. Even a free thing might cost more over building yourself
+    * are not made for your benefit—made for author's benefit
+    * you have to tightly couple into someone else's decisions
+    * you commit to them, not them to you
+    * framework authors don't care if their framework is in the way
+    * first month is easy, the years are hard
+    * A good architect looks at how it benefits and hurts, then uncouples
+    * Build v Buy decision. Even a free thing might cost more over building yourself
 
 ## Also in this series
 

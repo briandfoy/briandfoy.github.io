@@ -23,8 +23,8 @@ use Mojo::UserAgent;
 my $ua = Mojo::UserAgent->new;
 my $url = 'https://api.cloudflare.com/client/v4/zones/' . $site_id;
 my $tx = $ua->patch( $url =>
-	json => { paused => Mojo::JSON->true }
-	);
+    json => { paused => Mojo::JSON->true }
+    );
 {% endhighlight %}
 
 The first time I wrote this program, I copied the IDs for each site—about 20 of them—into a hash. That wasn't a big deal because I already had the list, but I would otherwise have to visit each site's Cloudflare page. That's certainly something I wouldn't want to do were I managing hundreds of domains. But, the API will give all that too me too. After a couple minutes, I had this program:
@@ -35,28 +35,28 @@ use Mojo::UserAgent;
 
 my $ua = Mojo::UserAgent->new;
 $ua->on( start => sub ($ua, $tx) {
-	$tx->req->headers->header('X-Auth-Email' => $ENV{CLOUDFLARE_EMAIL});
-	$tx->req->headers->header('X-Auth-Key'   => $ENV{CLOUDFLARE_AUTH_KEY});
-	});
+    $tx->req->headers->header('X-Auth-Email' => $ENV{CLOUDFLARE_EMAIL});
+    $tx->req->headers->header('X-Auth-Key'   => $ENV{CLOUDFLARE_AUTH_KEY});
+    });
 
 my $boolean = $ARGV[0] ? 'true' : 'false';
 
 my $sites_tx = $ua->get(
-	'https://api.cloudflare.com/client/v4/zones' =>
-	form => {
-		page     => 1,
-		per_page => 50,
-		}
-	);
+    'https://api.cloudflare.com/client/v4/zones' =>
+    form => {
+        page     => 1,
+        per_page => 50,
+        }
+    );
 
 foreach my $site ( $sites_tx->result->json->{result}->@* ) {
-	say join ' ', $site->@{qw(id name)};
-	my $url = 'https://api.cloudflare.com/client/v4/zones/' . $site->{'id'};
-	my $tx = $ua->patch( $url =>
-		json => { paused => Mojo::JSON->$boolean() }
-		);
-	say $tx->result->code, ' ', $site;
-	}
+    say join ' ', $site->@{qw(id name)};
+    my $url = 'https://api.cloudflare.com/client/v4/zones/' . $site->{'id'};
+    my $tx = $ua->patch( $url =>
+        json => { paused => Mojo::JSON->$boolean() }
+        );
+    say $tx->result->code, ' ', $site;
+    }
 {% endhighlight %}
 
 To use this, I supply a command-line argument. A true argument (anything Perl considers true) should pause all the sites:

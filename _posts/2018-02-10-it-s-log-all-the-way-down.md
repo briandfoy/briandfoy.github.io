@@ -24,11 +24,11 @@ use POSIX qw(log10);
 my $interval = $ARGV[0] || 0.01;
 
 for( my $i = 0 + $interval; $i < 1; $i += $interval ) {
-	my $natural = log($i);
-	my $ten     = log(10) * log10($i);
-	my $diff    = $natural - $ten;
-	printf "%.10f %.10f %.10f\n", $natural, $ten, $diff;
-	}
+    my $natural = log($i);
+    my $ten     = log(10) * log10($i);
+    my $diff    = $natural - $ten;
+    printf "%.10f %.10f %.10f\n", $natural, $ten, $diff;
+    }
 {% endhighlight %}
 
 The results are ironically disappointing because the numbers from `log` (natural base) and [POSIX](http://metacpan.org/pod/POSIX)'s `log10` are exactly the same:

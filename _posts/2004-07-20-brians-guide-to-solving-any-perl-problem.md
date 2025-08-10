@@ -63,15 +63,15 @@ You can turn on strictures from the command line with perl's -M switch.
 
 With versions of Perl since v5.12, specifying the version with `use` automatically turns on `strict`:
 
-	use v5.30;
+    use v5.30;
 
 You'll likely have to fix a bunch of stuff at first, but if there's a part of your code you can't get past `strict`, you can turn it off within a block of code so you can deal with it later:
 
-	{
-	no strict;
+    {
+    no strict;
 
-	...
-	}
+    ...
+    }
 
 You may be annoyed at strictures, but after a couple of weeks of programming with them turned on, you will write better code, spend less time chasing simple errors, and probably will not need this guide.
 

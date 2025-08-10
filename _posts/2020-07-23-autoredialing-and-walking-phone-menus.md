@@ -18,7 +18,7 @@ Many people say they spend their days calling this number, over and over. Some p
 
 First, the trick is to figure out how to walk the automated menu and how to send the right tones at the right time. That's just trial and error. You can dial more than the number, so I can add a bunch of stuff after the number to pretend to be me selecting things in the menus. A comma is a pause for about two seconds:
 
-	8005551212,1,,,,,,,,,9,,2,,,,,ACCOUNTNO,,1,,PERSONALCODE
+    8005551212,1,,,,,,,,,9,,2,,,,,ACCOUNTNO,,1,,PERSONALCODE
 
 That works, although it took me about 20 calls to get the right intervals. That long pause between 1 ("for English") and 9 ("all other inquiries") simulates me listening to a long message that has nothing to do with the any of the reasons I'd call. If this were the water company, that message would be a mini-lecture on whales since they happen to live in water.
 
@@ -37,18 +37,18 @@ I get a notification with a "Call" button, which is still annoying: because I ha
 But, I can control the UI with AppleScript to press buttons for me. I found an example on Apple StackExchange's [Auto FaceTime call using AppleScript, without confirm
 ](https://apple.stackexchange.com/a/363833/26244). I wasn't motivated enough to take values from arguments or other settings because I'm using this for a simple purpose. I'll just hardcode those values:
 
-	set number to "8885551212"
-	set ACCOUNT to "..."
-	set CODE to "..."
-	set menu_navigation to ",1,,,,,,,,,9,,2,,,,," & ACCOUNT & ",,1,," & CODE
-	set phone_num to number & menu_navigation
-	do shell script "open tel://" & quoted form of phone_num
-	tell application "System Events"
-		repeat until (exists window 1 of application process "Notification Center")
-			delay 0.1
-		end repeat
-		click button "Call" of window 1 of application process "Notification Center"
-	end tell
+    set number to "8885551212"
+    set ACCOUNT to "..."
+    set CODE to "..."
+    set menu_navigation to ",1,,,,,,,,,9,,2,,,,," & ACCOUNT & ",,1,," & CODE
+    set phone_num to number & menu_navigation
+    do shell script "open tel://" & quoted form of phone_num
+    tell application "System Events"
+        repeat until (exists window 1 of application process "Notification Center")
+            delay 0.1
+        end repeat
+        click button "Call" of window 1 of application process "Notification Center"
+    end tell
 
 I can run that right from Script Editor. It runs the program, clicks the button, and my iPhone does the rest:
 
@@ -56,7 +56,7 @@ I can run that right from Script Editor. It runs the program, clicks the button,
 
 But I can also export this as an Application. Now I have a clicky thing on my Desktop. I open that and it all happens. I have to give it permission to use Accessibility (in Preferences / Security & Privacy) and AppleEvents (allow in the dialog). I can also open it from the terminal:
 
-	% open /Users/brian/Desktop/CallStupidPhoneTree.app
+    % open /Users/brian/Desktop/CallStupidPhoneTree.app
 
 ## Automate the automation
 
@@ -78,38 +78,38 @@ my $dry_run    = 0;
 my( $app )     = glob( '*.app' );
 
 GetOptions(
-	"m|max_calls=i" => \$max_calls,
-	"s|sleep=i"     => \$sleep_time,
-	"d|dry_run"     => \$dry_run,
-	"a|app=s"       => \$app,
-	)
+    "m|max_calls=i" => \$max_calls,
+    "s|sleep=i"     => \$sleep_time,
+    "d|dry_run"     => \$dry_run,
+    "a|app=s"       => \$app,
+    )
    or die("Error in command line arguments\n");
 
 chdir $Bin or die "Could not change to $Bin: $!";
 
 say <<~"HERE";
-	App:    $app
-	Sleep:  $sleep_time
-	Max:    $max_calls
-	Dryrun: $dry_run
-	HERE
+    App:    $app
+    Sleep:  $sleep_time
+    Max:    $max_calls
+    Dryrun: $dry_run
+    HERE
 
 $|++;
 while( 1 ) {
-	state $calls = 0;
-	last if ++$calls > $max_calls;
-	printf "Try %3d/%3d - sleeping %3d", $calls, $max_calls, $sleep_time;
-	system( '/usr/bin/open', $app ) unless $dry_run;
+    state $calls = 0;
+    last if ++$calls > $max_calls;
+    printf "Try %3d/%3d - sleeping %3d", $calls, $max_calls, $sleep_time;
+    system( '/usr/bin/open', $app ) unless $dry_run;
 
-	my $time = time;
-	while(1) {
-		last if time - $time > $sleep_time;
-		printf "\cH\cH\cH%3d", $sleep_time - (time - $time);
-		sleep 1;
-		}
+    my $time = time;
+    while(1) {
+        last if time - $time > $sleep_time;
+        printf "\cH\cH\cH%3d", $sleep_time - (time - $time);
+        sleep 1;
+        }
 
-	print "\r";
-	}
+    print "\r";
+    }
 {% endhighlight %}
 
 The clever part of that program is my use of the carriage return (`\r`) to overwrite the same line on the next go around, and my use of the backspace (`\cH`, the control character represented by `H`) to overwrite the countdown timer.
@@ -125,7 +125,7 @@ But, eventually a human picks up and I'll fumble getting to my phone. Luckily I 
 
 The next day, the phone menu had changed to add another unskippable message, so I had to add five more commas after the 1 option:
 
-	8005551212,1,,,,,,,,,,,,,,9,,2,,,,,ACCOUNTNO,,1,,PERSONALCODE
+    8005551212,1,,,,,,,,,,,,,,9,,2,,,,,ACCOUNTNO,,1,,PERSONALCODE
 
 I let this script run for a couple hours and finally got to an agent, but an agent who couldn't see what was wrong with my account until I offered a likely explanation. In that case, it was apparent to him, but he couldn't deal with that so I was transferred to a specialist. But, I wasn't really transferred. Rather, I was put into the hold queue for "between 120 and 127 minutes".
 

@@ -263,8 +263,8 @@ The latter option is a bit tricky. If the functions are in the current package, 
 
 {% highlight perl %}
 sub query {
-	$DBI::Singleton::Dbh->query( @_ );
-	}
+    $DBI::Singleton::Dbh->query( @_ );
+    }
 {% endhighlight %}
 
 Not only do I have a lot of extra work to do all of the things that instances and classes gave me for free, but I have to expose the innards of my singleton module and lose the protection of the private variables. I would need a compelling reason to implement a singleton this way.
@@ -490,7 +490,7 @@ use WeakRef;
 my $singleton = undef;
 
 sub new
-	{
+    {
     my( $class, $count ) = @_;
 
     if( defined $singleton ) {

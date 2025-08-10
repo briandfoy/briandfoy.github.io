@@ -32,11 +32,11 @@ use DBM::Deep;
 my $scores = DBM::Deep->new( 'scores' );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = $scores->{$player}[-1]
-		if $scores->{$player}[-1] > $high_score;
-	print "$player has $scores->{$player}[-1]\n";
-	}
+    {
+    $high_score = $scores->{$player}[-1]
+        if $scores->{$player}[-1] > $high_score;
+    print "$player has $scores->{$player}[-1]\n";
+    }
 
 print "The high score was $high_score\n";
 {% endhighlight %}
@@ -67,12 +67,12 @@ my $scores = DBM::Deep->new( 'scores' );
 my %hash = map { $_, 1 } qw( Fred Barney );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = $scores->{$player}[-1]
-		if $scores->{$player}[-1] > $high_score;
-	next unless exists $hash{$player};
-	print "$player has $scores->{$player}[-1]\n";
-	}
+    {
+    $high_score = $scores->{$player}[-1]
+        if $scores->{$player}[-1] > $high_score;
+    next unless exists $hash{$player};
+    print "$player has $scores->{$player}[-1]\n";
+    }
 
 print "The high score was $high_score\n";
 {% endhighlight %}
@@ -89,15 +89,15 @@ my $scores = DBM::Deep->new( 'scores' );
 my %hash = map { $_, 1 } qw( Fred Barney );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = $scores->{$player}[-1]
-		if $scores->{$player}[-1] > $high_score;
-	next unless exists $hash{$player};
-	my $sum = 0;
-	$sum += $scores->{$player}[$_] foreach ( 0 .. $#{ $scores->{$player} } );
-	my $average = $sum / ( $#{ $scores->{$player} } + 1 );
-	print "$player has $scores->{$player}[-1] with average $average\n";
-	}
+    {
+    $high_score = $scores->{$player}[-1]
+        if $scores->{$player}[-1] > $high_score;
+    next unless exists $hash{$player};
+    my $sum = 0;
+    $sum += $scores->{$player}[$_] foreach ( 0 .. $#{ $scores->{$player} } );
+    my $average = $sum / ( $#{ $scores->{$player} } + 1 );
+    print "$player has $scores->{$player}[-1] with average $average\n";
+    }
 
 print "The high score was $high_score\n";
 {% endhighlight %}
@@ -118,20 +118,20 @@ my $scores = DBM::Deep->new( 'scores' );
 my %hash = map { $_, 1 } qw( Fred Barney );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = last_score( $scores, $player )
-		if last_score( $scores, $player ) > $high_score;
-	next unless exists $hash{$player};
-	my $game_count = game_count( $scores, $player );
-		print "count is $game_count\n";
-	my $sum = 0;
-	$sum += score_n( $scores, $player, $_ ) foreach ( 1 .. $game_count );
+    {
+    $high_score = last_score( $scores, $player )
+        if last_score( $scores, $player ) > $high_score;
+    next unless exists $hash{$player};
+    my $game_count = game_count( $scores, $player );
+        print "count is $game_count\n";
+    my $sum = 0;
+    $sum += score_n( $scores, $player, $_ ) foreach ( 1 .. $game_count );
 
-	my $average = $sum / $game_count;
+    my $average = $sum / $game_count;
 
-	print "$player has " . last_score( $scores, $player ) .
-		" with average $average\n";
-	}
+    print "$player has " . last_score( $scores, $player ) .
+        " with average $average\n";
+    }
 
 print "The high score was $high_score\n";
 
@@ -156,14 +156,14 @@ my $scores = DBM::Deep->new( 'scores' );
 my %hash = map { $_, 1 } qw( Fred Barney );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = last_score( $scores, $player )
-		if last_score( $scores, $player ) > $high_score;
-	next unless exists $hash{$player};
+    {
+    $high_score = last_score( $scores, $player )
+        if last_score( $scores, $player ) > $high_score;
+    next unless exists $hash{$player};
 
-	print "$player has " . last_score( $scores, $player ) .
-		" with average " . average( $scores, $player ) . "\n";
-	}
+    print "$player has " . last_score( $scores, $player ) .
+        " with average " . average( $scores, $player ) . "\n";
+    }
 
 print "The high score was $high_score\n";
 
@@ -173,11 +173,11 @@ sub score_n    { $_[0]->{$_[1]}[ $_[2] - 1 ]  }
 sub average    { &sum  / &game_count          }
 
 sub sum
-	{
-	my $sum = 0;
-	$sum += score_n( @_, $_ ) foreach ( 1 .. game_count( @_ ) );
-	$sum;
-	}
+    {
+    my $sum = 0;
+    $sum += score_n( @_, $_ ) foreach ( 1 .. game_count( @_ ) );
+    $sum;
+    }
 {% endhighlight %}
 
 ## Patterns emerge
@@ -186,10 +186,10 @@ Earlier I had the suspicion that there was a pattern to all of this, and now it 
 
 {% highlight perl %}
 sub stats
-	{
-	@{ $_[0] }{ qw(name sum average last) } =
-		( $_[1], &sum, &average, &last_score );
-	}
+    {
+    @{ $_[0] }{ qw(name sum average last) } =
+        ( $_[1], &sum, &average, &last_score );
+    }
 {% endhighlight %}
 
 Now I can get rid of the function calls in my loop, and use my lookup hash to store the stats hash for each player. I'm starting to get a lot of subroutines, but I don't really want to see them. I add a line of #s to set them apart, and I throw in some blank lines for good measure. My print statement looks more friendly since I can interpolate hash values and I don't need to break up the string. If the `$hash{$player}` portion was shorter, I could get that whole string on one normal-sized line. It still bugs me that I keep seeing `$hash{$player}`. I also refactor some of the subroutines. I like short subroutines that can fit on one line, and I'm sure I can shorten `sum()` quite a bit. I'm not golfing, I just want it shorter. I also notice that `last_score()` is really a special case of `score_n()`, so it should call it instead of re-implementing it.
@@ -204,14 +204,14 @@ my $scores = DBM::Deep->new( 'scores' );
 my %hash = map { $_, stats( $scores, $_ ) } qw( Fred Barney );
 
 foreach my $player ( sort keys %$scores )
-	{
-	$high_score = last_score( $scores, $player )
-		if last_score( $scores, $player ) > $high_score;
-	next unless exists $hash{$player};
+    {
+    $high_score = last_score( $scores, $player )
+        if last_score( $scores, $player ) > $high_score;
+    next unless exists $hash{$player};
 
-	print "$player has $hash{$player}{last} with average " .
-		"$hash{$player}{average}\n";
-	}
+    print "$player has $hash{$player}{last} with average " .
+        "$hash{$player}{average}\n";
+    }
 
 print "High score is " . $high_score . "\n";
 
@@ -222,21 +222,21 @@ sub score_n    { $_[0]->{$_[1]}[ $_[2] - 1 ]  }
 sub average    { &sum  / &game_count          }
 
 sub sum
-	{
-	my $sum = 0;
-	$sum += score_n( @_, $_ ) for( 1 .. &game_count );
-	$sum;
-	}
+    {
+    my $sum = 0;
+    $sum += score_n( @_, $_ ) for( 1 .. &game_count );
+    $sum;
+    }
 
 sub stats
-	{
-	my %hash;
+    {
+    my %hash;
 
-	@hash{ qw(name sum average last) } =
-		( $_[1], &sum, &average, &last_score );
+    @hash{ qw(name sum average last) } =
+        ( $_[1], &sum, &average, &last_score );
 
-	\%hash;
-	}
+    \%hash;
+    }
 {% endhighlight %}
 
 ## Oops, I did it again
@@ -253,14 +253,14 @@ Since I decide that I have a modulino, I decide to add a `high_score()` method t
 my @players = map Local::Scores->new($_), sort qw(Fred Barney);
 
 foreach my $player ( @players )
-	{
-	my $name = $player->name;
-	print "Sum for $name is [" . $player->sum . "]\n";
-	print "Game count for $name is " . $player->game_count . "\n";
+    {
+    my $name = $player->name;
+    print "Sum for $name is [" . $player->sum . "]\n";
+    print "Game count for $name is " . $player->game_count . "\n";
 
-	printf "%s has last score %d with average %.1f\n",
-		map { $player->$_ } qw( name last_score average );
-	}
+    printf "%s has last score %d with average %.1f\n",
+        map { $player->$_ } qw( name last_score average );
+    }
 
 print "High score is " . Local::Scores->high_score() . "\n";
 
@@ -269,10 +269,10 @@ package Local::Scores;
 use DBM::Deep;
 
 sub new  {
-	bless
-		{ db => DBM::Deep->new( 'scores' ), name => $_[1] },
-		$_[0]
-	}
+    bless
+        { db => DBM::Deep->new( 'scores' ), name => $_[1] },
+        $_[0]
+    }
 
 sub db         { $_[0]->{db}                             }
 sub name       { $_[0]->{name}                           }
@@ -283,11 +283,11 @@ sub score_n    { $_[0]->db->{$_[0]->name}[ $_[1] - 1 ]   }
 sub average    { $_[0]->sum  / $_[0]->game_count         }
 
 sub sum
-	{
-	return $_[0]->{sum} if exists $_[0]->{sum};
-	$_[0]->{sum} += $_[0]->score_n( $_ ) for( 1 .. $_[0]->game_count );
-	$_[0]->{sum};
-	}
+    {
+    return $_[0]->{sum} if exists $_[0]->{sum};
+    $_[0]->{sum} += $_[0]->score_n( $_ ) for( 1 .. $_[0]->game_count );
+    $_[0]->{sum};
+    }
 
 sub high_score { ... }
 {% endhighlight %}
@@ -303,24 +303,24 @@ use DBM::Deep;
 __PACKAGE__->run( qw( Fred Barney ) ) unless caller();
 
 sub new  {
-	bless
-		{ db => DBM::Deep->new( 'scores' ), name => $_[1] },
-		$_[0]
-	}
+    bless
+        { db => DBM::Deep->new( 'scores' ), name => $_[1] },
+        $_[0]
+    }
 
 sub run  {
-	my $class = shift;
+    my $class = shift;
 
-	my @players = map $class->new($_), sort @_;
+    my @players = map $class->new($_), sort @_;
 
-	foreach my $player ( @players )
-		{
-		printf "%s has last score %d with average %.1f\n"
-			map { $player->$_ } qw( name last_score average );
-		}
+    foreach my $player ( @players )
+        {
+        printf "%s has last score %d with average %.1f\n"
+            map { $player->$_ } qw( name last_score average );
+        }
 
-	print "High score is " . Local::Scores->high_score() . "\n";
-	}
+    print "High score is " . Local::Scores->high_score() . "\n";
+    }
 
 sub db         { $_[0]->{db}                       }
 sub name       { $_[0]->{name}                     }
@@ -331,10 +331,10 @@ sub score_n    { $_[0]->db->{$_[1]}[$_[2]]         }
 sub average    { $_[0]->sum  / $_[0]->game_count   }
 
 sub sum
-	{
-	return $_[0]->{sum} if exists $_[0]->{sum};
-	$_[0]->{sum} = $_[0]->score_n( $_ ) for( 1 .. $_[0]->game_count );
-	}
+    {
+    return $_[0]->{sum} if exists $_[0]->{sum};
+    $_[0]->{sum} = $_[0]->score_n( $_ ) for( 1 .. $_[0]->game_count );
+    }
 
 sub high_score { ... }
 {% endhighlight %}
@@ -391,17 +391,17 @@ use DBM::Deep;
 my $modules = DBM::Deep->new( 'bowling.db' );
 
 foreach my $elem
-	(
-	[ Barney      => [ 160, 200, 300, 240, 255, 195 ] ],
-	[ Fred        => [ 175, 220, 230, 180, 260, 205 ] ],
-	[ Dino        => [   0,   0,   0,   0,   0,  30 ] ],
-	[ 'Mr. Slate' => [  95,  80,  10,  90, 100, 120 ] ],
-	[ Wilma       => [ 260, 250, 240, 250, 240, 240 ] ],
-	[ Betty       => [ 250, 240, 200, 140, 215, 210 ] ],
-	)
-	{
-	$modules->{$elem->[0]} = $elem->[1];
-	}
+    (
+    [ Barney      => [ 160, 200, 300, 240, 255, 195 ] ],
+    [ Fred        => [ 175, 220, 230, 180, 260, 205 ] ],
+    [ Dino        => [   0,   0,   0,   0,   0,  30 ] ],
+    [ 'Mr. Slate' => [  95,  80,  10,  90, 100, 120 ] ],
+    [ Wilma       => [ 260, 250, 240, 250, 240, 240 ] ],
+    [ Betty       => [ 250, 240, 200, 140, 215, 210 ] ],
+    )
+    {
+    $modules->{$elem->[0]} = $elem->[1];
+    }
 {% endhighlight %}
 
 

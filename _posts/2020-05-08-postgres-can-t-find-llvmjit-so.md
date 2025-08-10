@@ -38,8 +38,8 @@ Same error. So, _llvmjit.so_ exists, what about _libffi.so.6_? Well, it's not th
 
 {% highlight text %}
 $ ldconfig -p | grep libffi
-	libffi.so.7 (libc6,x86-64) => /usr/lib/libffi.so.7
-	libffi.so (libc6,x86-64) => /usr/lib/libffi.so
+    libffi.so.7 (libc6,x86-64) => /usr/lib/libffi.so.7
+    libffi.so (libc6,x86-64) => /usr/lib/libffi.so
 $ ls -l /usr/lib | grep ffi
 lrwxrwxrwx  1 root root       15 Apr  9 00:09 libffi.so -> libffi.so.7.1.0
 lrwxrwxrwx  1 root root       15 Apr  9 00:09 libffi.so.7 -> libffi.so.7.1.0
@@ -69,7 +69,7 @@ resource "postgresql_role" "su_brian" {
         login    = true
         password = var.brian_pass
         create_database = true
-	superuser = true
+    superuser = true
 }
 {% endhighlight %}
 

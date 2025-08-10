@@ -44,35 +44,35 @@ $csv->header( $fh );
 my %Grand;
 my %Totals;
 while( my $row = $csv->getline_hr( $fh ) ) {
-	my( $year, $month ) =
-		$row->{'date purchased (utc)'} =~ m/\A(\d{4})-(\d{2})/;
-	my $title = $row->{'book title'};
-	$Grand{$title}{$year}{$month}{_count}++;
-	$Grand{$title}{$year}{$month}{_sales}     += $row->{'total paid for book'};
-	$Grand{$title}{$year}{$month}{_royalties} += $row->{'total book royalty'};
+    my( $year, $month ) =
+        $row->{'date purchased (utc)'} =~ m/\A(\d{4})-(\d{2})/;
+    my $title = $row->{'book title'};
+    $Grand{$title}{$year}{$month}{_count}++;
+    $Grand{$title}{$year}{$month}{_sales}     += $row->{'total paid for book'};
+    $Grand{$title}{$year}{$month}{_royalties} += $row->{'total book royalty'};
 
-	$Totals{$title}{_count}++;
-	$Totals{$title}{_sales}     += $row->{'total paid for book'};
-	$Totals{$title}{_royalties} += $row->{'total book royalty'};
-	}
+    $Totals{$title}{_count}++;
+    $Totals{$title}{_sales}     += $row->{'total paid for book'};
+    $Totals{$title}{_royalties} += $row->{'total book royalty'};
+    }
 
 foreach my $title ( sort keys %Grand ) {
-	state @keys = qw(_count _sales _royalties);
+    state @keys = qw(_count _sales _royalties);
 
-	printf "%s\n%s\n  Copies: %d  Sales: %.2f  Royalties: %.2f\n%s\n",
-		'=' x 50,
-		$title,
-		$Totals{$title}->@{@keys},
-		'-' x 50;
+    printf "%s\n%s\n  Copies: %d  Sales: %.2f  Royalties: %.2f\n%s\n",
+        '=' x 50,
+        $title,
+        $Totals{$title}->@{@keys},
+        '-' x 50;
 
-	foreach my $year ( sort { $a <=> $b } keys $Grand{$title}->%* ) {
-		foreach my $month ( sort { $a <=> $b } keys $Grand{$title}{$year}->%* ) {
-			my $g = $Grand{$title}{$year}{$month};
-			printf "  %4d/%02d  %3d  %6.2f  %6.2f\n",
-				$year, $month, $g->@{@keys};
-			}
-		}
+    foreach my $year ( sort { $a <=> $b } keys $Grand{$title}->%* ) {
+        foreach my $month ( sort { $a <=> $b } keys $Grand{$title}{$year}->%* ) {
+            my $g = $Grand{$title}{$year}{$month};
+            printf "  %4d/%02d  %3d  %6.2f  %6.2f\n",
+                $year, $month, $g->@{@keys};
+            }
+        }
 
-	print "\n";
-	}
+    print "\n";
+    }
 {% endhighlight %}

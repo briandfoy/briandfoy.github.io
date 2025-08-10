@@ -52,21 +52,21 @@ use strict;
 use warnings;
 my %Words;
 while (<>) {
-	chomp;
-	s{^\s+}{};
-	s{\s+$}{};
-	my $line = lc;
-	my @words = split /\s+/, $line;
-	foreach my $word (@words) {
-		$word =~ s{\W}{}g;
-		next unless length $word;
-		$Words{$word}++;
-	}
+    chomp;
+    s{^\s+}{};
+    s{\s+$}{};
+    my $line = lc;
+    my @words = split /\s+/, $line;
+    foreach my $word (@words) {
+        $word =~ s{\W}{}g;
+        next unless length $word;
+        $Words{$word}++;
+    }
 }
 foreach my $word ( sort { $Words{$b} <=> $Words{$a} } keys %Words ) {
-	last
-	  if $Words{$word} < 10;
-	printf "%5d  %s\n", $Words{$word}, $word;
+    last
+      if $Words{$word} < 10;
+    printf "%5d  %s\n", $Words{$word}, $word;
 }
 {% endhighlight %}
 
@@ -127,8 +127,8 @@ use Config::IniFiles;
 my $file = "mastering_perl.ini";
 
 my $ini = Config::IniFiles->new(
-	-file => $file
-	) or die "Could not open $file!";
+    -file => $file
+    ) or die "Could not open $file!";
 
 my $email = $ini->val( 'Network', 'email' );
 my $author = $ini->val( 'Book', 'author' );
@@ -201,8 +201,8 @@ use DBM::Deep;
 
 my $isbns = DBM::Deep->new( "isbns.db" );
 if( $isbns->error ) {
-	warn "Could not create database: " . $isbns->error . "\n";
-	}
+    warn "Could not create database: " . $isbns->error . "\n";
+    }
 
 $isbns->{'0596102062'} = 'Intermediate Perl';
 {% endhighlight %}
@@ -217,10 +217,10 @@ In C or Java (among other languages), you use a `main()` routine to specify wher
 #include <stdio.h>
 
 int main( void )
-	{
-	printf( "Hello World!\n" );
-	return(1);
-	}
+    {
+    printf( "Hello World!\n" );
+    return(1);
+    }
 {% endhighlight %}
 
 In Perl, you don't need to do all that extra typing. Perl wants to get you to the solution as soon as possible, so it does away with `main` by wrapping a virtual routine around the entire file:
@@ -239,9 +239,9 @@ You could do a bit more work to get it back to the explicit definition of a `mai
 main(); # executes at run-time
 
 sub main
-	{
-	print "Hello World!\n";
-	}
+    {
+    print "Hello World!\n";
+    }
 {% endhighlight %}
 
 Here's where it starts to get interesting. When you put all the functionality into subroutines, you've really written a library (or a class). You can make the function look more like object-oriented code because you're already thinking about letting other users override parts of it through a subclass. Thinking that, you only execute the main subroutine when you call the file as a program directly, and not when you use it like a module. The `caller` function takes care of that:
@@ -252,16 +252,16 @@ package Local::MyProgram;
 __PACKAGE__->main() unless caller; # executes at run-time, unless used as module
 
 sub main
-	{
-	my $self = shift;
+    {
+    my $self = shift;
 
-	print $self->string, "\n";
-	}
+    print $self->string, "\n";
+    }
 
 sub string
-	{
-	"Hello World!"
-	}
+    {
+    "Hello World!"
+    }
 {% endhighlight %}
 
 When Adele wants to change something in the program, she doesn't have to edit the source. She just subclasses your module and overrides the parts that she wants to change:
@@ -273,9 +273,9 @@ use base qw(Local::MyProgram);
 __PACKAGE__->main() unless caller; # executes at run-time, unless used as module
 
 sub string
-	{
-	"Guten Tag!"
-	}
+    {
+    "Guten Tag!"
+    }
 {% endhighlight %}
 
 Besides this benefit, you also have an easier time testing your program because you've broken it into distinct parts that lend themselves to unit testing. You can test the parts without running the entire program.

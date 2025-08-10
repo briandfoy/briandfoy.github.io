@@ -56,14 +56,14 @@ Now I use this in my methods. If you already do the right thing with your failur
 my $False = Object::EveryMethod->new();
 
 sub methoda
-	{
-	my $self = shift;
-	#...
+    {
+    my $self = shift;
+    #...
 
-	if( ... everything worked ) { $self }
-	else            { $False }
+    if( ... everything worked ) { $self }
+    else            { $False }
 
-	}
+    }
 {% endhighlight %}
 
 That takes care of the method chaining problem. It's not going to break because it tries to do something it shouldn't do, like call a method on a non-object. The chain goes all the way to the end, but the object switches at some point to an instance `Object::EveryMethod`. At the end, the last method returns the `Object::EveryMethod` reference. That's our failure code. Instead of 0 or undef or whatever we get are false object.
@@ -72,8 +72,8 @@ Once we get the result, we want to know if whatever we tried to do did what we w
 
 {% highlight perl %}
 sub hey_that_worked {
-	not eval { $_[0]->isa( 'Object::EveryMethod' ) };
-	}
+    not eval { $_[0]->isa( 'Object::EveryMethod' ) };
+    }
 {% endhighlight %}
 
 Perl v5.32 is set to add the class instance operator to handle this, as I explain in [Use the infix class instance operator](https://www.effectiveperlprogramming.com/2020/01/use-the-infix-class-instance-operator/):
@@ -94,13 +94,13 @@ Let's change the Object::EveryMethod a bit. We'll add some information to the ob
 package Object::EveryMethod;
 
 sub new {
-	my( $class, $message ) = @_;
+    my( $class, $message ) = @_;
 
-	bless {
-		message => $message,
-		setter  => ... caller stuff,
-		}, $class;
-	}
+    bless {
+        message => $message,
+        setter  => ... caller stuff,
+        }, $class;
+    }
 
 sub AUTOLOAD { $_[0] }
 
@@ -111,17 +111,17 @@ We use it a bit differently. We create a tiny object for each error (or, we can 
 
 {% highlight perl %}
 sub methoda
-	{
-	my $self = shift;
-	#...
+    {
+    my $self = shift;
+    #...
 
-	if( ... everything worked ) { return $self }
-	else {
-		my $failure = "Oops, I did it again!";
-		return Object::EveryMethod->new( $failure );
-		}
+    if( ... everything worked ) { return $self }
+    else {
+        my $failure = "Oops, I did it again!";
+        return Object::EveryMethod->new( $failure );
+        }
 
-	}
+    }
 {% endhighlight %}
 
 Once we have the `Object::EveryMethod`, we can check it as before to get information out of it to see what went wrong.
@@ -134,9 +134,9 @@ We can hang some other fancy features on `Object::EveryMethod`. Since we use `AU
 package Object::EveryMethod;
 
 sub new {
-	my $class = shift;
-	bless { ... }, $class;
-	}
+    my $class = shift;
+    bless { ... }, $class;
+    }
 
 sub AUTOLOAD { $_[0] }
 sub can      { 1 }
@@ -150,9 +150,9 @@ If that doesn't work for us, we can make it return false, except for the methods
 package Object::EveryMethod;
 
 sub new {
-	my $class = shift;
-	bless { ... }, $class;
-	}
+    my $class = shift;
+    bless { ... }, $class;
+    }
 
 sub AUTOLOAD { $_[0] }
 sub can      { 0 unless defined &{$_[1]} }

@@ -72,17 +72,17 @@ Better still, I'd probably have some lightweight object built around that string
 
 {% highlight perl %}
 package Local::Birthday {
-	sub new    (...) { ... }
-	sub year   ()    { ... }
-	sub month  ()    { ... }
-	sub day    ()    { ... }
-	sub of_age ()    { ... }
+    sub new    (...) { ... }
+    sub year   ()    { ... }
+    sub month  ()    { ... }
+    sub day    ()    { ... }
+    sub of_age ()    { ... }
 
-	# maybe cache these too
-	sub yyyymmdd ()    { ... }
-	sub to_DateTime () { DateTime->new(...) }
-	sub to_TimePiece() { Time::Piece->new(...) }
-	}
+    # maybe cache these too
+    sub yyyymmdd ()    { ... }
+    sub to_DateTime () { DateTime->new(...) }
+    sub to_TimePiece() { Time::Piece->new(...) }
+    }
 {% endhighlight %}
 
 {% highlight perl %}

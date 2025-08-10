@@ -30,9 +30,9 @@ is the different ways of thinking about Java/C++ and anything else.
 * proper use is to compensate for our failure to express ourselves in code
 * every use of a comment represents a failure
 * comments lie
-	* degrade over time
-	* migrate
-	* people don't update comments
+    * degrade over time
+    * migrate
+    * people don't update comments
 * put the effort into the code, not the comment
 * mandated comments (every var must be...) are stupid comments
 

@@ -31,37 +31,37 @@ my $port = 3000;
 my $pid = fork;
 
 if( $pid == 0 ) {
-	local $SIG{INT} = sub {exit};
-	local $SIG{TERM} = sub {exit};
-	local $SIG{__WARN__} = sub {1};
+    local $SIG{INT} = sub {exit};
+    local $SIG{TERM} = sub {exit};
+    local $SIG{__WARN__} = sub {1};
 
-	get '/' => sub ($c) {
-	  sleep 10;
-	  $c->render(text => 'Hello from inside the program!');
-	};
+    get '/' => sub ($c) {
+      sleep 10;
+      $c->render(text => 'Hello from inside the program!');
+    };
 
-	local *STDOUT;
-	open STDOUT, '>>', '/dev/null';
-	my $app = app->log( Mojo::Log->new(path => '/dev/null') );
-	my $daemon = Mojo::Server::Daemon->new(app => $app, listen => ["http://127.0.0.1:$port"]);
-	$daemon->start;
-	Mojo::IOLoop->start;
-	}
+    local *STDOUT;
+    open STDOUT, '>>', '/dev/null';
+    my $app = app->log( Mojo::Log->new(path => '/dev/null') );
+    my $daemon = Mojo::Server::Daemon->new(app => $app, listen => ["http://127.0.0.1:$port"]);
+    $daemon->start;
+    Mojo::IOLoop->start;
+    }
 else {
-	sleep 2; # let server start
-	my $ua = Mojo::UserAgent->new->inactivity_timeout(3);
-	my $tx = $ua->get( "http://127.0.0.1:$port/" );
+    sleep 2; # let server start
+    my $ua = Mojo::UserAgent->new->inactivity_timeout(3);
+    my $tx = $ua->get( "http://127.0.0.1:$port/" );
 
-	if( eval {$tx->result} ) {
-		say "BODY: " . $tx->res->body;
-		}
-	else {
-		say "ERROR: $@";
-		}
+    if( eval {$tx->result} ) {
+        say "BODY: " . $tx->res->body;
+        }
+    else {
+        say "ERROR: $@";
+        }
 
-	kill 9, $pid;
-	waitpid $pid, 0;
-	}
+    kill 9, $pid;
+    waitpid $pid, 0;
+    }
 {% endhighlight %}
 
 Previously, I also used [HTTP::Daemon](https://github.com/libwww-perl/HTTP-Daemon), which was fine too, but I often am dealing with Mojolicious so it's already there.

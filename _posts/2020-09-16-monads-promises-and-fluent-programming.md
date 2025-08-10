@@ -39,61 +39,61 @@ As an intermediate step, Stepan invents the `Chainer`, a composer that can recog
 
 {% highlight perl %}
 Chainer->new( get_user($id) )
-	->when( sub ($a) { get_profile($a)         } )
-	->when( sub ($a) { get_display_picture($a) } );
+    ->when( sub ($a) { get_profile($a)         } )
+    ->when( sub ($a) { get_display_picture($a) } );
 {% endhighlight %}
 
 If there's a value, it uses that value as the argument to the next step. (For Perl people, the `=>` in his code is a fancy way to define a lambda, not create a pair. It's `SIGNATURE => CODE`.).
 
 {% highlight perl %}
 package Chainer {
-	use experimental qw(signatures);
+    use experimental qw(signatures);
 
-	sub new ( $class, $value ) {
-		bless { value => $value }, $class;
-		}
+    sub new ( $class, $value ) {
+        bless { value => $value }, $class;
+        }
 
-	sub value ( $self ) { $self->{value} }
+    sub value ( $self ) { $self->{value} }
 
-	sub when( $self, $f ) {
-		defined $self->value ?
-			ref($self)->new( $f->($self->value) )
-			:
-			$self;
-		}
-	}
+    sub when( $self, $f ) {
+        defined $self->value ?
+            ref($self)->new( $f->($self->value) )
+            :
+            $self;
+        }
+    }
 {% endhighlight %}
 
 In that code, each step is a new `Chainer` object, either the new one with a new value or the current one. Stepan modifies that for the case where one of the functions already returns a chained thingy. In that case (in `merge`) you don't make a new `Chainer`:
 
 {% highlight perl %}
 Chainer->new( get_user($id) )
-	->merge( sub ($a) { returns_chainer($a)     } )
-	->when(  sub ($a) { get_display_picture($a) } );
+    ->merge( sub ($a) { returns_chainer($a)     } )
+    ->when(  sub ($a) { get_display_picture($a) } );
 
 package Chainer {
-	use experimental qw(signatures);
+    use experimental qw(signatures);
 
-	sub new ( $class, $value ) {
-		bless { value => $value }, $class;
-		}
+    sub new ( $class, $value ) {
+        bless { value => $value }, $class;
+        }
 
-	sub value ( $self ) { $self->{value} }
+    sub value ( $self ) { $self->{value} }
 
-	sub when( $self, $f ) {
-		defined $self->value ?
-			ref($self)->new( $f->($self->value) )
-			:
-			$self;
-		}
+    sub when( $self, $f ) {
+        defined $self->value ?
+            ref($self)->new( $f->($self->value) )
+            :
+            $self;
+        }
 
-	sub merge( $self, $f ) {
-		defined $self->value ?
-			$f->($self->value)
-			:
-			$self;
-		}
-	}
+    sub merge( $self, $f ) {
+        defined $self->value ?
+            $f->($self->value)
+            :
+            $self;
+        }
+    }
 {% endhighlight %}
 
 Since he always returns a `Chainer` thingy, I don't see how he gets around a failure. You get one of the thingys, maybe the initial one, and then call `when` on it. The value that the `Chainer` stored was for the previous step but now he tries to use it for the next step. I could be missing something in his setup, but he never mentions how things work when any step fails.
@@ -104,23 +104,23 @@ Not only that, I shouldn't need the extra `merge` method. I can look at the valu
 use v5.32;
 
 package Chainer {
-	use experimental qw(signatures);
+    use experimental qw(signatures);
 
-	sub new ( $class, $value ) {
-		bless { value => $value }, $class;
-		}
+    sub new ( $class, $value ) {
+        bless { value => $value }, $class;
+        }
 
-	sub value ( $self ) { $self->{value} }
+    sub value ( $self ) { $self->{value} }
 
-	sub when( $self, $f ) {
-		return $self unless $self->value;
-		my $value = $f->($self->value);
-		$value isa 'Chainer' ?
-			$value
-			:
-			ref($self)->new( $value )
-		}
-	}
+    sub when( $self, $f ) {
+        return $self unless $self->value;
+        my $value = $f->($self->value);
+        $value isa 'Chainer' ?
+            $value
+            :
+            ref($self)->new( $value )
+        }
+    }
 {% endhighlight %}
 
 From there, you can follow [Stepan's post]((https://stopa.io/post/247) to learn more about how this resembles monads. I want to look at the particular problem and a few techniques for dealing with it.
@@ -140,16 +140,16 @@ use Mojo::Promise;
 my $promise = Mojo::Promise->new;
 
 my $chain = $promise
-	->then(
-		sub { say "First step resolves" },
-		)
-	->then(
-		sub { say "Second step resolves" },
-		)
-	->then(
-		sub { say "Third step resolves" },
-		)
-	;
+    ->then(
+        sub { say "First step resolves" },
+        )
+    ->then(
+        sub { say "Second step resolves" },
+        )
+    ->then(
+        sub { say "Third step resolves" },
+        )
+    ;
 
 $promise->resolve;
 $chain->wait;
@@ -180,34 +180,34 @@ I can handle that anywhere I like, but a `catch` at the end works:
 
 {% highlight perl %}
 my $chain = $promise
-	->then(
-		sub { say "First step resolves" },
-		)
-	->then(
-		sub { say "Second step resolves" },
-		)
-	->then(
-		sub { say "Third step resolves" },
-		)
-	->catch( sub { warn 'wtflol' } )
-	;
+    ->then(
+        sub { say "First step resolves" },
+        )
+    ->then(
+        sub { say "Second step resolves" },
+        )
+    ->then(
+        sub { say "Third step resolves" },
+        )
+    ->catch( sub { warn 'wtflol' } )
+    ;
 {% endhighlight %}
 
 But, a `catch` is just a `then` with only a `reject` branch:
 
 {% highlight perl %}
 my $chain = $promise
-	->then(
-		sub { say "First step resolves" },
-		)
-	->then(
-		sub { say "Second step resolves" },
-		)
-	->then(
-		sub { say "Third step resolves" },
-		)
-	->then( undef, sub { warn 'wtflol' } )
-	;
+    ->then(
+        sub { say "First step resolves" },
+        )
+    ->then(
+        sub { say "Second step resolves" },
+        )
+    ->then(
+        sub { say "Third step resolves" },
+        )
+    ->then( undef, sub { warn 'wtflol' } )
+    ;
 {% endhighlight %}
 
 Now expand that into something real. Create a Promise and resolve it with the user ID I want to find. That's primes the pump.
@@ -222,20 +222,20 @@ use Mojo::Promise;
 use experimental qw(signatures);
 
 my %Users = (
-	137 => {
-		id => 137,
-		profile => {
-			pic => 'brian.jpg',
-			},
-		},
-	37 => {
-		id => 37,
-		},
-	7 => {
-		id => 7,
-		profile => {},
-		},
-	);
+    137 => {
+        id => 137,
+        profile => {
+            pic => 'brian.jpg',
+            },
+        },
+    37 => {
+        id => 37,
+        },
+    7 => {
+        id => 7,
+        profile => {},
+        },
+    );
 
 sub user    ( $id      ) { $Users{$id}      }
 sub profile ( $user    ) { $user->{profile} }
@@ -245,27 +245,27 @@ my $promise = Mojo::Promise->resolve( shift );
 
 my $picture;
 my $chain = $promise
-	->then(
-		sub { defined $_[0] ? $_[0] :
-			Mojo::Promise->reject( "No userid!" ) },
-		)
-	->then(
-		sub { user( $_[0] )
-			// Mojo::Promise->reject( "No such userid $_[0]" ) },
-		)
-	->then(
-		sub { profile( $_[0] )
-			// Mojo::Promise->reject( "User $_[0]{id} does not have a profile" ) },
-		)
-	->then(
-		sub { picture( $_[0] )
-			// Mojo::Promise->reject( "Profile does not have a picture" ) },
-		)
-	->then(
-		sub { $picture = $_[0]; say "Picture is $_[0]" },
-		sub { warn "wtf: @_" }
-		)
-	;
+    ->then(
+        sub { defined $_[0] ? $_[0] :
+            Mojo::Promise->reject( "No userid!" ) },
+        )
+    ->then(
+        sub { user( $_[0] )
+            // Mojo::Promise->reject( "No such userid $_[0]" ) },
+        )
+    ->then(
+        sub { profile( $_[0] )
+            // Mojo::Promise->reject( "User $_[0]{id} does not have a profile" ) },
+        )
+    ->then(
+        sub { picture( $_[0] )
+            // Mojo::Promise->reject( "Profile does not have a picture" ) },
+        )
+    ->then(
+        sub { $picture = $_[0]; say "Picture is $_[0]" },
+        sub { warn "wtf: @_" }
+        )
+    ;
 
 $chain->wait;
 {% endhighlight %}
@@ -304,29 +304,29 @@ my $user_id = shift;
 my $promise = Mojo::Promise->resolve( $user_id );
 
 my @table = (
-	[ \&looks_like_id, "Doesn't look like a userid [%s]"               ],
-	[ \&user,          "No such userid [%s]"                           ],
-	[ \&profile,       "User [%s] does not have a profile"             ],
-	[ \&picture,       "Profile for user [%s] does not have a picture" ],
-	);
+    [ \&looks_like_id, "Doesn't look like a userid [%s]"               ],
+    [ \&user,          "No such userid [%s]"                           ],
+    [ \&profile,       "User [%s] does not have a profile"             ],
+    [ \&picture,       "Profile for user [%s] does not have a picture" ],
+    );
 
 my $chain = $promise;
 my $picture;
 foreach my $tuple ( @table ) {
-	my $sub = sub {
-		my $error = sprintf $tuple->[1], $user_id;
-		$tuple->[0]->( $_[0] ) // Mojo::Promise->reject( $error );
-		};
+    my $sub = sub {
+        my $error = sprintf $tuple->[1], $user_id;
+        $tuple->[0]->( $_[0] ) // Mojo::Promise->reject( $error );
+        };
 
-	$chain = $chain->then( $sub );
-	}
+    $chain = $chain->then( $sub );
+    }
 
 $chain
-	->then(
-		sub { say "Picture is $_[0]" },
-		sub { say "wtf: @_" }
-		)
-	->wait;
+    ->then(
+        sub { say "Picture is $_[0]" },
+        sub { say "wtf: @_" }
+        )
+    ->wait;
 {% endhighlight %}
 
 ## Method chaining
@@ -338,73 +338,73 @@ I want to write something like this, where I have a chain of methods one after t
 {% highlight perl %}
 my $user_id = shift;
 my $picture = UserThings->new($user_id)
-	->looks_like_id
-	->user
-	->profile
-	->picture;
+    ->looks_like_id
+    ->user
+    ->profile
+    ->picture;
 {% endhighlight %}
 
 So, how do I handle errors? Here's the trick. If a method fails, I'll return a null object that responds to any method name by returning itself. That soaks up the rest of the method chain without an error. When you want to know if the whole thing worked, you look at what you got back. This is the same object type technique I used in [No ifs, ands, or buts](/no-ifs-ands-or-buts/), [The Null Mull](/the-null-mull/), and the StackOverflow answer [How do I handle errors in methods chains in Perl?](https://stackoverflow.com/a/7068271/2766176):
 
 {% highlight perl %}
 if( $picture isa 'Local::Null' ) {
-	warn "wtf: " . $picture->{message} . "\n";
-	}
+    warn "wtf: " . $picture->{message} . "\n";
+    }
 else {
-	say "Picture is $picture";
-	}
+    say "Picture is $picture";
+    }
 {% endhighlight %}
 
 Here's the null class. The `new` creates it and the `AUTOLOAD` handles any method not defined by returning the null object again. I handle `DESTROY`, a special Perl finalizer method to break an infinite loop:
 
 {% highlight perl %}
 package Local::Null {
-	use experimental qw(signatures);
+    use experimental qw(signatures);
 
-	sub new ( $class, $message ) {
-		bless { message => $message }, $class;
-		}
-	sub DESTROY  { 1 }
-	sub AUTOLOAD ( $self ) { $self }
-	}
+    sub new ( $class, $message ) {
+        bless { message => $message }, $class;
+        }
+    sub DESTROY  { 1 }
+    sub AUTOLOAD ( $self ) { $self }
+    }
 {% endhighlight %}
 
 To handle everything else, stuff moves into a class. Each method either succeeds or returns a null object:
 
 {% highlight perl %}
 package UserThings {
-	use experimental qw(signatures);
+    use experimental qw(signatures);
 
-	my sub _null ( $message ) { Local::Null->new( $message ) }
+    my sub _null ( $message ) { Local::Null->new( $message ) }
 
-	sub new  ( $class, $id ) { bless { id => $id }, $class }
-	sub id   ( $self ) { $self->{id} }
+    sub new  ( $class, $id ) { bless { id => $id }, $class }
+    sub id   ( $self ) { $self->{id} }
 
-	sub looks_like_id ( $self ) {
-		$self->id =~ /\A[0-9]+\z/ ?
-			$self
-			:
-			_null( sprintf "Doesn't look like a userid [%s]", $self->id )
-		}
-	sub user ( $self ) {
-		$self->{user} = $Users{$self->id} ?
-			$self
-			:
-			_null( sprintf "No such userid [%s]", $self->id )
-		}
-	sub profile ( $self ) {
-		$self->{profile} = $Users{$self->id}{profile} ?
-			$self
-			:
-			_null( sprintf "User [%s] does not have a profile", $self->id );
-		}
-	sub picture ( $self ) {
-		exists $Users{$self->id}{profile}{pic} ?
-			$Users{$self->id}{profile}{pic}
-			:
-			_null( sprintf "Profile for user [%s] does not have a picture", $self->id );
-		}
-	}
+    sub looks_like_id ( $self ) {
+        $self->id =~ /\A[0-9]+\z/ ?
+            $self
+            :
+            _null( sprintf "Doesn't look like a userid [%s]", $self->id )
+        }
+    sub user ( $self ) {
+        $self->{user} = $Users{$self->id} ?
+            $self
+            :
+            _null( sprintf "No such userid [%s]", $self->id )
+        }
+    sub profile ( $self ) {
+        $self->{profile} = $Users{$self->id}{profile} ?
+            $self
+            :
+            _null( sprintf "User [%s] does not have a profile", $self->id );
+        }
+    sub picture ( $self ) {
+        exists $Users{$self->id}{profile}{pic} ?
+            $Users{$self->id}{profile}{pic}
+            :
+            _null( sprintf "Profile for user [%s] does not have a picture", $self->id );
+        }
+    }
 {% endhighlight %}
 
 There are various ways that I can reduce this to create new classes on the fly with just the operations I want to do, but that's some tricky code I don't want to explain here.

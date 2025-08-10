@@ -14,7 +14,7 @@ I use cheatsheets to remember commands I use frequently.
 
 Batch convert:
 
-	for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
+    for i in *.avi; do ffmpeg -i "$i" "${i%.*}.mp4"; done
 
 Convert formats:
 
@@ -26,21 +26,21 @@ Extract audio:
 
 Remove audio:
 
-	ffmpeg -i input.mp4 -c copy -an input-nosound.mp4
+    ffmpeg -i input.mp4 -c copy -an input-nosound.mp4
 
 Be quiet:
 
-	ffmpeg -hide_banner -loglevel warning
+    ffmpeg -hide_banner -loglevel warning
 
 Fire and forget (redirect stdin):
 
-	nohup ffmpeg ... </dev/null &
+    nohup ffmpeg ... </dev/null &
 
 Find the size:
 
-	ffprobe -v error -show_entries stream=width,height \
-		-select_streams v:0 -of json  input.mp4 \
-		| jq '.streams[0]|.width,.height' | paste - -
+    ffprobe -v error -show_entries stream=width,height \
+        -select_streams v:0 -of json  input.mp4 \
+        | jq '.streams[0]|.width,.height' | paste - -
 
 Change size:
 
@@ -69,12 +69,12 @@ Burn subtitles:
 
 Rotate a video:
 
-	ffmpeg -i in.mov -vf "transpose=1" out.mov
+    ffmpeg -i in.mov -vf "transpose=1" out.mov
 
-	0 = 90 CounterCLockwise and Vertical Flip (default)
-	1 = 90 Clockwise
-	2 = 90 CounterClockwise
-	3 = 90 Clockwise and Vertical Flip
+    0 = 90 CounterCLockwise and Vertical Flip (default)
+    1 = 90 Clockwise
+    2 = 90 CounterClockwise
+    3 = 90 Clockwise and Vertical Flip
 
 Download transport stream:
 

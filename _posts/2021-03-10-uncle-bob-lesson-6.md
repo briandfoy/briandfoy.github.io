@@ -26,18 +26,18 @@ Symptoms of mismanagement:
 * project is inferior in quality
 * late
 * Iron Cross of project management (choose 3)
-	* Good
-	* Fast
-	* Cheap
-	* Done
+    * Good
+    * Fast
+    * Cheap
+    * Done
 
 * Data
-	* Story points
-	* Burn down chart
+    * Story points
+    * Burn down chart
 * Put the charts on the wall
 
 * The purpose of Agile is to destroy hope
-	* want to know how messed up we are as soon as we can
+    * want to know how messed up we are as soon as we can
 
 * Flaccid scrum
 

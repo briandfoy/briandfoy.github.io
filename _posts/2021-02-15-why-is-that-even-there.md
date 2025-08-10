@@ -20,19 +20,19 @@ A long time ago, I wrote the Perl module [HTTP::Cookies::Chrome](https://metacpa
 
 {% highlight perl %}
 sub _platform_settings {
-	state $settings = {
-		darwin => {
-			iterations => 1003,
-			},
-		linux => {
-			iterations => 1,
-			},
-		MSWin32 => {
-			},
-		};
+    state $settings = {
+        darwin => {
+            iterations => 1003,
+            },
+        linux => {
+            iterations => 1,
+            },
+        MSWin32 => {
+            },
+        };
 
-	$settings->{$^O};
-	}
+    $settings->{$^O};
+    }
 {% endhighlight %}
 
 
@@ -40,43 +40,43 @@ But, that's a pretty weird subroutine. There's no tricky syntax there, but it's 
 
 {% highlight perl %}
 sub _platform_settings {
-	state $settings = {
-		darwin  => { iterations => 1003, },
-		linux   => { iterations =>    1, },
-		MSWin32 => { },
-		};
+    state $settings = {
+        darwin  => { iterations => 1003, },
+        linux   => { iterations =>    1, },
+        MSWin32 => { },
+        };
 
-	$settings->{$^O};
-	}
+    $settings->{$^O};
+    }
 {% endhighlight %}
 
 But why didn't I? You can't see the reason in the repo or even in the code itself, but here's what I originally wrote:
 
 {% highlight perl %}
 sub _platform_settings {
-	state $settings = {
-		darwin => {
-			iterations => 1003,
-			profile    => 'Default',
-			path       => "$ENV{HOME}/Library/Application Support/Chrome/Default/Cookies",
-			chrome_safe_storage => do { my $c = `...`; chomp $c; $c },
-			},
-		linux => {
-			iterations => 1,
-			profile    => 'Default',
-			path       => "$ENV{HOME}/.config/ google-chrome/Default/Cookies",
-			chrome_safe_storage => do { my $c = `...`; chomp $c; $c },
-			},
-		MSWin32 => {
-			iterations => undef,
-			profile    => 'Default',
-			path       => '$ENV{HOME}\',
-			chrome_safe_storage => undef,
-			},
-		};
+    state $settings = {
+        darwin => {
+            iterations => 1003,
+            profile    => 'Default',
+            path       => "$ENV{HOME}/Library/Application Support/Chrome/Default/Cookies",
+            chrome_safe_storage => do { my $c = `...`; chomp $c; $c },
+            },
+        linux => {
+            iterations => 1,
+            profile    => 'Default',
+            path       => "$ENV{HOME}/.config/ google-chrome/Default/Cookies",
+            chrome_safe_storage => do { my $c = `...`; chomp $c; $c },
+            },
+        MSWin32 => {
+            iterations => undef,
+            profile    => 'Default',
+            path       => '$ENV{HOME}\',
+            chrome_safe_storage => undef,
+            },
+        };
 
-	$settings->{$^O};
-	}
+    $settings->{$^O};
+    }
 {% endhighlight %}
 
 Originally I wanted to get the Chrome Safe Storage password. That's a secret that Chrome generates on its own and is available to the logged in user. Each platform has a different method for storing secrets, so they each have their own way to access them. I thought that I could handle all those details for the user.
@@ -87,26 +87,26 @@ So, I removed all that stuff, ending up with something that doesn't quite make s
 
 {% highlight perl %}
 sub _platform_settings {
-	state $settings = {
-		darwin => {
-			iterations => 1003,
-			},
-		linux => {
-			iterations => 1,
-			},
-		MSWin32 => {
-			},
-		};
+    state $settings = {
+        darwin => {
+            iterations => 1003,
+            },
+        linux => {
+            iterations => 1,
+            },
+        MSWin32 => {
+            },
+        };
 
-	$settings->{$^O};
-	}
+    $settings->{$^O};
+    }
 {% endhighlight %}
 
 ## Other things to read
 
 * [Reading Code Is a Skill](https://dzone.com/articles/reading-code-is-a-skill) says some of the same stuff
-	* The code predates more recent features
-	* The best practices were different then
-	* The original code made sense, but then other lines were added
-	* There were business constraints that no one remembers
+    * The code predates more recent features
+    * The best practices were different then
+    * The original code made sense, but then other lines were added
+    * There were business constraints that no one remembers
 * [Code Is Not Literature](http://www.gigamonkeys.com/code-reading/)

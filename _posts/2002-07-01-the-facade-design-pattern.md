@@ -53,12 +53,12 @@ require HTML::LinkExtor;
 use vars qw( @links );
 
 sub call_back
-	{
-	my( $tag, %attr ) = @_;
-	return unless exists $attr{href};
+    {
+    my( $tag, %attr ) = @_;
+    return unless exists $attr{href};
 
-	push @links, $attr{href};
-	}
+    push @links, $attr{href};
+    }
 
 my $parser = HTML::LinkExtor->new( \&call_back, "http://www.example.com" );
 
@@ -128,23 +128,23 @@ require HTML::HeadParser;
 require HTML::SimpleLinkExtor;
 
 sub new
-	{
-	my( $class, $url ) = @_;
+    {
+    my( $class, $url ) = @_;
 
-	return unless $data = LWP::Simple->get($url);
+    return unless $data = LWP::Simple->get($url);
 
-	bless \$data, $class;
-	}
+    bless \$data, $class;
+    }
 
 sub title
-	{
-	return HTML::HeadParser->new()->parse($$_[0])->header('Title');
-	}
+    {
+    return HTML::HeadParser->new()->parse($$_[0])->header('Title');
+    }
 
 sub links
-	{
-	HTML::SimpleLinkExtor->new()->parse($$_[0])->links;
-	}
+    {
+    HTML::SimpleLinkExtor->new()->parse($$_[0])->links;
+    }
 
 1;
 
@@ -280,13 +280,13 @@ Although I still do not have any objects, I can change my `send()` method to tak
 
 {% highlight perl %}
 sub send
-	{
-	my( $class, $message, $recipient ) = @_;
+    {
+    my( $class, $message, $recipient ) = @_;
 
-	return unless defined $message and defined $recipient;
+    return unless defined $message and defined $recipient;
 
-	return 1;
-	}
+    return 1;
+    }
 {% endhighlight %}
 
 My test for `send()` changes to make sure it does the right thing for different argument lists. I add three tests for different numbers of arguments. Only the call to `send()` with the right number of arguments should succeed. The other tests check for failure when `send()` should fail.
@@ -294,20 +294,20 @@ My test for `send()` changes to make sure it does the right thing for different 
 {% highlight perl %}
 # should fail -- no recipient
 eval {
-	Chat->send('Come here Mr. Watson, I need you');
-	};
+    Chat->send('Come here Mr. Watson, I need you');
+    };
 defined $@ ? not_ok() : ok();
 
 # should fail -- no message or recipient
 eval {
-	Chat->send();
-	};
+    Chat->send();
+    };
 defined $@ ? not_ok() : ok();
 
 # should succeed
 eval {
-	Chat->send('Come here', 'Mr. Watson');
-	};
+    Chat->send('Come here', 'Mr. Watson');
+    };
 defined $@ ? not_ok() : ok();
 {% endhighlight %}
 
@@ -317,14 +317,14 @@ Once I progress far enough to have `Message` and `Recipient` objects, if I decid
 
 {% highlight perl %}
 sub send
-	{
-	my( $class, $message, $recipient ) = @_;
+    {
+    my( $class, $message, $recipient ) = @_;
 
-	return unless $message->isa('Chat::Message') and
-		$recipient->isa('Chat::Recipient');
+    return unless $message->isa('Chat::Message') and
+        $recipient->isa('Chat::Recipient');
 
-	return 1;
-	}
+    return 1;
+    }
 {% endhighlight %}
 
 If later I change the objects or their behavior, I have not wasted too much time. My façade and its tests still work. Any application I have written does not need to change significantly. The façade handles the details and the interactions between the various objects. At the same time, other programmers can start to use the interface to create applications. The programs will not work until everything is complete, of course, but the programmers have a jump start on the process because they can code and test before everything is in place. They essentially work in parallel, instead of serially, with the programmers implementing the objects and the façade. The creation of classes is not a work flow bottleneck since the façade decouples the application and lower level implementations.

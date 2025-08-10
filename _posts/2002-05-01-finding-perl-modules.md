@@ -42,28 +42,28 @@ Good search terms make for useful search results. If I want to find something ab
 
 <table>
 <tr>
-	<th>Search</th>
-	<th>terms</th>
-	<th>hits</th>
-	<th>Note</th>
+    <th>Search</th>
+    <th>terms</th>
+    <th>hits</th>
+    <th>Note</th>
 </tr>
 <tr>
-	<td>A</td>
-	<td>perl</td>
-	<td class="number">2,970,000</td>
-	<td></td>
+    <td>A</td>
+    <td>perl</td>
+    <td class="number">2,970,000</td>
+    <td></td>
 </tr>
 <tr>
-	<td>B</td>
-	<td>fuzzy perl</td>
-	<td class="number">11,000</td>
-	<td>first match mentions soundex</td>
+    <td>B</td>
+    <td>fuzzy perl</td>
+    <td class="number">11,000</td>
+    <td>first match mentions soundex</td>
 </tr>
 <tr>
-	<td>C</td>
-	<td>fuzzy match perl</td>
-	<td class="number">671</td>
-	<td></td>
+    <td>C</td>
+    <td>fuzzy match perl</td>
+    <td class="number">671</td>
+    <td></td>
 </tr>
 </table>
 

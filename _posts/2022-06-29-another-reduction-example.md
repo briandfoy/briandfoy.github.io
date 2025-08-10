@@ -48,7 +48,7 @@ my $base = qr|(\d{2})(\d{2})(\d{2})/([a-z]{5})/\d{6}\.(dw[a-z]+)\.001|;
 my $pattern = $runmode eq 'prd' ? qr|^$base| : qr|^QA/$base|;
 
 while( <$fh> ) {
-	print $OUT uc("$4|$5|20$1-$2-$3\n") if m/$pattern/;
+    print $OUT uc("$4|$5|20$1-$2-$3\n") if m/$pattern/;
     }
 {% endhighlight %}
 
@@ -58,8 +58,8 @@ Another tactic reduces the problem so you can use the same pattern. If you remov
 my $pattern = qr|(\d{2})(\d{2})(\d{2})/([a-z]{5})/\d{6}\.(dw[a-z]+)\.001|;
 
 while( <$fh> ) {
-	s|\AQA/|| if $runmode eq 'prd';
-	print $OUT uc("$4|$5|20$1-$2-$3\n") if m/$pattern/;
+    s|\AQA/|| if $runmode eq 'prd';
+    print $OUT uc("$4|$5|20$1-$2-$3\n") if m/$pattern/;
     }
 {% endhighlight %}
 

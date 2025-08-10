@@ -111,7 +111,7 @@ BBEdit can open files over FTP or SFTP, but it still doesn't have support for SC
 set theURL to display dialog "Enter URL:" default answer "http://"
 set quotedURL to quoted form of (text returned of theURL)
 set theCmd to "curl --stderr /dev/null  " & quotedURL & "
-	 | bbedit --clean --view-top" -- do proper escaping someday
+     | bbedit --clean --view-top" -- do proper escaping someday
 do shell script theCmd
 {% endhighlight %}
 

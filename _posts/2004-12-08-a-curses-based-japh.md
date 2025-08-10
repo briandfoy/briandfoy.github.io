@@ -36,7 +36,7 @@ initscr;
 
 my $ROW    = ( LINES() % 2 ? LINES() - 1 : LINES() ) / 2;
 my $COLUMN = ( COLS() % 2 ? COLS() - 1 : COLS() ) / 2 -
-	( $LENGTH % 2 ? $LENGTH - 1 : $LENGTH ) / 2;
+    ( $LENGTH % 2 ? $LENGTH - 1 : $LENGTH ) / 2;
 my $END_COL = $COLUMN + $LENGTH - 1;
 
 my @array;
@@ -47,31 +47,31 @@ my $y = random( COLS );
 my $letter = sub { $LETTERS[ int( rand( @LETTERS ) ) ] };
 
 while( 1 ) {
-	my $x      = &$x;
-	my $y      = &$y;
-	my $letter = &$letter;
+    my $x      = &$x;
+    my $y      = &$y;
+    my $letter = &$letter;
 
-	next if( $x == $ROW and $array[$y] );
+    next if( $x == $ROW and $array[$y] );
 
-	if( $x == $ROW and $y >= $COLUMN and $y <= $END_COL
-		and substr( $STRING, $y - $COLUMN, 1 ) eq $letter ) {
-		$array[$y]++;
-		$count++;
-		}
+    if( $x == $ROW and $y >= $COLUMN and $y <= $END_COL
+        and substr( $STRING, $y - $COLUMN, 1 ) eq $letter ) {
+        $array[$y]++;
+        $count++;
+        }
 
-	put_letter( $letter, $x, $y );
+    put_letter( $letter, $x, $y );
 
-	if( $count == $LENGTH ) { @LETTERS = ' '; }
-	}
+    if( $count == $LENGTH ) { @LETTERS = ' '; }
+    }
 
 sub random {
-	my $range = shift;
-	sub { int( rand($range) ) }
-	}
+    my $range = shift;
+    sub { int( rand($range) ) }
+    }
 
 sub put_letter {
-	my ($letter, $x, $y) = @_;
-	addch( $x, $y, $letter );
-	refresh;
-	}
+    my ($letter, $x, $y) = @_;
+    addch( $x, $y, $letter );
+    refresh;
+    }
 {% endhighlight %}

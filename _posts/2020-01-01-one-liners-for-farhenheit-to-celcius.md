@@ -19,8 +19,8 @@ I wanted to make some shell aliases for temperature conversions and I got carrie
 
 ## dc
 
-	% dc -e '10 k 9 5 / ? * 32 + f' <<< 100
-	% dc -e '10 k 5 9 / ? 32 - * f' <<< 211.95
+    % dc -e '10 k 9 5 / ? * 32 + f' <<< 100
+    % dc -e '10 k 5 9 / ? 32 - * f' <<< 211.95
 
 I wanted to try bc too, but I couldn't figure out how to make it fill in a parameter.
 
@@ -28,5 +28,5 @@ I wanted to try bc too, but I couldn't figure out how to make it fill in a param
 
 Perhaps using my implementation of [Stupid Stack Language](https://github.com/briandfoy/perl-ssl):
 
-	% ssl avavimiilblbavavvdplblbhmlblbgx <<< 100
-	% ssl avvdavplblbavqimiilblbhclblbmx <<< 212
+    % ssl avavimiilblbavavvdplblbhmlblbgx <<< 100
+    % ssl avvdavplblbavqimiilblbhclblbmx <<< 212

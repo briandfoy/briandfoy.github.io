@@ -29,15 +29,15 @@ use LWP::Simple;
 use XML::RSS;
 
 my @files = qw(
-	http://use.perl.org/useperl.rss
-	http://search.cpan.org/rss/search.rss
-	http://jobs.perl.org/rss/standard.rss
-	http://www.perl.com/pace/perlnews.rdf
-	http://www.perlfoundation.org/perl-foundation.rdf
-	http://www.stonehenge.com/merlyn/UnixReview/ur.rss
-	http://www.stonehenge.com/merlyn/WebTechniques/wt.rss
-	http://www.stonehenge.com/merlyn/LinuxMag/lm.rss
-	);
+    http://use.perl.org/useperl.rss
+    http://search.cpan.org/rss/search.rss
+    http://jobs.perl.org/rss/standard.rss
+    http://www.perl.com/pace/perlnews.rdf
+    http://www.perlfoundation.org/perl-foundation.rdf
+    http://www.stonehenge.com/merlyn/UnixReview/ur.rss
+    http://www.stonehenge.com/merlyn/WebTechniques/wt.rss
+    http://www.stonehenge.com/merlyn/LinuxMag/lm.rss
+    );
 
 my $base = '/usr/home/comdog/TPR/rss-html';
 

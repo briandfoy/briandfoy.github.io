@@ -37,8 +37,8 @@ TCL had this amazingly library called [Expect](http://tcl.tk/man/expect5.31/expe
 spawn ssh some_system
 
 expect {
-	"$ " { sleep 5; send "who\r"; exp_continue }
-	}
+    "$ " { sleep 5; send "who\r"; exp_continue }
+    }
 {% endhighlight %}
 
 

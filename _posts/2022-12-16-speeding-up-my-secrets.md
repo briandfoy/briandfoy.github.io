@@ -17,8 +17,8 @@ The problem was that every time I started the shell I made many calls to the bas
 {% highlight bash %}
 # .get_secret.sh
 function get_secret () {
-	security find-generic-password -a $LOGNAME -s $1 -w
-	}
+    security find-generic-password -a $LOGNAME -s $1 -w
+    }
 {% endhighlight %}
 
 This means that I'm likely fetching the same data over and over even though it hasn't changed. These values are often API keys, constants, and other things that probably haven't changed in months. Still, I reload them several times an hour as I open new terminals.
@@ -63,17 +63,17 @@ days=1
 
 if [ -z "${BBEDIT_CLIENT_INTERACTIVE}" ]
 then
-	if test `find $gpg_file -mtime -$days`
-	then
-		echo "$gpg_file is fresh"
-	else
-		echo "Recreating $gpg_file"
-		$base_secrets_create
-	fi
-	echo "Sourcing $gpg_file"
-	gpg_password=$(get_secret bash_secrets_gpg_password)
-	plain=$(echo $gpg_password | gpg --passphrase-fd 0 -d $gpg_file 2>/dev/null)
-	source <(echo -e "$plain")
+    if test `find $gpg_file -mtime -$days`
+    then
+        echo "$gpg_file is fresh"
+    else
+        echo "Recreating $gpg_file"
+        $base_secrets_create
+    fi
+    echo "Sourcing $gpg_file"
+    gpg_password=$(get_secret bash_secrets_gpg_password)
+    plain=$(echo $gpg_password | gpg --passphrase-fd 0 -d $gpg_file 2>/dev/null)
+    source <(echo -e "$plain")
 fi
 {% endhighlight %}
 

@@ -26,21 +26,21 @@ here's what I did. I have a nested `ul` lists:
 {% highlight html %}
 <ul class="toc no-parts mojo-web-clients-toc">
 <li>Preface
-	<ul>
-	<li>Some eBook Notes</li>
-	<li>Installing Mojolicious</li>
-	<li>Getting Help</li>
-	<li>Acknowledgments</li>
-	<li>Perl School</li>
-	</ul></li>
+    <ul>
+    <li>Some eBook Notes</li>
+    <li>Installing Mojolicious</li>
+    <li>Getting Help</li>
+    <li>Acknowledgments</li>
+    <li>Perl School</li>
+    </ul></li>
 <li>Introduction
-	<ul>
-	<li>The Mojo Philosophy</li>
-	<li>Be Nice to Servers</li>
-	<li>How HTTP Works</li>
-	<li>Add to the Request</li>
-	<li>httpbin</li>
-	</ul></li>
+    <ul>
+    <li>The Mojo Philosophy</li>
+    <li>Be Nice to Servers</li>
+    <li>How HTTP Works</li>
+    <li>Add to the Request</li>
+    <li>httpbin</li>
+    </ul></li>
 ...
 </ul>
 {% endhighlight %}
@@ -77,8 +77,8 @@ you can extract my Table of Contents with a class selector:
 
 {% highlight text %}
 $ perl -Mojo -E 'say g(shift)->dom->at(
-	q( ul.mojo-web-clients-toc )
-	)' https://leanpub.com/mojo_web_clients
+    q( ul.mojo-web-clients-toc )
+    )' https://leanpub.com/mojo_web_clients
 {% endhighlight %}
 
 The `toc` class might work, but I'm not confident it wouldn't be repurposed
@@ -87,7 +87,7 @@ book's page:
 
 {% highlight text %}
 $ perl -Mojo -E 'say g(shift)->dom->at( q( ul.toc )
-	)' https://leanpub.com/mojo_web_clients
+    )' https://leanpub.com/mojo_web_clients
 {% endhighlight %}
 
 Finally, the screenshot of the instructions:

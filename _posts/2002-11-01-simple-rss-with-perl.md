@@ -83,22 +83,22 @@ chomp( my $channel_title = <DATA> );
 chomp( my $channel_link  = <DATA> );
 
 $rss->channel(
-		title => $channel_title,
-		link => $channel_link,
-		);
+        title => $channel_title,
+        link => $channel_link,
+        );
 
 while( defined( my $title = <DATA> ) )
-		{
-		next unless $title =~ /\S/;
-		chomp $title;
+        {
+        next unless $title =~ /\S/;
+        chomp $title;
 
-		chomp( my $link = <DATA> );
+        chomp( my $link = <DATA> );
 
-		$rss->add_item(
-			title => $title,
-			link  => $link,
-			);
-		}
+        $rss->add_item(
+            title => $title,
+            link  => $link,
+            );
+        }
 
 print $rss->as_string;
 
@@ -146,78 +146,78 @@ use LWP::Simple;
 use XML::RSS;
 
 my @files = qw(
-	http://use.perl.org/useperl.rss
-	http://search.cpan.org/rss/search.rss
-	http://jobs.perl.org/rss/standard.rss
-	http://www.perl.com/pace/perlnews.rdf
-	http://www.perlfoundation.org/perl-foundation.rdf
-	http://www.stonehenge.com/merlyn/UnixReview/ur.rss
-	http://www.stonehenge.com/merlyn/WebTechniques/wt.rss
-	http://www.stonehenge.com/merlyn/LinuxMag/lm.rss
-	);
+    http://use.perl.org/useperl.rss
+    http://search.cpan.org/rss/search.rss
+    http://jobs.perl.org/rss/standard.rss
+    http://www.perl.com/pace/perlnews.rdf
+    http://www.perlfoundation.org/perl-foundation.rdf
+    http://www.stonehenge.com/merlyn/UnixReview/ur.rss
+    http://www.stonehenge.com/merlyn/WebTechniques/wt.rss
+    http://www.stonehenge.com/merlyn/LinuxMag/lm.rss
+    );
 
 my $base = '/home/tpr/rss-html';
 
 foreach my $url ( @files )
-	{
-	my $file = $url;
+    {
+    my $file = $url;
 
-	$file =~ s|.*/||;
+    $file =~ s|.*/||;
 
-	my $result = open my $fh, "> $base/$file.html";
+    my $result = open my $fh, "> $base/$file.html";
 
-	unless( $result )
-		{
-		warn "Could not open [$file] for writing! $!";
-		next;
-		}
+    unless( $result )
+        {
+        warn "Could not open [$file] for writing! $!";
+        next;
+        }
 
-	select $fh;
+    select $fh;
 
-	my $rss = XML::RSS->new();
-	my $data = get( $url );
-	$rss->parse( $data );
+    my $rss = XML::RSS->new();
+    my $data = get( $url );
+    $rss->parse( $data );
 
-	my $channel = $rss->{channel};
-	my $image   = $rss->{image};
+    my $channel = $rss->{channel};
+    my $image   = $rss->{image};
 
-	print <<"HTML";
-	<table cellpadding=1><tr><td bgcolor="#000000">
-	<table cellpadding=5>
-		<tr><td bgcolor="#aaaaaa" align="center">
+    print <<"HTML";
+    <table cellpadding=1><tr><td bgcolor="#000000">
+    <table cellpadding=5>
+        <tr><td bgcolor="#aaaaaa" align="center">
 HTML
 
-	if( $image->{url} )
-		{
-		my $img = qq|<img src="$$image{url}" alt="$$channel{title}">|;
+    if( $image->{url} )
+        {
+        my $img = qq|<img src="$$image{url}" alt="$$channel{title}">|;
 
-		print qq|<a href="$$channel{link}">$img</a><br>\n|;
-		}
-	else
-		{
-		print qq|<a href="$$channel{link}">$$channel{title}</a><br>\n|;
-		}
+        print qq|<a href="$$channel{link}">$img</a><br>\n|;
+        }
+    else
+        {
+        print qq|<a href="$$channel{link}">$$channel{title}</a><br>\n|;
+        }
 
-	print qq|<font size="-1">$$channel{description}</font>\n|;
+    print qq|<font size="-1">$$channel{description}</font>\n|;
 
-	print <<"HTML";
-	</td></tr>
-	<tr><td bgcolor="#bbbbff" width=200><font size="-1">
+    print <<"HTML";
+    </td></tr>
+    <tr><td bgcolor="#bbbbff" width=200><font size="-1">
 HTML
 
-	foreach my $item ( @{ $rss->{items} } )
-		{
-		print qq|<b></b><a href="$$item{link}">$$item{title}</a><br><br>\n|;
-		}
+    foreach my $item ( @{ $rss->{items} } )
+        {
+        print qq|<b></b><a href="$$item{link}">$$item{title}</a><br><br>\n|;
+        }
 
-	print <<"HTML";
-		</font></td></tr>
-	</td></tr></table>
-	</td></tr></table>
+    print <<"HTML";
+        </font></td></tr>
+    </td></tr></table>
+    </td></tr></table>
 HTML
 
-	close $fh;
-	}
+    close $fh;
+    }
 {% endhighlight %}
 
 ### Updating RSS feeds automatically

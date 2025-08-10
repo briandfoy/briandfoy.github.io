@@ -170,8 +170,8 @@ Evil      => 'map { $sum += $_ } @array;',
 Iterator  => '$sum = sum @array;',
 Curious   => '$sum=0; grep { /^(\d+)$/ and $sum += $1 } @array',
 Silly     => q|$sum=0; $_ = join 'just another perl journal', @array;
-						 while( m/(\d+)/g ) { $sum += $1 }|
-		);
+                         while( m/(\d+)/g ) { $sum += $1 }|
+        );
 
 timethese($Iterations, \%Snippets);
 {% endhighlight %}

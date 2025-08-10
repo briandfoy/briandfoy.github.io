@@ -14,34 +14,34 @@ Various things I need to remember for Git, but that I don't remember. I know I c
 
 Undo the last commit (`--soft` keeps changes):
 
-	git reset --soft HEAD~1
-	git reset --hard HEAD~1
+    git reset --soft HEAD~1
+    git reset --hard HEAD~1
 
 Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766176)):
 
-	git push REMOTENAME --delete <branch-name>
+    git push REMOTENAME --delete <branch-name>
 
-	git remote prune origin
+    git remote prune origin
 
 Show filenames in log messages ([Stackoverflow](https://stackoverflow.com/a/1230094/2766176))
 
-	git log --name-only
+    git log --name-only
 
 Show all merged branches
 
-	git branch --merged master
+    git branch --merged master
 
 See which _.gitignore_ rules exclude a file ([Stackoverflow](https://stackoverflow.com/a/467053/2766176))
 
-	git check-ignore -v **/*
+    git check-ignore -v **/*
 
 Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-check-ignore)) ([Stackoverflow](https://stackoverflow.com/a/1113140/2766176))
 
-	git rev-list -n 1 HEAD -- <file_path>
+    git rev-list -n 1 HEAD -- <file_path>
 
 Diff the same file across commits:
 
-	git diff mybranch..master -- filename
+    git diff mybranch..master -- filename
 
 ## Interesting links
 

@@ -18,11 +18,11 @@ Let's suppose you need this module for whatever reason, even though it's 20 year
 
 There's this line ([L968](https://metacpan.org/dist/Data-Match/source/Match.pm#L968)) which dereferences an array element that is itself an array reference:
 
-	$str .= $sep . '{' . join(',', @$ind->[0]) . '}';
+    $str .= $sep . '{' . join(',', @$ind->[0]) . '}';
 
 That should be the circumfix notation to delimit the reference part:
 
-	$str .= $sep . '{' . join(',', @{$ind->[0]}) . '}';
+    $str .= $sep . '{' . join(',', @{$ind->[0]}) . '}';
 
 If you make that change to *Match.pm* before you run `perl Makefile.PL`, the tests pass (but with a warning) and you can install the module.
 

@@ -30,8 +30,8 @@ In *~/.bash_secrets*, I create a function to use macOS's [security](https://ss64
 
 {% highlight bash %}
 function get_secret () {
-	security find-generic-password -a $LOGNAME -s $1 -w
-	}
+    security find-generic-password -a $LOGNAME -s $1 -w
+    }
 
 # Appveyor
 export APPVEYOR_API_KEY="$(get_secret appveyor_api_key)"

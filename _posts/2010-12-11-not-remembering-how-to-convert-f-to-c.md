@@ -44,7 +44,7 @@ That leaves me to figure out *r*. I
 
 This makes the entire formula:
 
-	F = 9℉/5℃ C + 32℉
+    F = 9℉/5℃ C + 32℉
 
 To get this far, I didn't have to remember any more that I should already know. With basic physical properties, I can work my way back to the conversions.
 
@@ -56,8 +56,8 @@ The Fahrenheit scale, from the 1720s, is different but chooses similar numbers f
 
 But then there is the Kelvin scale, which based its idea on the energy in a fixed quantity of gas. In statistical thermodynamics with *N* gas particles, you have something familiar:
 
-	PV = kNT
+    PV = kNT
 
-	k = PV / NT
+    k = PV / NT
 
 Work out the numbers and you get -273℃, roughly, as the point where everything stops moving. That number is closer to -273.16℃, and that's one of life's magic numbers that you should just know. I need just one more fact: The unit size is the same as the Celcius scale; if I know the Celcius temperature, I just shift up 273.16.

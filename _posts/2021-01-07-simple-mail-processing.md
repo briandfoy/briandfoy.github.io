@@ -53,31 +53,31 @@ all: request sleep120 report
 
 .PHONY: sleep120
 sleep120:
-	@ echo "Sleeping for two minutes"
-	@ sleep 120
+    @ echo "Sleeping for two minutes"
+    @ sleep 120
 
 .PHONY: request
 request:    ## request the report from Leanpub
-	@ echo "Requesting royalty report"
-	@ open -a Safari 'https://leanpub.com/u/briandfoy/generate_all_royalties_csv'
+    @ echo "Requesting royalty report"
+    @ open -a Safari 'https://leanpub.com/u/briandfoy/generate_all_royalties_csv'
 
 .PHONY: report
 report.txt: latest_royalties.csv   ## make the report
-	perl leanpub_sales latest_royalties.csv > $@
+    perl leanpub_sales latest_royalties.csv > $@
 
 latest_royalties.csv: my_inbox  ## extract the CSV from the mail file
-	perl leanpub_royalties my_inbox > $@
+    perl leanpub_royalties my_inbox > $@
 
 my_inbox: ## fetch the remote mail file
-	@ echo "Fetching mail file"
-	@ rm -f $@
-	scp -q mail_machine:mail/$@ $@
+    @ echo "Fetching mail file"
+    @ rm -f $@
+    scp -q mail_machine:mail/$@ $@
 
 ######################################################################
 # https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 .PHONY: help ## Show all the Makefile targets with descriptions
 help: ## show a list of targets
-	@ grep -E '^[a-zA-Z][/a-zA-Z0-9_.-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+    @ grep -E '^[a-zA-Z][/a-zA-Z0-9_.-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 {% endhighlight %}
 
 Also interesting is that I use Safari to request the file. There's a bunch of JavaScript that sets various things to log in, so I can't write a simple Mojo program to do that. Since Safari (as well as other browsers) handle that JavaScript and keep me logged in via a cookie, I'm fine. I also thought about extracting that cookie from Safari and using it with another user agent, but that's still too much work even if it would be fun (and I am the author of various CPAN modules that could handle every part of that).
