@@ -10,6 +10,8 @@ original_url:
 
 The history of computing and computer technology is the trace of a low swinging pendulum, perhaps with a period of 7 to 12 years. Whatever is in fashion now with be the overriding annoyance in 5 years, absolutely unacceptable in 7 years, and replaced in 10.
 
+<!--more-->
+
 That is, whatever you learned at the start of your career is likely to not be what the world wants half way through your career.
 
 ##
@@ -30,5 +32,4 @@ Before VHS, you either saw it on TV when it was scheduled or you didn't. Then yo
 
 When I started paying attention to computers for useful purposes, sometime at the end of college in the days before people had laptops, I mainly interacted with computers through a dumb terminal or an X Windows server. The computers were centrally managed and you needed a good reason to have access to one, although your reason might expire while your account lived on.
 
-<!--more-->
 
