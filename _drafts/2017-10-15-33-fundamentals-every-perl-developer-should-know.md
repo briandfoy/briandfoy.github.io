@@ -2,12 +2,13 @@
 layout: post
 title: 33 Fundamentals Every Perl Developer Should Know
 categories: programming perl
-tags:
+tags: perl
 stopwords:
 last_modified:
 original_url:
 ---
 
+There's a list of 33 things that every JavaScript programmer should know. I thought I'd try that for Perl.
 
 <!--more-->
 
@@ -19,66 +20,11 @@ original_url:
 
 4. The verbs (operators) decide how things happen instead of the nouns (data types), often based on context.
 
-5. Dynamic scope is based on time but affects the entire program. `local` makes changes inside a dynamic scope.
+5. Dynamic scope is based on time sequence but affects the entire program. `local` makes changes inside a dynamic scope.
 
-6. Lexical scope is based on the static position in the program text. That's the enclosing braces or the entire file.
+6. Lexical scope is based on the static position in the program text. That's the enclosing braces or the entire file. It doesn't care about your `package` statement.
 
-7.
-
-8.
-
-9.
-
-10.
-
-11.
-
-12.
-
-13.
-
-14.
-
-15.
-
-16.
-
-17.
-
-18.
-
-19.
-
-20.
-
-21.
-
-22.
-
-23.
-
-24.
-
-25.
-
-26.
-
-27.
-
-28.
-
-29.
-
-30.
-
-31.
-
-32.
-
-33.
-
-
-
+Okay, I ran out of things. Many of the things in the JavaScript list are just ridiculous and too low level for the average programmer. One of the ideas of Perl is that you don't need to know those things.
 
 ## Other
 
