@@ -43,3 +43,4 @@ docker run -it <img-id> bash -il
 * https://blog.gruntwork.io/a-crash-course-on-docker-34073b9e1833
 * https://vsupalov.com/docker-image-layers/
 * https://earthly.dev/blog/lxc-vs-docker/
+* https://depot.dev/blog/docker-clear-cache
