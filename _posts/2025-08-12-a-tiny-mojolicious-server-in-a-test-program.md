@@ -8,7 +8,7 @@ last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1modg3c/a_tiny_mojo_server_in_a_test_program/
 ---
 
-<i>I originally wrote this quickly to see about posting to my reddit profile: [the post](https://www.reddit.com/user/briandfoy/comments/1modg3c/a_tiny_mojo_server_in_a_test_program/)</i>
+*I originally wrote this quickly to see about posting to my reddit profile: [the post](https://www.reddit.com/user/briandfoy/comments/1modg3c/a_tiny_mojo_server_in_a_test_program/)*
 
 Sometimes I need a simple web server to do something in a test. Most often this web server needs to simulate some error condition, such as a timeout or other server error.
 
