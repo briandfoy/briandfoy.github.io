@@ -68,7 +68,7 @@ Those are the only two things that go wrong in this case. Without those, everyth
 
 ## Updating workflows
 
-As an aside, I have my own, bespoke tool to manage my Perl module repos. My [bmt](https://github.com/briandfoy/app-bmt), which is targeted at my own sort of development and is not for people who want to do everything different (which is everyone but me, I bet). I make the change in one place and easily get it when I update a new workflow. This just pulls from the latest files in [briandfoy/github_workflows](https://github.com/briandfoy/github_workflows)
+As an aside, I have my own, bespoke tool to manage my Perl module repos. My [bmt](https://github.com/briandfoy/app-bmt), which is targeted at my own sort of development and is not for people who want to do everything different (which is everyone but me, I bet). I make the change in one place and easily get it when I update a new workflow. This just pulls from the latest files in [briandfoy/github_workflows](https://github.com/briandfoy/github_workflows):
 
 {% highlight plain %}
 % bmt update_workflows
