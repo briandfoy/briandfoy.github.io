@@ -26,7 +26,7 @@ $VAR1 = {
 		};
 {% endhighlight %}
 
-That's really nice, although many people may not find it that surprising because they don't remember the Before Times. But, there are some things that are unpleasant. First, the keys are not sorted, which makes it hard to find the key you want if there are many keys. Second, Perl has had hash randomization for a long time so they don't come out the same way every time, so another run give a different order:
+That's really nice, although many people may not find it that surprising because they don't remember the Before Times. But, there are some things that are unpleasant. First, the keys are not sorted, which makes it hard to find the key you want if there are many keys. Second, Perl has had hash randomization for a long time so they don't come out the same way every time, so another run gives a different order:
 
 {% highlight text %}
 $ perl -MData::Dumper -lE "say Dumper({'abc' => '123', 'xyz' => '987'})"
@@ -46,15 +46,15 @@ $ perl -MMojo::Util=dumper -lE "say dumper({'abc' => '123', 'xyz' => '987'})"
 }
 {% endhighlight %}
 
-That looks nicer, has reproducible output, takes up less space, and so on. But, I had another thing going on in my code where I was serializing some JSON incorrectly (or so I though) where a string of digits was turned into a JSON number.
+That looks nicer, has reproducible output, takes up less space, and so on. But, I had another thing going on in my code where I was serializing some JSON incorrectly (or so I thought) where a string of digits was turned into a JSON number.
 
-But, notice the other thing that happened in the `dumper` output. There are no longer quotes around the numbers. I now know this is a weird thing with Data::Dumper, but when I was debugging I didn't know why `Dumper` qouted the numbers (parts of the code outside the Mojo part), and `dumper`, which is also [Data::Dumper](https://perldoc.perl.org/Data::Dumper), didn't quote these. Did something happen to the values between those calls? If something is doing math (maybe like `sprintf "%5d", $zip_code`?), I probably need to fix that.
+But, notice the other thing that happened in the `dumper` output. There are no longer quotes around the numbers. I now know this is a weird thing with [Data::Dumper](https://perldoc.perl.org/Data::Dumper), but when I was debugging I didn't know why `Dumper` quoted the numbers (parts of the code outside the Mojo part), and `dumper`, which is also [Data::Dumper](https://perldoc.perl.org/Data::Dumper), didn't quote these. Did something happen to the values between those calls? If something is doing math (maybe like `sprintf "%5d", $zip_code`?), I probably need to fix that.
 
 As such, I started throwing around `dumper` statements to see where the data switch from being quoted to not being quoted. What happened to my data? But, every `dumper` call shows it quoted.
 
 # A short digression, just for fun
 
-I still think I must be doing something wrong, so I reach for [Devel::Peek](https://metacpan.org/pod/Devel::Peek) so I can look at what's set in the scalar values (`SV`) in the perl guts. This turns out to be irrelevant to this situation, but I didn't know it at the time:
+I still thought I must be doing something wrong, so I reached for [Devel::Peek](https://metacpan.org/pod/Devel::Peek) so I could look at what's set in the scalar values (`SV`) in the perl guts. This turns out to be irrelevant to this situation, but I didn't know it at the time:
 
 {% highlight perl %}
 use v5.10;
@@ -165,7 +165,7 @@ Useqq 1: $VAR1 = {
 		};
 {% endhighlight %}
 
-The third group, where `$Data::Dumper::Useqq` is true, shows some oddities. Some of the numbers are quoted (and with double quotes), but some aren't. Why? In Data::Dumper::_dump, there's this branch in `_dump`:
+The third group, where `$Data::Dumper::Useqq` is true, shows some oddities. Some of the numbers are quoted (and with double quotes), but some aren't. Why? In `Data::Dumper::_dump`, there's this branch in `_dump`:
 
 {% highlight text %}
 538:     elsif ($val =~ /^(?:0|-?[1-9][0-9]{0,8})\z/) { # safe decimal number
@@ -182,9 +182,9 @@ What doesn't get quoted?
 
 Okay, so now I know that happens. It often helps to consider these are decisions that might have made sense at one point, even if we find out later they weren't the right decision.
 
-But, I didn't ask for [Data::Dumper](https://perldoc.perl.org/Data::Dumper) to think about numbers and strings. I told it to use double quotes instead of single quotes, but it's decided to use no quotes. What use night that be?
+But, I didn't ask for [Data::Dumper](https://perldoc.perl.org/Data::Dumper) to think about numbers and strings. I told it to use double quotes instead of single quotes, but it's decided to use no quotes. What use might that be?
 
-I don't know why this specialing handling here. At best, it's trying to do something it didn't fully commit to (allowing 32-bit values to be represented as unquoted numbers). Back in the day, we thought that [Data::Dumper](https://perldoc.perl.org/Data::Dumper) would be a way to serialize data and bring it back into a program. Yes, there was a time before YAML and JSON where this was really easy, and when *perl* was not 64-bit everywhere.
+I don't know why this specialized handling is here. At best, it's trying to do something it didn't fully commit to (allowing 32-bit values to be represented as unquoted numbers). Back in the day, we thought that [Data::Dumper](https://perldoc.perl.org/Data::Dumper) would be a way to serialize data and bring it back into a program. Yes, there was a time before YAML and JSON where this was really easy, and when *perl* was not 64-bit everywhere.
 
 If that's the case, either do it correctly or not at all. Why is the cut off 9 digits? It would be much easier to see the pattern if the cut off matched the true data boundaries:
 
@@ -230,7 +230,7 @@ But, if [Data::Dumper](https://perldoc.perl.org/Data::Dumper) wants to change st
 
 # Another bonus just for fun
 
-[Data::Dumper](https://perldoc.perl.org/Data::Dumper) can be coaxed into outputing JSON by using the double quotes and changing the pair separator to '; ':
+[Data::Dumper](https://perldoc.perl.org/Data::Dumper) can be coaxed into outputing JSON by using the double quotes and changing the pair separator to a colon:
 
 {% highlight perl %}
 use v5.10;
