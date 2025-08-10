@@ -34,7 +34,7 @@ CPAN.pm has a way to handle these situations so you don't have to make the chang
 
 There are a few things to set up. First, choose your distroprefs directory (`o conf init prefs_dir`). Second, configure a directory to hold your patches (`o conf patches_dir`). I choose *patches* under my *.cpan* directory, but it can be anything. Save your changes before you exit.
 
-```
+```text
 % cpan
 % cpan[1]> o conf init prefs_dir
 Directory where to store default options/environment/dialogs for
