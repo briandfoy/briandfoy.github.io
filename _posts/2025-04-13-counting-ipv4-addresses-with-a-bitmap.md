@@ -3,7 +3,7 @@ layout: post
 title: Counting IPv4 addresses with a bitmap
 categories: perl programming
 tags: bit-vector vec
-stopwords:
+stopwords: endianness SVs vec
 last_modified:
 original_url:
 ---
@@ -74,7 +74,7 @@ The `%` in the `unpack` indicates that I want a checksum of the values, taking 3
 
 Now, if instead of random numbers I do this for IP addresses, I get the count of IPv4 addresses, and do it for something under 600 MB (counting all the other stuff going on). That's pocket change for some applications.
 
-As a side note, `unpack` has a nybble order. It doesn't matter for this task becasue it does not change the count, but I could play games with where the bits show up. This is endianness at the octet level:
+As a side note, `unpack` has a nybble order. It doesn't matter for this task because it does not change the count, but I could play games with where the bits show up. This is endianness at the octet level:
 
 	$ perl -le 'print unpack q(B8), shift' p
 	01110000
