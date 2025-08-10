@@ -1,3 +1,2 @@
 # https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md
-ignore_front_matter true
-rules "~MD002","~MD012","~MD013","~MD046","~MD036", "~MD033"
+style "#{File.dirname(__FILE__)}/.mdl.rb"
