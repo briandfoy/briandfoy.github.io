@@ -57,11 +57,13 @@ Finally, why college students? The researchers didn't have to go far to find the
 
 For what it's worth, I had friends in the psychology department in my undergraduate school and took part in some experiments to help them out, because why not? But, I was also extremely poor in school.
 
-If you really want to dive into this, read about the fake results of the Stanford Prison Experiment. Some sources hold this up as an amazing result, but did anyone outside of a university not know prison guards are mean? Did you know they had to cancel the experiment? Not many people talk about that. Did you know that the [principal researcher Philip Zimbardo faked the results to get the outcome he wanted](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication), and he had a history of doing this? The guards were instructed to be mean, and the prisoners played the roles of prisoners (literally doing improv theater), because people in psychology experiments act like they think you want them to act. Don't let lazy writers such as Malcolm Gladwell make you think otherwise.
+If you really want to dive into this, read about the fake results of the Stanford Prison Experiment. Some sources hold this up as an amazing result, but did anyone outside of a university not know that prison guards can be mean or abusive? Is anyone going to take that result and change anything?
+
+Did you know they had to cancel the experiment? Not many people talk about that. Did you know that the [principal researcher Philip Zimbardo faked the results to get the outcome he wanted](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication), and he had a history of doing this? The guards were instructed to be mean, and the prisoners played the roles of prisoners (literally doing improv theater), because people in psychology experiments act like they think you want them to act. Don't let lazy writers such as Malcolm Gladwell make you think otherwise.
 
 <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/qg5V-A3-qco?si=MoCAULYg1l-ZluFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Don't let this Bill Murray scene fool you. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Standford did nothing and let Zimbardo keep his job without oversight or sanction? Let's also not forget this the same school Marc Tessier-Lavigne resigned as president after accounts of his research misconduct, including fake data and image manipulation, were widely reported?
+Don't let this Bill Murray scene fool you. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Standford did nothing and let Zimbardo keep his job without oversight or sanction. Let's also not forget this si the same school where Marc Tessier-Lavigne resigned as president after accounts of his research misconduct, including fake data and image manipulation, were widely reported?
 
 So yeah, that's what you are dealing with here. People measure things that no one cares about and hardly anyone will ever read because the money source doesn't care because there is almost no chance for downstream profit (or bankruptcy).
 
@@ -75,7 +77,7 @@ Most of this study seems to be trying to justify an indirect measurement and mea
 
 There are two very important things to take from this statement. First, they have no idea how much energy something uses. They did a previous experiment looking at peak memory use, and then had to decide that was nonense. Now they are looking at "acculumative" memory. Why? Because that's something they can measure. However, at this point no one has proven that measurement is connected to total energy use, is isolate-able, is repeatable, or any of the other criteria a serious study needs to show that we can trust it.
 
-Consider this thought experiment: Program A allocates a very large chunk of RAM and then sleeps for one day. Program B uses a very small chunk but adds one to every byte as fast as it can for one day. Which one uses more energy?
+Consider this thought experiment: Program A allocates a very large chunk of RAM and then sleeps for one day. Program B uses a very small chunk but adds one to every byte as fast as it can for one day. Which one uses more energy? Then, consider one being a C program and one being whatever language you desire, and further consider the results if you flipped that around?
 
 But who cares about total memory use? There's a way to measure energy directly: look at the current draw directly. Attach electrical engineering tools to the mains.
 
@@ -87,11 +89,11 @@ But, they also can't attach equipment to the mains because they aren't actually 
 
 These things are tricky because the graph looks like there's a dramatic difference between one side and the other. The Y Axis is in Joules, a unit of work, and one of the definitions of that is a watt-second. I looked up the [thermal output of my M2 MacBook Pro](https://support.apple.com/en-us/102839). At idle, it's running at 494 BTU/h, which is 145 J/s. That's 145 J/s for just being on, every second. With 70 Joules, we're talking about a half second of idle time in my laptop.
 
-This energy comsumption argument seems to me much like that for sending UTF-8 instead of ASCII over the internet. Sure, you might save a kilobyte, but that one image on the page, or the SSL, or many other things swamps that savings.
+This energy comsumption argument seems to me much like that for sending UTF-8 instead of ASCII over the internet. Sure, you might save a kilobyte, but that one image on the page, or the SSL, or many other things swamps that savings. The numbers are so insignificant and it's not even worth thinking about.
 
-Consider the case of shark attacks on humans going up 100% in January? Does it matter that the spike is one additional shark attack since the previous value was 1? 100% sounds alarming, one more does not. A program using 70 joules seems that horrific because 70 is a big number, but when you fail to consider the energy draw of a idle computer.
+Consider the case of shark attacks on humans going up 100% in January? Does it matter that the spike is one additional shark attack since the previous value was 1? 100% sounds alarming, one more does not. A program using 70 joules seems that horrific because 70 is a big number, but a big number compared to what? That number could be 70,000 millijoules, and that it's 70,000 doesn't make it interesting.
 
-If the goal is some sort of climate-friendly behavior for programmers, the easier thing is simply using less computing power. Most computers are idle most of the time anyway and are provisioned to handle spikes. Well, you would hope this is the case. Combining two computers into one and having it do all the work would save so much energy that you don't have to consider that one program might use 10x or even 100x as much energy?
+If the goal is some sort of climate-friendly behavior for programmers, the easier thing is simply using less computing power, fewer data centers, and no AI.
 
 ## What could they have done?
 
@@ -101,7 +103,9 @@ I would compare programs that extract columns from a millions rows of CSV data a
 
 A program to download a large JSON file and parse it into a usable data structure in another interesting problem. Do this several hundred thousand times.
 
-Likewise, if they want to measure numbers, let the programs use the same algorithm to find the first 100,000 prime numbers.
+Likewise, if they want to measure numbers, let the programs use the same algorithm to find the first 100,000 prime numbers. Do something that takes a lot of time.
+
+But even then, it's not the language that matters as much as the efficiency of the library. Any particular language will have competing libraries for the same task, and one of them is going to be more efficient.
 
 I don't particularly care what the programs should do as long as those programs perform some task that real world programmers have to complete.
 
