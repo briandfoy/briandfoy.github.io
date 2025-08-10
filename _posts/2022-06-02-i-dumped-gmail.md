@@ -14,7 +14,7 @@ I've stopped using GMail as my main email account. I'm not completely shutting d
 
 As you read this, you might ask "What about Facebook?". I tried Facebook once when it started, but then gave it up completely. I don't do social media, IRC, chat, and so on. Specifically though, I easily saw the evil that Facebook was before people really knew about it. GMail is different because it's supposed to be just mail.
 
-Instead, I've switched to *briandfoy@pobox.com*, which is backed by FastMail. I've know about *pobox.com* forever and maybe I tried it out for awhile a long time ago. That was the extent of my research to my email alternative. I paid $250 for five years, used their easy import tools, and I was on my way. It's not as slick, it's a bit clunky, but I only miss one thing: "Filter messages like these". That's a different story.
+Instead, I've switched to *briandfoy@pobox.com*, which is backed by FastMail. I've known about *pobox.com* forever and maybe I tried it out for awhile a long time ago. That was the extent of my research to my email alternative. I paid $250 for five years, used their easy import tools, and I was on my way. It's not as slick, it's a bit clunky, but I only miss one thing: "Filter messages like these". That's a different story.
 
 # In the beginning
 
