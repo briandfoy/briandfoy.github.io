@@ -18,7 +18,7 @@ In this test program I fork. In the child, I start a Mojolicious server where th
 
 In the parent I do whatever I want to test, which is usually something much more complicated. When I'm done, I shut down the server and get on in life.
 
-{% hightlight perl %}
+{% highlight perl %}
 #!perl
 use v5.40;
 
