@@ -14,7 +14,7 @@ Get the repo name:
 
 {% highlight plain %}
 gh repo view --json owner,name --jq '(.owner.login + "/" + .name)'
-{% end highlight %}
+{% endhighlight %}
 
 <!--more-->
 
@@ -30,26 +30,26 @@ Make an alias for a *gh* command. Note that an internal `'` is written as `'\''`
 
 {% highlight plain %}
 gh alias set owner/repo 'repo view --json owner,name --jq '\''(.owner.login + "/" + .name)'\'''
-{% end highlight %}
+{% endhighlight %}
 
 Make an alias with a shell command:
 
 {% highlight plain %}
 gh alias set hello --shell 'echo Hello'
-{% end highlight %}
+{% endhighlight %}
 
 See all the aliases:
 
 {% highlight plain %}
 gh alias list
-{% end highlight %}
+{% endhighlight %}
 
 Save the aliases to share:
 
 {% highlight plain %}
 gh alias list > my_aliases.yml
 gh alias import  my_aliases.yml
-{% end highlight %}
+{% endhighlight %}
 
 ## See what *gh* sees
 
@@ -57,7 +57,7 @@ Look at the complete JSON to see what's available
 
 {% highlight plain %}
 gh COMMAND --json
-{% end highlight %}
+{% endhighlight %}
 
 ## Get the repo name:
 
@@ -66,7 +66,7 @@ This is the command, but I aliased this to `owner/repo`:
 {% highlight plain %}
 gh repo view --json owner,name --jq '(.owner.login + "/" + .name)'
 gh owner/repo
-{% end highlight %}
+{% endhighlight %}
 
 ## Labels
 
@@ -76,11 +76,11 @@ grepper. I want just plaintext:
 {% highlight plain %}
 gh alias set label-grep --shell 'gh label list --json name --jq .[].name | grep $1'
 gh label-grep bug
-{% end highlight %}
+{% endhighlight %}
 
 See all the labels for an issue:
 
 {% highlight plain %}
 gh alias set issue-labels 'issue view $1 --json labels --jq .labels.[].name'
 gh issue-labels ISSUE_NUMBER
-{% end highlight %}
+{% endhighlight %}
