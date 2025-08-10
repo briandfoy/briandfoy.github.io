@@ -17,9 +17,9 @@ original_url:
 5. Perl or Python
 6. Mac or Windows
 7. Star Wars or Star Trek
-8.
-9.
-10.
+8. Object relational managers or SQL
+9. cron or systemd
+10. GitHub or anything else
 
 Answer key:
 
@@ -29,7 +29,7 @@ Answer key:
 4. 80ish most of the time. Use a language that doesn't make you type out long lines.
 5. Whichever best fits the task.
 6. Use both. Develop on both. Two different operating systems tend to find lots of bugs.
-7. You don't have to choose sides. You can have both.
-8.
-9.
-10.
+7. You don't have to choose sides. You can have both. But Star Trek is better for characters, and Star Wars is better for Universe.
+8. SQL is often easier, especially with a sane database. Any general system is going to be slower because it is forced to be general instead of customized/optimized.
+9. cron
+10. GitHub. Face it, they won.
