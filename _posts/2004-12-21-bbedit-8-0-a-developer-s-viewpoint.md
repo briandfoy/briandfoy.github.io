@@ -3,7 +3,7 @@ layout: post
 title: BBEdit 8.0—A Developer's Viewpoint
 categories: rescued-content
 tags:
-stopwords:
+stopwords: bbdiff bbedit breakpoint Nandor pulldown SCP WebKit XHTML
 last_modified:
 original_url: http://www.oreillynet.com/pub/a/mac/2004/12/21/bbedit.html
 ---
@@ -52,7 +52,7 @@ The latest update makes it even better. I can now pipe output from a command lin
 
 I wish I had this feature for the "Unix Script Output" window I get when I choose "Run" from the "#!" menu (which I've set to Shift-Apple-R with the "Set Menu Keys..." item from the BBEdit menu.
 
-It gets even better, though. If I want to look at piped output, I want to read it from the top. Previously, BBEdit placed the curser at the end of the output, but I can now start off at the top of the output.
+It gets even better, though. If I want to look at piped output, I want to read it from the top. Previously, BBEdit placed the cursor at the end of the output, but I can now start off at the top of the output.
 
 {% highlight text %}
 % netstat -rn | bbedit --clean -view-top

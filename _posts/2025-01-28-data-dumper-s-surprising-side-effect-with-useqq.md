@@ -3,7 +3,7 @@ layout: post
 title: Data::Dumper's surprising side effect with Useqq
 categories: perl
 tags: data-dumper
-stopwords:
+stopwords: FFFF Sortkeys xFFFF
 last_modified:
 original_url:
 ---
@@ -36,7 +36,7 @@ $VAR1 = {
         };
 {% endhighlight %}
 
-And, although I don't ever really noticed the `$VAR1` becasue I go directly to the bit of data I want to see, it's still a bit ugly. [Mojo::Util](https://metacpan.org/pod/Mojo::Util) makes that look a bit nicer:
+And, although I don't ever really noticed the `$VAR1` because I go directly to the bit of data I want to see, it's still a bit ugly. [Mojo::Util](https://metacpan.org/pod/Mojo::Util) makes that look a bit nicer:
 
 {% highlight text %}
 $ perl -MMojo::Util=dumper -lE "say dumper({'abc' => '123', 'xyz' => '987'})"
@@ -72,7 +72,7 @@ say STDERR "\noriginal var again\n=========";
 Dump($n);
 {% endhighlight %}
 
-Here's the output. The first shows the scalar value when its data have only been a string (quoted string assignement). There's a pointer value, `PV`, and that's it.
+Here's the output. The first shows the scalar value when its data have only been a string (quoted string assignment). There's a pointer value, `PV`, and that's it.
 
 The second shows the value created by using `$n` in a numeric context (`$n+0`). It has an integer value (`IV`) and no `PV`. The third shows `$n` after it was used as a number. `perl` had to convert its string value into a number to do the numeric operation, so it kept the result of that conversion so it doesn't have to do it again. Now the `SV` has a `PV` and an `IV` (a dualvar):
 
@@ -230,7 +230,7 @@ But, if [Data::Dumper](https://perldoc.perl.org/Data::Dumper) wants to change st
 
 # Another bonus just for fun
 
-[Data::Dumper](https://perldoc.perl.org/Data::Dumper) can be coaxed into outputing JSON by using the double quotes and changing the pair separator to a colon:
+[Data::Dumper](https://perldoc.perl.org/Data::Dumper) can be coaxed into outputting JSON by using the double quotes and changing the pair separator to a colon:
 
 {% highlight perl %}
 use v5.10;

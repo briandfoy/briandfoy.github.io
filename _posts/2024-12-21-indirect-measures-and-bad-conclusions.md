@@ -3,7 +3,7 @@ layout: post
 title: Indirect measures and bad conclusions
 categories:
 tags:
-stopwords:
+stopwords: chrestomathy Lavigne millijoules referrerpolicy perved Tessier UTF si
 last_modified:
 original_url:
 ---
@@ -33,7 +33,7 @@ For example, if the C program took one year to develop, but runs only slightly f
 
 There's no point in thinking about any of this if we are not going to change our behavior. The world, for the most part, isn't choosing C or C++ despite the fact that everyone knows that those programs can be very fast. The world affirmatively accepted alternatives because it was easier to get things done even if the power trade-offs are worse. The program that works today is better than the one which doesn't work yet, and higher level languages handle that much better.
 
-What kind of programs are likely to be better in the "low-energy" languages? Most of the Rosetta code programs are simple math problems. Even the [FASTA program](https://github.com/greensoftwarelab/Energy-Languages/blob/master/Perl/fasta/fasta.perl) is not really anything about FASTA but just stitching together fixed strings in random arrangments based on some simple math. Not only that, the Perl version is actually a program that creates a Perl program it then `eval`s, which Perl programmers typically do not do.
+What kind of programs are likely to be better in the "low-energy" languages? Most of the Rosetta code programs are simple math problems. Even the [FASTA program](https://github.com/greensoftwarelab/Energy-Languages/blob/master/Perl/fasta/fasta.perl) is not really anything about FASTA but just stitching together fixed strings in random arrangements based on some simple math. Not only that, the Perl version is actually a program that creates a Perl program it then `eval`s, which Perl programmers typically do not do.
 
 The people making the measurements have a probe that gives them numbers, but they don't understand the titular subject. This is the sort of project a university group does, and once done, forgets. Some people get a publication, satisfy their degree requirements, and so on.
 
@@ -41,7 +41,7 @@ The people making the measurements have a probe that gives them numbers, but the
 
 Things that are easy to measure tend to be the things that get measured, and real measures are too hard to fit within the time frame of a grant, or the semester the student has to look at it. This sort of science doesn't create the experiment it needs, it accepts the experiment it can do with what is available and convenient.
 
-Toy programs in "isolation" are easy to measure. Toy programs that already exist are even easier to meausure. Therefore, the conclusions are about toy programs that are available, after much effort, and without anything to say about programming in the large.
+Toy programs in "isolation" are easy to measure. Toy programs that already exist are even easier to measure. Therefore, the conclusions are about toy programs that are available, after much effort, and without anything to say about programming in the large.
 
 ## How university research works
 
@@ -63,19 +63,19 @@ Did you know they had to cancel the experiment? Not many people talk about that.
 
 <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/qg5V-A3-qco?si=MoCAULYg1l-ZluFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Don't let this Bill Murray scene fool you. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Standford did nothing and let Zimbardo keep his job without oversight or sanction. Let's also not forget this si the same school where Marc Tessier-Lavigne resigned as president after accounts of his research misconduct, including fake data and image manipulation, were widely reported?
+Don't let this Bill Murray scene fool you. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Stanford did nothing and let Zimbardo keep his job without oversight or sanction. Let's also not forget this si the same school where Marc Tessier-Lavigne resigned as president after accounts of his research misconduct, including fake data and image manipulation, were widely reported?
 
 So yeah, that's what you are dealing with here. People measure things that no one cares about and hardly anyone will ever read because the money source doesn't care because there is almost no chance for downstream profit (or bankruptcy).
 
 ## How are you measuring?
 
-Almost anything we want to quantify, in any field, is an indirect measure that we have to correalate with the actual effect.
+Almost anything we want to quantify, in any field, is an indirect measure that we have to correlate with the actual effect.
 
 Most of this study seems to be trying to justify an indirect measurement and meaningful for the actual research question. Indeed, this paper is a second go at something that didn't pan out the first time. So, that didn't work, but they'll double down anyway:
 
 > First, we have considered an alternative dimension within our earlier work. Indeed, one of the objectives we considered was peak memory usage, which did not prove to be correlated with memory energy consumption. Now, we are presenting total memory usage, or the accumulative amount of memory used through the application’s lifecycle, as another possibility for analyzing memory behavior.
 
-There are two very important things to take from this statement. First, they have no idea how much energy something uses. They did a previous experiment looking at peak memory use, and then had to decide that was nonense. Now they are looking at "acculumative" memory. Why? Because that's something they can measure. However, at this point no one has proven that measurement is connected to total energy use, is isolate-able, is repeatable, or any of the other criteria a serious study needs to show that we can trust it.
+There are two very important things to take from this statement. First, they have no idea how much energy something uses. They did a previous experiment looking at peak memory use, and then had to decide that was nonsense. Now they are looking at "accumulative" memory. Why? Because that's something they can measure. However, at this point no one has proven that measurement is connected to total energy use, is isolate-able, is repeatable, or any of the other criteria a serious study needs to show that we can trust it.
 
 Consider this thought experiment: Program A allocates a very large chunk of RAM and then sleeps for one day. Program B uses a very small chunk but adds one to every byte as fast as it can for one day. Which one uses more energy? Then, consider one being a C program and one being whatever language you desire, and further consider the results if you flipped that around?
 
@@ -89,7 +89,7 @@ But, they also can't attach equipment to the mains because they aren't actually 
 
 These things are tricky because the graph looks like there's a dramatic difference between one side and the other. The Y Axis is in Joules, a unit of work, and one of the definitions of that is a watt-second. I looked up the [thermal output of my M2 MacBook Pro](https://support.apple.com/en-us/102839). At idle, it's running at 494 BTU/h, which is 145 J/s. That's 145 J/s for just being on, every second. With 70 Joules, we're talking about a half second of idle time in my laptop.
 
-This energy comsumption argument seems to me much like that for sending UTF-8 instead of ASCII over the internet. Sure, you might save a kilobyte, but that one image on the page, or the SSL, or many other things swamps that savings. The numbers are so insignificant and it's not even worth thinking about.
+This energy consumption argument seems to me much like that for sending UTF-8 instead of ASCII over the internet. Sure, you might save a kilobyte, but that one image on the page, or the SSL, or many other things swamps that savings. The numbers are so insignificant and it's not even worth thinking about.
 
 Consider the case of shark attacks on humans going up 100% in January? Does it matter that the spike is one additional shark attack since the previous value was 1? 100% sounds alarming, one more does not. A program using 70 joules seems that horrific because 70 is a big number, but a big number compared to what? That number could be 70,000 millijoules, and that it's 70,000 doesn't make it interesting.
 

@@ -3,7 +3,7 @@ layout: post
 title: Incomplete quotes
 categories:
 tags:
-stopwords:
+stopwords: Schurz Selfridge Tis
 last_modified:
 original_url:
 ---

@@ -3,7 +3,7 @@ layout: post
 title: Satanic Panic
 categories: society timeline
 tags: satan mass-delusion panic
-stopwords: Limon Mayhugh Quinney's SRA Cheit Chammah Gayland Gizmodo Ph Edenton Pre backmasking Aja Aranza Bennetts Bethania Blatty Bryn Chelsey Dagon Geraldo Kellers Ketcham LaVey Lanning Loftus Martensville McRobbie Multnomah Noll Padzer Palma Pendergrast PreSchool Quantico Rundle Shewan Simandl Thurston backmasking Holmberg Jonestown Pizzagate Stratford
+stopwords: Anno de III's Legg Morselli Narcosatanicos Parnic Perren proto Satanas Scotta Snedecker Telb's Velono Vox Waterhouse Limon Mayhugh Quinney's SRA Cheit Chammah Gayland Gizmodo Ph Edenton Pre backmasking Aja Aranza Bennetts Bethania Blatty Bryn Chelsey Dagon Geraldo Kellers Ketcham LaVey Lanning Loftus Martensville McRobbie Multnomah Noll Padzer Palma Pendergrast PreSchool Quantico Rundle Shewan Simandl Thurston backmasking Holmberg Jonestown Pizzagate Stratford
 last_modified:
 original_url:
 ---

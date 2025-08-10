@@ -3,7 +3,7 @@ layout: post
 title: When backups are the problem
 categories:
 tags:
-stopwords:
+stopwords: gc gitified hosters rando vvv
 last_modified:
 original_url:
 ---
@@ -44,7 +44,7 @@ I checked the */var/log* and noticed I also had a couple months of web logs. I n
 
 But then I do the next stupid thing; I delete the entire git repo. Going back in time, I would checkout the last good commit and then delete *.git*. That's not what I did. I deleted the entire directory. I have the git repo locally, so no big deal right?
 
-Except, remember that I can't open additional SSH connections. I can't `scp` or `rsync`. I could prababy throw these dumps in Dropbox and `curl` a link, but that feels icky. I have the backups but I can't easily get them onto the machine I want.
+Except, remember that I can't open additional SSH connections. I can't `scp` or `rsync`. I could probably throw these dumps in Dropbox and `curl` a link, but that feels icky. I have the backups but I can't easily get them onto the machine I want.
 
 But I just upgraded everything, right? The SSH config changed with the new version and the bit to allow for public keys is now commented out, which the part to disallow passwords is still active. This is something I typically forget, but also, typically isn't a problem. I didn't expect it in SSH though, although I have notes to check it for apache.
 

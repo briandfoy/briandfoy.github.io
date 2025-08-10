@@ -3,7 +3,7 @@ layout: post
 title: Five Ways to Improve Your Perl Programming
 categories: rescued-content
 tags:
-stopwords:
+stopwords: nfreeze perlrun OnLamp Schilli's Thalhammer's O'Reilly's
 last_modified:
 original_url: http://www.onlamp.com/pub/a/onlamp/2007/04/12/five-ways-to-improve-your-perl-programming.html
 ---
@@ -19,7 +19,7 @@ I thought about the life cycle of a typical Perl program. You write a quick hack
 
 Pretty soon, your Friday afternoon hack has become mission critical software—how'd that ever happen? Besides your regular work, you're now supporting this script in all of its forms. Dave, the sysadmin, uses find and discovers 17 similar versions of your program–and that's just on one machine.
 
-Now, instead of getting your own work done, you are helping everyone else get his or her work done. What seemed to be a timesaver for your immediate problem is now sucking away your time. I've been in a couple of situations like this when I was a beginning Perler, and along the way I've picked up some things to avoid these situations. You don't have to start every program with the five features I'll show, but once you start using a program for more than just a quick hack, these tips can save you a lot of time supporting your Perl application. Next to the headings, I've provided the corresponding chapter number from [Mastering Perl](https://www.masteringperl.org).
+Now, instead of getting your own work done, you are helping everyone else get his or her work done. What seemed to be a time-saver for your immediate problem is now sucking away your time. I've been in a couple of situations like this when I was a beginning Perler, and along the way I've picked up some things to avoid these situations. You don't have to start every program with the five features I'll show, but once you start using a program for more than just a quick hack, these tips can save you a lot of time supporting your Perl application. Next to the headings, I've provided the corresponding chapter number from [Mastering Perl](https://www.masteringperl.org).
 
 ## Cleaning Up Your Code (Chapter 7)
 

@@ -3,7 +3,7 @@ layout: post
 title: Backups and resiliency for open source code
 categories:
 tags:
-stopwords: Satya
+stopwords: Satya Nadella SSDs HDDs
 last_modified:
 original_url:
 ---
@@ -12,7 +12,7 @@ The 3-2-1 rule is the basic advice about backups: have three copies, on two diff
 
 <!--more-->
 
-In this post I'm mostly thinking about my open source code. There are various laws and regulations that may control what you can do based on the type of data you have. For example, HIPPA or GDPR. I'm not writing about anything that secures or protects data, and probably writing things that do the opposite.
+In this post I'm mostly thinking about my open source code. There are various laws and regulations that may control what you can do based on the type of data you have. For example, HIPAA or GDPR. I'm not writing about anything that secures or protects data, and probably writing things that do the opposite.
 
 I already [use several git services at once](https://briandfoy.github.io/use-several-git-services-at-once/). I push to several different places so I have multiple copies and at least one far away location. I solve the two different sorts of media with various SSDs, HDDs, and the magical fairy dust of "internet".
 
@@ -24,7 +24,7 @@ I looked at what I had and where it might be and what it might be using. Sometim
 
 * GitHub - Rackspace? Azure? (Virginia, Seattle)
 * GitLab - Google Cloud Project, us-east (South Carolina, Virginia)
-* BitBucket - AWS us-east (Virgina)
+* BitBucket - AWS us-east (Virginia)
 * Linode - Philadelphia or Southern New Jersey area (Akamai)
 * Pair Networks - Pittsburgh, or maybe the US midwest?
 
@@ -50,7 +50,7 @@ But know this: everything that you love will eventually be sold and will eventua
 
 # Bus factor
 
-Additionally, the point of open source is that people should have access to my work product even without me. Maybe I'm on vacation, or maybe I'm in a coma in the hosptial (a true story from my first company, but with a different founder). It's not merely my own access to my materials, but the world's access. Suppose sanctions are applied against my country by some other country—part of the world might not be able to access my code (see where [GitHub isn't available by US law](As a result of our advocacy and hard work with U.S. regulators)). Some single action could obviate everything I've done, so far, to keep my stuff available.
+Additionally, the point of open source is that people should have access to my work product even without me. Maybe I'm on vacation, or maybe I'm in a coma in the hospital (a true story from my first company, but with a different founder). It's not merely my own access to my materials, but the world's access. Suppose sanctions are applied against my country by some other country—part of the world might not be able to access my code (see where [GitHub isn't available by US law](As a result of our advocacy and hard work with U.S. regulators)). Some single action could obviate everything I've done, so far, to keep my stuff available.
 
 # What else is out there?
 

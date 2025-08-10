@@ -3,7 +3,7 @@ layout: post
 title: I hold my pen differently
 categories: technology
 tags: taylor-swift pen
-stopwords: Kylee Kylee's Quora Spotify fanbase
+stopwords: Kylee Kylee's Quora Spotify fanbase cypherfascism olds
 last_modified:
 original_url:
 ---
