@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Senior Engineering
-categories:
-tags:
+categories: programming
+tags: jobs
 stopwords:
 last_modified:
 original_url:
