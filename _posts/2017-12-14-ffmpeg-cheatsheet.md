@@ -79,3 +79,7 @@ Rotate a video:
 Download transport stream:
 
     ffmpeg -protocol_whitelist "file,http,https,tcp,tls" -i "path_to_playlist.m3u8" -c copy -bsf:a aac_adtstoasc out.mp4
+
+Also:
+
+* https://github.com/jdriselvato/FFmpeg-For-Beginners-Ebook

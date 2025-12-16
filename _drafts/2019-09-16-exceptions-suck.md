@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Exceptions suck
-categories: perl
-tags:
+categories: programming
+tags: exceptions perl
 stopwords:
 last_modified:
 original_url:
@@ -167,7 +167,7 @@ many not want to continue.
 * https://mortoray.com/2012/04/02/everything-wrong-with-exceptions/
 * https://www.joelonsoftware.com/2003/10/13/13/
 * https://stackoverflow.com/questions/613954/the-case-against-checked-exceptions
-
+* https://xerokimo.github.io/Blogs/How_to_reason_about_exceptions.html
 
 
 

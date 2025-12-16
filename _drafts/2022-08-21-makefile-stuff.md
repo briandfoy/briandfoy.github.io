@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Makefile Stuff
-categories:
-tags:
+categories: programming
+tags: make
 stopwords:
 last_modified:
 original_url:
@@ -15,3 +15,5 @@ https://news.ycombinator.com/item?id=32541016
 https://news.ycombinator.com/item?id=21812656
 https://blog.jgc.org/2013/02/updated-list-of-my-gnu-make-articles.html
 https://www.gnu.org/software/make/manual/make.html
+https://blog.jgc.org/2015/04/the-one-line-you-should-add-to-every.html
+https://makefiletutorial.com
