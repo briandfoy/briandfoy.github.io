@@ -22,15 +22,15 @@ everyone picks at least one thing.
 
 | Thingy | Absolute amount |
 ----------------------------
-|	A         | 400 |
-|	B         | 75 |
-|	C         | 50 |
-|	D	      | 25 |
-|	E         | 25 |
-|	F         | 10 |
-|	"None"    | 15 |
-|	| |
-|	TOTAL   | 1000 |
+|   A         | 400 |
+|   B         | 75 |
+|   C         | 50 |
+|   D         | 25 |
+|   E         | 25 |
+|   F         | 10 |
+|   "None"    | 15 |
+|   | |
+|   TOTAL   | 1000 |
 
 If I report those numbers, people can clearly see what's going on. They know
 the sample size. I can hide the sample size with statistics, which is the
@@ -40,15 +40,15 @@ about representative samples. You need a certain number of people to say somethi
 
 | Thingy | Percentage |
 ----------------------------
-| 	A           | 40% |
-| 	B           | 7.5% |
-| 	C           | 5% |
-| 	D	        | 2.5% |
-| 	E           | 2.5% |
-| 	F           | 1% |
-| 	"None"      | 1.5% |
-| 	| |
-| 	TOTAL       | 100% |
+|   A           | 40% |
+|   B           | 7.5% |
+|   C           | 5% |
+|   D           | 2.5% |
+|   E           | 2.5% |
+|   F           | 1% |
+|   "None"      | 1.5% |
+|   | |
+|   TOTAL       | 100% |
 
 Now, I'll make some statements based on these data, which, based on these data,
 are accurate statements. Notice the qualification: it's only
@@ -80,30 +80,30 @@ sampling to have numbers fall in these ranges.
 
 | Thingy | Low | High |
 --------------------------
-|	A        | 380 | 420 |
-|	B         | 71  | 79 |
-|	C         | 47  | 53 |
-|	D	      | 23  | 27 |
-|	E         | 23  | 27 |
-|	F         | 9   | 11 |
-|	"None"    | 14  | 15 |
+|   A        | 380 | 420 |
+|   B         | 71  | 79 |
+|   C         | 47  | 53 |
+|   D         | 23  | 27 |
+|   E         | 23  | 27 |
+|   F         | 9   | 11 |
+|   "None"    | 14  | 15 |
 | | |
-|	TOTAL    | 1000 |
+|   TOTAL    | 1000 |
 
 So, I run the sample again and get these numbers:
 
 
 | Thingy | Percentage |
 -----------------------
- |	A        | 420 |
- |	B        |  71 |
- |	C        |  53 |
- |	D	     |  27 |
- |	E        |  23 |
- |	F        |  11 |
- |	"None"   |  15 |
+ |  A        | 420 |
+ |  B        |  71 |
+ |  C        |  53 |
+ |  D        |  27 |
+ |  E        |  23 |
+ |  F        |  11 |
+ |  "None"   |  15 |
  | | |
- |	TOTAL   | 1000 |
+ |  TOTAL   | 1000 |
 
 Do my earlier conclusions still hold? Nope.
 

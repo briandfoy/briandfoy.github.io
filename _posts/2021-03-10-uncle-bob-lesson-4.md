@@ -36,8 +36,6 @@ with them dictating what your ideas and concerns should be.
 * Faithfully report impossible deadlines, and don't commit to "just try"
 * If someone says "just try", say "we are trying"
 
-## Three laws of Test Driven Development
-
 * You have to write the failing test first, then the code. (He said in Lesson 2 that the Mercury space program wrote tests in the morning and implemented in the afternoon).
 * You don't write more of a test than you need for the next thing.
 * If you are really good in the debugger, you might be spending your time on the wrong thing.

@@ -30,9 +30,9 @@ Then I got weird errors trying to install [IO::Socket::SSL](https://metacpan/pod
 
 {{highlight plain}}
 #9 42.94 DIED. FAILED tests 1-15
-#9 42.94 	Failed 15/15 tests, 0.00% okay
+#9 42.94    Failed 15/15 tests, 0.00% okay
 #9 42.94 t/alpn............................FAILED tests 1-5
-#9 43.00 	Failed 5/5 tests, 0.00% okay
+#9 43.00    Failed 5/5 tests, 0.00% okay
 #9 43.00 t/auto_verify_hostname............$!=No such file or directory, $@=IO::Socket::SSL: Bad protocol 'tcp', S$SSL_ERROR=IO::Socket::INET configuration failed at t/auto_verify_hostname.t line 34.
 {{endhighlight}}
 
