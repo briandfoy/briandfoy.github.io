@@ -103,7 +103,7 @@ Imagine trying to maintain or develop Java, .Net, or Swift in anything but an ID
 
 Hillel Wayne notes in his response to the authors, [Why I Still Use Vim](https://buttondown.email/hillelwayne/archive/why-i-still-use-vim/):
 
->  There are fantastic IDEs for some languages, and good enough IDE-lites for most languages.
+> There are fantastic IDEs for some languages, and good enough IDE-lites for most languages.
 
 Leonora Tindall addresses this in [Stop Making Students Use Eclipse](https://nora.codes/post/stop-making-students-use-eclipse/).
 
