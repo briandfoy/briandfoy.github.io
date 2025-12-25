@@ -30,7 +30,7 @@ $ which perl
 /Users/brian/bin/perl
 $ readlink -f $(which perl)
 /usr/local/perls/perl-5.42.0/bin/perl5.42.0
-$ $ readlink -f $(which perl) | xargs perl -e '$ARGV[0] =~ s|bin/perl([^/]+)\z|lib/$1/unicore/version|; print scalar <<>>'
+$ readlink -f $(which perl) | xargs perl -e '$ARGV[0] =~ s|bin/perl([^/]+)\z|lib/$1/unicore/version|; print scalar <<>>'
 16.0.0
 {{% endhighlight %}}
 
