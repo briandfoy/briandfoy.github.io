@@ -45,6 +45,20 @@ $ perl5.8.9 -MUnicode::UCD -e 'print Unicode::UCD::UnicodeVersion()'
 
 Finally, if you screw around with the stuff in *unicore/*, perhaps in an attempt to upgrade the UCD version in a perl installation, that's on you. Don't do that.
 
+Now here's the same thing for other languages:
+
+{{% highlight "text" %}}
+$ python3 --version
+Python 3.10.6
+$ python3 -c 'import unicodedata; print(unicodedata.unidata_version)'
+13.0.0
+
+$ ruby --version
+ruby 3.2.2 (2023-03-30 revision e51014f9c0) [arm64-darwin22]
+$ ruby -e 'require "rbconfig"; puts RbConfig::CONFIG["UNICODE_VERSION"]'
+15.0.0
+{{% endhighlight %}}
+
 ## Further reading
 
 * [tchrist's answer to "How to identify programmatically in Java which Unicode version supported?"](https://stackoverflow.com/a/6942982/2766176)
