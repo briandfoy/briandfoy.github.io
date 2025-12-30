@@ -36,7 +36,7 @@ Sum is 3
 
 $ perl5.30.3 -X sum.pl 1 2 m
 Sum is 3
-{{% end highlight %}}
+{{% endhighlight %}}
 
 When I'm running a program from a cronjob (or maybe the equivalent in systemd), I can include the `-X` as part of the `perl` command:
 
@@ -44,7 +44,7 @@ When I'm running a program from a cronjob (or maybe the equivalent in systemd), 
 PERL=perl -X
 
 13 7 * * * ${PERL} periodic-job.pl
-{{% end highlight %}}
+{{% endhighlight %}}
 
 I have to do it this way because perl does not allow `-X` in `PERL5OPT`, the environment variable that automatically adds command-line options to a perl invocation.
 
@@ -81,7 +81,7 @@ Sum is 3
 
 $ perl5.40.0 -X sum.pl 1 2 m
 Sum is 3
-{{% end highlight %}}
+{{% endhighlight %}}
 
 
 
