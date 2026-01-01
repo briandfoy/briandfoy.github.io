@@ -105,19 +105,19 @@ People's database designs tend to be poor as well—they might as well be magic.
 
 But most people don't use the power their database server provides. They are essentially large spreadsheets, which is also why people like to use spreadsheets for their databases.
 
-If you are calling yourself a fullstack developer and you aren't creating views, triggers, and stored procedures, well, you are really just a frontend developer. But then, do you even make your own microchips, bro?
+If you are calling yourself a full-stack developer and you aren't creating views, triggers, and stored procedures, well, you are really just a frontend developer. But then, do you even make your own microchips, bro?
 
 ## How you can fix this
 
 Syntax will not fix these problems for you. [Moose](https://metacpan.org/pod/Moose) hasn't, and one of Cor's fundamental ideas is that Moose is so complicated that it's impossible to be consistent (optional required parameters? readonly read-write accessors?). The feedback I get from people is that the additional layer of abstraction makes the situation much more complex and much worse. It's another layer of abstraction to dig through.
 
-But, Perl's stock syntax is enough to fix this. Or, I should say, enough to never have this problem in the first place. Don't want someone to have access to part of your object? Don't expose it through the interface. You don't need special features to not do something.
+But Perl's stock syntax is enough to fix this. Or, I should say, enough to never have this problem in the first place. Don't want someone to have access to part of your object? Don't expose it through the interface. You don't need special features to not do something.
 
-Mostly, I think people don't want to type out accessors for their structs. I've never really had that problem. And, the extent that people want to minutely configure these accessors leads them back to the same commitment in time and typing as the thing they were trying to avoid.
+Mostly, I think people don't want to type out accessors for their structs. I've never really had that problem. And, the extent to which people want to minutely configure these accessors leads them back to the same commitment in time and typing as the thing they were trying to avoid.
 
 ### Learn object-oriented programming
 
-The best way to learn what you need is to find an object-oriented language and learn it. That's not Java or C++, which merely have objects. Ruby is slightly better, but still is not completely object-oriented. Now Smalltalk, there's a language. Just about everything is an object, including the "World", which is the environment you are in. There's no escaping objects because there's no other way to work. Self may be interesting too.
+The best way to learn what you need is to find an object-oriented language and learn it. That's not Java or C++, which merely have objects. Ruby is slightly better, but it is still not completely object-oriented. Now Smalltalk, there's a language. Just about everything is an object, including the "World", which is the environment you are in. There's no escaping objects because there's no other way to work. Self may be interesting too.
 
 When I say this during in-person training, someone will complain. I'm certainly being glib, but the question I ask is then "what methods can you call on `if`"? Read about [Smalltalk's Boolean class](https://pozorvlak.livejournal.com/94558.html):
 
@@ -169,7 +169,7 @@ $hash->{otter} = 'Lutra';
 
 This is practically the same thing as a C struct. Does it deal with any of those four items? Nope. It's just a bag of data. I can see everything, change anything, and I know it's exactly a hash. I can use [Hash::AsObject](https://www.metacpan.org/pod/Hash::AsObject) as a base class and override some methods, but that doesn't really improve anything.
 
-The point of this code is not to completely encapsulate something; that's almost entirely a secondary (or lower) goal. People don't build useful tools around the idea that their code will be purely encapsulated. They build tools to get a particular task done better than it has been done before. Encapsulation is what we might call "first world problems".
+The point of this code is not to completely encapsulate something; that's almost entirely a secondary (or lower) goal. People don't build useful tools around the idea that their code will be purely encapsulated. They build tools to get a particular task done better than it has been done before. Encapsulation is what we might call "first-world problems".
 
 ## Bags of data
 
@@ -187,4 +187,4 @@ Many people think types solve this problem, and I guess that collection of very 
 
 You still have to check that the value is valid. Once you have to do that, the attractiveness of syntax shortcuts quickly disappears because you have to bring back all the complexity of the thing you are trying to replace.
 
-And, it's not as simple as checking one value. With encapsulation, the object may need to update several things in the object. Object frameworks typically punt on these sorts of issues because the coordination isn't something they can easily force of a task when they don't even know the object represents. The tangled web in Moose or Cor isn't going to be better than subroutines.
+And it's not as simple as checking a single value. With encapsulation, the object may need to update several things in the object. Object frameworks typically punt on these sorts of issues because the coordination isn't something they can easily force on a task when they don't even know what the object represents. The tangled web in Moose or Cor isn't going to be better than subroutines.

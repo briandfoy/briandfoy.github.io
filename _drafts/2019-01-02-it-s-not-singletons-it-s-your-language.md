@@ -131,7 +131,7 @@ sub SharedThingy {
 	}
 {% endhighlight %}
 
-The `SharedThingy` has the lifecycle that people expect because its object contains the singleton but also know when it is created and when it goes out of scope.
+The `SharedThingy` has the lifecycle that people expect because its object contains the singleton, but also knows when it is created and when it goes out of scope.
 
 This is, by the way, what some database modules do. They keep a single connection, ping it, and reconnect when necessary, all while hiding that from the application.
 
@@ -160,7 +160,7 @@ sub SharedThingy {
 	}
 {% endhighlight %}
 
-Another complaint about testability is that multiple tests, running in parallel (or even the same test suite run simultaneously) would affect the state of the shared resource. Sure. But so is production.
+Another complaint about testability is that multiple tests, running in parallel (or even the same test suite run simultaneously), would affect the state of the shared resource. Sure. But so is production.
 
 There might be examples where you can't do this, but I haven't seen anyone present a concrete version.
 
@@ -182,7 +182,7 @@ Singleton* Singleton::instance() {
 
 ### Inappropriate use
 
-A final criticism is that people use the Singleton pattern incorrectly or in places where it's not appropriate. Sure, but people do all sorts of stupid things. That's not the fault of the idea though.
+A final criticism is that people use the Singleton pattern incorrectly or in contexts where it's inappropriate. Sure, but people do all sorts of stupid things. That's not the fault of the idea, though.
 
 ## Hall of Shame
 
