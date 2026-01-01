@@ -12,13 +12,13 @@ Every so often I run across some programmer who says that Singleton objects are 
 
 <!--more-->
 
-The Singleton comes from Object-Oriented Design Patterns, a Smalltalk book (later ported to C++) that described how you can arrange and connect objects to solve various organizational problems. Think about this as you read people's complaints. This book was originally written for one language then lightly edited to use a completely different language with different ideas.
+The Singleton comes from *Object-Oriented Design Patterns**, a Smalltalk book (later ported to C++) that described how you can arrange and connect objects to solve various organizational problems. Think about this as you read people's complaints. This book was originally written for one language then lightly edited to use a completely different language with different foundational ideas.
 
 ## Object-Orientation
 
 Smalltalk, invented in the 1970s at Xerox Park, is largely attributed to its main evangelist, Alan Kay ([The Early History Of Smalltalk](http://worrydream.com/EarlyHistoryOfSmalltalk/). He [accidentally coined "object-oriented](https://www.quora.com/What-did-Alan-Kay-mean-by-I-made-up-the-term-object-oriented-and-I-can-tell-you-I-did-not-have-C++-in-mind), although he later says that it wasn't a good description of what he was actually doing. His idea, loosely, was that things ("objects") would talk to each other by sending and receiving messages. Different receivers, completely unrelated to each other, could handle the same messages. You don't care if you have the right Type, and you didn't need to know all the Types and bindings and relationships ahead of time. This made the syntax of Smalltalk very simple.
 
-C++, invented in the late 1970s and early 1980s, as "C with Objects" and later its final name, was a different beast. You can write C in a way that has the concept of classes and objects. That's the way C++ originally worked—it transpiled code to the equivalent C. But, C doesn't have the same ideas, designs, or goals as Smalltalk. It doesn't think in terms of messages, and it really wants to know everything ahead of time (or you have to play weird games to get around that).
+C++, invented in the late 1970s and early 1980s, as "C with Objects" and later its final name, was a different beast. You can write C in a way that has the concept of classes and objects. That's the way C++ originally worked—it transpiled code to the equivalent C. But C doesn't have the same ideas, designs, or goals as Smalltalk. It doesn't think in terms of messages, and it really wants to know everything ahead of time (or you have to play weird games to get around that).
 
 ## Design Patterns
 
@@ -26,7 +26,7 @@ The idea of a "design pattern" comes out of architecture (as in buildings and wh
 
 The [Design Patterns: Elements of Reusable Object-Oriented Software](https://amzn.to/3uljGkD) uses the same term, but adds another wrinkle. The authors include sample implementations. We all know how that is going to work out. Once you show concrete code, people think that the code is the pattern.
 
-The two are not the same. Mark Jason Dominus explains it in his presentation ["Design Patterns" Aren't](https://perl.plover.com/yak/design/).
+The two are not the same, as Mark Jason Dominus explains it in his presentation ["Design Patterns" Aren't](https://perl.plover.com/yak/design/).
 
 ## The Singleton
 
@@ -35,13 +35,13 @@ The [Singleton Pattern](https://www.oodesign.com/singleton-pattern.html) has too
 * Ensure that only one instance of a class is created.
 * Provide a global point of access to the object.
 
-But, these intents are not the actual intents. The real intent, as expressed in the rest of the description of the idea, is that a program can share something which having to coordinate with anything else that also wants to share the thing. The stated intents are not the revealed intents
+But, these intents are not the actual intents. The real intent, as expressed in the rest of the description of the idea, is that a program can share something without having to coordinate with anything else that also wants to share the thing. The stated intents are not the revealed intents
 
-The "one instance" leads astray the literal minded. I don't care if there's a single instance, two instances, or some other number. In that regard, "Singleton" is a bad name for a pattern. It's pre-maturely specifying the number of things to share, and excluding from the concept that we might want to share more than one thing.
+The "one instance" leads astray the literal-minded. I don't care if there's a single instance, two instances, or some other number. In that regard, "Singleton" is a bad name for a pattern. It's prematurely specifying the number of things to share, and excluding the concept that we might want to share more than one thing.
 
-Some people also focus on the "global point of access" to mean it's a global variable with global state. Well, every class name you create is a global *point* of access. But, it doesn't have to be global either. Parts of the program that don't need it don't even need to know about it.
+Some people also focus on the "global point of access" to mean it's a global variable with global state. Well, every class name you create is a global *point* of access. But it doesn't have to be global either. Parts of the program that don't need it don't even need to know about it.
 
-These misapprehensions arise because the software "design patterns" are received as code, and the C++ examples come from a language that actively gets in your way because it already has opinions about how you should do things. The online version uses JAva:
+These misapprehensions arise because the software "design patterns" are received as code, and the C++ examples come from a language that actively gets in your way because it already has opinions about how you should do things. The online version uses Java:
 
 {% highlight c++ %}
 class Singleton {
@@ -80,18 +80,27 @@ package Singleton {
 		return $singleton if defined $singleton;
 		$singleton = ...
 	    }
-}
+	}
 {% endhighlight %}
 
-Some of the complaints about this form is that the Singleton class doesn't have a proper constructor or destructor. I think these are language details.
+With Perl v5.10 or later
+
+package Singleton {
+	sub new {
+		state $singleton = ...
+		return $singleton;
+	    }
+	}
+
+Some of the complaints about this form are that the Singleton class doesn't have a proper constructor or destructor. I think these are language details; people complain because their first language set their expectations of what should exist everywhere else.
 
 ### Lifecycle
 
-Another complaint is that the lifecycle of a Singleton is essentially from the point of its first use to the end of the application. That stored instance, in the way its presented, essentially sticks around forever. That's another implementation detail, though; when the programmer asks for the instance, you are allowed to do anything to like.
+Another complaint is that the lifetime of a Singleton is effectively from its first use to the end of the application. That stored instance, in the way it's presented, essentially sticks around forever. That's another implementation detail, though; when the programmer asks for the instance, you are allowed to do anything you like. You could update the shared object, destroy it and create another, or something else.
 
-But, why does the programmer ever have to see the singleton or get to use it directly? At the application level, you use a class that more directly connects to the actions the application wants to do, and that class then translates the calls to the shared resource. For example, I print to a socket, but I don't manage the details of the socket in the application layer.
+But why does the programmer ever have to see the singleton or get to use it directly? At the application level, you use a class that more directly connects to the actions the application wants to do, and that class then translates the calls to the shared resource. For example, I print to a socket, but I don't manage the details of the socket in the application layer.
 
-The `SharedThingy` class can
+The `SharedThingy` class can clear out the underlying thingy so the next time you ask for it, you get a new one:
 
 {% highlight perl %}
 package Singleton {
