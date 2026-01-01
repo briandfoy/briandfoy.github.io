@@ -36,7 +36,7 @@ The default data type at the top of the structure (one level under `<plist>`) is
 Do the same thing but with the `json` format, which is much simpler:
 
 $ plutil -create json json.plist
-brian@m2otter plutil.d [3004]
+
 $ more plist.json
 {}
 
