@@ -41,3 +41,4 @@ $ tmux display-message -p '#S'
 
 * [tmux cheatsheet](https://tmuxcheatsheet.com)
 * [tmux in iTerm2](https://iterm2.com/documentation-tmux-integration.html)
+* [Chris Scheller's tmux config](https://github.com/schelcj/scripts/blob/master/smux)
