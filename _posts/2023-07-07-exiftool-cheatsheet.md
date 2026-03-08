@@ -20,6 +20,7 @@ exiftool -overwrite_original -TimeZoneCity=Chicago -TimeZone=-05:00 -alldates-=1
 exiftool overwrite_original -alldates-=3 "-offsettime*=-07:00" -TimeZone=-7:00 -TimeZoneCity#=30 -verbose test.CR3
 {% endhighlight %}
 
+
 ## Geotag
 
 {% highlight text %}
