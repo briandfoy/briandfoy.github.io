@@ -5,10 +5,12 @@ categories: perl programming
 tags: flip-flop perlfaq
 stopwords:
 last_modified:
-original_url:
+original_url: https://www.reddit.com/user/briandfoy/comments/1t8o9y1/geeking_out_about_the_flipflop_operator/
 ---
 
 *(this was an answer to a StackOverflow question that I didn't post because it didn't quite fit, but I use too keen on showing off the flip-flop operator to get rid of it all)*
+
+*I also put [this in Reddit](https://www.reddit.com/user/briandfoy/comments/1t8o9y1/geeking_out_about_the_flipflop_operator/)*
 
 A few other places:
 
