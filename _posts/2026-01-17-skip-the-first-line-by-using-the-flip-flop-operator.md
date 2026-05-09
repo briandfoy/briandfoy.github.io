@@ -3,7 +3,7 @@ layout: post
 title: Skip the first line by using the flip-flop operator
 categories: perl programming
 tags: flip-flop perlfaq
-stopwords:
+stopwords: sed's
 last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1t8o9y1/geeking_out_about_the_flipflop_operator/
 ---
