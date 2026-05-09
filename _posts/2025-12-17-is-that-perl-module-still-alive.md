@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Is that Perl module still alive?
-categories: perl pause
-tags:
-stopwords:
+categories: perl
+tags: pause cpan
+stopwords: BINGO's Dominus's XANTUS Rinaldo MARTIJN HACHI BSMITH APOCAL RCAPUTO
 last_modified:
 original_url: https://www.reddit.com/r/perl/comments/1por46u/poe_module_still_alive/
 ---

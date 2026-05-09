@@ -3,7 +3,7 @@ layout: post
 title: Let's talk about beavers, but we can't ever look at one
 categories: science
 tags: beavers
-stopwords:
+stopwords: fait accompli Loehle
 last_modified:
 original_url:
 ---
@@ -64,7 +64,7 @@ Instead, their indirect measure was the disconnected stump left over and the ori
 
 Consider, for example, how the weight is distributed in the canopy. A tree leaning to the right might have its center of gravity to the left because there are more or heavier branches on the left. These things matter, but aren't part of the data.
 
-One of the curious things about this paper is that they don't mention the tree type. But why would you if a tree is just a tree? Some trees, like birch, are thin and tall without branching, so canopy asymmetry doesn't matter as much as it does with a pine. [The Ohio Department of Natural Resources says the forest is a mix of beech and maple](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/alum-creek-state-park).
+One curious thing about this paper is that it doesn't mention the tree type. But why would you if a tree is just a tree? Some trees, like birch, are thin and tall without branching, so canopy asymmetry doesn't matter as much as it does with a pine. [The Ohio Department of Natural Resources says the forest is a mix of beech and maple](https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property/alum-creek-state-park).
 
 With all of this, the paper lacks any science (predictive power) and any investigation of the beaver's intent. If all the trees are leaning toward that marshland or pond, the beavers might not have any agency at all in the direction that the tree falls.
 
@@ -72,7 +72,7 @@ But there's this nonsense:
 
 > Far from the shore, the trees tend to be fairly symmetrical and vertical (Loehle 1986). Thus, trees should fall in the direction from which they are cut.
 
-This is stupid beyond belief; it's unsupported, has no observational evidence, and is a completely broken syllogism.
+This is stupidly beyond belief; it's unsupported, has no observational evidence, and is a completely broken syllogism.
 
 It is there only to lead to the next statement:
 
@@ -82,7 +82,7 @@ It is there only to lead to the next statement:
 
 They could have recorded beavers chewing on trees and watching them fall. They wouldn't have to measure 452 stumps, make large unsupported logical leaps,
 
-But the acknowledgements give it away:
+But the acknowledgments give it away:
 
 > This research was funded by the Howard Hughes Medical Institute Undergraduate Biological Sciences Education Program grant to Ohio Wesleyan University.
 

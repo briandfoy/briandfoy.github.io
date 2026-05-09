@@ -3,7 +3,7 @@ layout: post
 title: I, Libertine, the timeline
 categories:
 tags:
-stopwords:
+stopwords: WOR
 last_modified:
 original_url:
 ---
@@ -20,7 +20,7 @@ Jean Shepherd, most known for [A Christmas Story](https://www.imdb.com/title/tt0
 
 * April 1956 - Jean solicits titles ([WSJ](https://web.archive.org/web/20020427051336/https:/flicklives.com/Articles/Wall_Street_Journel/8-1-56/8-1-56.jpg))
 
-* April 1956 - Jean instructs listeners to titles ([WSJ](https://web.archive.org/web/20020427051336/https:/flicklives.com/Articles/Wall_Street_Journel/8-1-56/8-1-56.jpg))
+* April 1956 - Jean instructs listeners to request titles ([WSJ](https://web.archive.org/web/20020427051336/https:/flicklives.com/Articles/Wall_Street_Journel/8-1-56/8-1-56.jpg))
 
 * August 1, 1956 - [Wall Street Journal exposes the joke](https://web.archive.org/web/20020427051336/https:/flicklives.com/Articles/Wall_Street_Journel/8-1-56/8-1-56.jpg)
 

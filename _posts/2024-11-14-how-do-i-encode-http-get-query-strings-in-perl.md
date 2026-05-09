@@ -1,9 +1,9 @@
 ---
 layout: post
 title: How do I encode HTTP GET query strings in Perl?
-categories:
+categories: perl programming
 tags:
-stopwords:
+stopwords: deprecations LWP's tx url
 last_modified:
 original_url: https://stackoverflow.com/a/79850071/2766176
 ---
@@ -73,7 +73,7 @@ Now, contrast this with [Mojolicious](https://mojolicious.org), which came much 
 
 First, the `get` returns a transaction (`$tx`) that wraps the original request and the response (and maybe more requests and responses in a chain of redirects).
 
-I often find myself doing things with the base url with different queries and with the Mojo interface, I don't have to rebuild the entire URL each time:
+I often find myself doing things with the base URL with different queries and with the Mojo interface, I don't have to rebuild the entire URL each time:
 
 	use Mojo::UserAgent;
 	my $ua = Mojo::UserAgent->new;

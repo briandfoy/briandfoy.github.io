@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Compiling Perl v5.8 on Debian Slim
-categories: perl
+categories: perl containers
 tags: debian slim
-stopwords:
+stopwords: alpn INET netbase notest nudp
 last_modified:
 original_url:
 ---
