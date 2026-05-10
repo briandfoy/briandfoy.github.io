@@ -22,7 +22,7 @@ A few other places:
 
 Here's some text that has a mix of written ("first") and numeric ("4th") ordinals, and our task is to change them all to the written form except for the first line:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ cat > file.txt
 first line has the numeric ordinal 4th
 second line
@@ -30,11 +30,11 @@ third is before 4th
 4th
 next to last
 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 Let's start with a program that simply adds line numbers to the input:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -n -e 'print "$. $_"' file.txt
 1 first line has the numeric ordinal 4th
 2 second line
@@ -42,22 +42,22 @@ $ perl -n -e 'print "$. $_"' file.txt
 4 4th
 5 next to last
 6 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 We can skip the first line, which means that we only get lines that have a line before it. The `$.` is the input line number:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -n -e 'print "$. $_" unless $. == 1' file.txt
 2 second line
 3 third is before 4th
 4 4th
 5 next to last
 6 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 But we don't want to skip the first line. We simply don't want to change it. We can use the same `$.` comparison for the part that changes the line. Notice the first line  does not change but the fifth line does:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -n -e 's/4th/fourth/ unless $. == 1; print "$. $_"' file.txt
 1 first line has the numeric ordinal 4th
 2 second line
@@ -65,11 +65,11 @@ $ perl -n -e 's/4th/fourth/ unless $. == 1; print "$. $_"' file.txt
 4 fourth
 5 next to last
 6 last line is not fourth
-{{endhighlight}}
+{% endhighlight %}
 
 The `-p` switch is different than `-n` because it outputs the value of the line at the end of the loop (if you change it or not):
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -pe 's/4th/fourth/ unless $. == 1' file.txt
 first line has the numeric ordinal 4th
 second line
@@ -77,11 +77,11 @@ third is before fourth
 fourth
 next to last
 last line is not fourth
-{{endhighlight}}
+{% endhighlight %}
 
 Once you know about `$.`, you can select lines however you like, such as every other line:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -pe '$_ = uc($_) unless $. % 2' file.txt
 first line has the numeric ordinal 4th
 SECOND LINE
@@ -89,22 +89,22 @@ third is before 4th
 4TH
 next to last
 LAST LINE IS NOT 4TH
-{{endhighlight}}
+{% endhighlight %}
 
 Or, even a range (window) of lines:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -pe '$_ = uc($_) unless( $. < 2 or $. > 5)' file.txt
 SECOND LINE
 THIRD IS BEFORE 4TH
 4TH
 NEXT TO LAST
 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 There's a special, and sometimes mind-bending, operator that handles this. The `..` [range operator](https://perldoc.perl.org/perlop#Range-Operators) in scalar context, as it would be in a condition, doesn't produce a list. It's the "flip-flop" variant. That returns false until the lefthand argument is true, and then keeps returning true until the righthand argument is true, after which it returns false. It takes many people a few minutes to unravel that if they haven't used it before:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -pe '$_ = uc($_) if $. == 2 .. $. == 5' file.txt
 first line has the numeric ordinal 4th
 SECOND LINE
@@ -112,11 +112,11 @@ THIRD IS BEFORE 4TH
 4TH
 NEXT TO LAST
 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 Perl, being the language that it is, has special cases for the common cases. You can leave off the explicit comparison because comparing the number to `$.` is the default:
 
-{{highlight plain}}
+{% highlight "text" %}
 $ perl -pe '$_ = uc($_) if 2 .. 5' file.txt
 first line is not 4th
 SECOND LINE
@@ -124,6 +124,6 @@ THIRD IS BEFORE 4TH
 4TH
 NEXT TO LAST
 last line is not 4th
-{{endhighlight}}
+{% endhighlight %}
 
 As an aside, compare this to sed's `2,5 ...` syntax for a line range.
