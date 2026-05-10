@@ -18,14 +18,14 @@ First, the Unicode data files are embedded in the Perl distribution. Look for th
 
 The version is in *lib/<VERSION>/unicore/version*, but you don't need to look in that file and it's a bit annoying to construct the path. There is a module in that directory, but you can't use `perldoc -l` to get its path since it contains no pod:
 
-{% highlight "text" %}
+{% highlight text %}
 $ perldoc -l unicore::Name
 No documentation found for "unicore::Name".
 {% endhighlight %}
 
 Getting the right path is a bit weird because the path might be a symlink, so I need to get the final path:
 
-{% highlight "text" %}
+{% highlight text %}
 $ which perl
 /Users/brian/bin/perl
 $ readlink -f $(which perl)
@@ -36,7 +36,7 @@ $ readlink -f $(which perl) | xargs perl -e '$ARGV[0] =~ s|bin/perl([^/]+)\z|lib
 
 That works, but is a bit annoying. There's another way that took me a minute to discover; buried in [Unicode::UCD](https://metacpan.org/pod/Unicode::UCD) is the `UnicodeVersion` function, all the way back to v5.8:
 
-{% highlight "text" %}
+{% highlight text %}
 $ perl -MUnicode::UCD -E 'say Unicode::UCD::UnicodeVersion()'
 16.0.0
 $ perl5.8.9 -MUnicode::UCD -e 'print Unicode::UCD::UnicodeVersion()'
@@ -47,7 +47,7 @@ Finally, if you screw around with the stuff in *unicore/*, perhaps in an attempt
 
 Now here's the same thing for other languages:
 
-{% highlight "text" %}
+{% highlight text %}
 $ python3 --version
 Python 3.10.6
 $ python3 -c 'import unicodedata; print(unicodedata.unidata_version)'
