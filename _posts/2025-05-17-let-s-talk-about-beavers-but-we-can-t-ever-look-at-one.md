@@ -56,7 +56,7 @@ Even during the fall, the hinge is intact until the face-cut aspects meet, stopp
 
 But, I don't think the people involved in this paper have ever had to cut down a tree, or at least one large enough they might lose their life if they did it incorrectly.
 
-## The stump is not the tree.
+## The stump is not the tree
 
 Earlier, I wrote about [indirect measures](https://briandfoy.github.io/indirect-measures-and-bad-conclusions/) and that most science is not actually a serious attempt to add to human knowledge. That is the case here as well. There is nothing in this paper that increases our understanding of beavers. We already know the paper did not observe any beavers. They also didn't observe any trees that were still standing.
 

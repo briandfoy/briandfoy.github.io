@@ -113,5 +113,4 @@ I don't particularly care what the programs should do as long as those programs 
 
 * [Energy efficiency of Programming languages](https://www.reddit.com/r/elixir/comments/1acai5h/energy_efficiency_of_programming_languages/)
 * [Hacker News](https://news.ycombinator.com/item?id=15249289)
-* [*Energy, Entropy and
-the Theory of Wealth*](http://www.libellus.co.uk/uploads/jc_energy_entropy_wealth_2016.pdf) by John Constable
+* [Energy, Entropy and the Theory of Wealth](http://www.libellus.co.uk/uploads/jc_energy_entropy_wealth_2016.pdf) by John Constable

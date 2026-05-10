@@ -15,26 +15,30 @@ doesn't have the xterm package and all sorts of things wonky.
 
 ## Some commands
 
-	tmux attach -t NAME
-	tmux detach
+{% highlight "text" %}
+$ tmux attach -t NAME
+$ tmux detach
+{% endhighlight %}
 
-###  Get the session name
+### Get the session name
 
 Get them all:
 
-```
+{% highlight "text" %}
 $ tmux ls
-```
+{% endhighlight %}
 
 Get the current one:
 
-```
+{% highlight "text" %}
 $ tmux display-message -p '#S'
-```
+{% endhighlight %}
 
 ### Rename session
 
-	$ tmux rename-session -t OLD NEW
+{% highlight "text" %}
+$ tmux rename-session -t OLD NEW
+{% endhighlight %}
 
 
 ## Links

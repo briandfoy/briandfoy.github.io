@@ -67,5 +67,5 @@ The timer:
 
 ## Further reading
 
-* https://xeiaso.net/talks/systemd-the-good-parts-2021-05-16
-* https://blog.darknedgy.net/technology/2020/05/02/0/
+* [systemd: The Good Parts](https://xeiaso.net/talks/systemd-the-good-parts-2021-05-16)
+* [systemd, 10 years later: a historical and technical retrospective](https://blog.darknedgy.net/technology/2020/05/02/0/)

@@ -20,7 +20,7 @@ hallway of the science building. The Engineer sets about to design a
 longer lasting, high efficiency light bulb that will last much longer.
 Three years, they deliver this bulb to the science building and the
 custodian says they will try it the next time a light bulb burn out.
-
+>
 > At the same time, the
 Physicist sets about to determine how to use the existing bulbs more
 effectively. They discover that the bulbs are running too hot, which
@@ -31,7 +31,7 @@ deliver this after several months, much faster than the Engineer's
 solution. No one does anything because the custodian is not going to
 change the existing wiring in the building since there is no
 burnt out light bulb at the moment.
-
+>
 > Neither the Engineer nor the Physicist noted that there was no light
 bulb that was burnt out when they delivered their solution. Given the
 same problem, the Mathematician had gone into the hallway with a broom

@@ -50,9 +50,9 @@ Some of the StackOverflow answers are slightly more useful, but are markers of t
 Software Engineering StackExchange site's [When is code "legacy"?](https://softwareengineering.stackexchange.com/q/94007/103630) has much the same flippant mix of answers, but [one thoughtful community wiki answer](https://softwareengineering.stackexchange.com/a/94207/103630).
 
 > The fact that it is still used in production is precisely what makes it legacy.
-
+>
 > Legacy means that it is still in use and works fine, but incorporates designs or techniques that are no longer in common use.
-
+>
 > In some cases there's nothing wrong with legacy code. It's not a bad word. Legacy code/systems are not Evil. They've just collected some dust - sometimes a little, sometimes a lot.
 
 That answer is ultimately unsatisfying because it presents contradictory definitions that skirt the issue. The first definition says that it's legacy if it's used in production, but the second then qualifies that. That last statement equivocates a bit.
@@ -62,7 +62,7 @@ That answer is ultimately unsatisfying because it presents contradictory definit
 Micheal C. Feathers perhaps has the most popular answer. It's glib, but not very useful. In [Working Effectively with Legacy Code](https://amzn.to/31iOY0g)'s preface, he writes:
 
 > In the industry, legacy code is often used as a slang term for difficult-to-change code that we don’t understand. But over years of working with teams, helping them get past serious code problems, I’ve arrived at a different definition.
-
+>
 > To me, legacy code is simply code without tests. I’ve gotten some grief for this definition. What do tests have to do with whether code is bad? To me, the answer is straightforward, and it is a point that I elaborate throughout the book:
 
 In the first paragraph, you have to assume quite a bit to accept that definition. It begs the question that the people are competent practitioners not only in tools applied to the problem, but also the domain of the problem. I reject that assumption. Difficult-to-change and "don't understand" aren't properties of code. They are properties of developers and institutions. It's very easy to change code; it's merely difficult to get it to what you want instead of whatever it does now. That's a bit flippant, but I'll come back to that.
@@ -106,9 +106,9 @@ Mark Jason Dominus is the original author of the Perl module [Text::Template](ht
 In his [Twelve Views of Mark Jason Dominus](https://perl.plover.com/yak/12views/samples/notes.html) talk, he writes that his modest module has reached its goal, but that was not enough.
 
 > Anyway, the module quickly stabilized. ... Since the module was perfect, there was no need to upload new versions of it to CPAN.
-
+>
 > But then I started to get disturbing emails. "Hi, I notice you have not updated Text::Template for nine months. Are you still maintaining it?"
-
+>
 > People seem to think that all software requires new features or frequent bug fixes. Apparently, the idea of software that doesn't get updated because it's finished is inconceivable.
 
 I don't think that's an unreasonable idea considering how much software is unfit for purpose even the same day it's public. But, the Perl community through [CPAN Testers](https://www.cpantesters.org) tests all modules against every version of Perl. It's very easy to find out if something still passes its tests. That's different from works, but hold onto that for a moment.
@@ -225,9 +225,3 @@ Not only that, within an organization, individuals have their own goals. Many wa
 And that brings us back to legacy code. **It's existing code that the company accepts because the decision makers think it is the best course to allow the company to continue to exist**. There's little political or economic will to drastically change the code. That will is derives from the wants and desires of people who never touch or see the code as well as the company's revealed preferences to tolerate that.
 
 This definition does not rely on the debates about hardware, programming fads, tests or no tests, and any other second-order symptoms. It doesn't depend on understandability or difficulty, but I think it still gets to the heart of the issue.
-
-
-
-
-
-

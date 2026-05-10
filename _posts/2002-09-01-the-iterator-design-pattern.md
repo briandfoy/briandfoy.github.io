@@ -461,8 +461,6 @@ The Iterator design pattern has three parts: the data, the iterator, and the con
 
 ## References
 
-* [Design Patterns](https://amzn.to/3aPaLxO), by
-Erich Gamma, Richard Helm, Ralph Johnson, Jon Vlissides; Addison
-Wesley, 1995.
+* [Design Patterns](https://amzn.to/3aPaLxO), by Erich Gamma, Richard Helm, Ralph Johnson, Jon Vlissides; Addison Wesley, 1995.
 
 

@@ -628,7 +628,5 @@ You can get all modules discussed in this article from the [Comprehensive Perl A
 
 You can read more about design patterns in:
 
-* [Design Patterns](https://amzn.to/3aPaLxO), by
-Erich Gamma, Richard Helm, Ralph Johnson, Jon Vlissides; Addison
-Wesley, 1995.
+* [Design Patterns](https://amzn.to/3aPaLxO), by Erich Gamma, Richard Helm, Ralph Johnson, Jon Vlissides; Addison Wesley, 1995.
 

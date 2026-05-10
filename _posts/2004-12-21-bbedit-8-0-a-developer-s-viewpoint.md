@@ -8,7 +8,7 @@ last_modified:
 original_url: http://www.oreillynet.com/pub/a/mac/2004/12/21/bbedit.html
 ---
 
-*[This originally appeared in my O'Reilly blog at http://www.oreillynet.com/pub/a/mac/2004/12/21/bbedit.html, which is no longer. It originally had images, but those have been lost to time.]*
+*This originally appeared in my O'Reilly blog at [http://www.oreillynet.com/pub/a/mac/2004/12/21/bbedit.html](http://www.oreillynet.com/pub/a/mac/2004/12/21/bbedit.html), which is no longer. It originally had images, but those have been lost to time.*
 
 A couple of months ago, Bare Bones software released the eighth version of BBEdit, their popular text editor for the Mac. I've used BBEdit since 1994, and I was excited to get my hands on a new version, since Bare Bones always has something new and cool.
 
@@ -68,7 +68,7 @@ A text factory isn't really so much a factory as a set of transformations. It do
 
 The interface to create a factory is very Mac-like. It's easy to create the factory from BBEdit commands like "Straighten Quotes" and "Sort Lines." I'd really like options to use the [HTML Tidy](http://tidy.sourceforge.net/) and some of the other tools, but the closest I get to that is "Run unix filter," which is much more convenient from the Terminal for me. I then save the factory.
 
-That's where it ends being useful. Once I save the factory, I have to do a bit of work to actually use it. From the Text menu, I have to go halfway down the long list of items to get to the "Apply Text Factory..." menu item, which then leads me to a standard file dialog that starts in my Documents folder. If I remember where I put my text factory, I still have to navigate to get there.
+That's where it ends up being useful. Once I save the factory, I have to do a bit of work to actually use it. From the Text menu, I have to go halfway down the long list of items to get to the "Apply Text Factory..." menu item, which then leads me to a standard file dialog that starts in my Documents folder. If I remember where I put my text factory, I still have to navigate to get there.
 
 I would have much preferred a Text Factories pull-down menu somewhere. Give me a special folder to drop these things in, just like I have for Unix Filters. It would be even nicer if that pull-down could be in a contextual menu.
 
@@ -82,7 +82,7 @@ BBEdit now supports HTML Tidy directly, so I can clean up and reformat my HTML w
 
 ## HTML Preview
 
-BBEdit now can preview HTML and other web files directly in BBEdit using Apple's WebKit. The preview window updates dynamically as I type, so I can see the changes almost in real time, although there seems to be a little bit of lag between my typing and the preview updates. I can't watch myself type, but once I stop typing for a couple of seconds, the window updates.
+BBEdit can now preview HTML and other web files directly in BBEdit using Apple's WebKit. The preview window updates dynamically as I type, so I can see the changes almost in real time, although there seems to be a little bit of lag between my typing and the preview updates. I can't watch myself type, but once I stop typing for a couple of seconds, the window updates.
 
 I can preview just about anything that Safari can preview. Just for giggles, I loaded a JPEG image into BBEdit. Although it looks funny and I can't really edit it (but I imagine someone out there could), the image previews as an image, even though I see it as text. Very cool.
 
@@ -98,7 +98,7 @@ When I have something in the top window that BBEdit thinks is a Perl script, the
 
 Affrus starts up and waits at the first statement. The debugger is running the script when it opens the new window, but I get the first virtual breakpoint for free, so I can set up what I want to do before I continue. I need to keep editing in the BBEdit window, since any changes in the Affrus window don't fold back into the code.
 
-The integration goes the other way too. Affrus has an "Edit in BBEdit" option. I'm not a big fan of the Affrus editor mostly because I'm a big fan of BBEdit. These two could be more tightly integrated, but these are not bad first steps, especially since they come from two different companies.
+The integration goes the other way too. Affrus has an "Edit in BBEdit" option. I'm not a big fan of the Affrus editor, mostly because I'm a big fan of BBEdit. These two could be more tightly integrated, but these are not bad first steps, especially since they come from two different companies.
 
 ## Things That Are Still Missing
 
@@ -119,7 +119,7 @@ BBEdit already supports a couple of source control systems. This version adds su
 
 ## Miscellaneous Oddities
 
-The BBEdit application installs by moving the application for the distribution disk image to wherever I want to put it. It's a single "file," and the support files show up in "~/Library/Application Support/BBEdit", so I can't run two versions of BBEdit without them stepping on each other. That should be of little consequence to anyone other than a reviewer who wants to switch back and forth to look at the differences. You may want to save a copy of that directory just in case.
+The BBEdit application installs by moving the application from the distribution disk image to wherever I want to put it. It's a single "file," and the support files show up in "~/Library/Application Support/BBEdit", so I can't run two versions of BBEdit without them stepping on each other. That should be of little consequence to anyone other than a reviewer who wants to switch back and forth to look at the differences. You may want to save a copy of that directory just in case.
 
 The BBEdit spell checker is gone. It still has spell checking, but it uses the Mac OS X built-in spell checker. I gave myself a while to get used to this, but I still think it's a couple of steps backward. The BBEdit spell checker was a lot nicer, in my opinion, and I miss it. Maybe they'll bring it back if the Mac OS X one doesn't improve.
 

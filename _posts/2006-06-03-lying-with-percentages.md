@@ -21,7 +21,7 @@ to pick one, or say "None of the Above". I call 1,000 people, and
 everyone picks at least one thing.
 
 | Thingy | Absolute amount |
-----------------------------
+|----------------------------|
 |   A         | 400 |
 |   B         | 75 |
 |   C         | 50 |
@@ -39,7 +39,7 @@ about representative samples. You need a certain number of people to say somethi
 
 
 | Thingy | Percentage |
-----------------------------
+|----------------------------|
 |   A           | 40% |
 |   B           | 7.5% |
 |   C           | 5% |
@@ -79,7 +79,7 @@ difference in 5% for any Thingy. I'd then expect any particular
 sampling to have numbers fall in these ranges.
 
 | Thingy | Low | High |
---------------------------
+|--------------------------|
 |   A        | 380 | 420 |
 |   B         | 71  | 79 |
 |   C         | 47  | 53 |
@@ -94,7 +94,7 @@ So, I run the sample again and get these numbers:
 
 
 | Thingy | Percentage |
------------------------
+|-----------------------|
  |  A        | 420 |
  |  B        |  71 |
  |  C        |  53 |

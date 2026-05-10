@@ -107,5 +107,4 @@ COPY 1
 
 * [Pg docs: Arrays](https://www.postgresql.org/docs/current/arrays.html)
 * [Pg docs: COPY — copy data between a file and a table](https://www.postgresql.org/docs/current/sql-copy.html)
-* [COPY (import) data into PostgreSQL array column
-](https://stackoverflow.com/a/11170273/2766176)
+* [COPY (import) data into PostgreSQL array column](https://stackoverflow.com/a/11170273/2766176)

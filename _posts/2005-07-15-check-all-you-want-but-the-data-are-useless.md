@@ -29,7 +29,7 @@ I didn't particularly like this, and I didn't particularly like him. He didn't u
 
 At the time I was neck deep in TCL because I was doing a lot of Tk work to create interfaces to custom hardware and so on. This is pre-web stuff and Tk was advanced, magic technology. A few lines of code turned into a graphical interface with clicky pointy buttons.
 
-TCL had this amazingly library called [Expect](http://tcl.tk/man/expect5.31/expect.1.html). It allows you to programmatically interact with systems that think a person is on the other side. Here's a short program that logs in to some system and gets its output. It matches what it sees and sends input based on that. In this case, if it sees `$ ` (my prompt) in the output, it sends back some input. This little program waits five seconds, runs `who`, and then does it again. Forever. As long as I let this run, that login is never idle:
+TCL had this amazingly library called [Expect](http://tcl.tk/man/expect5.31/expect.1.html). It allows you to programmatically interact with systems that think a person is on the other side. Here's a short program that logs in to some system and gets its output. It matches what it sees and sends input based on that. In this case, if it sees `$␣` (my prompt) in the output, it sends back some input. This little program waits five seconds, runs `who`, and then does it again. Forever. As long as I let this run, that login is never idle:
 
 {% highlight tcl %}
 #!/usr/bin/expect
@@ -44,10 +44,7 @@ expect {
 
 My actual program, which I've long since lost, was much more fancy with variable sleep times, random commands, and other red herrings.
 
-But Expect pretending to be me wasn't the point. I went to this scientist and told him all about it. I was going to run ten or more of these all the time, and I was giving the program to all of the other graduate students. I told him he could keep checking as much as he liked, but he would never know what was real and what was fake.
-
-If people are going use data against me, I'm going to make those data useless. This is "poisoning the well". In this case, I overtly did it.
-If your a manager or any sort of metric collector though, your well has probably already been poisoned.
+But Expect pretending to be me wasn't the point. I went to this scientist and told him all about it. I was going to run ten or more of these all the time, and I was giving the program to all of the other graduate students. I told him he could keep checking as much as he liked, but he would never know what was real and what was fake. If people are going use data against me, I'm going to make those data useless. This is "poisoning the well". In this case, I overtly did it. If your a manager or any sort of metric collector though, your well has probably already been poisoned.
 
 _2020 UPDATE_ Companies want to track our activity. Use the same trick. Automate your web browser to surf the web randomly. There's a plugin, [Track This](https://trackthis.link), that opens a hundred tabs of various things that you don't care about. Not only that, lots of business are trading money in referral clicks. The clicks are largely fake, but how do you know? It's basically click fraud all the way down, and everyone knows it. Yet, the money keeps changing hands.
 

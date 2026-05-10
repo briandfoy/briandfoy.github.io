@@ -28,7 +28,7 @@ starts a Tetris easter egg.
 `sort` in scalar context doesn't know what to do, but why would you
 want to do that anyway? One idea is to make it a no-op so it
 does nothing, which seems reasonable. But people have other ideas too.
-[GitHub ](https://github.com/perl/perl5/issues/12803), [Perl5 Porters](https://www.nntp.perl.org/group/perl.perl5.porters/2022/04/msg263458.html)
+[GitHub](https://github.com/perl/perl5/issues/12803), [Perl5 Porters](https://www.nntp.perl.org/group/perl.perl5.porters/2022/04/msg263458.html)
 
 # Old undefined behaviors
 

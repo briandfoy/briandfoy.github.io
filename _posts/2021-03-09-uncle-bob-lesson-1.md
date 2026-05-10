@@ -39,8 +39,7 @@ principles. That's "Uncle Bob".*
 1. They should be small
 2. They should be smaller than that
 
-* A small function is a bit of code from which you can't extract smaller
-functionality
+* A small function is a bit of code from which you can't extract smaller functionality
 * not large enough to hold nested structures (indent level <= 2 )
 * three arguments is a good number
 * if the arguments go together, maybe they belong to some object that groups them

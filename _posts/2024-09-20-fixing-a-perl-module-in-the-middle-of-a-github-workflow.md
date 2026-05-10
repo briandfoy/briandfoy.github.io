@@ -44,11 +44,7 @@ $answer = $answer ? $answer : $default;  # v5.8
 
 I'd much rather have the binary assignment (`//=`), but code that other people want to use isn't always (almost never) about what I want. As much as I hate to accept it, there are people doing things in old perls.  I try to support whatever perl version the tool started with. With new stuff, and no installed user-base, I try to support whatever the common system perl is (which is around v5.30 now I think).
 
-Some of these tools want to use LWP, which supports v5.8 in its own
-code. In general, I prefer
-[Mojolicious](https://www.mojolicious.org)), but the current
-Mojolicious supports only v5.16 and later. For anything before that,
-LWP it is.
+Some of these tools want to use LWP, which supports v5.8 in its own code. In general, I prefer [Mojolicious](https://www.mojolicious.org), but the current Mojolicious supports only v5.16 and later. For anything before that, LWP it is.
 
 ## Breaking the build
 
@@ -56,7 +52,7 @@ There are two types of people in the world: those who have broken the build, and
 
 I have a set of standard GitHub workflows ([briandfoy/github_workflows](https://github.com/briandfoy/github_workflows)) that work all the way back to Perl v5.8. These change frequently to respond to GitHub changes and are updated in each of my repos as I work on them. As such, I won't see some breaks until I work in a repo again.
 
-I have thought about weekly builds to merely test against current CPAN, but so far I haven't set that up; GitHub Actions won't run [a scheduled action after 60 days of no action](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) on a repo. I haven't wanted to administer that yet, but that would probably use the REST API to [enable the workflow](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) when it's disabled. That's a whole other thing.
+I have thought about weekly builds to merely test against the current CPAN, but so far, I haven't set that up; GitHub Actions won't run [a scheduled action after 60 days of no action](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) on a repo. I haven't wanted to administer that yet, but that would probably use the REST API to [enable the workflow](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) when it's disabled. That's a whole other thing.
 
 Installing LWP is going to install its dependencies too. That means that anything that LWP depends on needs to support the same minimum perl version, or, LWP needs to take on the minimum perl version of its dependencies. When there's a mismatch, such as a using v5.8 to install LWP, but then getting to HTML::Tagset, which declares it needs v5.10, the HTML::Tagset installation fails. When that fails, the LWP installation fails too. This breaks the workflow even though it doesn't break my code.
 
@@ -68,7 +64,7 @@ Those are the only two things that go wrong in this case. Without those, everyth
 
 ## Updating workflows
 
-As an aside, I have my own, bespoke tool to manage my Perl module repos. My [bmt](https://github.com/briandfoy/app-bmt), which is targeted at my own sort of development and is not for people who want to do everything different (which is everyone but me, I bet). I make the change in one place and easily get it when I update a new workflow. This just pulls from the latest files in [briandfoy/github_workflows](https://github.com/briandfoy/github_workflows):
+As an aside, I have my own bespoke tool to manage my Perl module repos. My [bmt](https://github.com/briandfoy/app-bmt), which is targeted at my own sort of development and is not for people who want to do everything different (which is everyone but me, I bet). I make the change in one place and easily get it when I update a new workflow. This just pulls from the latest files in [briandfoy/github_workflows](https://github.com/briandfoy/github_workflows):
 
 {% highlight plain %}
 % bmt update_workflows
@@ -90,13 +86,17 @@ I have more to write on this matter, but it's time to give you the answer if you
 
 However, there's something I have to take into account.
 
-One of Perl's biggest hidden, current challenges if that much of its third-party code is virtually unmaintained. There are approved pull requests in foundational modules that go nowhere (e.g. [Perl-Toolchain-Gang/CPAN-Meta#139)](https://github.com/Perl-Toolchain-Gang/CPAN-Meta/pull/139), or my patches to my own code in [CPAN.pm](https://github.com/andk/cpanpm/pulls/briandfoy) where I do not have repo permissions), there are fixes to user-reported issues, but no action. These contributions aren't even acknowledged by the maintainers.
+One of Perl's biggest hidden, current challenges if that much of its third-party code is virtually unmaintained. There are approved pull requests in foundational modules that go nowhere (e.g. [Perl-Toolchain-Gang/CPAN-Meta#139](https://github.com/Perl-Toolchain-Gang/CPAN-Meta/pull/139)), or my patches to my own code in [CPAN.pm](https://github.com/andk/cpanpm/pulls/briandfoy) where I do not have repo permissions), there are fixes to user-reported issues, but no action. These contributions aren't even acknowledged by the maintainers.
 
 This situation should inform and moderate changes to deep dependencies. We shouldn't make changes if we are going to be the unresponsive author, and we shouldn't be the caretaker of something that we are going to ignore. Or, at least, give other people the power to fix things. This is different than the power to develop new features, which should be more judicious and slower.
 
 Part of this is that people do not have good processes, just like almost everyone is before they get a good process. It's easy to forgot about things, or not even realize there's something for you to do. Until I stopped using email as my To Do list, I had the same problem. Sometimes I wouldn't even know there was an issue because I never saw the email.
 
-Now I have a link I look at everyday (and have yet to turn into an RSS feed). In GitHub issues, I can construct a search of all of the issues in all of my repos. It looks like this: *https://github.com/issues?q=is%3Aopen+-author%3Abriandfoy+user%3Abriandfoy+-label%3Astalled+-label%3A%22Status%3A+stalled%22+-label%3A%22help+wanted%22+-label%3A%22Status%3A+needs+help%22*
+Now I have a link I look at everyday (and have yet to turn into an RSS feed). In GitHub issues, I can construct a search of all of the issues in all of my repos. It looks like this:
+
+{% highlight plain %}
+https://github.com/issues?q=is%3Aopen+-author%3Abriandfoy+user%3Abriandfoy+-label%3Astalled+-label%3A%22Status%3A+stalled%22+-label%3A%22help+wanted%22+-label%3A%22Status%3A+needs+help%22
+{% endhighlight %}
 
 This breaks down to:
 

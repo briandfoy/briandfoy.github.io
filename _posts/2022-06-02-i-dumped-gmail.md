@@ -40,7 +40,7 @@ For what it's worth, I met a Google Plus Circles developer at a launch party for
 
 Now Google+ no longer exists; it was abandoned the same year they abandoned Inbox.
 
-# Google makes me feel slimey
+# Google makes me feel slimy
 
 My reasons are a bit different from other people who have written about leaving GMail. I had become increasingly uncomfortable dealing with the company that removed "don't be evil" from their ethics. They instead used "Do the right thing", but that's not the same thing. The techie idea of "right" is generally naïve and tyrannical. It's the Lazlo Hollyfield Problem—all science, no philosophy.
 
@@ -70,7 +70,7 @@ It's increasingly harder to navigate Maps's crowded interface of businesses. Eve
 
 # I had already cut off most of Google
 
-I had slowly cutting off Google by disallowing my computers to talk to their computers. There are 150+ entries in my */etc/hosts* file:
+I had slowly cut off Google by disallowing my computers from talking to their computers. There are 150+ entries in my */etc/hosts* file:
 
 {% highlight plain %}
 0.0.0.0		googleads.g.doubleclick.net
@@ -86,4 +86,5 @@ This breaks some of the internet for me, but that's just the price I pay. But I'
 # Other articles
 
 * [Goodbye Gmail](https://medium.com/@sbudaev/goodbye-gmail-7849f8c23baa) from Sergey Budaev
+
 * [Scrap your reliance on the useless Gmail service! Stop using gmail.](https://www.reddit.com/r/GMail/comments/e9qdlw/scrap_your_reliance_on_the_useless_gmail_service/)
