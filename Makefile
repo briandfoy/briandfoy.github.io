@@ -107,9 +107,11 @@ tags:
 # Testing things
 .PHONY: lint
 lint: ## check the markdown
+	@ mkdir -p stripped_md/_posts
 	@ for file in _posts/*.md; do \
 		echo "====" $$file "===="; \
-		$(STRIP_MD) "$$file" | $(MDL); \
+		$(STRIP_MD) "$$file" > "stripped_md/$$file"; \
+		$(MDL) "stripped_md/$$file"; \
 	done
 
 .PHONY: spell
