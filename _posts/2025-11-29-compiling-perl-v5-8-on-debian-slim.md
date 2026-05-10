@@ -28,7 +28,7 @@ cpanm --notest parent
 
 Then I got weird errors trying to install [IO::Socket::SSL](https://metacpan/pod/IO::Socket::SSL). This one was really weird. The docker build died with a suspicious error:
 
-{% highlight "text" %}
+{% highlight text %}
 #9 42.94 DIED. FAILED tests 1-15
 #9 42.94    Failed 15/15 tests, 0.00% okay
 #9 42.94 t/alpn............................FAILED tests 1-5
