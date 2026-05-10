@@ -6,7 +6,7 @@ while( <<>> ) {
 	next if /\A\{%\s+highlight/ .. /\A\{%\s+endhighlight/;
 	next if /\A\s+\S/; # indented code lines
 	s/!\[.*?\]\(.+?\)//; # images
-	s/\[.*?\]\(.+?\)//;  # links
+#	s/\[.*?\]\(.+?\)//;  # links
 	s/\h+$//;
 	print;
 	}
