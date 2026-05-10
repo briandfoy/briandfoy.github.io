@@ -22,7 +22,7 @@ Here's a small program to add up a list of numbers. It uses the numeric addition
 use warnings;
 use List::Util qw(reduce);
 printf "Sum is %d\n", reduce { $a + $b } @ARGV;
-{% end highlight %}
+{% endhighlight %}
 
 Here are a few runs. The first uses all decimal numbers for its arguments and issues no warnings. The second sneaks in the argument `m`. Now the numeric addition operation thinks it doesn't have a number and warns. The third run uses the same arguments as the second, but disables all warnings with `-X`. Here are some runs with the system perl on macOS:
 
@@ -62,7 +62,7 @@ But there's now a problem. Perl v5.36 enables warnings for me if I declare the m
 use v5.36;
 use List::Util qw(reduce);
 printf "Sum is %d\n", reduce { $a + $b } @ARGV;
-{% end highlight %}
+{% endhighlight %}
 
 But now I can't turn off warnings with `-X`. This is a bug ([GitHub #21427](https://github.com/Perl/perl5/issues/21427)) that's fixed for v5.40.0 (but not v5.36.3 or v5.38.2):
 
