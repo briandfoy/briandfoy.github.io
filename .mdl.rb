@@ -6,5 +6,6 @@ exclude_rule 'MD033' # no inline HTML
 exclude_rule 'MD036' # emphasis used instead of a header
 exclude_rule 'MD041' # first line should be a top level header
 exclude_rule 'MD046' # code block style
+rule 'MD024', siblings_only: true
 rule 'MD026', :punctuation => ".,;:"
 rule 'MD029', :style => :ordered
