@@ -3,7 +3,7 @@ layout: post
 title: Simple mail processing
 categories: system-administration
 tags: leanpub mail
-stopwords: IMAPing procmail IMAP linux sunsetted mbox
+stopwords: IMAPing procmail IMAP linux sunsetted mbox leanpub
 last_modified:
 original_url:
 ---

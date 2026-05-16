@@ -3,7 +3,7 @@ layout: post
 title: Let's talk about beavers, but we can't ever look at one
 categories: science
 tags: beavers
-stopwords: fait accompli Loehle
+stopwords: fait accompli Loehle canadensis
 last_modified:
 original_url:
 ---

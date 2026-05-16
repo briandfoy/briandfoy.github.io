@@ -3,7 +3,7 @@ layout: post
 title: The AV2000 passthrough powerline extender
 categories: nyc-mesh
 tags: tplink
-stopwords: ungeeky
+stopwords: ungeeky Cloudflare's NetGear Orbi TP
 last_modified:
 ---
 

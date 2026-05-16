@@ -1,9 +1,9 @@
 ---
 layout: post
 title: tmux cheatsheet
-categories:
-tags:
-stopwords:
+categories: computers
+tags: shell tmux
+stopwords: Scheller's
 last_modified:
 original_url:
 ---

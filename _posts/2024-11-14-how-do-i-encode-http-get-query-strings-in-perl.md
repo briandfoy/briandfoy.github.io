@@ -8,7 +8,7 @@ last_modified:
 original_url: https://stackoverflow.com/a/79850071/2766176
 ---
 
-*I wrote this answer for a [Stackoverflow question](https://stackoverflow.com/q/449158/2766176), but didn't publish it for ages.*
+*I wrote this answer for a [StackOverflow question](https://stackoverflow.com/q/449158/2766176), but didn't publish it for ages.*
 
 At the time of this question (January 2009), [Mojolicious](https://metacpan.org/pod/Mojolicious) was about a year away, I think, so [LWP::UserAgent](https://metacpan.org/pod/LWP::UserAgent) seemed like a reasonable choice. CPAN had yet to present anything better. So, the answers here are correct then, and correct now in that they do the right thing, but today, you shouldn't have to think about this.
 

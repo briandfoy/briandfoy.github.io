@@ -3,7 +3,7 @@ layout: post
 title: brian's guide to answering questions
 categories: programming rescued-content opinion
 tags:  guide
-stopwords: dba oscon answerer asker brian's clueful reclarifying cluelack
+stopwords: dba oscon answerer asker brian's clueful reclarifying cluelack Flavell XYZ
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=602571
 ---

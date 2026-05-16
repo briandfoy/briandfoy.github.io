@@ -3,7 +3,7 @@ layout: post
 title: Format command output instead of parsing it
 categories: perl programming command-line
 tags: git nmcli 10x
-stopwords:
+stopwords: nmcli
 last_modified:
 original_url:
 ---

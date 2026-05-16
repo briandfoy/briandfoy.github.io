@@ -3,7 +3,7 @@ layout: post
 title: Visual Studio is going crazy
 categories: programming macos
 tags: visual-studio mac
-stopwords: Gb FAANG
+stopwords: Gb FAANG Consumpt ide Vscode workspaceContains
 last_modified:
 original_url:
 ---

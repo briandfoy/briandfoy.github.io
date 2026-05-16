@@ -3,7 +3,7 @@ layout: post
 title: Quake's Fast Inverse Square Algorithm
 categories: programming
 tags: math floating-point
-stopwords: WTF threehalfs
+stopwords: WTF threehalfs Carmack's InvSqrt
 last_modified:
 original_url:
 usemathjax: true

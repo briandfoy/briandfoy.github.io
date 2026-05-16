@@ -3,7 +3,7 @@ layout: post
 title: "Review of Style: An Anti-Textbook"
 categories: book-review writing rescued-content
 tags:
-stopwords: proto
+stopwords: proto th
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R29TRLFSJ2ORQE
 ---

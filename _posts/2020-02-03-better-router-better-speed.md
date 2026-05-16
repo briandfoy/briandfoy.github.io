@@ -3,7 +3,7 @@ layout: post
 title: Better router, better speed
 categories: nyc-mesh
 tags:
-stopwords: tp
+stopwords: tp Asus ROG
 last_modified:
 ---
 

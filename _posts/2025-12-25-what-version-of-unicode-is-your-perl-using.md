@@ -3,7 +3,7 @@ layout: post
 title: What version of Unicode is your Perl using?
 categories: perl programming
 tags: unicode ruby python
-stopwords: rbconfig RbConfig unidata
+stopwords: rbconfig RbConfig unidata UnicodeVersion
 last_modified:
 original_url:
 ---

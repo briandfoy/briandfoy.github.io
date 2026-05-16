@@ -3,7 +3,7 @@ layout: post
 title: The median doesn't tell you anything
 categories: numeracy
 tags: new-york-city
-stopwords: Midler Midler's Zilber th
+stopwords: Midler Midler's Zilber th Zumper's
 last_modified:
 original_url:
 ---

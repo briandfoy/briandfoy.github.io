@@ -3,7 +3,7 @@ layout: post
 title: Claire's Sourdough
 categories: cooking
 tags: sourdough bon-appetit
-stopwords: boule doughs pillowy
+stopwords: boule doughs pillowy Appetit
 last_modified:
 original_url:
 ---

@@ -8,7 +8,7 @@ last_modified:
 original_url: https://stackoverflow.com/a/177643/2766176
 ---
 
-*(this originally appeared as [an answer](https://stackoverflow.com/a/177643/2766176) on Stackoverflow)*
+*(this originally appeared as [an answer](https://stackoverflow.com/a/177643/2766176) on StackOverflow)*
 
 <!--more-->
 
