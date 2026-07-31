@@ -24,7 +24,7 @@ I was comparing Perl's and Python's different design fundamentals, and strayed i
 
 > Compare your favorite HTTP library among languages, then look at the design of Mojolicious. You probably wouldn't guess that a web framework would have one-liners for anything other than toys, but Mojo does. I have some as shell aliases even. I spent a lot of time trying any HTTP library I could find as I was writing [Mojo Web Clients](https://leanpub.com/mojo_web_clients/), so I've felt this pain—trying [logging requests in Python's `requests`](https://stackoverflow.com/q/10588644/2766176).
 
-The presentation classified languages superficially without much consideration for their context (although the New Jersey-MIT dichomoty was there):
+The presentation classified languages superficially without much consideration for their context (although the New Jersey-MIT dichotomy was there):
 
 > The small-tools value is difficult to enjoy when your entire world is services exchanging JSON instead of unix files and pipelines—especially when you aren't the one creating any of the services. These aren't magical beans in distant lands. Someone did a lot of work for you. Some of those people even invented new languages to do that work.
 
