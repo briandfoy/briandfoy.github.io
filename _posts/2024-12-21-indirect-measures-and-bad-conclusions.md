@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Indirect measures and bad conclusions
-categories:
+categories: science
 tags:
 stopwords: chrestomathy Lavigne millijoules referrerpolicy perved Tessier UTF si
 last_modified:
@@ -31,7 +31,7 @@ That a C toy program runs faster than the same toy program written in some other
 
 For example, if the C program took one year to develop, but runs only slightly faster, how do we account for all of the power and resources in that year?
 
-There's no point in thinking about any of this if we are not going to change our behavior. The world, for the most part, isn't choosing C or C++ despite the fact that everyone knows that those programs can be very fast. The world affirmatively accepted alternatives because it was easier to get things done even if the power trade-offs are worse. The program that works today is better than the one which doesn't work yet, and higher level languages handle that much better.
+There's no point in thinking about any of this if we are not going to change our behavior. The world, for the most part, isn't choosing C or C++ despite the fact that everyone knows that those programs can be very fast. The world affirmatively accepted alternatives because it was easier to get things done even if the power trade-offs are worse. The program that works today is better than the one which doesn't work yet, and higher-level languages handle that much better.
 
 What kind of programs are likely to be better in the "low-energy" languages? Most of the Rosetta code programs are simple math problems. Even the [FASTA program](https://github.com/greensoftwarelab/Energy-Languages/blob/master/Perl/fasta/fasta.perl) is not really anything about FASTA but just stitching together fixed strings in random arrangements based on some simple math. Not only that, the Perl version is actually a program that creates a Perl program it then `eval`s, which Perl programmers typically do not do.
 
@@ -47,25 +47,29 @@ Toy programs in "isolation" are easy to measure. Toy programs that already exist
 
 People don't study interesting questions. They torture questions out of what they can study.
 
-Read some psychology studies. Are you surprised that the sample size is 73 people? Are you surprised that they were all college students? Are you surprised they were paid to take part in the experiment?
+Read some psychology studies. Suppose a fictional, but representative study: Are you surprised that the sample size is 73 people? Are you surprised that they were all college students? Are you surprised they were paid to take part in the experiment? Do you know they are WEIRD (Western, Educated, Industrialized, Rich, and Democratic)?
 
-The study used 73 paid students because the research is at a school and those are the sorts of people who would show up to get $15. Actually, 80 students took part, but they removed seven outliers that adversely affected the *p* value. This is *selection bias*
+This fictional study used 73 paid students because the research is at a school and those are the sorts of people who would show up to get $15. Actually, 80 students took part, but they removed seven outliers that adversely affected the *p* value (*selection bias*), perhaps because the principal investigator is on the bubble with his department and needs more citations to get tenure, needs a new book deal, or is applying for a grant?
 
-That study might then predict what poor college students from that school might do, but that's about it. And, it has to be students poor enough that they'll show up for $15 (or a gift card) instead of doing what people that age would normally do. Almost none of these sorts of studies are reproducible, even at other colleges, because most people aren't poor college students who need $15 more than they value doing anything else.
+This study might then predict what poor college students from that school might do, but that's about it. And, it has to be students poor enough that they'll show up for $15 (or a gift card) instead of doing what people that age would normally do. Almost none of these sorts of studies are reproducible, even at other colleges, because most people aren't poor college students who need $15 more than they value doing anything else.
 
-Finally, why college students? The researchers didn't have to go far to find them or work that hard to include them. In short, this sample is convenient.
+Finally, why college students? Because the researchers didn't have to go far to find them or work that hard to include them. In short, this sample is convenient.
 
-For what it's worth, I had friends in the psychology department in my undergraduate school and took part in some experiments to help them out, because why not? But, I was also extremely poor in school.
+For what it's worth, I had friends in the Psychology department in my undergraduate school and took part in some experiments to help them out, because why not? But, I was also extremely poor in school.
 
 If you really want to dive into this, read about the fake results of the Stanford Prison Experiment. Some sources hold this up as an amazing result, but did anyone outside of a university not know that prison guards can be mean or abusive? Is anyone going to take that result and change anything?
 
-Did you know they had to cancel the experiment? Not many people talk about that. Did you know that the [principal researcher Philip Zimbardo faked the results to get the outcome he wanted](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication), and he had a history of doing this? The guards were instructed to be mean, and the prisoners played the roles of prisoners (literally doing improv theater), because people in psychology experiments act like they think you want them to act. Don't let lazy writers such as Malcolm Gladwell make you think otherwise.
+Did you know they had to cancel the experiment? Not many people talk about that. Did you know that the [principal researcher Philip Zimbardo faked the results to get the outcome he pre-ordained](https://www.vox.com/2018/6/13/17449118/stanford-prison-experiment-fraud-psychology-replication), and he had a history of doing this? The guards were instructed to be mean, and the prisoners played the roles of prisoners (literally doing improv theater), because people in psychology experiments act like they think you want them to act. Don't let lazy writers such as Malcolm Gladwell make you think otherwise.
 
 <div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/qg5V-A3-qco?si=MoCAULYg1l-ZluFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Don't let this Bill Murray scene fool you. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Stanford did nothing and let Zimbardo keep his job without oversight or sanction. Let's also not forget this si the same school where Marc Tessier-Lavigne resigned as president after accounts of his research misconduct, including fake data and image manipulation, were widely reported?
+Don't let this Bill Murray scene fool you as mere comedy. Zimbardo perved on his graduate student and ended up marrying her. Also, consider that after the prison experiment had to shut down over ethical violations, Stanford did nothing and let Zimbardo keep his job without oversight or sanction.
 
 So yeah, that's what you are dealing with here. People measure things that no one cares about and hardly anyone will ever read because the money source doesn't care because there is almost no chance for downstream profit (or bankruptcy).
+
+And, let's not forget that Stanford also tolerated the fraud of president Marc Tessier-Lavigne until a freshman journalism student published a story. That is, a non-scientist, 17-year-old first-year student figured it out when none of the scientific community did. Well, that's not really fair. Everyone apparently knew, but people are going to people. Does anyone who wants to have a career going to put their boots on to fight the president of the university?
+
+And to be more fair, Stanford decided that it's rock-star president scientist had done nothing wrong and it was his team that threw him under the bus. Okay, sure, Stanford. Even if that's true, that's not how it should work. If it's your name on the paper, you are responsible no matter who did what.
 
 ## How are you measuring?
 
@@ -105,7 +109,9 @@ A program to download a large JSON file and parse it into a usable data structur
 
 Likewise, if they want to measure numbers, let the programs use the same algorithm to find the first 100,000 prime numbers. Do something that takes a lot of time.
 
-But even then, it's not the language that matters as much as the efficiency of the library. Any particular language will have competing libraries for the same task, and one of them is going to be more efficient.
+But even then, it's not the language that matters as much as the efficiency of the library. Any particular language will have competing libraries for the same task, and one of them is going to be more efficient. The compiler used to translate the program into a bit pattern is going to matter. The particular CPUs are going to matter.
+
+Lastly, which set of compilers globally are going to have the most savings? This language, compiled with this set of tools, on this hardware has these power requirements. But what about a different set of tools, a different processor? What about the set of all permutations of that? If you test only with a toolset or a hardware setup that almost no one uses, do your results mean anything?
 
 I don't particularly care what the programs should do as long as those programs perform some task that real world programmers have to complete.
 
