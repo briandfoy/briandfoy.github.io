@@ -19,6 +19,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * November 2023 - Rosie Waterhouse publishes [Satanic Panic: A Modern Myth](https://amzn.to/3Ck3sli)
 * **November 2023** - *Do Go On* [The Satanic Panic (#422)](https://shows.acast.com/do-go-on/episodes/422-the-satanic-panic)
 * October 2023 - Jack Legg publishes [Digging up Devils: The Search for a Satanic Murder Cult in Rural Ohio](https://amzn.to/3Ci3Vo5)
+* June 8, 2023 - *TVO Docs* - [The Satanic Panic was Built on Lies | Satan Wants You | On Docs Podcast](https://www.youtube.com/watch?v=LgfV2zcPjcc)
+* April 27, 2023 - *[Satan Wants You](https://gem.cbc.ca/satan-wants-you?cmp=DM_CM_Gemcard_Satan)*, a documentary by Steve J. Adams & Sean Horlor focussing on *Michelle Remembers*
 * April 2023 - Melvin Quinney, falsely accused and convicted in 1991, is exonerated, [After 30 years, a father is exonerated in 'satanic panic' case](https://www.tpr.org/criminal-justice/2023-04-11/after-30-years-a-father-is-exonerated-in-satanic-panic-case)
 * **January 2023** - [Satanic Panic Pt. 3; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - The case of Anna Vasquez, one of the San Antonio Four
 * **November 2022** - [Satanic Panic Pt. 2; South Texas Crime Stories](https://www.audible.com/pd/Satanic-Panic-Pt-2-South-Texas-Crime-Stories-Podcast/B0BKGN8ZMR?ref=a_pd_South-_c0_lAsin_0_7&pf_rd_p=1da7ab30-c785-4a0e-a160-4a7e7077b353&pf_rd_r=0DFT3QEQEFCN5R8F5ZG8&pageLoadId=j7FtGhZCJCq0HKTU&creativeId=79e1dbf9-3e12-44b1-87b8-52bfb30eff7b) - Melvin Quinney's story continues
@@ -58,15 +60,19 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * June 2015 - Robert Lamb - ["How Satanic Panic Worked"](https://history.howstuffworks.com/historical-events/satanic-panic.htm)
 * **April 2015** - Robert Lamb and Joe McCormick - ["Stuff To Blow Your Mind" podcast, "Satanic Panic"](https://www.iheart.com/podcast/stuff-to-blow-your-mind-21123915/episode/satanic-panic-30231888/)
 * April 2015 - Texas court declines to recommend that the San Antonio Four be found innocent
+* February 16, 2015 - *The Last Podcast on the Left* - Episode 120: "The Satanic Government Part III: The Franklin Cover-Up Part II?"
+* February 16, 2015 - *The Last Podcast on the Left* - Episode 119: "The Satanic Government Part II: The Franklin Cover-Up Part I"
+* February 16, 2015 - *The Last Podcast on the Left* - Episode 118: "Satanism in the Government Part I: Hellfire"
 * January 2015 - Cheryl Eddy (Gizmodo) - [A Brief History of the "Satanic Panic" in the 1980s](https://gizmodo.com/a-brief-history-of-satanic-panic-in-the-1980s-1679476373)
 * 2015 - Richard Beck publishes [We Believe the Children: A Moral Panic in the 1980s](https://amzn.to/3Ckva1c)
 * May 2014 - [When Satan Was Spotted at Head Start](https://reason.com/2014/05/13/when-satan-was-spotted-at-head-start/)
 * April 2014 - *The Witch-Hunt Narrative: Politics, Psychology, and the Sexual Abuse of Children* by Ross E. Cheit
 * January 2014 - Maurice Chammah (Texas Observer) - [The Mystery of the San Antonio Four](https://www.texasobserver.org/mystery-san-antonio-four/)
 * January 2014 - Linda Rodriguez McRobbie - [The Real Victims of Satanic Ritual Abuse](https://slate.com/technology/2014/01/fran-and-dan-keller-freed-two-of-the-last-victims-of-satanic-ritual-abuse-panic.html)
+* December 3, 2013 - David Shurter, *Rabbit Hole: A Satanic Ritual Abuse Survivor's Story*
 * December 2013 - Richard Noll - [When Psychiatry Battled the Devil](https://www.garygreenbergonline.com/w/wp-content/uploads/2013/12/Psychiatric_Times_-_When_Psychiatry_Battled_the_Devil_-_2013-12-06.pdf)
 * 2013 - *PAUL: The Secret Story of Olympia's Satanic Sheriff* ([Vimeo](https://vimeo.com/48557671) - Thurston County case
-* 2010 - San Antonio Four accuser recant testimony, Innocence Project takes up case
+* 2010 - San Antonio Four accuser recants testimony, Innocence Project takes up case
 * March 2009 - Jordan Smith - ["Believing the Children", Austin Chronicle](https://www.austinchronicle.com/news/2009-03-27/believing-the-children/) - Keller case
 * December 2007 - [first edit in Wikipedia](https://rationalwiki.org/w/index.php?title=Satanic_Panic&oldid=94988)
 * October 25, 2005 - *Paradise Lost - The Child Murders at Robin Hood Hills* (movie) (West Memphis Three)
@@ -139,9 +145,10 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1982 - Kern County case (36 convictions, 34 overturned) - prosecution and support used *Michelle Remembers* as training
 * 1980 - DSM III includes "dissociative disorders"
 * 1980 - Lawrence Pazder, Michelle Smith *Michelle Remembers* - first book on Satanic Ritualized Abuse (Pazder later marries his patient, Michelle) based on West African secret societies. Padzer works as a consultant on the McMartin PreSchool case.
-* 1978 - Jonestown mass suicide
+* 1979 - *Jay's Journal* "edited" by Beatrice Sparks, another teenage diary hoax.
 * 1979 - Private investigator William Dear attributes James Dallas Egbert III's disappearance at Michigan State University to *Dungeons & Dragons* ("The Steam Tunnel Incident")
 * 1979 - *Advanced Dungeons & Dragons*, First Edition
+* 1978 - Jonestown mass suicide
 * 1977 - Son of Sam murders
 * 1974 - The first edition of *Dungeons & Dragons*
 * December 1973 - *Exorcist*, the movie
@@ -149,6 +156,7 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 * 1972 - LaVey publishes *Satanic Rituals*
 * 1972 - Hal Lindsey - *Satan Is Alive and Well On Planet Earth*
 * 1972 - Mike Warnke - *The Satan Seller* - hoax
+* 1971 - Beatrice Sparks's *Go Ask Alice*, the fake diary of a teenage girl swept up in satanism
 * June 1971 - William Peter Blatty, *Exorcist*, the book
 * 1971 - Gary Gygax and Jeff Perren create *Chainmail*, a proto *Dungeons & Dragons*
 * 1969 - Manson murders
