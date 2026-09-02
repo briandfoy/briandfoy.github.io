@@ -43,10 +43,9 @@ investment in Lightning Cables considering that the EU is moving towards
 a charging standard.
 
 
-The Surface Pro 8 is [15 volts at 4 amps](https://support.microsoft.com/en-us/surface/surface-power-supplies-and-charging-requirements-0d9d51d4-594b-464d-9086-c90f35b80c01
-), for 60 watts. My charger for
+The Surface Pro 8 is [15 volts at 4 amps](https://support.microsoft.com/en-us/surface/surface-power-supplies-and-charging-requirements-0d9d51d4-594b-464d-9086-c90f35b80c01), for 60 watts. My charger for
 my MacBook Pro works just fine, and in a pinch I can slowly charge
-with a 5 watt connection. I already have that setup in the places I
+with a 5-Watt connection. I already have that setup in the places I
 tend to work.
 
 And, if it were charged only by USB-C, I wouldn't have such a hard time
