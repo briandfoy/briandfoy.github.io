@@ -29,7 +29,7 @@ I didn't particularly like this, and I didn't particularly like him. He didn't u
 
 At the time I was neck deep in TCL because I was doing a lot of Tk work to create interfaces to custom hardware and so on. This is pre-web stuff and Tk was advanced, magic technology. A few lines of code turned into a graphical interface with clicky pointy buttons.
 
-TCL had this amazingly library called [Expect](http://tcl.tk/man/expect5.31/expect.1.html). It allows you to programmatically interact with systems that think a person is on the other side. Here's a short program that logs in to some system and gets its output. It matches what it sees and sends input based on that. In this case, if it sees `$␣` (my prompt) in the output, it sends back some input. This little program waits five seconds, runs `who`, and then does it again. Forever. As long as I let this run, that login is never idle:
+TCL had this amazing library called [Expect](http://tcl.tk/man/expect5.31/expect.1.html). It allows you to programmatically interact with systems that think a person is on the other side. Here's a short program that logs in to some system and gets its output. It matches what it sees and sends input based on that. In this case, if it sees `$␣` (my prompt) in the output, it sends back some input. This little program waits five seconds, runs `who`, and then does it again. Forever. As long as I let this run, that login is never idle:
 
 {% highlight tcl %}
 #!/usr/bin/expect
