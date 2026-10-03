@@ -67,7 +67,7 @@ date = fix_up_date( input( "date? ", now ) )
 
 original = input( "Original URL? ", '' )
 
-base_path = Pathname.new( "_drafts" )
+base_path = Pathname.new( "_articles" )
 filename = "%s-%s.md" % [
 	date,
 	slugify(title)
