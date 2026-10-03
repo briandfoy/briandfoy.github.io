@@ -49,6 +49,7 @@ template = ERB.new( <<~HERE )
 	stopwords:
 	last_modified:
 	original_url: <%= original %>
+	status: draft
 	---
 
 	<!--more-->
