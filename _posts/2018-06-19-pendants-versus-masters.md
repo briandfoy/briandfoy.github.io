@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Pendants versus Masters
 categories: teaching
 tags: pólya mathematics

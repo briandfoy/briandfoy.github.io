@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: QR-encoded Access Points
 categories: system-administration
 tags: qr-code wifi ruby ubuntu

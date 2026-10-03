@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Don't finish too soon
 categories: graduate-school programming
 tags: perl tru64

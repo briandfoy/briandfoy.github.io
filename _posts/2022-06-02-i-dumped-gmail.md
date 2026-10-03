@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: I dumped GMail
 categories: technology
 tags: gmail google-plus

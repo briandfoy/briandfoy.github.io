@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Sunsetting Perl's vars pragma
 categories: perl
 tags:

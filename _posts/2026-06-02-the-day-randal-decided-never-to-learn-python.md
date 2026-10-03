@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The Day [Randal] Decided Never to Learn Python
 categories: programming
 tags: python perl randal-schwartz

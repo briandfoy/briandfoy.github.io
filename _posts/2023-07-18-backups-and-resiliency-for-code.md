@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Backups and resiliency for open source code
 categories:
 tags:

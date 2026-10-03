@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Floating points
 categories:
 tags:

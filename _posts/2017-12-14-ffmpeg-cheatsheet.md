@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: ffmpeg cheatsheet
 categories: cheatsheet
 tags: ffmpeg

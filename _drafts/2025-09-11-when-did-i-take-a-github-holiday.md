@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: When did I take a GitHub holiday?
 categories: programming
 tags: github

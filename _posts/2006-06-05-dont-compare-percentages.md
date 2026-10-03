@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 categories: numeracy rescued-content
 title: Don't compare percentages
 tags:  percentages

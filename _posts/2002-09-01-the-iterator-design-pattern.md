@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The Iterator Design Pattern
 categories: perl programming  rescued-content  design-patterns
 tags: the-perl-review

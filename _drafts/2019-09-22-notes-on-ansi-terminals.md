@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Notes on ANSI terminals
 categories:
 tags:

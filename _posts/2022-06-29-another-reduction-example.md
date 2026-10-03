@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Another reduction example
 categories: programming perl
 tags:

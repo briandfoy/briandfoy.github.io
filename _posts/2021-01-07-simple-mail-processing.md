@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Simple mail processing
 categories: system-administration
 tags: leanpub mail

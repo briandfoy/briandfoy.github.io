@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: macOS's System Integrity Protection sanitizes your environment
 categories: programming macos
 tags:

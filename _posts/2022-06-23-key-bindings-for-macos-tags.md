@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Key bindings for macOS tags
 categories: macos
 tags:

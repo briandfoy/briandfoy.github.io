@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Reminding myself about new tools
 categories: programming command-line
 tags: ncdu

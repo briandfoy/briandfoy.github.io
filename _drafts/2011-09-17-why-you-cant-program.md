@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Why novice programmers can't program
 tags: rescued-content programmers draft
 draft: true

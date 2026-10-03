@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Physics things
 categories: physics
 tags: physics

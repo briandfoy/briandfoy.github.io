@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Data::Dumper's surprising side effect with Useqq
 categories: perl
 tags: data-dumper

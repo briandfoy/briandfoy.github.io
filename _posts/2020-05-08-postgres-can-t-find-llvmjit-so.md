@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Postgres can't find llvmjit.so
 categories: system-administration databases
 tags: postgres

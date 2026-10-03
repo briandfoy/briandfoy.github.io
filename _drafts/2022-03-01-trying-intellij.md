@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Trying IntelliJ
 categories: programming
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: What do you really get from IDE-driven development?
 categories: programming technology
 tags: github-copilot ide java

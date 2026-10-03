@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Claire's Sourdough
 categories: cooking
 tags: sourdough bon-appetit

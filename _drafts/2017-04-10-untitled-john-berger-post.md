@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Untitled John Berger Post
 categories:
 tags:

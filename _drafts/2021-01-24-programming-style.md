@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Programming Style
 categories: programming
 tags:

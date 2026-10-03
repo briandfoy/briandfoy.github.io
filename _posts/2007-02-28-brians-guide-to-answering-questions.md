@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: brian's guide to answering questions
 categories: programming rescued-content opinion
 tags:  guide

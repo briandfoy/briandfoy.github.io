@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Adding Apple mobile icons
 categories: macos web-administration
 tags: apple iOS

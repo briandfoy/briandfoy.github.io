@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Skip the first line by using the flip-flop operator
 categories: perl programming
 tags: flip-flop perlfaq

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Levels of a programmer
 categories:
 tags:

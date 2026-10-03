@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Dealing with the information firehose
 categories: consumer-software productivity opinion
 tags: netnewswire reminders apple safari vienna-rss

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: What is Legacy Code?
 categories: programming opinion
 tags: legacy

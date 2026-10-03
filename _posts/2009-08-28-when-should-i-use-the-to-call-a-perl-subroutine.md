@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: When should I use the & to call a Perl subroutine?
 categories: perl programming
 tags: subroutines

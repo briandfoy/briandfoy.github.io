@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: My Smartphone is Stupid
 categories: technology
 tags: iphone

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Fixing a Perl module in the middle of a GitHub workflow
 categories:
 tags:

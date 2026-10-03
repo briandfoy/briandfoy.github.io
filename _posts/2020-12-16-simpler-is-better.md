@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Simpler is Better
 categories: technology
 tags: thermometers

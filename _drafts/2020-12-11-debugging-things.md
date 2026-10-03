@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Debugging things
 categories: programming
 tags: debugging

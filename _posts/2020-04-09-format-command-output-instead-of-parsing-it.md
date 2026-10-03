@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Format command output instead of parsing it
 categories: perl programming command-line
 tags: git nmcli 10x

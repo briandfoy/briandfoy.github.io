@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Force feeding Unicode to LaTeX's listing package
 categories: unicode
 tags: latex tex donald-knuth

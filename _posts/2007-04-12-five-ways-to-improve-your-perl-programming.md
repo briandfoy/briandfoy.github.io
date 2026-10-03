@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Five Ways to Improve Your Perl Programming
 categories: rescued-content
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Rule of Three Cases
 categories:
 tags:

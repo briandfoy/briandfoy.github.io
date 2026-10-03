@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: How far is the cloud?
 categories: numeracy
 tags: star-trek cloud spheres

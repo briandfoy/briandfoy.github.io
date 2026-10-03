@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Uncle Bob, Lesson 1
 categories: programming object-orientation
 tags: uncle-bob

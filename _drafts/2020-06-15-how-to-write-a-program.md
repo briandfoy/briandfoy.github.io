@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: How to write a program
 categories:
 tags:

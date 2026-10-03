@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Perl, people, society, & mobs
 categories: perl opinion rescued-content
 tags:

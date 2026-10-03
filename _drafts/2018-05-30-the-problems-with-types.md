@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: The problems with types
 categories: programming
 tags: types

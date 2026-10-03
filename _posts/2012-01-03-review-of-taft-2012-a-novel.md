@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: "Review of Taft 2012: A Novel"
 categories: book-review rescued-content
 tags: taft fiction

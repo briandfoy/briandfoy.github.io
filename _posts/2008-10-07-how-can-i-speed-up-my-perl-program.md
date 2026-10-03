@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: How can I speed up my Perl program?
 categories: perl programming
 tags:

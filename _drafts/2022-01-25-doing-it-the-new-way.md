@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Doing it the new way
 categories:
 tags:

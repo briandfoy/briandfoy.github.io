@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: CPAN's Social Continuity of Code
 categories: perl programming opinion
 tags: cpan

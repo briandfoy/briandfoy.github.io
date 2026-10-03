@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: systemd cheatsheet
 categories: cheatsheet
 tags: systemd

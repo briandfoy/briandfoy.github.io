@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: JPEG comments
 categories: command-line
 tags: jpeg exiftool

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: "Review of Glitch: The Hidden Impact of Faulty Software"
 categories: programming book-review
 tags: rescued-content

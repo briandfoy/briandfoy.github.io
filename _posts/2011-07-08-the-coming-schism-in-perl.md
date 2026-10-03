@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The coming schism in Perl
 categories: programming opinion perl
 tags: chip-salzenberg

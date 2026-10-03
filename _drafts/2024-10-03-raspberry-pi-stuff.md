@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Raspberry Pi Stuff
 categories:
 tags:

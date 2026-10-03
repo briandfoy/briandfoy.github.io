@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Review of Revising Prose
 categories: book-review rescued-content writing
 tags:

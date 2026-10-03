@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: On the decomposition of problems
 categories: programming
 tags: mark-jason-dominus magnus-carlson

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Why I didnt submit that patch
 categories: perl programming
 tags: github dzil dist-zilla

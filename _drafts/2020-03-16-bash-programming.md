@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Bash Programming
 categories:
 tags:

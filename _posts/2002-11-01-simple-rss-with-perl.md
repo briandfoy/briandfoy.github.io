@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Simple RSS with Perl
 categories: perl programming
 tags: rss xml rescued-content the-perl-review

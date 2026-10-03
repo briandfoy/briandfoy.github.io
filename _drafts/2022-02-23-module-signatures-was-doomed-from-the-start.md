@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Module::Signatures was doomed from the start
 categories:
 tags:

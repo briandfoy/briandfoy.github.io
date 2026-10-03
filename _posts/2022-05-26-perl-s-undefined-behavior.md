@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Perl's undefined behaviors
 categories: programming perl
 tags:

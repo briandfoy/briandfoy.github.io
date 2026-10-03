@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Javascript things
 categories:
 tags: javascript

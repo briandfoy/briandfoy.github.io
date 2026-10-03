@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Makefile Stuff
 categories: programming
 tags: make

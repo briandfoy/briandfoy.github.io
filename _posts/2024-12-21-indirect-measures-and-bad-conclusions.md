@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Indirect measures and bad conclusions
 categories: science
 tags:

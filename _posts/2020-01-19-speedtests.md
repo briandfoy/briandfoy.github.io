@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Speedtests
 categories: system-administration command-line nyc-mesh
 tags: python speedtest

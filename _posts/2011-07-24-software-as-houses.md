@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: If software were houses
 categories: opinion programming
 tags: rescued-content

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The history of Learning Perl covers
 categories: perl
 tags: learning-perl

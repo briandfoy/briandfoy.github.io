@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: tmux cheatsheet
 categories: computers
 tags: shell tmux

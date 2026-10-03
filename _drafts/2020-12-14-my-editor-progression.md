@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: My editor progression
 categories: programming
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: COVID's timeline
 categories:
 tags:

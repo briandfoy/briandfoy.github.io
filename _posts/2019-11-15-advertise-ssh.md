@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Advertising SSH on Ubuntu
 categories: system-administration
 tags: ubuntu macbook-air

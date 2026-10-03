@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Benchmarking Perl
 categories: perl programming rescued-content
 tags: the-perl-journal the-perl-review

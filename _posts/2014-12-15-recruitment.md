@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: My Perl recruitment thoughts
 categories: perl opinion rescued-content
 tags: perl-mongers

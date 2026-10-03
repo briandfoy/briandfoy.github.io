@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: A curses-based japh
 categories: perl programming
 tags: rescued-content japh video

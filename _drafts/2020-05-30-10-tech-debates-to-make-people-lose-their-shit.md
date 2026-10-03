@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: 10 Tech Debates to Make Developers Lose Their Shit
 categories:
 tags:

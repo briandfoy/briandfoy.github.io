@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The library assignment
 categories: numeracy personal-history
 tags: chemistry graduate_school

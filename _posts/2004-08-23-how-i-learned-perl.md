@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: How I learned perl
 categories: personal-history perl  programming
 tags: perl perl-mongers

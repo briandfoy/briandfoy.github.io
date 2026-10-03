@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Winning people over to better development practices
 categories: programming opinion rescued-content
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Neil deGrasse Tyson obscures the truth, again
 categories: science
 tags: neil-degrasse-tyson

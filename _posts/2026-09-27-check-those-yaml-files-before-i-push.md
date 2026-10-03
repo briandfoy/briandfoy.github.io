@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Check those YAML files before I push
 categories:
 tags:

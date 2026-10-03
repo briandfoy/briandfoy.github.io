@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: People's complaints are really opportunities
 categories: perl programming opinion rescued-content
 tags:

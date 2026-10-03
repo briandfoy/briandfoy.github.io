@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Visual Studio is going crazy
 categories: programming macos
 tags: visual-studio mac

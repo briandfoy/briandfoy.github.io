@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Let's talk about beavers, but we can't ever look at one
 categories: science
 tags: beavers trees

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: LeanPub Monthly Sales
 categories: publishing programming
 tags: leanpub numbers cheatsheet

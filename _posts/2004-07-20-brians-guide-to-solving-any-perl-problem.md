@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: brian's Guide To Solving Any Perl Problem
 categories: programming
 tags: rescued-content guide

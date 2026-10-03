@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: The Best Developer I Ever Knew
 categories:
 tags:

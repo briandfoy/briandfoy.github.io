@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Resources for Technical Writing
 categories:
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Traits, Roles, or Whatever They Are
 categories:
 tags:

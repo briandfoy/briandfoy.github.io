@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Git cheatsheet
 categories: cheatsheet
 tags: git

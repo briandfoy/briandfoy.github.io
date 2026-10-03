@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: BBEdit 8.0—A Developer's Viewpoint
 categories: rescued-content
 tags:

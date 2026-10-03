@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Goodbye Adobe
 categories: consumer-software
 tags: adode affinity

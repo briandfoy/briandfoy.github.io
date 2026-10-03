@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Notes on Claude Shannon
 categories:
 tags:

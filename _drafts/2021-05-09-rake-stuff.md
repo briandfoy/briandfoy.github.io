@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Rake stuff
 categories: programming
 tags:

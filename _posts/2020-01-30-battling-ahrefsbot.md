@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Battling AhrefsBot
 categories: system-administration
 tags: ahrefsbot bots cloudflare apache

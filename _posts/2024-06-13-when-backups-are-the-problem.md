@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: When backups are the problem
 categories:
 tags:

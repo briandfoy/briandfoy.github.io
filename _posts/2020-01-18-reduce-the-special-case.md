@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Reduce the Special Case
 categories: perl programming
 tags: mojolicious

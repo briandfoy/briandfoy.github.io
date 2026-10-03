@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Lying with percentages
 categories: numeracy
 tags: percentages

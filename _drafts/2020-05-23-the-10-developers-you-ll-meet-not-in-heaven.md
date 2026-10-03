@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: The 10 Developers You'll Meet (not in Heaven)
 categories: opinion
 tags:

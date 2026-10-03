@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Things I've read and want to remember
 categories: reading-list
 tags:

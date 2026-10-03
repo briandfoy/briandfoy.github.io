@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Turning off Travis CI
 categories: programming
 tags: ci devops continuous-improvement

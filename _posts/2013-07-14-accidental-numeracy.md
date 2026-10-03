@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Accidental Numeracy
 categories: numeracy
 tags: feynman abacus

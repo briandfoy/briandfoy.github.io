@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Why you have problems with object orientation
 categories: perl programming object-orientation
 tags: smalltalk

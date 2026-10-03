@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Neil deGrasse Tyson fails at science
 categories: science
 tags: neil-degrasse-tyson

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The median doesn't tell you anything
 categories: numeracy
 tags: new-york-city

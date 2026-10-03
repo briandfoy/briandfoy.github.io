@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: X is not my favorite language
 categories: programming
 tags: pascal unix kernighan

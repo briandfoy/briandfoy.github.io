@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: My Perl 6 Talking Points
 categories: programming raku rescued-content
 tags: raku

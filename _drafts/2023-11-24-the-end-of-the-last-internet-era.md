@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: The end of the last internet era
 categories:
 tags:

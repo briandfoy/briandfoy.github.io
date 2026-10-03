@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: The pendulum of technology
 categories:
 tags:

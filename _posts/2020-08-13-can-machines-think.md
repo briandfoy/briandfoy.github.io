@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Can Machines Think?
 categories: technology
 tags: feynman

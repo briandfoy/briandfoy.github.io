@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Not remembering how to convert F to C
 categories: teaching
 tags: temperature

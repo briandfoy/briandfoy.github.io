@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Switching From FreeBSD to Linux
 categories: system-administration
 tags: freebsd archlinux linux linode arp-networks

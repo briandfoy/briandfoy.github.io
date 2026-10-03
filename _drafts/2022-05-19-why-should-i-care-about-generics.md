@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Why should I care about generics?
 categories:
 tags: programming

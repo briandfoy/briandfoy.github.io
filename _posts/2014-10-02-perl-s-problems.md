@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Perl's Problems
 categories: perl opinion programming
 tags: tom-christiansen randal-schwartz

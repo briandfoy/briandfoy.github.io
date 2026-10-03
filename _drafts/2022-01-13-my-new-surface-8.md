@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: My new Surface 8
 categories: microsoft
 tags:

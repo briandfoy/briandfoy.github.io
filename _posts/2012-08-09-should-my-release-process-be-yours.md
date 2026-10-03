@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Should my Perl release process be yours?
 categories: programming perl opinion rescued-content
 tags: dist-zilla

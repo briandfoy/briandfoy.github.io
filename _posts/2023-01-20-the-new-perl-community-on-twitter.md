@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The new Perl community on Twitter
 categories: perl social-media
 tags: twitter

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: types in perl
 categories: perl programming
 tags: types

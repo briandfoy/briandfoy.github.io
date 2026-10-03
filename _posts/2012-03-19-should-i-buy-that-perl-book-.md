@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Should I buy that Perl book?
 categories: perl programming rescued-content opinion
 tags: catalyst economics

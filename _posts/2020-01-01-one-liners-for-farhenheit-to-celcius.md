@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: One-liners for Farhenheit to Celcius
 categories: command-line perl
 tags: bash

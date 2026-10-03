@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Screw Spectrum, hello NYC Mesh
 categories: system-administration nyc-mesh
 tags: spectrum

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Remove album ratings from Apple Music
 categories: apple applescript programming
 tags: music ratings

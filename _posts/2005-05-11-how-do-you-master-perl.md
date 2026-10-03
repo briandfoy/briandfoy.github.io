@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: How do you master Perl?
 categories: programming teaching perl
 tags: perl rescued-content

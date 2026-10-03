@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Running all the Simulations
 categories: programming personal-history graduate-school
 tags:  vms dcl

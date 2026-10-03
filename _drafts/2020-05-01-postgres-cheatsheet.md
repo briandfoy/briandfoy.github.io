@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Postgres Cheatsheet
 categories:
 tags: postgres

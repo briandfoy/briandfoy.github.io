@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: 33 Fundamentals Every Perl Developer Should Know
 categories: programming perl
 tags: perl

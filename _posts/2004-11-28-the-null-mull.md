@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The Null Mull
 categories: perl programming object-orientation
 tags: design-patterns rescued-content perlmonks

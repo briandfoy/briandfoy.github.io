@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: My bash prompt is now two lines
 categories: programming command-line
 tags: git bash prompt

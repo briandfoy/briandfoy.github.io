@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Gitifying BBEdit Backups
 categories: consumer-software macos
 tags: bbedit gist git gitx

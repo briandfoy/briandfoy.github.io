@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Do I want to process this file?
 categories: perl programming
 tags: grep mmap minion

@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Block bad sites with your own hosts.txt
 categories: sysadmin
 tags: hosts.txt

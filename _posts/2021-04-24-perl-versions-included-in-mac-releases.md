@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Perl versions included in Mac releases
 categories: programming macos perl
 tags: defaults

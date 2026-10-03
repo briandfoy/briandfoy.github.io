@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: brian's Laws of Programming
 categories: programming opinion
 tags:

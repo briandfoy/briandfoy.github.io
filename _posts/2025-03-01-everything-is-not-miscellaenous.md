@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Everything is not miscellaneous
 categories: books
 tags:

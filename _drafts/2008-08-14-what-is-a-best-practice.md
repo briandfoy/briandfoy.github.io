@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: What is a best practice?
 categories:
 tags:

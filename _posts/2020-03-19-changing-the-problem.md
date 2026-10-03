@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Changing the problem
 categories: dumbass
 tags: jello

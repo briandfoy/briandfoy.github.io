@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Make a daemon
 categories:
 tags:

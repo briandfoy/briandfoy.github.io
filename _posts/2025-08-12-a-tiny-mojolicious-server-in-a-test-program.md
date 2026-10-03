@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: A tiny Mojolicious server in a test program
 categories: programming perl
 tags: mojolicious

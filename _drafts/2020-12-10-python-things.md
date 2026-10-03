@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Python things
 categories:
 tags: python

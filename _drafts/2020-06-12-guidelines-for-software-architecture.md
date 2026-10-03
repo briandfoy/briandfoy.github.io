@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Guidelines for Software Architecture
 categories:
 tags:

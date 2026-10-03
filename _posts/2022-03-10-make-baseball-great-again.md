@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Make baseball great again
 categories: sports opinion
 tags: baseball

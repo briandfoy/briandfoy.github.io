@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Don't compare COVID to deaths from war
 categories: numeracy
 tags: covid

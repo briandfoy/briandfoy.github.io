@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The Rectangle Class is Wrong
 categories: programming object-orientation
 tags: rectangle

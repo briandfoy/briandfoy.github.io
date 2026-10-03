@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Open source is not about money, or you
 categories: open-source opinion
 tags: randal-schwartz simon-phipps clojure

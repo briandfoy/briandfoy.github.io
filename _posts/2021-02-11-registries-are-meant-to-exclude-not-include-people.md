@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Registries are meant to exclude, not include, people
 categories: programming opinion
 tags: the-perl-foundation perl

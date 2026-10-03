@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: The Singleton Design Pattern
 categories: perl programming rescued-content design-patterns object-orientation
 tags:  singletons the-perl-review

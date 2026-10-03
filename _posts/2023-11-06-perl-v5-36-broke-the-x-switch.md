@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Perl v5.36 broke the -X switch
 categories: perl
 tags:

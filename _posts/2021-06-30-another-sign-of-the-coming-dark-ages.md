@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: Another sign of the coming Dark Ages
 categories: technology macos
 tags:

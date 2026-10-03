@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: If you don't control it, you don't own it
 categories:
 tags:

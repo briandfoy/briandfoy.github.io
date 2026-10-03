@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: BBEdit Text Filters
 categories: programming consumer-software perl macos
 tags: bbedit

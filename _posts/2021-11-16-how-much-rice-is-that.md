@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _post
 title: How much rice is that?
 categories: numeracy
 tags: rice exponential-growth

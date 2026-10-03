@@ -1,5 +1,6 @@
 ---
 layout: post
+status: _draft
 title: Don't check; just do it
 categories:
 tags:
