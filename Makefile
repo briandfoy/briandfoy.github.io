@@ -131,6 +131,7 @@ publish: preprocess ## remake stuff and send it to GitHub
 		echo "Working tree is dirty: commit or stash before publishing" >&2; \
 		exit 1; \
 	fi
+	echo Git is clean
 	$(PERL) bin/tag_release
 	git push --follow-tags all master
 
