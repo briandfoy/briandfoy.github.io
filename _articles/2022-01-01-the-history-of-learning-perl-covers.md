@@ -200,7 +200,7 @@ The eighth edition, from 2021, is another major cover redesign across all O'Reil
 
 <table>
 <tr>
-<td><a href="/images/llama_cover_history/eighth-full.jpg"><img class="cover" src="/images/llama_cover_history/eighth-small.jpg"/></a></td>
+<td><a href="/images/llama_cover_history/eighth-full.jpg"><img class="cover" height="525" width="400" src="/images/llama_cover_history/eighth-small.jpg"/></a></td>
 
 <td>
 <br/>
