@@ -84,8 +84,6 @@ open: ## open the website
 
 archives.md: bin/make_archives bin/post_years $(POSTS)
 	@ bin/post_years $(POSTS) | xargs bin/make_archives > $@
-	- git add $@
-	- git commit -m 'Update archives for the years' $@
 
 books.md: bin/make_books_page.pl books.json
 	$(PERL) bin/make_books_page.pl > $@
