@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: How do you master Perl?
-categories: programming teaching
-tags: perl rescued-content
+categories: programming teaching rescued-content
+tags: perl
 stopwords: Cozen's Dominus's LWP Langworth retitling templating horked gethostbyname
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=446556

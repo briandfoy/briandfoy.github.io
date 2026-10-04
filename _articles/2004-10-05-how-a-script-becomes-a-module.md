@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: How a script becomes a module
-categories: programming
-tags: rescued-content perlmonks perl
+categories: programming rescued-content
+tags: perlmonks perl
 stopwords: MLDBM Flintstone's arounds crypto proto
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=396759

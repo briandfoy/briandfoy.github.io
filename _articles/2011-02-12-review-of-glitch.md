@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: "Review of Glitch: The Hidden Impact of Faulty Software"
-categories: programming book-review
-tags: rescued-content
+categories: programming book-review rescued-content
+tags:
 stopwords: sensationalistic
 last_modified:
 original_url: https://www.amazon.com/gp/customer-reviews/R1K43RB54DL9HX
