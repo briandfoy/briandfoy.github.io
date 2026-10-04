@@ -1,18 +1,15 @@
 ---
 layout: post
 status: _draft
-title: 64 programming things
-categories: programming
+title: 64 Programming Tips
+categories:
 tags:
 stopwords:
 last_modified:
 original_url:
 ---
 
-64 programming things
-
 <!--more-->
-
 
 * write to a temp file first, then replace
 * use a pid file
