@@ -125,6 +125,12 @@ spell: ## spellcheck the markdown files in _posts/
 .PHONY: publish
 publish: preprocess ## remake stuff and send it to GitHub
 	git status
+	git commit -m 'Latest article sorting' _posts _drafts
+	@ if [ -n "$$(git status --porcelain)" ]; then \
+		git status --short; \
+		echo "Working tree is dirty: commit or stash before publishing" >&2; \
+		exit 1; \
+	fi
 	$(PERL) bin/tag_release
 	git push --follow-tags all master
 
