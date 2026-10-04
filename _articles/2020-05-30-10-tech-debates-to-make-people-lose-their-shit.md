@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: 10 Tech Debates to Make Developers Lose Their Shit
-categories:
-tags:
+categories: programming opinion
+tags: holy-wars perl python systemd github
 stopwords:
 last_modified:
 original_url:

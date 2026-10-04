@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Michael Sandel's Justice
-categories:
-tags:
+categories: opinion
+tags: philosophy michael-sandel trolley-problem utilitarianism
 stopwords:
 last_modified:
 original_url:

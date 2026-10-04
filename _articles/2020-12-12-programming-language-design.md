@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Programming Language Design
-categories:
-tags:
+categories: computer-science reading-list
+tags: language-design tony-hoare christopher-strachey noam-nisan shimon-schocken eric-fischer vasil-kosturski
 stopwords:
 last_modified:
 original_url:

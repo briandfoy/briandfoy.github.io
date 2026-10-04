@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Pipes in Perl
-categories:
-tags:
+categories: programming
+tags: perl
 stopwords:
 last_modified:
 original_url:

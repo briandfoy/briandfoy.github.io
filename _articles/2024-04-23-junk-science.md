@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Junk Science
-categories:
-tags:
+categories: science reading-list
+tags: forensics law scientific-misconduct
 stopwords:
 last_modified:
 original_url:

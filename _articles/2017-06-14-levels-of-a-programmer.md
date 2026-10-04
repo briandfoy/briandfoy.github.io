@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Levels of a programmer
-categories:
-tags:
+categories: programming opinion
+tags: career perl
 stopwords:
 last_modified:
 original_url:

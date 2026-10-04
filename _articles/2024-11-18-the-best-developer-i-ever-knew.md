@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Best Developer I Ever Knew
-categories:
-tags:
+categories: programming reading-list
+tags: career best-practices dan-north
 stopwords:
 last_modified:
 original_url:

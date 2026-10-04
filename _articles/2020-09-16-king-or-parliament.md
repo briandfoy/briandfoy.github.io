@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: King or Parliament?
-categories:
-tags:
+categories: programming opinion
+tags: raku governance open-source perl6
 stopwords:
 last_modified:
 original_url:

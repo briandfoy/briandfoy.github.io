@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: FAILing in Perl patterns
-categories:
-tags:
+categories: programming
+tags: perl raku regex perl6
 stopwords:
 last_modified:
 original_url:

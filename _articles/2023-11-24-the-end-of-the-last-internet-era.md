@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The end of the last internet era
-categories:
-tags:
+categories: technology opinion personal-history
+tags: amazon google
 stopwords:
 last_modified:
 original_url:

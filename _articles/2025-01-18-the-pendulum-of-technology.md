@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The pendulum of technology
-categories:
-tags:
+categories: technology opinion personal-history
+tags: ownership subscriptions gaming
 stopwords:
 last_modified:
 original_url:

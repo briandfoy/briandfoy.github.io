@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Big Papers
-categories:
-tags:
+categories: computer-science reading-list
+tags: security ken-thompson
 stopwords:
 last_modified:
 original_url:

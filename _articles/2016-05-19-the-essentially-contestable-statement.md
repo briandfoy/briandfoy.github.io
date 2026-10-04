@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The essentially contestable statement
-categories:
-tags:
+categories: opinion
+tags: philosophy sherlock-holmes
 stopwords:
 last_modified:
 original_url:

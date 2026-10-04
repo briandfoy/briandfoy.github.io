@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Use identity instead of logic in object-oriented programming
-categories:
-tags:
+categories: programming
+tags: perl object-orientation polymorphism
 stopwords:
 last_modified:
 original_url:

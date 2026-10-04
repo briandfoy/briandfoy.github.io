@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Best Practices
-categories:
-tags:
+categories: programming opinion
+tags: best-practices
 stopwords:
 last_modified:
 ---

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: GitHub things
-categories:
-tags:
+categories: programming cheatsheet
+tags: github github-actions git
 stopwords:
 last_modified:
 original_url:

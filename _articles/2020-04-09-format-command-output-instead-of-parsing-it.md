@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Format command output instead of parsing it
-categories: programming command-line
-tags: git nmcli 10x perl
+categories: programming
+tags: git nmcli 10x perl command-line
 stopwords: nmcli
 last_modified:
 original_url:

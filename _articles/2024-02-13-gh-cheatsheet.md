@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: gh cheatsheet
-categories:
-tags:
+categories: programming cheatsheet
+tags: github gh command-line aliases
 stopwords: grepper
 last_modified:
 original_url:

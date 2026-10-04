@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Perl and GitHub Actions
-categories:
-tags:
+categories: programming reading-list
+tags: perl github-actions ci julien-fiegehenn yonatan-kra
 stopwords:
 last_modified:
 original_url:

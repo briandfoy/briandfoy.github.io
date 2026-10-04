@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Floating points
-categories:
-tags:
+categories: programming reading-list
+tags: floating-point julia-evans john-d-cook arthur-odwyer william-kahan
 stopwords:
 last_modified:
 original_url:

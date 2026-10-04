@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: What We Actually Know About Software
-categories:
-tags:
+categories: programming reading-list
+tags: software-engineering 10x conways-law greg-wilson martin-fowler
 stopwords:
 last_modified:
 original_url:

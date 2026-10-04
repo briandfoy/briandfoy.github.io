@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: COVID's timeline
-categories:
-tags:
+categories: science timeline
+tags: covid nicholas-wade paul-sax
 stopwords:
 last_modified:
 original_url:

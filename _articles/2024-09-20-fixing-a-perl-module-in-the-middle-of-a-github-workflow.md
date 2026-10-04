@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Fixing a Perl module in the middle of a GitHub workflow
-categories:
-tags:
+categories: programming
+tags: perl cpan github-actions ci lwp
 stopwords: bmt CVE fallbacks hacky kludgey perlver pre WriteMakefile
 last_modified:
 original_url:

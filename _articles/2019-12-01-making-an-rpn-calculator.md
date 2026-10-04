@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Making an RPN calculator
-categories:
-tags:
+categories: programming
+tags: perl calculator rpn curses
 stopwords:
 last_modified:
 original_url:

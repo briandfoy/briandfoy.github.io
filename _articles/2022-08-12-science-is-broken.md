@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Science is broken
-categories:
-tags:
+categories: science reading-list
+tags: scientific-misconduct peer-review retraction-watch
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Neil deGrasse Tyson Hater Reader
-categories:
-tags:
+categories: science reading-list
+tags: neil-degrasse-tyson philosophy
 stopwords:
 last_modified:
 original_url:

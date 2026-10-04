@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Resources for Technical Writing
-categories:
-tags:
+categories: writing reading-list
+tags: technical-writing documentation
 stopwords:
 last_modified:
 original_url:

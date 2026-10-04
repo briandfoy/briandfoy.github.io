@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Reminding myself about new tools
-categories: programming command-line
-tags: ncdu
+categories: programming
+tags: ncdu command-line
 stopwords: NCurses
 last_modified:
 original_url:

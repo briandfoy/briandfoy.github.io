@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Boring programming problems
-categories:
-tags:
+categories: programming
+tags: shell perl
 stopwords:
 last_modified:
 original_url:

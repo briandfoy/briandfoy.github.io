@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Implicit Assumptions Test
-categories:
-tags:
+categories: science reading-list
+tags: psychology implicit-association-test replication-crisis p-hacking barbara-kay
 stopwords:
 last_modified:
 original_url:

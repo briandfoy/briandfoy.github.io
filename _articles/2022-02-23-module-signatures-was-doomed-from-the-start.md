@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Module::Signatures was doomed from the start
-categories:
-tags:
+categories: programming opinion
+tags: perl cpan security module-signature gpg
 stopwords:
 last_modified:
 original_url:

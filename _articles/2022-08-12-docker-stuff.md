@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Docker stuff
-categories:
-tags:
+categories: programming cheatsheet
+tags: docker containers
 stopwords:
 last_modified:
 original_url:

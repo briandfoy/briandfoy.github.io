@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Raspberry Pi notes
-categories:
-tags:
+categories: system-administration cheatsheet
+tags: raspberry-pi vnc jared-wolff
 stopwords:
 last_modified:
 original_url:

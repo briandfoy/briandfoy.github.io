@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Things to investigate
-categories:
-tags:
+categories: computer-science reading-list
+tags: algorithms jon-bentley martin-kleppmann donne-martin matthias-felleisen
 stopwords:
 last_modified:
 original_url:

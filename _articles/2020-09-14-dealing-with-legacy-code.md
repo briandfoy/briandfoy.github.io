@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Dealing with legacy code
-categories:
-tags:
+categories: programming
+tags: legacy
 stopwords:
 last_modified:
 original_url:

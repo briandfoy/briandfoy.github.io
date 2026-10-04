@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Bash Programming
-categories:
-tags:
+categories: programming reading-list
+tags: bash
 stopwords:
 last_modified:
 original_url:

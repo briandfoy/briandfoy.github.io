@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: What I'd Love to Have in Perl
-categories:
-tags:
+categories: programming opinion
+tags: perl object-orientation
 stopwords:
 last_modified:
 original_url:

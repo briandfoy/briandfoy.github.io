@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: When backups are the problem
-categories:
-tags:
+categories: system-administration personal-history
+tags: backups mariadb archlinux linode git wordpress
 stopwords: gc gitified hosters rando vvv
 last_modified:
 original_url:

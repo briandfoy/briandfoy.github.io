@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Programming Best Practices
-categories:
-tags:
+categories: programming reading-list
+tags: best-practices git igor-markov pat-helland seth-robertson
 stopwords:
 last_modified:
 original_url:

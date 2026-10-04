@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Use OpenAI to make data structures
-categories:
-tags:
+categories: programming
+tags: ai chatgpt openai json david-farrell
 stopwords:
 last_modified:
 original_url:

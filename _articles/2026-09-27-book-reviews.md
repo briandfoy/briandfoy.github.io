@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: Book Reviews
-categories:
+categories: writing
 tags:
 stopwords:
 last_modified:

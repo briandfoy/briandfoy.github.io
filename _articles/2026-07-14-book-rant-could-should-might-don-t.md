@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: (Book Rant) Could Should Might Don't
-categories:
-tags:
+categories: book-review opinion
+tags: nick-foster science-fiction futurism star-trek
 stopwords:
 last_modified:
 original_url:

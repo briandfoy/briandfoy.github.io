@@ -3,7 +3,7 @@ layout: post
 status: _posts
 title: My Perl 6 Talking Points
 categories: programming rescued-content
-tags: raku
+tags: raku perl6
 stopwords: raku
 ---
 

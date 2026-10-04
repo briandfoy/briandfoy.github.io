@@ -3,7 +3,7 @@ layout: post
 status: _drafts
 title: If you can't write, you can't program
 categories: programming
-tags: programming stackoverflow
+tags: stackoverflow
 stopwords:
 last_modified:
 original_url:

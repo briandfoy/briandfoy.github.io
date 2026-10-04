@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Untitled John Berger Post
-categories:
-tags:
+categories: reading-list
+tags: art john-berger
 stopwords:
 last_modified:
 original_url:

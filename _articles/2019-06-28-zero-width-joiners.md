@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Zero-width joiners
-categories:
-tags:
+categories: programming
+tags: perl unicode emoji zero-width-joiner
 stopwords:
 last_modified:
 original_url:

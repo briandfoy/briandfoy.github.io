@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: I, Libertine, the timeline
-categories:
-tags:
+categories: timeline publishing
+tags: jean-shepherd theodore-sturgeon hoax radio i-libertine
 stopwords: WOR
 last_modified:
 original_url:

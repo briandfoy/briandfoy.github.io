@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Traits, Roles, or Whatever They Are
-categories:
-tags:
+categories: programming reading-list
+tags: perl object-orientation roles moose raku chromatic curtis-poe david-farrell perl6
 stopwords:
 last_modified:
 original_url:

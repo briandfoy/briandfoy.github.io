@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Doubly-broken UTF-8
-categories:
-tags:
+categories: programming
+tags: perl unicode utf-8
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: JPEG comments
-categories: command-line
-tags: jpeg exiftool
+categories:
+tags: jpeg exiftool command-line
 stopwords: exiftool
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Backups and resiliency for open source code
-categories:
-tags:
+categories: programming opinion
+tags: backups resiliency open-source git github gitlab bitbucket
 stopwords: Satya Nadella SSDs HDDs
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Speedtests
-categories: system-administration command-line nyc-mesh
-tags: python speedtest
+categories: system-administration nyc-mesh
+tags: python speedtest command-line
 stopwords:
 ---
 

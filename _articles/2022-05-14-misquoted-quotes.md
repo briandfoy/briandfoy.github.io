@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Incomplete quotes
-categories:
-tags:
+categories: writing
+tags: quotes misquotes thomas-gray ralph-waldo-emerson carl-schurz vince-lombardi karl-marx
 stopwords: Schurz Selfridge Tis
 last_modified:
 original_url:

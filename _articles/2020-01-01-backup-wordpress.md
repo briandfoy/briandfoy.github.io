@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Backing up my WordPress blogs
-categories: blogging system-administration command-line
-tags: wordpress systemd mysqldump wp-cli
+categories: blogging system-administration
+tags: wordpress systemd mysqldump wp-cli command-line
 stopwords: Arp cli conf php usr wordpress wp
 ---
 

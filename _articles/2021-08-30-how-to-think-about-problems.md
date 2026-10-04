@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: How to think about problems
-categories:
-tags:
+categories: programming reading-list
+tags: problem-solving triz anticipatory-failure-determinism
 stopwords:
 last_modified:
 original_url:

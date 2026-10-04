@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: python-s-weird-ssl-issues
-categories:
-tags:
+categories: programming
+tags: python ssl macos speedtest
 stopwords:
 last_modified:
 ---

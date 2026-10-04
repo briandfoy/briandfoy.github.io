@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Meritocracy
-categories:
-tags:
+categories: society reading-list
+tags: meritocracy philosophy michael-sandel michael-young
 stopwords:
 last_modified:
 original_url:

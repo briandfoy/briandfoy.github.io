@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Sherlock Holmes was Wrong
-categories:
-tags:
+categories: opinion
+tags: sherlock-holmes fiction
 stopwords:
 last_modified:
 original_url:

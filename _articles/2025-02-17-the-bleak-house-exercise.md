@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Bleak House Exercise
-categories:
-tags:
+categories: writing
+tags: charles-dickens bleak-house fiction
 stopwords:
 last_modified:
 original_url:
