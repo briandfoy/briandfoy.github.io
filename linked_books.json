@@ -1,0 +1,389 @@
+[
+	{
+	"title": "Advanced Perl Programming, 2nd Edition",
+	"publisher_url": "http://www.oreilly.com/catalog/advperl2/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Simon Cozens" ],
+	"published": [ "2005" ]
+	},
+	{
+	"title": "All the Lies They Did Not Tell: The True Story of Satanic Panic in an Italian Community",
+	"publisher_url": null,
+	"authors": [],
+	"published": []
+	},
+	{
+	"title": "The Annotated Turing",
+	"publisher_url": "https://www.charlespetzold.com/AnnotatedTuring/",
+	"authors": [ "Charles Petzold" ],
+	"published": [ "2008" ]
+	},
+	{
+	"title": "The Art of Computer Programming, Volume 3: Sorting and Searching",
+	"publisher_url": "https://www.informit.com/store/art-of-computer-programming-volume-3-sorting-and-searching-9780201896855",
+	"publisher": "Addison Wesley",
+	"authors": [ "Donald E. Knuth" ],
+	"published": [ "1973", "1998" ]
+	},
+	{
+	"title": "The Art of Forgery: The Minds, Motives and Methods of Master Forgers",
+	"publisher_url": "https://www.noahcharney.com/Books/Forgery",
+	"publisher": "Phaidon",
+	"authors": [ "Noah Charney" ],
+	"published": [ "2015" ]
+	},
+	{
+	"title": "Dangerously Funny: The Uncensored Story of \"The Smothers Brothers Comedy Hour\"",
+	"publisher_url": "https://www.simonandschuster.com/books/Dangerously-Funny/David-Bianculli/9781439101179",
+	"publisher": "Touchstone",
+	"authors": [ "David Bianculli" ],
+	"published": [ "2009" ]
+	},
+	{
+	"title": "The Day Care Ritual Abuse Moral Panic",
+	"publisher_url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1751-9020.2008.00169.x",
+	"authors": [ "Mary de Young" ],
+	"published": [ "2004" ]
+	},
+	{
+	"title": "The Definitive Guide to Catalyst",
+	"publisher_url": "https://link.springer.com/book/10.1007/978-1-4302-2366-5",
+	"publisher": "Apress",
+	"authors": [ "Kieren Diment", "Matt S. Trout" ],
+	"published": [ "2009" ]
+	},
+	{
+	"title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+	"publisher_url": "https://www.pearson.com/en-us/subject-catalog/p/design-patterns-elements-of-reusable-object-oriented-software/P200000009480/9780321700698",
+	"publisher": "Addison-Wesley Professional",
+	"authors": [ "Erich Gamma", "Richard Helm", "Ralph Johnson", "John Vlissides" ],
+	"published": [ "1994" ]
+	},
+	{
+	"title": "Digging Up Devils: The Search for a Satanic Murder Cult in Rural Ohio",
+	"publisher_url": null,
+	"publisher": "Pimingee Press",
+	"authors": ["Jack Legg"],
+	"published": []
+	},
+	{
+	"title": "Effective Perl Programming, 2nd Edition",
+	"publisher_url": "https://www.pearson.com/us/higher-education/program/Hall-Effective-Perl-Programming-Ways-to-Write-Better-More-Idiomatic-Perl-2nd-Edition/PGM95897.html",
+	"publisher": "Addison-Wesley Professional",
+	"authors": [ "Joseph Hall", "Joshua McAdams", "brian d foy" ],
+	"published": [ "2010-04-29" ]
+	},
+	{
+	"title": "Effective Testing with RSpec 3",
+	"publisher_url": "https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/",
+	"publisher": "The Pragmatic Bookshelf",
+	"authors": [ "Myron Marston", "Ian Dees" ],
+	"published": [ "2017" ]
+	},
+	{
+	"title": "The Elements of Computing Systems",
+	"publisher_url": "https://mitpress.mit.edu/9780262539807/the-elements-of-computing-systems/",
+	"publisher": "MIT Press",
+	"authors": [ "Noam Nisan", "Shimon Schocken" ],
+	"published": [ "2005" ]
+	},
+	{
+	"title": "Flim-Flam!",
+	"publisher_url": "Glitch: The Hidden Impact of Faulty Software",
+	"publisher": "Simon & Schuster",
+	"authors": [ "James Randi" ],
+	"published": [ "1980" ]
+	},
+	{
+	"title": "Glitch: The Hidden Impact of Faulty Software",
+	"publisher_url": null,
+	"publisher": "Prentice Hall",
+	"authors": [ "Jeff Papows" ],
+	"published": [ "2011" ]
+	},
+	{
+	"title": "Gorillas in the Mist",
+	"publisher_url": null,
+	"authors": [ "Dian Fossey" ],
+	"published": [ "1983" ]
+	},
+	{
+	"title": "He Came to Set the Captives Free",
+	"publisher_url": null,
+	"publisher": "Chick Publications",
+	"authors": [ "Rebecca Brown" ],
+	"published": [ "1986" ]
+	},
+	{
+	"title": "How to Cook Everything",
+	"publisher_url": null,
+	"authors": [ "Mark Bittman" ],
+	"published": [ "1998", "2019" ]
+	},
+	{
+	"title": "How to Solve It",
+	"publisher_url": "https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it",
+	"publisher": "Princeton University Press",
+	"authors": [ "George Pólya" ],
+	"published": [ "1945" ]
+	},
+	{
+	"title": "I, Libertine",
+	"publisher_url": "Ballantine",
+	"authors": [ "Frederick R. Ewing", "Theodore Sturgeon", "Jean Shepherd" ],
+	"published": [ "1956" ]
+	},
+	{
+	"title": "Intermediate Perl, 2nd Edition",
+	"publisher_url": "https://learning.oreilly.com/library/view/intermediate-perl-2nd/9781449343781/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Randal L. Schwartz", "brian d foy" ],
+	"published": [ "2012-07-31" ]
+	},
+	{
+	"title": "It's Not About the Bike",
+	"publisher_url": "https://www.penguin.co.uk/books/353523/its-not-about-the-bike-by-lance-armstrong/9781448104987",
+	"publisher": "Vintage Digital",
+	"authors": [ "Lance Armstrong", "Sally Jenkins" ],
+	"published": [ "2000" ]
+	},
+	{
+	"title": "Kill It with Fire",
+	"publisher_url": "https://www.penguinrandomhouse.com/books/667571/kill-it-with-fire-by-marianne-bellotti/",
+	"publisher": "No Starch Press",
+	"authors": [ "Marianne Bellotti" ],
+	"published": [ "2021" ]
+	},
+	{
+	"title": "Kings of the Road: How Frank Shorter, Bill Rodgers, and Alberto Salazar Made Running Go Boom",
+	"publisher_url": "https://www.cameronstracher.com/books/kings-of-the-road/",
+	"publisher": "Houghton Mifflin Harcourt",
+	"authors": [ "Cameron Stracher" ],
+	"published": [ "2013" ]
+	},
+	{
+	"title": "Kitchen Confidential",
+	"publisher_url": "https://www.harpercollins.com/products/kitchen-confidential-anthony-bourdain?variant=32154105413666",
+	"publisher": "Harper Collins",
+	"authors": [ "Anthony Bourdain" ],
+	"published": [ "2007" ]
+	},
+	{
+	"title": "Learning Perl, 8th Edition",
+	"publisher_url": "https://learning.oreilly.com/library/view/learning-perl-8th/9781492094944/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Randal L. Schwartz", "brian d foy", "Tom Phoenix" ],
+	"published": [ "2021-06-01" ]
+	},
+	{
+	"title": "Learning Perl Exercises",
+	"publisher_url": "https://leanpub.com/learning_perl_exercises",
+	"publisher": "Perl School",
+	"authors": [ "brian d foy" ],
+	"published": []
+	},
+	{
+	"title": "Lies My Teacher Told Me",
+	"publisher_url": "https://thenewpress.org/books/lies-my-teacher-told-me/",
+	"publisher": "The New Press",
+	"authors": [ "James W. Loewen" ],
+	"published": [ "1995" ]
+	},
+	{
+	"title": "Managing Projects with GNU Make",
+	"publisher_url": "https://www.oreilly.com/library/view/managing-projects-with/0596006101/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Robert Mecklenburg" ],
+	"published": [ "2004" ]
+	},
+	{
+	"title": "Mastering Perl, 2nd Edition",
+	"publisher_url": "https://learning.oreilly.com/library/view/mastering-perl-2nd/9781449364946/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "brian d foy" ],
+	"published": [ "2014-01-09" ]
+	},
+	{
+	"title": "Mastering Regular Expressions, 3rd Edition",
+	"publisher_url": "http://oreilly.com/catalog/9780596528126/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Jeffrey E. F. Friedl" ],
+	"published": [ "2006" ]
+	},
+	{
+	"title": "Mojolicious Web Clients",
+	"publisher_url": "https://leanpub.com/mojo_web_clients",
+	"publisher": "Perl School",
+	"authors": [ "brian d foy" ],
+	"published": [ "2019-11-30" ]
+	},
+	{
+	"title": "The Mythical Man-Month",
+	"publisher_url": null,
+	"authors": [ "Frederick P. Brooks Jr." ],
+	"published": [ "1975", "1995" ]
+	},
+	{
+	"title": "Object Oriented Perl",
+	"publisher_url": "https://www.manning.com/books/object-oriented-perl",
+	"publisher": "Manning Press",
+	"authors": [ "Damian Conway" ],
+	"published": [ "1999" ]
+	},
+	{
+	"title": "On Photography",
+	"publisher_url": "https://us.macmillan.com/books/9780312420093/onphotography/",
+	"publisher": "MacMillan",
+	"authors": [ "Susan Sontag" ],
+	"published": [ "1977" ]
+	},
+	{
+	"title": "Perl Best Practices",
+	"publisher_url": "https://www.oreilly.com/library/view/perl-best-practices/0596001738/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Damian Conway" ],
+	"published": [ "2005" ]
+	},
+	{
+	"title": "Perl New Features",
+	"publisher_url": "https://perlschool.com/books/perl-new-features/",
+	"publisher": "Perl School",
+	"authors": [ "brian d foy" ],
+	"published": [ "2021-01-06" ]
+	},
+	{
+	"title": "Perl Pocket Reference",
+	"publisher_url": "https://www.oreilly.com/library/view/perl-pocket-reference/9781449311186/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Johan Vromans" ],
+	"published": [ "2011" ]
+	},
+	{
+	"title": "Priceless: How I Went Undercover to Rescue the World's Stolen Treasures",
+	"publisher_url": "https://www.penguinrandomhouse.com/books/200589/priceless-by-robert-k-wittman-founder-fbi-art-crime-team-with-john-shiffman/",
+	"publisher": "Penguin Random House",
+	"authors": [ "Robert K. Wittman", "John Shiffman" ],
+	"published": [ "2010" ]
+	},
+	{
+	"title": "Programming Perl, 4th Edition",
+	"publisher_url": "https://learning.oreilly.com/library/view/programming-perl-4th/9781449321451/",
+	"publisher": "O'Reilly Media",
+	"authors": [ "Larry Wall", "Tom Christiansen", "Jon Orwant", "brian d foy" ],
+	"published": [ "2012-03-13" ]
+	},
+	{
+	"title": "The Psychology of Computer Programming",
+	"publisher_url": "https://geraldmweinberg.com/Site/Programming_Psychology.html",
+	"authors": [ "Gerald M. Weinberg" ],
+	"published": [ "1971" ]
+	},
+	{
+	"title": "Rake Task Management Essentials",
+	"publisher_url": "https://www.packtpub.com/en-us/product/rake-task-management-essentials-9781783280773?type=print",
+	"publisher": "Packt Publishing",
+	"authors": [ "Andrey Koleshko" ],
+	"published": [ "2014" ]
+	},
+	{
+	"title": "Revising Prose",
+	"publisher_url": "https://www.pearson.com/en-us/subject-catalog/p/revising-prose/P200000002251/9780321441690?srsltid=AU7gw4UcUREd47JEqunb1q1lKRW_h4qR03Q7apXvjGcSXf66ELKOwGnQ",
+	"publisher": "Pearson",
+	"authors": [ "Richard A. Lanham" ],
+	"published": [ "1979" ]
+	},
+	{
+	"title": "Satanic Panic: A Modern Myth",
+	"publisher_url": null,
+	"authors": [ "Rosie Waterhouse" ],
+	"published": ["2023"]
+	},
+	{
+	"title": "Satanic Panic: A Modern Myth Part 2",
+	"publisher_url": null,
+	"authors": [ "Rosie Waterhouse" ],
+	"published": ["2026"]
+	},
+	{
+	"title": "Satanic Panic: Pop-Cultural Paranoia in the 1980s",
+	"publisher_url": "https://www.kierlajanisse.com/2020/11/27/satanic-panic-pop-cultural-paranoia-in-the-1980s/",
+	"publisher": "Spectacular Optical"
+	"authors": [ "Kier-La Janisse", "Paul Corupe" ],
+	"published": [ "2015" ]
+	},
+	{
+	"title": "Satanic Panic: The Creation of a Contemporary Legend",
+	"publisher_url": null,
+	"publisher": "Open Court",
+	"authors": [ "Jeffrey S. Victor" ],
+	"published": [ "1993" ]
+	},
+	{
+	"title": "Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt",
+	"publisher_url": null,
+	"publisher": "Authors Choice Books",
+	"authors": [ "Debbie Nathan", "Michael Snedeker" ],
+	"published": [ "1995" ]
+	},
+	{
+	"title": "The Satan Hunter",
+	"publisher_url": null,
+	"publisher": "Daring Books",
+	"authors": [ "Thomas W. Wedge" ],
+	"published": [ "1987" ]
+	},
+	{
+	"title": "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages",
+	"publisher_url": "https://pragprog.com/titles/btlang/seven-languages-in-seven-weeks/",
+	"authors": [ "Bruce A. Tate" ],
+	"published": [ "2010" ]
+	},
+	{
+	"title": "Sherlock Holmes Was Wrong",
+	"publisher_url": "https://www.bloomsbury.com/us/sherlock-holmes-was-wrong-9781608192441/",
+	"authors": [ "Pierre Bayard" ],
+	"published": [ "2008" ]
+	},
+	{
+	"title": "Style: An Anti-Textbook",
+	"publisher_url": "https://www.pauldrybooks.com/products/style-an-anti-textbook",
+	"authors": [ "Richard A. Lanham" ],
+	"published": [ "1974", "2007" ]
+	},
+	{
+	"title": "Taft 2012: A Novel",
+	"publisher_url": "https://www.simonandschuster.com/books/Taft-2012/Jason-Heller/9781594745508",
+	"authors": [ "Jason Heller" ],
+	"published": [ "2012" ]
+	},
+	{
+	"title": "Understanding a Photograph",
+	"publisher_url": "https://www.penguin.co.uk/books/186902/understanding-a-photograph-by-berger-john/9780141392028",
+	"authors": [ "John Berger" ],
+	"published": [ "2013" ]
+	},
+	{
+	"title": "The Universe Down to Earth",
+	"publisher_url": "https://www.blackstonepublishing.com/products/book-mr3x",
+	"authors": [ "Neil deGrasse Tyson" ],
+	"published": [ "1994" ]
+	},
+	{
+	"title": "Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries",
+	"publisher_url": "https://www.simonandschuster.com/books/Unmask-Alice/Rick-Emerson/9781637745182",
+	"authors": [ "Rick Emerson" ],
+	"published": [ "2022" ]
+	},
+	{
+	"title": "We Believe the Children: A Moral Panic in the 1980s",
+	"publisher_url": "https://www.hachettebookgroup.com/titles/richard-beck/we-believe-the-children/9781610392884/?lens=publicaffairs",
+	"authors": [ "Richard Beck" ],
+	"published": [ "2015" ]
+	},
+	{
+	"title": "Working Effectively with Legacy Code",
+	"publisher_url": "https://www.oreilly.com/library/view/working-effectively-with/0131177052/",
+	"authors": [ "Michael Feathers" ],
+	"published": [ "2004" ]
+	}
+]
