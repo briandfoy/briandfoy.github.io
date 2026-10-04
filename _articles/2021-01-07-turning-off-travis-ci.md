@@ -13,7 +13,7 @@ I'm dropped all Travis CI support. Travis is already dropping Open Source, so I'
 
 <!--more-->
 
-![](/images/travis/travis.png)
+![](/images/travis/travis.png){: width="550" height="472"}
 
 Travis CI used to offer free continuous integration support for open source projects and they had promised to always do that. In 2019, [the company was acquired](https://blog.travis-ci.com/2019-01-23-travis-ci-joins-idera-inc) and that non-binding promise was broken. Their acquisition announcement reiterated their promise:
 

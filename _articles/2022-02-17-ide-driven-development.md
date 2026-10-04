@@ -23,7 +23,7 @@ He's a really good programmer, but that's not why his solutions were better. Sin
 
 There's an idea in math known as the [local minimum](https://mathworld.wolfram.com/LocalMinimum.html). In some function, you may be in a position where moving in any direction makes you go uphill. Here's a plot of a [Bessel Function from Desmos.com](https://www.desmos.com/calculator/bngacybtgj), which has many local minima and two absolute minima:
 
-![](/images/github_copilot/bessel.png)
+![](/images/github_copilot/bessel.png){: width="575" height="400"}
 
 If you send up around *x* around -17, you'll find a spot where going either left or right makes you go uphill. If you don't want to go uphill, you are content to stay around that local minima. This often makes sense. How much effort, in the non-mathematical sense, are you willing to expend to discover if there is a lower minimum? Go over the hill to your left and you discover a minimum that is greater than the one you were just in. Go over the hill to the right and you find a lower minimum. But, is that new minimum an absolute minimum? Restart the process.
 
@@ -41,7 +41,7 @@ But all of this is based on what it's learned from all of the code that it knows
 
 All of that code learning is parroting the bad habits of the 90% crud. I'm very impressed by the technology, but not so much by the learning sets. I tried a simple Perl example with `Mojo::UserAgent` (see my book, [Mojo Web Clients](https://leanpub.com/mojo_web_clients)):
 
-![](/images/github_copilot/mojo_success.png)
+![](/images/github_copilot/mojo_success.png){: width="862" height="382"}
 
 I'm impressed that it suggests something close to the structure that I probably want, but not so impressed that it chose something that doesn't work. The `success` method on a transaction was deprecated in 8.02 (October 2018) and removed in 9.0 (February 2021). That is, it is suggesting code that was bad three and a half years ago and hasn't worked in a year. Garbage in, garbage out (and, there's an interesting, unexpected history of [that phrase](https://www.atlasobscura.com/articles/is-this-the-first-time-anyone-printed-garbage-in-garbage-out)). In that sense, the suggestions are "dumb".
 
@@ -49,7 +49,7 @@ The Copilot doesn't particularly know anything about what you are trying to do. 
 
 Furthermore, the Copilot knows only what you might want to type next, which is what people are used to from dumber IDEs. What does it suggest if I start typing a line that uses a module I haven't loaded? Nothing special happens, such as suggesting a line above my typing that loads the module:
 
-![](/images/github_copilot/mojo_ua.png)
+![](/images/github_copilot/mojo_ua.png){: width="862" height="382"}
 
 In effect, as my friend experienced in his coding class, these sorts of things don't make better programs and don't make us better programmers. We end up knowing less than we should and get less than we deserve.
 

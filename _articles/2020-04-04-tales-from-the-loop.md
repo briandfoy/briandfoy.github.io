@@ -15,7 +15,7 @@ original_url:
 
 Simon Stålenhag painted scenes in the style of a used rather than sterile universe; Futuristic technology exists, driving the scene without dominating it. He's Edward Hopper's lonely New England but with sci-fi elements. The people, should you see them, pay no more attention to the abandoned or decrepit technology than the trees or rocks or rustic cabin.
 
-![](/images/tales-from-the-loop/the-electric-state.jpeg)
+![](/images/tales-from-the-loop/the-electric-state.jpeg){: width="600" height="331"}
 
 ![](/images/tales-from-the-loop/gas.jpeg)
 

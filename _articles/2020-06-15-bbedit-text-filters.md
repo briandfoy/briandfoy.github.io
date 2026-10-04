@@ -15,7 +15,7 @@ BBEdit allows you to make your own text processing programs. It gives your progr
 
 These show up in the _Text > Apply Text Filters_ menu item, but I tend to use them from the Text Filters palette (_Windows > Palettes > Text Filters_).
 
-![](/images/bbedit_text_filters/palette.png)
+![](/images/bbedit_text_filters/palette.png){: width="312" height="379"}
 
 These programs go in _Application Support/BBEdit/Text Filters_ folder; I keep mine in Dropbox so it's common across all my Macs. These can be AppleScript or Text Automator actions, but they can also be Unix scripts. I tend to use Perl, but I have some in Python and Ruby too.
 

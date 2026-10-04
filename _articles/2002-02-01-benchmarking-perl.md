@@ -193,7 +193,7 @@ As I see, the `sum()` function from [List::Util](https://metacpan.org/pod/List::
 
 This comparison does not satisfy me though. What happens as the size of the array and the number of iterations changes? I ran several combinations of array size and iterations for each of the methods using a Sparc20 running Solaris 2.6 with perl5.004. Since I don't really care about the Curious and Silly methods, I only report the results for the Idiomatic, Evil, and Iterator methods if. I ran each with arrays of sizes from 10 to 10,000 elements and iterations from 1,000 to 1,000,000 times. The longest time took about 86,000 CPU seconds. Do not try this without telling the system administrator what you are doing, especially if you named your script `test`—it is not nice to get email nastygrams from an administrator who thinks you have a script running amok when it is really doing exactly what you want it to do. Not that this happened to me and you can't prove it anyway.
 
-![](/images/the-perl-review/benchmark.png)
+![](/images/the-perl-review/benchmark.png){: width="491" height="341"}
 
 ## So what have I learned?
 

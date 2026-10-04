@@ -37,7 +37,7 @@ Back in the day, pre-Gutenberg, your path to knowledge was literally copying wha
 
 I grew up in the era of the mix tape. We didn't have cheap access to music. If you wanted to hear a song again, you taped it off the radio. The high tech of the day was the dual tape deck where you could play one to record to the other.
 
-![](/images/boombox.jpg)
+![](/images/boombox.jpg){: width="1024" height="768"}
 
 *image credit: [Jeremy Crantek on Flickr](https://www.flickr.com/photos/deucer/255843395/in/photolist-oBgk2-21KaB4P-3go9k-geZMB-ktmZy-ZoGXMZ-2Uh9Lv-aStewe-cnKGV-5jnS5m-9nWm6X-5PFYRA-F1srg-9qc7Sx-e37JHq-4BBNo-7LP7Ur-9DYpN-aCWLS-c8frDS-pPuXWZ-65iJUA-2aPPQS8-92xNqT-95tpFj-i7ts1-6UWSsC-9Pf3R-9nZoRy-2JJNSG-8VdZ7A-w6j3j-k1dVn-3KgayG-6JDMNJ-9ukDmo-8LcxsP-9UXpmo-bC23Jq-bhEWdx-5tACnp-985z4P-bj9LJ2-bQVHnp-4HMMtq-bC23Fb-bQVJ5t-bQVJhi-bQVHEv-bQVJdK)*
 

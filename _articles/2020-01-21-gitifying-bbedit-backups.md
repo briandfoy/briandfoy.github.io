@@ -12,7 +12,7 @@ have a *BBEdit Backups* directory in [Dropbox](https://db.tt/TOfJe58D).
 
 <!--more-->
 
-![BBEdit Backups](/images/bbedit_backups.png)
+![BBEdit Backups](/images/bbedit_backups.png){: width="600" height="457"}
 
 Sometimes I mess up in a way where a file disappears or I miss out on a
 change that I didn't capture in source control. I can trawl these files
@@ -26,7 +26,7 @@ the backup, I don't want them in Git. I'm not trying to keep a history.
 Instead, I want to browse a file to easily see diffs along a time
 sequence (seen here in [GitX-dev](https://rowanj.github.io/gitx/)):
 
-![BBEdit Backups](/images/bbedit-backups-git.png)
+![BBEdit Backups](/images/bbedit-backups-git.png){: width="600" height="448"}
 
 Here's the code, but you can [go to the Gist directly](https://gist.github.com/briandfoy/65cd1648bcdca36436e9b77f7f64603d).
 

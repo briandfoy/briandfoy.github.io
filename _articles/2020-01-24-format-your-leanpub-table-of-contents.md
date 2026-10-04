@@ -93,5 +93,5 @@ $ perl -Mojo -E 'say g(shift)->dom->at( q( ul.toc )
 
 Finally, the screenshot of the instructions:
 
-![Table of Contents instructions](/images/leanpub_toc_instructions.png)
+![Table of Contents instructions](/images/leanpub_toc_instructions.png){: width="958" height="539"}
 

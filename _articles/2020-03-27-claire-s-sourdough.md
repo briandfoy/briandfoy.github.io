@@ -27,11 +27,11 @@ There are some differences from what I was doing while following Sourdough U.
 
 * After the stretch and fold, it's shaping and straight into the fridge. There's very little time for the gluten to lose its elasticity.
 
-![](/images/sourdough/claire/in_oven.jpg)
+![](/images/sourdough/claire/in_oven.jpg){: width="600" height="450"}
 
-![](/images/sourdough/claire/on_the_rack.jpg)
+![](/images/sourdough/claire/on_the_rack.jpg){: width="600" height="519"}
 
-![](/images/sourdough/claire/sliced.jpg)
+![](/images/sourdough/claire/sliced.jpg){: width="600" height="450"}
 
 That's promising, but the crumb (the inside structure) is inconsistent. There is good gluten structure to trap air, but it gets trapped at the top of the crust.
 
@@ -43,17 +43,17 @@ I try again, because what else am I going to do in self-quarantine? This time I 
 
 This turned out almost exactly how I wanted it, but I need to work on upping the sourness.
 
-![](/images/sourdough/claire/white-flour.jpg)
+![](/images/sourdough/claire/white-flour.jpg){: width="600" height="450"}
 
-![](/images/sourdough/claire/white-sliced.jpg)
+![](/images/sourdough/claire/white-sliced.jpg){: width="600" height="450"}
 
 ### 20% Red Mill Semolina
 
 The semolina is a bit softer texture and the boule itself is pillowy with a softer crust.
 
-![](/images/sourdough/claire/semolina.jpg)
+![](/images/sourdough/claire/semolina.jpg){: width="600" height="450"}
 
-![](/images/sourdough/claire/semolina-sliced.jpg)
+![](/images/sourdough/claire/semolina-sliced.jpg){: width="600" height="450"}
 
 
 
