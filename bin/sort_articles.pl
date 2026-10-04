@@ -16,7 +16,7 @@ foreach my $item ( $base->list->each ) {
 	map_file my $map, $item;
 
 	my($type) = $map =~ /^status: \h+ (\S+)/xm;
-	say "[$type] $item";
+#	say "[$type] $item";
 	next unless length $type;
 
 	my $dir = $root->child($type);
@@ -35,6 +35,6 @@ foreach my $item ( $base->list->each ) {
 		unlink $post->to_string;
 		}
 
-	say "\tdir is $dir";
+#	say "\tdir is $dir";
 	$dir->child($item->basename)->spew($map);
 	}
