@@ -98,15 +98,11 @@ new: ## create a new draft an open it in an editor
 	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
 
 .PHONY: preprocess
-preprocess: sort_articles archives.md books.md tags $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+preprocess: sort_articles archives.md books.md $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 .PHONY: sort_articles
 sort_articles:
 	$(PERL) bin/sort_articles.pl
-
-.PHONY: tags
-tags:
-	@ true
 
 ######################################################################
 # Testing things
