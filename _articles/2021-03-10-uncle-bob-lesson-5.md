@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Uncle Bob, Lesson 5
-categories: programming object-orientation
-tags: uncle-bob
+categories: programming
+tags: uncle-bob object-orientation
 stopwords: GUIs MVC Mikkjel Reenskaug Trygve
 last_modified:
 original_url:

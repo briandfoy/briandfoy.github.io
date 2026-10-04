@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: Combing through all of the outputs
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:

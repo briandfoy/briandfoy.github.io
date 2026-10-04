@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: Why novice programmers can't program
-categories: rescued-content
+categories: programming rescued-content
 tags: programmers draft
 draft: true
 ---

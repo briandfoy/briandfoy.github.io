@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Perl Traps for Python Programmers
-categories:
-tags:
+categories: programming
+tags: perl python
 stopwords:
 last_modified:
 original_url: http://blogs.perl.org/users/brian_d_foy/2011/10/perl-traps-for-python-programmers.html

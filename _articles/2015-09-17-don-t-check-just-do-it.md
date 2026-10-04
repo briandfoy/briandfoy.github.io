@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: Don't check; just do it
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:

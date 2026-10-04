@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: Make a daemon
-categories:
+categories: programming
 tags:
 stopwords:
 last_modified:

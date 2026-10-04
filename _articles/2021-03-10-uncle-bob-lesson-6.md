@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Uncle Bob, Lesson 6
-categories: programming object-orientation
-tags: uncle-bob
+categories: programming
+tags: uncle-bob object-orientation
 stopwords:
 last_modified:
 original_url:

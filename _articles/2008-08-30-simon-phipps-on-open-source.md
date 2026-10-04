@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Simon Phipps on Floss Weekly
-categories: programming rescued-content open-source opinion
-tags:
+categories: programming rescued-content  opinion
+tags: open-source randal-schwartz simon-phipps
 ---
 
 For [FLOSS Weekly 39](https://twit.tv/shows/floss-weekly/episodes/39),

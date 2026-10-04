@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Your OO Accessors Are Destroying Everything
-categories: programming object-orientation opinion
-tags:
+categories: programming opinion
+tags: object-orientation
 stopwords: gatekeeping microservice meatspace
 last_modified:
 original_url:
