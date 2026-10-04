@@ -41,11 +41,11 @@ You may ask about AppleScript at this point. That's possible, probably, activati
 
 Then I had the idea to use Automator, which I haven't really enjoyed using in the past. I created a Quick Action to label an item. That looks deceptively simple:
 
-![](/images/macos-tags/automator-label-red.png){: width="2218" height="1288"}
+![](/images/macos-tags/automator-label-red-1000.png){: width="1000" height="580"}
 
 I then bound that Quick Action to a key combo in *System Preferences > Keyboard > Shortcuts > App Shortcuts*. I chose Control-digit because it uses one modifier key:
 
-![](/images/macos-tags/shortcuts-pane.png){: width="1560" height="1416"}
+![](/images/macos-tags/shortcuts-pane-1000.png){: width="1000" height="907"}
 
 Now here's the problem: I don't have an action to add a new tag. I have an action to unset all existing tags and set a new one. And, Automator doesn't provide a sufficient interface to get the set of existing tags for an individual file, add one to that list, then set all of those.
 

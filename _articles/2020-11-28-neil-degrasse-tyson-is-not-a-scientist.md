@@ -64,11 +64,11 @@ Back to Tyson's lack of curiosity and general ignorance of art.
 
 My immediate reaction to his statement was that I thought that Van Gogh often painted pastorals and landscapes with such banal titles. Indeed, he's painted one with the same title, *La Nuit étoilée*, the year before! I just need to find another, earlier one.
 
-![](/images/starry_night/Starry_Night_Over_the_Rhone.jpg){: width="1920" height="1488"}
+![](/images/starry_night/Starry_Night_Over_the_Rhone-1000.jpg){: width="1000" height="775"}
 
 It turned out very easy to prove Tyson wrong (almost). At first, I thought I'd just get a list of all titles of paintings in the 1800s and find other backgroundy titles. Before that, I checked van Gogh's *Starry Night*'s date. [It's Wikipedia page](https://en.wikipedia.org/wiki/The_Starry_Night) lists two other paintings with the same title, and one is Jean-François Millet's *[Nuit Étoilée](https://artgallery.yale.edu/collections/objects/52945)* from somewhere between 1850 and 1865! I've barely started and Tyson is already wrong, using just the tools that third graders use for their school reports.
 
-![](/images/starry_night/Starry_Night_by_Millet.jpeg){: width="1920" height="1542"}
+![](/images/starry_night/Starry_Night_by_Millet-1000.jpeg){: width="1000" height="803"}
 
 But, there's a catch, and this is where his scientific training should come into play. In reality, this training often does not escape the lab.
 
