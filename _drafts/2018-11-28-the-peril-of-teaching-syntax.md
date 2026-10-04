@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Peril of Teaching Syntax
-categories:
-tags:
+categories: teaching opinion programming
+tags: syntax
 stopwords:
 last_modified:
 ---

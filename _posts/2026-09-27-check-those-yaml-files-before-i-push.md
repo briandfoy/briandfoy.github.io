@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Check those YAML files before I push
-categories:
-tags:
+categories: programming
+tags: yaml
 stopwords:
 last_modified:
 original_url:

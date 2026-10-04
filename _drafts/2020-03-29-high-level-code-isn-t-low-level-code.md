@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: High-level code isn't low-level code
-categories:
-tags:
+categories: programming
+tags: benchmarking
 stopwords:
 last_modified:
 original_url:

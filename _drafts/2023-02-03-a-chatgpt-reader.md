@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: A ChatGPT reader
-categories:
-tags:
+categories: technology opinion reading-list
+tags: ai chatgpt neil-degrasse-tyson charles-babbage simon-willison ben-thompson ted-chiang
 stopwords:
 last_modified:
 original_url:

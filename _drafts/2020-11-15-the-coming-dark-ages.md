@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: The Coming Dark Ages
-categories:
-tags:
+categories: technology opinion
+tags: link-rot supply-chain leonard-read thomas-thwaites
 stopwords:
 last_modified:
 original_url:

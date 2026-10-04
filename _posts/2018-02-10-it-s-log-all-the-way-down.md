@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: It's log all the way down
-categories: perl programming
-tags: logarithms
+categories: programming
+tags: logarithms perl
 stopwords: ULP glibc ivln libm
 last_modified:
 original_url:

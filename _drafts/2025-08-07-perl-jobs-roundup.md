@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Perl Jobs Roundup
-categories:
-tags:
+categories: programming reading-list
+tags: perl career jobs
 stopwords:
 last_modified:
 original_url:

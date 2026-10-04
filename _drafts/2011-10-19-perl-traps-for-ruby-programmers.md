@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Perl Traps for Ruby Programmers
-categories:
-tags:
+categories: programming rescued-content
+tags: perl ruby
 stopwords:
 last_modified:
 original_url: http://blogs.perl.org/users/brian_d_foy/2011/10/perl-traps-for-ruby-programmers.html

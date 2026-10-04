@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Sunsetting Perl's vars pragma
-categories: perl
-tags:
+categories:
+tags: perl
 stopwords:
 last_modified:
 original_url:

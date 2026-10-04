@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: BBEdit Text Filters
-categories: programming consumer-software perl macos
-tags: bbedit
+categories: programming consumer-software macos
+tags: bbedit perl
 stopwords:
 last_modified:
 original_url:

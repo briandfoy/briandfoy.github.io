@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Another reduction example
-categories: programming perl
-tags:
+categories: programming
+tags: perl
 stopwords:
 last_modified:
 original_url:

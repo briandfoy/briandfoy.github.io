@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Guidelines for Software Architecture
-categories:
-tags:
+categories: programming software-architecture reading-list
+tags: legacy hillel-wayne
 stopwords:
 last_modified:
 original_url:

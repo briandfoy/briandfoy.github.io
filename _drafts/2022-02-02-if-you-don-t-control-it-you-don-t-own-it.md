@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: If you don't control it, you don't own it
-categories:
-tags:
+categories: technology opinion
+tags: drm ownership adobe microsoft aaron-perzanowski jason-schultz
 stopwords:
 last_modified:
 original_url:

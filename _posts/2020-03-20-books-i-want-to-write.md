@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Books I want to write
-categories: writing
-tags: books programming
+categories: writing programming
+tags: books
 stopwords: numpy PDL
 last_modified:
 original_url:

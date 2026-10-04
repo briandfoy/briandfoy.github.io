@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: It's the Interface, Stupid
-categories:
-tags:
+categories: programming opinion
+tags: documentation maintainability uncle-bob john-ousterhout randal-schwartz brian-will
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Perl v5.36 broke the -X switch
-categories: perl
-tags:
+categories:
+tags: perl
 stopwords: perl's systemd
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Who sponsors more bills?
-categories:
-tags:
+categories: numeracy
+tags: politics congress bernie-sanders
 stopwords:
 last_modified:
 original_url:

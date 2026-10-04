@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: License Legal stuff
-categories:
-tags:
+categories: programming reading-list
+tags: licenses open-source kyle-mitchell
 stopwords:
 last_modified:
 original_url:

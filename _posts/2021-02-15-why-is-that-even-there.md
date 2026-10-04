@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Why is that even there?
-categories: perl programming
-tags: code-review
+categories: programming
+tags: code-review perl
 stopwords:
 last_modified:
 original_url:

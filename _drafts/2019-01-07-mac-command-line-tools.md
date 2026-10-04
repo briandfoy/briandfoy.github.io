@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Mac command line tools
-categories:
-tags:
+categories: programming
+tags: macos time-machine tmutil cliclick
 stopwords:
 last_modified:
 original_url:

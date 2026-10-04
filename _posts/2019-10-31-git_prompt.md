@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: My bash prompt is now two lines
-categories: programming command-line
-tags: git bash prompt
+categories: programming
+tags: git bash prompt command-line
 stopwords: png
 ---
 

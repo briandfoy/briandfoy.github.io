@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: What is a best practice?
-categories:
-tags:
+categories: programming opinion
+tags: best-practices
 stopwords:
 last_modified:
 original_url:

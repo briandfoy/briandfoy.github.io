@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Amazon's Silly Leadership Principles
-categories:
-tags:
+categories: opinion reading-list
+tags: amazon management dennis-consorte
 stopwords:
 last_modified:
 original_url:

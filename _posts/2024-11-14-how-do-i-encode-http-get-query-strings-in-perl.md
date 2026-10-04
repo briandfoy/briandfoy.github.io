@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: How do I encode HTTP GET query strings in Perl?
-categories: perl programming
-tags:
+categories: programming
+tags: perl
 stopwords: deprecations LWP's tx url
 last_modified:
 original_url: https://stackoverflow.com/a/79850071/2766176

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Doing it the new way
-categories:
-tags:
+categories: opinion
+tags: productivity
 stopwords:
 last_modified:
 original_url:

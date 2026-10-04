@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Considerations for new programming languages
-categories:
-tags:
+categories: computer-science opinion
+tags: language-design smalltalk alan-kay ide bonnie-nardi
 stopwords:
 last_modified:
 original_url:

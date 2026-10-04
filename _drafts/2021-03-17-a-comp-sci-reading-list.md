@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: A Comp Sci Reading List
-categories:
-tags:
+categories: computer-science reading-list
+tags: alan-turing claude-shannon edsger-dijkstra
 stopwords:
 last_modified:
 original_url:

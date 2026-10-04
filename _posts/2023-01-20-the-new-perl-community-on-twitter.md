@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The new Perl community on Twitter
-categories: perl social-media
-tags: twitter
+categories: social-media
+tags: twitter perl
 stopwords: pre amirite
 last_modified:
 original_url:

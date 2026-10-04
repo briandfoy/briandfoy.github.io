@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: A tiny Mojolicious server in a test program
-categories: programming perl
-tags: mojolicious
+categories: programming
+tags: mojolicious perl
 stopwords: IOLoop
 last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1modg3c/a_tiny_mojo_server_in_a_test_program/

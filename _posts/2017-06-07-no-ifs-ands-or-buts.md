@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: No ifs, ands, or buts
-categories: perl programming object-orientation smalltalk ruby
-tags:
+categories: programming smalltalk ruby
+tags: perl object-orientation
 stopwords: Pharo's ifFalse ifTrue
 last_modified:
 original_url:

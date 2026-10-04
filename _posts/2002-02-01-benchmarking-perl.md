@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Benchmarking Perl
-categories: perl programming rescued-content
-tags: the-perl-journal the-perl-review
+categories: programming rescued-content
+tags: the-perl-journal the-perl-review perl
 stopwords: timediff timestr
 last_modified:
 original_url: https://www.foo.be/docs/tpj/issues/vol3_3/tpj0303-0009.html

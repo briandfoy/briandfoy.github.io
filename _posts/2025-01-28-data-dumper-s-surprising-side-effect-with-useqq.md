@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Data::Dumper's surprising side effect with Useqq
-categories: perl
-tags: data-dumper
+categories:
+tags: data-dumper perl
 stopwords: FFFF Sortkeys xFFFF
 last_modified:
 original_url:

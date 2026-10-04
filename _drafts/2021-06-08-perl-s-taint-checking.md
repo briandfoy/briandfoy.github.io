@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Perl's taint checking
-categories:
-tags:
+categories: programming
+tags: perl taint-checking security
 stopwords:
 last_modified:
 original_url:

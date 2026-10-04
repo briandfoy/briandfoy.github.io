@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: On Computable Numbers
-categories:
-tags:
+categories: computer-science reading-list
+tags: alan-turing charles-petzold
 stopwords:
 last_modified:
 original_url:

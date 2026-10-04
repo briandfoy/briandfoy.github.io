@@ -3,7 +3,7 @@ layout: post
 status: _drafts
 title: HTMx stuff
 categories: programming
-tags: htmx
+tags: htmx web-ui
 stopwords:
 last_modified:
 original_url:

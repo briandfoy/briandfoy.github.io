@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: types in perl
-categories: perl programming
-tags: types
+categories: programming
+tags: types perl
 stopwords: PPI accelerometer allowfullscreen autoplay frameborder
 ---
 

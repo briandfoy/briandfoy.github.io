@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Separating Code, Presentation, and Configuration
-categories: perl programming
-tags: config mvc config rescued-content the-perl-review
+categories: programming rescued-content
+tags: config mvc config the-perl-review perl
 stopwords: Bek Dominus's Oberin pm's
 last_modified:
 original_url:

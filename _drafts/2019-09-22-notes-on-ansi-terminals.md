@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Notes on ANSI terminals
-categories:
-tags:
+categories: programming reading-list
+tags: terminal ansi-escape-codes iterm
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Perl's Problems
-categories: perl opinion programming
-tags: tom-christiansen randal-schwartz
+categories: opinion programming
+tags: tom-christiansen randal-schwartz perl
 stopwords: CMS Tachibana notest increas html
 last_modified:
 original_url:

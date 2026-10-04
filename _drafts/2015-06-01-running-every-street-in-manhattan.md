@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Running every street in Manhattan
-categories:
-tags: running
+categories: running
+tags:
 stopwords:
 last_modified:
 original_url:

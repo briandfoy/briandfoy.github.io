@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: 64 Programming Tips
-categories:
-tags:
+categories: programming
+tags: best-practices
 stopwords:
 last_modified:
 original_url:

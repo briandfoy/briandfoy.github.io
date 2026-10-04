@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: It's not Singletons, it's your language
-categories:
-tags: programming singletons
+categories: programming
+tags: singletons
 stopwords:
 last_modified:
 original_url:

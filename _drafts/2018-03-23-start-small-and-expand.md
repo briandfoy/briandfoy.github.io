@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Start small and expand
-categories:
-tags:
+categories: programming opinion
+tags: best-practices
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Reflections from Software Devs
-categories:
-tags:
+categories: programming reading-list
+tags: career alex-ewerlof andrew-wulf
 stopwords:
 last_modified:
 original_url:

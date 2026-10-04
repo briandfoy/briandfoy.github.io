@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Singleton Design Pattern
-categories: perl programming rescued-content design-patterns object-orientation
-tags:  singletons the-perl-review
+categories: programming rescued-content
+tags:  singletons the-perl-review perl design-patterns object-orientation
 stopwords: Devel Lukka Memoized SvREFCNT Tuomas Vlissides Wardley dbh srm
 last_modified:
 original_url:

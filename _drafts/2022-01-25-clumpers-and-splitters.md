@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Clumpers and Splitters
-categories:
-tags:
+categories: programming opinion
+tags: classification dewey-decimal-classification dian-fossey
 stopwords:
 last_modified:
 original_url:

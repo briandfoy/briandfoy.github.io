@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: If software were houses
-categories: opinion programming
-tags: rescued-content
+categories: opinion programming rescued-content
+tags:
 stopwords: html
 ---
 

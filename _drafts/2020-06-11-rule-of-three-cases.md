@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Rule of Three Cases
-categories:
-tags:
+categories: programming software-architecture
+tags: rule-of-three internationalization
 stopwords:
 last_modified:
 original_url:

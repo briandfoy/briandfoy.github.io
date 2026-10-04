@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: One-liners for Farhenheit to Celcius
-categories: command-line perl
-tags: bash
+categories:
+tags: bash perl command-line
 stopwords: bc ssl
 last_modified:
 original_url:

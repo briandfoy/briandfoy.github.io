@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Don't trust third parties
-categories:
-tags:
+categories: programming reading-list
+tags: self-hosting performance harry-roberts
 stopwords:
 last_modified:
 original_url:

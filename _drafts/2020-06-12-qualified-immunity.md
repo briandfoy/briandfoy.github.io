@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Qualified Immunity
-categories:
-tags:
+categories: society reading-list
+tags: law supreme-court qualified-immunity
 stopwords:
 last_modified:
 original_url:

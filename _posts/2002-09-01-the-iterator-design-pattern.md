@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Iterator Design Pattern
-categories: perl programming  rescued-content  design-patterns
-tags: the-perl-review
+categories: programming  rescued-content  design-patterns
+tags: the-perl-review perl design-patterns
 stopwords: IxHash ReadBackwards Vlissides getc scalar's
 last_modified:
 original_url:

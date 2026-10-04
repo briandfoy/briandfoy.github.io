@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Open Source's dirty secrets
-categories:
-tags:
+categories: opinion programming
+tags: licenses open-source
 stopwords:
 last_modified:
 original_url:

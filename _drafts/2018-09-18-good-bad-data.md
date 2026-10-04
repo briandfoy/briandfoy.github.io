@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Good Bad Data
-categories:
-tags:
+categories: programming
+tags: testing yaml
 stopwords:
 last_modified:
 original_url:

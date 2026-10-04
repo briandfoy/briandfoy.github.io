@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Do I want to process this file?
-categories: perl programming
-tags: grep mmap minion
+categories: programming
+tags: grep mmap minion perl
 stopwords: EOF ETL MacBookPro filesystems pre randos CPUs SSD eco
 last_modified:
 original_url:

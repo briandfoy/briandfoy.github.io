@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Mac Property Lists
-categories:
-tags:
+categories: programming
+tags: perl macos plist plutil mac-propertylist
 stopwords:
 last_modified:
 original_url:

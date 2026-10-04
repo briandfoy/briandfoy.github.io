@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Rectangle Class is Wrong
-categories: programming object-orientation
-tags: rectangle
+categories: programming
+tags: rectangle object-orientation
 stopwords: MVCs Pythagorus Reenskaug Rotaters Scalers Trygve absurdium carré categorizer english un webpage ClosedRegularConvexPolygon MegaEquiQuad externality scrollbars scrollbars frankenstein façile SetHeight SetWidth
 last_modified:
 original_url:

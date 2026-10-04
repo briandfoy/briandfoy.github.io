@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Why I didnt submit that patch
-categories: perl programming
-tags: github dzil dist-zilla
+categories: programming
+tags: github dzil dist-zilla perl
 stopwords: IDEs Rik SourceForge devs
 last_modified:
 original_url: http://www.defectiveperlprogramming.com/2014/01/08/why-i-didnt-submit-that-patch/

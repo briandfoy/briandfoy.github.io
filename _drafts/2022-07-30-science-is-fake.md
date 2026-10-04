@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Science is fake
-categories:
-tags:
+categories: science opinion
+tags: scientific-misconduct replication-crisis stanford-prison-experiment brian-wansink maria-konnikova
 stopwords:
 last_modified:
 original_url:

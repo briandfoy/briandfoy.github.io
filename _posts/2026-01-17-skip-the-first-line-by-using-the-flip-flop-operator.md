@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Skip the first line by using the flip-flop operator
-categories: perl programming
-tags: flip-flop perlfaq
+categories: programming
+tags: flip-flop perlfaq perl
 stopwords: sed's th
 last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1t8o9y1/geeking_out_about_the_flipflop_operator/

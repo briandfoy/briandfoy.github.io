@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: brian's Guide To Solving Any Perl Problem
-categories: programming
-tags: rescued-content guide
+categories: programming rescued-content
+tags: guide
 stopwords: ActiveState's ENV Tk
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=376075

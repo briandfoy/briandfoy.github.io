@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Notes on Claude Shannon
-categories:
-tags:
+categories: computer-science reading-list
+tags: claude-shannon
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: StackOverflow Patterns
-categories:
-tags:
+categories: programming opinion
+tags: stackoverflow
 stopwords:
 last_modified:
 original_url:

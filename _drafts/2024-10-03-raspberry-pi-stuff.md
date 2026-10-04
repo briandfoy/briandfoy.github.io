@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Raspberry Pi Stuff
-categories:
-tags:
+categories: system-administration cheatsheet
+tags: raspberry-pi
 stopwords:
 last_modified:
 original_url:

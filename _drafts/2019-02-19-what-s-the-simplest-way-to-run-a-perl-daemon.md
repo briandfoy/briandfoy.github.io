@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: What's the simplest way to run a Perl daemon?
-categories:
-tags:
+categories: programming
+tags: perl daemon
 stopwords:
 last_modified:
 original_url:

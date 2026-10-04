@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Number base conversions on the command line
-categories: perl programming command-line
-tags: perl bash aliases
+categories: programming
+tags: perl bash aliases command-line
 ---
 
 I made some bash aliases to convert between number bases. Remember that Perl's [oct](https://perldoc.perl.org/functions/oct.html) can translate the other bases as long as the input string has the prefix, such as `0b10101`:

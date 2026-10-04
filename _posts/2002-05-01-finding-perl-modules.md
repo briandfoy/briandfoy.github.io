@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Finding Perl Modules
-categories: perl programming rescued-content
-tags: documentation the-perl-review
+categories: programming rescued-content
+tags: documentation the-perl-review perl
 stopwords: Smyth
 last_modified:
 original_url:

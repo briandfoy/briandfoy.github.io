@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Why should I care about generics?
-categories:
-tags: programming
+categories: programming
+tags:
 stopwords:
 last_modified:
 original_url:

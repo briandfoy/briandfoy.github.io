@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Various Programming Things
-categories:
-tags:
+categories: programming
+tags: solid acid
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: How to write a program
-categories:
-tags:
+categories: programming
+tags: best-practices command-line
 stopwords:
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Façade Design Pattern
-categories: perl programming rescued-content  design-patterns
-tags: the-perl-review
+categories: programming rescued-content
+tags: the-perl-review perl   design-patterns
 stopwords: arounds Starsinic's Vlissides hoc
 last_modified:
 original_url:

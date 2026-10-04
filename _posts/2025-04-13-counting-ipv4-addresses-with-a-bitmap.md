@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Counting IPv4 addresses with a bitmap
-categories: perl programming
-tags: bit-vector vec
+categories: programming
+tags: bit-vector vec perl
 stopwords: endianness SVs vec
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Open source is not about money, or you
-categories: open-source opinion
-tags: randal-schwartz simon-phipps clojure
+categories: opinion programming
+tags: randal-schwartz simon-phipps clojure open-source
 stopwords: Bianculli READMEs Cognitect's Stallman's emptor deps gifter offerer codebase NYU contraindicative codebase
 last_modified:
 original_url:

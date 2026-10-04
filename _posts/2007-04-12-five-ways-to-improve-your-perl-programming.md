@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Five Ways to Improve Your Perl Programming
-categories: rescued-content
-tags:
+categories: programming rescued-content
+tags: perl
 stopwords: nfreeze perlrun OnLamp Schilli's Thalhammer's O'Reilly's
 last_modified:
 original_url: http://www.onlamp.com/pub/a/onlamp/2007/04/12/five-ways-to-improve-your-perl-programming.html

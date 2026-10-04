@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Which module's interface is that?
-categories: opinion programming perl
-tags:
+categories: opinion programming
+tags: perl
 stopwords: AnyDBM distro https pre prereq lifecycle
 last_modified:
 original_url:

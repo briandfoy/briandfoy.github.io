@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Broken windows was always bullshit
-categories:
-tags:
+categories: science reading-list
+tags: broken-windows stanford-prison-experiment replication-crisis philip-zimbardo ben-blum james-q-wilson george-kelling
 stopwords:
 last_modified:
 original_url:
