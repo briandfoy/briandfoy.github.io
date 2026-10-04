@@ -17,7 +17,7 @@ Simon Stålenhag painted scenes in the style of a used rather than sterile unive
 
 ![](/images/tales-from-the-loop/the-electric-state.jpeg){: width="600" height="331"}
 
-![](/images/tales-from-the-loop/gas.jpeg)
+![](/images/tales-from-the-loop/gas.png){: width="600" height="317"}
 
 
 The paintings don't tell a story any more than any moment in time lays out a narrative, which is to say neither does. The moment you see isn't a story, and might not even be a moment. That's the one sentence summary of Sontag's *[On Photography](https://amzn.to/34agHiO)*. That's the beauty of that art; the narrative is left to the viewer, and every viewer can construct their own narrative.
