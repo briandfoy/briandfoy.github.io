@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: What version of Unicode is your Perl using?
-categories: perl programming
-tags: unicode ruby python
+categories: programming
+tags: unicode ruby python perl
 stopwords: rbconfig RbConfig unidata UnicodeVersion
 last_modified:
 original_url:

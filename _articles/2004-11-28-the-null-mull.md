@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Null Mull
-categories: perl programming object-orientation
-tags: design-patterns rescued-content perlmonks
+categories: programming object-orientation
+tags: design-patterns rescued-content perlmonks perl
 stopwords:
 last_modified:
 original_url: https://www.perlmonks.org/?node_id=410871

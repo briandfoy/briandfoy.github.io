@@ -168,3 +168,25 @@ div.youtube {
 	margin: 0 auto;
 	max-width: 100%;
 	}
+
+ul.year_list {
+	list-style: none;
+	padding-left: 0;
+	}
+
+li.year_item {
+	display: flex;
+	align-items: baseline;
+	gap: 1em;
+	padding: 0;
+	line-height: 1.4;
+	}
+
+li.year_item span.post-meta {
+	flex: 0 0 4em;
+	font-size: 0.85em;
+	text-align: right;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+	color: #888;
+	}

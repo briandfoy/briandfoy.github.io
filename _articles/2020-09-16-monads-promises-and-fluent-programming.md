@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Monads, Promises, and Fluent Programming
-categories: perl programming design-patterns
-tags: promises monads
+categories: programming design-patterns
+tags: promises monads perl
 stopwords: Stepan's Parunashvili
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: A format for RPSL
-categories: perl programming
-tags: rpsl
+categories: programming
+tags: rpsl perl
 stopwords: perlform printf reselect RIPE's formatter pre reimplemented
 last_modified:
 original_url:

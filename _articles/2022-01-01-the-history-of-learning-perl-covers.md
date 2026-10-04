@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The history of Learning Perl covers
-categories: perl
-tags: learning-perl
+categories:
+tags: learning-perl perl
 stopwords: monospaced snuck
 last_modified:
 original_url:

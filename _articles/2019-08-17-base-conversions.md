@@ -2,7 +2,7 @@
 layout: post
 status: _posts
 title: Number base conversions on the command line
-categories: perl programming command-line
+categories: programming command-line
 tags: perl bash aliases
 ---
 

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: The Perl Bus Factor
-categories: perl programming opinion
-tags: ruby pause cpan
+categories: programming opinion
+tags: ruby pause cpan perl
 stopwords: Klint
 last_modified:
 original_url:

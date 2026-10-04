@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Compiling Perl v5.8 on Debian Slim
-categories: perl containers
-tags: debian slim
+categories: containers
+tags: debian slim perl
 stopwords: alpn INET netbase notest nudp tcp UDP
 last_modified:
 original_url:

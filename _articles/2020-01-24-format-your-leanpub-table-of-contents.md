@@ -1,9 +1,9 @@
 ---
 layout: post
 status: _posts
-categories: perl programming
+categories: programming
 title: Format Your LeanPub Table of Contents
-tags: css-selector leanpub mojolicious mojo-web-clients
+tags: css-selector leanpub mojolicious mojo-web-clients perl
 stopwords: culted toc mojo
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 status: _drafts
 title: 33 Fundamentals Every Perl Developer Should Know
-categories: programming perl
+categories: programming
 tags: perl
 stopwords:
 last_modified:

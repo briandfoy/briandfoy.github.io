@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: My Perl recruitment thoughts
-categories: perl opinion rescued-content
-tags: perl-mongers
+categories: opinion rescued-content
+tags: perl-mongers perl
 original_url: http://blogs.perl.org/users/brian_d_foy/2014/12/my-perl-recruitment-thoughts.html
 ---
 

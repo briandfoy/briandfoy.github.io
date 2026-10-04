@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Simple RSS with Perl
-categories: perl programming
-tags: rss xml rescued-content the-perl-review
+categories: programming rescued-content
+tags: rss xml  the-perl-review perl
 stopwords: rdf url
 last_modified:
 original_url:

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Perl, people, society, & mobs
-categories: perl opinion rescued-content
-tags:
+categories: opinion rescued-content
+tags: perl
 stopwords: flyer
 ---
 

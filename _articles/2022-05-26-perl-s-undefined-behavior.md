@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Perl's undefined behaviors
-categories: programming perl
-tags:
+categories: programming
+tags: perl
 stopwords:
 last_modified:
 original_url:

@@ -2,7 +2,7 @@
 layout: post
 status: _posts
 title: How do you master Perl?
-categories: programming teaching perl
+categories: programming teaching
 tags: perl rescued-content
 stopwords: Cozen's Dominus's LWP Langworth retitling templating horked gethostbyname
 last_modified:

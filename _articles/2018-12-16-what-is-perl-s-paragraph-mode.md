@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: What is Perl's paragraph mode?
-categories: perl
-tags:
+categories:
+tags: perl
 stopwords:
 last_modified:
 original_url:

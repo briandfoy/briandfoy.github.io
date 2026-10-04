@@ -2,8 +2,8 @@
 layout: post
 status: _drafts
 title: Conditional matching
-categories: perl regex
-tags:
+categories: regex
+tags: perl
 stopwords:
 last_modified:
 original_url:

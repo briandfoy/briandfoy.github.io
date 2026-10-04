@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Perl versions included in Mac releases
-categories: programming macos perl
-tags: defaults
+categories: programming macos
+tags: defaults perl
 stopwords: VERSIONER usr
 last_modified:
 original_url:

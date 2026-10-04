@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Reduce the Special Case
-categories: perl programming
-tags: mojolicious
+categories: programming
+tags: mojolicious perl
 tags: edge-cases perl
 stopwords:
 ---
