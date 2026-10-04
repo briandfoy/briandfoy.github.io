@@ -12,7 +12,7 @@ layout: default
 		<span class="categories">
 			{% assign categories = page.categories | sort %}
 			{% for category in categories %}
-			<a href="/categories/{{ category }}/">{{ category }}</a>&nbsp;
+			<a href="{{ '/categories/' | relative_url }}#{{ category | slugify }}">{{ category }}</a>&nbsp;
 			{% endfor %}
 		</span>
 	</p>
@@ -26,7 +26,7 @@ layout: default
     	{% assign tags = page.tags | sort %}
     		tags:
 			{% for tag in tags %}
-			  <a href="/tags/{{ tag }}/">{{ tag }}</a>&nbsp;
+			  <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">{{ tag }}</a>&nbsp;
 			{% endfor %}
 	</span>
 	</p>
