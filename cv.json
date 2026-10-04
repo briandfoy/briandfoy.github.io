@@ -1,38 +1,34 @@
 {
 "Blogs": [
 	{
-	"title": "https://www.learning-perl.com",
-	"url": "Learning Perl"
+	"title": "Learning Perl",
+	"url": "https://www.learning-perl.com"
 	},
 	{
-	"title": "https://www.intermediateperl.com",
-	"url": "Intermediate Perl"
+	"title": "Intermediate Perl",
+	"url": "https://www.intermediateperl.com"
 	},
 	{
-	"title": "https://www.masteringperl.org",
-	"url": "Mastering Perl"
+	"title": "Mastering Perl",
+	"url": "https://www.masteringperl.org"
 	},
 	{
-	"title": "https://www.programmingperl.org/",
-	"url": "Programming Perl"
+	"title": "Programming Perl",
+	"url": "https://www.programmingperl.org/"
 	},
 	{
-	"title": "https://www.effectiveperlprogramming.com/",
-	"url": "Effective Perl Programming"
+	"title": "Effective Perl Programming",
+	"url": "https://www.effectiveperlprogramming.com/"
 	},
 	{
-	"title": "https://www.learningraku.com",
-	"url": "Learning Raku"
-	},
-	{
-	"title": "http://blogs.perl.org/users/brian_d_foy/",
-	"url": "blogs.perl.org"
+	"title": "blogs.perl.org",
+	"url": "http://blogs.perl.org/users/brian_d_foy/"
 	}
 	],
 "Online Activities": [
 	{
 	"title": "CPAN modules and scripts",
-	"link": "https://metacpan.org/author/BDFOY/"
+	"link": "https://metacpan.org/author/BRIANDFOY/"
 	},
 	{
 	"title": "Moderator for the Perl subreddit",
