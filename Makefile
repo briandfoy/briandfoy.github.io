@@ -140,9 +140,7 @@ publish: preprocess ## remake stuff and send it to GitHub
 
 .PHONY: rebuild
 rebuild: ## tell GitHub to rebuild the site
-	$(CURL) -X POST \
-	$(GITHUB_API_BASE)/builds \
-	-H "Accept: application/vnd.github.mister-fantastic-preview+json"
+	$(CURL) -X POST $(GITHUB_API_BASE)/builds
 
 ######################################################################
 # Monitoring
