@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: I hold my pen differently
 categories: technology
 tags: taylor-swift pen

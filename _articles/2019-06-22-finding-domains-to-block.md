@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Finding domains to block
 categories: system-administration
 tags: dns dnsmasq domain-fronting privacy

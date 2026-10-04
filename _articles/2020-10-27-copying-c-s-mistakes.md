@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Copying C's mistakes
 categories: programming
 tags: perl wart

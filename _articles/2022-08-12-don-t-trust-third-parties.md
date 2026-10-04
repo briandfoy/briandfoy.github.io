@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Don't trust third parties
 categories:
 tags:

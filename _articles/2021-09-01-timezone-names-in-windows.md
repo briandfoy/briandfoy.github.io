@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Timezone names in Windows
 categories: windows timezones
 tags:

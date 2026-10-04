@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: It's the Interface, Stupid
 categories:
 tags:

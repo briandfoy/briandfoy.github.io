@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Importing array values into Postgres from CSV
 categories: databases
 tags: postgres

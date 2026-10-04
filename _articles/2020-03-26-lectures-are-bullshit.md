@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Lectures are bullshit
 categories: teaching
 tags: oreilly conferences

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Anything new will help
 categories: programming opinion
 tags: scrum scrum-master

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Number base conversions on the command line
 categories: perl programming command-line
 tags: perl bash aliases

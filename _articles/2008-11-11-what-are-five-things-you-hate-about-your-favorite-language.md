@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: What are five things you hate about your favorite language?
 categories: programming opinion
 tags:

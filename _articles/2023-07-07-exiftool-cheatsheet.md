@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: exiftool cheatsheet
 categories: cheatsheet exiftool
 tags: exiftool

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: The case against Perl Best Practices
 categories:
 tags:

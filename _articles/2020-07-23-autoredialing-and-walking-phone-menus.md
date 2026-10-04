@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Autoredialing and walking phone menus
 categories: perl programming
 tags: applescript phone-tree

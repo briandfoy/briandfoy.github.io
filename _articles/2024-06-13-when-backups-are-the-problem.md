@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: When backups are the problem
 categories:
 tags:

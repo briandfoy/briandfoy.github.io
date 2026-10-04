@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Calibrating my oven
 categories: technology
 tags: oven thermometer

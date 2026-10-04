@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Compiling Perl v5.8 on Debian Slim
 categories: perl containers
 tags: debian slim

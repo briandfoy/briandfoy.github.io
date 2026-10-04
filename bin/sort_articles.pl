@@ -20,5 +20,6 @@ foreach my $item ( $base->list->each ) {
 	my $dir = $root->child($type);
 	$dir->make_path;
 
+	say "\tdir is $dir";
 	$dir->child($item->basename)->spew($map);
 	}

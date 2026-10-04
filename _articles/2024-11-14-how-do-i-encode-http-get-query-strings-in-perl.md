@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: How do I encode HTTP GET query strings in Perl?
 categories: perl programming
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: I was almost a Pro Quarterback
 categories: numeracy
 tags: football nflpa

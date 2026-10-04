@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Rescuing Future Folk from my iPhone
 categories: technology
 tags: apple music dropbox iphone synology Quickconnect

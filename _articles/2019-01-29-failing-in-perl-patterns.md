@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: FAILing in Perl patterns
 categories:
 tags:

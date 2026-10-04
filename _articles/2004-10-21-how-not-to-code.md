@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: How not to code
 categories: programming opinion
 tags: rescued-content

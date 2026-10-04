@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: A Comp Sci Reading List
 categories:
 tags:

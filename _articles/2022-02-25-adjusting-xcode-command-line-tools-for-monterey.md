@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Adjusting XCode command-line tools for Monterey
 categories: macos
 tags: xcode

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Moose has a problem, and it's not what you think
 categories: programming
 tags: perl moose object-orientation

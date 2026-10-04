@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Notes on Kill It With Fire
 categories: book-review programming
 tags: legacy

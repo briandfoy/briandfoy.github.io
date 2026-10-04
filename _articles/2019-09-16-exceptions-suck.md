@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Exceptions suck
 categories: programming
 tags: exceptions perl

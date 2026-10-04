@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Five Ways to Improve Your Perl Programming
 categories: rescued-content
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: It's not Singletons, it's your language
 categories:
 tags: programming singletons

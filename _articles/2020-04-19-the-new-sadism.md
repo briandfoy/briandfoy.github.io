@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: The New Sadism
 categories: perl programming
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Compendium of macOS Command-Line Tools
 categories: cheatsheet
 tags: macOS

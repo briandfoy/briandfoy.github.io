@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Considerations for new programming languages
 categories:
 tags:

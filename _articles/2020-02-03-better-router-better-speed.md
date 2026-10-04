@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Better router, better speed
 categories: nyc-mesh
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: High-level code isn't low-level code
 categories:
 tags:

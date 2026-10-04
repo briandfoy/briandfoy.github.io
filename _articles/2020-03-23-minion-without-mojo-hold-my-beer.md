@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: "Minion without Mojo: Hold My Beer"
 categories:
 tags: mojolicious minion

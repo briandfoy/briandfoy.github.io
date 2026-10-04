@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Quake's Fast Inverse Square Algorithm
 categories: programming
 tags: math floating-point

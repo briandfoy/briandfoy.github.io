@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 categories: perl programming
 title: Format Your LeanPub Table of Contents
 tags: css-selector leanpub mojolicious mojo-web-clients

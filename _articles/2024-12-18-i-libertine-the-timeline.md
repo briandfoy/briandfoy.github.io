@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: I, Libertine, the timeline
 categories:
 tags:

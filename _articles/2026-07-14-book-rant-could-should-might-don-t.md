@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: (Book Rant) Could Should Might Don't
 categories:
 tags:

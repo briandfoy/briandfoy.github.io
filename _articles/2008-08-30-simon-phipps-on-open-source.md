@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Simon Phipps on Floss Weekly
 categories: programming rescued-content open-source opinion
 tags:

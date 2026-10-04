@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Monads, Promises, and Fluent Programming
 categories: perl programming design-patterns
 tags: promises monads

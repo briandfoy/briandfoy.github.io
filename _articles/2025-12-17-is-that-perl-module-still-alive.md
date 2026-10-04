@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Is that Perl module still alive?
 categories: perl
 tags: pause cpan

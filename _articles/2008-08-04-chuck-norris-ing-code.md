@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Chuck Norris-ing code
 categories: programming opinion rescued-content
 tags: chuck-norris randal-schwartz stonehenge

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Check all you want, but the data are useless
 categories: personal-history programming graduate-school
 tags: tcl expect poisoning-the-well

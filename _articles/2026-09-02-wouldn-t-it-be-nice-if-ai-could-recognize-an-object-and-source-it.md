@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Wouldn't it be nice if AI could recognize an object and source it?
 categories: ai
 tags: claude

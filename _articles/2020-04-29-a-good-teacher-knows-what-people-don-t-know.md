@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: A good teacher knows what people don't know
 categories: teaching
 tags: gordon-ramsey bon-appetit

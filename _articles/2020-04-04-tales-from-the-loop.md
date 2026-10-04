@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Tales from the Loop
 categories: movie-review
 tags: tv amazon margaret-atwood susan-sontag

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: How a script becomes a module
 categories: perl programming
 tags: rescued-content perlmonks

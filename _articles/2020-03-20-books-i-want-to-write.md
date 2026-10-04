@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Books I want to write
 categories: writing
 tags: books programming

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Open Source's dirty secrets
 categories:
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: A CPAN distroprefs example
 categories: perl programming
 tags: cpan

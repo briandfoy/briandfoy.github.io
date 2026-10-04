@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: The Neil deGrasse Tyson Hater Reader
 categories:
 tags:

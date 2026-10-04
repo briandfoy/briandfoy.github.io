@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Get this blog
 categories: blogging
 tags: github-pages jekyll

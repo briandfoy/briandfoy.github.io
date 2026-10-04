@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: If you can't write, you can't program
 categories: programming
 tags: programming stackoverflow

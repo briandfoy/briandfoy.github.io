@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Skipping profile parts while running through BBEdit
 categories: consumer-software programming macos
 tags: bbedit secrets

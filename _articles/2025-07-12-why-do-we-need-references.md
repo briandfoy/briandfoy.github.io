@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Why do we need references?
 categories: programming perl
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Factorials and recursion
 tags: factorial recursion
 stopwords:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Perl and Git hunk headers
 categories: git
 tags: git

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: The Perl Bus Factor
 categories: perl programming opinion
 tags: ruby pause cpan

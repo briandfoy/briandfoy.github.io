@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Which module's interface is that?
 categories: opinion programming perl
 tags:

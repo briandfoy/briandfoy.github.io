@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: iTunes on Ubuntu
 categories: macos consumer-software
 tags: ubuntu itunes wine

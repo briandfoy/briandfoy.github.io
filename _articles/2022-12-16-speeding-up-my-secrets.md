@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Speeding up my secrets
 categories: macos
 tags: secrets bash

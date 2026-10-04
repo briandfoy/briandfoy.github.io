@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: IPv4 conversion aliases
 categories: perl programming command-line
 tags: ipv4 bash

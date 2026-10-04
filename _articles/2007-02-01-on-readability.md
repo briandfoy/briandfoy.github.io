@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: On Readability
 categories: programming opinion
 tags:

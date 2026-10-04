@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Your OO Accessors Are Destroying Everything
 categories: programming object-orientation opinion
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Accessors for Fixed Data
 tags: object-orientation
 categories:

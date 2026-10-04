@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Backing up my WordPress blogs
 categories: blogging system-administration command-line
 tags: wordpress systemd mysqldump wp-cli

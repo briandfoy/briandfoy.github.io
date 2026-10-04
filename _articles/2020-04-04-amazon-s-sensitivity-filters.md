@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Amazon's Sensitivity Filters
 categories: social-media
 tags: amazon

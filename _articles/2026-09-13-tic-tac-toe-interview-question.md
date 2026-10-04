@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Tic Tac Toe Interview Question
 categories:
 tags:

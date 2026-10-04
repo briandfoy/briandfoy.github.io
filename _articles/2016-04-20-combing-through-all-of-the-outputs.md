@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Combing through all of the outputs
 categories:
 tags:

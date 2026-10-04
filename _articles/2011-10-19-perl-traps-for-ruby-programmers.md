@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Perl Traps for Ruby Programmers
 categories:
 tags:

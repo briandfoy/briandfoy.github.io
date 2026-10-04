@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: What We Actually Know About Software
 categories:
 tags:

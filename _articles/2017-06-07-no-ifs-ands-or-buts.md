@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: No ifs, ands, or buts
 categories: perl programming object-orientation smalltalk ruby
 tags:

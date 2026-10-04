@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: The software I live in
 categories: consumer-software macos
 tags: bbedit iterm quicksilver perl

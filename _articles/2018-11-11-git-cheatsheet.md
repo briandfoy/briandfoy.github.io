@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Git cheatsheet
 categories: cheatsheet
 tags: git

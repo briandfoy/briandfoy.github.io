@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: python-s-weird-ssl-issues
 categories:
 tags:

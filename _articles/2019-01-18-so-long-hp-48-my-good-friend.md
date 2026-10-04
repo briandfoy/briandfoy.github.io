@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: So long, HP-48, my good friend
 categories: technology
 tags: hp-48 physics calculator

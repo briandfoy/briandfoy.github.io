@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Use OpenAI to make data structures
 categories:
 tags:

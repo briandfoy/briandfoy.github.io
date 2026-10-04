@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Murder by Cholesterol
 categories: personal-history graduate-school
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Finding Perl Modules
 categories: perl programming rescued-content
 tags: documentation the-perl-review

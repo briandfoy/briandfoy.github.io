@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Pausing Cloudflare with Mojo::UserAgent
 categories: perl programming
 tags: cloudflare mojo-useragent

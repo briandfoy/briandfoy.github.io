@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Eminence-based programming
 categories: programming
 tags: opinion

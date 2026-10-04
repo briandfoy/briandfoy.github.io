@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: "Review of Style: An Anti-Textbook"
 categories: book-review writing rescued-content
 tags:

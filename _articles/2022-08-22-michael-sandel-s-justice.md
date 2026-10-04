@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Michael Sandel's Justice
 categories:
 tags:

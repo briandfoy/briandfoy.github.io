@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Stack Exchange clickbait "editor war"
 categories: programming opinion
 tags:

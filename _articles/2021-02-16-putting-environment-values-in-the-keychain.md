@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Putting environment values in the keychain
 categories: programming
 tags: macOS secrets bash

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Satanic Panic
 categories: society timeline
 tags: satan mass-delusion panic

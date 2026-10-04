@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: 64 Programming Tips
 categories:
 tags:

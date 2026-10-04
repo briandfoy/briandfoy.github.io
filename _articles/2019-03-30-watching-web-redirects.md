@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Watching web redirects
 categories: system-administration
 tags: http perl ruby python mojolicious

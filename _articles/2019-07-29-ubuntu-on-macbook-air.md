@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Rescuing my MacBook Air by Installing Ubuntu
 categories: system-administration
 tags: ubuntu macbook-air slackware linux

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: What is Perl's paragraph mode?
 categories: perl
 tags:

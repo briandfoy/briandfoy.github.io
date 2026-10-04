@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Uncle Bob, Lesson 3
 categories: programming object-orientation
 tags: uncle-bob

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: What's the pull of that planet?
 categories: numeracy book-review
 tags: astronomy

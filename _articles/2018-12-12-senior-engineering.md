@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Senior Engineering
 categories: programming
 tags: jobs

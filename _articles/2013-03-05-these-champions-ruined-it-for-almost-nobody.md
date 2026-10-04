@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: These champions ruined it for almost nobody
 categories: book-review rescued-content running
 tags: alberto-salazer bill-rodgers frank-shorter fred-lebow

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Amazon's Silly Leadership Principles
 categories:
 tags:

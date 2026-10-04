@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: It's log all the way down
 categories: perl programming
 tags: logarithms

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Doubly-broken UTF-8
 categories:
 tags:

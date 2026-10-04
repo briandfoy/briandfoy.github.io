@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: What I'd Love to Have in Perl
 categories:
 tags:

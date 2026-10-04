@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Use several git services at once
 categories: system-administration
 tags: github bitbucket gitlab

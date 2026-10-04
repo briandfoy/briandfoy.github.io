@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Use identity instead of logic in object-oriented programming
 categories:
 tags:

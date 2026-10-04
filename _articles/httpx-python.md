@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Python's httpx is not so great
 categories:
 tags: javascript

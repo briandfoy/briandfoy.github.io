@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Encrypting secrets for GitHub's API with Perl and libsodium
 categories: perl programming github
 tags: libsodium

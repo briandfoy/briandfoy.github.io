@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Stuff I Don't Care About
 categories: programming
 tags:

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Pausing all Cloudflare domains
 categories: system-administration
 tags: cloudflare web-api

@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: In Perl, how can I find the index of a given value in an array?
 categories:
 tags:

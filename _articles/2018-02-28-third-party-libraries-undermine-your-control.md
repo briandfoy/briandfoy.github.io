@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Third-party libraries undermine your control
 categories: perl programming opinion
 tags: cpan

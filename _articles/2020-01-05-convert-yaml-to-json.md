@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Converting YAML to JSON
 categories: programming
 tags: json yaml jq yq aliases python go

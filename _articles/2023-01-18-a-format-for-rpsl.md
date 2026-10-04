@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: A format for RPSL
 categories: perl programming
 tags: rpsl

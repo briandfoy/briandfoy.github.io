@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Who wants to be popular?
 categories: programming perl opinion rescued-content
 tags:

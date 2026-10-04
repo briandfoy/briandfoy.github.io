@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Separating Code, Presentation, and Configuration
 categories: perl programming
 tags: config mvc config rescued-content the-perl-review

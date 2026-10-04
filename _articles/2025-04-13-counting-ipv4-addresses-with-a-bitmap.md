@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Counting IPv4 addresses with a bitmap
 categories: perl programming
 tags: bit-vector vec

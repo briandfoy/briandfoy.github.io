@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Reflections from Software Devs
 categories:
 tags:

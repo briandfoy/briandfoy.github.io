@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Installing GCC on macOS
 categories:
 tags:

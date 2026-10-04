@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Playing with the Cloudflare Cache
 categories:
 tags:

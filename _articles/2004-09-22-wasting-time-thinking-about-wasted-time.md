@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: Wasting Time Thinking About Wasted Time
 categories: perl programming
 tags: rescued-content perlmonks benchmarking

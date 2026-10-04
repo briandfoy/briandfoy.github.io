@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _post
+status: _posts
 title: What version of Unicode is your Perl using?
 categories: perl programming
 tags: unicode ruby python

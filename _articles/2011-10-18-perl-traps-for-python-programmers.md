@@ -1,6 +1,6 @@
 ---
 layout: post
-status: _draft
+status: _drafts
 title: Perl Traps for Python Programmers
 categories:
 tags:
