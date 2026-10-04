@@ -95,7 +95,7 @@ new: ## create a new draft an open it in an editor
 preprocess: sort_articles books.md $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 .PHONY: sort_articles
-sort_articles:
+sort_articles: ## move articles into their site directory
 	$(PERL) bin/sort_articles.pl
 
 ######################################################################
