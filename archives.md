@@ -2,20 +2,16 @@
 layout: default
 title: Archives
 permalink: /archives/
-generated-by: bin/make_archives
 ---
-{% assign years = "2026,2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002" | split: "," %}
-{% for year in years %}
-  <h3 class="archive_year" id="archive_year_{{year}}">{{ year }}</h3>
-  <ul class="year_list" id="year_list_{{year}}">
-    {% for post in site.posts %}
-      {% assign post_year = post.date | date: "%Y" %}
-      {% if post_year == year %}
-        <li class="year_item">
-          <span class="post-meta">{{ post.date | date: "%d %b" }}</span>
-          <a class="archive_item" href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endif %}
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+{% for year in posts_by_year %}
+  <h3 class="archive_year" id="archive_year_{{ year.name }}">{{ year.name }}</h3>
+  <ul class="year_list" id="year_list_{{ year.name }}">
+    {% for post in year.items %}
+      <li class="year_item">
+        <span class="post-meta">{{ post.date | date: "%d %b" }}</span>
+        <a class="archive_item" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
     {% endfor %}
   </ul>
 {% endfor %}

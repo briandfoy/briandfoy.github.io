@@ -30,7 +30,6 @@ STRIP_MD:=bin/strip_md_codeblocks
 # Things relates to the posts
 DRAFTS_DIR:=_drafts
 POSTS:=$(wildcard _posts/*.md)
-GENERATED_PAGES:=archives.md
 INCLUDES:=$(wildcard _includes/*.html)
 LAYOUTS:=$(wildcard _layouts/*.html)
 STYLES:=$(wildcard _sass/*.scss)
@@ -82,9 +81,6 @@ open: ## open the website
 ######################################################################
 # Making pages
 
-archives.md: bin/make_archives bin/post_years $(POSTS)
-	@ bin/post_years $(POSTS) | xargs bin/make_archives > $@
-
 books.md: bin/make_books_page.pl books.json
 	$(PERL) bin/make_books_page.pl > $@
 
@@ -96,7 +92,7 @@ new: ## create a new draft an open it in an editor
 	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
 
 .PHONY: preprocess
-preprocess: sort_articles archives.md books.md $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+preprocess: sort_articles books.md $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
 
 .PHONY: sort_articles
 sort_articles:
