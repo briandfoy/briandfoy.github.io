@@ -8,6 +8,7 @@ CURL:=/usr/bin/curl --netrc --silent
 GITHUB_API_BASE:=https://api.github.com/repos/$(GITHUB_USER)/$(SITE_HOST)/pages
 
 # These things are related to Perl
+PERL=/Users/brian/bin/perl
 CPANMODULES=.cpanmodules
 
 # These things are related to Ruby
@@ -97,7 +98,11 @@ new: ## create a new draft an open it in an editor
 	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
 
 .PHONY: preprocess
-preprocess: archives.md books.md tags $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+preprocess: sort_articles archives.md books.md tags $(GENERATED_PAGES) $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
+
+.PHONY: sort_articles
+sort_articles:
+	$(PERL) bin/sort_articles.pl
 
 .PHONY: tags
 tags:
