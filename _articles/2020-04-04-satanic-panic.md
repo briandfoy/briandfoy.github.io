@@ -13,6 +13,8 @@ A timeline of the Satanic Panic in my lifetime. I noticed a spate of podcasts ab
 
 <!--more-->
 
+* September 2026 - Rosie Waterhouse publishes *Satanic Panic: A Modern Myth Part 2*
+* April 2026 - Shiver - Paranormal Documentaries [The Truth Behind Satanic Panic - Exploring Satanism and Modern Myths](https://www.youtube.com/watch?v=YVP4D-2V7Rw)
 * **April 1, 2025** - CBC - [https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse](https://www.cbc.ca/listen/cbc-podcasts/472-satanic-panic/episode/16137454-satanic-panic-introduces-agent-pale-horse)
 * August 2024 - *Harper's* - "The New Satanic Parnic: Exorcism in the Age of TikTok" [August issue](https://harpers.org/archive/2024/08/)
 * July 30, 2024 - Rick Emerson publishes [Unmask Alice: LSD, Satanic Panic, and the Imposter Behind the World's Most Notorious Diaries](https://amzn.to/4ax5sTR)
