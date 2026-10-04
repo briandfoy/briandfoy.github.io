@@ -64,11 +64,11 @@ Back to Tyson's lack of curiosity and general ignorance of art.
 
 My immediate reaction to his statement was that I thought that Van Gogh often painted pastorals and landscapes with such banal titles. Indeed, he's painted one with the same title, *La Nuit étoilée*, the year before! I just need to find another, earlier one.
 
-![](/images/starry_night/Starry_Night_Over_the_Rhone.jpg)
+![](/images/starry_night/Starry_Night_Over_the_Rhone-1000.jpg){: width="1000" height="775"}
 
 It turned out very easy to prove Tyson wrong (almost). At first, I thought I'd just get a list of all titles of paintings in the 1800s and find other backgroundy titles. Before that, I checked van Gogh's *Starry Night*'s date. [It's Wikipedia page](https://en.wikipedia.org/wiki/The_Starry_Night) lists two other paintings with the same title, and one is Jean-François Millet's *[Nuit Étoilée](https://artgallery.yale.edu/collections/objects/52945)* from somewhere between 1850 and 1865! I've barely started and Tyson is already wrong, using just the tools that third graders use for their school reports.
 
-![](/images/starry_night/Starry_Night_by_Millet.jpeg)
+![](/images/starry_night/Starry_Night_by_Millet-1000.jpeg){: width="1000" height="803"}
 
 But, there's a catch, and this is where his scientific training should come into play. In reality, this training often does not escape the lab.
 
@@ -109,7 +109,7 @@ Although it would be tedious to explain this during a Rogan interview, I would h
 
 This is even more interesting since he later talks about the [first image of a black hole](https://www.jpl.nasa.gov/edu/news/2019/4/19/how-scientists-captured-the-first-image-of-a-black-hole/) after making a big deal about the difference between an artist's interpretation of a scene and a photograph. That image of the black hole is not a photograph; it's a heavily processed visualization of the data from a network of telescopes. This isn't the Hubble with an open shutter collecting light. Scientists collect a bunch of electrical signals (that are often not human-visible photons), combine them, colorize them, and present them. The NASA announcement is very careful to note that it's an image of *the silhouette* of a black hole, because you obviously can't take a picture of something which emits nothing. That is, in terms of art, "negative space", which is a somewhat joyful convergence of art and science (should black holes even have space). And, remember, gravity curves space-time, so the light we do see is already distorted—the distortion of light from Mercury was one of the tests for general relativity (and not what got Einstein the Nobel).
 
-![](/images/starry_night/blackhole20190410.jpg)
+![](/images/starry_night/blackhole20190410.jpg){: width="787" height="590"}
 
 Curiously, there's some interesting science about what the image of a black hole would look like:
 

@@ -15,7 +15,7 @@ Why can't things be simple anymore? Why can't I easily send a Gmail message to s
 
 I want to process my Leanpub royalty data. I can make a request for that data at a particular endpoint, after which LeanPub will email me a link to a file on S3. I understand there's a bit of capacity planning here because LeanPub may not be able to make the file right away, but so far I always get the email right away. And that email has to go to my account email, which is my Gmail address.
 
-![](/images/leanpub/wait_for_mail.png)
+![](/images/leanpub/wait_for_mail.png){: width="550" height="187"}
 
 Here's the process so far:
 

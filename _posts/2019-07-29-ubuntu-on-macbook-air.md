@@ -6,7 +6,7 @@ categories: system-administration
 tags: ubuntu macbook-air slackware linux
 ---
 
-![Ubuntu on a MacBook Air](/images/ubuntu-on-air.jpg)
+![Ubuntu on a MacBook Air](/images/ubuntu-on-air.jpg){: width="600" height="450"}
 
 Installing Ubuntu on an old Mac is amazingly easy now. I have a [2012
 MacBook Air

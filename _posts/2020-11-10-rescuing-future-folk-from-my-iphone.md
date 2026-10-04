@@ -88,13 +88,13 @@ They sell only one album on Amazon, but they sell both on Apple Music. I thought
 
 I was momentarily relieved when I realized this some of the rare music I download from the cloud. There's that little icon next to the album and songs:
 
-![](/images/future-folk/listing.png)
+![](/images/future-folk/listing.png){: width="600" height="178"}
 
 But, true to Apple Music's track record, I can't re-download it all. I get one of two error messages:
 
-![](/images/future-folk/problem.png)
+![](/images/future-folk/problem.png){: width="572" height="314"}
 
-![](/images/future-folk/unavailable.png)
+![](/images/future-folk/unavailable.png){: width="602" height="274"}
 
 I tried Apple Match when it debuted, but it was a disaster. It mislabeled large parts of my library—all the Led Zeppelin songs were moved to different albums. See Jim Dalrymple's [Apple Music is a nightmare and I’m done with it](https://www.loopinsight.com/2015/07/22/apple-music-is-a-nightmare-and-im-done-with-it/) for the basic idea. I unfucked this in fits and starts over several years, but only after I stopped using Apple Match.
 
@@ -102,7 +102,7 @@ All of this was messed up on my laptop. What about on my phone? I check; the mus
 
 The trick is to get it off my phone, and I found an app for that. [iExplorer](https://macroplant.com/iexplorer). It can mount my phone so that I can get to the files stored there. Easy peasy. I can transfer files from my phone to my laptop. (I have also tried [ifuse](https://github.com/libimobiledevice/ifuse/wiki) to varying degrees of success, but it was such a painful process that I avoid that).
 
-![](/images/future-folk/iexplorer.png)
+![](/images/future-folk/iexplorer.png){: width="600" height="340"}
 
 I extracted the _.m4a_ files I needed, and they weren't protected. I don't recall if they ever were. I decided to convert them to _.mp3_ just in case. It's a short shell loop to batch mode the `ffmpeg` conversion. That `${f%.*}` is a nifty bit of [shell expansion](https://www.gnu.org/software/bash/manual/bash.html#Shell-Expansions) to modify the filename:
 

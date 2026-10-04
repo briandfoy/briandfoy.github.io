@@ -99,7 +99,7 @@ this had another problem on my side. Next, I blocked them at the
 Cloudflare level with a User-Agent based firewall rule. I should have
 started with this:
 
-![Cloudflare fireawall rule](/images/ahrefsbot-firewall-rule.png)
+![Cloudflare fireawall rule](/images/ahrefsbot-firewall-rule.png){: width="600" height="196"}
 
 Now none of these requests reached my server, but I could watch in them
 the Cloudflare logs. The crawling went on for another hour or so

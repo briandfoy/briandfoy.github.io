@@ -15,7 +15,7 @@ that they messed up? Or which character did I write down incorrectly?
 
 Now I have that encoded in QR:
 
-![WiFi QR code](/images/wifi-qr-code.png)
+![WiFi QR code](/images/wifi-qr-code.png){: width="111" height="111"}
 
 Point your iOS camera ([iOS 11 and up](https://developer.apple.com/videos/play/tech-talks/206/)) at this and it fills in the network details. Don't have
 an iPhone? I hope you aren't expecting any messages. Well, [Android users](https://android.gadgethacks.com/how-to/easily-share-your-wi-fi-password-with-qr-code-your-android-phone-0183483/)

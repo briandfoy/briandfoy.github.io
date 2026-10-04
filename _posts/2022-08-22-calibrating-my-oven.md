@@ -25,7 +25,7 @@ On the first go I just hung the probes from the oven rack, but the results were 
 
 I constructed a holder from some spare silicon to hold the probes away from everything.
 
-![](/images/oven/probes.jpg)
+![](/images/oven/probes.jpg){: width="1000" height="750"}
 
 None of these have been calibrated at high temps. I don't even know how I'd do that; would I use boiling glycerin (554 F)? Now I wonder if my rangetop could boil glycerin. I don't think I've even done that in a working wet lab.
 
@@ -37,7 +37,7 @@ I think I'm right. My oven dial is 50 F off. The Govee and the Taylor largely ag
 
 The Yacumama agrees with the other two until it doesn't. That doesn't make it a bad thermometer. As a meat thermometer, it really needs to be accurate to about 175 F. After that most people don't care.
 
-![](/images/oven/temp-chart.png)
+![](/images/oven/temp-chart.png){: width="723" height="276"}
 
 My oven's maximum temp is about 400 F. This is a problem for some bread recipes which want 500 F at the beginning and 450 after that.
 

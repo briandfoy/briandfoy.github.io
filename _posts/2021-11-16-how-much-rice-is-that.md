@@ -20,15 +20,15 @@ On this podcast, the person says that by the time you get to square 14, you have
 
 Take this plot of the grains on rice on each square. It's nothing, then all of a sudden, something. It's a line plot of every eight squares, giving it a more linear appearance than it deserves:
 
-![](/images/rice/64-squares.png)
+![](/images/rice/64-squares.png){: width="750" height="625"}
 
 Consider the same plot but for half the board. The values on the Y axis are different, but since these are large numbers, they are as meaningless as other large numbers. It's one, two, many.
 
-![](/images/rice/32-squares.png)
+![](/images/rice/32-squares.png){: width="672" height="625"}
 
 Engineers may go for the logarithmic plot, but that's more meaningless:
 
-![](/images/rice/log.png)
+![](/images/rice/log.png){: width="661" height="542"}
 
 How much rice would actually fit on this chessboard? I'd never much thought about it. When you think about big numbers, forget the numbers. Relate it to something you can think about, done famously in Charles and Ray Eames's [Powers of Ten](https://www.youtube.com/embed/0fKBhvDjuy0).
 

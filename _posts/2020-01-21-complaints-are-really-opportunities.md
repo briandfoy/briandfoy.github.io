@@ -149,4 +149,4 @@ emacs.
 
 Here's a screencap:
 
-![Upwork job posting](/images/2020-01-21-upwork.png)
+![Upwork job posting](/images/2020-02-21-upwork.png){: width="1099" height="1168"}

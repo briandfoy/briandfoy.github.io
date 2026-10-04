@@ -162,7 +162,7 @@ right 144 forward 100
 left 72 forward 100
 {% endhighlight %}
 
-![](/images/rectangle-class/star.png)
+![](/images/rectangle-class/star.png){: width="670" height="630"}
 
 We're very close to a much more general idea: A closed path. Our sanity checker did whatever it needed to do to ensure that no part of the path crossed itself, but do we really care? What if we just did
 this so that paths crossed, giving us a star polygon instead of a convex one:
@@ -176,7 +176,7 @@ right 144 forward 200
 right 144 forward 200
 {% endhighlight %}
 
-![](/images/rectangle-class/star-crossed.png)
+![](/images/rectangle-class/star-crossed.png){: width="510" height="474"}
 
 Now our sanity checker need only ensure that we end up back at the spot we started. But, we're not going to do there. We know we can easily do that:
 
@@ -268,7 +268,7 @@ Beyond that, we might want to categorize them, but this isn't something the poly
 
 And now here's a big point. A polygon is not a square because we call it a square. It's a square because it satisfies the external categorizations we apply. A parallelogram, rhombus, rectangle, and even other categories probably, can supply an exemplar that satisfy the definition of a square. How would any sort of inheritance faithfully represent those overlapping sets?
 
-![](/images/rectangle-class/overlap.png)
+![](/images/rectangle-class/overlap.png){: width="614" height="571"}
 
 These are things that a categorizer can figure out based on the properties. It's not a huge tragedy to add these to the polygon class itself, but we don't want to pollute its list of methods with tens or hundreds of external judgments. Remember, if we are consistently adding methods to an instance to support something an actor wants to do with that instance, we're probably doing it wrong.
 

@@ -49,10 +49,10 @@ Now none of the secrets are in the file.
 
 There's a bit of a catch. macOS may pop up a dialog asking for my login password (or the password for the particular keychain).
 
-![](/images/keychains/dialog.png)
+![](/images/keychains/dialog.png){: width="546" height="314"}
 
 I can change the access on my own to never prompt, or to allow particular programs access:
 
-![](/images/keychains/access.png)
+![](/images/keychains/access.png){: width="646" height="459"}
 
 Once I adjust all of that, I don't get further dialogs.

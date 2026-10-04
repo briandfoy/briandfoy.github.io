@@ -128,11 +128,11 @@ In that 4-5% of the mass of the universe, the four most abundant elements by mas
 
 Here's a bar plot of their relative mass fraction. Hydrogen is about 74% of the baryonic mass, Hydrogen is about 24%, Oxygen is about 1%, and then you can barely notice that anything else is there. Looking at this chart, the egregious omission of Helium is more apparent:
 
-![](/images/tyson-hot-ones/by-mass.png)
+![](/images/tyson-hot-ones/by-mass.png){: width="413" height="294"}
 
 This looks even worse if you count atoms instead of weighing them. Since Carbon is about 12 times heavier than Hydrogen and Oxygen is about 16 times heavier, their fraction by mass gets a big boost. By count, they virtually disappear:
 
-![](/images/tyson-hot-ones/by-count.png)
+![](/images/tyson-hot-ones/by-count.png){: width="381" height="288"}
 
 We are not made of the main elements of the Universe. We are made of the most abundant one, Hydrogen, and then some minor ones. That looks even worse when we look at our bodies composition.
 
@@ -207,7 +207,7 @@ That Oxygen would get together to do that seems very unlikely, and we don't have
 
 Maybe we need a different role models for scientists, perhaps ones with a bit more gumption. They don't even have to be real. Or maybe we just need to abandon Tyson on Mars.
 
-![](/images/tyson-hot-ones/science-the-shit.gif)
+![](/images/tyson-hot-ones/science-the-shit.gif){: width="382" height="158"}
 
 ## Finally
 

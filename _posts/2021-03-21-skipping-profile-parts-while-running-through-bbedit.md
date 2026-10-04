@@ -16,7 +16,7 @@ annoying.
 
 This isn't a big deal. I have to figure out how to test whether BBEdit is the thing that started this shell. It turns out to be easy. I write a program to dump the environment:
 
-![](/images/secrets/bbenv.png)
+![](/images/secrets/bbenv.png){: width="549" height="280"}
 
 I see I have plenty to choose from, and `BBEDIT_CLIENT_INTERACTIVE` looks like the best option:
 

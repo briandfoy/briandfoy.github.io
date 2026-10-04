@@ -15,7 +15,7 @@ I've recently thrown away my last HP-48, of the handful that I've owned. I've fo
 
 This wasn't just another calculator. This was full on scientific tool and created cults of its own. There's an [HP calculator museum](https://www.hpmuseum.org) and you can [still buy software for it](https://www.hpcalc.org). These may not have been as prized as good slide rules, but they did come with soft cases.
 
-![](/images/hp48/calculator.jpg)
+![](/images/hp48/calculator-1000.jpg){: width="1000" height="1444"}
 
 I got my first Hewlett-Packard 48 graphing calculator sometime in college, probably around the time they were released. I liked the RPN and stack features, mostly. Keys for π and e are handy. Some people used the graphing or matrix features, but I was never that sophisticated.
 
@@ -29,6 +29,6 @@ I recognized the mortality of my friend, and the further removed I was from 1990
 
 I have the [RPN Calculator 48](https://apps.apple.com/us/app/rpn-calculator-48/id336580727). The interface has most of the things I used, although I miss the SWAP button.
 
-![](/images/hp48/screen.jpg)
+![](/images/hp48/screen.jpg){: width="450" height="800"}
 
 The two HP-48s stuck around for a bit, through a couple of moves even. One of them died and I couldn't fix it, but that's why I had the backup. Eventually, I figured I was using my iPhone for everything, and in a fit of downsizing I got rid of the backup too. It's a sad day, the end of an era.

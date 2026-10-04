@@ -75,7 +75,7 @@ copyright sign © and a snowflake❄
 
 It works.
 
-![Snowflake and Copyright](/images/arrow-snowflake-body.png)
+![Snowflake and Copyright](/images/latex-unicode/arrow-snowflake-body.png){: width="1304" height="288"}
 
 But it doesn't really work. Change the listing to remove the space before the snowflake; imagine this is computer code where these characters appear next to other non-space characters:
 
@@ -87,7 +87,7 @@ copyright sign © and a snowflake❄
 
 Now it doesn't work. The snowflake character shows up before the word snowflake:
 
-![Snowflake in incorrect position](/images/snowflake-before.png)
+![Snowflake in incorrect position](/images/latex-unicode/snowflake-before.png){: width="497" height="146"}
 
 The answer in [Listings in Latex with UTF-8 (or at least german umlauts)](https://stackoverflow.com/q/1116266/2766176) solved this problem by translating the UTF-8 character into a national encoding then using that character. It solved the problem by eliminating it. You can't just wish characters into the cornfield.
 
@@ -132,7 +132,7 @@ copyright sign © and a snowflake ❄
 \end{document}
 {% endhighlight %}
 
-![Snowflake in correct position](/images/snowflake-after.png)
+![Snowflake in correct position](/images/latex-unicode/snowflake-after.png){: width="476" height="132"}
 
 So, solved, right? What about combining characters? Can I make a dotless ı (U+0131) with a combining diaeresis (U+0308)?
 
@@ -163,7 +163,7 @@ copyright sign © and a snowflake❄ ı̈.
 
 The layout is a bit weird, but it's close:
 
-![dotless i and umlaut](/images/dotless.png)
+![dotless i and umlaut](/images/latex-unicode/dotless.png){: width="493" height="128"}
 
 Get a little bit weirder. How can I make an emoji work? Now that I know this mapping trick, I figure that a five digit codepoint might take five carets. That doesn't work in LuaLaTeX though. [listings package rearranges (Emoji) characters](https://tex.stackexchange.com/q/413452/130987) explains it. Additionally, since I don't have a monospaced font that has the  XXX
 

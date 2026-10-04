@@ -31,7 +31,7 @@ Using this on my phone is a bit tedious. I can almost do the same from the termi
 
 I get a notification with a "Call" button, which is still annoying: because I have to interact with something after I start the process:
 
-![Notification](/images/phone_menu_automation/notification.png)
+![Notification](/images/phone_menu_automation/notification.png){: width="344" height="64"}
 
 ## Automate the macOS UI
 
@@ -53,7 +53,7 @@ But, I can control the UI with AppleScript to press buttons for me. I found an e
 
 I can run that right from Script Editor. It runs the program, clicks the button, and my iPhone does the rest:
 
-![AppleScript Runner](/images/phone_menu_automation/applescript.png)
+![AppleScript Runner](/images/phone_menu_automation/applescript.png){: width="662" height="492"}
 
 But I can also export this as an Application. Now I have a clicky thing on my Desktop. I open that and it all happens. I have to give it permission to use Accessibility (in Preferences / Security & Privacy) and AppleEvents (allow in the dialog). I can also open it from the terminal:
 
@@ -132,6 +132,6 @@ I let this script run for a couple hours and finally got to an agent, but an age
 
 After 10 minutes, the automated service gave me the option to get a call back rather than wait. But wait! I had to "press 1" to confirm my number. The touchpad on the FaceTime notification lets me click the number on the mouse, but it sends a very short tone that the system would not pick up on. I tried this several times as it cycled me through the phone tree after it "couldn't understand my response".
 
-![Keypad](/images/phone_menu_automation/keypad.png)
+![Keypad](/images/phone_menu_automation/keypad.png){: width="344" height="487"}
 
 However, I wondered if I could type the 1 on my keyboard. That worked where clicking on the keypad didn't. It worked for the next keypress too.

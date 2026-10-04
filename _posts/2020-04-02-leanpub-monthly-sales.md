@@ -19,11 +19,11 @@ Once downloaded, I want to look at it in Numbers (because I'm a Mac weenie who d
 
 Here's where I mess up: I need to format the "Date Purchased (UTC)" column as a date. It's not very smart that organizing a column as a date does not either format it as a date for me or warn me that I haven't formatted it. That's the part that I never remember because without this step, categorizing still thinks it's a date and can still organize by the days of the month no matter which period I choose.
 
-![](/images/numbers-categorize/date-format.png)
+![](/images/numbers-categorize/date-format.png){: width="600" height="432"}
 
 After that, it's a simple matter of "organizing" (the round button with three horizontal lines in the upper right), choosing the date column, and selecting "Month":
 
-![](/images/numbers-categorize/categorize.png)
+![](/images/numbers-categorize/categorize.png){: width="600" height="432"}
 
 I thought I'd write this cheatsheet after googling to find the same thing I did the last two times, but I gave up and wrote a Perl program to do it for me. This is actually better because I get all the information I want without messing with a UI:
 

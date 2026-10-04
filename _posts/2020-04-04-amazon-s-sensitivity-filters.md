@@ -13,9 +13,9 @@ Some of my Amazon Reviews are hidden by sensitivity features. That means you won
 
 <!--more-->
 
-![](/images/amazon-filters/batteries.png)
+![](/images/amazon-filters/batteries.png){: width="600" height="349"}
 
-![](/images/amazon-filters/bread-book.png)
+![](/images/amazon-filters/bread-book.png){: width="600" height="372"}
 
 I don't really care, but I'm curious how products are classified as sensitive. I don't think a book about baking bread is sensitive.
 

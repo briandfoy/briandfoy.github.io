@@ -45,7 +45,7 @@ Now Google+ no longer exists; it was abandoned the same year they abandoned Inbo
 
 My reasons are a bit different from other people who have written about leaving GMail. I had become increasingly uncomfortable dealing with the company that removed "don't be evil" from their ethics. They instead used "Do the right thing", but that's not the same thing. The techie idea of "right" is generally naïve and tyrannical. It's the Lazlo Hollyfield Problem—all science, no philosophy.
 
-![](/images/real_genius/passed_but_failed.gif)
+![](/images/real_genius/passed_but_failed.gif){: width="500" height="211"}
 
 It's not just GMail that believes this. It's all of Big Tech, and they are all mostly playing with other people's money. When the person using the service isn't the one paying, incentives are misaligned and
 

@@ -15,7 +15,7 @@ I was watching [Star Trek: The Motion Picture](https://www.imdb.com/title/tt0079
 
 In one of these moments, a red shirt, right before he was assimilated into V'ger's memory, said the alien cloud had [a diameter of 82 AU](https://memory-alpha.fandom.com/wiki/V%27ger), or astronomical units. Out of habit I converted that to 41 AU because only savages and lumberjacks care about diameter while the rest of us deal in radii. Henceforth, it's just the Could.
 
-![](/images/vger/vger-enterprise.jpg)
+![](/images/vger/vger-enterprise.jpg){: width="800" height="500"}
 
 I don't recall paying attention to that detail before because it doesn't really matter to me. If some dialogue is wacky, I don't really care. It matters to the sophomoric nerdist [killjoys who complain about sound waves in space](https://www.wired.com/2016/04/neil-degrasse-tyson-black-hole-sucking-fun-universe/), but forget all sorts of inconvenient facts, like [infrasound](https://www.science.gov/topicpages/i/infrasound+source+observed). [Alien](https://www.imdb.com/title/tt0078748/) is still right though that nobody can here you scream, but if you are hosting a rager on Jupiter, those mad bass beats may be leaking over to Saturn, which is trying to bang a broom onto the top of its atmosphere.
 
@@ -29,7 +29,7 @@ Pluto, which is still a planet because fuck you, is about 30 AU away when it's a
 
 The heliosphere, the giant ball of the Sun's influence is about 100 AU away (and whose boundary is called the "heliopause"). At 82 AU across, the Cloud's ass will still be outside of the heliosphere when it bumps its head on Pluto. When it touches the Sun, it will be completely within the heliosphere but still wider than Pluto's closet approach. At that point, it will cover about a third of Pluto's angular sweep and about 7% of the heliosphere volume. It would absorb about 19% of the Sun's output.
 
-![](/images/vger/vger_cloud_overlap.svg)
+![](/images/vger/vger_cloud_overlap.svg){: width="600" height="239"}
 
 If the Sun suddenly shines its last light, it will take us Earthlings (Terrans?) eight minutes to find out, and once we find out everyone knows at roughly the same time, although we might be able to live for [a couple more months](http://curious.astro.cornell.edu/our-solar-system/39-our-solar-system/the-earth/other-catastrophes/61-how-long-could-life-on-earth-survive-if-the-sun-stopped-shining-beginner), although there would still be people interjecting at the space heater parties "it's a dry cold". If the Cloud just sits there, we'll have an additional season we call simply DarkTime.
 
