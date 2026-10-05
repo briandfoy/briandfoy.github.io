@@ -13,15 +13,21 @@ original_url:
 
 Create an image
 
-	docker build --no-cache -t creator/name:version -f Dockerfile .
+{% highlight console %}
+$ docker build --no-cache -t creator/name:version -f Dockerfile .
+{% endhighlight %}
 
 Create the container for the first time:
 
-	docker container run -it --name NAME creator/name:version
+{% highlight console %}
+$ docker container run -it --name NAME creator/name:version
+{% endhighlight %}
 
 Run the container once it exists but is stopped
 
-	docker start NAME
+{% highlight console %}
+$ docker start NAME
+{% endhighlight %}
 
 # review a failed build
 

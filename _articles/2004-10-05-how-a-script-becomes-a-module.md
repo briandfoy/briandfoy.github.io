@@ -344,19 +344,19 @@ I install this module wherever I like, but for this article, I just leave it in 
 
 I can call it as a script and I get the same output I got before. The `run()` statement in the third line runs because there is no caller: it's just a script running on its own.
 
-{% highlight text %}
+{% highlight console %}
 $ perl Score.pm
 {% endhighlight %}
 
 However, if I call it as a module, nothing happens because I never execute the `run()` statement since there is a caller.
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MScores -e 1
 {% endhighlight %}
 
 I can use the module to run other scripts, though.
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MScores -e "Local::Scores->run( shift )" Wilma
 {% endhighlight %}
 

@@ -19,7 +19,7 @@ Do this:
 
 	do_something();
 
-	sub do_somthing {
+	sub do_something {
 		return unless..
 		}
 

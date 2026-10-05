@@ -148,7 +148,7 @@ house = ClosedPolygon.new(
 
 What is that? Maybe this LOGO program will help ([try it](https://www.calormen.com/jslogo/)):
 
-{% highlight plain %}
+{% highlight text %}
 clearscreen
 right 18 forward 100
 left 72 forward 100
@@ -167,7 +167,7 @@ left 72 forward 100
 We're very close to a much more general idea: A closed path. Our sanity checker did whatever it needed to do to ensure that no part of the path crossed itself, but do we really care? What if we just did
 this so that paths crossed, giving us a star polygon instead of a convex one:
 
-{% highlight plain %}
+{% highlight text %}
 clearscreen
 right 18  forward 200
 right 144 forward 200

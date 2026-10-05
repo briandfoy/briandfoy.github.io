@@ -23,11 +23,15 @@ Imagine trying to debug something like this in a bizarro world in which I swear 
 
 I discovered this because I was testing some Postgres stuff and setting different values on the command line:
 
-    $ env PGSSLMODE=require ...
+{% highlight console %}
+$ env PGSSLMODE=require ...
+{% endhighlight %}
 
 My Perl program then couldn't find */Library/PostgreSQL/12/lib/libssl.1.1.dylib* and I'd get an error that says it can't find the library:
 
-    Library not loaded: libssl.1.1.dylib
+{% highlight text %}
+Library not loaded: libssl.1.1.dylib
+{% endhighlight %}
 
 Googling did not help that much. Most answers were just cargo-culting advice about Homebrew that is essentially "have you tried reinstalling it?"
 
@@ -41,72 +45,108 @@ As an aside, I don't mind that people use convenience tools such as `brew`. Howe
 
 I can set the `DYLD_LIBRARY_PATH` environment variable to tell processes where it can find dynamic libraries, and I can see that I've set it:
 
-    $ export DYLD_LIBRARY_PATH=/Library/PostgreSQL/12/lib
-    $ echo $DYLD_LIBRARY_PATH
-    /Library/PostgreSQL/12/lib
+{% highlight console %}
+$ export DYLD_LIBRARY_PATH=/Library/PostgreSQL/12/lib
+{% endhighlight %}
+
+{% highlight console %}
+$ echo $DYLD_LIBRARY_PATH
+/Library/PostgreSQL/12/lib
+{% endhighlight %}
 
 With a `perl` that I've compiled and installed myself (not the macOS system Perl), I can see the value from a Perl program, but from the system `perl` I can't:
 
-    $ which perl
-    /Users/brian/bin/perl
-    $ perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
-    /Library/PostgreSQL/12/lib
-    $ /usr/bin/perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
+{% highlight console %}
+$ which perl
+/Users/brian/bin/perl
+{% endhighlight %}
 
-    $
+{% highlight console %}
+$ perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
+/Library/PostgreSQL/12/lib
+{% endhighlight %}
+
+{% highlight console %}
+$ /usr/bin/perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
+
+$
+{% endhighlight %}
 
 But, if I run the same Perl one-liner under `env`, I can't see it:
 
-    $ env which perl
-    /Users/brian/bin/perl
-    $ env perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
+{% highlight console %}
+$ env which perl
+/Users/brian/bin/perl
+{% endhighlight %}
 
-    $
+{% highlight console %}
+$ env perl -le 'print $ENV{DYLD_LIBRARY_PATH}'
+
+$
+{% endhighlight %}
 
 This isn't a Perl thing. Here's the same thing in Ruby, which I installed myself:
 
-    $ which ruby
-    /usr/local/bin/ruby
-    $ ruby -e 'puts ENV["DYLD_LIBRARY_PATH"]'
-    /Library/PostgreSQL/12/lib
-    $ env ruby -e 'puts ENV["DYLD_LIBRARY_PATH"]'
+{% highlight console %}
+$ which ruby
+/usr/local/bin/ruby
+$ ruby -e 'puts ENV["DYLD_LIBRARY_PATH"]'
+/Library/PostgreSQL/12/lib
+$ env ruby -e 'puts ENV["DYLD_LIBRARY_PATH"]'
 
-    $
+$
+{% endhighlight %}
 
 Even worse, just running `env` means I won't see all of the environment variables. The variable is set and I can see it with `echo`, but `env` doesn't even know it exists:
 
-    $ env | grep DYLD
-    $
+{% highlight console %}
+$ env | grep DYLD
+$
+{% endhighlight %}
 
 And here's a small *Makefile* to show the value of `DYLD_LIBRARY_PATH`:
 
-    all:
-        @ echo "DYLD_LIBRARY_PATH=" $(DYLD_LIBRARY_PATH)
+{% highlight text %}
+all:
+	@ echo "DYLD_LIBRARY_PATH=" $(DYLD_LIBRARY_PATH)
+{% endhighlight %}
 
 It also sanitizes the environment when I use the XTools `make` (and I'd rather not muddy the waters with a different set of tools):
 
-    $ which make
-    /usr/bin/make
-    $ echo $DYLD_LIBRARY_PATH
-    /Library/PostgreSQL/12/lib
-    $ make
-    DYLD_LIBRARY_PATH=
+{% highlight console %}
+$ which make
+/usr/bin/make
+{% endhighlight %}
+
+{% highlight console %}
+$ echo $DYLD_LIBRARY_PATH
+/Library/PostgreSQL/12/lib
+{% endhighlight %}
+
+{% highlight console %}
+$ make
+DYLD_LIBRARY_PATH=
+{% endhighlight %}
 
 ## What can I do?
 
 As the nuclear option, I can turn off SIP. I have to boot into Recovery Mode and disable SIP from the terminal, then reboot into normal mode:
 
-    $ csrutil disable
+{% highlight console %}
+$ csrutil disable
+{% endhighlight %}
 
 I don't really want to do that though. I'd rather leave my base system as close to pristine as I can. The more I diverge from the normal case, the less I develop for the normal case. Something works accidentally for me because I have a special. more omniscient system.
 
 I can change my _Makefile_ to set a default (assign with `?=`) with a safe environment variable name and re-export it. Without the `export`, the `echo` sees the *Makefile* variable, but `perl` would not see an environment variable:
 
-    export DYLD_LIBRARY_PATH ?= $(MY_DYLD_LIBRARY_PATH)
+{% highlight text %}
+export DYLD_LIBRARY_PATH ?= $(MY_DYLD_LIBRARY_PATH)
 
-    all:
-        echo "DYLD_LIBRARY_PATH=" $(DYLD_LIBRARY_PATH)
-        perl -le 'print $$ENV{DYLD_LIBRARY_PATH}'
+all:
+	echo "DYLD_LIBRARY_PATH=" $(DYLD_LIBRARY_PATH)
+	perl -le 'print $$ENV{DYLD_LIBRARY_PATH}'
+{% endhighlight %}
 
 This requires me to set the extra environment variable, which is easy enough in a startup file. The hard part is adjusting foreign code to use this. This is where I think most developers would stop because it's achievable and we're used to working around obstacles when we can't get through them.
 
@@ -114,12 +154,14 @@ However, I didn't give up. There must be a better way. If I'm not supposed to us
 
 After I compiled [DBD::Pg](https://metacpan.org/pod/DBD::Pg), I looked at the *.bundle* file it created. `otool` can show you which libraries it wants:
 
-    $ otool -L ./blib/arch/auto/DBD/Pg/Pg.bundle
-    ./blib/arch/auto/DBD/Pg/Pg.bundle:
-        libssl.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
-        libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
-        libpq.5.dylib (compatibility version 5.0.0, current version 5.12.0)
-        /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
+{% highlight console %}
+$ otool -L ./blib/arch/auto/DBD/Pg/Pg.bundle
+./blib/arch/auto/DBD/Pg/Pg.bundle:
+	libssl.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
+	libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
+	libpq.5.dylib (compatibility version 5.0.0, current version 5.12.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
+{% endhighlight %}
 
 Three of those paths are relative, which is why it needs something like `DYLD_LIBRARY_PATH` to find them. The other one is an absolute paths. Huh. If I update those to absolute paths, I don't need to search through directories for them. The `install_name_change` tool (virtually completely undocumented) does this.
 
@@ -127,18 +169,28 @@ There are two ways to go here based on where this library is. If I can't tell th
 
 The `install_name_change` lets me update the library paths for either `RPATH` or absolute paths ([Fun with rpath, otool, and install_name_tool](https://medium.com/@donblas/fun-with-rpath-otool-and-install-name-tool-e3e41ae86172) is a nice read):
 
-    $ install_name_tool -change libssl.1.1.dylib /Library/PostgreSQL/12/lib/libssl.1.1.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
-    $ install_name_tool -change libcrypto.1.1.dylib /Library/PostgreSQL/12/lib/libcrypto.1.1.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
-    $ install_name_tool -change libpq.5.dylib /Library/PostgreSQL/12/lib/libpq.5.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
+{% highlight console %}
+$ install_name_tool -change libssl.1.1.dylib /Library/PostgreSQL/12/lib/libssl.1.1.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
+{% endhighlight %}
+
+{% highlight console %}
+$ install_name_tool -change libcrypto.1.1.dylib /Library/PostgreSQL/12/lib/libcrypto.1.1.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
+{% endhighlight %}
+
+{% highlight console %}
+$ install_name_tool -change libpq.5.dylib /Library/PostgreSQL/12/lib/libpq.5.dylib ./blib/arch/auto/DBD/Pg/Pg.bundle
+{% endhighlight %}
 
 I check with `otool` again to make sure it took:
 
-    $ otool -L ./blib/arch/auto/DBD/Pg/Pg.bundle
-    ./blib/arch/auto/DBD/Pg/Pg.bundle:
-        /Library/PostgreSQL/12/lib/libssl.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
-        /Library/PostgreSQL/12/lib/libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
-        /Library/PostgreSQL/12/lib/libpq.5.dylib (compatibility version 5.0.0, current version 5.12.0)
-        /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
+{% highlight console %}
+$ otool -L ./blib/arch/auto/DBD/Pg/Pg.bundle
+./blib/arch/auto/DBD/Pg/Pg.bundle:
+	/Library/PostgreSQL/12/lib/libssl.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
+	/Library/PostgreSQL/12/lib/libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
+	/Library/PostgreSQL/12/lib/libpq.5.dylib (compatibility version 5.0.0, current version 5.12.0)
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
+{% endhighlight %}
 
 And that works. I've filed [an issue on DBD::Pg](https://github.com/bucardo/dbdpg/issues/69), but I haven't worked on fixing the module installer.
 

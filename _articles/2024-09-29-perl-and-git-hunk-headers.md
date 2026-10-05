@@ -21,20 +21,20 @@ Git figures out how to handle files based on their filename and some default set
 
 But, I want my settings to apply to all of my projects. Instead of making changes in (or even adding the) *.gitatttributes* file for every repo, I want global (git's term for user, instead of system) settings. This affects the setting in my global (user) *.gitconfig* file (so *~/.gitconfig):
 
-{% highlight plain %}
- %  git config --global core.attributesfile /Users/brian/.gitattributes
+{% highlight console %}
+$ git config --global core.attributesfile /Users/brian/.gitattributes
 {% endhighlight %}
 
 In whatever *.gitattributes* I set up, I tell git which file extensions I want to use the `perl` diff driver:
 
-{% highlight plain %}
+{% highlight text %}
 *.pl diff=perl
 *.pm diff=perl
 {% endhighlight %}
 
 Here are the patterns
 
-{% highlight plain %}
+{% highlight text %}
 PATTERNS("perl",
 	 "^package .*\n"
 	 "^sub [[:alnum:]_':]+[ \t]*"
@@ -110,7 +110,7 @@ sub second_bar {
 
 Commit this, then add a line after the `package` line. Run `git diff`:
 
-{% highlight plain %}
+{% highlight console %}
 $ git diff
 diff --git a/hunk-header-demo.pl b/hunk-header-demo.pl
 index 0859b04..996bced 100644
@@ -129,7 +129,7 @@ index 0859b04..996bced 100644
 
 The hunk header is the line that starts with `@@`:
 
-{% highlight plain %}
+{% highlight text %}
 @@ -12,6 +12,8 @@ =head1 SYNOPSIS
 {% endhighlight %}
 
@@ -137,7 +137,7 @@ But that's not the immediate section of the code that that change is in! The pro
 
 Discard those changes and make a different change. Add a line immediately after the `sub first_foo {` line and diff again. Now the pattern picks up the `package` line even  though the change is inside a subroutine. Again, the `sub` line shows up in the context:
 
-{% highlight plain %}
+{% highlight console %}
 $ git diff
 diff --git a/hunk-header-demo.pl b/hunk-header-demo.pl
 index 0859b04..2d923bb 100644
@@ -155,7 +155,7 @@ index 0859b04..2d923bb 100644
 
 Discard the changes again and move that line between the subroutines (so it's not in the subroutines):
 
-{% highlight plain %}
+{% highlight console %}
 $ git diff
 diff --git a/hunk-header-demo.pl b/hunk-header-demo.pl
 index 0859b04..12bb07a 100644
@@ -195,7 +195,7 @@ my $string <<~'HERE';
 
 Now the patterns skip over the `pqackage` line for the hunk header:
 
-{% highlight text %}
+{% highlight console %}
 $ git diff
 diff --git a/hunk-header-demo.pl b/hunk-header-demo.pl
 index b4bc84e..1697477 100644
@@ -231,7 +231,7 @@ sub first_foo {
 
 The patterns don't pick up the `my sub`. The closest pattern is `^sub [[:alnum:]_':]+[ \t]*`, but that matches at the start of a line:
 
-{% highlight perl %}
+{% highlight console %}
 $ git diff
 diff --git a/hunk-header-demo.pl b/hunk-header-demo.pl
 index b994f50..29cd064 100644

@@ -29,12 +29,15 @@ http://wiki.python.org/moin/PerlPhrasebook
 
 * In Perl, you call a function with arguments:
 
-    my $string = join('|', qw(Python Perl Ruby) );
+{% highlight perl %}
+my $string = join('|', qw(Python Perl Ruby) );
+{% endhighlight %}
 
 In Python, there's likely a main argument with a method to do it:
 
-    new = '|'.join(['Python', 'Perl', 'Ruby'])
-
+{% highlight python %}
+new = '|'.join(['Python', 'Perl', 'Ruby'])
+{% endhighlight %}
 
 
 * Perl's match operator floats unless you anchor your patten. Python's `re.match()` only matches at the beginning of a line, although `re.search()` has an implicit `.*` at the beginning of the pattern.

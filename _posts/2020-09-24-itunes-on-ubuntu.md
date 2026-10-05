@@ -26,7 +26,7 @@ But, that doesn't recognize that there's an iPhone plugged in. That's not a big 
 
 We need something to pair with the iPhone and to mount it as a filesystem. The first part can use [libimobiledevice](https://libimobiledevice.org) and the second part can use [ifuse](https://github.com/libimobiledevice/ifuse)
 
-{% highlight text %}
+{% highlight console %}
 $ sudo apt install libimobiledevice6 libimobiledevice-utils ifuse
 {% endhighlight %}
 
@@ -34,7 +34,7 @@ There's also a very complicated set of steps in [How can I mount my iPhone 6s on
 
 We can connect the iPhone and pair easily enough with a couple of steps to get the passcode and have the iPhone trust the computer ([iOS 7 Locked Bug via Ubuntu 13.10](https://askubuntu.com/q/371711/912156) and [iOS 7 Compatibility / Trust Dialog handling](https://github.com/libimobiledevice/libimobiledevice/issues/20) for weird historical details. And, [How to access and mount iPhone 6 in Linux - Tutorial](https://www.dedoimedo.com/computers/linux-iphone-6.html)).
 
-{% highlight text %}
+{% highlight console %}
 $ idevicepair pair
 ERROR: Could not validate with device ... because a passcode is set. Please enter the passcode on the device and retry.$ idevicepair pair
 $ idevicepair pair

@@ -21,7 +21,7 @@ However, none of the code uses v5.10 features, which is something I'll get to in
 
 [Perl::MinimumVersion](https://metacpan.org/pod/Perl::MinimumVersion), which you can run from some other perl, can analyze the syntactical features you use and guess the minimum perl you need to run just that code (but maybe not that for whatever you load). It comes with `perlver`:
 
-{% highlight text %}
+{% highlight console %}
 $ perlver lib/HTML/Tagset.pm
 
    -------------------------------------------------
@@ -67,14 +67,14 @@ Those are the only two things that go wrong in this case. Without those, everyth
 
 As an aside, I have my own bespoke tool to manage my Perl module repos. My [bmt](https://github.com/briandfoy/app-bmt), which is targeted at my own sort of development and is not for people who want to do everything different (which is everyone but me, I bet). I make the change in one place and easily get it when I update a new workflow. This just pulls from the latest files in [briandfoy/github_workflows](https://github.com/briandfoy/github_workflows):
 
-{% highlight plain %}
-% bmt update_workflows
+{% highlight console %}
+$ bmt update_workflows
 {% endhighlight %}
 
 In reality, I use a more expansive function that updates everything that might need updating in a repo. Not all of this is related to files in the repo:
 
-{% highlight plain %}
-% bmt update_all
+{% highlight console %}
+$ bmt update_all
 {% endhighlight %}
 
 But, workflows, and most CI things, tend to be very brittle. One thing in the environment changes and it's a pain in the ass to get it working again. Failing to install LWP is that sort of change. Yes, there are fallbacks to wget, ftp, and so on, but I've found those to be flaky in GitHub Actions, which reinvents the shell, but as YAML. Well, there goes my weekend I guess.
@@ -95,7 +95,7 @@ Part of this is that people do not have good processes, just like almost everyon
 
 Now I have a link I look at everyday (and have yet to turn into an RSS feed). In GitHub issues, I can construct a search of all of the issues in all of my repos. It looks like this:
 
-{% highlight plain %}
+{% highlight text %}
 https://github.com/issues?q=is%3Aopen+-author%3Abriandfoy+user%3Abriandfoy+-label%3Astalled+-label%3A%22Status%3A+stalled%22+-label%3A%22help+wanted%22+-label%3A%22Status%3A+needs+help%22
 {% endhighlight %}
 
@@ -109,8 +109,8 @@ Along with this, I try to respond to every issue right away, even if that is to 
 
 To make this work, I have an expansive set of labels that I normalized across all my repositories. It's all inside that *bmt* tool, but it's easy for me to update when I add or rename these shared labels:
 
-{% highlight plain %}
-% bmt update_github_labels
+{% highlight console %}
+$ bmt update_github_labels
 {% endhighlight %}
 
 

@@ -28,50 +28,50 @@ Various weird GitHub things
 
 If I have one of their repos, I could look at one of their commits:
 
-{{highlight plain}}
+{% highlight console %}
 $ git log -1 --author=brian --format='%an <%ae>'
 brian d foy <briandfoy@pobox.com>
-{{endhighlight}}
+{% endhighlight %}
 
 If the user has set a public email, grab it from the GitHub user data. That field shows up for the authenticated requests:
 
-{{highlight plain}}
+{% highlight console %}
 $ curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/users/briandfoy | jq -r '.email'
-{{endhighlight}}
+{% endhighlight %}
 
 I don't have my public email set, which is kinda pointless since it's already in my commits, so I'm not really keeping anything private. This next one looks weird because I capture the output of the command as a string and send that to the command, so the "pipe" is flowing to the left, but that puts the GitHub author name at the end:
 
-{{highlight plain}}
+{% highlight console %}
 $  jq -r '.items[0].commit.author.email' \
 	<<< $(curl -s "https://api.github.com/search/commits?sort=author-date&order=desc&per_page=1&q=author:briandfoy")
 briandfoy@pobox.com
-{{endhighlight}}
+{% endhighlight %}
 
 If there is no `email`, construct their special GitHub no-reply email from their `id` and `login`:
 
-{{highlight plain}}
+{% highlight console %}
 $ jq -r '"\(.id)+\(.login)@users.noreply.github.com"' \
 	<<< $(curl -s https://api.github.com/users/briandfoy)
 22255+briandfoy@users.noreply.github.com
-{{endhighlight}}
+{% endhighlight %}
 
 Combined with the `.email` lookup to use that if there, and otherwise make the email:
 
-{{highlight plain}}
-jq -r '"\(.name // .login) <\(.email // "\(.id)+\(.login)@users.noreply.github.com")>"' <<< $(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/users/briandfoy)
-{{endhighlight}}
+{% highlight console %}
+$ jq -r '"\(.name // .login) <\(.email // "\(.id)+\(.login)@users.noreply.github.com")>"' <<< $(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/users/briandfoy)
+{% endhighlight %}
 
 Make it the "Co-Authored-By" line:
 
-{{highlight plain}}
-jq -r '"Co-authored-by: \(.name // .login) <\(.email // "\(.id)+\(.login)@users.noreply.github.com")>"' \
+{% highlight console %}
+$ jq -r '"Co-authored-by: \(.name // .login) <\(.email // "\(.id)+\(.login)@users.noreply.github.com")>"' \
 	<<< $(curl -s -H "Authorization: Bearer $GITHUB_TOKEN" https://api.github.com/users/briandfoy)
 Co-authored-by: brian d foy <22255+briandfoy@users.noreply.github.com>
-{{endhighlight}}
+{% endhighlight %}
 
 Put all those together:
 
-{{highlight plain}}
+{% highlight text %}
 #!/bin/bash
 # Usage: github-email USERNAME
 # Outputs the guessed email for a GitHub user
@@ -118,6 +118,6 @@ else
 fi
 
 echo "Co-authored-by: $name <$email>"
-{{endhighlight}}
+{% endhighlight %}
 
 

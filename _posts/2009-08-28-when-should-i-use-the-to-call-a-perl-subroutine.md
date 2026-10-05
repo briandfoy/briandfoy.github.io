@@ -15,32 +15,44 @@ I'm a frequent abuser of `&`, but mostly because I'm doing weird interface stuff
 
 1. Taking a reference to a named subroutine. This is probably the only common situation for most Perlers:
 
-    my $sub = \&foo;
+{% highlight perl %}
+my $sub = \&foo;
+{% endhighlight %}
 
 2. Similarly, assigning to a typeglob, which allows you to call the subroutine with a different name:
 
-    *bar = \&foo;
+{% highlight perl %}
+*bar = \&foo;
+{% endhighlight %}
 
 3. Checking that a subroutine is defined, as you might in test suites:
 
-    if( defined &foo ) { ... }
+{% highlight perl %}
+if( defined &foo ) { ... }
+{% endhighlight %}
 
 4. Removing a subroutine definition, which shouldn't be common:
 
-    undef &foo;
+{% highlight perl %}
+undef &foo;
+{% endhighlight %}
 
 5. Providing a dispatcher subroutine whose only job is to choose the right subroutine to call. This is the only situation I use `&` to *call* a subroutine, and when I expect to call the dispatcher many, many times and need to squeeze a little performance out of the operation:
 
-    sub figure_it_out_for_me {
-        # all of these re-use the current @_
-          if( ...some condition... ) { &foo     }
-        elsif( ...some other...     ) { &bar     }
-        else                          { &default }
-        }
+{% highlight perl %}
+sub figure_it_out_for_me {
+	# all of these re-use the current @_
+	  if( ...some condition... ) { &foo     }
+	elsif( ...some other...     ) { &bar     }
+	else                          { &default }
+	}
+{% endhighlight %}
 
 6. To jump into another subroutine using the current argument stack (and replacing the current subroutine in the call stack), an unrare operation in dispatching, especially in `AUTOLOAD`:
 
-    goto &sub;
+{% highlight perl %}
+goto &sub;
+{% endhighlight %}
 
 7. Call a subroutine that you've named after a Perl built-in. The `&` always gives you the user-defined one. That's <A href="http://www.learning-perl.com/2013/05/why-we-teach-the-subroutine-ampersand/">why we teach it in <i>Learning Perl</i></a>. You don't really want to do that normally, but it's one of the features of `&`.
 

@@ -28,7 +28,7 @@ alias 36h="$BASE_36 'printf qq(%X\n), decode_base36(shift)'"
 
 Here are some runs:
 
-{% highlight text %}
+{% highlight console %}
 $ h2d 89
 137
 

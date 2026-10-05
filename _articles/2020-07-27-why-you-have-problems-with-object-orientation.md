@@ -34,11 +34,15 @@ The first problem is that `birthdate` takes a `DateTime` object. Not only is thi
 
 The next problem is that there's a birthdate method that gives that object right back:
 
-    my $date = $ovid->birthdate;
+{% highlight perl %}
+my $date = $ovid->birthdate;
+{% endhighlight %}
 
 Another issue is that I have to construct a very heavy object when I probably don't use anything that requires it to be heavy. Consider this dump of a DateTime, which is 354 lines:
 
-    % perl-MDateTime -MData::Dumper -le 'print Dumper(DateTime->now)'
+{% highlight console %}
+$ perl -MDateTime -MData::Dumper -le 'print Dumper(DateTime->now)'
+{% endhighlight %}
 
 The computation for drinking age is very simple. Your birthdate has to be before a certain date. Leapseconds and timezones, two of the big advantages of `DateTime`, don't come into it. This computation has the granularity of a day. You don't even care about Daylight Saving time. You need to know the year, month, and day. The answer changes exactly once every calendar day. Indeed, in YYYYMMDD, you simply compare the numbers.
 

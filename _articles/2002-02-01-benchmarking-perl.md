@@ -138,7 +138,8 @@ timethis($iterations, $code, 'Foreach');
 {% endhighlight %}
 
 
-{% highlight text %}Foreach:  2 wallclock secs ( 1.65 usr +  0.00 sys =  1.65 CPU) @ 606.06/s (n=1000)
+{% highlight text %}
+Foreach:  2 wallclock secs ( 1.65 usr +  0.00 sys =  1.65 CPU) @ 606.06/s (n=1000)
 {% endhighlight %}
 
 ## Example: some sums

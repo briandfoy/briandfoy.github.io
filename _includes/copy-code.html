@@ -1,5 +1,16 @@
 <script>
 document.querySelectorAll('figure.highlight').forEach(function (figure) {
+	var tools = document.createElement('div');
+	tools.className = 'code-tools';
+
+	var langCode = figure.querySelector('code[data-lang]');
+	if (langCode) {
+		var label = document.createElement('span');
+		label.className = 'code-lang';
+		label.textContent = langCode.getAttribute('data-lang');
+		tools.appendChild(label);
+	}
+
 	var button = document.createElement('button');
 	button.className = 'copy-code';
 	button.type = 'button';
@@ -14,6 +25,7 @@ document.querySelectorAll('figure.highlight').forEach(function (figure) {
 		});
 		setTimeout(function () { button.textContent = 'Copy'; }, 2000);
 	});
-	figure.appendChild(button);
+	tools.appendChild(button);
+	figure.appendChild(tools);
 });
 </script>

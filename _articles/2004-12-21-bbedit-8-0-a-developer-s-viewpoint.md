@@ -47,16 +47,16 @@ I do quite a bit of work from the Terminal (well, iTerm, really) command line, a
 
 The latest update makes it even better. I can now pipe output from a command line process into BBEdit without creating an unsaved document. That way, I don't have to go through the annoying "Do you want to save changes" dialog. Once I've seen it and want to get rid of it, I just close the document.
 
-{% highlight text %}
-% netstat -rn | bbedit --clean
+{% highlight console %}
+$ netstat -rn | bbedit --clean
 {% endhighlight %}
 
 I wish I had this feature for the "Unix Script Output" window I get when I choose "Run" from the "#!" menu (which I've set to Shift-Apple-R with the "Set Menu Keys..." item from the BBEdit menu.
 
 It gets even better, though. If I want to look at piped output, I want to read it from the top. Previously, BBEdit placed the cursor at the end of the output, but I can now start off at the top of the output.
 
-{% highlight text %}
-% netstat -rn | bbedit --clean -view-top
+{% highlight console %}
+$ netstat -rn | bbedit --clean -view-top
 {% endhighlight %}
 
 To get this updated version of the command line tool, you have to go to the Preferences. In the Tools pane, click on the button that says "Install Command Line Tools," which installs the latest versions of BBEdit and bbdiff.
@@ -107,7 +107,7 @@ With every version of BBEdit, I still hope that some features from my wish list 
 
 BBEdit can open files over FTP or SFTP, but it still doesn't have support for SCP. I'd like to open files from my various shell accounts, none of which offer SFTP. I've wanted an "Open from URL..." option too. Somewhere in my muddled memory, I think that this used to exist. Maybe it was a different editor, but bringing the text of a web page directly into BBEdit would help me a lot. Chris Nandor provided a script to do this (and isn't that all I really need: a script to do it?).
 
-{% highlight text %}
+{% highlight applescript %}
 -- by Chris Nandor
 set theURL to display dialog "Enter URL:" default answer "http://"
 set quotedURL to quoted form of (text returned of theURL)

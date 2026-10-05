@@ -31,13 +31,13 @@ But yeah, I turned on Postgres logging on the remote server and there was the er
 
 Looking at the ArchLinux box, I saw that _/usr/lib/postgresql/llvmjit.so_ was there. There are those times that you hope something is missing because it makes the fix so easy. I tried reinstalling `llvm-libs` and `libffi`, but they are both up to date (and I don't customize my ArchLinux box):
 
-{% highlight text %}
+{% highlight console %}
 $ sudo pacman -S llvm-libs libffi
 {% endhighlight %}
 
 Same error. So, _llvmjit.so_ exists, what about _libffi.so.6_? Well, it's not there. It's _libffi.so.7_:
 
-{% highlight text %}
+{% highlight console %}
 $ ldconfig -p | grep libffi
     libffi.so.7 (libc6,x86-64) => /usr/lib/libffi.so.7
     libffi.so (libc6,x86-64) => /usr/lib/libffi.so

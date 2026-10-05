@@ -41,9 +41,9 @@ if $Words{$word}<10;printf"%5d	%s\n",$Words{$word},$word;}
 
 `perltidy` turns it into a much more readable form:
 
-{% highlight perl %}
-% perltidy word_counter.pl     # output in word_counter.pl.tdy
-% cat word_counter.pl.tdy
+{% highlight console %}
+$ perltidy word_counter.pl     # output in word_counter.pl.tdy
+$ cat word_counter.pl.tdy
 {% endhighlight %}
 
 {% highlight perl %}
@@ -75,8 +75,8 @@ Many editors have `perltidy` plug-ins too, such as emacs and vim, so you can app
 
 That's only for the format of the code, though–what about cleaning up the actual code? The perlcritic program, which comes with Jeffrey Thalhammer's [Perl::Critic](https://metacpan.org/pod/Perl::Critic) module, finds violations of Damian Conway's *Perl Best Practices*. You can set the severity level to get the granularity you want. Start with the worst offenses first, because it gets really picky in the end. The severity levels start at 5 for the worst violations, and go down to 1 for the very picky warnings:
 
-{% highlight text %}
-% perlcritic -severity 5 program.pl
+{% highlight console %}
+$ perlcritic -severity 5 program.pl
 {% endhighlight %}
 
 You can then work your way down to the annoying nits (that you fix to make it seem like you're working between checkups on your World of Warcraft character). `perlcritic` is highly configurable too, and you can write your own subclasses to check things in your local coding policy, modify or turn off the policies already in place, or use third-party policy modules.
@@ -103,7 +103,7 @@ Perl has several modules for more powerful parsing of command-line options (89 l
 
 The [Config::Inifiles](https://metacpan.org/pod/Config::IniFiles) module handles the format that Windows made popular, and it gives values a scope:
 
-{% highlight text %}
+{% highlight ini %}
 [Debugging]
 ;ComplainNeedlessly=1
 ShowPodErrors=1
@@ -214,7 +214,7 @@ For the past couple of years, I've been writing all of my Perl programs as modul
 
 In C or Java (among other languages), you use a `main()` routine to specify where the program should start. Perl, being the "do what I mean" sort of language it is, simply treats everything in the file that isn't a routine as the main program. In C, you have to use a `main` subroutine that the program automatically calls for you when you run it:
 
-{% highlight perl %}
+{% highlight c %}
 #include <stdio.h>
 
 int main( void )

@@ -35,6 +35,7 @@ I mentioned the **listings** package before. Many people have problems
 with Latin-1 characters or national codeset characters. Consider the advice in [Listings in Latex with UTF-8 (or at least german umlauts)](https://stackoverflow.com/q/1116266/2766176). Most answers are long lists of language-specific alphabetic mappings to TeX sequences:
 
 {% highlight tex %}
+{% raw %}
 \lstset{literate=%
 {Ö}{{\"O}}1
 {Ä}{{\"A}}1
@@ -44,6 +45,7 @@ with Latin-1 characters or national codeset characters. Consider the advice in [
 {ä}{{\"a}}1
 {ö}{{\"o}}1
 }
+{% endraw %}
 {% endhighlight %}
 
 If you can't represent the character as a combination of things that TeX already knows about, you're still stuck. Not only that, the advice only seems to work.

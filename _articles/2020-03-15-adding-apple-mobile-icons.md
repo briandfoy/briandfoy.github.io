@@ -13,7 +13,7 @@ iOS devices request special icon files. Besides offering *favicon.ico*, I now ne
 
 <!--more-->
 
-{% highlight text %}
+{% highlight console %}
 $ cd /var/log/httpd
 $ grep touch *.log | perl -nE 'm/GET (\/apple-\S+)/&&say $1' | sort -u
 /apple-touch-icon-120x120.png
@@ -26,8 +26,8 @@ $ grep touch *.log | perl -nE 'm/GET (\/apple-\S+)/&&say $1' | sort -u
 
 How many of these did I get today for [www.effectiveperlprogramming.com](https://www.effectiveperlprogramming.com)?
 
-{% highlight text %}
-$ $ grep touch *.log | perl -nE 'm/GET (\/apple-\S+)/&&say $1' | sort | uniq -c
+{% highlight console %}
+$ grep touch *.log | perl -nE 'm/GET (\/apple-\S+)/&&say $1' | sort | uniq -c
    1585 /apple-touch-icon-120x120.png
    1589 /apple-touch-icon-120x120-precomposed.png
     275 /apple-touch-icon-152x152.png

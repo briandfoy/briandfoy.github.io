@@ -56,23 +56,32 @@ If you are not already using strictures, turn it on. Perl gurus are gurus becaus
 
 You can turn on strictures within the code with the strict pragma.
 
-    use strict;
+{% highlight perl %}
+use strict;
+{% endhighlight %}
+
 
 You can turn on strictures from the command line with perl's -M switch.
 
-    % perl -Mstrict script.pl
+{% highlight console %}
+$ perldoc -Mstrict script.pl
+{% endhighlight %}
 
 With versions of Perl since v5.12, specifying the version with `use` automatically turns on `strict`:
 
-    use v5.30;
+{% highlight perl %}
+use v5.30;
+{% endhighlight %}
 
 You'll likely have to fix a bunch of stuff at first, but if there's a part of your code you can't get past `strict`, you can turn it off within a block of code so you can deal with it later:
 
-    {
-    no strict;
+{% highlight perl %}
+{
+no strict;
 
-    ...
-    }
+...
+}
+{% endhighlight %}
 
 You may be annoyed at strictures, but after a couple of weeks of programming with them turned on, you will write better code, spend less time chasing simple errors, and probably will not need this guide.
 
@@ -82,19 +91,27 @@ Perl will warn you about a lot of questionable constructs. Turn on warnings and 
 
 You can use perl's `-w` switch in the shebang line to turn on warnings everywhere in your program:
 
-    #!/usr/bin/perl -w
+{% highlight perl %}
+#!/usr/bin/perl -w
+{% endhighlight %}
 
 You can turn on `warnings` from the command line:
 
-    % perl -w script.pl
+{% highlight console %}
+$ perldoc -w script.pl
+{% endhighlight %}
 
 You can use lexical warnings with all sorts of interesting features. See [warnings](https://perldoc.perl.org/warnings.html) for the details.
 
-    use warnings;
+{% highlight perl %}
+use warnings;
+{% endhighlight %}
 
 If you do not understand a warning, you can look up a verbose version of the warning in [perldiag](https://perldoc.perl.org/perldiag.html) or you can use the diagnostics pragma in your code.
 
-    use diagnostics;
+{% highlight perl %}
+use diagnostics;
+{% endhighlight %}
 
 ### Solve the first problem first!
 
@@ -108,23 +125,29 @@ Perl gives you warning messages when it gets worried and not before. By the time
 
 Do not guess! Actually examine the value right before you want to use it in an expression. The best debugger in the universe is [print](https://perldoc.perl.org/functions/print.html).
 
-    print STDERR "The value is [$value]";
+{% highlight perl %}
+print STDERR "The value is [$value]";
+{% endhighlight %}
 
 I enclose `$value` in braces so I can see any leading or trailing whitespace or newlines.
 
 If I have anything other than a scalar, I use [Data::Dumper](https://metacpan.org/pod/Data::Dumper) to print the data structures.
 
-    require Data::Dumper;
+{% highlight perl %}
+require Data::Dumper;
 
-    print STDERR "The hash is ",
-    	Data::Dumper::Dumper( \%hash ),
-    	"\n";
+print STDERR "The hash is ",
+	Data::Dumper::Dumper( \%hash ),
+	"\n";
+{% endhighlight %}
 
 If the value is not what you think it is, back up a few steps and try again! Do this until you find the point at which the value stops being what you think it should be!
 
 You can also use the built-in perl debugger with perl's `-d` switch. See [perldebug](https://perldoc.perl.org/perldebug.html) for details.
 
-    % perl -d script.pl
+{% highlight console %}
+$ perldoc -d script.pl
+{% endhighlight %}
 
 You can also use other debuggers or development environments, like a [ptkdb](https://metacpan.org/pod/Devel::ptkdb) (a graphical debugger based on Tk) or [Komodo](https://www.activestate.com/products/komodo-ide/perl-editor/) (ActiveState's Perl IDE based on Mozilla).
 
@@ -135,13 +158,17 @@ I have been programming Perl for quite a long time and I still look at [perlfunc
 You can look up a particular function with the perldoc command and its
 `-f` switch.
 
-    % perldoc -f function_name
+{% highlight console %}
+$ perldoc -f function_name
+{% endhighlight %}
 
 If you are using a module, check the documentation to make sure you
 are using it in the right way. You can check the documentation for
 the module using `perldoc`.
 
-    % perldoc Module::Name
+{% highlight console %}
+$ perldoc Module::Name
+{% endhighlight %}
 
 ### Are you using the right special variable?
 
@@ -151,7 +178,9 @@ Again, I constantly refer to [perlvar](https://perldoc.perl.org/perlvar.html). W
 
 Some modules change behavior between versions. Do you have the version of the module that you think you have? You can check the module version with a simple perl one-liner.
 
-    % perl -MModule::Name -le 'print Module::Name->VERSION';
+{% highlight console %}
+$ perldoc -MModule::Name -le 'print Module::Name->VERSION';
+{% endhighlight %}
 
 If you read most of your documentation off of the local machine, like at [https://perldoc.perl.org](https://perldoc.perl.org) or [MetaCPAN](https://metacpan.org/) then you are more likely to encounter version differences in documentation.
 
@@ -167,8 +196,10 @@ Perl stores the environment in `%ENV`. If you need one of those variables, be re
 
 If you still have trouble, inspect the environment.
 
-    require Data::Dumper;
-    print STDERR Data::Dumper::Dumper( \%ENV );
+{% highlight perl %}
+require Data::Dumper;
+print STDERR Data::Dumper::Dumper( \%ENV );
+{% endhighlight %}
 
 ### Have you checked Google?
 

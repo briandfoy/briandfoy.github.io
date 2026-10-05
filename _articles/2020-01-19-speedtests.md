@@ -16,7 +16,7 @@ time.
 
 There's a python command-line program for it:
 
-{% highlight text %}
+{% highlight console %}
 $ pip install speedtest-cli
 {% endhighlight %}
 
@@ -26,7 +26,7 @@ a big deal (thank you StackExchange).
 A run shows me what I have now, which is about what I expected but a
 lot less than Spectrum has promised:
 
-{% highlight text %}
+{% highlight console %}
 $ speedtest-cli
 Retrieving speedtest.net configuration...
 Testing from Spectrum (xxx)...
@@ -41,7 +41,7 @@ Upload: 11.89 Mbit/s
 
 I can also get that in JSON:
 
-{% highlight text %}
+{% highlight console %}
 $ speedtest-cli --json
 {"download": 62739979.93993792, "upload": 11754874.487030044,
 "ping": 15.015, "server": {"url": "http://nyc.speedtest.sbcglobal.net:8080
@@ -59,7 +59,7 @@ $ speedtest-cli --json
 More interestingly, I can get CSV output. The first time, I want the
 CSV headers. Then each run after that
 
-{% highlight text %}
+{% highlight console %}
 $ speedtest-cli --csv-header > speedtest.log
 $ speedtest-cli --csv >> speedtest.log
 {% endhighlight %}

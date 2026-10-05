@@ -17,7 +17,7 @@ Sometimes one of my automations goes screwy and misses some of the days it shoul
 
 I'd been thinking that I should use the GitHub REST API to get me this data, but they don't have anything that does this. So, I asked ChatGPT 5 what it thought. It spit out something close to this:
 
-{% highlight plain %}
+{% highlight bash %}
 #!/bin/sh
 
 USER=${GITHUB_USER}
@@ -42,7 +42,7 @@ query($login:String!,$from:DateTime!,$to:DateTime!){
 
 I adjusted a few things, but this got pretty darned close. The output is a series of YYYY-MM-DD dates:
 
-{% highlight plain %}
+{% highlight text %}
 2025-09-01
 2025-09-03
 2025-09-07

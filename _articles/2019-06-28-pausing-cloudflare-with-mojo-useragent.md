@@ -62,13 +62,13 @@ foreach my $site ( $sites_tx->result->json->{result}->@* ) {
 
 To use this, I supply a command-line argument. A true argument (anything Perl considers true) should pause all the sites:
 
-{% highlight text %}
+{% highlight console %}
 $ pause-cloudflare 1
 {% endhighlight %}
 
 When I'm done, I use a false value to unpause the sites:
 
-{% highlight text %}
+{% highlight console %}
 $ pause-cloudflare 0
 {% endhighlight %}
 

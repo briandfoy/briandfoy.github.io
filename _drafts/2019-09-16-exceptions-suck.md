@@ -48,15 +48,10 @@ But, we really don't need to do any of this. The gymnastics of `try-catch`
 come from our insistence on using `die`. We have to put up with the side
 effect of `$@`. What do we really want to know?
 
-=over 4
+* We want to know an error happened.
+* We want to give that error a name to recognize what happened.
+* We want to do something when that error happens.
 
-=item * We want to know an error happened.
-
-=item * We want to give that error a name to recognize what happened.
-
-=item * We want to do something when that error happens.
-
-=back
 
 There's another problem.
 
@@ -75,19 +70,23 @@ values, such as the description (for all instances of that class) and
 the default message. We do this because the main mechanism of
 recognizing errors is the abuse of the inheritance tree:
 
-	try { ... }
-	catch ($e) {
-		if( $e->isa( ... ) ) { ... }
-		};
+{% highlight perl %}
+try { ... }
+catch ($e) {
+	if( $e->isa( ... ) ) { ... }
+	};
+{% endhighlight %}
 
 But we can forego the inheritance all together. Just give these objects
 names, which we can assign arbitrarily per instance instead of relying
 on any class organization:
 
-	try { ... }
-	catch ($e) {
-		if( $e->is_named( ... ) ) { ... }
-		};
+{% highlight perl %}
+try { ... }
+catch ($e) {
+	if( $e->is_named( ... ) ) { ... }
+	};
+{% endhighlight %}
 
 The instance in `$e` can be the same class for every instance. We no
 longer care about what `$e` is other than it's an exception. Every `$e`
@@ -95,7 +94,9 @@ acts the same because every one is the same class, which is mostly what
 we had before. We don't derive any new classes at all. To recognize an
 exception, we have only one class to check:
 
-	$e->isa('X');
+{% highlight perl %}
+$e->isa('X');
+{% endhighlight %}
 
 At this point, we still have to deal with the reality of all the code
 out there that `die` in various ways and with various types of
@@ -106,11 +107,13 @@ level possible, or we don't use them at all. Should we switch out a
 third-party module for another one, our high-level application code is
 insulated from the change in low-level error reporting.
 
-	sub something_low_level {
-		my $result = eval { ThirdPartyModule->something };
-		X->throw( ... ) if defined $@; # adapter
-		...
-		}
+{% highlight perl %}
+sub something_low_level {
+	my $result = eval { ThirdPartyModule->something };
+	X->throw( ... ) if defined $@; # adapter
+	...
+	}
+{% endhighlight %}
 
 Now the trick is to handle these exceptions in a way that's unobtrusive.
 And, Perl already as a way to do that: the `%SIG` hash. Signals are a
@@ -118,23 +121,27 @@ type of exception, and `%SIG` sets handlers for them. We can also define
 `$SIG{__DIE__}` with a coderef to override the default `die` behavior.
 Why not extend that to other exceptions too?
 
-	{
-	local $SIG{HTTPNotFound} = sub { ... };
-	...
-	}
+{% highlight perl %}
+{
+local $SIG{HTTPNotFound} = sub { ... };
+...
+}
+{% endhighlight %}
 
 This means that we no longer have to wrap the fragile code with various
 layers of defensive programming. To make this work, we push down the complexity
 to the layer that throws the exception. It can immediately check if
 there's a handler by looking in `%SIG`, and use it if it finds it:
 
-	package X {
+{% highlight perl %}
+package X {
 
-		sub throw {
-			....
-			if( defined $SIG{$name} ) { $SIG{$name}->(...) }
-			}
+	sub throw {
+		....
+		if( defined $SIG{$name} ) { $SIG{$name}->(...) }
 		}
+	}
+{% endhighlight %}
 
 This affords many advantages. First, resumable exceptions have
 returned. We don't care what the `throw` actually does. That's up to
@@ -152,13 +159,13 @@ Furthermore, you can use the return value of `throw` to decide what
 to do in the code that called it. Having already been handled, you
 many not want to continue.
 
-	sub something_low_level {
-		eval { ThirdPartyModule->something } //
-			return X->throw( ... );
-		...
-		}
-
-=cut
+{% highlight perl %}
+sub something_low_level {
+	eval { ThirdPartyModule->something } //
+		return X->throw( ... );
+	...
+	}
+{% endhighlight %}
 
 # Further reading
 

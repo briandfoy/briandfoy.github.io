@@ -19,7 +19,7 @@ Most of the problem is that the output leads to a red herring, perhaps when it s
 
 First, I spend a lot of time testing Mojolicious things, so I have [Mojo::Util](https://metacpan.org/pod/Mojo::Util) because it makes nice things nicer (and unpleasant things more pleasant). Start with [Data::Dumper](https://perldoc.perl.org/Data::Dumper):
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MData::Dumper -lE "say Dumper({'abc' => '123', 'xyz' => '987'})"
 $VAR1 = {
           'xyz' => '987',
@@ -29,7 +29,7 @@ $VAR1 = {
 
 That's really nice, although many people may not find it that surprising because they don't remember the Before Times. But, there are some things that are unpleasant. First, the keys are not sorted, which makes it hard to find the key you want if there are many keys. Second, Perl has had hash randomization for a long time so they don't come out the same way every time, so another run gives a different order:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MData::Dumper -lE "say Dumper({'abc' => '123', 'xyz' => '987'})"
 $VAR1 = {
           'abc' => '123',
@@ -39,7 +39,7 @@ $VAR1 = {
 
 And, although I don't ever really noticed the `$VAR1` because I go directly to the bit of data I want to see, it's still a bit ugly. [Mojo::Util](https://metacpan.org/pod/Mojo::Util) makes that look a bit nicer:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MMojo::Util=dumper -lE "say dumper({'abc' => '123', 'xyz' => '987'})"
 {
   "abc" => 123,
@@ -189,7 +189,7 @@ I don't know why this specialized handling is here. At best, it's trying to do s
 
 If that's the case, either do it correctly or not at all. Why is the cut off 9 digits? It would be much easier to see the pattern if the cut off matched the true data boundaries:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MData::Dumper -lE '$Data::Dumper::Useqq = 1; say Dumper({q(abc) => q(999999999)})'
 $VAR1 = {
           "abc" => 999999999
@@ -208,7 +208,7 @@ $VAR1 = {
 
 Notice that perl can handle very large numbers, but at some point the format output is going to change it and the numeric representation is not longer the same as the string and count round trip. That's probably why the ancient code wants to stay under `0xFFFF_FFFF`:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -lE 'say 0xFF_FF_FF_FF'
 4294967295
 

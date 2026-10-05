@@ -24,13 +24,13 @@ can go into their network settings and scan the code or whatever they do.
 There are websites that will do this for you, but the Ruby [qrencoder](https://rubygems.org/gems/qrencoder/versions/1.4.1)
 gem provides the *qrencoder* program
 
-{% highlight text %}
+{% highlight console %}
 $ sudo apt-get install qrencode libqrencode-dev ruby ruby-dev
 $ sudo brew install qrencoder
 {% endhighlight %}
 
 Give *qrencode* the [ZXing-style WiFi auth string](https://github.com/zxing/zxing/wiki/Barcode-Contents#wifi-network-config-android):
 
-{% highlight text %}
+{% highlight console %}
 $ qrencode -o wifi.png "WIFI:T:WPA;S:SomeSSID;P:NotThePassword;;"
 {% endhighlight %}

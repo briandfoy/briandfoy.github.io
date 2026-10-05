@@ -13,16 +13,21 @@ How to make a daemon
 
 <!--more-->
 
+{% highlight perl %}
 exit(0) if( fork or fork );
+{% endhighlight %}
 
 close all the standard filehandles
 
 
+{% highlight perl %}
 use Fcntl qw(LOCK_EX LOCK_NB);
     die "Another instance is already running" unless flock DATA, LOCK_EX|LOCK_NB;
+{% endhighlight %}
 
 https://unix.stackexchange.com/questions/41252/how-to-start-a-perl-webserver-with-systemd
 
+{% highlight perl %}
 sub daemonize {
 
   # Fork and kill parent
@@ -35,5 +40,6 @@ sub daemonize {
   open STDOUT, '>',  '/dev/null';
   open STDERR, '>&', STDOUT;
 }
+{% endhighlight %}
 
 

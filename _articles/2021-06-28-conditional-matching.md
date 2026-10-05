@@ -27,7 +27,7 @@ The condition is true if that capture buffer matched, and false otherwise (inclu
 
 Try that in a one-liner:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -E 'm/(.*) (?(1) (?{ say "Yes!" }) )/x'
 Yes!
 {% endhighlight %}
@@ -35,7 +35,7 @@ Yes!
 You get the `yes-branch` because the `$1` capture always matches.
 
 Try matching something—anything—so `$1` might not match.
-{% highlight text %}
+{% highlight console %}
 $ perl -E '$ARGV[0] =~ m/(a) (?(1) (?{ say "Yes!" }) )/x'
 
 $ perl -E '$ARGV[0] =~ m/(a) (?(1) (?{ say "Yes!" }) )/x' a
@@ -53,7 +53,7 @@ Now add a `no-branch` to the regex:
 
 The `yes-branch` case still works, but you don't get output when the pattern doesn't have an *a*:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -E '$ARGV[0] =~ m/(a) (?(1) (?{ say "Yes!" }) | (?{ say "No!" }) )/x' a
 Yes!
 
@@ -62,7 +62,7 @@ $ perl -E '$ARGV[0] =~ m/(a) (?(1) (?{ say "Yes!" }) | (?{ say "No!" }) )/x' b
 
 That's not a problem with the conditional; the patten fails before it even gets to the conditional because it didn't match `(a)`. If you change that to `(a?)` to make that optional, the `$1` still matched so it's still the `yes-branch`. However, make the the entire capture optional. If the first capture does not capture, you get the `no-branch`
 
-{% highlight text %}
+{% highlight console %}
 $ perl -E '$ARGV[0] =~ m/(a?) (?(1) (?{ say "Yes!" }) | (?{ say "No!" }) )/x' b
 Yes!
 

@@ -20,34 +20,48 @@ their command line. The docs aren't always helpful.
 Turn a plist into JSON. I often do this with *.webloc* files. The
 part I forget is to specify standard output (why isn't that the default?):
 
-    $ plutil -convert json -o - foo.webloc
+{% highlight console %}
+$ plutil -convert json -o - foo.webloc
+{% endhighlight %}
 
 Along with the, I use *jq* to extract the URL:
 
-    $ plutil -convert json -o - foo.webloc | jq -r .URL
+{% highlight console %}
+$ plutil -convert json -o - foo.webloc | jq -r .URL
+{% endhighlight %}
 
 ## Software Update
 
 Run Software Update from the command line:
 
-    $ softwareupdate -ia --include-config-data
+{% highlight console %}
+$ softwareupdate -ia --include-config-data
+{% endhighlight %}
 
 ## Start Screen Sharing
 
-    $ open vnc://user:password@host
+{% highlight console %}
+$ open vnc://user:password@host
+{% endhighlight %}
 
 ## Share a remote volume
 
 Don't use the Unix path for the remote side. It's the name under */Volumes*:
 
-    $ open afp://host/VolumeName
+{% highlight console %}
+$ open afp://host/VolumeName
+{% endhighlight %}
 
 Normal URL encoding doesn't seem to work. Instead of `+` for a space,
 use a shell escape or quote that part
 
-    $ open afp://host/Volume\ Name
-    $ open afp://host/'Volume Name'
+{% highlight console %}
+$ open afp://host/Volume\ Name
+$ open afp://host/'Volume Name'
+{% endhighlight %}
 
 Supply credentials:
 
-    $ open afp://user:pass@host/VolumeName
+{% highlight console %}
+$ open afp://user:pass@host/VolumeName
+{% endhighlight %}

@@ -17,7 +17,7 @@ His supervision was mostly logging onto the Unix system and running `who -u` to 
 
 He could see output like this:
 
-{% highlight plain %}
+{% highlight console %}
 $ who
 brian    ttys000  Jul 14 05:31 01:58 	 38798
 joe      ttys001  Jul 11 08:47 05:57 	 90040

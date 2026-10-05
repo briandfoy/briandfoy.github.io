@@ -16,7 +16,7 @@ doesn't have the xterm package and all sorts of things wonky.
 
 ## Some commands
 
-{% highlight text %}
+{% highlight console %}
 $ tmux attach -t NAME
 $ tmux detach
 {% endhighlight %}
@@ -25,19 +25,19 @@ $ tmux detach
 
 Get them all:
 
-{% highlight text %}
+{% highlight console %}
 $ tmux ls
 {% endhighlight %}
 
 Get the current one:
 
-{% highlight text %}
+{% highlight console %}
 $ tmux display-message -p '#S'
 {% endhighlight %}
 
 ### Rename session
 
-{% highlight text %}
+{% highlight console %}
 $ tmux rename-session -t OLD NEW
 {% endhighlight %}
 

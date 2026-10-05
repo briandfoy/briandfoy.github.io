@@ -44,7 +44,7 @@ anything it thinks is a secret by replacing the secret's text with `***`.
 Inside the action, I output the secret's text with spaces between every
 character:
 
-{% highlight yaml %}
+{% raw %}
 jobs:
     update-ranges:
         runs-on: ubuntu-latest
@@ -53,7 +53,7 @@ jobs:
             - name: Show secret
               run: |
                 echo ${{secrets.TEST_SECRET}} | sed 's/./& /g'
-{% endhighlight %}
+{% endraw %}
 
 As an aside, it's pretty easy to discover secrets this way. I simply
 output enough text until I find text that GitHub Actions decides it should

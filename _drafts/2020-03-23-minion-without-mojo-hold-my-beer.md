@@ -39,7 +39,7 @@ For my demonstration, I want to use the Postgres backend so remote workers can c
 
 On the Perl side, install Minion and the Pg driver:
 
-{% highlight text %}
+{% highlight console %}
 $ cpan Minion Mojo::Pg
 {% endhighlight %}
 
@@ -129,8 +129,8 @@ app->start;
 
 Even though I haven't done anything yet, and among the things I haven't done is setup the database tables, I can connect to the database and Minion will take care of it. I can see the dashboard even without any jobs:
 
-{% highlight text %}
-	$ perl minion-admin.pl daemon
+{% highlight console %}
+$ perl minion-admin.pl daemon
 {% endhighlight %}
 
 
@@ -234,7 +234,7 @@ When I run this, it will process jobs with the name `sum` if they are there. It'
 
 I start a worker from my laptop. The Minion database is on the Mac Pro tower. The same *MyMinion.pm* knows how to connect to the right host when I set the right environment variable, even though I'm not on the same machine as the database:
 
-{% highlight text %}
+{% highlight console %}
 $ env PG_HOST=macbook.local perl worker-a.pl
 {% endhighlight %}
 
@@ -244,7 +244,7 @@ I should see three workers in the admin portal now. It doesn't matter that this 
 
 Back on the local side, I create a bunch more jobs:
 
-{% highlight text %}
+{% highlight console %}
 $ perl make-some-jobs.pl
 {% endhighlight %}
 

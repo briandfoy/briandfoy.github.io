@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Compiling Perl v5.8 on Debian Slim
-categories: containers
-tags: debian slim perl
+categories: programming
+tags: debian slim perl containers
 stopwords: alpn INET netbase notest nudp tcp UDP
 last_modified:
 original_url:
@@ -17,14 +17,14 @@ First, some modules don't compile. Notably, [HTML::TagSet](https://metacpan.org/
 
 Fixing the modules was easy enough by installing old versions before I start anything else:
 
-{% highlight text %}
-cpanm PETDANCE/HTML-TagSet-3.20.tar.gz RJBS/Test-Fatal-0.017.tar.gz
+{% highlight console %}
+$ cpanm PETDANCE/HTML-TagSet-3.20.tar.gz RJBS/Test-Fatal-0.017.tar.gz
 {% endhighlight %}
 
 The [parent](https://metacpan.org/pod/parent) module had some trouble which I didn't bother to figure out. v5.8 didn't like something in the tests, so I installed it without running the tests:
 
-{% highlight text %}
-cpanm --notest parent
+{% highlight console %}
+$ cpanm --notest parent
 {% endhighlight %}
 
 Then I got weird errors trying to install [IO::Socket::SSL](https://metacpan/pod/IO::Socket::SSL). This one was really weird. The docker build died with a suspicious error:
@@ -41,12 +41,12 @@ This one was a bit tricky, and the change between v5.8 and v5.10 does not show u
 
 This wasn't a problem in v5.10 because [Socket](https://metacpan.org/pod/Socket) defined those constants itself and didn't need `getprotobynam`. I solved this by creating the file myself:
 
-{% highlight text %}
-printf "tcp 6 TCP\nudp 17 UDP\n" >> /etc/protocols
+{% highlight console %}
+$ printf "tcp 6 TCP\nudp 17 UDP\n" >> /etc/protocols
 {% endhighlight %}
 
 I could also get these by installing the data package that has the files:
 
-{% highlight text %}
-apt-get install netbase
+{% highlight console %}
+$ apt-get install netbase
 {% endhighlight %}

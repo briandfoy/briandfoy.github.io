@@ -24,6 +24,7 @@ Start with Apple's *plutil* to creaet a new plist file. I end the filename with 
 
 I start with the `xml1` format, which already shows the premature optimism that XML might keep going on to version 2, 3, 17, and so on:
 
+{% highlight console %}
 $ plutil -create xml1 empty.plist
 $ more empty.plist
 <?xml version="1.0" encoding="UTF-8"?>
@@ -31,24 +32,30 @@ $ more empty.plist
 <plist version="1.0">
 <dict/>
 </plist>
+{% endhighlight %}
 
 The default data type at the top of the structure (one level under `<plist>`) is an empty dictionary (hash, object, whatever). I'll add data to that in the next section:
 
 Do the same thing but with the `json` format, which is much simpler:
 
+{% highlight console %}
 $ plutil -create json json.plist
 
 $ more plist.json
 {}
+{% endhighlight %}
 
 It doesn't matter what you choose because it's easy to convert to the other. But watch out because it replaces the file by default:
 
+{% highlight console %}
 $ plutil -convert json empty.plist
 $ more empty.plist
 {}
+{% endhighlight %}
 
 Instead of replacing the file, use the `-o` switch to specify a different output file. In this example, that filename is `-`, the special name for standard output:
 
+{% highlight console %}
 $ plutil -convert empty.plist -o -
 {}
 
@@ -62,11 +69,13 @@ $ plutil -convert objc empty.plist -o -
 __attribute__((visibility("hidden")))
 NSDictionary * const plist = @{
 };
+{% endhighlight %}
 
 ## Adding data
 
 Start with an empty plist again. I'm going to keep going with XML because this will make more sense when I write about [Mac::PropertyList](https://www.metacpan.org/pod/Mac::PropertyList):
 
+{% highlight console %}
 $ plutil -create xml1 new.plist
 
 $ more new.plist
@@ -75,9 +84,11 @@ $ more new.plist
 <plist version="1.0">
 <dict/>
 </plist>
+{% endhighlight %}
 
 Now, I'll add a simple string value.
 
+{% highlight console %}
 $ plutil -insert some_string -string "first string" new.plist
 
 $ more new.plist
@@ -89,10 +100,12 @@ $ more new.plist
         <string>first string</string>
 </dict>
 </plist>
+{% endhighlight %}
 
 Notice the two separate nodes under `<dict>` for `<key>` and `<value>`. Those are a required pair that should not be separated, but
 they are. Add another key-value pair:
 
+{% highlight console %}
 $ plutil -insert more_string -string "second value" new.plist
 
 $ more new.plist
@@ -106,9 +119,11 @@ $ more new.plist
         <string>first string</string>
 </dict>
 </plist>
+{% endhighlight %}
 
 I'll add a third value, but an integer this time.
 
+{% highlight console %}
 $ plutil -insert some_number -integer 137 new.plist
 
 $ more new.plist
@@ -124,23 +139,28 @@ $ more new.plist
         <string>first string</string>
 </dict>
 </plist>
+{% endhighlight %}
 
 Now there are six nodes under `<dict>`, although there should be only be three because there are only three logical things:
 
+{% highlight plist %}
 <dict>
         <entry name="more_string" type="string">second value</key>
         <entry name="some_number" type="integer">137</key>
         <entry name="some_string" type="string">first string</key>
 </dict>
+{% endhighlight %}
 
 This gets in the way of simply looking at the data, so *plutil* has the `-p` switch to show something simpler, which is so close to JSON that I have to wonder why they didn't do that:
 
+{% highlight console %}
 $ plutil -p new.plist
 {
   "more_string" => "second value"
   "some_number" => 137
   "some_string" => "first string"
 }
+{% endhighlight %}
 
 Now I'll make the same thing with [Mac::PropertyList](https://www.metacpan.org/pod/Mac::PropertyList):
 

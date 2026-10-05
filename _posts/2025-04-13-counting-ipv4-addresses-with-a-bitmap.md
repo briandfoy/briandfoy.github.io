@@ -23,50 +23,60 @@ But IP numbers are just just, well, numbers (sometimes represented as
 strings), so let's simplify this with a smaller set of numbers. I'll use one
 bit for each IP address, and it's position is its integer value. For example, the address 192.168.1.1 is really the positive whole number 3,232,235,777, which I know because I have a bash shell alias to convert it:
 
-	$ alias ip_aton
-	alias ip_aton='perl -MSocket=inet_aton -le '\''print unpack q(N), inet_aton(shift)'\'''
+{% highlight console %}
+$ alias ip_aton
+alias ip_aton='perl -MSocket=inet_aton -le '\''print unpack q(N), inet_aton(shift)'\'''
+{% endhighlight %}
 
-	$ ip_aton 192.168.1.1
-	3232235777
+{% highlight console %}
+$ ip_aton 192.168.1.1
+3232235777
+{% endhighlight %}
 
 I won't go through a long `vec` tutorial here, especially since our field width is one bit which makes it straightforward. Here's a small demonstration where I start with nothing in `$bitmap`, and when I see a number, I set a bit at that position. Perl takes care of extending the bitmap as needed. I use numbers up to 13:
 
-	#!perl
-	use v5.36;
-	use strict;
-	use warnings;
+{% highlight perl %}
+#!perl
+use v5.36;
+use strict;
+use warnings;
 
-	my $bitmap;
-	foreach my $i ( random_numbers(10, 4) ) {
-		say "Saw $i";
-		vec( $bitmap, $i, 1 ) = 1;
-		say show_vec($bitmap);
-		}
+my $bitmap;
+foreach my $i ( random_numbers(10, 4) ) {
+	say "Saw $i";
+	vec( $bitmap, $i, 1 ) = 1;
+	say show_vec($bitmap);
+	}
 
-	sub random_numbers ($max = 13, $n = 10) {
-		my @a = map { int rand $max } 1 .. $n;
-		}
+sub random_numbers ($max = 13, $n = 10) {
+	my @a = map { int rand $max } 1 .. $n;
+	}
 
-	sub show_vec ($b) {
-		my $bits = 8 * length $b;
-		my $s =
-			join '',
-			map { vec($b, $_, 1) ? '+' : '.' }
-			0 .. $bits - 1;
-		}
+sub show_vec ($b) {
+	my $bits = 8 * length $b;
+	my $s =
+		join '',
+		map { vec($b, $_, 1) ? '+' : '.' }
+		0 .. $bits - 1;
+	}
+{% endhighlight %}
 
 Here's one run. In the bitvector, I show "not set" as `.` and "set" as `+`. Notice that Perl grows the size of the bitvector as needed:
 
-	 2: ..+.....
-	 9: ..+......+......
-	 2: ..+......+......
-	 8: ..+.....++......
+{% highlight text %}
+ 2: ..+.....
+ 9: ..+......+......
+ 2: ..+......+......
+ 8: ..+.....++......
+{% endhighlight %}
 
 Now I want to know haw many of the unique numbers I saw, so I add a function to count the bits:
 
-	sub count_unpack ($b) {
-		unpack("%32b*", $b);
-		}
+{% highlight perl %}
+sub count_unpack ($b) {
+	unpack("%32b*", $b);
+	}
+{% endhighlight %}
 
 Now honestly, raise your hand if you've ever seen something like that before. I think I've only seen it because I handled the `pack` section
 of the latest *Programming Perl*.
@@ -77,9 +87,13 @@ Now, if instead of random numbers I do this for IP addresses, I get the count of
 
 As a side note, `unpack` has a nybble order. It doesn't matter for this task because it does not change the count, but I could play games with where the bits show up. This is endianness at the octet level:
 
-	$ perl -le 'print unpack q(B8), shift' p
-	01110000
+{% highlight console %}
+$ perl -le 'print unpack q(B8), shift' p
+01110000
+{% endhighlight %}
 
-	$ perl -le 'print unpack q(b8), shift' p
-	00001110
+{% highlight console %}
+$ perl -le 'print unpack q(b8), shift' p
+00001110
+{% endhighlight %}
 

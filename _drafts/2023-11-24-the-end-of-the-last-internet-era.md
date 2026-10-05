@@ -52,6 +52,7 @@ I tried using Bing and DuckDuckGo, but they weren't any better. I think they hav
 
 For years, I have blocked most Google trackers through /etc/hosts. That's a file that lets me tell my computer what numeric address goes with a domain. When I find a Google tracker, I black hole it:
 
+{% highlight text %}
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 www.google-analytics.com
@@ -67,6 +68,7 @@ For years, I have blocked most Google trackers through /etc/hosts. That's a file
 0.0.0.0 www.mygooglepagerank.com
 0.0.0.0 google.tucows.com
 0.0.0.0 googleadsense.ya.com
+{% endhighlight %}
 
 This means that parts of the web don't work for me, but I've learned to live with that.
 

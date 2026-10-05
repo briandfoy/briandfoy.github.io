@@ -53,31 +53,33 @@ In general, I only really care about the repo on GitHub. I don't do much work to
 
 For Git, I have a remote named "all" that has one URL to pull from but several to push to. Here, for instance, is my *.git/config* for this GitHub Pages blog (minus my local info):
 
-    [core]
-        repositoryformatversion = 0
-        filemode = true
-        bare = false
-        logallrefupdates = true
-        ignorecase = true
-        precomposeunicode = true
-    [remote "origin"]
-        fetch = +refs/heads/*:refs/remotes/origin/*
-        url = git@github.com:briandfoy/briandfoy.github.io.git
-    [branch "master"]
-        remote = all
-        merge = refs/heads/master
-    [remote "bitbucket"]
-        url = git@bitbucket.org:briandfoy/briandfoy.github.io.git
-        fetch = +refs/heads/*:refs/remotes/bitbucket/*
-    [remote "gitlab"]
-        url = git@gitlab.com:briandfoy/briandfoy.github.io.git
-        fetch = +refs/heads/*:refs/remotes/bitbucket/*
-    [remote "all"]
-        url = git@github.com:briandfoy/briandfoy.github.io.git
-        fetch = +refs/heads/*:refs/remotes/all/*
-        pushurl = git@github.com:briandfoy/briandfoy.github.io.git
-        pushurl = git@bitbucket.org:briandfoy/briandfoy.github.io.git
-        pushurl = git@gitlab.com:briandfoy/briandfoy.github.io.git
+{% highlight text %}
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = git@github.com:briandfoy/briandfoy.github.io.git
+[branch "master"]
+	remote = all
+	merge = refs/heads/master
+[remote "bitbucket"]
+	url = git@bitbucket.org:briandfoy/briandfoy.github.io.git
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[remote "gitlab"]
+	url = git@gitlab.com:briandfoy/briandfoy.github.io.git
+	fetch = +refs/heads/*:refs/remotes/bitbucket/*
+[remote "all"]
+	url = git@github.com:briandfoy/briandfoy.github.io.git
+	fetch = +refs/heads/*:refs/remotes/all/*
+	pushurl = git@github.com:briandfoy/briandfoy.github.io.git
+	pushurl = git@bitbucket.org:briandfoy/briandfoy.github.io.git
+	pushurl = git@gitlab.com:briandfoy/briandfoy.github.io.git
+{% endhighlight %}
 
 I have a kludgy Perl program that constructs this config once I make the GitHub repo (and one day, I hope Terraform will be able to handle all of that). From a starting GitHub repo, it makes new BitBucket and GitLab repos, sets up the `pushurl` bits, and pushes the repos to them. When I push to `all`, every one of the repos gets the updates. And, as I said before, if one of them gets out of sync for some reason (usually a wacky merge situation), I start over with non-GitHub repo.
 
@@ -85,7 +87,7 @@ I have a kludgy Perl program that constructs this config once I make the GitHub 
 
 The `set-url` line adds that `pushurl`, which I'll need here because I'm going to add more so I multiplex the push:
 
-{% highlight plain %}
+{% highlight console %}
 $ git init
 $ git add .; ... make the git repo stuff
 $ git remote add github ...github address...
@@ -96,7 +98,7 @@ $ git push -u all master
 
 After that, I setup BitBucket and GitLab manually, then add their remotes:
 
-{% highlight plain %}
+{% highlight console %}
 $ git remote add bitbucket ...bitbucket address...
 $ git remote add gitlab ...gitlab address...
 $ git remote set-url --add --push all ...bitbucket address...

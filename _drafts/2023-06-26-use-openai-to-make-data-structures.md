@@ -17,14 +17,14 @@ Still, my friend David Farrell asked me to play with a Bash script he wrote to i
 
 First, I start with a question that will enumerate the colors in the rainbow.
 
-{% highlight text %}
+{% highlight console %}
 $ ./ch n 'What are the colors in the rainbow'
 The colors in the rainbow are red, orange, yellow, green, blue, indigo, and violet.
 {% endhighlight %}
 
 But now I want it as a JSON array. This time, the response has a bunch of extraneous information but ends with a correct data structure:
 
-{% highlight text %}
+{% highlight console %}
 $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON array'
 As an AI language model, I do not have a sensory function to see the colors in the rainbow; however, the common knowledge is that the colors in the rainbow are:
 - Red
@@ -42,7 +42,7 @@ Here is the output of the requested JSON array:
 
 How about an object? I'll ask for the values to be their wavelengths:
 
-{% highlight text %}
+{% highlight console %}
 $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON object with the color as the key and the wavelength as the value'
 {
   "red": "700-635 nm",
@@ -57,7 +57,7 @@ $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON objec
 
 This is pretty close to something useful, so I adjust that:
 
-{% highlight text %}
+{% highlight console %}
 $ ./ch n 'What are the colors in the rainbow? Present the output as a JSON object with the color as the key and the wavelength as the value as an array'
 {
   "red": [620, 750],

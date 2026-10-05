@@ -28,7 +28,7 @@ quite onerous. It's not as lightweight as it claims.
 There's [shyaml](https://github.com/0k/shyaml), but you can only
 redirect input into it:
 
-{% highlight text %}
+{% highlight console %}
 $ pip --user install shyaml
 $ shyaml get-value path.to.value < file.yaml
 {% endhighlight %}
@@ -41,7 +41,7 @@ cases. Otherwise it seems to work.
 PyPl has its own [yq](https://pypi.org/project/yq/) that's easy to
 install and use. It works mostly like *jq*:
 
-{% highlight text %}
+{% highlight console %}
 $ pip install yq
 $ yq .path.to.value file.yml
 {% endhighlight %}
@@ -60,7 +60,7 @@ alias yaml2json='perl -MYAML -MMojo::JSON=encode_json -E "binmode STDOUT, q(:raw
 
 Now I use a pipeline:
 
-{% highlight text %}
+{% highlight console %}
 $ yaml2json file.yml | jq .some.path
 {% endhighlight %}
 

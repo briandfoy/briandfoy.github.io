@@ -27,7 +27,7 @@ alias b2o="perl -e 'printf qq|%o\n|, oct( q(0b) . shift )'"
 
 Here are some runs:
 
-{% highlight text %}
+{% highlight console %}
 $ d2h 137
 89
 $ h2d 89

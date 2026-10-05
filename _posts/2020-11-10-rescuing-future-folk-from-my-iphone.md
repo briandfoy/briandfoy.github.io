@@ -46,7 +46,7 @@ warn "Corrupted files: $count\n";
 
 And, after about 10 minutes and lots of output:
 
-{% highlight plain %}
+{% highlight text %}
 ... list of files ...
 Corrupted files: 3920
 {% endhighlight %}
@@ -57,7 +57,7 @@ I was able to recover some files from another machine connected to the same Drop
 
 But, the really painful piece of the problem was the disappearance of my [Future Folk](https://futurefolk.com) music.
 
-{% highlight plain %}
+{% highlight text %}
 /Users/brian/Dropbox/iTunes/Future Folk/Future Folk, Vol. 1/01 Future Folk Theme Song.m4a
 /Users/brian/Dropbox/iTunes/Future Folk/Future Folk, Vol. 1/07 Canines Came from Cosmic Space.m4a
 /Users/brian/Dropbox/iTunes/Future Folk/Future Folk, Vol. 1/05 Over the Moon.m4a
@@ -106,8 +106,8 @@ The trick is to get it off my phone, and I found an app for that. [iExplorer](ht
 
 I extracted the _.m4a_ files I needed, and they weren't protected. I don't recall if they ever were. I decided to convert them to _.mp3_ just in case. It's a short shell loop to batch mode the `ffmpeg` conversion. That `${f%.*}` is a nifty bit of [shell expansion](https://www.gnu.org/software/bash/manual/bash.html#Shell-Expansions) to modify the filename:
 
-{% highlight plain %}
-% for f in *.m4a; ffmpeg -i "${f}" "${f%.*}.mp3"; done
+{% highlight console %}
+$ for f in *.m4a; ffmpeg -i "${f}" "${f%.*}.mp3"; done
 {% endhighlight %}
 
 Now I have non-Apple protected versions of the music I think that Dropbox corrupted and Apple Music wouldn't download.

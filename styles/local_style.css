@@ -109,10 +109,34 @@ figure.highlight {
 	padding: 0.75em 1em;
 	}
 
-button.copy-code {
+figure.highlight:has(code.language-console) {
+	background-color: #eef7ee;
+	}
+
+code.language-console {
+	font-weight: bold;
+	}
+
+code.language-console .gp,
+code.language-console .go {
+	font-weight: normal;
+	}
+
+.code-tools {
 	position: absolute;
 	top: 0.4em;
 	right: 0.4em;
+	display: flex;
+	align-items: center;
+	gap: 0.5em;
+	}
+
+.code-lang {
+	font-size: 0.7em;
+	color: #888;
+	}
+
+button.copy-code {
 	font-size: 0.7em;
 	padding: 0.2em 0.6em;
 	border: 1px solid #ccc;

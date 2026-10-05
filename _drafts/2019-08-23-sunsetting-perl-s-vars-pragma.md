@@ -36,7 +36,7 @@ The [vars](https://perldoc.perl.org/vars.html) (and similarly, [subs](https://pe
 
 Most pragmas are lexically scoped. Their effect exists only in their scope and they are disable their effect with `no`:
 
-```perl
+{% highlight perl %}
 use warnings;
 my $empty;
 
@@ -49,20 +49,20 @@ print "3. $empty"; # no warning!
 }
 
 print "4. $empty"; # uninitialized warning again!
-```
+{% endhighlight %}
 
 This outputs an uninitialized value four times, but warns only three times. The `print` on line 9 doesn't warn because that pragma was temporarily turned off. At the end of the scope, the pragma reverts to its previous setting:
 
-```perl
+{% highlight perl %}
 1. 2. 3. 4.
 Use of uninitialized value $empty in concatenation (.) or string at /Users/brian/Desktop/test.pl line 4.
 Use of uninitialized value $empty in concatenation (.) or string at /Users/brian/Desktop/test.pl line 7.
 Use of uninitialized value $empty in concatenation (.) or string at /Users/brian/Desktop/test.pl line 12.
-```
+{% endhighlight %}
 
 The [vars](https://perldoc.perl.org/vars.html) pragma is different. Use it anywhere in the file and it applies to any variable use that comes after it because the parser knows that you want to use that variable:
 
-```perl
+{% highlight perl %}
 use strict;
 
 { # this scope doesn't matter
@@ -72,11 +72,11 @@ use vars qw($fred);
 $fred = 'Flintstone';
 
 print $fred;
-```
+{% endhighlight %}
 
 You also can't turn it off. This compiles and runs, but despite the `no vars`, it still outputs `Flintstone`:
 
-```perl
+{% highlight perl %}
 use strict;
 
 our $fred = 'Flintstone';
@@ -85,4 +85,4 @@ our $fred = 'Flintstone';
 no vars qw($fred);
 print $fred;
 }
-```
+{% endhighlight %}

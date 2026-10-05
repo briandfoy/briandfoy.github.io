@@ -34,7 +34,7 @@ for( my $i = 0 + $interval; $i < 1; $i += $interval ) {
 
 The results are ironically disappointing because the numbers from `log` (natural base) and [POSIX](http://metacpan.org/pod/POSIX)'s `log10` are exactly the same:
 
-{% highlight text %}
+{% highlight console %}
 $ perl log.pl
 -4.6051701860 -4.6051701860 0.0000000000
 -3.9120230054 -3.9120230054 0.0000000000

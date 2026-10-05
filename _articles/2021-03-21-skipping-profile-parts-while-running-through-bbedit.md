@@ -20,7 +20,7 @@ This isn't a big deal. I have to figure out how to test whether BBEdit is the th
 
 I see I have plenty to choose from, and `BBEDIT_CLIENT_INTERACTIVE` looks like the best option:
 
-{% highlight plain %}
+{% highlight text %}
   "BBEDIT_CLIENT_INTERACTIVE" => 1,
   "BBEDIT_CLIENT_UUID" => "1E65C199-E1EF-4E5F-A410-9125B7E931AA",
   "BBEDIT_PID" => 3410,
@@ -38,6 +38,6 @@ I see I have plenty to choose from, and `BBEDIT_CLIENT_INTERACTIVE` looks like t
 
 Now I check that `BBEDIT_CLIENT_INTERACTIVE` is empty before I load up my secrets:
 
-{% highlight plain %}
+{% highlight text %}
 [ -z "${BBEDIT_CLIENT_INTERACTIVE}" ] && [ -f ~/.bash_secrets ] && source ~/.bash_secrets
 {% endhighlight %}

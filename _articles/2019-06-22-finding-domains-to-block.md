@@ -18,7 +18,7 @@ trying localhost and potentially hitting a webserver I have running.
 I installed [dnsmasq](http://www.thekelleys.org.uk/dnsmasq/) and run it
 without starting a daemon.
 
-{% highlight text %}
+{% highlight console %}
 $ sudo /usr/local/sbin/dnsmasq --no-daemon --log-queries --log-facility=~/dns.log
 {% endhighlight %}
 
@@ -60,7 +60,7 @@ Jun 22 06:03:09 dnsmasq[9187]: query[A] cdn.cookielaw.org from 127.0.0.1
 
 From there, I can collate the query lines and sort them by frequency:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -nle 'next unless /query\[A+] (\S+)/; print $1' dns.log \
     | sort | uniq -c | sort -r
   12 gateway-carry.fe.apple-dns.net

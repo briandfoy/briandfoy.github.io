@@ -44,14 +44,14 @@ The `(*FAIL)` is easy. If Perl tries to match that, that part of the pattern fai
 
 Here's an alternation that looks for one of *a*, *b*, or *c*. An alternation matches the first branch that satisfies its pattern.
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'q(abc) =~ /(a|b|c)/ and print $1'
 a
 {% endhighlight %}
 
 Now add a `(*FAIL)` to the first branch. As the regex moves along it matches the *a* then runs into the `(*FAIL)`. That branch immediately stops and the match tries the next branch, where it matches the *b*:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'q(abc) =~ /(a(*FAIL)|b|c)/ and print $1'
 b
 {% endhighlight %}
@@ -79,7 +79,7 @@ The `CONDITION` is any one of these things:
 
 As a simple example, here's CONDITION as a capture number. If `$2` matched, the condition `(2)` is true and the next part of the pattern is `bc`. If that capture did not match (it's optional), the next part of the pattern is `yz`:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (a)? (?(2)bc|yz) /x and print $&' abc
 abc
 
@@ -89,13 +89,13 @@ yz
 
 However, if I make the next part of the pattern the `(*FAIL)`, even though the *a* matches, it doesn't! There's no output!
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (a)? (?(2)(*FAIL)|yz) /x and print $&' abc
 {% endhighlight %}
 
 Convert the condition from a capture number to a code block: `(?{ CODE }). Now the CONDITION is true is the code returns true, and false otherwise. In this case, if the value in `$1` is `a`, the code returns true and the next part of the pattern is `bc`. Otherwise, the next part of the pattern is `yz`:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (a)? (?(?{ $1 eq q(a) })bc|yz) /x and print $&' abc
 abc
 $ perl -le 'shift =~ / (a)? (?(?{ $1 eq q(a) })bc|yz) /x and print $&' xyz
@@ -104,19 +104,19 @@ yz
 
 Add the `(*FAIL)` again. Now `abc` doesn't match even though `a` matches:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (a)? (?(?{ $1 eq q(a) })(*FAIL)|yz) /x and print $&' abc
 {% endhighlight %}
 
 But, I don't care about the `no-branch`. Or, more correctly, I'll make it the empty pattern. This still fails:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (a)? (?(?{ $1 eq q(a) })(*FAIL)) /x and print $&' abc
 {% endhighlight %}
 
 Move on to numbers now. Instead of matching `a`, match a digit with `\d`. If that digit is 7, fail. Otherwise, since the `no-branch` is effectively the empty pattern, the rest of the pattern matches:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d)? (?(?{ $1 == 7 })(*FAIL)) /x and print $&' 123
 1
 $ perl -le 'shift =~ / (\d)? (?(?{ $1 == 7 })(*FAIL)) /x and print $&' 789
@@ -124,7 +124,7 @@ $ perl -le 'shift =~ / (\d)? (?(?{ $1 == 7 })(*FAIL)) /x and print $&' 789
 
 But I'm more interested in the cases where I match something that I don't want. Suppose I only want to match `5` and fail for anything else. I negate the comparator in the code; now I'm using `!=`.
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d)? (?(?{ $1 != 5 })(*FAIL)) /x and print $&' 789
 
 $ perl -le 'shift =~ / (\d)? (?(?{ $1 != 5 })(*FAIL)) /x and print $&' 567
@@ -133,7 +133,7 @@ $ perl -le 'shift =~ / (\d)? (?(?{ $1 != 5 })(*FAIL)) /x and print $&' 567
 
 But I can have more complex code. I'll have two comparisons. Now the value in `$1` has to be 0, 1, 2, 7, 8, or 9 because the condition looks for digits greater than 2 and less than 7:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d)? (?(?{ 2 < $1 and $1 < 7 })(*FAIL)) /x and print $&' 567
 
 $ perl -le 'shift =~ / (\d)? (?(?{ 2 < $1 and $1 < 7 })(*FAIL)) /x and print $&' 234
@@ -142,14 +142,14 @@ $ perl -le 'shift =~ / (\d)? (?(?{ 2 < $1 and $1 < 7 })(*FAIL)) /x and print $&'
 
 To match the numbers between 2 and 7, I negate the combination of those two comparisons:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d)? (?(?{ ! (2 < $1 and $1 < 7) })(*FAIL)) /x and print $&' 345
 3
 {% endhighlight %}
 
 And, this brings me back to where I wanted to be. I just need to update the thing I match to be multiple digits and adjust the range:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d{1,3})? (?(?{ ! (0 < $1 and $1 < 256) })(*FAIL)) /x and print $&' 567
 
 $ perl -le 'shift =~ / (\d{1,3})? (?(?{ ! (0 < $1 and $1 < 256) })(*FAIL)) /x and print $&' 234
@@ -158,7 +158,7 @@ $ perl -le 'shift =~ / (\d{1,3})? (?(?{ ! (0 < $1 and $1 < 256) })(*FAIL)) /x an
 
 Or, instead of using numbers outside the range, use `<=` to include the numbers at the end of the range:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -le 'shift =~ / (\d{1,3})? (?(?{ ! (1 <= $1 and $1 <= 255) })(*FAIL)) /x and print $&' 234
 234
 {% endhighlight %}

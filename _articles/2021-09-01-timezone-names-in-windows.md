@@ -21,7 +21,7 @@ Windows is not a POSIX system, so some POSIX things just don't work. In this cas
 
 First, here's the `date` command from macOS, where the `%Z` produces the abbreviation for the time zone and `%z` produces the offset:
 
-{% highlight text %}
+{% highlight console %}
 $ date +%Z
 EDT
 
@@ -31,7 +31,7 @@ $ date +%z
 
 With `strftime` from Perl's POSIX module, macOS gives the same thing:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MPOSIX -le "print POSIX::strftime( '%Z', localtime )"
 EDT
 
@@ -41,7 +41,7 @@ $ perl -MPOSIX -le "print POSIX::strftime( '%z', localtime )"
 
 However, on Windows, it's different. That operating system doesn't have appropriate interfaces to time zone information (who made that decision?).
 
-{% highlight text %}
+{% highlight console %}
 $ perl -MPOSIX -le "print POSIX::strftime( '%Z', localtime )"
 Eastern Daylight Time
 
@@ -51,7 +51,7 @@ Eastern Daylight Time
 
 There's a crude list of timezones that I can see with `tzutil`:
 
-{% highlight text %}
+{% highlight console %}
 > tzutil /l
 ...
 

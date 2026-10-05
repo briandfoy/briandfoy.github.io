@@ -50,14 +50,14 @@ If you like your browser's version of "View Source" (Safari's is
 designed to make you not want to do that), fine. I downloaded the page
 source locally so I could view it in BBEdit:
 
-{% highlight text %}
+{% highlight console %}
 $ curl --silent https://leanpub.com/mojo_web_clients | bbedit
 {% endhighlight %}
 
 With [Mojolicious](https://www.mojolicious.org)'s *mojo* command, that's
 a little shorter:
 
-{% highlight text %}
+{% highlight console %}
 $ mojo get https://leanpub.com/mojo_web_clients | bbedit
 {% endhighlight %}
 
@@ -67,7 +67,7 @@ would have been much shorter if they had added `id` attributes. If you are telli
 people to extract something from HTML source, you should label it so make
 that easy:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -Mojo -E 'say g(shift)->dom->at(
     q(#scroll-wrapper > div > article > section:nth-child(9) > div > div > div > div > div > div )
     )' https://leanpub.com/mojo_web_clients
@@ -76,7 +76,7 @@ $ perl -Mojo -E 'say g(shift)->dom->at(
 Since I added a special class to my `ul` (LeanPub strips any `id` element),
 you can extract my Table of Contents with a class selector:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -Mojo -E 'say g(shift)->dom->at(
     q( ul.mojo-web-clients-toc )
     )' https://leanpub.com/mojo_web_clients
@@ -86,7 +86,7 @@ The `toc` class might work, but I'm not confident it wouldn't be repurposed
 from something else. It's only there because I cargo-culted it from another
 book's page:
 
-{% highlight text %}
+{% highlight console %}
 $ perl -Mojo -E 'say g(shift)->dom->at( q( ul.toc )
     )' https://leanpub.com/mojo_web_clients
 {% endhighlight %}

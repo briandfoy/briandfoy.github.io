@@ -2,7 +2,7 @@
 layout: post
 status: _posts
 title: Is that Perl module still alive?
-categories:
+categories: programming
 tags: pause cpan perl
 stopwords: BINGO's Dominus's XANTUS Rinaldo MARTIJN HACHI BSMITH APOCAL RCAPUTO
 last_modified:

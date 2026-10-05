@@ -23,19 +23,27 @@ script in *~/bin*, which is first in my `PATH`. Here's my personal
 `du` to remind me I want to use [ncdu](https://dev.yorhel.nl/ncdu)
 (NCurses Disk Usage):
 
-    #!/bin/sh
-    echo "You wanted to use ncdu, remember?"
+{% highlight bash %}
+#!/bin/sh
+echo "You wanted to use ncdu, remember?"
+{% endhighlight %}
 
 When I type the familiar command, I get the reminder:
 
-    % du
-    You wanted to use ncdu, remember?
+{% highlight console %}
+$ du
+You wanted to use ncdu, remember?
+{% endhighlight %}
 
 Now I remember I wanted to play with the new tool, and I know what
 its name is:
 
-    % ncdu
+{% highlight console %}
+$ ncdu
+{% endhighlight %}
 
 I can still use the original `du` by calling it with its full path:
 
-    % /usr/bin/du
+{% highlight console %}
+$ /usr/bin/du
+{% endhighlight %}

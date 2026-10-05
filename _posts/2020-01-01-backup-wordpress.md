@@ -31,14 +31,14 @@ which can do anything, but it also needs a password. In a
 non-interactive session, such as a cron job, you end up exposing that
 (or putting it in plaintext in */etc/my.conf*):
 
-{% highlight text %}
+{% highlight console %}
 $ mysqldump -u backup -pSomePassword learning_perl_wordpress
 {% endhighlight %}
 
 But I can create another user which doesn't have a password so I can
 run it like this:
 
-{% highlight text %}
+{% highlight console %}
 $ mysqldump -u backup learning_perl_wordpress
 {% endhighlight %}
 
@@ -47,7 +47,7 @@ just about everything this user can get at is already public. I'm a
 big fan of multiple database users with precise permissions. I grant
 the minimal permissions I think *mysqldump* needs in my case:
 
-{% highlight text %}
+{% highlight console %}
 $ mysql -u root -p
 Enter password:...
 MariaDB [(none)]> CREATE USER 'backup'@'localhost'
@@ -83,7 +83,7 @@ regardless of my login status (although I could complicate it with a
 cronjob from elsewhere to log in, which I've done for some systems).
 But, I can setup a "linger" for my user:
 
-{% highlight text %}
+{% highlight console %}
 $ sudo loginctl enable-linger username
 {% endhighlight %}
 
@@ -92,7 +92,7 @@ error message. The [issue in
 GitHub](https://github.com/systemd/systemd/issues/12401) lays it out,
 but on my up-to-date system I still have the problem:
 
-{% highlight text %}
+{% highlight console %}
 $ sudo loginctl enable-linger username
 Could not enable linger: Read-only file system
 {% endhighlight %}
@@ -102,14 +102,14 @@ doesn't create it if it's missing, nor does it warn if the permissions
 are incorrect. Instead, I fall back on my Unix roots to make the file
 myself:
 
-{% highlight text %}
+{% highlight console %}
 $ sudo mkdir -p /var/lib/systemd/linger
 $ sudo touch /var/lib/systemd/linger/brian
 {% endhighlight %}
 
 I can check that its enabled:
 
-{% highlight text %}
+{% highlight console %}
 $ loginctl show-user brian --property=Linger
 Linger=yes
 {% endhighlight %}
@@ -134,7 +134,7 @@ pretty good.
 I need to put something in *~/.config/systemd/user*, although that's a
 bit deep. I'll give myself a shortcut:
 
-{% highlight text %}
+{% highlight console %}
 $ mkdir -p ~/.config/systemd/user
 $ ln -s !$ ~/units
 {% endhighlight %}
@@ -144,7 +144,7 @@ sort-of "Hello World". Here's *~/.config/systemd/user/test.service*
 that executes the *date* command, and appends the output to a file in
 my home directory, and to do this every 60 seconds:
 
-{% highlight text %}
+{% highlight ini %}
 [Unit]
 Description=A test
 
@@ -161,14 +161,14 @@ WantedBy=default.target
 The file is there, but who cares? Not *systemd*, until you tell it to
 care:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user enable test
 Created symlink /home/brian/.config/systemd/user/default.target.wants/test.service → /home/brian/.config/systemd/user/test.service.
 {% endhighlight %}
 
 My new unit shows up in the list of services:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user list-unit-files --type service
 UNIT FILE                      STATE
 dbus.service                   static
@@ -183,7 +183,7 @@ test.service                   enabled
 
 But, its status is still inactive. It's merely enabled, not running:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user status test
 ● test.service - A test
      Loaded: loaded (/home/brian/.config/systemd/user/test.service; enabled; vendor preset: enabled)
@@ -193,7 +193,7 @@ $ systemctl --user status test
 Just like with the system units, I need to start it. Now its doing its
 thing:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user start test
 $ systemctl --user status test
 ● test.service - A test
@@ -205,7 +205,7 @@ $ systemctl --user status test
 
 After this, I know that something is working. I stop and disable it:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user stop test
 $ systemctl --user disable test
 Removed /home/brian/.config/systemd/user/default.target.wants/test.service.
@@ -214,7 +214,7 @@ Removed /home/brian/.config/systemd/user/default.target.wants/test.service.
 Checking the status again I see that it's not active, along with a
 short history:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user status test
 ● test.service - A test
      Loaded: loaded (/home/brian/.config/systemd/user/test.service; disabled; vendor preset: enabled)
@@ -230,7 +230,7 @@ Jan 01 18:44:04 m113 systemd[24670]: test.service: Service RestartSec=1min expir
 Here's the actual unit, with the *date* command replaced by a program
 that does all of the hard work:
 
-{% highlight text %}
+{% highlight ini %}
 [Unit]
 Description=Dump the Wordpress backups
 
@@ -247,7 +247,7 @@ WantedBy=default.target
 
 The file is there, so I enable and start it:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user enable wordpress-backup
 $ systemctl --user start wordpress-backup
 {% endhighlight %}
@@ -257,14 +257,14 @@ pick up the changes while the service was already running. Since my
 file has changed, I can't stop the service (because units can have
 instructions on what to do then):
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user stop wordpress-backup
 Warning: The unit file, source configuration file or drop-ins of wordpress-backup.service changed on disk. Run 'systemctl --user daemon-reload' to reload units.
 {% endhighlight %}
 
 So I reload everything to get my changes:
 
-{% highlight text %}
+{% highlight console %}
 $ systemctl --user daemon-reload
 {% endhighlight %}
 

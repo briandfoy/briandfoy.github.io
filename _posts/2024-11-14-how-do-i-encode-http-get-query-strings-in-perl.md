@@ -39,13 +39,17 @@ LWP constantly banged up against interface issues where there was a common situa
 
 For example, the example code shows you call a method and you get back a response object:
 
-    my $response = $ua->get($url, %extra_headers);
+{% highlight perl %}
+my $response = $ua->get($url, %extra_headers);
+{% endhighlight %}
 
 I often want to inspect the request object to verify what was sent, confirm I gave it everything it needed, and confirm it was all in the right place. But, I have to do that work:
 
-    use HTTP::Request::Common qw(GET);
-    my $request = GET $url, %extra_headers;
-    my $reponse = $ua->request( $request );
+{% highlight perl %}
+use HTTP::Request::Common qw(GET);
+my $request = GET $url, %extra_headers;
+my $reponse = $ua->request( $request );
+{% endhighlight %}
 
 But `GET` has a deficient interface. It's the same as the arguments to the `get()` method, which means there's no way to give it query fields. Again, that work is pushed up to the application, rather than hidden in the thing that knows about HTTP and URLs.
 
@@ -57,37 +61,43 @@ As a side note, this is one of the reasons you should use containers (references
 
 Now, contrast this with [Mojolicious](https://mojolicious.org), which came much later, with the benefit of hindsight. Its interface is much better, and unified across the various pieces it needs:
 
-	use Mojo::UserAgent;
+{% highlight perl %}
+use Mojo::UserAgent;
 
-	my $ua = Mojo::UserAgent->new;
-	my $url = 'https://example.com';
-	my $query = {
-		foo     => [qw(1 2)],
-		bar     => 2,
-		snowman => chr(0x2603),
-		};
-	my $tx = $ua->get( $url => $headers => form => $query );
+my $ua = Mojo::UserAgent->new;
+my $url = 'https://example.com';
+my $query = {
+	foo     => [qw(1 2)],
+	bar     => 2,
+	snowman => chr(0x2603),
+	};
+my $tx = $ua->get( $url => $headers => form => $query );
 
-	# they are all there as a tidy package
-	my $request = $tx->req;
-	my $reponse = $tx->res;
+# they are all there as a tidy package
+my $request = $tx->req;
+my $reponse = $tx->res;
+{% endhighlight %}
 
 First, the `get` returns a transaction (`$tx`) that wraps the original request and the response (and maybe more requests and responses in a chain of redirects).
 
 I often find myself doing things with the base URL with different queries and with the Mojo interface, I don't have to rebuild the entire URL each time:
 
-	use Mojo::UserAgent;
-	my $ua = Mojo::UserAgent->new;
+{% highlight perl %}
+use Mojo::UserAgent;
+my $ua = Mojo::UserAgent->new;
 
-	my $url = '...';
-	foreach my $query ( get_queries(...) ) {
-		my $tx = $ua->get( $url => $headers => form => $query );
-		...
-		}
+my $url = '...';
+foreach my $query ( get_queries(...) ) {
+	my $tx = $ua->get( $url => $headers => form => $query );
+	...
+	}
+{% endhighlight %}
 
 Next, the `get` has a much more rich interface. I can pass `get` different things to add headers, add query fields as a Perl hash, and many other things. Indeed, I can even create my own content generators (look for `add_generator` ):
 
-	my $tx = $ua->get( $url => $headers => my_custom_transformer => $ds );
+{% highlight perl %}
+my $tx = $ua->get( $url => $headers => my_custom_transformer => $ds );
+{% endhighlight %}
 
 Now I don't have to know all sorts of low-level details. I don't have to think about the encodings of anything. It's a hidden detail that just works.
 

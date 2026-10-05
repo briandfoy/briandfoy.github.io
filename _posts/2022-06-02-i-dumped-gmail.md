@@ -73,7 +73,7 @@ It's increasingly harder to navigate Maps's crowded interface of businesses. Eve
 
 I had slowly cut off Google by disallowing my computers from talking to their computers. There are 150+ entries in my */etc/hosts* file:
 
-{% highlight plain %}
+{% highlight text %}
 0.0.0.0		googleads.g.doubleclick.net
 0.0.0.0		ssl.google-analytics.com
 0.0.0.0		www.google-analytics.com

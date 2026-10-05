@@ -50,13 +50,13 @@ For what it's worth, categorical statements, such as "first" (or "none of anythi
 
 Consider, for instance, the scientific idea that Man was distinguished from the other animals as a maker and user of tools. The people who thought that just hadn't seen enough of the world yet. Sea otters, dolphins, and chimpanzees are known tool users. Ravens use tools!
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uc7Ahp5--eE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 Also consider, Diogenes and his featherless chicken: "Behold, a man!". Classification is difficult and often wrong, but it's also the process of science to continually explore and refine knowledge.
 
@@ -113,13 +113,13 @@ This is even more interesting since he later talks about the [first image of a b
 
 Curiously, there's some interesting science about what the image of a black hole would look like:
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zUyH3XhpLTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 ## It's an old story
 
@@ -127,13 +127,13 @@ If you listen to Tyson enough, you start to understand that he's locked into a v
 
 This is the sort of existential crisis that scientists and wannabe scientists have because it's the orderliness of the universe that allows them their place in society. If there is order, there is something they can explain (unlike, say, the problem with the "soft sciences" where we don't have a corresponding set of equations or theories). Scientists are the High Priests of that order, and because of that we must bow and scrape to them. Tyson wants to be the Pope to those High Priests.
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wgSZA3NPpBs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 ## Does it have a title?
 
@@ -172,23 +172,23 @@ If you love the art, you shouldn't care who created the exact replica of what yo
 
 Try this the next time you go to an art museum. Choose a room to stand in and watch people look at the art. I bet that you'll notice that people glance at the work, but then look at the title card or other explainers. Then they move on. The art is forever linked with metadata. And, this is most of John Berger's point in [Ways of Seeing](https://www.youtube.com/watch?v=0pDE4VX_9Kk): we don't consume art in its original context and are poorer for it.
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0pDE4VX_9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 I'd love to run this experiment: have current art students paint works that the casual observer would think are Monets. In the same gallery, title these recent works as Monets with appropriate back dates. Along side that, take real Monets and label them as recent works by art students. Gauge people's reactions. Conversely, as a control, label everything correctly. Is the general reaction different? I bet that it is.
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0pDE4VX_9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 ## What's a scientist to do?
 
@@ -198,13 +198,13 @@ He does qualify his story with "I think", but he also says he's checked. He says
 
 What happens to the scientist who spends years working on something to find out it won't work? The situation that stands out in my mind is Fleischman and Pons and their cold fusion scandal that played out while I was in college. They had spent so much of their own money that it couldn't fail—that would be a waste of their money. It's the sunk cost fallacy. They doubled-down and conducted science by press conference. Even in disgrace they didn't give up.
 
-<br/>
+
 
 <div class="youtube">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6CfHaeQo6oU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<br/>
+
 
 I quickly disproved Tyson's assertion about *The Starry Night* with a casual glance at Wikipedia, which quickly led to [first documents](http://vangoghletters.org/vg/), the gold standard of historical research. I don't think Tyson checked, and I further assert that I think he doesn't want to find the truth because that would invalidate his good story and his passion for the painting.
 

@@ -27,7 +27,7 @@ printf "Sum is %d\n", reduce { $a + $b } @ARGV;
 
 Here are a few runs. The first uses all decimal numbers for its arguments and issues no warnings. The second sneaks in the argument `m`. Now the numeric addition operation thinks it doesn't have a number and warns. The third run uses the same arguments as the second, but disables all warnings with `-X`. Here are some runs with the system perl on macOS:
 
-{% highlight text %}
+{% highlight console %}
 $ perl5.30.3 sum.pl 1 2 3
 Sum is 6
 
@@ -67,7 +67,7 @@ printf "Sum is %d\n", reduce { $a + $b } @ARGV;
 
 But now I can't turn off warnings with `-X`. This is a bug ([GitHub #21427](https://github.com/Perl/perl5/issues/21427)) that's fixed for v5.40.0 (but not v5.36.3 or v5.38.2):
 
-{% highlight text %}
+{% highlight console %}
 $ perl5.36.3 -X sum.pl 1 2 m
 Argument "m" isn't numeric in addition (+) at warnings.pl line 3.
 Sum is 3

@@ -2,8 +2,8 @@
 layout: post
 status: _posts
 title: Remove album ratings from Apple Music
-categories: apple applescript programming
-tags: music ratings
+categories: programming
+tags: music ratings apple applescript
 stopwords: grey SoundJam
 last_modified:
 original_url:
@@ -17,7 +17,7 @@ This is normally not a problem, but the album rating is somehow lumped into the 
 
 The trick is to set the album rating to something that is the same as zero stars. The album rating is actually a number between 1 and 100 that is mapped onto five stars. Give it something that maps to zero stars; `1` is good:
 
-{% highlight plain %}
+{% highlight applescript %}
 tell application "Music"
 	repeat with theTrack in selection
 		set album rating of theTrack to 1

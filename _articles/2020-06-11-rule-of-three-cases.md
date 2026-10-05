@@ -19,7 +19,7 @@ Consider a program that wants to output the same information if different format
 
 Git is an example. It has the default, human-readable output, then various formats designed to pass to programs:
 
-{% highlight text %}
+{% highlight console %}
 $ git status
 On branch master
 Your branch is up to date with 'all/master'.
@@ -31,21 +31,21 @@ Changes not staged for commit:
 	modified:   _drafts/2020-03-16-bash-programming.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+{% endhighlight %}
 
+{% highlight console %}
 $ git status --short
  M _drafts/2020-03-16-bash-programming.md
+{% endhighlight %}
 
+{% highlight console %}
 $ git status --porcelain=1
  M _drafts/2020-03-16-bash-programming.md
+{% endhighlight %}
 
+{% highlight console %}
 $ git status --porcelain=2
 1 .M N... 100644 100644 100644 cfc51ca51d014613a6c84790713f684e55756d83 cfc51ca51d014613a6c84790713f684e55756d83 _drafts/2020-03-16-bash-programming.md
 {% endhighlight %}
 
 Suppose that I want to have a program to output plain text of JSON. That's easy. If I don't choose the alternate format, I do the default.
-
-{% highlight perl %}
-
-{% endhighlight %}
-
-

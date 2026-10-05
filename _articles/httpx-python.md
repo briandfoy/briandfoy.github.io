@@ -17,11 +17,13 @@ it's similarly hampered.
 
 Here's a basic program. It's not different from what you've seen before:
 
-	#!python
-	import httpx
+{% highlight python %}
+#!python
+import httpx
 
-	response = httpx.get( 'http://httpbin.org/headers' )
+response = httpx.get( 'http://httpbin.org/headers' )
 	print( response.text );
+{% endhighlight %}
 
 There are some new features to add HTTP/2, concurrency, and WSGI/ASGI support,
 but it still lacks the first thing I look for in any user agent library:

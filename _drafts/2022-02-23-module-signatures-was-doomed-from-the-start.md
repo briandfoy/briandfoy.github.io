@@ -22,11 +22,14 @@ The cpansign command depends on the right Module::Signature
 
 First, verifying a signature requires that everything is trusted, and it excludes loading modules from certain paths by filtering `@INC`:
 
-    local @INC = grep { File::Spec->file_name_is_absolute($_) } @INC;
+{% highlight perl %}
+local @INC = grep { File::Spec->file_name_is_absolute($_) } @INC;
+{% endhighlight %}
 
 This would exclude the dot `.` for the current directory and `blib/lib` from build tools. But, this is easily bypassed. Me
 
 
+{% highlight perl %}
 my $which_gpg;
 sub _which_gpg {
     # Cache it so we don't need to keep checking.
@@ -40,6 +43,7 @@ sub _which_gpg {
         }
     }
 }
+{% endhighlight %}
 
 
 
