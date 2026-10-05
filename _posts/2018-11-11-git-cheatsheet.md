@@ -2,7 +2,7 @@
 layout: post
 status: _posts
 title: Git cheatsheet
-categories: cheatsheet
+categories: programming cheatsheet
 tags: git
 stopwords: gitignore Jemma
 last_modified:
@@ -21,12 +21,20 @@ Undo the last commit (`--soft` keeps changes):
 Delete remote branches ([Stackoverflow](https://stackoverflow.com/q/2003505/2766176)):
 
     git push REMOTENAME --delete <branch-name>
-
+    git push REMOTENAME :<branch-name>
     git remote prune origin
 
 Show filenames in log messages ([Stackoverflow](https://stackoverflow.com/a/1230094/2766176))
 
     git log --name-only
+
+Give someone else the author credit:
+
+	git commit --author="Joe Cool <cool@example.com>" -m "Fix the thing"
+
+Add a trailer:
+
+	git commit --trailer "Co-authored-by: Joe Cool <cool@example.com>" -m "Fix the thing"
 
 Show all merged branches
 
@@ -40,7 +48,7 @@ Find the commit that deleted a file ([git docs](https://git-scm.com/docs/git-che
 
     git rev-list -n 1 HEAD -- <file_path>
 
-Diff the same file across commits:
+Diff the same file across two branches:
 
     git diff mybranch..master -- filename
 
