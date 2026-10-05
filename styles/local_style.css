@@ -150,6 +150,40 @@ button.copy-code:hover {
 	background: #eee;
 	}
 
+header.post-header {
+	padding-bottom: 0.5em;
+	margin-bottom: 1.5em;
+	}
+
+header.post-header::after {
+	content: "";
+	display: block;
+	width: 85%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	}
+
+header.post-header div.byline {
+	margin-left: 7.5%;
+	}
+
+footer.source {
+	margin-top: 2em;
+	padding: 0.75em 1em;
+	background-color: #eaf6ea;
+	border-radius: 6px;
+	font-size: 0.9em;
+	text-align: center;
+	}
+
+footer.source p {
+	margin: 0;
+	}
+
+footer.source .sep {
+	margin: 0 0.75em;
+	}
+
 .row {
 	display: flex;
 	}
