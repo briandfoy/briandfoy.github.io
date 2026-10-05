@@ -1,0 +1,19 @@
+<script>
+document.querySelectorAll('figure.highlight').forEach(function (figure) {
+	var button = document.createElement('button');
+	button.className = 'copy-code';
+	button.type = 'button';
+	button.textContent = 'Copy';
+	button.addEventListener('click', function () {
+		var code = figure.querySelector('td.code pre') || figure.querySelector('pre code');
+		if (!code) return;
+		navigator.clipboard.writeText(code.innerText).then(function () {
+			button.textContent = 'Copied!';
+		}, function () {
+			button.textContent = 'Failed';
+		});
+		setTimeout(function () { button.textContent = 'Copy'; }, 2000);
+	});
+	figure.appendChild(button);
+});
+</script>
