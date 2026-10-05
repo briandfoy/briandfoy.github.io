@@ -2,7 +2,7 @@
 layout: post
 status: _posts
 title: Git cheatsheet
-categories: cheatsheet
+categories: programming cheatsheet
 tags: git
 stopwords: gitignore Jemma
 last_modified:
