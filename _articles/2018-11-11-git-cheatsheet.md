@@ -28,6 +28,14 @@ Show filenames in log messages ([Stackoverflow](https://stackoverflow.com/a/1230
 
     git log --name-only
 
+Give someone else the author credit:
+
+	git commit --author="Joe Cool <cool@example.com>" -m "Fix the thing"
+
+Add a trailer:
+
+	git commit --trailer "Co-authored-by: Joe Cool <cool@example.com>" -m "Fix the thing"
+
 Show all merged branches
 
     git branch --merged master
