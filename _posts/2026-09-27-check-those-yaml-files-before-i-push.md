@@ -21,7 +21,7 @@ Then I run the tests I want, in this case a bunch of Perl files managed by `prov
 
 <!--more-->
 
-{{highlight plain}}
+{% highlight text %}
 #!/bin/sh
 # .git/hooks/pre-push
 
@@ -52,4 +52,4 @@ else
     echo "Tests failed; push aborted. (can push with --no-verify)"
     exit 1
 fi
-{{endhighlight}}
+{% endhighlight %}
