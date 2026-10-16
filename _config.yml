@@ -14,6 +14,9 @@ description: Random Adventures
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars2.githubusercontent.com/u/22255?s=400&v=4
 
+# Default image for social cards (twitter:image)
+twitter_card_image: /images/twitter-card.png
+
 #
 # Flags below are optional
 #
