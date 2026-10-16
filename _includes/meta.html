@@ -18,10 +18,8 @@
     <meta name="twitter:site" content="@{{ site.footer-links.twitter }}" />
     <meta name="twitter:creator" content="@{{ site.footer-links.twitter }}" />
     <meta name="twitter:image" content="{{ page.image | default: site.twitter_card_image | absolute_url }}" />
+    <meta name="twitter:title" content="{{ site.title | escape }}" />
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title | escape }}" />
-    <meta name="twitter:title" content="{{ page.title | escape }}" />
-    {% else %}
-    <meta name="twitter:title" content="{{ site.title | escape }}" />
     {% endif %}
