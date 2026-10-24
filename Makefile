@@ -29,6 +29,7 @@ STRIP_MD:=bin/strip_md_codeblocks
 
 # Things relates to the posts
 DRAFTS_DIR:=_drafts
+COMBINED_DIR:=_articles
 POSTS:=$(wildcard _posts/*.md)
 INCLUDES:=$(wildcard _includes/*.html)
 LAYOUTS:=$(wildcard _layouts/*.html)
@@ -87,9 +88,9 @@ books.md: bin/make_books_page.pl books.json
 .PHONY: new
 new: ## create a new draft an open it in an editor
 	@ bin/new_article; \
-	  LATEST_FILE=`ls -1Art $(DRAFTS_DIR) | tail -n 1`;\
+	  LATEST_FILE=`ls -1Art $(COMBINED_DIR) | tail -n 1`;\
 	  echo "Latest file " $$LATEST_FILE;\
-	  $(EDITOR) $(DRAFTS_DIR)/$$LATEST_FILE;\
+	  $(EDITOR) $(COMBINED_DIR)/$$LATEST_FILE;\
 
 .PHONY: preprocess
 preprocess: sort_articles books.md $(INCLUDES) $(LAYOUTS) $(STYLES) ## wrap everything to build the site
@@ -111,7 +112,7 @@ lint: ## check the markdown
 
 .PHONY: spell
 spell: ## spellcheck the markdown files in _posts/
-	@ for file in _posts/*.md; do \
+	@ for file in $(COMBINED_DIR)/*.md; do \
 		echo "====" $$file "===="; \
 		echo "personal_ws-1.1 en 0 utf-8" > $(PER_FILE_WORDLIST); \
 		$(PERL) bin/stopwords "$$file" >> $(PER_FILE_WORDLIST); \
