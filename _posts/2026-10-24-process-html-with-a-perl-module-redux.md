@@ -3,7 +3,7 @@ layout: post
 title: Process HTML with a Perl Module, Redux
 categories: programming
 tags: perl mojolicious html
-stopwords:
+stopwords: attr href img McAdams
 last_modified:
 original_url:
 status: _posts
@@ -100,7 +100,7 @@ say "Links:\n\t" . $dom->find('a, img')
 	->join("\n\t");
 {% endhighlight %}
 
-Finally, I had added a `class` attribute to each `a` and `img` tag. With two arguments, `attr` sets the value in the DOM:
+Finally, I added a `class` attribute to each `a` and `img` tag. With two arguments, `attr` sets the value in the DOM:
 
 {% highlight perl %}
 my %Classes = qw(
@@ -115,7 +115,7 @@ $dom->find('a, img')
 say $dom;
 {% endhighlight %}
 
-When I output the DOM, I see the new classes in those elements:
+When I output the DOM, I see the new classes in those elements. In the old example, [HTML::TreeBuilder](https://metacpan.org/pod/HTML::TreeBuilder) reflowed everything, smooshing the tags together. This output preserved the whitespace, although I don't think [Mojo::DOM](https://metacpan.org/pod/Mojo::DOM) guarantees that:
 
 {% highlight plain %}
 <html>
@@ -136,3 +136,5 @@ When I output the DOM, I see the new classes in those elements:
 </html>
 {% endhighlight %}
 
+
+There are times that I don't want to use [Mojo::DOM](https://metacpan.org/pod/Mojo::DOM) though: it tries to fix broken markup, and sometimes the way it does that makes later tasks a bit harder.

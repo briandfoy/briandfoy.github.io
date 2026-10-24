@@ -3,7 +3,7 @@ layout: post
 title: Why I Pay for My Editor, BBEdit
 categories: programming
 tags: editor bbedit
-stopwords:
+stopwords: Metrowerk's MPW
 last_modified:
 original_url:
 status: _drafts

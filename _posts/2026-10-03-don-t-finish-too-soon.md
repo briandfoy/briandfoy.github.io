@@ -4,7 +4,7 @@ status: _posts
 title: Don't finish too soon
 categories: graduate-school programming
 tags: perl tru64
-stopwords:
+stopwords: un Tru Tru Tru pre
 last_modified:
 original_url:
 ---
@@ -17,7 +17,7 @@ This is a long tale of intrigue and betrayal, hopes and dreams, and all that. In
 
 The head scientist of the research team led me to a small room with government shelves, a government desk, and a government chair. If you've worked for the US government (and especially the Navy), you've probably been in offices with the same stuff. Look it up: the design around the Navy chair is actually interesting. The colors, the drab gray and green, in a small room with cinder block walls painted white, were not as interesting.
 
-On these shelves were piles upon piles of print outs—the sort from the dot matrix printers of yore. Wide, accordian-folded perforated paper with large, horizontal green and white bands. Look that up too, or look out for the next time you travel. Airlines and rental car companies are still using dot matrix printers.
+On these shelves were piles upon piles of print outs—the sort from the dot matrix printers of yore. Wide, accordion-folded perforated paper with large, horizontal green and white bands. Look that up too, or look out for the next time you travel. Airlines and rental car companies are still using dot matrix printers.
 
 I was tasked with going through all of these printouts, finding two numbers deep inside each, and making a table. Fine.
 

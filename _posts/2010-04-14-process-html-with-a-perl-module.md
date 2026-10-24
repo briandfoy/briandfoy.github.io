@@ -3,7 +3,7 @@ layout: post
 title: Process HTML with a Perl Module
 categories: programming
 tags: rescued-content perl html
-stopwords:
+stopwords: tt attr img
 last_modified:
 original_url: http://www.informit.com/articles/article.aspx?p=1581075
 status: _posts

@@ -4,14 +4,14 @@ status: _posts
 title: The Day [Randal] Decided Never to Learn Python
 categories: programming
 tags: python perl randal-schwartz
-stopwords:
+stopwords: abc Guido's ons
 last_modified:
 original_url: https://medium.com/@realmerlyn/the-day-i-decided-never-to-learn-python-2c59d1a1edc5
 ---
 
 *I left this comment on [Randal Schwartz's Medium](https://medium.com/@realmerlyn/the-day-i-decided-never-to-learn-python-2c59d1a1edc5) post*
 
-Randal taught me OO by forcing me to use Smalltalk, although once learned, a job he said he could do in 20 minutes since there are only 5 syntatic elements, everything made sense. And, after that, it was a bit depressing looking at the fake OO languages, such as Java and Python, that had painted themselves into corners. For example, Python's foundational idea about whitespace forecloses so many possibilities. While teaching Perl classes for Randal, I'd make that provocative statement, mostly to goad the Java people, and when someone took the bait, I'd ask them what type of object `if` was. Yes, there are objects in your language; even C can do that, but most of your language is not objects. It's just Algol with extra features (or in Python's case, removed statement terminators, a little hand grenade left over from B and abc).
+Randal taught me OO by forcing me to use Smalltalk, although once learned, a job he said he could do in 20 minutes since there are only 5 syntactic elements, everything made sense. And, after that, it was a bit depressing looking at the fake OO languages, such as Java and Python, that had painted themselves into corners. For example, Python's foundational idea about whitespace forecloses so many possibilities. While teaching Perl classes for Randal, I'd make that provocative statement, mostly to goad the Java people, and when someone took the bait, I'd ask them what type of object `if` was. Yes, there are objects in your language; even C can do that, but most of your language is not objects. It's just Algol with extra features (or in Python's case, removed statement terminators, a little hand grenade left over from B and abc).
 
 <!--more-->
 
@@ -21,7 +21,7 @@ When I work on Python stuff, I think the full-time Python people are a bit taken
 
 The point of OO is not to have bags of data associated with some class, then kludge them together and force them to cooperate in the same program. The trick is to find the right model that allows things to happen simply, and that future problems almost solve themselves. Language purity is not the goal. Well, it shouldn't be the goal, but I have worked with plenty of people who don't care about solutions as long as they get paid to do the language they like. Well, that was the case when you could be fired in the morning and hired in the afternoon. Now we'll see.
 
-For example, there is an example in Head First Java shows decorators, where a cup of coffee has a price. But, a cup of coffee with cream has an additional price, so you decorate the coffee object. The example goes with many more levels of decoration. It's absurd because no one treats a coffee order like that. You take your whatever to the cashier and list everything you have and they just add it all up. Coffee with cream is the two things (coffee, cream). We think of add-ons as separate items in the addition. So, just throw in a cream object in the list instead of creating a new fancy, undocumented object. No decorators, or decorators on top of decorators, or decorators on top of decorators on top of decorators.
+For example, there is an example in Head First Java shows decorators, where a cup of coffee has a price. But, a cup of coffee with cream has an additional price, so you decorate the coffee object. The example goes with many more levels of decoration. It's absurd because no one treats a coffee order like that. You take your whatever to the cashier and list everything you have and they just add it all up. Coffee with cream is two things (coffee, cream). We think of add-ons as separate items in the addition. So, just throw in a cream object in the list instead of creating a new fancy, undocumented object. No decorators, or decorators on top of decorators, or decorators on top of decorators on top of decorators.
 
 I'll forget all the details, but there was this state government contract that Randal and I worked on, and he had this idea that Self would be a really good tool for the problem. But, we had to deploy Perl, so he picked Class::Prototyped, whose name is a bit ironic since it's doing Self-like classless object orientation. Instead of making weird classes with lots of knobs and dials, each object is essentially its own type and can add or replace behavior that affects only it. No type tests, no branches, no nothing extra.
 

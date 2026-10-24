@@ -3,17 +3,17 @@ layout: post
 status: _posts
 title: Check those YAML files before I push
 categories: programming
-tags: yaml
-stopwords:
+tags: yaml git
+stopwords: pre
 last_modified:
 original_url:
 ---
 
-In working on [cpan-security-advisory]() I often have a problem being behind master because I have GitHub Actions that update files on a schedule so I can release every Sunday. That's annoying.
+In working on [cpan-security-advisory](https://github.com/briandfoy/cpan-security-advisory) I often have a problem being behind master because I have GitHub Actions that update files on a schedule so I can release every Sunday. That's annoying.
 
 My next big problem is hand-editing a YAML file that turns out to be invalid, screwing up everything.  I have tests for those, of course, but do I always run them? Of course I don't.
 
-So, I broke down and created a `pre-push` hook, but I also needed some extra features. That is, I iterated with Claude, which is much better than I at bash syntax.
+So, I broke down and created a `pre-push` hook, but I also needed some extra features. That is, I iterated with Claude, which is much better than I am at bash syntax.
 
 First, I only run this hook when I try to push to GitHub. I also push to at least [three other services for redundancy](https://briandfoy.github.io/use-several-git-services-at-once/), and I don't need to run the tests every item. And, even if I do want to do that, I have a bit to store a semaphore under *.git* that uses the current rev.
 
