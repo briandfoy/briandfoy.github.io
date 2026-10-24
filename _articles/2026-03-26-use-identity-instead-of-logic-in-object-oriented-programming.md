@@ -4,7 +4,7 @@ status: _drafts
 title: Use identity instead of logic in object-oriented programming
 categories: programming
 tags: perl object-orientation polymorphism
-stopwords:
+stopwords: smallmouth homologs
 last_modified:
 original_url:
 ---
@@ -15,7 +15,7 @@ And, although I said "instead of logic" in the title, this is really the waterbe
 
 <!--more-->
 
-Let me create a collection of objects that are homologues of each other. Instead of creating some contrived, artificial example that tries to model some complex, real-world situation in a way that no real-world application would ever think about it, lets think about what we actually need.
+Let me create a collection of objects that are homologs of each other. Instead of creating some contrived, artificial example that tries to model some complex, real-world situation in a way that no real-world application would ever think about it, let's think about what we actually need.
 
 I find I typically use this technique when I have a bag of objects such that each behaves the same ("parametric polymorphism") rather than a collection of arbitrary objects that have the same method names ("ad hoc polymorphism").
 

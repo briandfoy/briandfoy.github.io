@@ -4,12 +4,12 @@ status: _drafts
 title: It's the Interface, Stupid
 categories: programming opinion
 tags: documentation maintainability uncle-bob john-ousterhout randal-schwartz brian-will
-stopwords:
+stopwords: codebase Parnas multiparadigmatic
 last_modified:
 original_url:
 ---
 
-I think I started to write about what's important for documentating code, then gave up to do something else but left the draft on my desktop. This is half baked, but here it is. It was something about maintainable code, and maybe something with regexes.
+I think I started to write about what's important for documenting code, then gave up to do something else but left the draft on my desktop. This is half-baked, but here it is. It was something about maintainable code, and maybe something with regexes.
 
 <!--more-->
 
@@ -19,7 +19,7 @@ This advice applies to just about any language, and is a problem in just about a
 
 I think structure and relationships are more important than syntax, but, syntax can also limit or complicate structure.
 
-Last week, I had to deal with a Python script that was all single-letter variable names and a wacky, cumulative, unexplained, deep data structure. The program was a constant fight against this data structure, and no amount of forced indenting was going to fix that. Choose the wrong data structure screws up everything that comes after it.
+Last week, I had to deal with a Python script that was all single-letter variable names and a wacky, cumulative, unexplained, deep data structure. The program was a constant fight against this data structure, and no amount of forced indenting was going to fix that. Choosing the wrong data structure screws up everything that comes after it.
 
 I think it stems from the same problem too: most people rise to the minimum level of skill the job demands and stop. This is not irrational, and it's perversely rewarded. How many people are given the space and time to reflect on their creations or explore better ideas? And how many people even work with people who are much better than themselves?
 
@@ -29,6 +29,6 @@ Part of this is how language communities have decided to document things and how
 
 
 * show me how you expect this thing to be used. [Mojolicious and its discussion of "fluent programming"](https://docs.mojolicious.org) is very good in this regard. It has tutorials and guides next to module-level documentation.
-* don't make me do low-level or irrelevant things. For example, [LWP](https://www.metacpan.org/pod/LWP), which was a huge jump in usability for its time (over chat2.pl, just as awesome for its time. Waves to u/RandalSchwartz in the back), isn't an integrated library that takes care of details for me. I get why the HTTPS protocol was kicked out of the LWP main distribution, but that doesn't mean I like it. And, then there's Python's requests, which, no, I can't even.
+* don't make me do low-level or irrelevant things. For example, [LWP](https://www.metacpan.org/pod/LWP), which was a huge jump in usability for its time (over chat2.pl, just as awesome for its time. Waves to [u/RandalSchwartz](https://reddit.com/u/RandalSchwartz) in the back), isn't an integrated library that takes care of details for me. I get why the HTTPS protocol was kicked out of the LWP main distribution, but that doesn't mean I like it. And, then there's Python's requests, which, no, I can't even.
 * create an interface that matches the problem. As an open-source developer, I make Perl modules for people I don't know for problems I don't know. That's a particular sort of programming. But when I'm writing internal stuff, I don't need that level of generality, even though I reflexively reach for it. Instead, I have the opportunity to target a concrete problem, eschewing the generality that can make code relationships and hierarchies harder to understand.
-* choose a way of doing things, and do that everywhere as much as possible. Everyone has this problem, and I have this problem too, whether in solo or team programming. Perl, being an avowed multiparadigmic language, makes this even worse. That's a principle, not a method, and you have to decide what ideas and structure that you want to highlight across the codebase.
+* choose a way of doing things, and do that everywhere as much as possible. Everyone has this problem, and I have this problem too, whether in solo or team programming. Perl, being an avowed multiparadigmatic language, makes this even worse. That's a principle, not a method, and you have to decide what ideas and structure that you want to highlight across the codebase.

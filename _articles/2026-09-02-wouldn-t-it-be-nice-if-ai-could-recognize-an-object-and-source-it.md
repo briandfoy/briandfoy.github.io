@@ -4,7 +4,7 @@ status: _drafts
 title: Wouldn't it be nice if AI could recognize an object and source it?
 categories: ai
 tags: claude
-stopwords:
+stopwords: Alibaba
 last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1w52r20/wouldnt_it_be_nice_if_ai_could_recognize_an/
 ---
@@ -17,7 +17,7 @@ Sometimes that comes from it magically being right. Last week I asked it "what's
 
 Encouraged by that, I flew too close to the sun. I expected more miracles because I thought I had seen miracles before.
 
-So, I have a broken part on a backpack and I want to replace it. It's a $1 part probably, and the OEM says it's not replaceable or user-servicable, and that I should buy the whole thing again, at about $200. So yeah, this is not Mystery Ranch where I not only get to talk to a real person, but they send me the replacement parts for free.
+So, I have a broken part on a backpack and I want to replace it. It's probably a $ 1 part, and the OEM says it's not replaceable or user-serviceable, and that I should buy the whole thing again, at about $200. So yeah, this is not Mystery Ranch where I not only get to talk to a real person, but they send me the replacement parts for free.
 
 But, I have an idea. What if I showed Claude a picture of the thing, and it found it for me? I don't know what the part, basically a swivel carabiner, is likely called, but someone makes it, and probably in China. Wouldn't it be nice if Claude had computer vision and had a vast library of images to compare it to?
 

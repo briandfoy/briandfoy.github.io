@@ -4,12 +4,12 @@ status: _drafts
 title: Don't check; just do it
 categories: programming
 tags:
-stopwords:
+stopwords: idempotency
 last_modified:
 original_url:
 ---
 
-In various things, you can simplfy programming with idempotent interfaces.
+In various things, you can simplify programming with idempotent interfaces.
 
 
 <!--more-->

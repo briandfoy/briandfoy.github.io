@@ -4,7 +4,7 @@ status: _drafts
 title: Why do we need references?
 categories: programming
 tags: perl
-stopwords:
+stopwords: PeGs
 last_modified:
 original_url:
 ---
@@ -18,7 +18,7 @@ Previous answers noted part of the reason for references, but there's much more 
 
 # Variables are references already (but not that kind)
 
-First, you have to understand how Perl uses data. Let's start with an example with `localtime`, which returns a list of values. One of those values is the year, but 1900 less than it actaully is
+First, you have to understand how Perl uses data. Let's start with an example with `localtime`, which returns a list of values. One of those values is the year, but 1900 less than it actually is
 
 {% highlight perl %}
  printf 'The year is %d', 1900 + (localtime)[5];
@@ -51,7 +51,7 @@ my @n456 = qw(4 5 6);
 ( (1, 2, (3, 4), (5), 6))
 {% endhighlight %}
 
-This is different from many languages where a lists do not flatten, and the worthiness of that idea is left to a different arugment. In Perl, a list is a sequence of scalars and nothing else.
+This is different from many languages where lists do not flatten, and the worthiness of that idea is left to a different argument. In Perl, a list is a sequence of scalars and nothing else.
 
 However, a reference is a scalar value. It's a single value, and its value is a pointer to data, although not a pointer as you would expect from C. Since the reference is a single value, we can store it in a scalar variable. These are all different structures:
 
@@ -141,7 +141,7 @@ some_sub( @n12, 3, 4, 5, 6 );
 
 # Sharing the same data
 
-Lets start with a routine to add 1900 to the year. The arguments to a subroutine show up in the special variable `@_`, so the sixth element, the year, is the normal single element access to an array, `$_[5]`:
+Let's start with a routine to add 1900 to the year. The arguments to a subroutine show up in the special variable `@_`, so the sixth element, the year, is the normal single element access to an array, `$_[5]`:
 
 {% highlight perl %}
 my @localtime = localtime;
@@ -197,16 +197,16 @@ sub add_offset {
 	};
 {% endhighlight %}
 
-The output shows that no longers works. Since we don't use `@_` in the operation, the magical aliasing isn't a factor. The values in `@times` are disconnected from `@localtime`:
+The output shows that it no longer works. Since we don't use `@_` in the operation, the magical aliasing isn't a factor. The values in `@times` are disconnected from `@localtime`:
 
 {% highlight text %}
 The year is 125
 The year is now 125
 {% endhighlight %}
 
-As a purely internal matter, which you can ignore for this, *perl* won't actaully make data copies until you change the data. Although we may say `@localtime` and `@times` have their own copy, that might not actually be true if we haven't changed `@times`. This is the COW stuff at work. However, logically, `@localtime` and `@times` act as if they have separate copies of the data.
+As a purely internal matter, which you can ignore for this, *perl* won't actually make data copies until you change the data. Although we may say `@localtime` and `@times` have their own copy, that might not actually be true if we haven't changed `@times`. This is the COW stuff at work. However, logically, `@localtime` and `@times` act as if they have separate copies of the data.
 
-The [Devel::Peek](https://metacpan.org/pod/Devel::Peek) that lets us inspect the low-level details of perl values:
+[Devel::Peek](https://metacpan.org/pod/Devel::Peek) lets us inspect the low-level details of perl values:
 
 {% highlight perl %}
 use Devel::Peek;
@@ -225,7 +225,7 @@ sub add_offset {
 	};
 {% endhighlight %}
 
-The output shows three groups of text that start with `SV`, for scalar value. The first two groups look the same because they refer to the same data. The third one is diffrent because we saved the list in the named variable `@times`, which is now independent of `@_`:
+The output shows three groups of text that start with `SV`, for scalar value. The first two groups look the same because they refer to the same data. The third one is different because we saved the list in the named variable `@times`, which is now independent of `@_`:
 
 {% highlight text %}
 The year is now 125

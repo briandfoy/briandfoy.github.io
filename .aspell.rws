@@ -1,4 +1,16 @@
 personal_ws-1.1 en 0 utf-8
+PeGs
+FAANG
+Hedburg
+iPhones
+Jony
+NDA
+normies
+Oculus
+Snapchat
+Theranos
+Uber
+VR
 accelerometer
 accessor
 accessors
@@ -11,6 +23,7 @@ Akamai
 alexa
 allowfullscreen
 Andreas
+ANSIColor
 answerer
 apache
 api
@@ -28,8 +41,10 @@ aspirational
 autoconf
 AUTOLOAD
 autolyzes
+automations
 Automator
 autoplay
+awk
 aws
 AWS
 backtick
@@ -54,6 +69,7 @@ brian
 bugfixes
 busstop
 callout
+carabiner
 Centauri
 Certiorari
 Chainmail
@@ -70,6 +86,7 @@ CodeWarrior
 comaintainer
 comaintainers
 config
+Corrina
 couchsurfing
 courseware
 cpan
@@ -141,6 +158,8 @@ GitLab
 Gladwell
 Gmail
 GMail
+grey
+gtfo
 guerilla
 hackathons
 hardcode
@@ -155,6 +174,7 @@ homologue
 hostname
 hotfix
 hotspot
+href
 HREF
 htaccess
 http
@@ -197,6 +217,7 @@ lifecycle
 Linode
 Linux
 linux
+LLM
 localhost
 logfile
 lookups
@@ -210,6 +231,7 @@ makefile
 MakeMaker
 marginheight
 marginwidth
+McAdams
 meatspace
 MediaWiki
 memoize
@@ -237,16 +259,17 @@ Netgear
 NNTP
 O'Reilly
 O'Reilly's
+ObjC
 OO
 OpenAPI
 OpusVL
 ORMs
 OSCON
 parens
+parsers
 patchperl
 PeopleSoft
 perl
-perls
 Perl
 perlbench
 perldelta
@@ -254,6 +277,8 @@ perldoc
 Perler
 perlfaq
 Perlmonks
+perls
+Perly
 phaser
 Photoshop
 pico
@@ -270,19 +295,24 @@ preprocessing
 printf
 priori
 programmatically
+Prototyped
 Proxima
 pulldown
 punycode
 purposedly
 PyCharm
 PyPl
+Pythonicity
 Quickconnect
 Rackspace
+Raku
 Raku's
 readonly
 reddit
 redialer
 redirections
+redux
+reflowed
 reformats
 regexes
 reimplement
@@ -306,12 +336,15 @@ SCP
 screencap
 screenful
 screenfuls
+sed
 shitstorm
 shyaml
+Siegel
 signalling
 SIGNES
 skeuomorphic
 Smalltalk
+smooshing
 SMS
 SNL
 Solaris
@@ -321,6 +354,7 @@ Speedtest
 Spolsky
 sprintf
 src
+sscanf
 SSL
 StackExchange
 StackOverflow
@@ -341,6 +375,9 @@ subclasses
 Submillimeter
 subnet
 subproblems
+subreddits
+substring
+subtasks
 sunsetted
 surveil
 survivorship
@@ -361,6 +398,8 @@ TikTok
 timezones
 Tindall
 toolchain
+toolset
+topicalizes
 touchpad
 TPF
 Truskett
@@ -387,6 +426,7 @@ usenet
 VMS
 VPNs
 Warcraft
+warnocked
 webbug
 WebKit
 webserver
@@ -395,6 +435,7 @@ whitespace
 whois
 wifi
 Wordpress
+workspaces
 WSL
 wtf
 xargs
@@ -403,6 +444,7 @@ XCode
 XHTML
 Xie's
 xml
+Xooglers
 XP
 XPath
 XTools
