@@ -9,7 +9,7 @@ last_modified:
 original_url: https://www.reddit.com/user/briandfoy/comments/1nenq6b/getting_the_dates_that_i_have_not_contributed_to/
 ---
 
-I'm a bit overly-concerned with the contribution graph in my my GitHub profile, and I'm curious why there are days I don't have a commit. ChatGPT 5 comes along for the ride.
+I'm a bit overly concerned with the contribution graph in my GitHub profile, and I'm curious why there are days I don't have a commit. ChatGPT 5 comes along for the ride.
 
 <!--more-->
 
@@ -40,7 +40,7 @@ query($login:String!,$from:DateTime!,$to:DateTime!){
 		 .contributionDays[] | select(.contributionCount==0) | .date'
 {% endhighlight %}
 
-I adjusted a few things, but this got pretty darned close. The output is a series of YYYY-MM-DD dates:
+I adjusted a few things, but this got pretty darn close. The output is a series of YYYY-MM-DD dates:
 
 {% highlight text %}
 2025-09-01
@@ -50,4 +50,4 @@ I adjusted a few things, but this got pretty darned close. The output is a serie
 
 I can feed those dates into something that goes off to investigate or look for error messages on those dates.
 
-It's the sort of thing I'm finding useful about these LLM tools. Yes, I could have figured all of this out but it would have been really annoying.
+It's the sort of thing I'm finding useful about these LLM tools. Yes, I could have figured all of this out, but it would have been really annoying.
