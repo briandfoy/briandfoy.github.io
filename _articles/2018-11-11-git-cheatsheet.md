@@ -40,6 +40,12 @@ Give someone else the author credit:
 $ git commit --author="Joe Cool <cool@example.com>" -m "Fix the thing"
 {% endhighlight %}
 
+Find all committers:
+
+{% highlight console %}
+$ git shortlog -sne --committer --all
+{% endhighlight %}
+
 Add a trailer:
 
 {% highlight console %}
